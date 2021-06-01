@@ -1,0 +1,35 @@
+name: Build & Release
+
+on:
+  - push
+
+jobs:
+  build-test-release:
+    name: Build, Test, Release
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Get node version
+        id: node-version
+        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
+      - name: Use node ${{ matrix.node }}
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: ${{ steps.node-version.outputs.NODE_VERSION }}
+      - name: Node version
+        run: node --version
+
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Test
+        run: npm test -- --ci --runInBand --coverage
+      - name: Release
+        run: npm run semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

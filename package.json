@@ -1,0 +1,54 @@
+{
+  "name": "zwift-data",
+  "version": "0.1.0",
+  "description": "Data about Zwift worlds, routes and segments",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "files": [
+    "lib"
+  ],
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "zwift",
+    "data"
+  ],
+  "author": {
+    "name": "Andi Pätzold",
+    "email": "github@andipaetzold.com",
+    "url": "http://github.com/andipaetzold"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andipaetzold/zwift-data.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andipaetzold/zwift-data/issues"
+  },
+  "homepage": "https://github.com/andipaetzold/zwift-data#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@types/jest": "26.0.23",
+    "@types/node": "15.6.1",
+    "jest": "27.0.3",
+    "rimraf": "3.0.2",
+    "rollup": "2.50.5",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-typescript2": "0.30.0",
+    "semantic-release": "17.4.3",
+    "ts-jest": "27.0.2",
+    "typescript": "4.3.2"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "clean": "rimraf lib",
+    "build": "npm run clean && rollup -c",
+    "watch": "npm run clean && rollup -cw",
+    "test": "jest",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "1.0.1"
+  }
+}
