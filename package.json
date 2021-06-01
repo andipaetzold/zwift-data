@@ -1,6 +1,6 @@
 {
   "name": "zwift-data",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Data about Zwift worlds, routes and segments",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
