@@ -29,6 +29,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
+    "@tsconfig/recommended": "1.0.1",
     "@types/jest": "26.0.23",
     "@types/node": "15.6.1",
     "jest": "27.0.3",
@@ -47,8 +48,5 @@
     "watch": "npm run clean && rollup -cw",
     "test": "jest",
     "semantic-release": "semantic-release"
-  },
-  "dependencies": {
-    "@tsconfig/recommended": "1.0.1"
   }
 }
