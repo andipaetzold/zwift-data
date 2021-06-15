@@ -42,7 +42,7 @@ console.log({
 
 The package also exports TypeScript types.
 
-The data structure is documented [here](https://andipaetzold.github.io/andipaetzold/zwift-data).
+The data structure is documented [here](https://andipaetzold.github.io/zwift-data).
 
 ## Data source
 
