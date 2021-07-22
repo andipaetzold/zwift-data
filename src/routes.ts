@@ -2780,5 +2780,24 @@ export const routes: ReadonlyArray<Route> = [
     sports: ["cycling", "running"],
     eventOnly: false,
     id: 3367186349,
-  }
+  },
+  {
+    world: "makuri-islands",
+    name: "Kappa Quest Reverse",
+    distance: 9.07,
+    elevation: 141,
+    leadInDistance: 5.15,
+    leadInElevation: 130.7,
+    experience: 180,
+    segments: ["temple-kom-from-castle-side"],
+    stravaSegmentId: 29009500,
+    stravaSegmentUrl: "https://www.strava.com/segments/29009500",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/kappa-quest-reverse",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/kappa-quest-reverse",
+    slug: "kappa-quest-reverse",
+    sports: ["cycling", "running"],
+    eventOnly: false,
+    id: 1454553567,
+  },
 ];
