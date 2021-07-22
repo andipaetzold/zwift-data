@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/andipaetzold/zwift-data/compare/v1.0.2...v1.1.0) (2021-07-22)
+
+
+### Features
+
+* add Kappa Quest Reverse ([15be857](https://github.com/andipaetzold/zwift-data/commit/15be8577154074184ce0ecca078c91cda831331c))
+* add Suki's Playground ([f89e2f8](https://github.com/andipaetzold/zwift-data/commit/f89e2f8dfc7a954d192cfdfac921b7f0284b9f62))
+
 ## [1.0.2](https://github.com/andipaetzold/zwift-data/compare/v1.0.1...v1.0.2) (2021-06-15)
 
 
