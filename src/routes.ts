@@ -2762,4 +2762,23 @@ export const routes: ReadonlyArray<Route> = [
     eventOnly: false,
     id: 2653858696,
   },
+  {
+    world: "makuri-islands",
+    name: "Suki's Playground",
+    distance: 18.31,
+    elevation: 149.8,
+    leadInDistance: 0.22,
+    leadInElevation: 0.2,
+    experience: 370,
+    segments: ["country-sprint"],
+    stravaSegmentId: 29009511,
+    stravaSegmentUrl: "https://www.strava.com/segments/29009511",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/sukis-playground",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/suki-s-playground",
+    slug: "sukis-playground",
+    sports: ["cycling", "running"],
+    eventOnly: false,
+    id: 3367186349,
+  }
 ];
