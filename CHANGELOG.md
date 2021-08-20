@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/andipaetzold/zwift-data/compare/v1.1.0...v1.2.0) (2021-08-20)
+
+
+### Features
+
+* add Farmland Loop ([1749365](https://github.com/andipaetzold/zwift-data/commit/1749365361376d6f67c5b9e4cffaa6ad45228f39))
+* add Valley to Mountaintop ([d3f82b5](https://github.com/andipaetzold/zwift-data/commit/d3f82b590954610ef6cb1e966af2bf04dc378f6d))
+
 # [1.1.0](https://github.com/andipaetzold/zwift-data/compare/v1.0.2...v1.1.0) (2021-07-22)
 
 
