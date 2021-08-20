@@ -2600,7 +2600,7 @@ export const routes: ReadonlyArray<Route> = [
     leadInDistance: 0.47,
     leadInElevation: 0.5,
     segments: ["epic-kom", "watopia-sprint", "epic-kom"],
-    stravaSegmentId: 27141288,
+    stravaSegmentId: 28776598,
     stravaSegmentUrl: "https://www.strava.com/segments/28776598",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/wbr-climbing-series",
     whatsOnZwiftUrl:
