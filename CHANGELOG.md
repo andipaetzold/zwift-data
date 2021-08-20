@@ -3,7 +3,7 @@
 
 ### Bug Fixes
 
-* update WBR Climbin Series strava segment id ([50c117d](https://github.com/andipaetzold/zwift-data/commit/50c117d213dedf937515a6e7446ff9863bfd49e5))
+* update WBR Climbing Series strava segment id ([50c117d](https://github.com/andipaetzold/zwift-data/commit/50c117d213dedf937515a6e7446ff9863bfd49e5))
 
 # [1.2.0](https://github.com/andipaetzold/zwift-data/compare/v1.1.0...v1.2.0) (2021-08-20)
 
