@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/andipaetzold/zwift-data/compare/v1.2.1...v1.3.0) (2021-11-07)
+
+
+### Features
+
+* add world bounds ([c7b9615](https://github.com/andipaetzold/zwift-data/commit/c7b9615caa0dc1cc717eeaf87a66aeef7d1f9447))
+
 ## [1.2.1](https://github.com/andipaetzold/zwift-data/compare/v1.2.0...v1.2.1) (2021-08-20)
 
 
