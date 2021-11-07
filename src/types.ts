@@ -13,6 +13,14 @@ export interface World {
    * Unique url-safe string to reference the world
    */
   slug: WorldSlug;
+
+  /**
+   * Bounds of the world
+   */
+  bounds: [
+    [latitude: number, longitude: number],
+    [latitude: number, longitude: number]
+  ];
 }
 
 export type WorldSlug =
@@ -157,7 +165,7 @@ export interface Segment {
    * Type of the segment
    */
   type: SegmentType;
-  
+
   /**
    * Url of the route on What's on Zwift
    */

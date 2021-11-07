@@ -9,3 +9,12 @@ it("Unique slugs", () => {
   const worldSlugs = worlds.map((world) => world.slug);
   expect(new Set(worldSlugs).size).toBe(worldSlugs.length);
 });
+
+describe("Bounds", () => {
+  worlds.forEach((world) => {
+    it(world.slug, () => {
+      expect(world.bounds[0][0]).toBeGreaterThanOrEqual(world.bounds[1][0]);
+      expect(world.bounds[0][1]).toBeLessThanOrEqual(world.bounds[1][1]);
+    });
+  });
+});
