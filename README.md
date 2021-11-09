@@ -8,13 +8,25 @@
 
 The `zwift-data` npm package provides data about Zwift:
 
+- Achievements
 - Bike Frames
+- Bike Front Wheels
+- Bike Rear Wheels
+- Bike Shoes
+- Challenges
+- Glasses
+- Headgear
 - Jerseys
+- Paint Job
 - Routes
 - Run Shirts
+- Run Shoes
 - Run Shorts
 - Segments
+- Socks
 - Training Plans
+- Notable Moment Types
+- Unlockable Categories
 - Worlds
 
 ## Installation

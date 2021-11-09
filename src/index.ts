@@ -1,18 +1,21 @@
-export { bikeFrames } from "./bike-frames";
+export { achievements } from "./achievements";
+export { bikeFrames } from "./bikeFrames";
+export { bikeFrontWheels } from "./bikeFrontWheels";
+export { bikeRearWheels } from "./bikeRearWheels";
+export { bikeShoes } from "./bikeShoes";
+export { challenges } from "./challenges";
+export { glasses } from "./glasses";
+export { headgears } from "./headgears";
 export { jerseys } from "./jersey";
+export { notableMomentTypes } from "./notableMomentTypes";
+export { paintJobs } from "./paintJobs";
 export { routes } from "./routes";
-export { RunShirts } from "./run-shirts";
-export { runShorts } from "./run-shorts";
+export { runShirts } from "./runShirts";
+export { runShoes } from "./runShoes";
+export { runShorts } from "./runShorts";
 export { segments } from "./segments";
-export { trainingPlans } from "./training-plans";
-export {
-  BikeFrame,
-  Jersey,
-  Route,
-  Segment,
-  SegmentType,
-  Sport,
-  World,
-  WorldSlug,
-} from "./types";
+export { socks } from "./socks";
+export { trainingPlans } from "./trainingPlans";
+export * from "./types";
+export { unlockableCategories } from "./unlockableCategories";
 export { worlds } from "./worlds";

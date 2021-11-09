@@ -1,5 +1,5 @@
-import fetch from "node-fetch";
 import { writeFileSync } from "fs";
+import fetch from "node-fetch";
 
 const response = await fetch(
   "https://www.zwift.com/zwift-web-pages/gamedictionary"
@@ -7,104 +7,209 @@ const response = await fetch(
 
 const responseData = await response.json();
 
+// Achievements
+{
+  const data = responseData.GameDictionary.ACHIEVEMENTS[0].ACHIEVEMENT.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      imageName: item.$.imageName,
+    })
+  );
+  writeData(data, "achievements", "Achievements");
+}
+
 // Bike Frames
 {
-  const bikeFrames = responseData.GameDictionary.BIKEFRAMES[0].BIKEFRAME;
-  const data = bikeFrames.map((bikeFrame) => ({
-    id: +bikeFrame.$.signature,
-    name: bikeFrame.$.name,
-    modelYear:
-      bikeFrame.$.modelYear === "0" ? undefined : +bikeFrame.$.modelYear,
-    isTT: bikeFrame.$.isTT === "1",
+  const data = responseData.GameDictionary.BIKEFRAMES[0].BIKEFRAME.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      modelYear: item.$.modelYear === "0" ? undefined : +item.$.modelYear,
+      isTT: item.$.isTT === "1",
+    })
+  );
+  writeData(data, "bikeFrames", "BikeFrame");
+}
+
+// Bike Front Wheels
+{
+  const data =
+    responseData.GameDictionary.BIKEFRONTWHEELS[0].BIKEFRONTWHEEL.map(
+      (item) => ({
+        id: +item.$.signature,
+        name: item.$.name,
+        imageName: item.$.imageName,
+      })
+    );
+  writeData(data, "bikeFrontWheels", "BikeFrontWheel");
+}
+
+// Bike Rear Wheels
+{
+  const data = responseData.GameDictionary.BIKEREARWHEELS[0].BIKEREARWHEEL.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      imageName: item.$.imageName,
+    })
+  );
+  writeData(data, "bikeRearWheels", "BikeRearWheel");
+}
+
+// Bike Shoes
+{
+  const data = responseData.GameDictionary.BIKESHOES[0].BIKESHOE.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      imageName: item.$.imageName,
+    })
+  );
+  writeData(data, "bikeShoes", "BikeShoe");
+}
+
+// Challenges
+{
+  const data = responseData.GameDictionary.CHALLENGES[0].CHALLENGE.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      imageName: item.$.imageName,
+    })
+  );
+  writeData(data, "challenges", "Challenge");
+}
+
+// Glasses
+{
+  const data = responseData.GameDictionary.GLASSES[0].GLASS.map((item) => ({
+    id: +item.$.signature,
+    name: item.$.name,
+    imageName: item.$.imageName,
   }));
+  writeData(data, "glasses", "Glass");
+}
 
-  const content = `import { BikeFrame } from "./types";
-
-export const bikeFrames: BikeFrame[] = ${JSON.stringify(data, undefined, 2)};
-`;
-
-  writeFileSync("./src/bike-frames.ts", content);
+// Headgear
+{
+  const data = responseData.GameDictionary.HEADGEARS[0].HEADGEAR.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      imageName: item.$.imageName,
+    })
+  );
+  writeData(data, "headgears", "Headgear");
 }
 
 // Jerseys
 {
-  const jerseys = responseData.GameDictionary.JERSEYS[0].JERSEY;
-  const data = jerseys.map((jersey) => ({
-    id: +jersey.$.signature,
-    name: jersey.$.name,
-    imageName: jersey.$.imageName,
+  const data = responseData.GameDictionary.JERSEYS[0].JERSEY.map((item) => ({
+    id: +item.$.signature,
+    name: item.$.name,
+    imageName: item.$.imageName,
   }));
+  writeData(data, "jerseys", "Jersey");
+}
 
-  const content = `import { Jersey } from "./types";
-
-export const jerseys: Jersey[] = ${JSON.stringify(data, undefined, 2)};
-`;
-
-  writeFileSync("./src/jersey.ts", content);
+// Paint Jobs
+{
+  const data = responseData.GameDictionary.PAINTJOBS[0].PAINTJOB.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+    })
+  );
+  writeData(data, "paintJobs", "PaintJob");
 }
 
 // Run Shirts
 {
-  const runShirts =
-    responseData.GameDictionary.RUNSHIRTS[0].RUNSHIRT;
-  const data = runShirts.map((runShirt) => ({
-    id: +runShirt.$.signature,
-    name: runShirt.$.name,
-    imageName: runShirt.$.imageName,
+  const data = responseData.GameDictionary.RUNSHIRTS[0].RUNSHIRT.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      imageName: item.$.imageName,
+    })
+  );
+  writeData(data, "runShirts", "RunShirt");
+}
+
+// Run Shoes
+{
+  const data = responseData.GameDictionary.RUNSHOES[0].RUNSHOE.map((item) => ({
+    id: +item.$.signature,
+    name: item.$.name,
+    imageName: item.$.imageName,
   }));
-
-  const content = `import { RunShirt } from "./types";
-
-export const runShirt: RunShirt[] = ${JSON.stringify(
-    data,
-    undefined,
-    2
-  )};
-`;
-
-  writeFileSync("./src/run-shirt.ts", content);
+  writeData(data, "runShoes", "RunShoe");
 }
 
 // Run Shorts
 {
-  const runShorts =
-    responseData.GameDictionary.RUNSHORTS[0].RUNSHORT;
-  const data = runShorts.map((runShort) => ({
-    id: +runShort.$.signature,
-    name: runShort.$.name,
-    imageName: runShort.$.imageName,
+  const data = responseData.GameDictionary.RUNSHORTS[0].RUNSHORT.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      imageName: item.$.imageName,
+    })
+  );
+  writeData(data, "runShorts", "RunShort");
+}
+
+// Socks
+{
+  const data = responseData.GameDictionary.SOCKS[0].SOCK.map((item) => ({
+    id: +item.$.signature,
+    name: item.$.name,
+    imageName: item.$.imageName,
   }));
-
-  const content = `import { RunShort } from "./types";
-
-export const runShort: RunShort[] = ${JSON.stringify(
-    data,
-    undefined,
-    2
-  )};
-`;
-
-  writeFileSync("./src/run-short.ts", content);
+  writeData(data, "socks", "Socks");
 }
 
 // Training Plans
 {
-  const trainingPlans =
-    responseData.GameDictionary.TRAINING_PLANS[0].TRAINING_PLAN;
-  const data = trainingPlans.map((trainingPlan) => ({
-    id: +trainingPlan.$.signature,
-    name: trainingPlan.$.name,
-    imageName: trainingPlan.$.imageName,
-  }));
+  const data = responseData.GameDictionary.TRAINING_PLANS[0].TRAINING_PLAN.map(
+    (item) => ({
+      id: +item.$.signature,
+      name: item.$.name,
+      imageName: item.$.imageName,
+    })
+  );
+  writeData(data, "trainingPlans", "TrainingPlan");
+}
 
-  const content = `import { TrainingPlan } from "./types";
+// Notable Moment Types
+{
+  const data =
+    responseData.GameDictionary.NOTABLE_MOMENT_TYPES[0].NOTABLE_MOMENT_TYPE.map(
+      (item) => ({
+        id: +item.$.signature,
+        name: item.$.name,
+        name: item.$.imageName,
+        priority: +item.$.priority,
+      })
+    );
+  writeData(data, "notableMomentTypes", "NotableMomentTypes");
+}
 
-export const trainingPlans: TrainingPlan[] = ${JSON.stringify(
-    data,
-    undefined,
-    2
-  )};
+// Unlockable Categories
+{
+  const data =
+    responseData.GameDictionary.UNLOCKABLE_CATEGORIES[0].UNLOCKABLE_CATEGORY.map(
+      (item) => ({
+        id: +item.$.signature,
+        name: item.$.name,
+      })
+    );
+  writeData(data, "unlockableCategories", "UnlockableCategory");
+}
+
+function writeData(data, name, typeName) {
+  const content = `import { ${typeName} } from "./types";
+
+export const ${name}: ${typeName}[] = ${JSON.stringify(data, undefined, 2)};
 `;
-
-  writeFileSync("./src/training-plans.ts", content);
+  writeFileSync(`./src/${name}.ts`, content);
 }

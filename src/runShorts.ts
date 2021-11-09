@@ -1,6 +1,6 @@
 import { RunShort } from "./types";
 
-export const runShort: RunShort[] = [
+export const runShorts: RunShort[] = [
   {
     "id": 23220505,
     "name": "Tour de Zwift Running Shorts 2021",

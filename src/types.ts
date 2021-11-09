@@ -198,14 +198,85 @@ export interface TrainingPlan {
   imageName: string;
 }
 
-export interface RunShirts {
+export interface RunShirt {
   id: number;
   name: string;
   imageName: string;
 }
 
-export interface RunShorts {
+export interface RunShort {
   id: number;
   name: string;
   imageName: string;
+}
+
+export interface RunShoe {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface BikeShoe {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface BikeFrontWheel {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface BikeRearWheel {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface PaintJob {
+  id: number;
+  name: string;
+}
+
+export interface Sock {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface Glasses {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface Headgear {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface Achievements {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface Challenges {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface NotableMomentType {
+  id: number;
+  name: string;
+  priority: number;
+  imageName: string;
+}
+
+export interface UnlockableCategory {
+  id: number;
+  name: string;
 }

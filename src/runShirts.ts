@@ -1,6 +1,6 @@
 import { RunShirt } from "./types";
 
-export const runShirt: RunShirt[] = [
+export const runShirts: RunShirt[] = [
   {
     "id": 6213730,
     "name": "Run for the Oceans 2021 Running Tee",
