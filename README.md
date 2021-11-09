@@ -11,6 +11,8 @@ The `zwift-data` npm package provides data about Zwift:
 - Bike Frames
 - Jerseys
 - Routes
+- Run Shirts
+- Run Shorts
 - Segments
 - Training Plans
 - Worlds

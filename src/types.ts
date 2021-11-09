@@ -197,3 +197,15 @@ export interface TrainingPlan {
   name: string;
   imageName: string;
 }
+
+export interface RunShirts {
+  id: number;
+  name: string;
+  imageName: string;
+}
+
+export interface RunShorts {
+  id: number;
+  name: string;
+  imageName: string;
+}

@@ -43,6 +43,50 @@ export const jerseys: Jersey[] = ${JSON.stringify(data, undefined, 2)};
   writeFileSync("./src/jersey.ts", content);
 }
 
+// Run Shirts
+{
+  const runShirts =
+    responseData.GameDictionary.RUNSHIRTS[0].RUNSHIRT;
+  const data = runShirts.map((runShirt) => ({
+    id: +runShirt.$.signature,
+    name: runShirt.$.name,
+    imageName: runShirt.$.imageName,
+  }));
+
+  const content = `import { RunShirt } from "./types";
+
+export const runShirt: RunShirt[] = ${JSON.stringify(
+    data,
+    undefined,
+    2
+  )};
+`;
+
+  writeFileSync("./src/run-shirt.ts", content);
+}
+
+// Run Shorts
+{
+  const runShorts =
+    responseData.GameDictionary.RUNSHORTS[0].RUNSHORT;
+  const data = runShorts.map((runShort) => ({
+    id: +runShort.$.signature,
+    name: runShort.$.name,
+    imageName: runShort.$.imageName,
+  }));
+
+  const content = `import { RunShort } from "./types";
+
+export const runShort: RunShort[] = ${JSON.stringify(
+    data,
+    undefined,
+    2
+  )};
+`;
+
+  writeFileSync("./src/run-short.ts", content);
+}
+
 // Training Plans
 {
   const trainingPlans =
