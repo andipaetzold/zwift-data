@@ -1344,6 +1344,7 @@ export const routes: ReadonlyArray<Route> = [
     eventOnly: false,
   },
   {
+    id: 1638640398,
     world: "richmond",
     name: "The Fan Flats",
     distance: 5.06,
@@ -2817,6 +2818,7 @@ export const routes: ReadonlyArray<Route> = [
     eventOnly: false,
   },
   {
+    id: 1941800093,
     world: "makuri-islands",
     name: "Valley to Mountaintop",
     distance: 5.0,
