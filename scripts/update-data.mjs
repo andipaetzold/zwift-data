@@ -1,11 +1,79 @@
 import { writeFileSync } from "fs";
 import fetch from "node-fetch";
+import { routes } from "../data/routes.mjs";
+import { worlds } from "../data/worlds.mjs";
 
 const response = await fetch(
   "https://www.zwift.com/zwift-web-pages/gamedictionary"
 );
 
 const responseData = await response.json();
+
+function formatDistance(d) {
+  if (d === undefined) {
+    return undefined;
+  }
+  return Math.round(+d) / 1000;
+}
+
+function formatElevation(e) {
+  if (e === undefined) {
+    return undefined;
+  }
+  return Math.round(+e);
+}
+
+// Routes
+{
+  const data = responseData.GameDictionary.ROUTES[0].ROUTE.map((item) => {
+    const manualRouteData = routes.find((r) => r.id === +item.$.signature);
+
+    if (!manualRouteData) {
+      console.warn(`Missing manual data for "${item.$.name}"`);
+    }
+
+    const manualWorldData = worlds.find((w) => w.gameDictionary === item.$.map);
+    if (!manualWorldData) {
+      throw new Error(`Unknown world: "${item.$.map}"`);
+    }
+
+    return {
+      id: +item.$.signature,
+      name: item.$.name,
+      slug: manualRouteData?.slug ?? item.$.signature,
+      world: manualWorldData.slug,
+      eventOnly: item.$.eventOnly === "1",
+      distance: formatDistance(item.$.distanceInMeters),
+      elevation: formatElevation(item.$.ascentInMeters),
+      leadInDistance: formatDistance(item.$.leadinDistanceInMeters),
+      leadInElevation: formatElevation(item.$.leadinAscentInMeters),
+      leadInDistanceFreeRide: formatDistance(
+        item.$.freeRideLeadinDistanceInMeters
+      ),
+      leadInElevationFreeRide: formatElevation(
+        item.$.freeRideLeadinAscentInMeters
+      ),
+      leadInDistanceMeetups: formatDistance(
+        item.$.meetupLeadinDistanceInMeters
+      ),
+      leadInElevationInMeetups: formatElevation(
+        item.$.meetupLeadinAscentInMeters
+      ),
+      segments: manualRouteData?.segments ?? [],
+      levelLocked: item.$.levelLocked === "1",
+      lap: item.$.supportedLaps === "1",
+      supportsTT: item.$.supportsTimeTrialMode === "1",
+      supportsMeetups: item.$.blockedForMeetups === "0",
+      sports: item.$.sports === "2" ? ["running"] : ["running", "cycling"],
+      experience: manualRouteData?.experience ?? undefined,
+      stravaSegmentId: manualRouteData?.stravaSegmentId ?? undefined,
+      stravaSegmentUrl: manualRouteData?.stravaSegmentUrl ?? undefined,
+      zwiftInsiderUrl: manualRouteData?.zwiftInsiderUrl ?? undefined,
+      whatsOnZwiftUrl: manualRouteData?.whatsOnZwiftUrl ?? undefined,
+    };
+  });
+  writeData(data, "routes", "Route");
+}
 
 // Achievements
 {

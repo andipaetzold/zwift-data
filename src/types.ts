@@ -78,6 +78,26 @@ export interface Route {
   leadInElevation?: number;
 
   /**
+   * Distance of the lead in during free ride or meetups
+   */
+  leadInDistanceFreeRide?: number;
+
+  /**
+   * Elevation gain of the lead in during free ride or meetups
+   */
+  leadInElevationFreeRide?: number;
+
+  /**
+   * Distance of the lead in during meetups
+   */
+  leadInDistanceMeetups?: number;
+
+  /**
+   * Elevation gain of the lead in during meetups
+   */
+  leadInElevationInMeetups?: number;
+
+  /**
    * Experience points you gain when finishing the route
    */
   experience?: number;
@@ -116,6 +136,26 @@ export interface Route {
    * `true`, if the route can not be selected in the start screen and can only be ridden in events
    */
   eventOnly: boolean;
+
+  /**
+   * `true`, if the route can only be ridden from a certain level
+   */
+  levelLocked: boolean;
+
+  /**
+   * `true`, if the route is a lap
+   */
+  lap: boolean;
+
+  /**
+   * `true`, if the route supports time trial events
+   */
+  supportsTT: boolean;
+
+  /**
+   * `true`, if the route is available for meetups
+   */
+  supportsMeetups: boolean;
 }
 
 export type Sport = "running" | "cycling";
