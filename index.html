@@ -66,11 +66,28 @@
 				<a href="#zwift-data" id="zwift-data" style="color: inherit; text-decoration: none;">
 					<h1>Zwift Data</h1>
 				</a>
-				<p>The <code>zwift-data</code> npm package provides data about Zwift</p>
+				<p>The <code>zwift-data</code> npm package provides data about Zwift:</p>
 				<ul>
-					<li>worlds,</li>
-					<li>routes, and</li>
-					<li>segments.</li>
+					<li>Achievements</li>
+					<li>Bike Frames</li>
+					<li>Bike Front Wheels</li>
+					<li>Bike Rear Wheels</li>
+					<li>Bike Shoes</li>
+					<li>Challenges</li>
+					<li>Glasses</li>
+					<li>Headgear</li>
+					<li>Jerseys</li>
+					<li>Paint Job</li>
+					<li>Routes</li>
+					<li>Run Shirts</li>
+					<li>Run Shoes</li>
+					<li>Run Shorts</li>
+					<li>Segments</li>
+					<li>Socks</li>
+					<li>Training Plans</li>
+					<li>Notable Moment Types</li>
+					<li>Unlockable Categories</li>
+					<li>Worlds</li>
 				</ul>
 				<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
 					<h2>Installation</h2>
@@ -83,30 +100,38 @@
 				<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
 					<h2>Usage</h2>
 				</a>
-				<p><code>zwift-data</code> exports three datasets:</p>
-				<ul>
-					<li><code>worlds</code>: an array of all Zwift worlds</li>
-					<li><code>routes</code>: an array of all public and event-only Zwift routes</li>
-					<li><code>segments</code>: an array of all official Zwift segments</li>
-				</ul>
-				<pre><code class="language-javascript"><span style="color: #AF00DB">import</span><span style="color: #000000"> { </span><span style="color: #001080">worlds</span><span style="color: #000000">, </span><span style="color: #001080">routes</span><span style="color: #000000">, </span><span style="color: #001080">segments</span><span style="color: #000000"> } </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;zwift-data&#039;</span><span style="color: #000000">;</span>
+				<pre><code class="language-javascript"><span style="color: #AF00DB">import</span><span style="color: #000000"> {</span>
+<span style="color: #000000">  </span><span style="color: #001080">bikeFrames</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">jerseys</span>
+<span style="color: #000000">  </span><span style="color: #001080">routes</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">runShirts</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">runShorts</span>
+<span style="color: #000000">  </span><span style="color: #001080">segments</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">trainingPlans</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">worlds</span><span style="color: #000000">,</span>
+<span style="color: #000000"> } </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;zwift-data&quot;</span><span style="color: #000000">;</span>
 
 <span style="color: #001080">console</span><span style="color: #000000">.</span><span style="color: #795E26">log</span><span style="color: #000000">({</span>
-<span style="color: #000000">    </span><span style="color: #001080">worlds</span><span style="color: #000000">,</span>
-<span style="color: #000000">    </span><span style="color: #001080">routes</span><span style="color: #000000">,</span>
-<span style="color: #000000">    </span><span style="color: #001080">segments</span>
-<span style="color: #000000">})</span>
+<span style="color: #000000">  </span><span style="color: #001080">bikeFrames</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">jerseys</span>
+<span style="color: #000000">  </span><span style="color: #001080">routes</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">runShirts</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">runShorts</span>
+<span style="color: #000000">  </span><span style="color: #001080">segments</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">trainingPlans</span><span style="color: #000000">,</span>
+<span style="color: #000000">  </span><span style="color: #001080">worlds</span><span style="color: #000000">,</span>
+<span style="color: #000000">});</span>
 </code></pre>
 				<p>The package also exports TypeScript types.</p>
 				<p>The data structure is documented <a href="https://andipaetzold.github.io/zwift-data">here</a>.</p>
 				<a href="#data-source" id="data-source" style="color: inherit; text-decoration: none;">
 					<h2>Data source</h2>
 				</a>
-				<p>The data was manually collected from</p>
+				<p>Some data is automatically fetched and updated from Zwift&#39;s public API.</p>
+				<p>Data was also manually collected from</p>
 				<ul>
 					<li><a href="https://strava.com/">Strava</a></li>
 					<li><a href="https://whatsonzwift.com/">What&#39;s on Zwift</a></li>
-					<li><a href="https://zwift.com/">Zwift</a></li>
 					<li><a href="https://zwifthub.com/">ZwiftHub</a></li>
 					<li><a href="https://zwiftpower.com/">Zwift Power</a></li>
 				</ul>
@@ -127,10 +152,61 @@
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-interface">
+						<a href="interfaces/achievements.html" class="tsd-kind-icon">Achievements</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/bikeframe.html" class="tsd-kind-icon">Bike<wbr>Frame</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/bikefrontwheel.html" class="tsd-kind-icon">Bike<wbr>Front<wbr>Wheel</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/bikerearwheel.html" class="tsd-kind-icon">Bike<wbr>Rear<wbr>Wheel</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/bikeshoe.html" class="tsd-kind-icon">Bike<wbr>Shoe</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/challenge.html" class="tsd-kind-icon">Challenge</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/glass.html" class="tsd-kind-icon">Glass</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/headgear.html" class="tsd-kind-icon">Headgear</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/jersey.html" class="tsd-kind-icon">Jersey</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/notablemomenttype.html" class="tsd-kind-icon">Notable<wbr>Moment<wbr>Type</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/paintjob.html" class="tsd-kind-icon">Paint<wbr>Job</a>
+					</li>
+					<li class=" tsd-kind-interface">
 						<a href="interfaces/route.html" class="tsd-kind-icon">Route</a>
 					</li>
 					<li class=" tsd-kind-interface">
+						<a href="interfaces/runshirt.html" class="tsd-kind-icon">Run<wbr>Shirt</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/runshoe.html" class="tsd-kind-icon">Run<wbr>Shoe</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/runshort.html" class="tsd-kind-icon">Run<wbr>Short</a>
+					</li>
+					<li class=" tsd-kind-interface">
 						<a href="interfaces/segment.html" class="tsd-kind-icon">Segment</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/sock.html" class="tsd-kind-icon">Sock</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/trainingplan.html" class="tsd-kind-icon">Training<wbr>Plan</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/unlockablecategory.html" class="tsd-kind-icon">Unlockable<wbr>Category</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/world.html" class="tsd-kind-icon">World</a>
@@ -145,10 +221,61 @@
 						<a href="modules.html#worldslug" class="tsd-kind-icon">World<wbr>Slug</a>
 					</li>
 					<li class=" tsd-kind-variable">
+						<a href="modules.html#achievements" class="tsd-kind-icon">achievements</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#bikeframes" class="tsd-kind-icon">bike<wbr>Frames</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#bikefrontwheels" class="tsd-kind-icon">bike<wbr>Front<wbr>Wheels</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#bikerearwheels" class="tsd-kind-icon">bike<wbr>Rear<wbr>Wheels</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#bikeshoes" class="tsd-kind-icon">bike<wbr>Shoes</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#challenges" class="tsd-kind-icon">challenges</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#glasses" class="tsd-kind-icon">glasses</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#headgears" class="tsd-kind-icon">headgears</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#jerseys" class="tsd-kind-icon">jerseys</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#notablemomenttypes" class="tsd-kind-icon">notable<wbr>Moment<wbr>Types</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#paintjobs" class="tsd-kind-icon">paint<wbr>Jobs</a>
+					</li>
+					<li class=" tsd-kind-variable">
 						<a href="modules.html#routes" class="tsd-kind-icon">routes</a>
 					</li>
 					<li class=" tsd-kind-variable">
+						<a href="modules.html#runshirts" class="tsd-kind-icon">run<wbr>Shirts</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#runshoes" class="tsd-kind-icon">run<wbr>Shoes</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#runshorts" class="tsd-kind-icon">run<wbr>Shorts</a>
+					</li>
+					<li class=" tsd-kind-variable">
 						<a href="modules.html#segments" class="tsd-kind-icon">segments</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#socks" class="tsd-kind-icon">socks</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#trainingplans" class="tsd-kind-icon">training<wbr>Plans</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#unlockablecategories" class="tsd-kind-icon">unlockable<wbr>Categories</a>
 					</li>
 					<li class=" tsd-kind-variable">
 						<a href="modules.html#worlds" class="tsd-kind-icon">worlds</a>
