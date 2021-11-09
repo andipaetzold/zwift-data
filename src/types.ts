@@ -191,3 +191,9 @@ export interface Jersey {
   name: string;
   imageName: string;
 }
+
+export interface TrainingPlan {
+  id: number;
+  name: string;
+  imageName: string;
+}

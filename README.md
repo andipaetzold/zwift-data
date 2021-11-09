@@ -6,10 +6,14 @@
 
 # Zwift Data
 
-The `zwift-data` npm package provides data about Zwift
-* worlds,
-* routes, and
-* segments.
+The `zwift-data` npm package provides data about Zwift:
+
+- Bike Frames
+- Jerseys
+- Routes
+- Segments
+- Training Plans
+- Worlds
 
 ## Installation
 
@@ -26,18 +30,19 @@ yarn add zwift-data
 ## Usage
 
 `zwift-data` exports three datasets:
-* `worlds`: an array of all Zwift worlds
-* `routes`: an array of all public and event-only Zwift routes
-* `segments`: an array of all official Zwift segments
+
+- `worlds`: an array of all Zwift worlds
+- `routes`: an array of all public and event-only Zwift routes
+- `segments`: an array of all official Zwift segments
 
 ```javascript
-import { worlds, routes, segments } from 'zwift-data';
+import { worlds, routes, segments } from "zwift-data";
 
 console.log({
-    worlds,
-    routes,
-    segments
-})
+  worlds,
+  routes,
+  segments,
+});
 ```
 
 The package also exports TypeScript types.
@@ -47,11 +52,12 @@ The data structure is documented [here](https://andipaetzold.github.io/zwift-dat
 ## Data source
 
 The data was manually collected from
-* [Strava](https://strava.com/)
-* [What's on Zwift](https://whatsonzwift.com/)
-* [Zwift](https://zwift.com/)
-* [ZwiftHub](https://zwifthub.com/)
-* [Zwift Power](https://zwiftpower.com/)
+
+- [Strava](https://strava.com/)
+- [What's on Zwift](https://whatsonzwift.com/)
+- [Zwift](https://zwift.com/)
+- [ZwiftHub](https://zwifthub.com/)
+- [Zwift Power](https://zwiftpower.com/)
 
 ## License
 

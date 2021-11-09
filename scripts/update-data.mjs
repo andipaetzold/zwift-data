@@ -42,3 +42,25 @@ export const jerseys: Jersey[] = ${JSON.stringify(data, undefined, 2)};
 
   writeFileSync("./src/jersey.ts", content);
 }
+
+// Training Plans
+{
+  const trainingPlans =
+    responseData.GameDictionary.TRAINING_PLANS[0].TRAINING_PLAN;
+  const data = trainingPlans.map((trainingPlan) => ({
+    id: +trainingPlan.$.signature,
+    name: trainingPlan.$.name,
+    imageName: trainingPlan.$.imageName,
+  }));
+
+  const content = `import { TrainingPlan } from "./types";
+
+export const trainingPlans: TrainingPlan[] = ${JSON.stringify(
+    data,
+    undefined,
+    2
+  )};
+`;
+
+  writeFileSync("./src/training-plans.ts", content);
+}
