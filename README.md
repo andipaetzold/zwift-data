@@ -45,26 +45,27 @@ yarn add zwift-data
 
 ```javascript
 import {
+  achievements,
   bikeFrames,
-  jerseys
-  routes,
+  bikeFrontWheels,
+  bikeRearWheels,
+  bikeShoes,
+  challenges,
+  galsses,
+  headgears,
+  jerseys,
+  notableMomentTypes
+  paintJobs
+  routes
   runShirts,
-  runShorts
+  runShoes,
+  runShorts,
   segments,
+  socks,
   trainingPlans,
+  unlockableCategories,
   worlds,
  } from "zwift-data";
-
-console.log({
-  bikeFrames,
-  jerseys
-  routes,
-  runShirts,
-  runShorts
-  segments,
-  trainingPlans,
-  worlds,
-});
 ```
 
 The package also exports TypeScript types.
