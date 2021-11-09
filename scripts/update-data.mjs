@@ -10,7 +10,6 @@ const responseData = await response.json();
 // Bike Frames
 {
   const bikeFrames = responseData.GameDictionary.BIKEFRAMES[0].BIKEFRAME;
-
   const data = bikeFrames.map((bikeFrame) => ({
     id: +bikeFrame.$.signature,
     name: bikeFrame.$.name,
@@ -21,12 +20,25 @@ const responseData = await response.json();
 
   const content = `import { BikeFrame } from "./types";
 
-export const bikeFrames: BikeFrame[] = ${JSON.stringify(
-    data,
-    undefined,
-    2
-  )};
+export const bikeFrames: BikeFrame[] = ${JSON.stringify(data, undefined, 2)};
 `;
 
   writeFileSync("./src/bike-frames.ts", content);
+}
+
+// Jerseys
+{
+  const jerseys = responseData.GameDictionary.JERSEYS[0].JERSEY;
+  const data = jerseys.map((jersey) => ({
+    id: +jersey.$.signature,
+    name: jersey.$.name,
+    imageName: jersey.$.imageName,
+  }));
+
+  const content = `import { Jersey } from "./types";
+
+export const jerseys: Jersey[] = ${JSON.stringify(data, undefined, 2)};
+`;
+
+  writeFileSync("./src/jersey.ts", content);
 }

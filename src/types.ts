@@ -185,3 +185,9 @@ export interface BikeFrame {
   modelYear?: number;
   isTT: boolean;
 }
+
+export interface Jersey {
+  id: number;
+  name: string;
+  imageName: string;
+}

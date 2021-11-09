@@ -1,13 +1,15 @@
-export { worlds } from "./worlds";
+export { bikeFrames } from "./bike-frames";
+export { jerseys } from "./jersey";
 export { routes } from "./routes";
 export { segments } from "./segments";
-export { bikeFrames } from "./bike-frames";
 export {
-  World,
-  WorldSlug,
+  BikeFrame,
+  Jersey,
   Route,
-  Sport,
   Segment,
   SegmentType,
-  BikeFrame,
+  Sport,
+  World,
+  WorldSlug,
 } from "./types";
+export { worlds } from "./worlds";
