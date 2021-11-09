@@ -1,5 +1,6 @@
 import { Achievements } from "./types";
 
+// prettier-ignore
 export const achievements: Achievements[] = [
   {
     "id": 1,

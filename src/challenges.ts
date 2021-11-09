@@ -1,5 +1,6 @@
 import { Challenge } from "./types";
 
+// prettier-ignore
 export const challenges: Challenge[] = [
   {
     "id": 1231,

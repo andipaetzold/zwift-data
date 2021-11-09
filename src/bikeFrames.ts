@@ -1,5 +1,6 @@
 import { BikeFrame } from "./types";
 
+// prettier-ignore
 export const bikeFrames: BikeFrame[] = [
   {
     "id": 2454550,

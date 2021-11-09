@@ -1,5 +1,6 @@
 import { BikeRearWheel } from "./types";
 
+// prettier-ignore
 export const bikeRearWheels: BikeRearWheel[] = [
   {
     "id": 59917648,

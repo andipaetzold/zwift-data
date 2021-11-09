@@ -1,5 +1,6 @@
 import { UnlockableCategory } from "./types";
 
+// prettier-ignore
 export const unlockableCategories: UnlockableCategory[] = [
   {
     "id": 0,

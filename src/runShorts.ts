@@ -1,5 +1,6 @@
 import { RunShort } from "./types";
 
+// prettier-ignore
 export const runShorts: RunShort[] = [
   {
     "id": 23220505,

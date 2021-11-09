@@ -1,5 +1,6 @@
 import { BikeShoe } from "./types";
 
+// prettier-ignore
 export const bikeShoes: BikeShoe[] = [
   {
     "id": 560768614,

@@ -1,5 +1,6 @@
 import { Route } from "./types";
 
+// prettier-ignore
 export const routes: Route[] = [
   {
     "id": 5103974,

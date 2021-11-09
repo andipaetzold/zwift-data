@@ -1,5 +1,6 @@
 import { Headgear } from "./types";
 
+// prettier-ignore
 export const headgears: Headgear[] = [
   {
     "id": 9439966,

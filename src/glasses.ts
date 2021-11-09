@@ -1,5 +1,6 @@
 import { Glass } from "./types";
 
+// prettier-ignore
 export const glasses: Glass[] = [
   {
     "id": 258033368,

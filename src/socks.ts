@@ -1,5 +1,6 @@
 import { Sock } from "./types";
 
+// prettier-ignore
 export const socks: Sock[] = [
   {
     "id": 15365800,

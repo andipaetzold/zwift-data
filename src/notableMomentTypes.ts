@@ -1,5 +1,6 @@
 import { NotableMomentType } from "./types";
 
+// prettier-ignore
 export const notableMomentTypes: NotableMomentType[] = [
   {
     "id": 0,

@@ -1,5 +1,6 @@
 import { Jersey } from "./types";
 
+// prettier-ignore
 export const jerseys: Jersey[] = [
   {
     "id": 3523119,

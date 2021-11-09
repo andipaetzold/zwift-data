@@ -1,5 +1,6 @@
 import { PaintJob } from "./types";
 
+// prettier-ignore
 export const paintJobs: PaintJob[] = [
   {
     "id": 58038927,

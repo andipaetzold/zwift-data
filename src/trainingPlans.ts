@@ -1,5 +1,6 @@
 import { TrainingPlan } from "./types";
 
+// prettier-ignore
 export const trainingPlans: TrainingPlan[] = [
   {
     "id": 23939648,
