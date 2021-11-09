@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/andipaetzold/zwift-data/compare/v1.5.0...v1.6.0) (2021-11-09)
+
+
+### Features
+
+* update route data using the game dictionary ([edbf73d](https://github.com/andipaetzold/zwift-data/commit/edbf73d8ea1ebb72bf9e84cec91b85b343aee671))
+
 # [1.5.0](https://github.com/andipaetzold/zwift-data/compare/v1.4.0...v1.5.0) (2021-11-09)
 
 
