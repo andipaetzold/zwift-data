@@ -1,0 +1,32 @@
+import fetch from "node-fetch";
+import { writeFileSync } from "fs";
+
+const response = await fetch(
+  "https://www.zwift.com/zwift-web-pages/gamedictionary"
+);
+
+const responseData = await response.json();
+
+// Bike Frames
+{
+  const bikeFrames = responseData.GameDictionary.BIKEFRAMES[0].BIKEFRAME;
+
+  const data = bikeFrames.map((bikeFrame) => ({
+    id: +bikeFrame.$.signature,
+    name: bikeFrame.$.name,
+    modelYear:
+      bikeFrame.$.modelYear === "0" ? undefined : +bikeFrame.$.modelYear,
+    isTT: bikeFrame.$.isTT === "1",
+  }));
+
+  const content = `import { BikeFrame } from "./types";
+
+export const bikeFrames: BikeFrame[] = ${JSON.stringify(
+    data,
+    undefined,
+    2
+  )};
+`;
+
+  writeFileSync("./src/bike-frames.ts", content);
+}

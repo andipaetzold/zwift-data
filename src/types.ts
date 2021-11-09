@@ -178,3 +178,10 @@ export interface Segment {
 }
 
 export type SegmentType = "sprint" | "climb" | "segment";
+
+export interface BikeFrame {
+  id: number;
+  name: string;
+  modelYear?: number;
+  isTT: boolean;
+}
