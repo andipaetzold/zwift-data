@@ -1,6 +1,6 @@
-import { Socks } from "./types";
+import { Sock } from "./types";
 
-export const socks: Socks[] = [
+export const socks: Sock[] = [
   {
     "id": 15365800,
     "name": "Zwift Academy Men 2018",

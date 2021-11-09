@@ -245,7 +245,7 @@ export interface Sock {
   imageName: string;
 }
 
-export interface Glasses {
+export interface Glass {
   id: number;
   name: string;
   imageName: string;
@@ -263,7 +263,7 @@ export interface Achievements {
   imageName: string;
 }
 
-export interface Challenges {
+export interface Challenge {
   id: number;
   name: string;
   imageName: string;

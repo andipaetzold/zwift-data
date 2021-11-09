@@ -165,7 +165,7 @@ const responseData = await response.json();
     name: item.$.name,
     imageName: item.$.imageName,
   }));
-  writeData(data, "socks", "Socks");
+  writeData(data, "socks", "Sock");
 }
 
 // Training Plans
@@ -187,11 +187,11 @@ const responseData = await response.json();
       (item) => ({
         id: +item.$.signature,
         name: item.$.name,
-        name: item.$.imageName,
+        imageName: item.$.imageName,
         priority: +item.$.priority,
       })
     );
-  writeData(data, "notableMomentTypes", "NotableMomentTypes");
+  writeData(data, "notableMomentTypes", "NotableMomentType");
 }
 
 // Unlockable Categories
@@ -207,6 +207,8 @@ const responseData = await response.json();
 }
 
 function writeData(data, name, typeName) {
+  console.log(`Writing data: ${typeName}`);
+
   const content = `import { ${typeName} } from "./types";
 
 export const ${name}: ${typeName}[] = ${JSON.stringify(data, undefined, 2)};
