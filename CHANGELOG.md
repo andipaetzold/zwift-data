@@ -1,3 +1,19 @@
+# [1.5.0](https://github.com/andipaetzold/zwift-data/compare/v1.4.0...v1.5.0) (2021-11-09)
+
+
+### Bug Fixes
+
+* typos ([fcb257d](https://github.com/andipaetzold/zwift-data/commit/fcb257d226c6001df29fc61a6ed31c1f78ff51c3))
+
+
+### Features
+
+* add all data available via Zwift's public API ([6970229](https://github.com/andipaetzold/zwift-data/commit/697022989c9f8ffb22b984acd7578011171dcc72))
+* add bike frames ([81da294](https://github.com/andipaetzold/zwift-data/commit/81da2940bf7b10872efe32214d08200ee627078b))
+* add jerseys ([771c538](https://github.com/andipaetzold/zwift-data/commit/771c538cc42478b7ec7f542c73215e405e27ede6))
+* add Run Shirts/Shorts ([7bcddfb](https://github.com/andipaetzold/zwift-data/commit/7bcddfb2f567695059a2af3bfc7a79140cfd29d6))
+* add training plans ([546ade1](https://github.com/andipaetzold/zwift-data/commit/546ade1a141fc28eee76b0ffac69c52c1cdd323d))
+
 # [1.4.0](https://github.com/andipaetzold/zwift-data/compare/v1.3.0...v1.4.0) (2021-11-09)
 
 
