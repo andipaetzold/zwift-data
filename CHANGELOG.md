@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/andipaetzold/zwift-data/compare/v1.3.0...v1.4.0) (2021-11-09)
+
+
+### Bug Fixes
+
+* add route ids ([8753408](https://github.com/andipaetzold/zwift-data/commit/8753408e722b4bc647f87a47b53f7005cc267533))
+
+
+### Features
+
+* add "Legends and Lava" ([398328c](https://github.com/andipaetzold/zwift-data/commit/398328cad024275276430f68bbaf7c1fd4a5f8c6))
+
 # [1.3.0](https://github.com/andipaetzold/zwift-data/compare/v1.2.1...v1.3.0) (2021-11-07)
 
 
