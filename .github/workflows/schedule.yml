@@ -1,16 +1,15 @@
-name: Build & Release
+name: Schedule
 
 on:
-  - push
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
-  build-test-release:
-    name: Build, Test, Release
+  schedule:
+    name: Schedule
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
 
       - name: Get node version
         id: node-version
@@ -19,13 +18,10 @@ jobs:
         uses: actions/setup-node@v2.1.5
         with:
           node-version: ${{ steps.node-version.outputs.NODE_VERSION }}
-      - name: Node version
-        run: node --version
+      - run: node --version
 
       - run: npm ci
+      - run: npm run update-data
       - run: npm run build
       - run: npm test -- --ci --runInBand --coverage
-      - run: npm run semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm run push-changes
