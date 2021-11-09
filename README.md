@@ -31,19 +31,27 @@ yarn add zwift-data
 
 ## Usage
 
-`zwift-data` exports three datasets:
-
-- `worlds`: an array of all Zwift worlds
-- `routes`: an array of all public and event-only Zwift routes
-- `segments`: an array of all official Zwift segments
-
 ```javascript
-import { worlds, routes, segments } from "zwift-data";
+import {
+  bikeFrames,
+  jerseys
+  routes,
+  runShirts,
+  runShorts
+  segments,
+  trainingPlans,
+  worlds,
+ } from "zwift-data";
 
 console.log({
-  worlds,
+  bikeFrames,
+  jerseys
   routes,
+  runShirts,
+  runShorts
   segments,
+  trainingPlans,
+  worlds,
 });
 ```
 
@@ -53,11 +61,12 @@ The data structure is documented [here](https://andipaetzold.github.io/zwift-dat
 
 ## Data source
 
-The data was manually collected from
+Some data is automatically fetched and updated from Zwift's public API.
+
+Data was also manually collected from
 
 - [Strava](https://strava.com/)
 - [What's on Zwift](https://whatsonzwift.com/)
-- [Zwift](https://zwift.com/)
 - [ZwiftHub](https://zwifthub.com/)
 - [Zwift Power](https://zwiftpower.com/)
 
