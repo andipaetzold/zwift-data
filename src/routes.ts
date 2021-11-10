@@ -4326,6 +4326,7 @@ export const routes: Route[] = [
       "cycling"
     ],
     "stravaSegmentId": 16404624,
+    "stravaSegmentUrl": "https://www.strava.com/segments/16404624",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-loop-reverse",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/big-loop-reverse"
   },

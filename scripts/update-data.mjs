@@ -67,7 +67,9 @@ function formatElevation(e) {
       sports: item.$.sports === "2" ? ["running"] : ["running", "cycling"],
       experience: manualRouteData?.experience ?? undefined,
       stravaSegmentId: manualRouteData?.stravaSegmentId ?? undefined,
-      stravaSegmentUrl: manualRouteData?.stravaSegmentUrl ?? undefined,
+      stravaSegmentUrl: manualRouteData?.stravaSegmentId
+        ? `https://www.strava.com/segments/${manualRouteData.stravaSegmentId}`
+        : undefined,
       zwiftInsiderUrl: manualRouteData?.zwiftInsiderUrl ?? undefined,
       whatsOnZwiftUrl: manualRouteData?.whatsOnZwiftUrl ?? undefined,
     };
