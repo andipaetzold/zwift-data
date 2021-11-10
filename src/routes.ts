@@ -396,6 +396,8 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "stravaSegmentId": 15167351,
+    "stravaSegmentUrl": "https://www.strava.com/segments/15167351",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-loop-reverse",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greater-london-loop-reverse"
   },
@@ -692,7 +694,9 @@ export const routes: Route[] = [
     "supportsMeetups": true,
     "sports": [
       "running"
-    ]
+    ],
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/run-path-reverse",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/run-path-reverse"
   },
   {
     "id": 849508252,
@@ -1737,7 +1741,9 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.012,
     "leadInElevationInMeetups": 0,
-    "segments": [],
+    "segments": [
+      "temple-kom-from-castle-side"
+    ],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -1749,7 +1755,8 @@ export const routes: Route[] = [
     "experience": 100,
     "stravaSegmentId": 29559312,
     "stravaSegmentUrl": "https://www.strava.com/segments/29559312",
-    "zwiftInsiderUrl": "https://zwiftinsider.com/route/valley-to-mountaintop"
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/valley-to-mountaintop",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/valley-to-mountaintop"
   },
   {
     "id": 2001106885,
@@ -1933,6 +1940,8 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "stravaSegmentId": 30327000,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30327000",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-8-reverse",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/london-8-reverse"
   },
@@ -1993,6 +2002,7 @@ export const routes: Route[] = [
     ],
     "stravaSegmentId": 19170661,
     "stravaSegmentUrl": "https://www.strava.com/segments/19170661",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/park-perimeter-reverse",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/park-perimeter-reverse"
   },
   {
@@ -2959,7 +2969,8 @@ export const routes: Route[] = [
     "experience": 155,
     "stravaSegmentId": 29534888,
     "stravaSegmentUrl": "https://www.strava.com/segments/29534888",
-    "zwiftInsiderUrl": "https://zwiftinsider.com/route/farmland-loop"
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/farmland-loop",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/farmland-loop"
   },
   {
     "id": 3007266671,
@@ -3032,7 +3043,11 @@ export const routes: Route[] = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.05,
     "leadInElevationFreeRide": 0,
-    "segments": [],
+    "segments": [
+      "watopia-sprint-rev",
+      "titans-grove-kom-rev",
+      "epic-kom-rev"
+    ],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -3040,7 +3055,11 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 29622065,
+    "stravaSegmentUrl": "https://www.strava.com/segments/29622065",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/climbers-gambit",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/climber-s-gambit"
   },
   {
     "id": 3078665969,
@@ -3744,7 +3763,9 @@ export const routes: Route[] = [
     "supportsMeetups": true,
     "sports": [
       "running"
-    ]
+    ],
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/chili-pepper-reverse",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/chili-pepper-reverse"
   },
   {
     "id": 3701568815,
@@ -3838,14 +3859,16 @@ export const routes: Route[] = [
   {
     "id": 3774003351,
     "name": "LaGuardia Loop Reverse",
-    "slug": "3774003351",
+    "slug": "laguardia-loop-reverse",
     "world": "new-york",
     "eventOnly": true,
     "distance": 2.791,
     "elevation": 27,
     "leadInDistance": 2.535,
     "leadInElevation": 25,
-    "segments": [],
+    "segments": [
+      "new-york-sprint"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3853,7 +3876,11 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 20425705,
+    "stravaSegmentUrl": "https://www.strava.com/segments/20425705",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/laguardia-loop-reverse",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/laguardia-loop-reverse"
   },
   {
     "id": 3801241714,
@@ -4024,7 +4051,9 @@ export const routes: Route[] = [
       "cycling"
     ],
     "stravaSegmentId": 29609516,
-    "stravaSegmentUrl": "https://www.strava.com/segments/29609516"
+    "stravaSegmentUrl": "https://www.strava.com/segments/29609516",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/legends-and-lava",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/legends-and-lava"
   },
   {
     "id": 3866241330,
@@ -4177,6 +4206,8 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "stravaSegmentId": 30327200,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30327200",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/greatest-london-loop-reverse",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greatest-london-loop-reverse"
   },

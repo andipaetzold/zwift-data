@@ -1250,8 +1250,8 @@ export const routes = [
     slug: "greater-london-loop-rev",
     segments: ["fox-hill"],
     experience: null,
-    stravaSegmentId: null,
-    stravaSegmentUrl: null,
+    stravaSegmentId: 15167351,
+    stravaSegmentUrl: "https://www.strava.com/segments/15167351",
     zwiftInsiderUrl:
       "https://zwiftinsider.com/route/greater-london-loop-reverse",
     whatsOnZwiftUrl:
@@ -1262,8 +1262,8 @@ export const routes = [
     slug: "greatest-london-loop-rev",
     segments: ["keith-hill"],
     experience: null,
-    stravaSegmentId: null,
-    stravaSegmentUrl: null,
+    stravaSegmentId: 30327200,
+    stravaSegmentUrl: "https://www.strava.com/segments/30327200",
     zwiftInsiderUrl:
       "https://zwiftinsider.com/route/greatest-london-loop-reverse",
     whatsOnZwiftUrl:
@@ -1385,8 +1385,8 @@ export const routes = [
     slug: "london-8-rev",
     segments: ["fox-hill", "london-sprint-rev"],
     experience: null,
-    stravaSegmentId: null,
-    stravaSegmentUrl: null,
+    stravaSegmentId: 30327000,
+    stravaSegmentUrl: "https://www.strava.com/segments/30327000", // from start pens
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-8-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/london/route/london-8-reverse",
@@ -1447,7 +1447,7 @@ export const routes = [
     experience: null,
     stravaSegmentId: 19170661,
     stravaSegmentUrl: "https://www.strava.com/segments/19170661",
-    zwiftInsiderUrl: null,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/park-perimeter-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/park-perimeter-reverse",
   },
@@ -1739,17 +1739,18 @@ export const routes = [
     stravaSegmentId: 29534888,
     stravaSegmentUrl: "https://www.strava.com/segments/29534888",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/farmland-loop",
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/farmland-loop",
   },
   {
     id: 1941800093,
     slug: "valley-to-mountaintop",
-    segments: [],
+    segments: ["temple-kom-from-castle-side"],
     experience: 100,
     stravaSegmentId: 29559312,
     stravaSegmentUrl: "https://www.strava.com/segments/29559312",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/valley-to-mountaintop",
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/makuri-islands/route/valley-to-mountaintop",
   },
   {
     id: 3864857876,
@@ -1758,37 +1759,51 @@ export const routes = [
     experience: null,
     stravaSegmentId: 29609516,
     stravaSegmentUrl: "https://www.strava.com/segments/29609516",
-    zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/legends-and-lava",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/legends-and-lava",
   },
   {
     id: 772562418,
     slug: "run-path-reverse",
-    segments: null,
+    segments: [],
     experience: null,
     stravaSegmentId: null,
     stravaSegmentUrl: null,
-    zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/run-path-reverse",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/run-path-reverse",
   },
   {
     id: 3023359358,
     slug: "climbers-gambit",
-    segments: null,
+    segments: ["watopia-sprint-rev", "titans-grove-kom-rev", "epic-kom-rev"],
     experience: null,
-    stravaSegmentId: null,
-    stravaSegmentUrl: null,
-    zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    stravaSegmentId: 29622065,
+    stravaSegmentUrl: "https://www.strava.com/segments/29622065",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/climbers-gambit",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/climber-s-gambit",
   },
   {
     id: 3694952104,
     slug: "chili-pepper-rev",
-    segments: null,
+    segments: [],
     experience: null,
     stravaSegmentId: null,
     stravaSegmentUrl: null,
-    zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/chili-pepper-reverse",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/chili-pepper-reverse",
+  },
+  {
+    id: 3774003351,
+    slug: "laguardia-loop-reverse",
+    segments: ["new-york-sprint"],
+    stravaSegmentId: 20425705,
+    stravaSegmentUrl: "https://www.strava.com/segments/20425705",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/laguardia-loop-reverse",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/new-york/route/laguardia-loop-reverse",
   },
 ];
