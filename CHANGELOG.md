@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/andipaetzold/zwift-data/compare/v1.6.0...v1.7.0) (2021-11-10)
+
+
+### Bug Fixes
+
+* add missing strava segments & urls ([7358ce2](https://github.com/andipaetzold/zwift-data/commit/7358ce2ad6ccc2f160d1045e9a9f436537aa4c90))
+
+
+### Features
+
+* do not bundle/minify files anymore ([200db2b](https://github.com/andipaetzold/zwift-data/commit/200db2b67b5b84dce0bd66f1a2c10d16b2f0a496))
+
 # [1.6.0](https://github.com/andipaetzold/zwift-data/compare/v1.5.0...v1.6.0) (2021-11-09)
 
 
