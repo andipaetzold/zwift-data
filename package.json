@@ -2,12 +2,12 @@
   "name": "zwift-data",
   "version": "1.6.0",
   "description": "Data about Zwift worlds, routes and segments",
-  "main": "lib/index.js",
-  "module": "lib/index.es.js",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/types/index.d.ts",
   "files": [
     "lib"
   ],
-  "types": "lib/index.d.ts",
   "keywords": [
     "zwift",
     "data"
@@ -35,9 +35,6 @@
     "jest": "27.0.3",
     "node-fetch": "3.1.0",
     "rimraf": "3.0.2",
-    "rollup": "2.50.5",
-    "rollup-plugin-terser": "7.0.2",
-    "rollup-plugin-typescript2": "0.30.0",
     "semantic-release": "17.4.3",
     "simple-git": "2.47.0",
     "ts-jest": "27.0.2",
@@ -46,10 +43,10 @@
   },
   "scripts": {
     "prepublishOnly": "npm run build",
-    "clean": "rimraf lib",
-    "build": "npm run clean && rollup -c",
+    "build": "rimraf lib && npm run build:cjs && npm run build:esm",
+    "build:cjs": "rimraf lib/cjs && tsc --module commonjs --outDir lib/cjs",
+    "build:esm": "rimraf lib/esm && tsc --module ES2015 --outDir lib/esm",
     "build-docs": "rimraf docs && typedoc src/index.ts",
-    "watch": "npm run clean && rollup -cw",
     "test": "jest",
     "semantic-release": "semantic-release",
     "update-data": "node ./scripts/update-data.mjs",

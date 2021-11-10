@@ -2,7 +2,9 @@
   "extends": "@tsconfig/recommended",
   "compilerOptions": {
     "module": "ESNext",
-    "declaration": true
+    "moduleResolution": "Node",
+    "declaration": true,
+    "declarationDir": "lib/types"
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/*.spec.ts"]
