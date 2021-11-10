@@ -26,4 +26,24 @@ describe.each(routes)("$name", (route) => {
       expect(segmentSlugs).toContain(s);
     });
   });
+
+  it("Urls", () => {
+    if (route.stravaSegmentId && route.stravaSegmentUrl) {
+      expect(
+        route.stravaSegmentUrl.startsWith("https://www.strava.com/segments/")
+      ).toBeTruthy();
+    }
+
+    if (route.zwiftInsiderUrl) {
+      expect(
+        route.zwiftInsiderUrl.startsWith("https://zwiftinsider.com/route/")
+      ).toBeTruthy();
+    }
+
+    if (route.whatsOnZwiftUrl) {
+      expect(
+        route.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com")
+      ).toBeTruthy();
+    }
+  });
 });

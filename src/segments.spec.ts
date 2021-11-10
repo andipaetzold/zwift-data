@@ -10,4 +10,18 @@ describe.each(segments)("$name", (segment) => {
     const worldSlugs = worlds.map((w) => w.slug);
     expect(worldSlugs).toContain(segment.world);
   });
+
+  it("Urls", () => {
+    if (segment.stravaSegmentId && segment.stravaSegmentUrl) {
+      expect(
+        segment.stravaSegmentUrl.startsWith("https://www.strava.com/segments/")
+      ).toBeTruthy();
+    }
+
+    if (segment.whatsOnZwiftUrl) {
+      expect(
+        segment.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com")
+      ).toBeTruthy();
+    }
+  });
 });
