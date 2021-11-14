@@ -2,7 +2,9 @@ name: Schedule
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+      - cron: 0 0 * * *
+  workflow_dispatch:
+
 
 jobs:
   schedule:
@@ -21,7 +23,6 @@ jobs:
       - run: node --version
 
       - run: npm ci
-      - run: npm run update-data
-      - run: npm run build
-      - run: npm test -- --ci --runInBand --coverage
-      - run: npm run push-changes
+      - run: npm run prepare-pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
