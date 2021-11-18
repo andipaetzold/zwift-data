@@ -268,7 +268,9 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30407802,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407802"
   },
   {
     "id": 263936293,
@@ -1342,7 +1344,9 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30407658,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407658"
   },
   {
     "id": 1454553567,
@@ -2811,7 +2815,9 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30408107,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30408107"
   },
   {
     "id": 2905381067,
@@ -3317,7 +3323,9 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30407957,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407957"
   },
   {
     "id": 3312037616,
@@ -3370,7 +3378,9 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30412485,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30412485"
   },
   {
     "id": 3364574135,
@@ -3579,7 +3589,9 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30414842,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30414842"
   },
   {
     "id": 3454338139,
@@ -3656,7 +3668,9 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30407898,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407898"
   },
   {
     "id": 3569674525,
@@ -4303,7 +4317,9 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30408380,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30408380"
   },
   {
     "id": 3919912289,
