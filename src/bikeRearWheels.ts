@@ -233,6 +233,11 @@ export const bikeRearWheels: BikeRearWheel[] = [
     "imageName": "Wheel_CampagnoloLow"
   },
   {
+    "id": 4151096267,
+    "name": "FFWD RYOT55",
+    "imageName": "Wheel_FFWDRYOT55"
+  },
+  {
     "id": 4183014640,
     "name": "Zipp 404",
     "imageName": "Wheel_Zipp404Firecrest"

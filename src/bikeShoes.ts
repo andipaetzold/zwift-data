@@ -43,6 +43,11 @@ export const bikeShoes: BikeShoe[] = [
     "imageName": "ShoesZwiftAcademyTri2020"
   },
   {
+    "id": 2659789772,
+    "name": "2021 Neokyo Shoes",
+    "imageName": "Neokyoshoe"
+  },
+  {
     "id": 3238688697,
     "name": "Mavic Cosmic",
     "imageName": "MavicCosmic"

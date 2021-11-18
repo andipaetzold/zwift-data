@@ -935,7 +935,6 @@ export const routes = [
     segments: [],
     experience: 280,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/couch-to-sky-k",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/couch-to-sky-k",
@@ -946,7 +945,6 @@ export const routes = [
     segments: ["new-york-sprint-rev"],
     experience: 600,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/flat-irons",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/new-york/route/flat-irons",
   },
@@ -956,7 +954,6 @@ export const routes = [
     segments: [],
     experience: 360,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/hudson-roll",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/hudson-roll",
@@ -967,7 +964,6 @@ export const routes = [
     segments: [],
     experience: 180,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/park-to-peak",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/park-to-peak",
@@ -978,7 +974,6 @@ export const routes = [
     segments: [],
     experience: 100,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/shuman-trail-loop",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/shuman-trail-loop",
@@ -1055,7 +1050,6 @@ export const routes = [
     segments: ["epic-kom-rev"],
     experience: null,
     stravaSegmentId: 16404624,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/big-loop-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/big-loop-reverse",
@@ -1096,7 +1090,6 @@ export const routes = [
     segments: ["watopia-sprint-rev"],
     experience: null,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/flat-route-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/flat-route-reverse",
@@ -1213,7 +1206,6 @@ export const routes = [
     segments: ["jungle-loop"],
     experience: null,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/jungle-circuit-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/jungle-circuit-reverse",
@@ -1391,7 +1383,6 @@ export const routes = [
     segments: [],
     experience: null,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/shuman-trail-loop-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/shuman-trail-reverse",
@@ -1402,7 +1393,6 @@ export const routes = [
     segments: ["watopia-sprint"],
     experience: null,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/thats-amore-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/that-s-amore-reverse",
@@ -1473,7 +1463,6 @@ export const routes = [
     segments: [],
     experience: null,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/volcano-flat-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/volcano-flat-reverse",
@@ -1634,7 +1623,6 @@ export const routes = [
     segments: [],
     experience: null,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/run-path-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/run-path-reverse",
@@ -1655,7 +1643,6 @@ export const routes = [
     segments: [],
     experience: null,
     stravaSegmentId: null,
-    stravaSegmentUrl: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/chili-pepper-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/chili-pepper-reverse",
@@ -1668,5 +1655,77 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/laguardia-loop-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/laguardia-loop-reverse",
+  },
+  {
+    id: 246712730,
+    slug: "railways-and-rooftops",
+    segments: ["railway-sprint"],
+    stravaSegmentId: 30407802,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
+  },
+  {
+    id: 1127056801,
+    slug: "neokyo-crit-course",
+    segments: [],
+    stravaSegmentId: null,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
+  },
+  {
+    id: 1453570384,
+    slug: "neokyo-all-nighter",
+    segments: ["tower-sprint", "alley-sprint-rev", "rooftop-kom"],
+    stravaSegmentId: 30407658,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
+  },
+  {
+    id: 2896159042,
+    slug: "temples-and-towers",
+    segments: ["rooftop-kom"],
+    stravaSegmentId: 30408107,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
+  },
+  {
+    id: 3302953739,
+    slug: "sleepless-city",
+    segments: [],
+    stravaSegmentId: 30407957,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
+  },
+  {
+    id: 3356878261,
+    slug: "sprinters-playground",
+    segments: ["tower-sprint-rev", "alley-sprint"],
+    stravaSegmentId: 30412485,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
+  },
+  {
+    id: 3407362320,
+    slug: "neon-flats",
+    segments: ["tower-sprint", "alley-sprint-rev"],
+    stravaSegmentId: 30414842,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
+  },
+  {
+    id: 3565430790,
+    slug: "rooftop-rendezvous",
+    segments: ["rooftop-kom"],
+    stravaSegmentId: 30407898,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
+  },
+  {
+    id: 3914529041,
+    slug: "wandering-flats",
+    segments: ["tower-sprint-rev", "alley-sprint"],
+    stravaSegmentId: 30408380,
+    zwiftInsiderUrl: null,
+    whatsOnZwiftUrl: null,
   },
 ];

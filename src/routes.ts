@@ -247,6 +247,34 @@ export const routes: Route[] = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/zwift-gran-fondo"
   },
   {
+    "id": 246712730,
+    "name": "Railways and Rooftops",
+    "slug": "railways-and-rooftops",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 6.196,
+    "elevation": 70,
+    "leadInDistance": 2.175,
+    "leadInElevation": 21,
+    "leadInDistanceFreeRide": 1.674,
+    "leadInElevationFreeRide": 20,
+    "leadInDistanceMeetups": 1.674,
+    "leadInElevationInMeetups": 20,
+    "segments": [
+      "railway-sprint"
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 30407802,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407802"
+  },
+  {
     "id": 263936293,
     "name": "That's Amore",
     "slug": "thats-amore",
@@ -439,8 +467,6 @@ export const routes: Route[] = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.05,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.05,
-    "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint",
       "temple-kom-from-fishing-village-side"
@@ -650,8 +676,8 @@ export const routes: Route[] = [
     "elevation": 1009,
     "leadInDistance": 0.457,
     "leadInElevation": 4,
-    "leadInDistanceMeetups": 0.577,
-    "leadInElevationInMeetups": 4,
+    "leadInDistanceMeetups": 0.6,
+    "leadInElevationInMeetups": 5,
     "segments": [
       "london-sprint-rev",
       "box-hill",
@@ -1022,6 +1048,26 @@ export const routes: Route[] = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/tour-of-tewit-well"
   },
   {
+    "id": 1127056801,
+    "name": "Neokyo Crit Course",
+    "slug": "neokyo-crit-course",
+    "world": "makuri-islands",
+    "eventOnly": true,
+    "distance": 3.882,
+    "elevation": 20,
+    "leadInDistance": 0.739,
+    "leadInElevation": 5,
+    "segments": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ]
+  },
+  {
     "id": 1230300449,
     "name": "Leith Hill After Party",
     "slug": "leith-hill-after-party",
@@ -1279,6 +1325,36 @@ export const routes: Route[] = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/la-reine"
   },
   {
+    "id": 1453570384,
+    "name": "Neokyo All-Nighter",
+    "slug": "neokyo-all-nighter",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 24.329,
+    "elevation": 167,
+    "leadInDistance": 0.278,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.05,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.05,
+    "leadInElevationInMeetups": 0,
+    "segments": [
+      "tower-sprint",
+      "alley-sprint-rev",
+      "rooftop-kom"
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 30407658,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407658"
+  },
+  {
     "id": 1454553567,
     "name": "Kappa Quest Reverse",
     "slug": "kappa-quest-reverse",
@@ -1290,8 +1366,6 @@ export const routes: Route[] = [
     "leadInElevation": 131,
     "leadInDistanceFreeRide": 5.032,
     "leadInElevationFreeRide": 130,
-    "leadInDistanceMeetups": 5.032,
-    "leadInElevationInMeetups": 130,
     "segments": [
       "temple-kom-from-castle-side"
     ],
@@ -1420,8 +1494,6 @@ export const routes: Route[] = [
     "leadInElevation": 122,
     "leadInDistanceFreeRide": 3.348,
     "leadInElevationFreeRide": 108,
-    "leadInDistanceMeetups": 3.348,
-    "leadInElevationInMeetups": 108,
     "segments": [
       "temple-kom-from-fishing-village-side"
     ],
@@ -1677,9 +1749,9 @@ export const routes: Route[] = [
     "elevation": 163,
     "leadInDistance": 7.464,
     "leadInElevation": 60,
-    "leadInDistanceFreeRide": 0.492,
-    "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 1.891,
+    "leadInDistanceFreeRide": 0.51,
+    "leadInElevationFreeRide": 5,
+    "leadInDistanceMeetups": 1.89,
     "leadInElevationInMeetups": 11,
     "segments": [
       "london-sprint"
@@ -1710,6 +1782,8 @@ export const routes: Route[] = [
     "leadInElevation": 3,
     "leadInDistanceFreeRide": 0.552,
     "leadInElevationFreeRide": 13,
+    "leadInDistanceMeetups": 0.552,
+    "leadInElevationInMeetups": 13,
     "segments": [
       "new-york-sprint-rev"
     ],
@@ -1739,8 +1813,6 @@ export const routes: Route[] = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.012,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.012,
-    "leadInElevationInMeetups": 0,
     "segments": [
       "temple-kom-from-castle-side"
     ],
@@ -2016,7 +2088,7 @@ export const routes: Route[] = [
     "leadInDistance": 0.457,
     "leadInElevation": 4,
     "leadInDistanceMeetups": 0.577,
-    "leadInElevationInMeetups": 4,
+    "leadInElevationInMeetups": 5,
     "segments": [
       "london-loop",
       "box-hill",
@@ -2370,8 +2442,6 @@ export const routes: Route[] = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.051,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.051,
-    "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint",
       "village-sprint"
@@ -2730,6 +2800,32 @@ export const routes: Route[] = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/four-horsemen"
   },
   {
+    "id": 2896159042,
+    "name": "Temples and Towers",
+    "slug": "temples-and-towers",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 32.586,
+    "elevation": 318,
+    "leadInDistance": 0.779,
+    "leadInElevation": 1,
+    "leadInDistanceFreeRide": 0.367,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.367,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 30408107,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30408107"
+  },
+  {
     "id": 2905381067,
     "name": "Royal Pump Room 8",
     "slug": "royal-pump-room-8",
@@ -2955,8 +3051,6 @@ export const routes: Route[] = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.004,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.004,
-    "leadInElevationInMeetups": 0,
     "segments": [],
     "levelLocked": false,
     "lap": true,
@@ -3196,8 +3290,6 @@ export const routes: Route[] = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0,
-    "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint"
     ],
@@ -3214,6 +3306,32 @@ export const routes: Route[] = [
     "stravaSegmentUrl": "https://www.strava.com/segments/28432116",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/flatland-loop",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/flatland-loop"
+  },
+  {
+    "id": 3302953739,
+    "name": "Sleepless City",
+    "slug": "sleepless-city",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 9.559,
+    "elevation": 43,
+    "leadInDistance": 0.087,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.037,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.037,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 30407957,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407957"
   },
   {
     "id": 3312037616,
@@ -3243,6 +3361,35 @@ export const routes: Route[] = [
     "stravaSegmentUrl": "https://www.strava.com/segments/26741685",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/two-bridges-loop",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/two-bridges-loop"
+  },
+  {
+    "id": 3356878261,
+    "name": "Sprinter's Playground",
+    "slug": "sprinters-playground",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 12.344,
+    "elevation": 67,
+    "leadInDistance": 0.257,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.027,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.025,
+    "leadInElevationInMeetups": 0,
+    "segments": [
+      "tower-sprint-rev",
+      "alley-sprint"
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 30412485,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30412485"
   },
   {
     "id": 3364574135,
@@ -3319,8 +3466,6 @@ export const routes: Route[] = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.05,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.05,
-    "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint"
     ],
@@ -3350,8 +3495,6 @@ export const routes: Route[] = [
     "leadInElevation": 5,
     "leadInDistanceFreeRide": 0.009,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.009,
-    "leadInElevationInMeetups": 0,
     "segments": [
       "castle-kom",
       "country-sprint"
@@ -3434,6 +3577,35 @@ export const routes: Route[] = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/flat-route"
   },
   {
+    "id": 3407362320,
+    "name": "Neon Flats",
+    "slug": "neon-flats",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 14.72,
+    "elevation": 72,
+    "leadInDistance": 0.26,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.024,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.024,
+    "leadInElevationInMeetups": 0,
+    "segments": [
+      "tower-sprint",
+      "alley-sprint-rev"
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 30414842,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30414842"
+  },
+  {
     "id": 3454338139,
     "name": "Seaside Sprint",
     "slug": "seaside-sprint",
@@ -3471,8 +3643,6 @@ export const routes: Route[] = [
     "leadInElevation": 122,
     "leadInDistanceFreeRide": 4.081,
     "leadInElevationFreeRide": 107,
-    "leadInDistanceMeetups": 4.081,
-    "leadInElevationInMeetups": 107,
     "segments": [],
     "levelLocked": false,
     "lap": true,
@@ -3487,6 +3657,34 @@ export const routes: Route[] = [
     "stravaSegmentUrl": "https://www.strava.com/segments/28432455",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/spirit-forest",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/spirit-forest"
+  },
+  {
+    "id": 3565430790,
+    "name": "Rooftop Rendezvous",
+    "slug": "rooftop-rendezvous",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 3.745,
+    "elevation": 56,
+    "leadInDistance": 2.947,
+    "leadInElevation": 26,
+    "leadInDistanceFreeRide": 2.449,
+    "leadInElevationFreeRide": 25,
+    "leadInDistanceMeetups": 2.449,
+    "leadInElevationInMeetups": 25,
+    "segments": [
+      "rooftop-kom"
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 30407898,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407898"
   },
   {
     "id": 3569674525,
@@ -3582,8 +3780,6 @@ export const routes: Route[] = [
     "leadInElevation": 14,
     "leadInDistanceFreeRide": 0,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0,
-    "leadInElevationInMeetups": 0,
     "segments": [
       "temple-kom-from-fishing-village-side"
     ],
@@ -3725,8 +3921,6 @@ export const routes: Route[] = [
     "leadInElevation": 5,
     "leadInDistanceFreeRide": 0,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0,
-    "leadInElevationInMeetups": 0,
     "segments": [
       "castle-kom",
       "temple-kom-from-castle-side",
@@ -4114,6 +4308,35 @@ export const routes: Route[] = [
     "stravaSegmentUrl": "https://www.strava.com/segments/19141368",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/mighty-metropolitan",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/mighty-metropolitan"
+  },
+  {
+    "id": 3914529041,
+    "name": "Wandering Flats",
+    "slug": "wandering-flats",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 25.103,
+    "elevation": 146,
+    "leadInDistance": 0.111,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.042,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.042,
+    "leadInElevationInMeetups": 0,
+    "segments": [
+      "tower-sprint-rev",
+      "alley-sprint"
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 30408380,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30408380"
   },
   {
     "id": 3919912289,

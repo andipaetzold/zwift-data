@@ -23,6 +23,11 @@ export const headgears: Headgear[] = [
     "imageName": "GiroVanquish"
   },
   {
+    "id": 407446488,
+    "name": "Tour de Zwift 2022 Ride Cap",
+    "imageName": "CyclingCapTourDeZwift2022_thumb"
+  },
+  {
     "id": 471358119,
     "name": "Run Festival Hat",
     "imageName": "RunnerCapRunFestival2021_thumb"
@@ -66,6 +71,11 @@ export const headgears: Headgear[] = [
     "id": 765196864,
     "name": "Newsy",
     "imageName": "Newsy"
+  },
+  {
+    "id": 788235908,
+    "name": "Tour de Zwift 2022 Run Cap",
+    "imageName": "RunningCapTourDeZwift2022_thumb"
   },
   {
     "id": 935052582,
@@ -126,6 +136,11 @@ export const headgears: Headgear[] = [
     "id": 1387973863,
     "name": "ABUS GameChanger",
     "imageName": "AbusGameChangerWhite2021"
+  },
+  {
+    "id": 1394595133,
+    "name": "2021 Neokyo Helmet",
+    "imageName": "NeokyoHelmet2021"
   },
   {
     "id": 1409224145,

@@ -168,6 +168,11 @@ export const jerseys: Jersey[] = [
     "imageName": "ZwiftNationalChampions_thumb"
   },
   {
+    "id": 216011959,
+    "name": "2021 Neokyo Kit",
+    "imageName": "Neokyo2021_thumb"
+  },
+  {
     "id": 225381880,
     "name": "Pinarello Dogma",
     "imageName": "PinarelloDogma_thumb"
@@ -593,6 +598,11 @@ export const jerseys: Jersey[] = [
     "imageName": "RichieCarapazCC2021_thumb"
   },
   {
+    "id": 750929824,
+    "name": "Tour de Zwift 2022 Ride Kit",
+    "imageName": "TourDeZwift2022_thumb"
+  },
+  {
     "id": 751130480,
     "name": "Stages Kit",
     "imageName": "StagesCycling2021_thumb"
@@ -856,6 +866,11 @@ export const jerseys: Jersey[] = [
     "id": 1065184178,
     "name": "CA Technologies 2018",
     "imageName": "CaTech2018_thumb"
+  },
+  {
+    "id": 1066013543,
+    "name": "Eric Min T Day Jersey",
+    "imageName": "EricMinTDay2021_thumb"
   },
   {
     "id": 1072467839,
@@ -1353,6 +1368,11 @@ export const jerseys: Jersey[] = [
     "imageName": "QT2Systems2019_thumb"
   },
   {
+    "id": 1647663707,
+    "name": "Garmin Tacx Kit",
+    "imageName": "GarminTacx2021_thumb"
+  },
+  {
     "id": 1648628196,
     "name": "Fluoro 1",
     "imageName": "ZwiftFluoro01_thumb"
@@ -1361,6 +1381,11 @@ export const jerseys: Jersey[] = [
     "id": 1650733257,
     "name": "Betty Designs Pink",
     "imageName": "BettyDesignsPink_thumb"
+  },
+  {
+    "id": 1652462599,
+    "name": "Next-Enshored Kit",
+    "imageName": "NextEnshored2021_thumb"
   },
   {
     "id": 1670790093,
@@ -2408,6 +2433,11 @@ export const jerseys: Jersey[] = [
     "imageName": "TeamType1_thumb"
   },
   {
+    "id": 3185255681,
+    "name": "BCBR Gravel Kit",
+    "imageName": "BCBRGravel2021_thumb"
+  },
+  {
     "id": 3189709644,
     "name": "Biehler Syndicate Jersey",
     "imageName": "BiehlerSyndicate2021_thumb"
@@ -2676,6 +2706,11 @@ export const jerseys: Jersey[] = [
     "id": 3451819302,
     "name": "Rapha Women's Souplesse",
     "imageName": "RaphaSouplesse02_thumb"
+  },
+  {
+    "id": 3455961079,
+    "name": "Plush Global Kit",
+    "imageName": "PlushGlobal2021_thumb"
   },
   {
     "id": 3459652898,

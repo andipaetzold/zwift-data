@@ -198,6 +198,11 @@ export const socks: Sock[] = [
     "imageName": "SolidGray"
   },
   {
+    "id": 1878783967,
+    "name": "LOC_ACCESSORY_SOCKS_ZIPP_White",
+    "imageName": "Socks_ZippW2021"
+  },
+  {
     "id": 1886629477,
     "name": "Dots Blue",
     "imageName": "SocksDotBlue"
@@ -216,6 +221,16 @@ export const socks: Sock[] = [
     "id": 2098463286,
     "name": "April Fools",
     "imageName": "TealPink2020"
+  },
+  {
+    "id": 2218100751,
+    "name": "Tour de Zwift 2022 Run Socks",
+    "imageName": "Socks_TourDeZwiftRun2022"
+  },
+  {
+    "id": 2309812449,
+    "name": "Zipp Socks",
+    "imageName": "Socks_ZippB2021"
   },
   {
     "id": 2434443470,
@@ -301,6 +316,11 @@ export const socks: Sock[] = [
     "id": 3096650005,
     "name": "Dots Pink",
     "imageName": "SocksDotPink"
+  },
+  {
+    "id": 3108789619,
+    "name": "Tour de Zwift 2022 Ride Socks",
+    "imageName": "Socks_TourDeZwift2022"
   },
   {
     "id": 3118054269,

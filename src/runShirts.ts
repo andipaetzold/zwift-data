@@ -193,6 +193,11 @@ export const runShirts: RunShirt[] = [
     "imageName": "SuperLeague2020_thumb"
   },
   {
+    "id": 1598044512,
+    "name": "LOC_ACCESSORY_NEOKYORUN2021",
+    "imageName": "NeokyoRun2021_thumb"
+  },
+  {
     "id": 1636252940,
     "name": "Tour De Zwift",
     "imageName": "TourDeZwift2020_thumb"
@@ -536,6 +541,11 @@ export const runShirts: RunShirt[] = [
     "id": 3958869815,
     "name": "True Treadmill Shirt",
     "imageName": "TrueTreadmill2021_thumb"
+  },
+  {
+    "id": 4042707032,
+    "name": "Tour de Zwift 2022 Run Shirt",
+    "imageName": "TourDeZwiftRun2022_thumb"
   },
   {
     "id": 4067041817,

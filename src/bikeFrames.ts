@@ -69,7 +69,7 @@ export const bikeFrames: BikeFrame[] = [
   {
     "id": 390579581,
     "name": "Canyon Aeroad Team Edition",
-    "modelYear": 2015,
+    "modelYear": 2021,
     "isTT": false
   },
   {
@@ -303,6 +303,12 @@ export const bikeFrames: BikeFrame[] = [
     "id": 2130784714,
     "name": "Zwift Buffalo Fahrrad",
     "modelYear": 2015,
+    "isTT": false
+  },
+  {
+    "id": 2132445842,
+    "name": "Uranium UraniumNuclear2021",
+    "modelYear": 2021,
     "isTT": false
   },
   {
