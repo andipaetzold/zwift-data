@@ -1707,7 +1707,7 @@ export const routes = [
   {
     id: 3407362320,
     slug: "neon-flats",
-    segments: ["tower-sprint", "alley-sprint-rev"],
+    segments: ["tower-sprint", "alley-sprint-rev", "castle-park-sprint"],
     stravaSegmentId: 30414842,
     zwiftInsiderUrl: null,
     whatsOnZwiftUrl: null,

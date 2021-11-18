@@ -3592,7 +3592,8 @@ export const routes: Route[] = [
     "leadInElevationInMeetups": 0,
     "segments": [
       "tower-sprint",
-      "alley-sprint-rev"
+      "alley-sprint-rev",
+      "castle-park-sprint"
     ],
     "levelLocked": false,
     "lap": true,
