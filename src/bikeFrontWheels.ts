@@ -231,5 +231,10 @@ export const bikeFrontWheels: BikeFrontWheel[] = [
     "id": 4235764609,
     "name": "Shimano C40",
     "imageName": "Wheel_ShimanoDuraAceC40"
+  },
+  {
+    "id": 4237316283,
+    "name": "FFWD RYOT55",
+    "imageName": "Wheel_FFWDRYOT55"
   }
 ];

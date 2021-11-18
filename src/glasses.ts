@@ -53,6 +53,11 @@ export const glasses: Glass[] = [
     "imageName": "Glasses_ZA2018Womens"
   },
   {
+    "id": 1988601419,
+    "name": "Tour de Zwift 2022 Run Sunglasses",
+    "imageName": "Glasses_TdZGlasses2021"
+  },
+  {
     "id": 2002800339,
     "name": "Weskers",
     "imageName": "Glasses_Generic02"

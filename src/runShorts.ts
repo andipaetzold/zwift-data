@@ -98,6 +98,11 @@ export const runShorts: RunShort[] = [
     "imageName": "Shorts02"
   },
   {
+    "id": 1187130313,
+    "name": "Tour de Zwift 2022 Run Shorts",
+    "imageName": "TourDeZwiftRun2022_thumb"
+  },
+  {
     "id": 1220721816,
     "name": "KRC",
     "imageName": "KRC2019"
@@ -171,6 +176,11 @@ export const runShorts: RunShort[] = [
     "id": 2634750093,
     "name": "Super League White",
     "imageName": "SuperLeague2020_thumb"
+  },
+  {
+    "id": 2896078426,
+    "name": "LOC_ACCESSORY_NEOKYORUN2021",
+    "imageName": "NeokyoRun2021_thumb"
   },
   {
     "id": 2959332087,

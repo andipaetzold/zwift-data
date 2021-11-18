@@ -31,10 +31,6 @@ export const paintJobs: PaintJob[] = [
     "name": "Cube Cube Litening-Cube Litening 2018"
   },
   {
-    "id": 415595801,
-    "name": "Canyon Aeroad Team Edition-Movistar"
-  },
-  {
     "id": 425646960,
     "name": "Zwift Carbon-Zwift Light"
   },
@@ -57,10 +53,6 @@ export const paintJobs: PaintJob[] = [
   {
     "id": 528364824,
     "name": "Specialized Ruby S-Works-Nordic Red"
-  },
-  {
-    "id": 543174731,
-    "name": "Canyon Aeroad Team Edition-Canyon SRAM 2020"
   },
   {
     "id": 544441031,
@@ -295,6 +287,10 @@ export const paintJobs: PaintJob[] = [
     "name": "Canyon Aeroad 2015-ZA 2018"
   },
   {
+    "id": 2193987910,
+    "name": "Uranium UraniumNuclear2021-base"
+  },
+  {
     "id": 2217760637,
     "name": "Trek Emonda SL-Emonda SL"
   },
@@ -383,10 +379,6 @@ export const paintJobs: PaintJob[] = [
     "name": "Zwift Buffalo Fahrrad-Buffalo Fahrrad"
   },
   {
-    "id": 2763046996,
-    "name": "Canyon Aeroad Team Edition-Canyon Aeroad Team"
-  },
-  {
     "id": 2814305325,
     "name": "Scott ScottAddict2021-base"
   },
@@ -440,7 +432,7 @@ export const paintJobs: PaintJob[] = [
   },
   {
     "id": 3104241597,
-    "name": "Canyon Aeroad 2021-Canyon SRAM Aeroad 2021"
+    "name": "Canyon Aeroad Team Edition-Canyon SRAM 2021"
   },
   {
     "id": 3123827548,

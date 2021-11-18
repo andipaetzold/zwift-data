@@ -776,5 +776,50 @@ export const achievements: Achievements[] = [
     "id": 161,
     "name": "FARMLAND LOOP",
     "imageName": "RouteComplete"
+  },
+  {
+    "id": 164,
+    "name": "RAILWAYS AND ROOFTOPS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 165,
+    "name": "ROOFTOP RENDEZVOUS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 166,
+    "name": "NEON FLATS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 167,
+    "name": "SPRINTER'S PLAYGROUND",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 168,
+    "name": "NEOKYO ALL-NIGHTER",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 169,
+    "name": "SLEEPLESS CITY",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 170,
+    "name": "WANDERING FLATS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 171,
+    "name": "TEMPLES AND TOWERS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 176,
+    "name": "NEOKYO CRIT COURSE",
+    "imageName": "RouteComplete"
   }
 ];
