@@ -3,6 +3,8 @@ import { updateData } from "./helpers/update-data.mjs";
 import { Octokit } from "@octokit/rest";
 
 const git = simpleGit();
+git.addConfig("user.name", "Andi Pätzold [bot]");
+git.addConfig("user.email", "github+bot@andipaetzold.com");
 
 const BRANCH_NAME = "update-data";
 
