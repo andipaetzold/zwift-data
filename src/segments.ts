@@ -840,7 +840,7 @@ export const segments: ReadonlyArray<Segment> = [
   {
     name: "Castle Park Sprint Rev.",
     slug: "castle-park-sprint-rev",
-    distance: 0, // TODO
+    distance: 0.32,
     type: "sprint",
     world: "makuri-islands",
   },
