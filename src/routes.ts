@@ -2813,7 +2813,9 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 1,
     "leadInDistanceMeetups": 0.367,
     "leadInElevationInMeetups": 1,
-    "segments": [],
+    "segments": [
+      "rooftop-kom"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
