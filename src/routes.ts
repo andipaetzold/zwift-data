@@ -249,7 +249,7 @@ export const routes: Route[] = [
   {
     "id": 246712730,
     "name": "Railways and Rooftops",
-    "slug": "246712730",
+    "slug": "railways-and-rooftops",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 6.196,
@@ -1046,7 +1046,7 @@ export const routes: Route[] = [
   {
     "id": 1127056801,
     "name": "Neokyo Crit Course",
-    "slug": "1127056801",
+    "slug": "neokyo-crit-course",
     "world": "makuri-islands",
     "eventOnly": true,
     "distance": 3.882,
@@ -1323,7 +1323,7 @@ export const routes: Route[] = [
   {
     "id": 1453570384,
     "name": "Neokyo All-Nighter",
-    "slug": "1453570384",
+    "slug": "neokyo-all-nighter",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 24.329,
@@ -2792,7 +2792,7 @@ export const routes: Route[] = [
   {
     "id": 2896159042,
     "name": "Temples and Towers",
-    "slug": "2896159042",
+    "slug": "temples-and-towers",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 32.586,
@@ -3298,7 +3298,7 @@ export const routes: Route[] = [
   {
     "id": 3302953739,
     "name": "Sleepless City",
-    "slug": "3302953739",
+    "slug": "sleepless-city",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 9.559,
@@ -3351,7 +3351,7 @@ export const routes: Route[] = [
   {
     "id": 3356878261,
     "name": "Sprinter's Playground",
-    "slug": "3356878261",
+    "slug": "sprinters-playground",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 12.344,
@@ -3560,7 +3560,7 @@ export const routes: Route[] = [
   {
     "id": 3407362320,
     "name": "Neon Flats",
-    "slug": "3407362320",
+    "slug": "neon-flats",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 14.72,
@@ -3637,7 +3637,7 @@ export const routes: Route[] = [
   {
     "id": 3565430790,
     "name": "Rooftop Rendezvous",
-    "slug": "3565430790",
+    "slug": "rooftop-rendezvous",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 3.745,
@@ -4284,7 +4284,7 @@ export const routes: Route[] = [
   {
     "id": 3914529041,
     "name": "Wandering Flats",
-    "slug": "3914529041",
+    "slug": "wandering-flats",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 25.103,
