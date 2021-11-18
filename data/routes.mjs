@@ -1683,7 +1683,7 @@ export const routes = [
   {
     id: 2896159042,
     slug: "temples-and-towers",
-    segments: [], // TODO
+    segments: ["rooftop-kom"],
     stravaSegmentId: 30408107,
     zwiftInsiderUrl: null,
     whatsOnZwiftUrl: null,
