@@ -260,7 +260,9 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 20,
     "leadInDistanceMeetups": 1.674,
     "leadInElevationInMeetups": 20,
-    "segments": [],
+    "segments": [
+      "railway-sprint"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1336,7 +1338,11 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.05,
     "leadInElevationInMeetups": 0,
-    "segments": [],
+    "segments": [
+      "tower-sprint",
+      "alley-sprint-rev",
+      "rooftop-kom"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3370,7 +3376,10 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.025,
     "leadInElevationInMeetups": 0,
-    "segments": [],
+    "segments": [
+      "tower-sprint-rev",
+      "alley-sprint"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3581,7 +3590,10 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.024,
     "leadInElevationInMeetups": 0,
-    "segments": [],
+    "segments": [
+      "tower-sprint",
+      "alley-sprint-rev"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3660,7 +3672,9 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 25,
     "leadInDistanceMeetups": 2.449,
     "leadInElevationInMeetups": 25,
-    "segments": [],
+    "segments": [
+      "rooftop-kom"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4309,7 +4323,10 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.042,
     "leadInElevationInMeetups": 0,
-    "segments": [],
+    "segments": [
+      "tower-sprint-rev",
+      "alley-sprint"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
