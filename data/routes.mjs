@@ -1691,7 +1691,7 @@ export const routes = [
   {
     id: 3302953739,
     slug: "sleepless-city",
-    segments: [],
+    segments: ["castle-park-sprint-rev"],
     stravaSegmentId: 30407957,
     zwiftInsiderUrl: null,
     whatsOnZwiftUrl: null,

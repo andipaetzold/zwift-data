@@ -3323,7 +3323,9 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.037,
     "leadInElevationInMeetups": 0,
-    "segments": [],
+    "segments": [
+      "castle-park-sprint-rev"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
