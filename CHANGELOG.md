@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/andipaetzold/zwift-data/compare/v1.7.0...v1.8.0) (2021-11-18)
+
+
+### Features
+
+* Neokyo Update (November 2021) ([#3](https://github.com/andipaetzold/zwift-data/issues/3)) ([21694bd](https://github.com/andipaetzold/zwift-data/commit/21694bdada020fda8ba383466cb8ed41cf931d66))
+
 # [1.7.0](https://github.com/andipaetzold/zwift-data/compare/v1.6.0...v1.7.0) (2021-11-10)
 
 
