@@ -813,6 +813,8 @@ export const segments: ReadonlyArray<Segment> = [
     world: "makuri-islands",
     stravaSegmentId: 30407861,
     stravaSegmentUrl: "https://www.strava.com/segments/30407861",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/rooftop-kom/forward",
   },
   {
     name: "Tower Sprint",
@@ -822,6 +824,8 @@ export const segments: ReadonlyArray<Segment> = [
     world: "makuri-islands",
     stravaSegmentId: 30412571,
     stravaSegmentUrl: "https://www.strava.com/segments/30412571",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/tower-sprint/forward",
   },
   {
     name: "Tower Sprint Rev.",
@@ -829,6 +833,8 @@ export const segments: ReadonlyArray<Segment> = [
     type: "sprint",
     distance: 0.31,
     world: "makuri-islands",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/tower-sprint/reverse",
   },
   {
     name: "Castle Park Sprint",
@@ -836,6 +842,8 @@ export const segments: ReadonlyArray<Segment> = [
     distance: 0.32,
     type: "sprint",
     world: "makuri-islands",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/castle-park-sprint/forward",
   },
   {
     name: "Castle Park Sprint Rev.",
@@ -843,6 +851,8 @@ export const segments: ReadonlyArray<Segment> = [
     distance: 0.32,
     type: "sprint",
     world: "makuri-islands",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/castle-park-sprint/reverse",
   },
   {
     name: "Alley Sprint",
@@ -852,6 +862,8 @@ export const segments: ReadonlyArray<Segment> = [
     world: "makuri-islands",
     stravaSegmentId: 30412903,
     stravaSegmentUrl: "https://www.strava.com/segments/30412903",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/alley-sprint/forward",
   },
   {
     name: "Alley Sprint Rev.",
@@ -861,6 +873,8 @@ export const segments: ReadonlyArray<Segment> = [
     world: "makuri-islands",
     stravaSegmentId: 30412916,
     stravaSegmentUrl: "https://www.strava.com/segments/30412916",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/alley-sprint/reverse",
   },
   {
     name: "Railway Sprint",
@@ -870,5 +884,7 @@ export const segments: ReadonlyArray<Segment> = [
     world: "makuri-islands",
     stravaSegmentId: 30412927,
     stravaSegmentUrl: "https://www.strava.com/segments/30412927",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/railway-sprint/forward",
   },
 ];
