@@ -1662,31 +1662,41 @@ export const routes = [
     segments: ["railway-sprint"],
     stravaSegmentId: 30407802,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/railways-and-rooftops",
   },
   {
     id: 1127056801,
     slug: "neokyo-crit-course",
-    segments: [],
+    segments: ["alley-sprint-rev", "castle-park-sprint-rev"],
     stravaSegmentId: null,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/neokyo-crit-course",
   },
   {
     id: 1453570384,
     slug: "neokyo-all-nighter",
-    segments: ["tower-sprint", "alley-sprint-rev", "rooftop-kom"],
+    segments: [
+      "castle-park-sprint",
+      "alley-sprint",
+      "alley-sprint-rev",
+      "tower-sprint",
+      "rooftop-kom",
+    ],
     stravaSegmentId: 30407658,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/neokyo-all-nighter",
   },
   {
     id: 2896159042,
     slug: "temples-and-towers",
-    segments: ["rooftop-kom"],
+    segments: ["rooftop-kom", "castle-kom"],
     stravaSegmentId: 30408107,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/temples-and-towers",
   },
   {
     id: 3302953739,
@@ -1694,23 +1704,31 @@ export const routes = [
     segments: ["castle-park-sprint-rev"],
     stravaSegmentId: 30407957,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/sleepless-city",
   },
   {
     id: 3356878261,
     slug: "sprinters-playground",
-    segments: ["tower-sprint-rev", "alley-sprint"],
+    segments: [
+      "tower-sprint-rev",
+      "castle-sprint-rev",
+      "alley-sprint-rev",
+      "railyway-sprint",
+    ],
     stravaSegmentId: 30412485,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/sprinter-s-playground",
   },
   {
     id: 3407362320,
     slug: "neon-flats",
-    segments: ["tower-sprint", "alley-sprint-rev", "castle-park-sprint"],
+    segments: ["tower-sprint", "alley-sprint", "castle-park-sprint"],
     stravaSegmentId: 30414842,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/neon-flats",
   },
   {
     id: 3565430790,
@@ -1718,14 +1736,16 @@ export const routes = [
     segments: ["rooftop-kom"],
     stravaSegmentId: 30407898,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/rooftop-rendezvous",
   },
   {
     id: 3914529041,
     slug: "wandering-flats",
-    segments: ["tower-sprint-rev", "alley-sprint"],
+    segments: ["country-sprint", "tower-sprint-rev", "alley-sprint-rev"],
     stravaSegmentId: 30408380,
     zwiftInsiderUrl: null,
-    whatsOnZwiftUrl: null,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/wandering-flats",
   },
 ];
