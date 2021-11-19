@@ -271,8 +271,11 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "experience": 150,
     "stravaSegmentId": 30407802,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30407802"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407802",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/railways-and-rooftops",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/railways-and-rooftops"
   },
   {
     "id": 263936293,
@@ -1057,7 +1060,10 @@ export const routes: Route[] = [
     "elevation": 20,
     "leadInDistance": 0.739,
     "leadInElevation": 5,
-    "segments": [],
+    "segments": [
+      "alley-sprint-rev",
+      "castle-park-sprint-rev"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1065,7 +1071,8 @@ export const routes: Route[] = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neokyo-crit-course"
   },
   {
     "id": 1230300449,
@@ -1339,8 +1346,10 @@ export const routes: Route[] = [
     "leadInDistanceMeetups": 0.05,
     "leadInElevationInMeetups": 0,
     "segments": [
-      "tower-sprint",
+      "castle-park-sprint",
+      "alley-sprint",
       "alley-sprint-rev",
+      "tower-sprint",
       "rooftop-kom"
     ],
     "levelLocked": false,
@@ -1352,7 +1361,9 @@ export const routes: Route[] = [
       "cycling"
     ],
     "stravaSegmentId": 30407658,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30407658"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407658",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-all-nighter",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neokyo-all-nighter"
   },
   {
     "id": 1454553567,
@@ -2813,7 +2824,10 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 1,
     "leadInDistanceMeetups": 0.367,
     "leadInElevationInMeetups": 1,
-    "segments": [],
+    "segments": [
+      "rooftop-kom",
+      "castle-kom"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2822,8 +2836,11 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "experience": 650,
     "stravaSegmentId": 30408107,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30408107"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30408107",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/temples-and-towers",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/temples-and-towers"
   },
   {
     "id": 2905381067,
@@ -3321,7 +3338,9 @@ export const routes: Route[] = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.037,
     "leadInElevationInMeetups": 0,
-    "segments": [],
+    "segments": [
+      "castle-park-sprint-rev"
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3330,8 +3349,11 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "experience": 185,
     "stravaSegmentId": 30407957,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30407957"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407957",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/sleepless-city",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/sleepless-city"
   },
   {
     "id": 3312037616,
@@ -3378,7 +3400,9 @@ export const routes: Route[] = [
     "leadInElevationInMeetups": 0,
     "segments": [
       "tower-sprint-rev",
-      "alley-sprint"
+      "castle-park-sprint-rev",
+      "alley-sprint-rev",
+      "railway-sprint"
     ],
     "levelLocked": false,
     "lap": true,
@@ -3388,8 +3412,11 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "experience": 245,
     "stravaSegmentId": 30412485,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30412485"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30412485",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/sprinters-playground",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/sprinter-s-playground"
   },
   {
     "id": 3364574135,
@@ -3592,7 +3619,8 @@ export const routes: Route[] = [
     "leadInElevationInMeetups": 0,
     "segments": [
       "tower-sprint",
-      "alley-sprint-rev"
+      "alley-sprint",
+      "castle-park-sprint"
     ],
     "levelLocked": false,
     "lap": true,
@@ -3603,7 +3631,9 @@ export const routes: Route[] = [
       "cycling"
     ],
     "stravaSegmentId": 30414842,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30414842"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30414842",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/neon-flats",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neon-flats"
   },
   {
     "id": 3454338139,
@@ -3683,8 +3713,11 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "experience": 74,
     "stravaSegmentId": 30407898,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30407898"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30407898",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/rooftop-rendezvous",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/rooftop-rendezvous"
   },
   {
     "id": 3569674525,
@@ -4324,8 +4357,9 @@ export const routes: Route[] = [
     "leadInDistanceMeetups": 0.042,
     "leadInElevationInMeetups": 0,
     "segments": [
+      "country-sprint",
       "tower-sprint-rev",
-      "alley-sprint"
+      "alley-sprint-rev"
     ],
     "levelLocked": false,
     "lap": true,
@@ -4335,8 +4369,11 @@ export const routes: Route[] = [
       "running",
       "cycling"
     ],
+    "experience": 515,
     "stravaSegmentId": 30408380,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30408380"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30408380",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/wandering-flats",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/wandering-flats"
   },
   {
     "id": 3919912289,
