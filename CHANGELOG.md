@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/andipaetzold/zwift-data/compare/v1.8.0...v1.8.1) (2021-11-19)
+
+
+### Bug Fixes
+
+* update Neokyo with data from ZwiftInsider & WhatsOnZwift ([#4](https://github.com/andipaetzold/zwift-data/issues/4)) ([6c1bd69](https://github.com/andipaetzold/zwift-data/commit/6c1bd69c13a671a5fe7f73c2505652d58c1ae26b))
+
 # [1.8.0](https://github.com/andipaetzold/zwift-data/compare/v1.7.0...v1.8.0) (2021-11-18)
 
 
