@@ -1715,9 +1715,9 @@ export const routes = [
     slug: "sprinters-playground",
     segments: [
       "tower-sprint-rev",
-      "castle-sprint-rev",
+      "castle-park-sprint-rev",
       "alley-sprint-rev",
-      "railyway-sprint",
+      "railway-sprint",
     ],
     experience: 245,
     stravaSegmentId: 30412485,

@@ -3400,9 +3400,9 @@ export const routes: Route[] = [
     "leadInElevationInMeetups": 0,
     "segments": [
       "tower-sprint-rev",
-      "castle-sprint-rev",
+      "castle-park-sprint-rev",
       "alley-sprint-rev",
-      "railyway-sprint"
+      "railway-sprint"
     ],
     "levelLocked": false,
     "lap": true,
