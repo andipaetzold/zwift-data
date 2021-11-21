@@ -1,7 +1,7 @@
 import { BikeShoe } from "./types";
 
 // prettier-ignore
-export const bikeShoes: BikeShoe[] = [
+export const bikeShoes: ReadonlyArray<BikeShoe> = [
   {
     "id": 560768614,
     "name": "Zwift Beta Shoe",

@@ -1,7 +1,7 @@
 import { BikeFrontWheel } from "./types";
 
 // prettier-ignore
-export const bikeFrontWheels: BikeFrontWheel[] = [
+export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
   {
     "id": 69023253,
     "name": "Zwift Zwift BW Concept Front Wheel",

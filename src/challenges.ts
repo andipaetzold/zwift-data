@@ -1,7 +1,7 @@
 import { Challenge } from "./types";
 
 // prettier-ignore
-export const challenges: Challenge[] = [
+export const challenges: ReadonlyArray<Challenge> = [
   {
     "id": 1231,
     "name": "CLIMB MT.EVEREST",

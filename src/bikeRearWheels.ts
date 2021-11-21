@@ -1,7 +1,7 @@
 import { BikeRearWheel } from "./types";
 
 // prettier-ignore
-export const bikeRearWheels: BikeRearWheel[] = [
+export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
   {
     "id": 59917648,
     "name": "Roval CLX64",

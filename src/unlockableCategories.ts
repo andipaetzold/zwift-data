@@ -1,7 +1,7 @@
 import { UnlockableCategory } from "./types";
 
 // prettier-ignore
-export const unlockableCategories: UnlockableCategory[] = [
+export const unlockableCategories: ReadonlyArray<UnlockableCategory> = [
   {
     "id": 0,
     "name": "CYCLING_BIKE"

@@ -1,7 +1,7 @@
 import { RunShort } from "./types";
 
 // prettier-ignore
-export const runShorts: RunShort[] = [
+export const runShorts: ReadonlyArray<RunShort> = [
   {
     "id": 23220505,
     "name": "Tour de Zwift Running Shorts 2021",

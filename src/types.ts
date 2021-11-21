@@ -110,7 +110,7 @@ export interface Route {
   /**
    * Official segments on the route sorted by appearance. Segments are listed multiple times if they are ridden multiple times.
    */
-  segments: string[];
+  segments: ReadonlyArray<string>;
 
   /**
    * Id of the corresponding strava segment
@@ -135,7 +135,7 @@ export interface Route {
   /**
    * Types of sport that can complete this route
    */
-  sports: Sport[];
+  sports: ReadonlyArray<Sport>;
 
   /**
    * `true`, if the route can not be selected in the start screen and can only be ridden in events

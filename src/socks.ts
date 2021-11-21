@@ -1,7 +1,7 @@
 import { Sock } from "./types";
 
 // prettier-ignore
-export const socks: Sock[] = [
+export const socks: ReadonlyArray<Sock> = [
   {
     "id": 15365800,
     "name": "Zwift Academy Men 2018",

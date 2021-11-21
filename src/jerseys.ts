@@ -1,7 +1,7 @@
 import { Jersey } from "./types";
 
 // prettier-ignore
-export const jerseys: Jersey[] = [
+export const jerseys: ReadonlyArray<Jersey> = [
   {
     "id": 3523119,
     "name": "TBR 2020",

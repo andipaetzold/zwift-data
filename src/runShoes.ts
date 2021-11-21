@@ -1,7 +1,7 @@
 import { RunShoe } from "./types";
 
 // prettier-ignore
-export const runShoes: RunShoe[] = [
+export const runShoes: ReadonlyArray<RunShoe> = [
   {
     "id": 176985884,
     "name": "Zwift Academy Tri 2019",

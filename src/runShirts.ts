@@ -1,7 +1,7 @@
 import { RunShirt } from "./types";
 
 // prettier-ignore
-export const runShirts: RunShirt[] = [
+export const runShirts: ReadonlyArray<RunShirt> = [
   {
     "id": 6213730,
     "name": "Run for the Oceans 2021 Running Tee",

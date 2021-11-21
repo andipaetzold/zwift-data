@@ -1,7 +1,7 @@
 import { BikeFrame } from "./types";
 
 // prettier-ignore
-export const bikeFrames: BikeFrame[] = [
+export const bikeFrames: ReadonlyArray<BikeFrame> = [
   {
     "id": 2454550,
     "name": "Ventum One",

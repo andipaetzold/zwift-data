@@ -1,7 +1,7 @@
 import { Achievements } from "./types";
 
 // prettier-ignore
-export const achievements: Achievements[] = [
+export const achievements: ReadonlyArray<Achievements> = [
   {
     "id": 1,
     "name": "JELLY",

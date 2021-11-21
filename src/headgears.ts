@@ -1,7 +1,7 @@
 import { Headgear } from "./types";
 
 // prettier-ignore
-export const headgears: Headgear[] = [
+export const headgears: ReadonlyArray<Headgear> = [
   {
     "id": 9439966,
     "name": "Limar Air Speed TWENTY24",

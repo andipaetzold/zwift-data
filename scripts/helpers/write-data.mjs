@@ -6,7 +6,7 @@ export function writeData(data, name, typeName) {
   const content = `import { ${typeName} } from "./types";
 
 // prettier-ignore
-export const ${name}: ${typeName}[] = ${JSON.stringify(data, undefined, 2)};
+export const ${name}: ReadonlyArray<${typeName}> = ${JSON.stringify(data, undefined, 2)};
 `;
   writeFileSync(`./src/${name}.ts`, content);
 }

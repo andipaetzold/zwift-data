@@ -1,7 +1,7 @@
 import { NotableMomentType } from "./types";
 
 // prettier-ignore
-export const notableMomentTypes: NotableMomentType[] = [
+export const notableMomentTypes: ReadonlyArray<NotableMomentType> = [
   {
     "id": 0,
     "name": "NEW PR!",

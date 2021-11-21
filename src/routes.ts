@@ -1,7 +1,7 @@
 import { Route } from "./types";
 
 // prettier-ignore
-export const routes: Route[] = [
+export const routes: ReadonlyArray<Route> = [
   {
     "id": 5103974,
     "name": "Lady Liberty",

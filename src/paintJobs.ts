@@ -1,7 +1,7 @@
 import { PaintJob } from "./types";
 
 // prettier-ignore
-export const paintJobs: PaintJob[] = [
+export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 58038927,
     "name": "Pinarello F8-Team Wiggins"

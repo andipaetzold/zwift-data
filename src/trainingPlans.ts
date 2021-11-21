@@ -1,7 +1,7 @@
 import { TrainingPlan } from "./types";
 
 // prettier-ignore
-export const trainingPlans: TrainingPlan[] = [
+export const trainingPlans: ReadonlyArray<TrainingPlan> = [
   {
     "id": 23939648,
     "name": "Zwift Employee: High-Mileage Half",
