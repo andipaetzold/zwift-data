@@ -9,6 +9,7 @@ export const worlds: ReadonlyArray<World> = [
       [-11.62597, 166.87747],
       [-11.70255, 167.03255],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Watopia.png",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const worlds: ReadonlyArray<World> = [
       [37.5774, -77.48954],
       [37.5014, -77.394],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Richmond.png",
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ export const worlds: ReadonlyArray<World> = [
       [51.5362, -0.1776],
       [51.4601, -0.0555],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_London.png",
   },
   {
     id: 4,
@@ -36,6 +39,7 @@ export const worlds: ReadonlyArray<World> = [
       [40.81725, -74.0227],
       [40.74085, -73.9222],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_NewYork.png",
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ export const worlds: ReadonlyArray<World> = [
       [47.2947, 11.3501],
       [47.2055, 11.4822],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Innsbruck.png",
   },
   {
     id: 6,
@@ -54,6 +59,7 @@ export const worlds: ReadonlyArray<World> = [
       [44.5308037, 11.26261748],
       [44.45463821, 11.36991729102076],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Bologna.png",
   },
   {
     id: 7,
@@ -63,6 +69,7 @@ export const worlds: ReadonlyArray<World> = [
       [54.0254, -1.632],
       [53.9491, -1.5022],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Yorkshire.png",
   },
   {
     id: 8,
@@ -72,6 +79,7 @@ export const worlds: ReadonlyArray<World> = [
       [-10.3657, 165.7824],
       [-10.4038, 165.8207],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_CritCity.png",
   },
   {
     id: 10,
@@ -81,6 +89,7 @@ export const worlds: ReadonlyArray<World> = [
       [-21.64155, 166.1384],
       [-21.7564, 166.26125],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_France.png",
   },
   {
     id: 11,
@@ -90,6 +99,7 @@ export const worlds: ReadonlyArray<World> = [
       [48.9058, 2.2561],
       [48.82945, 2.3722],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Champs.png",
   },
   {
     id: 12,
@@ -99,5 +109,6 @@ export const worlds: ReadonlyArray<World> = [
       [-10.73746, 165.80468],
       [-10.81405, 165.88222],
     ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Japan.png",
   },
 ];

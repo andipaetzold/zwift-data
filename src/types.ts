@@ -21,6 +21,11 @@ export interface World {
     [latitude: number, longitude: number],
     [latitude: number, longitude: number]
   ];
+
+  /**
+   * URL to the image of the world
+   */
+  imageUrl: string;
 }
 
 export type WorldSlug =
