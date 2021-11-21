@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/andipaetzold/zwift-data/compare/v1.8.1...v1.9.0) (2021-11-21)
+
+
+### Bug Fixes
+
+* use readonly arrays ([d5ff456](https://github.com/andipaetzold/zwift-data/commit/d5ff4560b061edb188e18664ae54f5ded85df38f))
+
+
+### Features
+
+* add image url for worlds ([a62f8a3](https://github.com/andipaetzold/zwift-data/commit/a62f8a3a21c01f400ed7f1ad025638088f99e05c))
+
 ## [1.8.1](https://github.com/andipaetzold/zwift-data/compare/v1.8.0...v1.8.1) (2021-11-19)
 
 
