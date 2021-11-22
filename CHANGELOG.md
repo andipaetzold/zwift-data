@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/andipaetzold/zwift-data/compare/v1.9.0...v1.9.1) (2021-11-22)
+
+
+### Bug Fixes
+
+* update segments of "Temples and Towers" ([d4d41c1](https://github.com/andipaetzold/zwift-data/commit/d4d41c1d484fd16ae64940f7438f20e4ed82c241))
+
 # [1.9.0](https://github.com/andipaetzold/zwift-data/compare/v1.8.1...v1.9.0) (2021-11-21)
 
 
