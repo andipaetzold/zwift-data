@@ -1693,7 +1693,11 @@ export const routes = [
   {
     id: 2896159042,
     slug: "temples-and-towers",
-    segments: ["rooftop-kom", "castle-kom"],
+    segments: [
+      "rooftop-kom",
+      "castle-kom",
+      "temple-kom-from-fishing-village-side",
+    ],
     experience: 650,
     stravaSegmentId: 30408107,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/temples-and-towers",
