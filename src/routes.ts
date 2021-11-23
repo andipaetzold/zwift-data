@@ -2826,8 +2826,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 1,
     "segments": [
       "rooftop-kom",
-      "castle-kom",
-      "temple-kom-from-fishing-village-side"
+      "castle-kom"
     ],
     "levelLocked": false,
     "lap": true,
