@@ -1072,6 +1072,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-crit-course",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neokyo-crit-course"
   },
   {
