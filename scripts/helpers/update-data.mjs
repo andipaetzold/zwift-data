@@ -82,7 +82,7 @@ export async function updateData() {
         imageName: item.$.imageName,
       })
     );
-    writeData(data, "achievements", "Achievements");
+    writeData(data, "achievements", "Achievement");
   }
 
   // Bike Frames

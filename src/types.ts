@@ -302,7 +302,7 @@ export interface Headgear {
   imageName: string;
 }
 
-export interface Achievements {
+export interface Achievement {
   id: number;
   name: string;
   imageName: string;

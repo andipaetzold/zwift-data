@@ -1,7 +1,7 @@
-import { Achievements } from "./types";
+import { Achievement } from "./types";
 
 // prettier-ignore
-export const achievements: ReadonlyArray<Achievements> = [
+export const achievements: ReadonlyArray<Achievement> = [
   {
     "id": 1,
     "name": "JELLY",
