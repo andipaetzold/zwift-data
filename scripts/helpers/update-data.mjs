@@ -1,4 +1,5 @@
 import fetch from "node-fetch";
+import { segments } from "../../data/segments.mjs";
 import { routes } from "../../data/routes.mjs";
 import { worlds } from "../../data/worlds.mjs";
 import { writeData } from "./write-data.mjs";
@@ -10,6 +11,11 @@ export async function updateData() {
   );
 
   const responseData = await response.json();
+
+  // Segments
+  {
+    writeData(segments, "segments", "Segment");
+  }
 
   // Routes
   {
