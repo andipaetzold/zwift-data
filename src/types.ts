@@ -108,10 +108,13 @@ export interface Route {
   experience?: number;
 
   /**
-   * Official segments on the route sorted by appearance. Segments are listed multiple times if they are ridden multiple times.
+   * Segments on the route. Segments are listed only listed once if they appear multiple times.
    */
   segments: ReadonlyArray<string>;
 
+  /**
+   * Segments on the route sorted by appearance including exact position. Segments may occur multiple times if they are ridden multiple times.
+   */
   segmentsOnRoute: ReadonlyArray<{
     from: number;
     to: number;
