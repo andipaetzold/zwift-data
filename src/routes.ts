@@ -211,7 +211,18 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "innsbruck-kom"
     ],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 3.129,
+        "to": 10.567,
+        "segment": "innsbruck-kom"
+      },
+      {
+        "from": 16.803,
+        "to": 24.238,
+        "segment": "innsbruck-kom"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3614,7 +3625,13 @@ export const routes: ReadonlyArray<Route> = [
       "innsbruck-kom",
       "innsbruck-sprint"
     ],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 3.131,
+        "to": 10.561,
+        "segment": "innsbruck-kom"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4301,7 +4318,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 1,
     "segments": [
       "innsbruck-uci-lap",
-      "watopia-sprint",
+      "innsbruck-sprint",
       "innsbruck-kom"
     ],
     "segmentsOnRoute": [
@@ -4593,8 +4610,16 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 425,
     "leadInDistanceMeetups": 0.283,
     "leadInElevationInMeetups": 7,
-    "segments": [],
-    "segmentsOnRoute": [],
+    "segments": [
+      "innsbruck-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.896,
+        "to": 8.647,
+        "segment": "innsbruck-kom-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -5024,7 +5049,18 @@ export const routes: ReadonlyArray<Route> = [
       "innsbruck-kom",
       "innsbruck-sprint"
     ],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 2.899,
+        "to": 8.641,
+        "segment": "innsbruck-kom-rev"
+      },
+      {
+        "from": 26.861,
+        "to": 34.299,
+        "segment": "innsbruck-kom"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,

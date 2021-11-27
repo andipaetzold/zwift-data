@@ -37,10 +37,7 @@ export const routes = [
   {
     id: 2675063596,
     slug: "dust-in-the-wind",
-    segments: [
-      "titans-grove-kom-rev",
-      "fuego-flats-rev",
-    ],
+    segments: ["titans-grove-kom-rev", "fuego-flats-rev"],
     experience: 1080,
     stravaSegmentId: 22458637,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/dust-in-the-wind",
@@ -436,11 +433,7 @@ export const routes = [
   {
     id: 2204461619,
     slug: "london-the-prl-full",
-    segments: [
-      "london-loop",
-      "box-hill",
-      "london-sprint-rev",
-    ],
+    segments: ["london-loop", "box-hill", "london-sprint-rev"],
     experience: 3460,
     stravaSegmentId: 12759760,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-the-prl-full",
@@ -449,10 +442,7 @@ export const routes = [
   {
     id: 764532081,
     slug: "the-prl-half",
-    segments: [
-      "box-hill",
-      "london-sprint-rev",
-    ],
+    segments: ["box-hill", "london-sprint-rev"],
     experience: 1380,
     stravaSegmentId: 12759713,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-prl-half",
@@ -625,7 +615,7 @@ export const routes = [
   {
     id: 3801241714,
     slug: "lutscher-ccw",
-    segments: [],
+    segments: ["innsbruck-kom-rev"],
     experience: 270,
     stravaSegmentId: 18407469,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/lutscher-ccw",
@@ -1147,7 +1137,7 @@ export const routes = [
   {
     id: 3649347250,
     slug: "innsbruck-kom-after-party",
-    segments: ["innsbruck-uci-lap", "watopia-sprint", "innsbruck-kom"],
+    segments: ["innsbruck-uci-lap", "innsbruck-sprint", "innsbruck-kom"],
     experience: null,
     stravaSegmentId: 20539949,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/kom-after-party",
@@ -1206,11 +1196,7 @@ export const routes = [
   {
     id: 54700404,
     slug: "libby-hill-after-party",
-    segments: [
-      "richmond-sprint",
-      "broad-st",
-      "richmond-kom",
-    ],
+    segments: ["richmond-sprint", "broad-st", "richmond-kom"],
     experience: null,
     stravaSegmentId: 22815233,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/libby-hill-after-party",

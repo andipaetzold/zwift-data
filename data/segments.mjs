@@ -628,7 +628,7 @@ export const segments = [
     type: "climb",
     distance: 7.4,
     avgIncline: 6,
-    world: "france",
+    world: "innsbruck",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/innsbruck/segment/kom/forward",
     climbType: "2",
@@ -641,7 +641,7 @@ export const segments = [
     type: "climb",
     distance: 5.79,
     avgIncline: 8,
-    world: "france",
+    world: "innsbruck",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/innsbruck/segment/kom/reverse",
     climbType: "2",

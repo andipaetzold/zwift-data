@@ -39,11 +39,21 @@ describe.each(routes)("$name", (route) => {
   });
 
   describe("Segments", () => {
-    it("should exist", () => {
-      const segmentSlugs = segments.map((segment) => segment.slug);
+    route.segments.map((segmentSlug) => {
+      describe(segmentSlug, () => {
+        it("should exist", () => {
+          const segmentSlugs = segments.map((segment) => segment.slug);
 
-      route.segments.forEach((s) => {
-        expect(segmentSlugs).toContain(s);
+          route.segments.forEach((s) => {
+            expect(segmentSlugs).toContain(s);
+          });
+        });
+
+        it("should be in same world", () => {
+          const segment = segments.find((s) => s.slug === segmentSlug)!;
+
+          expect(segment.world).toBe(route.world);
+        });
       });
     });
 
