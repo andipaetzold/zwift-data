@@ -1,3 +1,17 @@
+## [1.9.3](https://github.com/andipaetzold/zwift-data/compare/v1.9.2...v1.9.3) (2021-11-27)
+
+
+### Bug Fixes
+
+* add route details for Neokyo Crit Course ([86dfb35](https://github.com/andipaetzold/zwift-data/commit/86dfb3591b9cca59306dad66d8ff20172d7cc549))
+
+## [1.9.2](https://github.com/andipaetzold/zwift-data/compare/v1.9.1...v1.9.2) (2021-11-27)
+
+
+### Bug Fixes
+
+* rename Achievements type to Achievement ([57c18ed](https://github.com/andipaetzold/zwift-data/commit/57c18ed3e58810ba7722aebb3bf5fbbe10b836ac))
+
 ## [1.9.1](https://github.com/andipaetzold/zwift-data/compare/v1.9.0...v1.9.1) (2021-11-22)
 
 

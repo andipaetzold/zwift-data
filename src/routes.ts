@@ -1229,6 +1229,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
+    "stravaSegmentId": 30480835,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30480835",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-crit-course",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neokyo-crit-course"
   },
   {
