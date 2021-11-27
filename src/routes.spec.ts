@@ -18,14 +18,6 @@ describe.each(routes)("$name", (route) => {
     expect(worldSlugs).toContain(route.world);
   });
 
-  it("Segments exist", () => {
-    const segmentSlugs = segments.map((segment) => segment.slug);
-
-    route.segments.forEach((s) => {
-      expect(segmentSlugs).toContain(s);
-    });
-  });
-
   it("Urls", () => {
     if (route.stravaSegmentId && route.stravaSegmentUrl) {
       expect(
@@ -44,6 +36,21 @@ describe.each(routes)("$name", (route) => {
         route.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com")
       ).toBeTruthy();
     }
+  });
+
+  describe("Segments", () => {
+    it("should exist", () => {
+      const segmentSlugs = segments.map((segment) => segment.slug);
+
+      route.segments.forEach((s) => {
+        expect(segmentSlugs).toContain(s);
+      });
+    });
+
+    it("should not be duplicate", () => {
+      const segmentSlugs = route.segments;
+      expect(new Set(segmentSlugs).size).toBe(segmentSlugs.length);
+    });
   });
 
   describe("Calculated segment", () => {
