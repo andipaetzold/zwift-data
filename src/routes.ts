@@ -58,6 +58,7 @@ export const routes: ReadonlyArray<Route> = [
       "richmond-sprint",
       "richmond-sprint",
       "richmond-sprint",
+      "broad-st",
       "richmond-kom"
     ],
     "segmentsOnRoute": [
@@ -252,7 +253,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 14.277,
         "to": 14.468,
-        "segment": "london-sprint-rev"
+        "segment": "london-sprint"
       },
       {
         "from": 31.768,
@@ -262,7 +263,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 41.706,
         "to": 41.904,
-        "segment": "london-sprint"
+        "segment": "london-sprint-rev"
       },
       {
         "from": 46.989,
@@ -799,7 +800,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 68.768,
         "to": 68.957,
-        "segment": "london-sprint"
+        "segment": "london-sprint-rev"
       }
     ],
     "levelLocked": false,
@@ -1008,20 +1009,9 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 12.147,
     "leadInElevation": 150,
     "segments": [
-      "new-york-sprint-rev"
+      "23rd-st-rev"
     ],
-    "segmentsOnRoute": [
-      {
-        "from": 1.153,
-        "to": 2.266,
-        "segment": "23rd-st-rev"
-      },
-      {
-        "from": 2.724,
-        "to": 3.424,
-        "segment": "richmond-kom-rev"
-      }
-    ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1030,8 +1020,8 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "stravaSegmentId": 22900017,
-    "stravaSegmentUrl": "https://www.strava.com/segments/22900017",
+    "stravaSegmentId": 22900025,
+    "stravaSegmentUrl": "https://www.strava.com/segments/22900025",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/richmond-rollercoaster",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/richmond-rollercoaster"
   },
@@ -1253,12 +1243,12 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 14.309,
         "to": 14.502,
-        "segment": "london-sprint-rev"
+        "segment": "london-sprint"
       },
       {
         "from": 25.949,
         "to": 26.163,
-        "segment": "london-sprint-rev"
+        "segment": "london-sprint"
       }
     ],
     "levelLocked": false,
@@ -2005,7 +1995,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 23.368,
         "to": 23.566,
-        "segment": "london-sprint-rev"
+        "segment": "london-sprint"
       }
     ],
     "levelLocked": false,
@@ -2284,7 +2274,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 12.762,
         "to": 12.952,
-        "segment": "london-sprint"
+        "segment": "london-sprint-rev"
       }
     ],
     "levelLocked": false,
@@ -2469,7 +2459,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 172.803,
         "to": 172.996,
-        "segment": "london-sprint"
+        "segment": "london-sprint-rev"
       }
     ],
     "levelLocked": false,
@@ -2916,13 +2906,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.555,
     "leadInElevationInMeetups": 0,
     "segments": [
-      "london-sprint"
+      "london-sprint-rev"
     ],
     "segmentsOnRoute": [
       {
         "from": 5.232,
         "to": 5.416,
-        "segment": "london-sprint"
+        "segment": "london-sprint-rev"
       }
     ],
     "levelLocked": false,
@@ -3243,7 +3233,7 @@ export const routes: ReadonlyArray<Route> = [
       "yorkshire-sprint-rev",
       "yorkshire-kom",
       "yorkshire-sprint",
-      "new-york-kom-rev"
+      "yorkshire-kom-rev"
     ],
     "segmentsOnRoute": [
       {
@@ -4194,7 +4184,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 14.316,
         "to": 14.499,
-        "segment": "london-sprint-rev"
+        "segment": "london-sprint"
       },
       {
         "from": 31.951,
@@ -4262,7 +4252,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 5.26,
         "to": 5.461,
-        "segment": "london-sprint-rev"
+        "segment": "london-sprint"
       }
     ],
     "levelLocked": false,
@@ -4350,6 +4340,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.224,
     "leadInElevation": 1,
     "segments": [
+      "innsbruck-uci-lap",
       "watopia-sprint",
       "watopia-sprint",
       "watopia-sprint",
@@ -4418,7 +4409,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 2.5,
     "leadInElevation": 23,
     "segments": [
-      "new-york-kom",
+      "new-york-kom-rev",
       "new-york-sprint-rev"
     ],
     "segmentsOnRoute": [
@@ -4900,7 +4891,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "country-sprint",
       "tower-sprint-rev",
-      "alley-sprint-rev"
+      "alley-sprint"
     ],
     "segmentsOnRoute": [
       {
@@ -5113,7 +5104,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 6.759,
         "to": 6.969,
-        "segment": "london-sprint-rev"
+        "segment": "london-sprint"
       },
       {
         "from": 11.728,
@@ -5205,8 +5196,8 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.1,
     "leadInElevation": 0,
     "segments": [
-      "richmond-kom",
-      "23rd-st"
+      "richmond-kom-rev",
+      "23rd-st-rev"
     ],
     "segmentsOnRoute": [
       {
@@ -5231,7 +5222,7 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentId": 22891973,
     "stravaSegmentUrl": "https://www.strava.com/segments/22891973",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-climbs-reverse",
-    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/cobbled-climbs"
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/cobbled-climbs-reverse"
   },
   {
     "id": 4210048937,
@@ -5253,7 +5244,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 13.969,
         "to": 14.154,
-        "segment": "london-sprint"
+        "segment": "london-sprint-rev"
       },
       {
         "from": 23.052,

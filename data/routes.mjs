@@ -342,7 +342,7 @@ export const routes = [
   {
     id: 2694166390,
     slug: "london-classique",
-    segments: ["london-sprint"],
+    segments: ["london-sprint-rev"],
     experience: 110,
     stravaSegmentId: 12749761,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-classique",
@@ -714,7 +714,7 @@ export const routes = [
       "yorkshire-sprint-rev",
       "yorkshire-kom",
       "yorkshire-sprint",
-      "new-york-kom-rev",
+      "yorkshire-kom-rev",
     ],
     experience: 550,
     stravaSegmentId: 21757792,
@@ -1067,12 +1067,12 @@ export const routes = [
   {
     id: 4194352271,
     slug: "cobbled-climbs-rev",
-    segments: ["richmond-kom", "23rd-st"],
+    segments: ["richmond-kom-rev", "23rd-st-rev"],
     experience: null,
     stravaSegmentId: 22891973,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/cobbled-climbs-reverse",
     whatsOnZwiftUrl:
-      "https://whatsonzwift.com/world/richmond/route/cobbled-climbs",
+      "https://whatsonzwift.com/world/richmond/route/cobbled-climbs-reverse",
   },
   {
     id: 947394567,
@@ -1135,7 +1135,7 @@ export const routes = [
   {
     id: 3687251774,
     slug: "grand-central-circuit-rev",
-    segments: ["new-york-kom", "new-york-sprint-rev"],
+    segments: ["new-york-kom-rev", "new-york-sprint-rev"],
     experience: null,
     stravaSegmentId: 19141192,
     zwiftInsiderUrl:
@@ -1189,6 +1189,7 @@ export const routes = [
     id: 3649347250,
     slug: "innsbruck-kom-after-party",
     segments: [
+      "innsbruck-uci-lap",
       "watopia-sprint",
       "watopia-sprint",
       "watopia-sprint",
@@ -1259,6 +1260,7 @@ export const routes = [
       "richmond-sprint",
       "richmond-sprint",
       "richmond-sprint",
+      "broad-st",
       "richmond-kom",
     ],
     experience: null,
@@ -1335,9 +1337,9 @@ export const routes = [
   {
     id: 948831673,
     slug: "richmond-rollercoaster",
-    segments: ["new-york-sprint-rev"],
+    segments: ["23rd-st-rev"],
     experience: null,
-    stravaSegmentId: 22900017,
+    stravaSegmentId: 22900025,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/richmond-rollercoaster",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/richmond/route/richmond-rollercoaster",
@@ -1751,7 +1753,7 @@ export const routes = [
   {
     id: 3914529041,
     slug: "wandering-flats",
-    segments: ["country-sprint", "tower-sprint-rev", "alley-sprint-rev"],
+    segments: ["country-sprint", "tower-sprint-rev", "alley-sprint"],
     experience: 515,
     stravaSegmentId: 30408380,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/wandering-flats",
