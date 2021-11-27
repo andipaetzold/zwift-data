@@ -94,7 +94,7 @@ function doesRouteStartWithSegment(route, segment) {
     } = turf.nearestPointOnLine(segmentLine(), routeFront(), OPTIONS);
 
     if (Math.min(distanceToRoute, distanceToSegment) > TOLERANCE) {
-      return 0;
+      return undefined;
     }
 
     if (distanceToRoute < distanceToSegment) {
