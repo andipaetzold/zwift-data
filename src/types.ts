@@ -112,6 +112,12 @@ export interface Route {
    */
   segments: ReadonlyArray<string>;
 
+  segmentsOnRoute: ReadonlyArray<{
+    from: number;
+    to: number;
+    segment: string;
+  }>;
+
   /**
    * Id of the corresponding strava segment
    */

@@ -4,6 +4,8 @@ import { routes } from "../../data/routes.mjs";
 import { worlds } from "../../data/worlds.mjs";
 import { writeData } from "./write-data.mjs";
 import { formatDistance, formatElevation } from "./format.mjs";
+import { findSegmentsOnRoute } from "./find-segments-on-route.mjs";
+import { fetchSegments } from "./fetch-segments.mjs";
 
 export async function updateData() {
   const response = await fetch(
@@ -12,6 +14,8 @@ export async function updateData() {
 
   const responseData = await response.json();
 
+  const segmentsWithLatLng = await fetchSegments();
+
   // Segments
   {
     writeData(segments, "segments", "Segment");
@@ -19,7 +23,8 @@ export async function updateData() {
 
   // Routes
   {
-    const data = responseData.GameDictionary.ROUTES[0].ROUTE.map((item) => {
+    const data = [];
+    for (const item of responseData.GameDictionary.ROUTES[0].ROUTE) {
       const manualRouteData = routes.find((r) => r.id === +item.$.signature);
 
       if (!manualRouteData) {
@@ -33,7 +38,15 @@ export async function updateData() {
         throw new Error(`Unknown world: "${item.$.map}"`);
       }
 
-      return {
+      let segmentsOnRoute = [];
+      if (manualRouteData?.stravaSegmentId) {
+        segmentsOnRoute = await findSegmentsOnRoute(
+          manualRouteData,
+          segmentsWithLatLng.filter((s) => s.world === manualWorldData.slug)
+        );
+      }
+
+      data.push({
         id: +item.$.signature,
         name: item.$.name,
         slug: manualRouteData?.slug ?? item.$.signature,
@@ -56,6 +69,7 @@ export async function updateData() {
           item.$.meetupLeadinAscentInMeters
         ),
         segments: manualRouteData?.segments ?? [],
+        segmentsOnRoute,
         levelLocked: item.$.levelLocked === "1",
         lap: item.$.supportedLaps === "1",
         supportsTT: item.$.supportsTimeTrialMode === "1",
@@ -68,8 +82,8 @@ export async function updateData() {
           : undefined,
         zwiftInsiderUrl: manualRouteData?.zwiftInsiderUrl ?? undefined,
         whatsOnZwiftUrl: manualRouteData?.whatsOnZwiftUrl ?? undefined,
-      };
-    });
+      });
+    }
     writeData(data, "routes", "Route");
   }
 
