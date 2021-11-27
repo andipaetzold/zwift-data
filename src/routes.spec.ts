@@ -1,6 +1,5 @@
 import { routes } from "./routes";
 import { segments } from "./segments";
-import { Route } from "./types";
 import { worlds } from "./worlds";
 
 it("Unique ids", () => {
@@ -45,5 +44,13 @@ describe.each(routes)("$name", (route) => {
         route.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com")
       ).toBeTruthy();
     }
+  });
+
+  describe("Calculated segment", () => {
+    route.segmentsOnRoute.map((sor) =>
+      it(`${sor.segment} should be included in manual list`, () => {
+        expect(route.segments).toContain(sor.segment);
+      })
+    );
   });
 });
