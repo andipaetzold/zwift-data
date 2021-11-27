@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/andipaetzold/zwift-data/compare/v1.9.3...v1.10.0) (2021-11-27)
+
+
+### Features
+
+* calculate segment positions on route ([#9](https://github.com/andipaetzold/zwift-data/issues/9)) ([7e4edb3](https://github.com/andipaetzold/zwift-data/commit/7e4edb3c58064c7d78fbe9e928c03501e05f6c99))
+
 ## [1.9.3](https://github.com/andipaetzold/zwift-data/compare/v1.9.2...v1.9.3) (2021-11-27)
 
 
