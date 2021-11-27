@@ -1670,8 +1670,8 @@ export const routes = [
     id: 1127056801,
     slug: "neokyo-crit-course",
     segments: ["alley-sprint-rev", "castle-park-sprint-rev"],
-    stravaSegmentId: null,
-    zwiftInsiderUrl: null,
+    stravaSegmentId: 30480835,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/neokyo-crit-course",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/neokyo-crit-course",
   },
