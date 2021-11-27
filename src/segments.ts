@@ -165,8 +165,8 @@ export const segments: ReadonlyArray<Segment> = [
     "type": "sprint",
     "world": "london",
     "distance": 0.2,
-    "stravaSegmentId": 12749377,
-    "stravaSegmentUrl": "https://www.strava.com/segments/12749377",
+    "stravaSegmentId": 12749402,
+    "stravaSegmentUrl": "https://www.strava.com/segments/12749402",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/segment/sprint/forward"
   },
   {
@@ -175,8 +175,8 @@ export const segments: ReadonlyArray<Segment> = [
     "type": "sprint",
     "world": "london",
     "distance": 0.2,
-    "stravaSegmentId": 12749402,
-    "stravaSegmentUrl": "https://www.strava.com/segments/12749402",
+    "stravaSegmentId": 12749377,
+    "stravaSegmentUrl": "https://www.strava.com/segments/12749377",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/segment/sprint/reverse"
   },
   {
@@ -575,7 +575,7 @@ export const segments: ReadonlyArray<Segment> = [
     "type": "climb",
     "distance": 7.4,
     "avgIncline": 6,
-    "world": "france",
+    "world": "innsbruck",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/segment/kom/forward",
     "climbType": "2",
     "stravaSegmentUrl": "https://www.strava.com/segments/18397965",
@@ -587,7 +587,7 @@ export const segments: ReadonlyArray<Segment> = [
     "type": "climb",
     "distance": 5.79,
     "avgIncline": 8,
-    "world": "france",
+    "world": "innsbruck",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/segment/kom/reverse",
     "climbType": "2",
     "stravaSegmentUrl": "https://www.strava.com/segments/18397927",

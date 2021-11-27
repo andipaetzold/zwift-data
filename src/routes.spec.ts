@@ -1,6 +1,5 @@
 import { routes } from "./routes";
 import { segments } from "./segments";
-import { Route } from "./types";
 import { worlds } from "./worlds";
 
 it("Unique ids", () => {
@@ -17,14 +16,6 @@ describe.each(routes)("$name", (route) => {
   it("World exists", () => {
     const worldSlugs = worlds.map((world) => world.slug);
     expect(worldSlugs).toContain(route.world);
-  });
-
-  it("Segments exist", () => {
-    const segmentSlugs = segments.map((segment) => segment.slug);
-
-    route.segments.forEach((s) => {
-      expect(segmentSlugs).toContain(s);
-    });
   });
 
   it("Urls", () => {
@@ -45,5 +36,38 @@ describe.each(routes)("$name", (route) => {
         route.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com")
       ).toBeTruthy();
     }
+  });
+
+  describe("Segments", () => {
+    route.segments.map((segmentSlug) => {
+      describe(segmentSlug, () => {
+        it("should exist", () => {
+          const segmentSlugs = segments.map((segment) => segment.slug);
+
+          route.segments.forEach((s) => {
+            expect(segmentSlugs).toContain(s);
+          });
+        });
+
+        it("should be in same world", () => {
+          const segment = segments.find((s) => s.slug === segmentSlug)!;
+
+          expect(segment.world).toBe(route.world);
+        });
+      });
+    });
+
+    it("should not be duplicate", () => {
+      const segmentSlugs = route.segments;
+      expect(new Set(segmentSlugs).size).toBe(segmentSlugs.length);
+    });
+  });
+
+  describe("Calculated segment", () => {
+    route.segmentsOnRoute.map((sor) =>
+      it(`${sor.segment} should be included in manual list`, () => {
+        expect(route.segments).toContain(sor.segment);
+      })
+    );
   });
 });

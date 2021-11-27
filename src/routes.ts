@@ -20,6 +20,13 @@ export const routes: ReadonlyArray<Route> = [
       "new-york-kom-rev",
       "new-york-sprint-rev"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.751,
+        "to": 3.913,
+        "segment": "new-york-kom-rev"
+      }
+    ],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -46,12 +53,45 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 3,
     "segments": [
       "richmond-sprint",
-      "richmond-sprint",
-      "richmond-sprint",
-      "richmond-sprint",
-      "richmond-sprint",
-      "richmond-sprint",
+      "broad-st",
       "richmond-kom"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 3.73,
+        "to": 3.96,
+        "segment": "richmond-sprint"
+      },
+      {
+        "from": 8.794,
+        "to": 9.024,
+        "segment": "richmond-sprint"
+      },
+      {
+        "from": 13.858,
+        "to": 14.088,
+        "segment": "richmond-sprint"
+      },
+      {
+        "from": 18.921,
+        "to": 19.152,
+        "segment": "richmond-sprint"
+      },
+      {
+        "from": 24.003,
+        "to": 24.216,
+        "segment": "richmond-sprint"
+      },
+      {
+        "from": 27.414,
+        "to": 27.696,
+        "segment": "broad-st"
+      },
+      {
+        "from": 32.258,
+        "to": 32.908,
+        "segment": "richmond-kom"
+      }
     ],
     "levelLocked": false,
     "lap": false,
@@ -81,6 +121,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "box-hill"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -110,6 +151,7 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint-rev",
       "zwift-kom-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -138,6 +180,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.16,
     "leadInElevationInMeetups": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -167,6 +210,18 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 21,
     "segments": [
       "innsbruck-kom"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 3.129,
+        "to": 10.567,
+        "segment": "innsbruck-kom"
+      },
+      {
+        "from": 16.803,
+        "to": 24.238,
+        "segment": "innsbruck-kom"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -200,6 +255,28 @@ export const routes: ReadonlyArray<Route> = [
       "london-sprint-rev",
       "box-hill"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 14.277,
+        "to": 14.468,
+        "segment": "london-sprint"
+      },
+      {
+        "from": 31.768,
+        "to": 34.184,
+        "segment": "fox-hill"
+      },
+      {
+        "from": 41.706,
+        "to": 41.904,
+        "segment": "london-sprint-rev"
+      },
+      {
+        "from": 46.989,
+        "to": 50.001,
+        "segment": "box-hill"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -230,9 +307,9 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint",
       "zwift-kom",
       "watopia-sprint-rev",
-      "watopia-sprint",
       "epic-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -263,6 +340,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "railway-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -294,6 +372,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "watopia-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -318,6 +397,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.374,
     "leadInElevation": 2,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -344,6 +424,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceFreeRide": 0.19,
     "leadInElevationFreeRide": 2,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -367,6 +448,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -393,6 +475,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "volcano-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -418,6 +501,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 1,
     "segments": [
       "fox-hill"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 3.119,
+        "to": 5.531,
+        "segment": "fox-hill"
+      }
     ],
     "levelLocked": true,
     "lap": true,
@@ -445,6 +535,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -474,6 +565,7 @@ export const routes: ReadonlyArray<Route> = [
       "country-sprint",
       "temple-kom-from-fishing-village-side"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -508,6 +600,7 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint",
       "zwift-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -540,6 +633,7 @@ export const routes: ReadonlyArray<Route> = [
       "titans-grove-kom",
       "fuego-flats"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -567,6 +661,18 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "yorkshire-sprint-rev",
       "yorkshire-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.39,
+        "to": 2.801,
+        "segment": "yorkshire-sprint-rev"
+      },
+      {
+        "from": 3.852,
+        "to": 5.017,
+        "segment": "yorkshire-kom-rev"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -596,6 +702,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "volcano-circuit"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -627,6 +734,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -655,6 +763,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "jungle-loop-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -682,15 +791,15 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.6,
     "leadInElevationInMeetups": 5,
     "segments": [
-      "london-sprint-rev",
-      "box-hill",
-      "london-sprint-rev",
-      "box-hill",
-      "london-sprint-rev",
-      "box-hill",
-      "london-sprint-rev",
       "box-hill",
       "london-sprint-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 68.768,
+        "to": 68.957,
+        "segment": "london-sprint-rev"
+      }
     ],
     "levelLocked": false,
     "lap": false,
@@ -717,6 +826,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.269,
     "leadInElevation": 2,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -742,6 +852,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "volcano-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -775,6 +886,7 @@ export const routes: ReadonlyArray<Route> = [
       "pave-sprint",
       "marina-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -805,6 +917,13 @@ export const routes: ReadonlyArray<Route> = [
       "london-loop",
       "box-hill"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 6.264,
+        "to": 9.281,
+        "segment": "box-hill"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -834,6 +953,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.106,
     "leadInElevationInMeetups": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -862,6 +982,7 @@ export const routes: ReadonlyArray<Route> = [
       "crit-city",
       "prime"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -886,8 +1007,9 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 12.147,
     "leadInElevation": 150,
     "segments": [
-      "new-york-sprint-rev"
+      "23rd-st-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -896,8 +1018,8 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "stravaSegmentId": 22900017,
-    "stravaSegmentUrl": "https://www.strava.com/segments/22900017",
+    "stravaSegmentId": 22900025,
+    "stravaSegmentUrl": "https://www.strava.com/segments/22900025",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/richmond-rollercoaster",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/richmond-rollercoaster"
   },
@@ -916,6 +1038,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "volcano-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -950,6 +1073,7 @@ export const routes: ReadonlyArray<Route> = [
       "pave-sprint",
       "marina-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -980,6 +1104,18 @@ export const routes: ReadonlyArray<Route> = [
       "broad-st-rev",
       "richmond-sprint-rev"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 1.303,
+        "to": 2.415,
+        "segment": "23rd-st-rev"
+      },
+      {
+        "from": 2.873,
+        "to": 3.55,
+        "segment": "richmond-kom-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1006,6 +1142,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "fuego-flats"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1036,6 +1173,13 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "yorkshire-kom-rev"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 0.902,
+        "to": 2.068,
+        "segment": "yorkshire-kom-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1064,6 +1208,7 @@ export const routes: ReadonlyArray<Route> = [
       "alley-sprint-rev",
       "castle-park-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1089,8 +1234,19 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 4,
     "segments": [
       "london-sprint",
-      "london-sprint",
       "leith-hill"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 14.309,
+        "to": 14.502,
+        "segment": "london-sprint"
+      },
+      {
+        "from": 25.949,
+        "to": 26.163,
+        "segment": "london-sprint"
+      }
     ],
     "levelLocked": false,
     "lap": false,
@@ -1122,6 +1278,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "yorkshire-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1154,6 +1311,7 @@ export const routes: ReadonlyArray<Route> = [
       "lutece-sprint-rev",
       "champs-elysees-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1188,6 +1346,18 @@ export const routes: ReadonlyArray<Route> = [
       "new-york-kom",
       "new-york-sprint-rev"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.765,
+        "to": 3.909,
+        "segment": "new-york-kom-rev"
+      },
+      {
+        "from": 24.236,
+        "to": 25.611,
+        "segment": "new-york-kom"
+      }
+    ],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -1217,6 +1387,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.159,
     "leadInElevationInMeetups": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1245,6 +1416,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.018,
     "leadInElevationInMeetups": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -1271,6 +1443,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.008,
     "leadInElevationInMeetups": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1296,6 +1469,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.237,
     "leadInElevation": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1321,6 +1495,7 @@ export const routes: ReadonlyArray<Route> = [
       "ballon-sprint",
       "petit-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -1355,6 +1530,7 @@ export const routes: ReadonlyArray<Route> = [
       "tower-sprint",
       "rooftop-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1383,6 +1559,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "temple-kom-from-castle-side"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1418,9 +1595,9 @@ export const routes: ReadonlyArray<Route> = [
       "fuego-flats-rev",
       "zwift-kom-rev",
       "fuego-flats",
-      "watopia-sprint-rev",
       "alpe-du-zwift"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -1452,6 +1629,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1482,6 +1660,18 @@ export const routes: ReadonlyArray<Route> = [
       "richmond-kom",
       "23rd-st"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 4.915,
+        "to": 5.57,
+        "segment": "richmond-kom"
+      },
+      {
+        "from": 6.45,
+        "to": 6.732,
+        "segment": "23rd-st"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1511,6 +1701,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "temple-kom-from-fishing-village-side"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1538,6 +1729,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1564,6 +1756,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 15,
     "segments": [
       "richmond-sprint"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 4.817,
+        "to": 5.046,
+        "segment": "richmond-sprint"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -1596,6 +1795,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -1622,6 +1822,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 204,
     "segments": [
       "new-york-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 9.401,
+        "to": 10.564,
+        "segment": "new-york-kom-rev"
+      }
     ],
     "levelLocked": true,
     "lap": true,
@@ -1653,6 +1860,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "alpe-du-zwift"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -1687,6 +1895,7 @@ export const routes: ReadonlyArray<Route> = [
       "ballon-sprint-rev",
       "marina-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1713,6 +1922,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 1,
     "segments": [
       "fox-hill"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 3.131,
+        "to": 5.556,
+        "segment": "fox-hill"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -1742,6 +1958,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.018,
     "leadInElevationInMeetups": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1769,6 +1986,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 11,
     "segments": [
       "london-sprint"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 23.368,
+        "to": 23.566,
+        "segment": "london-sprint"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -1801,6 +2025,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1830,6 +2055,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "temple-kom-from-castle-side"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -1861,6 +2087,13 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-kom-rev",
       "new-york-sprint-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 11.46,
+        "to": 12.608,
+        "segment": "new-york-kom-rev"
+      }
     ],
     "levelLocked": true,
     "lap": true,
@@ -1894,6 +2127,13 @@ export const routes: ReadonlyArray<Route> = [
       "yorkshire-kom",
       "yorkshire-sprint"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 7.578,
+        "to": 8.787,
+        "segment": "yorkshire-kom"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1926,6 +2166,7 @@ export const routes: ReadonlyArray<Route> = [
       "fuego-flats-rev",
       "fuego-flats"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": true,
@@ -1958,6 +2199,7 @@ export const routes: ReadonlyArray<Route> = [
       "epic-kom",
       "titans-grove-kom-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -1990,6 +2232,7 @@ export const routes: ReadonlyArray<Route> = [
       "fuego-flats",
       "epic-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2017,6 +2260,18 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "fox-hill",
       "london-sprint-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.78,
+        "to": 5.209,
+        "segment": "fox-hill"
+      },
+      {
+        "from": 12.762,
+        "to": 12.952,
+        "segment": "london-sprint-rev"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -2050,6 +2305,28 @@ export const routes: ReadonlyArray<Route> = [
       "richmond-kom",
       "23rd-st"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 3.697,
+        "to": 3.927,
+        "segment": "richmond-sprint"
+      },
+      {
+        "from": 7.111,
+        "to": 7.411,
+        "segment": "broad-st"
+      },
+      {
+        "from": 11.956,
+        "to": 12.608,
+        "segment": "richmond-kom"
+      },
+      {
+        "from": 13.484,
+        "to": 13.767,
+        "segment": "23rd-st"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2078,6 +2355,7 @@ export const routes: ReadonlyArray<Route> = [
       "central-park-loop-rev",
       "new-york-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -2106,27 +2384,59 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "london-loop",
       "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
-      "london-loop",
-      "box-hill",
       "london-sprint-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 35.977,
+        "to": 39.001,
+        "segment": "box-hill"
+      },
+      {
+        "from": 50.836,
+        "to": 53.86,
+        "segment": "box-hill"
+      },
+      {
+        "from": 65.694,
+        "to": 68.717,
+        "segment": "box-hill"
+      },
+      {
+        "from": 80.552,
+        "to": 83.576,
+        "segment": "box-hill"
+      },
+      {
+        "from": 89.123,
+        "to": 103.982,
+        "segment": "london-loop"
+      },
+      {
+        "from": 95.411,
+        "to": 98.435,
+        "segment": "box-hill"
+      },
+      {
+        "from": 104,
+        "to": 118.842,
+        "segment": "london-loop"
+      },
+      {
+        "from": 110.27,
+        "to": 113.294,
+        "segment": "box-hill"
+      },
+      {
+        "from": 125.129,
+        "to": 128.154,
+        "segment": "box-hill"
+      },
+      {
+        "from": 172.803,
+        "to": 172.996,
+        "segment": "london-sprint-rev"
+      }
     ],
     "levelLocked": false,
     "lap": false,
@@ -2156,6 +2466,7 @@ export const routes: ReadonlyArray<Route> = [
       "zwift-kom-rev",
       "fuego-flats"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2181,9 +2492,9 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 1,
     "segments": [
       "epic-kom",
-      "watopia-sprint",
-      "epic-kom"
+      "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -2209,9 +2520,14 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 2,
     "segments": [
       "new-york-sprint-rev",
-      "new-york-sprint-rev",
-      "new-york-sprint-rev",
       "new-york-kom"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 35.689,
+        "to": 37.076,
+        "segment": "new-york-kom"
+      }
     ],
     "levelLocked": true,
     "lap": false,
@@ -2251,6 +2567,7 @@ export const routes: ReadonlyArray<Route> = [
       "pave-sprint",
       "marina-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2278,6 +2595,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2308,6 +2626,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2342,6 +2661,7 @@ export const routes: ReadonlyArray<Route> = [
       "epic-kom-rev",
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2373,6 +2693,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "ventoux-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -2400,6 +2721,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.19,
     "leadInElevationInMeetups": 2,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2430,6 +2752,7 @@ export const routes: ReadonlyArray<Route> = [
       "innsbruck-kom",
       "innsbruck-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2460,6 +2783,7 @@ export const routes: ReadonlyArray<Route> = [
       "country-sprint",
       "village-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2491,6 +2815,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "alpe-du-zwift"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -2521,9 +2846,9 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 0,
     "segments": [
       "titans-grove-kom-rev",
-      "titans-grove-kom-rev",
       "fuego-flats-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -2553,7 +2878,14 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.555,
     "leadInElevationInMeetups": 0,
     "segments": [
-      "london-sprint"
+      "london-sprint-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 5.232,
+        "to": 5.416,
+        "segment": "london-sprint-rev"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -2586,6 +2918,7 @@ export const routes: ReadonlyArray<Route> = [
       "zwift-kom",
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2620,6 +2953,7 @@ export const routes: ReadonlyArray<Route> = [
       "zwift-kom-rev",
       "fuego-flats"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2649,6 +2983,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 7.161,
     "leadInElevationInMeetups": 31,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2676,6 +3011,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "jungle-loop"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2702,6 +3038,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "bologna-tt"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": true,
@@ -2740,6 +3077,7 @@ export const routes: ReadonlyArray<Route> = [
       "petit-kom",
       "marina-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2765,6 +3103,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.099,
     "leadInElevation": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2799,6 +3138,7 @@ export const routes: ReadonlyArray<Route> = [
       "alpe-du-zwift",
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2832,6 +3172,7 @@ export const routes: ReadonlyArray<Route> = [
       "castle-kom",
       "temple-kom-from-fishing-village-side"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2864,7 +3205,24 @@ export const routes: ReadonlyArray<Route> = [
       "yorkshire-sprint-rev",
       "yorkshire-kom",
       "yorkshire-sprint",
-      "new-york-kom-rev"
+      "yorkshire-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.395,
+        "to": 2.791,
+        "segment": "yorkshire-sprint-rev"
+      },
+      {
+        "from": 12.187,
+        "to": 13.399,
+        "segment": "yorkshire-kom"
+      },
+      {
+        "from": 17.719,
+        "to": 18.886,
+        "segment": "yorkshire-kom-rev"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -2898,6 +3256,13 @@ export const routes: ReadonlyArray<Route> = [
       "new-york-kom-rev",
       "new-york-sprint"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 1.464,
+        "to": 2.606,
+        "segment": "new-york-kom-rev"
+      }
+    ],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -2927,6 +3292,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "epic-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2959,6 +3325,13 @@ export const routes: ReadonlyArray<Route> = [
       "new-york-sprint",
       "new-york-kom"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 8.498,
+        "to": 9.866,
+        "segment": "new-york-kom"
+      }
+    ],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -2989,6 +3362,7 @@ export const routes: ReadonlyArray<Route> = [
       "epic-kom",
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3014,6 +3388,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.407,
     "leadInElevation": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3046,6 +3421,7 @@ export const routes: ReadonlyArray<Route> = [
       "epic-kom",
       "alpe-du-zwift"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -3073,6 +3449,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceFreeRide": 0.004,
     "leadInElevationFreeRide": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3104,6 +3481,13 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "yorkshire-sprint-rev"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.573,
+        "to": 2.982,
+        "segment": "yorkshire-sprint-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3133,6 +3517,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.067,
     "leadInElevationInMeetups": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3163,6 +3548,7 @@ export const routes: ReadonlyArray<Route> = [
       "titans-grove-kom-rev",
       "epic-kom-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -3194,6 +3580,18 @@ export const routes: ReadonlyArray<Route> = [
       "new-york-kom",
       "new-york-sprint-rev",
       "new-york-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 8.614,
+        "to": 9.994,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 15.869,
+        "to": 17.013,
+        "segment": "new-york-kom-rev"
+      }
     ],
     "levelLocked": true,
     "lap": true,
@@ -3227,6 +3625,13 @@ export const routes: ReadonlyArray<Route> = [
       "innsbruck-kom",
       "innsbruck-sprint"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 3.131,
+        "to": 10.561,
+        "segment": "innsbruck-kom"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3256,6 +3661,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3285,6 +3691,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "box-hill"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3314,6 +3721,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "country-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3345,6 +3753,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "castle-park-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3374,6 +3783,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "watopia-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3408,6 +3818,7 @@ export const routes: ReadonlyArray<Route> = [
       "alley-sprint-rev",
       "railway-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3440,6 +3851,7 @@ export const routes: ReadonlyArray<Route> = [
       "lutece-sprint",
       "champs-elysees"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3471,6 +3883,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "fuego-flats"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3500,6 +3913,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "country-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3530,6 +3944,7 @@ export const routes: ReadonlyArray<Route> = [
       "castle-kom",
       "country-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3564,6 +3979,7 @@ export const routes: ReadonlyArray<Route> = [
       "zwift-kom",
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3593,6 +4009,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "watopia-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3626,6 +4043,7 @@ export const routes: ReadonlyArray<Route> = [
       "alley-sprint",
       "castle-park-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3652,6 +4070,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "watopia-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3678,6 +4097,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceFreeRide": 4.081,
     "leadInElevationFreeRide": 107,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3709,6 +4129,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "rooftop-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3736,6 +4157,18 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "london-sprint",
       "keith-hill"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 14.316,
+        "to": 14.499,
+        "segment": "london-sprint"
+      },
+      {
+        "from": 31.951,
+        "to": 36.175,
+        "segment": "keith-hill"
+      }
     ],
     "levelLocked": true,
     "lap": false,
@@ -3765,6 +4198,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.715,
     "leadInElevationInMeetups": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3791,6 +4225,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 60,
     "segments": [
       "london-sprint"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 5.26,
+        "to": 5.461,
+        "segment": "london-sprint"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -3820,6 +4261,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "temple-kom-from-fishing-village-side"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -3848,9 +4290,9 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint",
       "hilly-loop",
       "zwift-kom",
-      "watopia-sprint",
       "volcano-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -3875,10 +4317,21 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.224,
     "leadInElevation": 1,
     "segments": [
-      "watopia-sprint",
-      "watopia-sprint",
-      "watopia-sprint",
+      "innsbruck-uci-lap",
+      "innsbruck-sprint",
       "innsbruck-kom"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 0.206,
+        "to": 9.002,
+        "segment": "innsbruck-uci-lap"
+      },
+      {
+        "from": 17.783,
+        "to": 26.58,
+        "segment": "innsbruck-uci-lap"
+      }
     ],
     "levelLocked": false,
     "lap": false,
@@ -3908,6 +4361,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.095,
     "leadInElevationInMeetups": 1,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -3930,8 +4384,15 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 2.5,
     "leadInElevation": 23,
     "segments": [
-      "new-york-kom",
+      "new-york-kom-rev",
       "new-york-sprint-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 1.464,
+        "to": 2.606,
+        "segment": "new-york-kom-rev"
+      }
     ],
     "levelLocked": true,
     "lap": true,
@@ -3963,6 +4424,7 @@ export const routes: ReadonlyArray<Route> = [
       "temple-kom-from-castle-side",
       "country-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -3988,6 +4450,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.155,
     "leadInElevation": 2,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4011,6 +4474,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 1.18,
     "leadInElevationInMeetups": 1,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4044,6 +4508,23 @@ export const routes: ReadonlyArray<Route> = [
       "keith-hill",
       "fox-hill"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 0.484,
+        "to": 2.91,
+        "segment": "fox-hill"
+      },
+      {
+        "from": 10.25,
+        "to": 12.211,
+        "segment": "leith-hill"
+      },
+      {
+        "from": 25.4,
+        "to": 29.615,
+        "segment": "keith-hill"
+      }
+    ],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -4074,6 +4555,7 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint",
       "epic-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -4100,6 +4582,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-sprint"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4127,7 +4610,16 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 425,
     "leadInDistanceMeetups": 0.283,
     "leadInElevationInMeetups": 7,
-    "segments": [],
+    "segments": [
+      "innsbruck-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.896,
+        "to": 8.647,
+        "segment": "innsbruck-kom-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4155,6 +4647,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "watopia-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4179,6 +4672,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceFreeRide": 0.164,
     "leadInElevationFreeRide": 0,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4213,6 +4707,7 @@ export const routes: ReadonlyArray<Route> = [
       "epic-kom",
       "zwift-kom-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -4241,6 +4736,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 5,
     "segments": [
       "leith-hill"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 16.197,
+        "to": 18.149,
+        "segment": "leith-hill"
+      }
     ],
     "levelLocked": true,
     "lap": true,
@@ -4273,6 +4775,7 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint",
       "volcano-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -4301,6 +4804,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "volcano-circuit-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4331,6 +4835,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 7,
     "segments": [
       "new-york-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 9.035,
+        "to": 10.197,
+        "segment": "new-york-kom-rev"
+      }
     ],
     "levelLocked": true,
     "lap": true,
@@ -4363,7 +4874,14 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "country-sprint",
       "tower-sprint-rev",
-      "alley-sprint-rev"
+      "alley-sprint"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 11.036,
+        "to": 11.46,
+        "segment": "alley-sprint"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -4399,6 +4917,7 @@ export const routes: ReadonlyArray<Route> = [
       "petit-kom",
       "marina-sprint-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4435,6 +4954,7 @@ export const routes: ReadonlyArray<Route> = [
       "zwift-kom-rev",
       "fuego-flats"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4462,6 +4982,13 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "keith-hill"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 3.255,
+        "to": 7.488,
+        "segment": "keith-hill"
+      }
+    ],
     "levelLocked": true,
     "lap": true,
     "supportsTT": false,
@@ -4488,6 +5015,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 1.155,
     "leadInElevationInMeetups": 1,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4518,9 +5046,20 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 1,
     "segments": [
       "innsbruck-kom-rev",
-      "innsbruck-kom-rev",
       "innsbruck-kom",
       "innsbruck-sprint"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 2.899,
+        "to": 8.641,
+        "segment": "innsbruck-kom-rev"
+      },
+      {
+        "from": 26.861,
+        "to": 34.299,
+        "segment": "innsbruck-kom"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -4554,6 +5093,18 @@ export const routes: ReadonlyArray<Route> = [
       "london-sprint",
       "box-hill"
     ],
+    "segmentsOnRoute": [
+      {
+        "from": 6.759,
+        "to": 6.969,
+        "segment": "london-sprint"
+      },
+      {
+        "from": 11.728,
+        "to": 14.751,
+        "segment": "box-hill"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4581,6 +5132,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "epic-kom-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4611,6 +5163,7 @@ export const routes: ReadonlyArray<Route> = [
       "epic-kom",
       "volcano-kom"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4636,8 +5189,20 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 0.1,
     "leadInElevation": 0,
     "segments": [
-      "richmond-kom",
-      "23rd-st"
+      "richmond-kom-rev",
+      "23rd-st-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 1.3,
+        "to": 2.421,
+        "segment": "23rd-st-rev"
+      },
+      {
+        "from": 2.867,
+        "to": 3.573,
+        "segment": "richmond-kom-rev"
+      }
     ],
     "levelLocked": false,
     "lap": true,
@@ -4650,7 +5215,7 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentId": 22891973,
     "stravaSegmentUrl": "https://www.strava.com/segments/22891973",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-climbs-reverse",
-    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/cobbled-climbs"
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/cobbled-climbs-reverse"
   },
   {
     "id": 4210048937,
@@ -4667,6 +5232,18 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "london-sprint-rev",
       "leith-hill"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 13.969,
+        "to": 14.154,
+        "segment": "london-sprint-rev"
+      },
+      {
+        "from": 23.052,
+        "to": 25.003,
+        "segment": "leith-hill"
+      }
     ],
     "levelLocked": true,
     "lap": true,
@@ -4697,6 +5274,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.725,
     "leadInElevationInMeetups": 5,
     "segments": [],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -4724,6 +5302,7 @@ export const routes: ReadonlyArray<Route> = [
       "volcano-kom",
       "zwift-kom-rev"
     ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
