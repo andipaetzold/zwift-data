@@ -75,10 +75,10 @@ function doesRouteStartWithSegment(route, segment) {
 
   const {
     properties: { dist: startDistanceToRoute },
-  } = turf.nearestPointOnLine(routeLine(), segmentBack());
+  } = turf.nearestPointOnLine(routeLine(), segmentBack(), OPTIONS);
   const {
     properties: { dist: startDistanceToSegment },
-  } = turf.nearestPointOnLine(segmentLine(), routeBack());
+  } = turf.nearestPointOnLine(segmentLine(), routeBack(), OPTIONS);
 
   if (Math.min(startDistanceToRoute, startDistanceToSegment) > TOLERANCE) {
     return undefined;
@@ -87,11 +87,11 @@ function doesRouteStartWithSegment(route, segment) {
   while (routeIndex < route.length - 1 && segmentIndex < segment.length - 1) {
     const {
       properties: { dist: distanceToRoute },
-    } = turf.nearestPointOnLine(routeLine(), segmentFront());
+    } = turf.nearestPointOnLine(routeLine(), segmentFront(), OPTIONS);
 
     const {
       properties: { dist: distanceToSegment },
-    } = turf.nearestPointOnLine(segmentLine(), routeFront());
+    } = turf.nearestPointOnLine(segmentLine(), routeFront(), OPTIONS);
 
     if (Math.min(distanceToRoute, distanceToSegment) > TOLERANCE) {
       return 0;

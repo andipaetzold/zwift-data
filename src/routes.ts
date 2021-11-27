@@ -23,12 +23,32 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 5.403,
+        "to": 0,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.004,
+        "to": 0.004,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.008,
+        "to": 0.008,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.012,
+        "to": 0.012,
         "segment": "central-park-loop-rev"
       },
       {
         "from": 2.335,
-        "to": 3.106,
+        "to": 2.335,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 2.355,
+        "to": 2.355,
         "segment": "new-york-kom"
       },
       {
@@ -71,6 +91,16 @@ export const routes: ReadonlyArray<Route> = [
       "richmond-kom"
     ],
     "segmentsOnRoute": [
+      {
+        "from": 0.02,
+        "to": 0.02,
+        "segment": "richmond-uci-course"
+      },
+      {
+        "from": 0.027,
+        "to": 0.027,
+        "segment": "richmond-uci-course"
+      },
       {
         "from": 3.73,
         "to": 3.96,
@@ -137,8 +167,18 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 0,
+        "to": 0,
+        "segment": "london-loop"
+      },
+      {
         "from": 15.212,
-        "to": 18.241,
+        "to": 15.212,
+        "segment": "box-hill"
+      },
+      {
+        "from": 15.22,
+        "to": 15.22,
         "segment": "box-hill"
       },
       {
@@ -176,38 +216,7 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint-rev",
       "zwift-kom-rev"
     ],
-    "segmentsOnRoute": [
-      {
-        "from": 0,
-        "to": 6.149,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 2.431,
-        "to": 2.629,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 2.431,
-        "to": 2.629,
-        "segment": "watopia-sprint-rev"
-      },
-      {
-        "from": 2.969,
-        "to": 3.011,
-        "segment": "watopia-sprint"
-      },
-      {
-        "from": 4.789,
-        "to": 7.291,
-        "segment": "zwift-kom-rev"
-      },
-      {
-        "from": 8.189,
-        "to": 8.496,
-        "segment": "zwift-kom"
-      }
-    ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -270,7 +279,7 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 2.787,
+        "to": 0,
         "segment": "innsbruck-uci-lap"
       }
     ],
@@ -316,6 +325,11 @@ export const routes: ReadonlyArray<Route> = [
         "from": 14.277,
         "to": 14.468,
         "segment": "london-sprint-rev"
+      },
+      {
+        "from": 28.64,
+        "to": 28.64,
+        "segment": "london-loop"
       },
       {
         "from": 31.768,
@@ -374,12 +388,22 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 6.913,
-        "to": 9.419,
+        "to": 6.913,
+        "segment": "zwift-kom-rev"
+      },
+      {
+        "from": 6.931,
+        "to": 6.931,
         "segment": "zwift-kom-rev"
       },
       {
         "from": 10.31,
-        "to": 10.674,
+        "to": 10.31,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 10.334,
+        "to": 10.334,
         "segment": "zwift-kom"
       },
       {
@@ -389,57 +413,62 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 11.304,
-        "to": 27.937,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 11.304,
         "to": 11.304,
         "segment": "hilly-loop-rev"
       },
       {
         "from": 14.47,
-        "to": 18.199,
+        "to": 14.47,
         "segment": "volcano-kom"
       },
       {
-        "from": 22.297,
-        "to": 23.224,
+        "from": 14.488,
+        "to": 14.488,
         "segment": "volcano-kom"
       },
       {
         "from": 24.906,
-        "to": 25.688,
+        "to": 24.906,
         "segment": "volcano-circuit-rev"
       },
       {
-        "from": 24.924,
-        "to": 26.205,
-        "segment": "volcano-circuit"
+        "from": 30.595,
+        "to": 30.595,
+        "segment": "epic-kom-rev"
       },
       {
-        "from": 30.595,
-        "to": 33.915,
+        "from": 30.613,
+        "to": 30.613,
         "segment": "epic-kom-rev"
       },
       {
         "from": 38.932,
-        "to": 39.714,
+        "to": 38.932,
         "segment": "jungle-loop"
       },
       {
         "from": 38.932,
-        "to": 42.63,
+        "to": 38.932,
         "segment": "jungle-loop-rev"
       },
       {
-        "from": 46.622,
-        "to": 73.871,
-        "segment": "epic-kom-rev"
+        "from": 38.95,
+        "to": 38.95,
+        "segment": "jungle-loop"
+      },
+      {
+        "from": 38.95,
+        "to": 38.95,
+        "segment": "jungle-loop-rev"
       },
       {
         "from": 50.358,
-        "to": 50.73,
+        "to": 50.358,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 50.377,
+        "to": 50.377,
         "segment": "watopia-sprint"
       },
       {
@@ -464,17 +493,12 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 54.143,
-        "to": 56.526,
+        "to": 54.143,
         "segment": "volcano-circuit-rev"
       },
       {
-        "from": 54.16,
-        "to": 57.52,
-        "segment": "volcano-circuit"
-      },
-      {
         "from": 58.787,
-        "to": 83.395,
+        "to": 58.787,
         "segment": "hilly-loop"
       },
       {
@@ -485,57 +509,57 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 58.806,
         "to": 58.806,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 58.806,
+        "to": 58.806,
         "segment": "hilly-loop-rev"
       },
       {
         "from": 59.745,
-        "to": 60.665,
+        "to": 59.745,
         "segment": "zwift-kom"
       },
       {
-        "from": 70.199,
-        "to": 70.199,
-        "segment": "hilly-loop-rev"
+        "from": 59.762,
+        "to": 59.762,
+        "segment": "zwift-kom"
       },
       {
         "from": 72.641,
-        "to": 72.836,
+        "to": 72.641,
         "segment": "fuego-flats-rev"
       },
       {
         "from": 72.641,
-        "to": 72.836,
+        "to": 72.641,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 72.662,
+        "to": 72.662,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 72.662,
+        "to": 72.662,
         "segment": "watopia-sprint-rev"
       },
       {
         "from": 73.19,
-        "to": 73.227,
+        "to": 73.19,
         "segment": "watopia-sprint"
       },
       {
         "from": 75.663,
-        "to": 77.424,
-        "segment": "volcano-circuit"
-      },
-      {
-        "from": 75.663,
-        "to": 79.083,
+        "to": 75.663,
         "segment": "volcano-circuit-rev"
       },
       {
-        "from": 80.401,
-        "to": 80.752,
-        "segment": "watopia-sprint"
-      },
-      {
-        "from": 80.937,
-        "to": 80.937,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 80.937,
-        "to": 80.937,
-        "segment": "watopia-sprint-rev"
+        "from": 75.68,
+        "to": 75.68,
+        "segment": "volcano-circuit-rev"
       },
       {
         "from": 83.376,
@@ -546,6 +570,16 @@ export const routes: ReadonlyArray<Route> = [
         "from": 83.395,
         "to": 83.395,
         "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 87.79,
+        "to": 87.79,
+        "segment": "epic-kom"
+      },
+      {
+        "from": 87.808,
+        "to": 87.808,
+        "segment": "epic-kom"
       }
     ],
     "levelLocked": false,
@@ -578,13 +612,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "railway-sprint"
     ],
-    "segmentsOnRoute": [
-      {
-        "from": 0.2,
-        "to": 0.698,
-        "segment": "railway-sprint"
-      }
-    ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -618,13 +646,43 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 1.412,
+        "to": 1.412,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 1.412,
+        "to": 1.412,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 1.425,
+        "to": 1.425,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 1.425,
+        "to": 1.425,
+        "segment": "hilly-loop-rev"
+      },
+      {
         "from": 3.869,
-        "to": 4.064,
+        "to": 3.869,
         "segment": "fuego-flats-rev"
       },
       {
         "from": 3.869,
-        "to": 4.064,
+        "to": 3.869,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 3.882,
+        "to": 3.882,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 3.882,
+        "to": 3.882,
         "segment": "watopia-sprint-rev"
       }
     ],
@@ -732,14 +790,49 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 12.177,
+        "to": 12.177,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 12.177,
+        "to": 12.177,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 12.194,
+        "to": 12.194,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 12.194,
+        "to": 12.194,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 24.498,
+        "to": 24.498,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 24.515,
+        "to": 24.515,
+        "segment": "hilly-loop"
+      },
+      {
         "from": 33.703,
-        "to": 35.474,
+        "to": 33.703,
         "segment": "volcano-circuit"
       },
       {
-        "from": 33.718,
-        "to": 37.244,
-        "segment": "volcano-circuit-rev"
+        "from": 36.343,
+        "to": 36.343,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 36.358,
+        "to": 36.358,
+        "segment": "volcano-kom"
       }
     ],
     "levelLocked": false,
@@ -801,7 +894,18 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "new-york-kom"
     ],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 0,
+        "to": 0,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.009,
+        "to": 0.009,
+        "segment": "central-park-loop-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -834,13 +938,18 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 8.872,
-        "to": 11.39,
+        "to": 8.872,
         "segment": "temple-kom-from-fishing-village-side"
       },
       {
-        "from": 13.268,
-        "to": 13.287,
-        "segment": "temple-kom-from-castle-side"
+        "from": 8.88,
+        "to": 8.88,
+        "segment": "temple-kom-from-fishing-village-side"
+      },
+      {
+        "from": 8.887,
+        "to": 8.887,
+        "segment": "temple-kom-from-fishing-village-side"
       }
     ],
     "levelLocked": false,
@@ -880,37 +989,57 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 13.632,
+        "to": 0,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 0.002,
+        "to": 0.002,
         "segment": "hilly-loop-rev"
       },
       {
         "from": 2.425,
-        "to": 2.64,
+        "to": 2.425,
         "segment": "fuego-flats-rev"
       },
       {
         "from": 2.425,
-        "to": 2.64,
+        "to": 2.425,
         "segment": "watopia-sprint-rev"
       },
       {
-        "from": 2.979,
-        "to": 3.016,
-        "segment": "watopia-sprint"
+        "from": 2.446,
+        "to": 2.446,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 2.446,
+        "to": 2.446,
+        "segment": "watopia-sprint-rev"
       },
       {
         "from": 4.792,
-        "to": 7.302,
+        "to": 4.792,
+        "segment": "zwift-kom-rev"
+      },
+      {
+        "from": 4.811,
+        "to": 4.811,
         "segment": "zwift-kom-rev"
       },
       {
         "from": 8.203,
-        "to": 8.545,
+        "to": 8.203,
         "segment": "zwift-kom"
       },
       {
         "from": 15.235,
-        "to": 15.591,
+        "to": 15.235,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 15.254,
+        "to": 15.254,
         "segment": "watopia-sprint"
       },
       {
@@ -934,8 +1063,23 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "watopia-sprint-rev"
       },
       {
+        "from": 18.223,
+        "to": 18.223,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 18.242,
+        "to": 18.242,
+        "segment": "hilly-loop-rev"
+      },
+      {
         "from": 19.174,
-        "to": 20.101,
+        "to": 19.174,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 19.192,
+        "to": 19.192,
         "segment": "zwift-kom"
       }
     ],
@@ -974,18 +1118,13 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 10.251,
-        "to": 12.88,
+        "to": 10.251,
         "segment": "titans-grove-kom"
       },
       {
-        "from": 13.776,
-        "to": 13.776,
-        "segment": "titans-grove-kom-rev"
-      },
-      {
-        "from": 19.635,
-        "to": 20.142,
-        "segment": "fuego-flats"
+        "from": 10.274,
+        "to": 10.274,
+        "segment": "titans-grove-kom"
       }
     ],
     "levelLocked": false,
@@ -1158,12 +1297,17 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 14.85,
+        "to": 0,
         "segment": "london-loop"
       },
       {
         "from": 6.266,
-        "to": 9.304,
+        "to": 6.266,
+        "segment": "box-hill"
+      },
+      {
+        "from": 6.272,
+        "to": 6.272,
         "segment": "box-hill"
       },
       {
@@ -1172,8 +1316,28 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "fox-hill"
       },
       {
+        "from": 14.84,
+        "to": 14.84,
+        "segment": "london-loop"
+      },
+      {
+        "from": 14.85,
+        "to": 14.85,
+        "segment": "london-loop"
+      },
+      {
         "from": 21.114,
-        "to": 24.153,
+        "to": 21.114,
+        "segment": "box-hill"
+      },
+      {
+        "from": 21.12,
+        "to": 21.12,
+        "segment": "box-hill"
+      },
+      {
+        "from": 21.126,
+        "to": 21.126,
         "segment": "box-hill"
       },
       {
@@ -1183,12 +1347,22 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 29.699,
-        "to": 44.548,
+        "to": 29.699,
         "segment": "london-loop"
       },
       {
         "from": 35.963,
-        "to": 39.001,
+        "to": 35.963,
+        "segment": "box-hill"
+      },
+      {
+        "from": 35.97,
+        "to": 35.97,
+        "segment": "box-hill"
+      },
+      {
+        "from": 35.976,
+        "to": 35.976,
         "segment": "box-hill"
       },
       {
@@ -1197,14 +1371,34 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "fox-hill"
       },
       {
+        "from": 44.548,
+        "to": 44.548,
+        "segment": "london-loop"
+      },
+      {
         "from": 50.813,
-        "to": 53.848,
+        "to": 50.813,
+        "segment": "box-hill"
+      },
+      {
+        "from": 50.82,
+        "to": 50.82,
+        "segment": "box-hill"
+      },
+      {
+        "from": 50.826,
+        "to": 50.826,
         "segment": "box-hill"
       },
       {
         "from": 56.27,
         "to": 56.27,
         "segment": "fox-hill"
+      },
+      {
+        "from": 59.395,
+        "to": 59.395,
+        "segment": "london-loop"
       },
       {
         "from": 68.768,
@@ -1266,22 +1460,37 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 9.159,
-        "to": 10.902,
+        "to": 9.159,
         "segment": "volcano-circuit"
       },
       {
         "from": 9.159,
-        "to": 12.705,
+        "to": 9.159,
+        "segment": "volcano-circuit-rev"
+      },
+      {
+        "from": 9.18,
+        "to": 9.18,
         "segment": "volcano-circuit-rev"
       },
       {
         "from": 11.78,
-        "to": 15.513,
+        "to": 11.78,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 11.801,
+        "to": 11.801,
         "segment": "volcano-kom"
       },
       {
         "from": 19.596,
-        "to": 20.534,
+        "to": 19.596,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 19.618,
+        "to": 19.618,
         "segment": "volcano-kom"
       }
     ],
@@ -1321,23 +1530,23 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 2.641,
-        "to": 3.205,
+        "to": 2.641,
         "segment": "petit-kom"
       },
       {
-        "from": 5.75,
-        "to": 6.191,
-        "segment": "aqueduc-kom"
+        "from": 2.665,
+        "to": 2.665,
+        "segment": "petit-kom"
       },
       {
-        "from": 6.576,
-        "to": 6.599,
-        "segment": "aqueduc-kom-rev"
+        "from": 21.766,
+        "to": 21.766,
+        "segment": "ventoux-kom"
       },
       {
-        "from": 18.744,
-        "to": 19.094,
-        "segment": "marina-sprint"
+        "from": 21.785,
+        "to": 21.785,
+        "segment": "ventoux-kom"
       }
     ],
     "levelLocked": false,
@@ -1480,7 +1689,7 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 2.55,
-        "to": 2.77,
+        "to": 2.55,
         "segment": "23rd-st"
       },
       {
@@ -1490,7 +1699,7 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 4.065,
-        "to": 4.177,
+        "to": 4.065,
         "segment": "richmond-kom"
       },
       {
@@ -1500,7 +1709,17 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 12.315,
-        "to": 12.361,
+        "to": 12.315,
+        "segment": "richmond-sprint"
+      },
+      {
+        "from": 12.324,
+        "to": 12.324,
+        "segment": "richmond-sprint"
+      },
+      {
+        "from": 12.333,
+        "to": 12.333,
         "segment": "richmond-sprint"
       }
     ],
@@ -1535,17 +1754,27 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 1.743,
+        "to": 0,
         "segment": "volcano-circuit"
       },
       {
         "from": 0,
-        "to": 3.544,
+        "to": 0,
+        "segment": "volcano-circuit-rev"
+      },
+      {
+        "from": 0.016,
+        "to": 0.016,
         "segment": "volcano-circuit-rev"
       },
       {
         "from": 2.624,
-        "to": 6.354,
+        "to": 2.624,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 2.64,
+        "to": 2.64,
         "segment": "volcano-kom"
       }
     ],
@@ -1585,19 +1814,14 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 7.272,
-        "to": 7.272,
-        "segment": "ballon-sprint-rev"
-      },
-      {
         "from": 10.843,
-        "to": 11.277,
+        "to": 10.843,
         "segment": "aqueduc-kom"
       },
       {
-        "from": 11.676,
-        "to": 11.698,
-        "segment": "aqueduc-kom-rev"
+        "from": 10.861,
+        "to": 10.861,
+        "segment": "aqueduc-kom"
       }
     ],
     "levelLocked": false,
@@ -1648,7 +1872,7 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 4.223,
-        "to": 4.323,
+        "to": 4.223,
         "segment": "richmond-kom"
       },
       {
@@ -1660,6 +1884,16 @@ export const routes: ReadonlyArray<Route> = [
         "from": 12.456,
         "to": 12.456,
         "segment": "richmond-sprint"
+      },
+      {
+        "from": 16.171,
+        "to": 16.171,
+        "segment": "richmond-uci-course"
+      },
+      {
+        "from": 16.179,
+        "to": 16.179,
+        "segment": "richmond-uci-course"
       }
     ],
     "levelLocked": false,
@@ -1690,8 +1924,23 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 20.476,
+        "to": 20.476,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 20.486,
+        "to": 20.486,
+        "segment": "hilly-loop"
+      },
+      {
         "from": 25.013,
-        "to": 25.52,
+        "to": 25.013,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 25.024,
+        "to": 25.024,
         "segment": "fuego-flats"
       }
     ],
@@ -1904,12 +2153,27 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 22.008,
+        "to": 0,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.006,
+        "to": 0.006,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.013,
+        "to": 0.013,
         "segment": "central-park-loop-rev"
       },
       {
         "from": 2.343,
-        "to": 3.092,
+        "to": 2.343,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 2.361,
+        "to": 2.361,
         "segment": "new-york-kom"
       },
       {
@@ -1959,9 +2223,14 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [],
     "segmentsOnRoute": [
       {
-        "from": 3.984,
-        "to": 5.439,
-        "segment": "volcano-circuit"
+        "from": 1.404,
+        "to": 1.404,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 1.419,
+        "to": 1.419,
+        "segment": "hilly-loop-rev"
       }
     ],
     "levelLocked": false,
@@ -2021,14 +2290,19 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [],
     "segmentsOnRoute": [
       {
+        "from": 0,
+        "to": 0,
+        "segment": "hilly-loop-rev"
+      },
+      {
         "from": 8.785,
-        "to": 14.525,
+        "to": 8.785,
         "segment": "epic-kom-rev"
       },
       {
-        "from": 14.577,
-        "to": 14.577,
-        "segment": "epic-kom"
+        "from": 8.805,
+        "to": 8.805,
+        "segment": "epic-kom-rev"
       }
     ],
     "levelLocked": false,
@@ -2085,13 +2359,13 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 7.253,
-        "to": 7.273,
+        "to": 7.253,
         "segment": "ballon-sprint-rev"
       },
       {
-        "from": 8.086,
-        "to": 10.762,
-        "segment": "petit-kom"
+        "from": 7.273,
+        "to": 7.273,
+        "segment": "ballon-sprint-rev"
       }
     ],
     "levelLocked": false,
@@ -2131,22 +2405,42 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 7.571,
-        "to": 7.969,
+        "to": 7.571,
+        "segment": "alley-sprint-rev"
+      },
+      {
+        "from": 7.585,
+        "to": 7.585,
         "segment": "alley-sprint-rev"
       },
       {
         "from": 8.383,
+        "to": 8.383,
+        "segment": "alley-sprint"
+      },
+      {
+        "from": 8.397,
         "to": 8.397,
         "segment": "alley-sprint"
       },
       {
         "from": 11.173,
-        "to": 11.499,
+        "to": 11.173,
+        "segment": "tower-sprint"
+      },
+      {
+        "from": 11.187,
+        "to": 11.187,
         "segment": "tower-sprint"
       },
       {
         "from": 16.569,
-        "to": 18.451,
+        "to": 16.569,
+        "segment": "rooftop-kom"
+      },
+      {
+        "from": 16.582,
+        "to": 16.582,
         "segment": "rooftop-kom"
       }
     ],
@@ -2181,8 +2475,23 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 2.479,
-        "to": 2.976,
+        "to": 2.479,
         "segment": "temple-kom-from-fishing-village-side"
+      },
+      {
+        "from": 2.498,
+        "to": 2.498,
+        "segment": "temple-kom-from-fishing-village-side"
+      },
+      {
+        "from": 7.147,
+        "to": 7.147,
+        "segment": "temple-kom-from-castle-side"
+      },
+      {
+        "from": 7.161,
+        "to": 7.161,
+        "segment": "temple-kom-from-castle-side"
       }
     ],
     "levelLocked": false,
@@ -2225,103 +2534,83 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 4.065,
-        "to": 13.482,
-        "segment": "epic-kom"
-      },
-      {
         "from": 28.343,
-        "to": 29.112,
+        "to": 28.343,
         "segment": "jungle-loop"
       },
       {
-        "from": 28.343,
-        "to": 32.096,
-        "segment": "jungle-loop-rev"
-      },
-      {
-        "from": 36.052,
-        "to": 62.213,
-        "segment": "epic-kom-rev"
-      },
-      {
         "from": 42.031,
-        "to": 45.768,
+        "to": 42.031,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 42.047,
+        "to": 42.047,
         "segment": "volcano-kom"
       },
       {
         "from": 49.869,
-        "to": 50.798,
+        "to": 49.869,
         "segment": "volcano-kom"
       },
       {
-        "from": 53.723,
-        "to": 53.914,
+        "from": 101.77,
+        "to": 101.77,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 101.77,
+        "to": 101.77,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 101.788,
+        "to": 101.788,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 101.788,
+        "to": 101.788,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 104.217,
+        "to": 104.217,
         "segment": "fuego-flats-rev"
       },
       {
-        "from": 53.723,
-        "to": 53.914,
+        "from": 104.217,
+        "to": 104.217,
         "segment": "watopia-sprint-rev"
       },
       {
-        "from": 54.262,
-        "to": 54.297,
-        "segment": "watopia-sprint"
-      },
-      {
-        "from": 79.736,
-        "to": 82.236,
-        "segment": "zwift-kom-rev"
-      },
-      {
-        "from": 83.137,
-        "to": 83.476,
-        "segment": "zwift-kom"
-      },
-      {
-        "from": 87.46,
-        "to": 87.966,
-        "segment": "fuego-flats"
-      },
-      {
-        "from": 101.77,
-        "to": 101.77,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 101.77,
-        "to": 101.77,
-        "segment": "hilly-loop-rev"
-      },
-      {
-        "from": 101.788,
-        "to": 101.788,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 101.788,
-        "to": 101.788,
-        "segment": "hilly-loop-rev"
-      },
-      {
-        "from": 104.217,
-        "to": 104.428,
+        "from": 104.237,
+        "to": 104.237,
         "segment": "fuego-flats-rev"
       },
       {
-        "from": 104.217,
-        "to": 104.428,
+        "from": 104.237,
+        "to": 104.237,
         "segment": "watopia-sprint-rev"
       },
       {
         "from": 104.758,
-        "to": 104.811,
+        "to": 104.758,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 104.775,
+        "to": 104.775,
         "segment": "watopia-sprint"
       },
       {
         "from": 108.496,
-        "to": 111.82,
+        "to": 108.496,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 108.513,
+        "to": 108.513,
         "segment": "epic-kom-rev"
       }
     ],
@@ -2389,12 +2678,22 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 0,
+        "to": 0,
+        "segment": "richmond-uci-course"
+      },
+      {
         "from": 4.915,
         "to": 5.57,
         "segment": "richmond-kom"
       },
       {
         "from": 6.269,
+        "to": 6.269,
+        "segment": "richmond-kom-rev"
+      },
+      {
+        "from": 6.288,
         "to": 6.288,
         "segment": "richmond-kom-rev"
       },
@@ -2405,6 +2704,11 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 7.839,
+        "to": 7.839,
+        "segment": "23rd-st-rev"
+      },
+      {
+        "from": 7.855,
         "to": 7.855,
         "segment": "23rd-st-rev"
       }
@@ -2438,13 +2742,7 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "temple-kom-from-fishing-village-side"
     ],
-    "segmentsOnRoute": [
-      {
-        "from": 1.882,
-        "to": 1.903,
-        "segment": "temple-kom-from-castle-side"
-      }
-    ],
+    "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -2575,12 +2873,17 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 1.386,
-        "to": 1.728,
+        "to": 1.386,
         "segment": "new-york-kom"
       },
       {
         "from": 8.991,
-        "to": 9.742,
+        "to": 8.991,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 9.011,
+        "to": 9.011,
         "segment": "new-york-kom"
       },
       {
@@ -2622,13 +2925,23 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 1.243,
+        "to": 0,
         "segment": "volcano-circuit"
       },
       {
-        "from": 5.668,
-        "to": 8.963,
-        "segment": "epic-kom-rev"
+        "from": 0.006,
+        "to": 0.006,
+        "segment": "volcano-circuit"
+      },
+      {
+        "from": 12.86,
+        "to": 12.86,
+        "segment": "alpe-du-zwift"
+      },
+      {
+        "from": 12.881,
+        "to": 12.881,
+        "segment": "alpe-du-zwift"
       }
     ],
     "levelLocked": false,
@@ -2673,17 +2986,22 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 12.495,
-        "to": 12.906,
+        "to": 12.495,
         "segment": "aqueduc-kom-rev"
       },
       {
-        "from": 13.324,
-        "to": 13.385,
-        "segment": "aqueduc-kom"
+        "from": 12.513,
+        "to": 12.513,
+        "segment": "aqueduc-kom-rev"
       },
       {
         "from": 16.884,
-        "to": 17.242,
+        "to": 16.884,
+        "segment": "ballon-sprint-rev"
+      },
+      {
+        "from": 16.904,
+        "to": 16.904,
         "segment": "ballon-sprint-rev"
       }
     ],
@@ -2785,6 +3103,11 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 16.598,
+        "to": 16.598,
+        "segment": "london-loop"
+      },
+      {
         "from": 23.368,
         "to": 23.566,
         "segment": "london-sprint-rev"
@@ -2854,7 +3177,17 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 2.695,
-        "to": 4.591,
+        "to": 2.695,
+        "segment": "temple-kom-from-castle-side"
+      },
+      {
+        "from": 2.701,
+        "to": 2.701,
+        "segment": "temple-kom-from-castle-side"
+      },
+      {
+        "from": 2.707,
+        "to": 2.707,
         "segment": "temple-kom-from-castle-side"
       }
     ],
@@ -2893,12 +3226,27 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 7.446,
+        "to": 0,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.004,
+        "to": 0.004,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.01,
+        "to": 0.01,
         "segment": "central-park-loop-rev"
       },
       {
         "from": 11.043,
-        "to": 11.799,
+        "to": 11.043,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 11.063,
+        "to": 11.063,
         "segment": "new-york-kom"
       },
       {
@@ -2981,7 +3329,7 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 15.805,
-        "to": 15.872,
+        "to": 15.805,
         "segment": "fuego-flats"
       }
     ],
@@ -3019,23 +3367,23 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 2.576,
-        "to": 2.9,
-        "segment": "titans-grove-kom"
-      },
-      {
         "from": 6.059,
-        "to": 15.495,
+        "to": 6.059,
         "segment": "epic-kom"
       },
       {
-        "from": 24.442,
-        "to": 24.468,
-        "segment": "epic-kom-rev"
+        "from": 6.08,
+        "to": 6.08,
+        "segment": "epic-kom"
       },
       {
         "from": 32.968,
-        "to": 33.9,
+        "to": 32.968,
+        "segment": "titans-grove-kom-rev"
+      },
+      {
+        "from": 32.989,
+        "to": 32.989,
         "segment": "titans-grove-kom-rev"
       }
     ],
@@ -3089,28 +3437,38 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 4.527,
-        "to": 5.033,
+        "to": 4.527,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 4.535,
+        "to": 4.535,
         "segment": "fuego-flats"
       },
       {
         "from": 15.059,
-        "to": 24.481,
+        "to": 15.059,
+        "segment": "epic-kom"
+      },
+      {
+        "from": 15.065,
+        "to": 15.065,
+        "segment": "epic-kom"
+      },
+      {
+        "from": 15.071,
+        "to": 15.071,
         "segment": "epic-kom"
       },
       {
         "from": 35.925,
-        "to": 40.204,
+        "to": 35.925,
         "segment": "jungle-loop"
       },
       {
         "from": 35.947,
-        "to": 37.846,
-        "segment": "jungle-loop-rev"
-      },
-      {
-        "from": 44.287,
-        "to": 44.315,
-        "segment": "epic-kom-rev"
+        "to": 35.947,
+        "segment": "jungle-loop"
       }
     ],
     "levelLocked": false,
@@ -3213,6 +3571,11 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 14.872,
+        "to": 14.872,
+        "segment": "23rd-st-rev"
+      },
+      {
+        "from": 14.89,
         "to": 14.89,
         "segment": "23rd-st-rev"
       }
@@ -3299,12 +3662,17 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 14.85,
+        "to": 0,
         "segment": "london-loop"
       },
       {
         "from": 6.262,
-        "to": 9.304,
+        "to": 6.262,
+        "segment": "box-hill"
+      },
+      {
+        "from": 6.279,
+        "to": 6.279,
         "segment": "box-hill"
       },
       {
@@ -3318,8 +3686,18 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "fox-hill"
       },
       {
+        "from": 14.85,
+        "to": 14.85,
+        "segment": "london-loop"
+      },
+      {
         "from": 21.119,
-        "to": 24.142,
+        "to": 21.119,
+        "segment": "box-hill"
+      },
+      {
+        "from": 21.136,
+        "to": 21.136,
         "segment": "box-hill"
       },
       {
@@ -3334,7 +3712,7 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 29.708,
-        "to": 44.566,
+        "to": 29.708,
         "segment": "london-loop"
       },
       {
@@ -3348,6 +3726,16 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "fox-hill"
       },
       {
+        "from": 44.548,
+        "to": 44.548,
+        "segment": "london-loop"
+      },
+      {
+        "from": 44.566,
+        "to": 44.566,
+        "segment": "london-loop"
+      },
+      {
         "from": 50.836,
         "to": 53.86,
         "segment": "box-hill"
@@ -3359,7 +3747,12 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 59.406,
-        "to": 74.282,
+        "to": 59.406,
+        "segment": "london-loop"
+      },
+      {
+        "from": 59.424,
+        "to": 59.424,
         "segment": "london-loop"
       },
       {
@@ -3371,6 +3764,16 @@ export const routes: ReadonlyArray<Route> = [
         "from": 71.13,
         "to": 71.13,
         "segment": "fox-hill"
+      },
+      {
+        "from": 74.264,
+        "to": 74.264,
+        "segment": "london-loop"
+      },
+      {
+        "from": 74.282,
+        "to": 74.282,
+        "segment": "london-loop"
       },
       {
         "from": 80.552,
@@ -3424,12 +3827,12 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 133.7,
-        "to": 148.556,
+        "to": 133.7,
         "segment": "london-loop"
       },
       {
         "from": 139.987,
-        "to": 143.011,
+        "to": 139.987,
         "segment": "box-hill"
       },
       {
@@ -3438,14 +3841,24 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "fox-hill"
       },
       {
+        "from": 148.556,
+        "to": 148.556,
+        "segment": "london-loop"
+      },
+      {
         "from": 154.844,
-        "to": 157.868,
+        "to": 154.844,
         "segment": "box-hill"
       },
       {
         "from": 160.284,
         "to": 160.284,
         "segment": "fox-hill"
+      },
+      {
+        "from": 163.412,
+        "to": 163.412,
+        "segment": "london-loop"
       },
       {
         "from": 172.803,
@@ -3484,28 +3897,18 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 1.833,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 0,
-        "to": 10.963,
+        "to": 0,
         "segment": "hilly-loop-rev"
       },
       {
-        "from": 6.887,
-        "to": 9.371,
-        "segment": "zwift-kom-rev"
-      },
-      {
         "from": 10.273,
-        "to": 10.587,
+        "to": 10.273,
         "segment": "zwift-kom"
       },
       {
-        "from": 14.609,
-        "to": 15.119,
-        "segment": "fuego-flats"
+        "from": 10.299,
+        "to": 10.299,
+        "segment": "zwift-kom"
       }
     ],
     "levelLocked": false,
@@ -3539,23 +3942,33 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 4.291,
-        "to": 13.709,
+        "to": 4.291,
         "segment": "epic-kom"
       },
       {
+        "from": 4.301,
+        "to": 4.301,
+        "segment": "epic-kom"
+      },
+      {
+        "from": 22.642,
+        "to": 22.642,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 22.663,
+        "to": 22.663,
+        "segment": "epic-kom-rev"
+      },
+      {
         "from": 26.384,
-        "to": 26.745,
+        "to": 26.384,
         "segment": "watopia-sprint"
       },
       {
-        "from": 26.928,
-        "to": 28.877,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 26.928,
-        "to": 28.877,
-        "segment": "watopia-sprint-rev"
+        "from": 26.396,
+        "to": 26.396,
+        "segment": "watopia-sprint"
       },
       {
         "from": 29.357,
@@ -3566,6 +3979,16 @@ export const routes: ReadonlyArray<Route> = [
         "from": 29.369,
         "to": 29.369,
         "segment": "hilly-loop"
+      },
+      {
+        "from": 33.771,
+        "to": 33.771,
+        "segment": "epic-kom"
+      },
+      {
+        "from": 33.781,
+        "to": 33.781,
+        "segment": "epic-kom"
       }
     ],
     "levelLocked": false,
@@ -3645,58 +4068,53 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 2.646,
-        "to": 2.845,
+        "to": 2.646,
         "segment": "petit-kom"
       },
       {
-        "from": 3.484,
-        "to": 3.817,
-        "segment": "ballon-sprint-rev"
-      },
-      {
-        "from": 10.989,
-        "to": 11.01,
-        "segment": "marina-sprint"
+        "from": 2.669,
+        "to": 2.669,
+        "segment": "petit-kom"
       },
       {
         "from": 23.149,
-        "to": 23.564,
+        "to": 23.149,
         "segment": "aqueduc-kom-rev"
       },
       {
-        "from": 23.979,
-        "to": 24.043,
-        "segment": "aqueduc-kom"
-      },
-      {
-        "from": 27.077,
-        "to": 29.753,
-        "segment": "petit-kom"
-      },
-      {
-        "from": 30.994,
-        "to": 30.994,
-        "segment": "ventoux-kom"
-      },
-      {
-        "from": 40.118,
-        "to": 40.138,
-        "segment": "ballon-sprint-rev"
+        "from": 23.168,
+        "to": 23.168,
+        "segment": "aqueduc-kom-rev"
       },
       {
         "from": 43.694,
-        "to": 44.126,
+        "to": 43.694,
         "segment": "aqueduc-kom"
       },
       {
-        "from": 44.533,
-        "to": 44.556,
-        "segment": "aqueduc-kom-rev"
+        "from": 43.713,
+        "to": 43.713,
+        "segment": "aqueduc-kom"
       },
       {
         "from": 56.683,
-        "to": 57.046,
+        "to": 56.683,
         "segment": "marina-sprint"
+      },
+      {
+        "from": 56.701,
+        "to": 56.701,
+        "segment": "marina-sprint"
+      },
+      {
+        "from": 59.707,
+        "to": 59.707,
+        "segment": "ventoux-kom"
+      },
+      {
+        "from": 59.721,
+        "to": 59.721,
+        "segment": "ventoux-kom"
       }
     ],
     "levelLocked": false,
@@ -3759,8 +4177,18 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 0,
+        "to": 0,
+        "segment": "hilly-loop-rev"
+      },
+      {
         "from": 5.608,
-        "to": 5.98,
+        "to": 5.608,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 5.622,
+        "to": 5.622,
         "segment": "watopia-sprint"
       }
     ],
@@ -3805,29 +4233,19 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "hilly-loop"
       },
       {
-        "from": 0,
-        "to": 0,
-        "segment": "hilly-loop-rev"
+        "from": 4.414,
+        "to": 4.414,
+        "segment": "epic-kom"
       },
       {
-        "from": 4.414,
-        "to": 13.855,
+        "from": 4.433,
+        "to": 4.433,
         "segment": "epic-kom"
       },
       {
         "from": 22.791,
-        "to": 53.851,
+        "to": 22.791,
         "segment": "epic-kom-rev"
-      },
-      {
-        "from": 26.317,
-        "to": 28.826,
-        "segment": "zwift-kom-rev"
-      },
-      {
-        "from": 29.712,
-        "to": 30.064,
-        "segment": "zwift-kom"
       },
       {
         "from": 30.674,
@@ -3836,48 +4254,48 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 30.693,
-        "to": 53.983,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 30.693,
         "to": 30.693,
         "segment": "hilly-loop-rev"
       },
       {
         "from": 33.127,
-        "to": 33.336,
+        "to": 33.127,
         "segment": "fuego-flats-rev"
       },
       {
         "from": 33.127,
-        "to": 33.336,
+        "to": 33.127,
         "segment": "watopia-sprint-rev"
       },
       {
-        "from": 33.676,
-        "to": 33.711,
-        "segment": "watopia-sprint"
+        "from": 33.147,
+        "to": 33.147,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 33.147,
+        "to": 33.147,
+        "segment": "watopia-sprint-rev"
       },
       {
         "from": 40.716,
-        "to": 41.627,
+        "to": 40.716,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 40.733,
+        "to": 40.733,
         "segment": "zwift-kom"
       },
       {
         "from": 69.206,
-        "to": 69.583,
+        "to": 69.206,
         "segment": "watopia-sprint"
       },
       {
-        "from": 69.761,
-        "to": 69.761,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 69.761,
-        "to": 69.761,
-        "segment": "watopia-sprint-rev"
+        "from": 69.225,
+        "to": 69.225,
+        "segment": "watopia-sprint"
       }
     ],
     "levelLocked": false,
@@ -4033,7 +4451,18 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "alpe-du-zwift"
     ],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 5.033,
+        "to": 5.033,
+        "segment": "alpe-du-zwift"
+      },
+      {
+        "from": 5.054,
+        "to": 5.054,
+        "segment": "alpe-du-zwift"
+      }
+    ],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -4069,38 +4498,18 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 2.58,
-        "to": 2.897,
-        "segment": "titans-grove-kom"
-      },
-      {
-        "from": 8.889,
-        "to": 12.2,
-        "segment": "epic-kom-rev"
-      },
-      {
         "from": 17.225,
-        "to": 17.998,
+        "to": 17.225,
         "segment": "jungle-loop"
       },
       {
-        "from": 17.225,
-        "to": 20.955,
-        "segment": "jungle-loop-rev"
-      },
-      {
-        "from": 24.942,
-        "to": 24.995,
-        "segment": "epic-kom-rev"
-      },
-      {
-        "from": 33.497,
-        "to": 34.408,
-        "segment": "titans-grove-kom-rev"
-      },
-      {
         "from": 36.974,
-        "to": 37.313,
+        "to": 36.974,
+        "segment": "titans-grove-kom"
+      },
+      {
+        "from": 36.997,
+        "to": 36.997,
         "segment": "titans-grove-kom"
       }
     ],
@@ -4175,22 +4584,22 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 0.941,
-        "to": 1.863,
-        "segment": "zwift-kom"
-      },
-      {
-        "from": 6.148,
-        "to": 6.511,
-        "segment": "watopia-sprint"
-      },
-      {
         "from": 6.681,
-        "to": 6.703,
+        "to": 6.681,
         "segment": "fuego-flats-rev"
       },
       {
         "from": 6.681,
+        "to": 6.681,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 6.703,
+        "to": 6.703,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 6.703,
         "to": 6.703,
         "segment": "watopia-sprint-rev"
       }
@@ -4232,7 +4641,12 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 15.339,
-        "to": 15.721,
+        "to": 15.339,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 15.363,
+        "to": 15.363,
         "segment": "watopia-sprint"
       },
       {
@@ -4246,18 +4660,8 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "watopia-sprint-rev"
       },
       {
-        "from": 19.761,
-        "to": 23.475,
-        "segment": "volcano-kom"
-      },
-      {
-        "from": 31.648,
-        "to": 34.138,
-        "segment": "zwift-kom-rev"
-      },
-      {
         "from": 35.05,
-        "to": 35.339,
+        "to": 35.05,
         "segment": "zwift-kom"
       }
     ],
@@ -4293,18 +4697,33 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 6.158,
+        "to": 0,
+        "segment": "jungle-loop-rev"
+      },
+      {
+        "from": 0.001,
+        "to": 0.001,
+        "segment": "jungle-loop-rev"
+      },
+      {
+        "from": 0.002,
+        "to": 0.002,
+        "segment": "jungle-loop-rev"
+      },
+      {
+        "from": 0.002,
+        "to": 0.002,
         "segment": "jungle-loop-rev"
       },
       {
         "from": 9.558,
-        "to": 15.796,
+        "to": 9.558,
         "segment": "jungle-loop"
       },
       {
         "from": 9.578,
-        "to": 11.476,
-        "segment": "jungle-loop-rev"
+        "to": 9.578,
+        "segment": "jungle-loop"
       }
     ],
     "levelLocked": false,
@@ -4407,59 +4826,54 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "marina-sprint"
       },
       {
-        "from": 12.492,
-        "to": 12.919,
-        "segment": "aqueduc-kom-rev"
-      },
-      {
-        "from": 13.323,
-        "to": 13.389,
-        "segment": "aqueduc-kom"
-      },
-      {
         "from": 16.885,
-        "to": 17.225,
+        "to": 16.885,
         "segment": "ballon-sprint-rev"
       },
       {
-        "from": 26.027,
-        "to": 26.027,
-        "segment": "ventoux-kom"
+        "from": 16.906,
+        "to": 16.906,
+        "segment": "ballon-sprint-rev"
       },
       {
         "from": 29.925,
-        "to": 30.682,
+        "to": 29.925,
+        "segment": "petit-kom"
+      },
+      {
+        "from": 29.948,
+        "to": 29.948,
         "segment": "petit-kom"
       },
       {
         "from": 33.027,
-        "to": 33.471,
+        "to": 33.027,
         "segment": "aqueduc-kom"
       },
       {
-        "from": 33.866,
-        "to": 33.888,
-        "segment": "aqueduc-kom-rev"
+        "from": 33.046,
+        "to": 33.046,
+        "segment": "aqueduc-kom"
       },
       {
         "from": 46.009,
-        "to": 46.369,
+        "to": 46.009,
         "segment": "marina-sprint"
       },
       {
-        "from": 53.531,
-        "to": 53.552,
-        "segment": "ballon-sprint-rev"
+        "from": 46.031,
+        "to": 46.031,
+        "segment": "marina-sprint"
       },
       {
         "from": 54.341,
-        "to": 57.044,
+        "to": 54.341,
         "segment": "petit-kom"
       },
       {
-        "from": 58.268,
-        "to": 58.268,
-        "segment": "ventoux-kom"
+        "from": 54.362,
+        "to": 54.362,
+        "segment": "petit-kom"
       }
     ],
     "levelLocked": false,
@@ -4525,23 +4939,53 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 19.408,
+        "to": 0,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 0.001,
+        "to": 0.001,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 0.003,
+        "to": 0.003,
         "segment": "hilly-loop"
       },
       {
         "from": 0.932,
-        "to": 1.864,
+        "to": 0.932,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 0.951,
+        "to": 0.951,
         "segment": "zwift-kom"
       },
       {
         "from": 8.401,
-        "to": 12.123,
+        "to": 8.401,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 8.417,
+        "to": 8.417,
         "segment": "volcano-kom"
       },
       {
         "from": 16.221,
-        "to": 17.151,
+        "to": 16.221,
         "segment": "volcano-kom"
+      },
+      {
+        "from": 16.241,
+        "to": 16.241,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 19.39,
+        "to": 19.39,
+        "segment": "hilly-loop"
       },
       {
         "from": 19.39,
@@ -4551,31 +4995,46 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 19.408,
         "to": 19.408,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 19.408,
+        "to": 19.408,
         "segment": "hilly-loop-rev"
       },
       {
-        "from": 23.81,
-        "to": 33.242,
-        "segment": "epic-kom"
-      },
-      {
-        "from": 46.958,
-        "to": 59.206,
+        "from": 72.421,
+        "to": 72.421,
         "segment": "alpe-du-zwift"
       },
       {
-        "from": 72.421,
+        "from": 72.447,
         "to": 72.447,
         "segment": "alpe-du-zwift"
       },
       {
         "from": 73.976,
-        "to": 78.253,
+        "to": 73.976,
         "segment": "jungle-loop"
       },
       {
+        "from": 73.987,
+        "to": 73.987,
+        "segment": "jungle-loop"
+      },
+      {
+        "from": 82.33,
+        "to": 82.33,
+        "segment": "epic-kom-rev"
+      },
+      {
         "from": 86.053,
-        "to": 86.418,
+        "to": 86.053,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 86.071,
+        "to": 86.071,
         "segment": "watopia-sprint"
       },
       {
@@ -4624,29 +5083,14 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 2.598,
-        "to": 4.475,
-        "segment": "rooftop-kom"
-      },
-      {
-        "from": 14.371,
-        "to": 17.05,
-        "segment": "castle-kom"
-      },
-      {
         "from": 19.315,
-        "to": 21.837,
+        "to": 19.315,
         "segment": "temple-kom-from-fishing-village-side"
       },
       {
-        "from": 23.714,
-        "to": 23.735,
-        "segment": "temple-kom-from-castle-side"
-      },
-      {
-        "from": 27.619,
-        "to": 27.732,
-        "segment": "castle-kom"
+        "from": 19.333,
+        "to": 19.333,
+        "segment": "temple-kom-from-fishing-village-side"
       }
     ],
     "levelLocked": false,
@@ -4735,7 +5179,12 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 1.048,
-        "to": 1.801,
+        "to": 1.048,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 1.068,
+        "to": 1.068,
         "segment": "new-york-kom"
       },
       {
@@ -4780,19 +5229,29 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "hilly-loop"
       },
       {
-        "from": 4.408,
-        "to": 13.825,
-        "segment": "epic-kom"
-      },
-      {
         "from": 25.286,
-        "to": 29.553,
+        "to": 25.286,
         "segment": "jungle-loop"
       },
       {
         "from": 25.286,
-        "to": 27.204,
+        "to": 25.286,
         "segment": "jungle-loop-rev"
+      },
+      {
+        "from": 25.305,
+        "to": 25.305,
+        "segment": "jungle-loop"
+      },
+      {
+        "from": 33.619,
+        "to": 33.619,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 33.645,
+        "to": 33.645,
+        "segment": "epic-kom-rev"
       }
     ],
     "levelLocked": false,
@@ -4840,7 +5299,7 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 11.408,
-        "to": 12.021,
+        "to": 11.408,
         "segment": "new-york-kom"
       }
     ],
@@ -4877,23 +5336,23 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 4.391,
-        "to": 13.816,
+        "to": 4.391,
+        "segment": "epic-kom"
+      },
+      {
+        "from": 4.411,
+        "to": 4.411,
         "segment": "epic-kom"
       },
       {
         "from": 26.495,
-        "to": 26.868,
+        "to": 26.495,
         "segment": "watopia-sprint"
       },
       {
-        "from": 27.044,
-        "to": 27.044,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 27.044,
-        "to": 27.044,
-        "segment": "watopia-sprint-rev"
+        "from": 26.515,
+        "to": 26.515,
+        "segment": "watopia-sprint"
       }
     ],
     "levelLocked": false,
@@ -4924,23 +5383,18 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 8.759,
-        "to": 12.087,
+        "to": 8.759,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 8.78,
+        "to": 8.78,
         "segment": "epic-kom-rev"
       },
       {
         "from": 17.093,
-        "to": 17.849,
+        "to": 17.093,
         "segment": "jungle-loop"
-      },
-      {
-        "from": 17.093,
-        "to": 20.787,
-        "segment": "jungle-loop-rev"
-      },
-      {
-        "from": 24.779,
-        "to": 24.779,
-        "segment": "epic-kom-rev"
       }
     ],
     "levelLocked": false,
@@ -4977,29 +5431,54 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 3.637,
-        "to": 4.553,
-        "segment": "titans-grove-kom-rev"
+        "from": 7.132,
+        "to": 7.132,
+        "segment": "titans-grove-kom"
       },
       {
-        "from": 7.132,
-        "to": 8.809,
+        "from": 7.146,
+        "to": 7.146,
         "segment": "titans-grove-kom"
       },
       {
         "from": 10.642,
-        "to": 20.064,
+        "to": 10.642,
+        "segment": "epic-kom"
+      },
+      {
+        "from": 10.652,
+        "to": 10.652,
         "segment": "epic-kom"
       },
       {
         "from": 32.151,
-        "to": 36.446,
+        "to": 32.151,
         "segment": "jungle-loop"
       },
       {
         "from": 32.151,
-        "to": 36.446,
+        "to": 32.151,
         "segment": "jungle-loop-rev"
+      },
+      {
+        "from": 32.164,
+        "to": 32.164,
+        "segment": "jungle-loop"
+      },
+      {
+        "from": 32.164,
+        "to": 32.164,
+        "segment": "jungle-loop-rev"
+      },
+      {
+        "from": 33.698,
+        "to": 33.698,
+        "segment": "alpe-du-zwift"
+      },
+      {
+        "from": 33.709,
+        "to": 33.709,
+        "segment": "alpe-du-zwift"
       }
     ],
     "levelLocked": false,
@@ -5131,47 +5610,52 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 22.703,
+        "to": 0,
         "segment": "hilly-loop-rev"
       },
       {
-        "from": 2.437,
-        "to": 2.633,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 2.437,
-        "to": 2.633,
-        "segment": "watopia-sprint-rev"
-      },
-      {
         "from": 2.973,
-        "to": 3.022,
+        "to": 2.973,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 2.989,
+        "to": 2.989,
         "segment": "watopia-sprint"
       },
       {
         "from": 4.793,
-        "to": 5.988,
+        "to": 4.793,
+        "segment": "zwift-kom-rev"
+      },
+      {
+        "from": 4.809,
+        "to": 4.809,
         "segment": "zwift-kom-rev"
       },
       {
         "from": 6.12,
-        "to": 6.461,
+        "to": 6.12,
         "segment": "zwift-kom"
       },
       {
-        "from": 11.711,
-        "to": 12.623,
-        "segment": "titans-grove-kom-rev"
+        "from": 15.192,
+        "to": 15.192,
+        "segment": "titans-grove-kom"
       },
       {
-        "from": 15.192,
-        "to": 15.547,
+        "from": 15.211,
+        "to": 15.211,
         "segment": "titans-grove-kom"
       },
       {
         "from": 21.516,
-        "to": 27.698,
+        "to": 21.516,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 21.532,
+        "to": 21.532,
         "segment": "epic-kom-rev"
       }
     ],
@@ -5220,12 +5704,22 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 11.524,
-        "to": 12.103,
+        "to": 11.524,
         "segment": "new-york-kom"
       },
       {
         "from": 15.438,
-        "to": 16.197,
+        "to": 15.438,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 15.456,
+        "to": 15.456,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 15.473,
+        "to": 15.473,
         "segment": "new-york-kom"
       },
       {
@@ -5269,7 +5763,7 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 3.002,
+        "to": 0,
         "segment": "innsbruck-uci-lap"
       }
     ],
@@ -5303,16 +5797,6 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint"
     ],
     "segmentsOnRoute": [
-      {
-        "from": 4.713,
-        "to": 10.625,
-        "segment": "epic-kom-rev"
-      },
-      {
-        "from": 29.021,
-        "to": 29.383,
-        "segment": "watopia-sprint"
-      },
       {
         "from": 29.554,
         "to": 29.554,
@@ -5355,8 +5839,23 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 0,
+        "to": 0,
+        "segment": "london-loop"
+      },
+      {
         "from": 12.417,
-        "to": 15.449,
+        "to": 12.417,
+        "segment": "box-hill"
+      },
+      {
+        "from": 12.423,
+        "to": 12.423,
+        "segment": "box-hill"
+      },
+      {
+        "from": 12.427,
+        "to": 12.427,
         "segment": "box-hill"
       },
       {
@@ -5458,28 +5957,18 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 2.436,
-        "to": 2.633,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 2.436,
-        "to": 2.633,
-        "segment": "watopia-sprint-rev"
-      },
-      {
-        "from": 2.972,
-        "to": 3.014,
-        "segment": "watopia-sprint"
-      },
-      {
-        "from": 4.791,
-        "to": 5.975,
-        "segment": "zwift-kom-rev"
+        "from": 0,
+        "to": 0,
+        "segment": "hilly-loop-rev"
       },
       {
         "from": 6.102,
-        "to": 6.435,
+        "to": 6.102,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 6.128,
+        "to": 6.128,
         "segment": "zwift-kom"
       }
     ],
@@ -5520,12 +6009,22 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 4.417,
-        "to": 4.843,
+        "to": 4.417,
+        "segment": "alley-sprint"
+      },
+      {
+        "from": 4.432,
+        "to": 4.432,
         "segment": "alley-sprint"
       },
       {
         "from": 7.647,
-        "to": 8.146,
+        "to": 7.647,
+        "segment": "railway-sprint"
+      },
+      {
+        "from": 7.66,
+        "to": 7.66,
         "segment": "railway-sprint"
       }
     ],
@@ -5593,7 +6092,23 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "fuego-flats"
     ],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 16.385,
+        "to": 16.385,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 16.39,
+        "to": 16.39,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 16.395,
+        "to": 16.395,
+        "segment": "fuego-flats"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -5626,12 +6141,22 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 4.995,
-        "to": 8.076,
+        "to": 4.995,
+        "segment": "castle-kom"
+      },
+      {
+        "from": 5.011,
+        "to": 5.011,
         "segment": "castle-kom"
       },
       {
         "from": 15.525,
-        "to": 17.659,
+        "to": 15.525,
+        "segment": "castle-kom"
+      },
+      {
+        "from": 15.541,
+        "to": 15.541,
         "segment": "castle-kom"
       }
     ],
@@ -5668,7 +6193,12 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 1.412,
-        "to": 3.249,
+        "to": 1.412,
+        "segment": "castle-kom"
+      },
+      {
+        "from": 1.433,
+        "to": 1.433,
         "segment": "castle-kom"
       }
     ],
@@ -5708,39 +6238,94 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 0,
+        "to": 0,
+        "segment": "hilly-loop"
+      },
+      {
         "from": 7.022,
-        "to": 9.524,
+        "to": 7.022,
         "segment": "zwift-kom-rev"
       },
       {
-        "from": 10.426,
-        "to": 11.063,
-        "segment": "zwift-kom"
+        "from": 7.032,
+        "to": 7.032,
+        "segment": "zwift-kom-rev"
+      },
+      {
+        "from": 11.403,
+        "to": 11.403,
+        "segment": "hilly-loop-rev"
+      },
+      {
+        "from": 11.413,
+        "to": 11.413,
+        "segment": "hilly-loop-rev"
       },
       {
         "from": 13.863,
-        "to": 14.055,
+        "to": 13.863,
         "segment": "fuego-flats-rev"
       },
       {
         "from": 13.863,
-        "to": 14.055,
+        "to": 13.863,
         "segment": "watopia-sprint-rev"
       },
       {
-        "from": 14.405,
-        "to": 16.095,
-        "segment": "watopia-sprint"
+        "from": 13.876,
+        "to": 13.876,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 13.876,
+        "to": 13.876,
+        "segment": "watopia-sprint-rev"
       },
       {
         "from": 21.449,
-        "to": 22.367,
+        "to": 21.449,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 21.458,
+        "to": 21.458,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 21.467,
+        "to": 21.467,
         "segment": "zwift-kom"
       },
       {
         "from": 26.661,
-        "to": 27.027,
+        "to": 26.661,
         "segment": "watopia-sprint"
+      },
+      {
+        "from": 26.671,
+        "to": 26.671,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 27.203,
+        "to": 27.203,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 27.203,
+        "to": 27.203,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 27.214,
+        "to": 27.214,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 27.214,
+        "to": 27.214,
+        "segment": "watopia-sprint-rev"
       }
     ],
     "levelLocked": false,
@@ -5774,19 +6359,9 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 7.244,
-        "to": 7.61,
-        "segment": "watopia-sprint"
-      },
-      {
-        "from": 7.781,
-        "to": 7.781,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 7.781,
-        "to": 7.781,
-        "segment": "watopia-sprint-rev"
+        "from": 0,
+        "to": 0,
+        "segment": "hilly-loop"
       }
     ],
     "levelLocked": false,
@@ -5825,16 +6400,31 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 2.108,
-        "to": 2.434,
+        "to": 2.108,
+        "segment": "tower-sprint"
+      },
+      {
+        "from": 2.122,
+        "to": 2.122,
         "segment": "tower-sprint"
       },
       {
         "from": 5.402,
-        "to": 5.8,
+        "to": 5.402,
+        "segment": "alley-sprint-rev"
+      },
+      {
+        "from": 5.416,
+        "to": 5.416,
         "segment": "alley-sprint-rev"
       },
       {
         "from": 6.214,
+        "to": 6.214,
+        "segment": "alley-sprint"
+      },
+      {
+        "from": 6.228,
         "to": 6.228,
         "segment": "alley-sprint"
       }
@@ -5868,18 +6458,38 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0.342,
-        "to": 0.393,
+        "to": 0.342,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 0.359,
+        "to": 0.359,
         "segment": "watopia-sprint"
       },
       {
         "from": 2.82,
-        "to": 4.112,
+        "to": 2.82,
         "segment": "volcano-circuit"
       },
       {
-        "from": 2.836,
-        "to": 3.882,
-        "segment": "volcano-circuit-rev"
+        "from": 6.067,
+        "to": 6.067,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 6.067,
+        "to": 6.067,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 6.082,
+        "to": 6.082,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 6.082,
+        "to": 6.082,
+        "segment": "watopia-sprint-rev"
       }
     ],
     "levelLocked": false,
@@ -5911,13 +6521,13 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 2.853,
-        "to": 2.876,
+        "to": 2.853,
         "segment": "temple-kom-from-castle-side"
       },
       {
-        "from": 5.11,
-        "to": 7.514,
-        "segment": "temple-kom-from-fishing-village-side"
+        "from": 2.876,
+        "to": 2.876,
+        "segment": "temple-kom-from-castle-side"
       }
     ],
     "levelLocked": false,
@@ -5954,7 +6564,12 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0.072,
-        "to": 1.946,
+        "to": 0.072,
+        "segment": "rooftop-kom"
+      },
+      {
+        "from": 0.081,
+        "to": 0.081,
         "segment": "rooftop-kom"
       }
     ],
@@ -6003,6 +6618,11 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "london-sprint-rev"
       },
       {
+        "from": 28.684,
+        "to": 28.684,
+        "segment": "london-loop"
+      },
+      {
         "from": 31.951,
         "to": 36.175,
         "segment": "keith-hill"
@@ -6036,7 +6656,28 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.715,
     "leadInElevationInMeetups": 0,
     "segments": [],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 0,
+        "to": 0,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.003,
+        "to": 0.003,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.007,
+        "to": 0.007,
+        "segment": "central-park-loop-rev"
+      },
+      {
+        "from": 0.012,
+        "to": 0.012,
+        "segment": "central-park-loop-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -6099,7 +6740,18 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "temple-kom-from-fishing-village-side"
     ],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 0.658,
+        "to": 0.658,
+        "segment": "temple-kom-from-fishing-village-side"
+      },
+      {
+        "from": 0.676,
+        "to": 0.676,
+        "segment": "temple-kom-from-fishing-village-side"
+      }
+    ],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -6134,78 +6786,68 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 7.113,
-        "to": 7.482,
+        "to": 7.113,
         "segment": "watopia-sprint"
       },
       {
-        "from": 7.666,
-        "to": 7.666,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 7.666,
-        "to": 7.666,
-        "segment": "watopia-sprint-rev"
-      },
-      {
-        "from": 10.109,
-        "to": 19.266,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 10.109,
-        "to": 10.109,
-        "segment": "hilly-loop-rev"
+        "from": 7.134,
+        "to": 7.134,
+        "segment": "watopia-sprint"
       },
       {
         "from": 11.059,
-        "to": 11.975,
+        "to": 11.059,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 11.076,
+        "to": 11.076,
         "segment": "zwift-kom"
       },
       {
         "from": 16.265,
-        "to": 16.627,
+        "to": 16.265,
         "segment": "watopia-sprint"
       },
       {
-        "from": 16.816,
-        "to": 16.816,
-        "segment": "fuego-flats-rev"
+        "from": 16.282,
+        "to": 16.282,
+        "segment": "watopia-sprint"
       },
       {
-        "from": 16.816,
-        "to": 16.816,
-        "segment": "watopia-sprint-rev"
+        "from": 19.249,
+        "to": 19.249,
+        "segment": "hilly-loop"
       },
       {
         "from": 19.266,
         "to": 19.266,
-        "segment": "hilly-loop-rev"
+        "segment": "hilly-loop"
       },
       {
         "from": 23.981,
-        "to": 27.359,
+        "to": 23.981,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 23.997,
+        "to": 23.997,
         "segment": "epic-kom-rev"
       },
       {
         "from": 31.706,
-        "to": 35.982,
+        "to": 31.706,
         "segment": "jungle-loop"
       },
       {
         "from": 31.706,
-        "to": 34.773,
+        "to": 31.706,
         "segment": "jungle-loop-rev"
       },
       {
-        "from": 45.737,
-        "to": 47.489,
-        "segment": "volcano-circuit"
-      },
-      {
-        "from": 45.752,
-        "to": 49.271,
-        "segment": "volcano-circuit-rev"
+        "from": 31.723,
+        "to": 31.723,
+        "segment": "jungle-loop"
       }
     ],
     "levelLocked": false,
@@ -6306,7 +6948,12 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 1.048,
-        "to": 1.801,
+        "to": 1.048,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 1.068,
+        "to": 1.068,
         "segment": "new-york-kom"
       },
       {
@@ -6347,18 +6994,23 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 1.432,
-        "to": 4.114,
-        "segment": "castle-kom"
+        "from": 5.342,
+        "to": 5.342,
+        "segment": "temple-kom-from-castle-side"
       },
       {
-        "from": 5.342,
-        "to": 7.238,
+        "from": 5.355,
+        "to": 5.355,
         "segment": "temple-kom-from-castle-side"
       },
       {
         "from": 9.726,
-        "to": 10.229,
+        "to": 9.726,
+        "segment": "temple-kom-from-fishing-village-side"
+      },
+      {
+        "from": 9.743,
+        "to": 9.743,
         "segment": "temple-kom-from-fishing-village-side"
       }
     ],
@@ -6418,9 +7070,44 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "hilly-loop"
       },
       {
+        "from": 4.719,
+        "to": 4.719,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 4.725,
+        "to": 4.725,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 4.73,
+        "to": 4.73,
+        "segment": "epic-kom-rev"
+      },
+      {
         "from": 12.447,
-        "to": 20.324,
+        "to": 12.447,
         "segment": "jungle-loop"
+      },
+      {
+        "from": 12.453,
+        "to": 12.453,
+        "segment": "jungle-loop"
+      },
+      {
+        "from": 12.46,
+        "to": 12.46,
+        "segment": "jungle-loop"
+      },
+      {
+        "from": 20.792,
+        "to": 20.792,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 20.811,
+        "to": 20.811,
+        "segment": "epic-kom-rev"
       }
     ],
     "levelLocked": false,
@@ -6469,11 +7156,16 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 16.412,
-        "to": 16.741,
+        "to": 16.412,
         "segment": "keith-hill"
       },
       {
         "from": 24.926,
+        "to": 24.926,
+        "segment": "fox-hill"
+      },
+      {
+        "from": 24.954,
         "to": 24.954,
         "segment": "fox-hill"
       },
@@ -6525,89 +7217,59 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 6.898,
-        "to": 9.398,
-        "segment": "zwift-kom-rev"
-      },
-      {
-        "from": 10.288,
-        "to": 10.615,
-        "segment": "zwift-kom"
-      },
-      {
         "from": 11.255,
-        "to": 20.036,
+        "to": 11.255,
         "segment": "hilly-loop-rev"
       },
       {
         "from": 11.277,
-        "to": 12.612,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 14.445,
-        "to": 18.168,
-        "segment": "volcano-kom"
+        "to": 11.277,
+        "segment": "hilly-loop-rev"
       },
       {
         "from": 24.876,
-        "to": 26.149,
+        "to": 24.876,
         "segment": "volcano-circuit"
       },
       {
-        "from": 24.876,
-        "to": 25.646,
-        "segment": "volcano-circuit-rev"
-      },
-      {
-        "from": 30.56,
-        "to": 33.871,
-        "segment": "epic-kom-rev"
+        "from": 24.897,
+        "to": 24.897,
+        "segment": "volcano-circuit"
       },
       {
         "from": 38.893,
-        "to": 39.65,
+        "to": 38.893,
         "segment": "jungle-loop"
       },
       {
-        "from": 38.893,
-        "to": 42.587,
-        "segment": "jungle-loop-rev"
-      },
-      {
-        "from": 46.596,
-        "to": 46.652,
-        "segment": "epic-kom-rev"
-      },
-      {
-        "from": 50.337,
-        "to": 50.693,
-        "segment": "watopia-sprint"
-      },
-      {
         "from": 50.87,
-        "to": 50.892,
+        "to": 50.87,
         "segment": "fuego-flats-rev"
       },
       {
         "from": 50.87,
+        "to": 50.87,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 50.892,
+        "to": 50.892,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 50.892,
         "to": 50.892,
         "segment": "watopia-sprint-rev"
       },
       {
         "from": 54.122,
-        "to": 57.371,
+        "to": 54.122,
         "segment": "volcano-circuit"
       },
       {
-        "from": 54.122,
-        "to": 55.842,
-        "segment": "volcano-circuit-rev"
-      },
-      {
-        "from": 58.765,
-        "to": 58.765,
-        "segment": "hilly-loop"
+        "from": 54.144,
+        "to": 54.144,
+        "segment": "volcano-circuit"
       },
       {
         "from": 58.765,
@@ -6673,7 +7335,7 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 3.683,
+        "to": 0,
         "segment": "innsbruck-uci-lap"
       }
     ],
@@ -6766,49 +7428,49 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 4.787,
-        "to": 8.083,
-        "segment": "epic-kom-rev"
-      },
-      {
         "from": 13.11,
-        "to": 13.894,
+        "to": 13.11,
         "segment": "jungle-loop"
       },
       {
         "from": 13.11,
-        "to": 16.816,
+        "to": 13.11,
         "segment": "jungle-loop-rev"
       },
       {
-        "from": 33.995,
-        "to": 33.995,
-        "segment": "epic-kom"
+        "from": 13.132,
+        "to": 13.132,
+        "segment": "jungle-loop"
+      },
+      {
+        "from": 13.132,
+        "to": 13.132,
+        "segment": "jungle-loop-rev"
       },
       {
         "from": 38.185,
-        "to": 39.107,
+        "to": 38.185,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 38.206,
+        "to": 38.206,
         "segment": "zwift-kom"
       },
       {
         "from": 45.346,
-        "to": 47.109,
+        "to": 45.346,
         "segment": "volcano-circuit"
       },
       {
-        "from": 45.367,
-        "to": 48.895,
-        "segment": "volcano-circuit-rev"
-      },
-      {
         "from": 47.974,
-        "to": 51.698,
+        "to": 47.974,
         "segment": "volcano-kom"
       },
       {
-        "from": 58.595,
-        "to": 58.951,
-        "segment": "watopia-sprint"
+        "from": 47.995,
+        "to": 47.995,
+        "segment": "volcano-kom"
       },
       {
         "from": 59.13,
@@ -6823,11 +7485,6 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 61.571,
         "to": 61.571,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 61.571,
-        "to": 61.571,
         "segment": "hilly-loop-rev"
       },
       {
@@ -6836,39 +7493,34 @@ export const routes: ReadonlyArray<Route> = [
         "segment": "hilly-loop-rev"
       },
       {
-        "from": 65.996,
-        "to": 75.421,
-        "segment": "epic-kom"
-      },
-      {
         "from": 86.857,
-        "to": 91.132,
+        "to": 86.857,
         "segment": "jungle-loop"
       },
       {
         "from": 86.878,
-        "to": 88.779,
-        "segment": "jungle-loop-rev"
-      },
-      {
-        "from": 95.198,
-        "to": 95.253,
-        "segment": "epic-kom-rev"
+        "to": 86.878,
+        "segment": "jungle-loop"
       },
       {
         "from": 98.714,
-        "to": 101.233,
+        "to": 98.714,
         "segment": "zwift-kom-rev"
       },
       {
-        "from": 102.122,
-        "to": 102.445,
-        "segment": "zwift-kom"
+        "from": 98.736,
+        "to": 98.736,
+        "segment": "zwift-kom-rev"
+      },
+      {
+        "from": 103.085,
+        "to": 103.085,
+        "segment": "hilly-loop-rev"
       },
       {
         "from": 103.107,
-        "to": 104.322,
-        "segment": "hilly-loop"
+        "to": 103.107,
+        "segment": "hilly-loop-rev"
       }
     ],
     "levelLocked": false,
@@ -6902,13 +7554,18 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
+        "from": 0,
+        "to": 0,
+        "segment": "london-loop"
+      },
+      {
         "from": 16.197,
         "to": 18.149,
         "segment": "leith-hill"
       },
       {
         "from": 22.351,
-        "to": 22.667,
+        "to": 22.351,
         "segment": "keith-hill"
       }
     ],
@@ -6945,28 +7602,33 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 4.118,
-        "to": 5.037,
-        "segment": "titans-grove-kom-rev"
-      },
-      {
-        "from": 7.609,
-        "to": 7.965,
-        "segment": "titans-grove-kom"
-      },
-      {
         "from": 16.431,
-        "to": 16.807,
+        "to": 16.431,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 16.448,
+        "to": 16.448,
         "segment": "watopia-sprint"
       },
       {
         "from": 16.969,
-        "to": 17.326,
+        "to": 16.969,
         "segment": "fuego-flats-rev"
       },
       {
         "from": 16.969,
-        "to": 17.326,
+        "to": 16.969,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 16.985,
+        "to": 16.985,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 16.985,
+        "to": 16.985,
         "segment": "watopia-sprint-rev"
       }
     ],
@@ -7033,7 +7695,12 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 8.626,
-        "to": 9.372,
+        "to": 8.626,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 8.647,
+        "to": 8.647,
         "segment": "new-york-kom"
       },
       {
@@ -7118,23 +7785,28 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 0.342,
-        "to": 5.904,
-        "segment": "marina-sprint"
+        "from": 12.503,
+        "to": 12.503,
+        "segment": "aqueduc-kom-rev"
       },
       {
-        "from": 12.503,
-        "to": 12.921,
+        "from": 12.511,
+        "to": 12.511,
         "segment": "aqueduc-kom-rev"
       },
       {
         "from": 13.335,
-        "to": 13.409,
+        "to": 13.335,
         "segment": "aqueduc-kom"
       },
       {
         "from": 16.428,
-        "to": 19.125,
+        "to": 16.428,
+        "segment": "petit-kom"
+      },
+      {
+        "from": 16.439,
+        "to": 16.439,
         "segment": "petit-kom"
       },
       {
@@ -7187,77 +7859,67 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 10.25,
-        "to": 12.879,
+        "to": 10.25,
         "segment": "titans-grove-kom"
       },
       {
-        "from": 13.751,
-        "to": 13.776,
-        "segment": "titans-grove-kom-rev"
+        "from": 10.273,
+        "to": 10.273,
+        "segment": "titans-grove-kom"
       },
       {
         "from": 19.324,
-        "to": 20.259,
+        "to": 19.324,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 19.346,
+        "to": 19.346,
         "segment": "zwift-kom"
       },
       {
         "from": 26.478,
-        "to": 28.249,
+        "to": 26.478,
         "segment": "volcano-circuit"
       },
       {
         "from": 26.499,
-        "to": 30.043,
-        "segment": "volcano-circuit-rev"
-      },
-      {
-        "from": 29.108,
-        "to": 32.845,
-        "segment": "volcano-kom"
-      },
-      {
-        "from": 38.767,
-        "to": 39.7,
+        "to": 26.499,
         "segment": "volcano-circuit"
       },
       {
-        "from": 38.789,
-        "to": 39.831,
-        "segment": "volcano-circuit-rev"
+        "from": 29.108,
+        "to": 29.108,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 29.13,
+        "to": 29.13,
+        "segment": "volcano-kom"
       },
       {
         "from": 41.333,
-        "to": 60.588,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 41.333,
-        "to": 57.81,
+        "to": 41.333,
         "segment": "hilly-loop-rev"
       },
       {
-        "from": 47.131,
-        "to": 48.05,
-        "segment": "titans-grove-kom-rev"
-      },
-      {
-        "from": 50.609,
-        "to": 50.726,
-        "segment": "titans-grove-kom"
-      },
-      {
-        "from": 59.232,
-        "to": 61.731,
-        "segment": "zwift-kom-rev"
-      },
-      {
         "from": 62.614,
-        "to": 62.936,
+        "to": 62.614,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 62.641,
+        "to": 62.641,
         "segment": "zwift-kom"
       },
       {
         "from": 66.931,
-        "to": 67.451,
+        "to": 66.931,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 66.953,
+        "to": 66.953,
         "segment": "fuego-flats"
       }
     ],
@@ -7321,7 +7983,18 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 1.155,
     "leadInElevationInMeetups": 1,
     "segments": [],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 0,
+        "to": 0,
+        "segment": "hilly-loop"
+      },
+      {
+        "from": 0,
+        "to": 0,
+        "segment": "hilly-loop-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -7359,7 +8032,7 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 3.666,
+        "to": 0,
         "segment": "innsbruck-uci-lap"
       }
     ],
@@ -7442,28 +8115,33 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 1.413,
+        "to": 0,
         "segment": "hilly-loop"
       },
       {
         "from": 0,
-        "to": 11.086,
+        "to": 0,
         "segment": "hilly-loop-rev"
       },
       {
         "from": 8.776,
-        "to": 12.09,
+        "to": 8.776,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 8.798,
+        "to": 8.798,
         "segment": "epic-kom-rev"
       },
       {
         "from": 17.109,
-        "to": 20.833,
+        "to": 17.109,
         "segment": "jungle-loop-rev"
       },
       {
         "from": 17.131,
-        "to": 17.884,
-        "segment": "jungle-loop"
+        "to": 17.131,
+        "segment": "jungle-loop-rev"
       }
     ],
     "levelLocked": false,
@@ -7499,37 +8177,57 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 21.737,
+        "to": 0,
         "segment": "hilly-loop"
       },
       {
         "from": 0.935,
-        "to": 1.85,
+        "to": 0.935,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 0.95,
+        "to": 0.95,
         "segment": "zwift-kom"
       },
       {
         "from": 10.092,
-        "to": 19.533,
+        "to": 10.092,
         "segment": "epic-kom"
       },
       {
-        "from": 34.149,
-        "to": 35.916,
-        "segment": "volcano-circuit"
+        "from": 10.107,
+        "to": 10.107,
+        "segment": "epic-kom"
       },
       {
-        "from": 34.164,
-        "to": 37.711,
-        "segment": "volcano-circuit-rev"
+        "from": 28.447,
+        "to": 28.447,
+        "segment": "epic-kom-rev"
+      },
+      {
+        "from": 28.47,
+        "to": 28.47,
+        "segment": "epic-kom-rev"
       },
       {
         "from": 36.781,
-        "to": 40.525,
+        "to": 36.781,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 36.796,
+        "to": 36.796,
         "segment": "volcano-kom"
       },
       {
         "from": 44.616,
-        "to": 45.545,
+        "to": 44.616,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 44.634,
+        "to": 44.634,
         "segment": "volcano-kom"
       }
     ],
@@ -7574,7 +8272,7 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 2.697,
-        "to": 2.933,
+        "to": 2.697,
         "segment": "23rd-st"
       },
       {
@@ -7584,8 +8282,18 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 4.23,
-        "to": 4.328,
+        "to": 4.23,
         "segment": "richmond-kom"
+      },
+      {
+        "from": 9.113,
+        "to": 9.113,
+        "segment": "richmond-uci-course"
+      },
+      {
+        "from": 9.121,
+        "to": 9.121,
+        "segment": "richmond-uci-course"
       }
     ],
     "levelLocked": false,
@@ -7620,7 +8328,7 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 40.859,
+        "to": 0,
         "segment": "london-loop"
       },
       {
@@ -7635,7 +8343,7 @@ export const routes: ReadonlyArray<Route> = [
       },
       {
         "from": 29.208,
-        "to": 29.523,
+        "to": 29.208,
         "segment": "keith-hill"
       },
       {
@@ -7704,53 +8412,28 @@ export const routes: ReadonlyArray<Route> = [
     "segmentsOnRoute": [
       {
         "from": 0,
-        "to": 26.895,
-        "segment": "hilly-loop"
-      },
-      {
-        "from": 0,
         "to": 0,
         "segment": "hilly-loop-rev"
       },
       {
-        "from": 3.166,
-        "to": 6.9,
-        "segment": "volcano-kom"
-      },
-      {
-        "from": 10.995,
-        "to": 11.923,
-        "segment": "volcano-kom"
-      },
-      {
-        "from": 13.607,
-        "to": 14.798,
-        "segment": "volcano-circuit-rev"
-      },
-      {
-        "from": 13.623,
-        "to": 14.919,
-        "segment": "volcano-circuit"
-      },
-      {
         "from": 19.299,
-        "to": 25.218,
+        "to": 19.299,
         "segment": "epic-kom-rev"
       },
       {
-        "from": 37.67,
-        "to": 37.67,
-        "segment": "epic-kom"
+        "from": 19.315,
+        "to": 19.315,
+        "segment": "epic-kom-rev"
       },
       {
         "from": 43.414,
-        "to": 45.926,
+        "to": 43.414,
         "segment": "zwift-kom-rev"
       },
       {
-        "from": 46.823,
-        "to": 47.164,
-        "segment": "zwift-kom"
+        "from": 43.431,
+        "to": 43.431,
+        "segment": "zwift-kom-rev"
       }
     ],
     "levelLocked": false,
