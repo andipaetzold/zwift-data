@@ -1163,7 +1163,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistance": 12.147,
     "leadInElevation": 150,
     "segments": [
-      "23rd-st-rev"
+      "richmond-sprint"
     ],
     "segmentsOnRoute": [
       {

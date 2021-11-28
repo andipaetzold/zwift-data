@@ -1266,7 +1266,7 @@ export const routes = [
   {
     id: 948831673,
     slug: "richmond-rollercoaster",
-    segments: ["23rd-st-rev"],
+    segments: ["richmond-sprint"],
     experience: null,
     stravaSegmentId: 22900025,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/richmond-rollercoaster",
