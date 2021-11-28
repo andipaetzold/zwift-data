@@ -1288,16 +1288,6 @@ export const routes: ReadonlyArray<Route> = [
         "from": 2.849,
         "to": 3.55,
         "segment": "richmond-kom-rev"
-      },
-      {
-        "from": 12.74,
-        "to": 12.984,
-        "segment": "richmond-sprint"
-      },
-      {
-        "from": 15.355,
-        "to": 15.641,
-        "segment": "broad-st"
       }
     ],
     "levelLocked": false,

@@ -13,9 +13,9 @@ export async function findSegmentsOnRoute(route, segments) {
   const routeLatLng = data.latlng;
   const routeDistance = data.distance;
 
-  const segmentsOnRoute = segments.flatMap((segment) =>
-    findSegmentOnRoute(routeLatLng, segment)
-  );
+  const segmentsOnRoute = segments
+    .filter((s) => !(route.invalidSegments ?? []).includes(s.slug))
+    .flatMap((segment) => findSegmentOnRoute(routeLatLng, segment));
   return segmentsOnRoute
     .sort((a, b) => a.from - b.from)
     .map(({ segment, from, to }) => ({

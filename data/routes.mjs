@@ -1282,6 +1282,7 @@ export const routes = [
       "broad-st-rev",
       "richmond-sprint-rev",
     ],
+    invalidSegments: ["broad-st", "richmond-sprint"],
     experience: null,
     stravaSegmentId: 22809649,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/richmond-uci-reverse",
