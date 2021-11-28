@@ -53,8 +53,8 @@ export const segments: ReadonlyArray<Segment> = [
     "slug": "fuego-flats-rev",
     "type": "segment",
     "world": "watopia",
-    "stravaSegmentId": 12109228,
-    "stravaSegmentUrl": "https://www.strava.com/segments/12109228",
+    "stravaSegmentId": 20350066,
+    "stravaSegmentUrl": "https://www.strava.com/segments/20350066",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/segment/fuego-flats-reverse/reverse",
     "distance": 7.1
   },

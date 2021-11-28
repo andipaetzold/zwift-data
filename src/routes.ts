@@ -161,11 +161,6 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 2.408,
         "to": 2.629,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 2.408,
-        "to": 2.629,
         "segment": "watopia-sprint-rev"
       },
       {
@@ -355,11 +350,6 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 72.641,
         "to": 72.836,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 72.641,
-        "to": 72.836,
         "segment": "watopia-sprint-rev"
       },
       {
@@ -437,11 +427,6 @@ export const routes: ReadonlyArray<Route> = [
       "watopia-sprint-rev"
     ],
     "segmentsOnRoute": [
-      {
-        "from": 3.856,
-        "to": 4.064,
-        "segment": "fuego-flats-rev"
-      },
       {
         "from": 3.856,
         "to": 4.064,
@@ -682,11 +667,6 @@ export const routes: ReadonlyArray<Route> = [
       "zwift-kom"
     ],
     "segmentsOnRoute": [
-      {
-        "from": 2.425,
-        "to": 2.64,
-        "segment": "fuego-flats-rev"
-      },
       {
         "from": 2.425,
         "to": 2.64,
@@ -1842,12 +1822,12 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 53.703,
         "to": 53.914,
-        "segment": "fuego-flats-rev"
+        "segment": "watopia-sprint-rev"
       },
       {
-        "from": 53.703,
-        "to": 53.914,
-        "segment": "watopia-sprint-rev"
+        "from": 62.543,
+        "to": 69.668,
+        "segment": "fuego-flats-rev"
       },
       {
         "from": 79.718,
@@ -1858,11 +1838,6 @@ export const routes: ReadonlyArray<Route> = [
         "from": 87.442,
         "to": 87.966,
         "segment": "fuego-flats"
-      },
-      {
-        "from": 104.217,
-        "to": 104.428,
-        "segment": "fuego-flats-rev"
       },
       {
         "from": 104.217,
@@ -2455,7 +2430,13 @@ export const routes: ReadonlyArray<Route> = [
       "fuego-flats-rev",
       "fuego-flats"
     ],
-    "segmentsOnRoute": [],
+    "segmentsOnRoute": [
+      {
+        "from": 8.205,
+        "to": 15.309,
+        "segment": "fuego-flats-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": true,
@@ -3086,11 +3067,6 @@ export const routes: ReadonlyArray<Route> = [
         "from": 26.299,
         "to": 28.826,
         "segment": "zwift-kom-rev"
-      },
-      {
-        "from": 33.127,
-        "to": 33.336,
-        "segment": "fuego-flats-rev"
       },
       {
         "from": 33.127,
@@ -4132,11 +4108,6 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 2.418,
         "to": 2.633,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 2.418,
-        "to": 2.633,
         "segment": "watopia-sprint-rev"
       },
       {
@@ -4400,11 +4371,6 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 2.414,
         "to": 2.633,
-        "segment": "fuego-flats-rev"
-      },
-      {
-        "from": 2.414,
-        "to": 2.633,
         "segment": "watopia-sprint-rev"
       }
     ],
@@ -4619,11 +4585,6 @@ export const routes: ReadonlyArray<Route> = [
         "from": 7.012,
         "to": 9.524,
         "segment": "zwift-kom-rev"
-      },
-      {
-        "from": 13.849,
-        "to": 14.055,
-        "segment": "fuego-flats-rev"
       },
       {
         "from": 13.849,
