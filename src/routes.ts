@@ -1730,7 +1730,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 7.571,
         "to": 7.969,
-        "segment": "alley-sprint-rev"
+        "segment": "alley-sprint"
       },
       {
         "from": 11.16,
@@ -4413,7 +4413,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 4.417,
         "to": 4.843,
-        "segment": "alley-sprint"
+        "segment": "alley-sprint-rev"
       },
       {
         "from": 7.633,
@@ -4681,7 +4681,7 @@ export const routes: ReadonlyArray<Route> = [
       {
         "from": 5.402,
         "to": 5.8,
-        "segment": "alley-sprint-rev"
+        "segment": "alley-sprint"
       }
     ],
     "levelLocked": false,
@@ -5605,13 +5605,13 @@ export const routes: ReadonlyArray<Route> = [
     "segments": [
       "country-sprint",
       "tower-sprint-rev",
-      "alley-sprint"
+      "alley-sprint-rev"
     ],
     "segmentsOnRoute": [
       {
         "from": 11.024,
         "to": 11.46,
-        "segment": "alley-sprint"
+        "segment": "alley-sprint-rev"
       }
     ],
     "levelLocked": false,

@@ -855,22 +855,22 @@ export const segments = [
   {
     name: "Alley Sprint",
     slug: "alley-sprint",
-    distance: 0.41,
+    distance: 0.48,
     type: "sprint",
     world: "makuri-islands",
-    stravaSegmentId: 30412903,
-    stravaSegmentUrl: "https://www.strava.com/segments/30412903",
+    stravaSegmentId: 30412916,
+    stravaSegmentUrl: "https://www.strava.com/segments/30412916",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/alley-sprint/forward",
   },
   {
     name: "Alley Sprint Rev.",
     slug: "alley-sprint-rev",
-    distance: 0.38,
+    distance: 0.48,
     type: "sprint",
     world: "makuri-islands",
-    stravaSegmentId: 30412916,
-    stravaSegmentUrl: "https://www.strava.com/segments/30412916",
+    stravaSegmentId: 30412903,
+    stravaSegmentUrl: "https://www.strava.com/segments/30412903",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/alley-sprint/reverse",
   },

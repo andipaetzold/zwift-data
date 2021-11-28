@@ -1682,7 +1682,7 @@ export const routes = [
   {
     id: 3914529041,
     slug: "wandering-flats",
-    segments: ["country-sprint", "tower-sprint-rev", "alley-sprint"],
+    segments: ["country-sprint", "tower-sprint-rev", "alley-sprint-rev"],
     experience: 515,
     stravaSegmentId: 30408380,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/wandering-flats",
