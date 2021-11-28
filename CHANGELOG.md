@@ -1,3 +1,15 @@
+## [1.10.1](https://github.com/andipaetzold/zwift-data/compare/v1.10.0...v1.10.1) (2021-11-28)
+
+
+### Bug Fixes
+
+* add London Loop to "PRL Half" segments ([f0f9218](https://github.com/andipaetzold/zwift-data/commit/f0f9218f2385658e731468e348068dfbe3d9f247))
+* add segmentsOnRoute for more routes ([722b4ec](https://github.com/andipaetzold/zwift-data/commit/722b4ecea4d110f3a378409a4a83fae72ad10473))
+* remove wrong segments from "Richmond UCI Reverse" ([d65312a](https://github.com/andipaetzold/zwift-data/commit/d65312a05deb72fd2009c79e25a96b832d127903))
+* switch alley sprint forward & reverse ([e5c5a01](https://github.com/andipaetzold/zwift-data/commit/e5c5a01b86164e3abc1ddbde52541f8b0992af32))
+* update segments of "Richmond Rollercoaster" ([b30dcdd](https://github.com/andipaetzold/zwift-data/commit/b30dcdd32d3417685a7b94f6c9fb30f5ac640720))
+* Use correct segment for "Fuego Flats Rev." ([3283859](https://github.com/andipaetzold/zwift-data/commit/3283859640b9bd2eda242163ca66700b6fa30862))
+
 # [1.10.0](https://github.com/andipaetzold/zwift-data/compare/v1.9.3...v1.10.0) (2021-11-27)
 
 
