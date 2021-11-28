@@ -890,7 +890,8 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 5,
     "segments": [
       "box-hill",
-      "london-sprint-rev"
+      "london-sprint-rev",
+      "london-loop"
     ],
     "segmentsOnRoute": [
       {

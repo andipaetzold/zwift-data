@@ -442,7 +442,7 @@ export const routes = [
   {
     id: 764532081,
     slug: "the-prl-half",
-    segments: ["box-hill", "london-sprint-rev"],
+    segments: ["box-hill", "london-sprint-rev", "london-loop"],
     experience: 1380,
     stravaSegmentId: 12759713,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-prl-half",
