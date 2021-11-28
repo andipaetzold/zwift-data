@@ -1,7 +1,7 @@
 import * as turf from "@turf/turf";
 import fetch from "node-fetch";
 
-const TOLERANCE = 5;
+const TOLERANCE = 15;
 const OPTIONS = { units: "meters" };
 
 export async function findSegmentsOnRoute(route, segments) {
