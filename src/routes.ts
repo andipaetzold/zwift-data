@@ -1375,34 +1375,6 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/tour-of-tewit-well"
   },
   {
-    "id": 1127056801,
-    "name": "Neokyo Crit Course",
-    "slug": "neokyo-crit-course",
-    "world": "makuri-islands",
-    "eventOnly": true,
-    "distance": 3.882,
-    "elevation": 20,
-    "leadInDistance": 0.739,
-    "leadInElevation": 5,
-    "segments": [
-      "alley-sprint-rev",
-      "castle-park-sprint-rev"
-    ],
-    "segmentsOnRoute": [],
-    "levelLocked": false,
-    "lap": true,
-    "supportsTT": false,
-    "supportsMeetups": false,
-    "sports": [
-      "running",
-      "cycling"
-    ],
-    "stravaSegmentId": 30480835,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30480835",
-    "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-crit-course",
-    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neokyo-crit-course"
-  },
-  {
     "id": 1230300449,
     "name": "Leith Hill After Party",
     "slug": "leith-hill-after-party",
