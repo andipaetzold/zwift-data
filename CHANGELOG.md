@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/andipaetzold/zwift-data/compare/v1.10.1...v1.10.2) (2021-12-03)
+
+
+### Bug Fixes
+
+* update data from game dictionary ([#10](https://github.com/andipaetzold/zwift-data/issues/10)) ([afcaaba](https://github.com/andipaetzold/zwift-data/commit/afcaaba246532ed403171cb04d742c3785af6580))
+
 ## [1.10.1](https://github.com/andipaetzold/zwift-data/compare/v1.10.0...v1.10.1) (2021-11-28)
 
 
