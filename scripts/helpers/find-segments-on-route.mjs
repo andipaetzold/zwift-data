@@ -1,7 +1,8 @@
 import * as turf from "@turf/turf";
 import fetch from "node-fetch";
+import range from "lodash/range.js";
 
-const TOLERANCE = 15;
+const TOLERANCE = 5;
 const OPTIONS = { units: "meters" };
 
 export async function findSegmentsOnRoute(route, segments) {
@@ -15,7 +16,10 @@ export async function findSegmentsOnRoute(route, segments) {
 
   const segmentsOnRoute = segments
     .filter((s) => !(route.invalidSegments ?? []).includes(s.slug))
-    .flatMap((segment) => findSegmentOnRoute(routeLatLng, segment));
+    .flatMap((segment) =>
+      findSegmentOnRoute(routeLatLng, routeDistance, segment)
+    );
+
   return segmentsOnRoute
     .sort((a, b) => a.from - b.from)
     .map(({ segment, from, to }) => ({
@@ -25,8 +29,9 @@ export async function findSegmentsOnRoute(route, segments) {
     }));
 }
 
-function findSegmentOnRoute(routeLatLng, segment) {
-  const segmentLatLng = segment.latlng;
+function findSegmentOnRoute(routeLatLng, routeDistanceStream, segment) {
+  const segmentDistanceInMeters = segment.distance * 1_000;
+
   const overlap = [];
   for (
     let startPointIndex = 0;
@@ -34,79 +39,106 @@ function findSegmentOnRoute(routeLatLng, segment) {
     ++startPointIndex
   ) {
     if (
-      turf.pointToLineDistance(
-        turf.point(segmentLatLng[0]),
-        turf.lineString(
-          routeLatLng.slice(startPointIndex, startPointIndex + 2)
-        ),
-        OPTIONS
+      lineDistance(
+        segment.latlng.slice(0, 2),
+        routeLatLng.slice(startPointIndex, startPointIndex + 2)
       ) > TOLERANCE
     ) {
       continue;
     }
 
-    const overlapLength = doesRouteStartWithSegment(
-      routeLatLng.slice(startPointIndex),
-      segmentLatLng
-    );
-    if (overlapLength !== undefined) {
-      overlap.push({
-        from: startPointIndex,
-        to: startPointIndex + overlapLength,
-        segment: segment.slug,
-      });
-      startPointIndex += overlapLength;
+    const routeDistanceStart = routeDistanceStream[startPointIndex];
+
+    const newOverlaps = range(startPointIndex + 1, routeLatLng.length - 2)
+      .filter(
+        // check end
+        (endPointIndex) =>
+          lineDistance(
+            segment.latlng.slice(
+              segment.latlng.length - 3,
+              segment.latlng.length - 1
+            ),
+            routeLatLng.slice(endPointIndex, endPointIndex + 2)
+          ) <= TOLERANCE
+      )
+      .filter(
+        // check distance
+        (endPointIndex) =>
+          Math.abs(
+            segmentDistanceInMeters -
+              (routeDistanceStream[endPointIndex] - routeDistanceStart)
+          ) <=
+          0.1 * segmentDistanceInMeters
+      )
+      .filter(
+        // check 20%
+        (endPointIndex) => {
+          if (startPointIndex === 384) {
+            return true;
+          }
+          const middlePointIndex =
+            startPointIndex +
+            Math.ceil((endPointIndex - startPointIndex) * 0.2);
+
+          for (
+            let segmentIndex = 0;
+            segmentIndex < segment.latlng.length - 1;
+            ++segmentIndex
+          ) {
+            if (
+              lineDistance(
+                segment.latlng.slice(segmentIndex, segmentIndex + 2),
+                routeLatLng.slice(middlePointIndex, middlePointIndex + 2)
+              ) > TOLERANCE
+            ) {
+              continue;
+            }
+
+            if (
+              Math.abs(
+                routeDistanceStream[middlePointIndex] -
+                  routeDistanceStart -
+                  segment.distanceStream[segmentIndex]
+              ) >
+              0.1 * segmentDistanceInMeters
+            ) {
+              continue;
+            }
+
+            return true;
+          }
+
+          return false;
+        }
+      );
+
+    if (newOverlaps.length === 0) {
+      continue;
     }
+
+    overlap.push({
+      from: startPointIndex,
+      to: newOverlaps[0],
+      segment: segment.slug,
+    });
+
+    startPointIndex += Math.ceil((newOverlaps[0] - startPointIndex) / 2);
   }
 
   return overlap;
 }
 
-function doesRouteStartWithSegment(route, segment) {
-  let routeIndex = 0;
-  const routeBack = () => route[routeIndex];
-  const routeFront = () => route[routeIndex + 1];
-  const routeLine = () => turf.lineString([routeBack(), routeFront()]);
+function lineDistance(lineA, lineB) {
+  const distanceA = turf.pointToLineDistance(
+    turf.point(lineA[0]),
+    turf.lineString(lineB),
+    OPTIONS
+  );
+  const distanceB = turf.pointToLineDistance(
+    turf.point(lineB[0]),
+    turf.lineString(lineA),
+    OPTIONS
+  );
 
-  let segmentIndex = 0;
-  const segmentBack = () => segment[segmentIndex];
-  const segmentFront = () => segment[segmentIndex + 1];
-  const segmentLine = () => turf.lineString([segmentBack(), segmentFront()]);
-
-  const {
-    properties: { dist: startDistanceToRoute },
-  } = turf.nearestPointOnLine(routeLine(), segmentBack(), OPTIONS);
-  const {
-    properties: { dist: startDistanceToSegment },
-  } = turf.nearestPointOnLine(segmentLine(), routeBack(), OPTIONS);
-
-  if (Math.min(startDistanceToRoute, startDistanceToSegment) > TOLERANCE) {
-    return undefined;
-  }
-
-  while (routeIndex < route.length - 1 && segmentIndex < segment.length - 1) {
-    const {
-      properties: { dist: distanceToRoute },
-    } = turf.nearestPointOnLine(routeLine(), segmentFront(), OPTIONS);
-
-    const {
-      properties: { dist: distanceToSegment },
-    } = turf.nearestPointOnLine(segmentLine(), routeFront(), OPTIONS);
-
-    if (Math.min(distanceToRoute, distanceToSegment) > TOLERANCE) {
-      return undefined;
-    }
-
-    if (distanceToRoute < distanceToSegment) {
-      ++segmentIndex;
-    } else {
-      ++routeIndex;
-    }
-  }
-
-  if (routeIndex >= route.length - 1) {
-    return undefined;
-  }
-
-  return routeIndex;
+  return Math.min(distanceA, distanceB);
 }

@@ -575,7 +575,7 @@ export const routes = [
   {
     id: 3114603308,
     slug: "2018-uci-worlds-course-short-lap",
-    segments: ["innsbruck-kom", "innsbruck-sprint"],
+    segments: ["innsbruck-kom", "innsbruck-sprint", "innsbruck-uci-lap"],
     experience: 470,
     stravaSegmentId: 18397725,
     zwiftInsiderUrl:
@@ -987,7 +987,7 @@ export const routes = [
   {
     id: 2875658892,
     slug: "bell-lap",
-    segments: [],
+    segments: ["crit-city-rev", "prime-rev"],
     experience: null,
     stravaSegmentId: 22419554,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/bell-lap",
@@ -1027,12 +1027,13 @@ export const routes = [
   {
     id: 947394567,
     slug: "downtown-dolphin",
-    segments: ["crit-city", "prime"],
+    segments: ["crit-city-rev", "prime-rev"],
     experience: null,
     stravaSegmentId: 22445564,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/downtown-dolphin",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/crit-city/route/downtown-dolphin",
+    invalidSegments: ["crit-city"],
   },
   {
     id: 3811569265,
@@ -1127,7 +1128,7 @@ export const routes = [
   {
     id: 107363867,
     slug: "hilly-route-rev",
-    segments: ["hilly-loop", "watopia-sprint-rev", "zwift-kom-rev"],
+    segments: ["hilly-loop-rev", "watopia-sprint-rev", "zwift-kom-rev"],
     experience: null,
     stravaSegmentId: 12128037,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/hilly-route-reverse",

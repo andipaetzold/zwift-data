@@ -54,6 +54,17 @@ describe.each(routes)("$name", (route) => {
 
           expect(segment.world).toBe(route.world);
         });
+
+        // it("should be in segmentsOnRoute", () => {
+        //   const segment = segments.find((s) => s.slug === segmentSlug)!;
+        //   if (!segment.stravaSegmentId) {
+        //     return;
+        //   }
+
+        //   expect(
+        //     route.segmentsOnRoute.find((sor) => sor.segment === segment.slug)
+        //   ).toBeDefined();
+        // });
       });
     });
 

@@ -307,8 +307,8 @@ export const segments = [
     distance: 7.8,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/jungle-loop/forward",
-    stravaSegmentUrl: "https://www.strava.com/segments/16359363",
-    stravaSegmentId: 16359363,
+    stravaSegmentId: 16359371,
+    stravaSegmentUrl: "https://www.strava.com/segments/16359371",
   },
   {
     name: "Jungle Loop Rev.",
@@ -318,8 +318,8 @@ export const segments = [
     distance: 7.8,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/jungle-loop/reverse",
-    stravaSegmentId: 16359371,
-    stravaSegmentUrl: "https://www.strava.com/segments/16359371",
+    stravaSegmentId: 16359363,
+    stravaSegmentUrl: "https://www.strava.com/segments/16359363",
   },
   {
     name: "Titans Grove KOM",
