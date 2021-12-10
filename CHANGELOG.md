@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/andipaetzold/zwift-data/compare/v1.10.3...v1.10.4) (2021-12-10)
+
+
+### Bug Fixes
+
+* improve `segmentsOnRoute` ([096aa7e](https://github.com/andipaetzold/zwift-data/commit/096aa7ed840dfb059ac20383dd9c8aee9ad64d4b))
+
 ## [1.10.3](https://github.com/andipaetzold/zwift-data/compare/v1.10.2...v1.10.3) (2021-12-08)
 
 
