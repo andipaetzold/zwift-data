@@ -157,7 +157,7 @@ export const segments = [
       "https://whatsonzwift.com/world/new-york/segment/ny-sprint/reverse",
   },
   {
-    name: "Pav\\xe9 Sprint",
+    name: "Pavé Sprint",
     slug: "pave-sprint",
     type: "sprint",
     world: "france",
@@ -166,7 +166,7 @@ export const segments = [
       "https://whatsonzwift.com/world/france/segment/pave-sprint/forward",
   },
   {
-    name: "Pav\\xe9 Sprint Rev.",
+    name: "Pavé Sprint Rev.",
     slug: "pave-sprint-rev",
     type: "sprint",
     world: "france",
