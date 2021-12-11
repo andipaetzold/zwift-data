@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/andipaetzold/zwift-data/compare/v1.10.4...v1.10.5) (2021-12-11)
+
+
+### Bug Fixes
+
+* "Pavé Sprint" special character ([aa4b526](https://github.com/andipaetzold/zwift-data/commit/aa4b526b1e20297920a10e68a78843025b76b234))
+
 ## [1.10.4](https://github.com/andipaetzold/zwift-data/compare/v1.10.3...v1.10.4) (2021-12-10)
 
 
