@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/andipaetzold/zwift-data/compare/v1.10.5...v1.10.6) (2021-12-13)
+
+
+### Bug Fixes
+
+* add experience for Neokyo courses ([6ef051c](https://github.com/andipaetzold/zwift-data/commit/6ef051c27e01d16a0492184a202a21c8ea042afa))
+
 ## [1.10.5](https://github.com/andipaetzold/zwift-data/compare/v1.10.4...v1.10.5) (2021-12-11)
 
 
