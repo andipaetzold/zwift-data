@@ -1603,6 +1603,7 @@ export const routes = [
     id: 1127056801,
     slug: "neokyo-crit-course",
     segments: ["alley-sprint-rev", "castle-park-sprint-rev"],
+    experience: 90,
     stravaSegmentId: 30480835,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/neokyo-crit-course",
     whatsOnZwiftUrl:
@@ -1618,6 +1619,7 @@ export const routes = [
       "tower-sprint",
       "rooftop-kom",
     ],
+    expect: 485,
     stravaSegmentId: 30407658,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/neokyo-all-nighter",
     whatsOnZwiftUrl:
@@ -1666,6 +1668,7 @@ export const routes = [
     id: 3407362320,
     slug: "neon-flats",
     segments: ["tower-sprint", "alley-sprint", "castle-park-sprint"],
+    experience: 290,
     stravaSegmentId: 30414842,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/neon-flats",
     whatsOnZwiftUrl:

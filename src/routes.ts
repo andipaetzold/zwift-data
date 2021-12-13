@@ -1414,6 +1414,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
+    "experience": 90,
     "stravaSegmentId": 30480835,
     "stravaSegmentUrl": "https://www.strava.com/segments/30480835",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-crit-course",
@@ -4788,6 +4789,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
+    "experience": 290,
     "stravaSegmentId": 30414842,
     "stravaSegmentUrl": "https://www.strava.com/segments/30414842",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/neon-flats",
