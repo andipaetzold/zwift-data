@@ -199,7 +199,7 @@ export const socks: ReadonlyArray<Sock> = [
   },
   {
     "id": 1878783967,
-    "name": "LOC_ACCESSORY_SOCKS_ZIPP_White",
+    "name": "Zipp",
     "imageName": "Socks_ZippW2021"
   },
   {
@@ -229,7 +229,7 @@ export const socks: ReadonlyArray<Sock> = [
   },
   {
     "id": 2309812449,
-    "name": "Zipp Socks",
+    "name": "Zipp",
     "imageName": "Socks_ZippB2021"
   },
   {

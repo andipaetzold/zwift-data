@@ -778,6 +778,16 @@ export const achievements: ReadonlyArray<Achievement> = [
     "imageName": "RouteComplete"
   },
   {
+    "id": 162,
+    "name": "CLIMBER'S GAMBIT",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 163,
+    "name": "LEGENDS AND LAVA",
+    "imageName": "RouteComplete"
+  },
+  {
     "id": 164,
     "name": "RAILWAYS AND ROOFTOPS",
     "imageName": "RouteComplete"

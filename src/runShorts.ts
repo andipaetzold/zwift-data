@@ -48,9 +48,19 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "LARR2019_thumb"
   },
   {
+    "id": 492773436,
+    "name": "ZRS Spring 2021 Shorts",
+    "imageName": "ZRS012021_thumb"
+  },
+  {
     "id": 614375038,
     "name": "Tour De Zwift",
     "imageName": "TourDeZwift2020_thumb"
+  },
+  {
+    "id": 617749753,
+    "name": "ZRS Summer 2021 Shorts",
+    "imageName": "ZRS022021_thumb"
   },
   {
     "id": 641588231,
@@ -66,6 +76,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 837111845,
     "name": "Zwift Run Festival",
     "imageName": "RunFestivalThumb"
+  },
+  {
+    "id": 866715834,
+    "name": "ZRS Fall 2021 Shorts",
+    "imageName": "ZRS032021_thumb"
   },
   {
     "id": 889918679,
@@ -118,6 +133,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "ZwiftAcademyTriRun2020_thumb"
   },
   {
+    "id": 1306892875,
+    "name": "2021 Zwift Holiday Run Shorts",
+    "imageName": "EricMinHolidayRun2021_thumb"
+  },
+  {
     "id": 1421634430,
     "name": "Super League Pink",
     "imageName": "SuperLeague2020_thumb"
@@ -126,6 +146,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 1422442217,
     "name": "2021 ZA Tri Run Shorts",
     "imageName": "ZATriRun2021_thumb"
+  },
+  {
+    "id": 1625357719,
+    "name": "WHOOP Run Shorts",
+    "imageName": "WhoopRun2021_thumb"
   },
   {
     "id": 1747240866,
@@ -179,7 +204,7 @@ export const runShorts: ReadonlyArray<RunShort> = [
   },
   {
     "id": 2896078426,
-    "name": "LOC_ACCESSORY_NEOKYORUN2021",
+    "name": "Neokyo Launch Run Shorts",
     "imageName": "NeokyoRun2021_thumb"
   },
   {

@@ -103,6 +103,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
     "imageName": ""
   },
   {
+    "id": 1593377918,
+    "name": "Novatec Novatec R4",
+    "imageName": "Wheel_NovatecR4"
+  },
+  {
     "id": 1742598126,
     "name": "Shimano C50",
     "imageName": "Wheel_ShimanoDuraAceC50"

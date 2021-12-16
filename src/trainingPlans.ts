@@ -88,6 +88,11 @@ export const trainingPlans: ReadonlyArray<TrainingPlan> = [
     "imageName": "Wordmark_Offseason"
   },
   {
+    "id": 2318701312,
+    "name": "5k Record Breaker Lite",
+    "imageName": "Wordmark_RecordBreaker"
+  },
+  {
     "id": 2415283082,
     "name": "PRL100 2019",
     "imageName": "Wordmark_PRL100"
@@ -111,6 +116,11 @@ export const trainingPlans: ReadonlyArray<TrainingPlan> = [
     "id": 3320474959,
     "name": "Gravel Grinder",
     "imageName": "Wordmark_GravelGrinder"
+  },
+  {
+    "id": 3653621764,
+    "name": "3 Run 13.1 Lite",
+    "imageName": "Wordmark_3x13.1"
   },
   {
     "id": 3973582598,

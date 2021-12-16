@@ -13,6 +13,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "RunFestivalThumb"
   },
   {
+    "id": 118394757,
+    "name": "WHOOP Run Shirt",
+    "imageName": "WhoopRun2021_thumb"
+  },
+  {
     "id": 179331189,
     "name": "Eddie Izzard Marathon Challenge Kit",
     "imageName": "EddieIzzardCelebration2021_thumb"
@@ -194,7 +199,7 @@ export const runShirts: ReadonlyArray<RunShirt> = [
   },
   {
     "id": 1598044512,
-    "name": "LOC_ACCESSORY_NEOKYORUN2021",
+    "name": "Neokyo Launch Run Shirt",
     "imageName": "NeokyoRun2021_thumb"
   },
   {
@@ -216,6 +221,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 1712788603,
     "name": "KRC",
     "imageName": "KRC2019"
+  },
+  {
+    "id": 1741194489,
+    "name": "2021 Zwift Holiday Run Shirt",
+    "imageName": "EricMinHolidayRun2021_thumb"
   },
   {
     "id": 1751329060,

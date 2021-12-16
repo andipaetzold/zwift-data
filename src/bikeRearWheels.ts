@@ -238,6 +238,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
     "imageName": "Wheel_FFWDRYOT55"
   },
   {
+    "id": 4182312168,
+    "name": "Novatec Novatec R4",
+    "imageName": "Wheel_NovatecR4"
+  },
+  {
     "id": 4183014640,
     "name": "Zipp 404",
     "imageName": "Wheel_Zipp404Firecrest"

@@ -23,6 +23,11 @@ export const bikeShoes: ReadonlyArray<BikeShoe> = [
     "imageName": "SworksSpSeven"
   },
   {
+    "id": 1982081400,
+    "name": "Adidas Indoor Cycling Shoes",
+    "imageName": "Adidas2021"
+  },
+  {
     "id": 2095963351,
     "name": "Bont Helix",
     "imageName": "BontHelix"

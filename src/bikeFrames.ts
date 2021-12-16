@@ -161,6 +161,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": false
   },
   {
+    "id": 1174020494,
+    "name": "Chapter2 Chapter2TOA2021",
+    "modelYear": 2021,
+    "isTT": false
+  },
+  {
     "id": 1188190925,
     "name": "Specialized Tarmac SL7 Sram",
     "modelYear": 2021,
@@ -227,6 +233,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
   {
     "id": 1675779900,
     "name": "Canyon CanyonUltimate2021",
+    "modelYear": 2021,
+    "isTT": false
+  },
+  {
+    "id": 1703496698,
+    "name": "Cube CubeLitening2021",
     "modelYear": 2021,
     "isTT": false
   },

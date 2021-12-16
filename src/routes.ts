@@ -393,7 +393,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -1397,10 +1397,14 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "neokyo-crit-course",
     "world": "makuri-islands",
     "eventOnly": true,
-    "distance": 3.882,
+    "distance": 3.888,
     "elevation": 20,
-    "leadInDistance": 0.739,
-    "leadInElevation": 5,
+    "leadInDistance": 0,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0,
+    "leadInElevationInMeetups": 0,
     "segments": [
       "alley-sprint-rev",
       "castle-park-sprint-rev"
@@ -1409,7 +1413,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -1534,6 +1538,31 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/24674248",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/lutece-express",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/paris/route/lutece-express"
+  },
+  {
+    "id": 1327147942,
+    "name": "2022 Gran Fondo",
+    "slug": "1327147942",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 92.467,
+    "elevation": 1116,
+    "leadInDistance": 0.295,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ]
   },
   {
     "id": 1327665278,
@@ -1731,10 +1760,10 @@ export const routes: ReadonlyArray<Route> = [
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 24.329,
-    "elevation": 167,
+    "elevation": 168,
     "leadInDistance": 0.278,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0.05,
+    "leadInDistanceFreeRide": 0.025,
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.05,
     "leadInElevationInMeetups": 0,
@@ -1760,7 +1789,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -1776,10 +1805,10 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "kappa-quest-reverse",
     "world": "makuri-islands",
     "eventOnly": false,
-    "distance": 9.072,
-    "elevation": 141,
-    "leadInDistance": 5.155,
-    "leadInElevation": 131,
+    "distance": 9.087,
+    "elevation": 140,
+    "leadInDistance": 5.156,
+    "leadInElevation": 130,
     "leadInDistanceFreeRide": 5.032,
     "leadInElevationFreeRide": 130,
     "segments": [
@@ -3065,6 +3094,31 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/laguardia-loop"
   },
   {
+    "id": 2436095601,
+    "name": "2022 Cycling Esports World Championships Route",
+    "slug": "2436095601",
+    "world": "new-york",
+    "eventOnly": true,
+    "distance": 54.743,
+    "elevation": 942,
+    "leadInDistance": 0.22,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": true,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ]
+  },
+  {
     "id": 2474227587,
     "name": "Beach Island Loop",
     "slug": "beach-island-loop",
@@ -3772,7 +3826,7 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "temples-and-towers",
     "world": "makuri-islands",
     "eventOnly": false,
-    "distance": 32.586,
+    "distance": 32.594,
     "elevation": 318,
     "leadInDistance": 0.779,
     "leadInElevation": 1,
@@ -3805,7 +3859,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -3815,6 +3869,31 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/30408107",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/temples-and-towers",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/temples-and-towers"
+  },
+  {
+    "id": 2900074211,
+    "name": "2022 Medio Fondo",
+    "slug": "2900074211",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 79.023,
+    "elevation": 922,
+    "leadInDistance": 0.295,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ]
   },
   {
     "id": 2905381067,
@@ -4198,7 +4277,7 @@ export const routes: ReadonlyArray<Route> = [
     "name": "Climber's Gambit",
     "slug": "climbers-gambit",
     "world": "watopia",
-    "eventOnly": true,
+    "eventOnly": false,
     "distance": 27.823,
     "elevation": 671,
     "leadInDistance": 0.204,
@@ -4225,7 +4304,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -4430,11 +4509,11 @@ export const routes: ReadonlyArray<Route> = [
     "eventOnly": false,
     "distance": 9.559,
     "elevation": 43,
-    "leadInDistance": 0.087,
+    "leadInDistance": 0.01,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0.037,
+    "leadInDistanceFreeRide": 0.01,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.037,
+    "leadInDistanceMeetups": 0.022,
     "leadInElevationInMeetups": 0,
     "segments": [
       "castle-park-sprint-rev"
@@ -4443,7 +4522,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -4514,7 +4593,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -4631,6 +4710,31 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/29009511",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/sukis-playground",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/suki-s-playground"
+  },
+  {
+    "id": 3368626651,
+    "name": "2022 Bambino Fondo",
+    "slug": "3368626651",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 52.956,
+    "elevation": 397,
+    "leadInDistance": 0.295,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ]
   },
   {
     "id": 3379779247,
@@ -4761,13 +4865,13 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "neon-flats",
     "world": "makuri-islands",
     "eventOnly": false,
-    "distance": 14.72,
+    "distance": 14.733,
     "elevation": 72,
-    "leadInDistance": 0.26,
+    "leadInDistance": 0,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0.024,
+    "leadInDistanceFreeRide": 0.017,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.024,
+    "leadInDistanceMeetups": 0.037,
     "leadInElevationInMeetups": 0,
     "segments": [
       "tower-sprint",
@@ -4784,7 +4888,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -4883,7 +4987,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -5185,8 +5289,8 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "chain-chomper",
     "world": "makuri-islands",
     "eventOnly": false,
-    "distance": 13.604,
-    "elevation": 184,
+    "distance": 13.616,
+    "elevation": 183,
     "leadInDistance": 2.419,
     "leadInElevation": 5,
     "leadInDistanceFreeRide": 0,
@@ -5598,7 +5702,7 @@ export const routes: ReadonlyArray<Route> = [
     "name": "Legends and Lava",
     "slug": "legends-and-lava",
     "world": "watopia",
-    "eventOnly": true,
+    "eventOnly": false,
     "distance": 24.463,
     "elevation": 352,
     "leadInDistance": 0.203,
@@ -5630,7 +5734,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -5722,11 +5826,11 @@ export const routes: ReadonlyArray<Route> = [
     "eventOnly": false,
     "distance": 25.103,
     "elevation": 146,
-    "leadInDistance": 0.111,
+    "leadInDistance": 0,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0.042,
+    "leadInDistanceFreeRide": 0.024,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.042,
+    "leadInDistanceMeetups": 0.024,
     "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint",
@@ -5737,7 +5841,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
