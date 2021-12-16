@@ -54,7 +54,7 @@ export const glasses: ReadonlyArray<Glass> = [
   },
   {
     "id": 1988601419,
-    "name": "Tour de Zwift 2022 Run Sunglasses",
+    "name": "Tour de Zwift 2022 Sunglasses",
     "imageName": "Glasses_TdZGlasses2021"
   },
   {

@@ -253,6 +253,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "VW_2015_thumb"
   },
   {
+    "id": 303167268,
+    "name": "Cadex Kit",
+    "imageName": "Cadex2021_thumb"
+  },
+  {
     "id": 304856285,
     "name": "Lava",
     "imageName": "Lava2015_thumb"
@@ -1088,6 +1093,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "LECOL_thumb"
   },
   {
+    "id": 1303932596,
+    "name": "Z Racing E",
+    "imageName": "ZRacingE_thumb"
+  },
+  {
     "id": 1305457056,
     "name": "Canyon Community",
     "imageName": "CanyonCommunity2019_thumb"
@@ -1523,6 +1533,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "ZwiftNationalChampions_thumb"
   },
   {
+    "id": 1893222148,
+    "name": "Z Racing D",
+    "imageName": "ZRacingD_thumb"
+  },
+  {
     "id": 1900024720,
     "name": "ZNC - Korea",
     "imageName": "ZwiftNationalChampions_thumb"
@@ -1753,6 +1768,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "LaBicicletta_thumb"
   },
   {
+    "id": 2218704109,
+    "name": "Pinarello La Squadra Kit",
+    "imageName": "PLS2021_thumb"
+  },
+  {
     "id": 2219699088,
     "name": "Team PTz",
     "imageName": "TeamPTZ_thumb"
@@ -1866,6 +1886,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 2411042224,
     "name": "Team Poland",
     "imageName": "ZwiftTeamPL_thumb"
+  },
+  {
+    "id": 2411973716,
+    "name": "ZFondo February 2022",
+    "imageName": "ZFondo202202_thumb"
   },
   {
     "id": 2414198484,
@@ -2323,6 +2348,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "ZwiftZFondoFeb2019_thumb"
   },
   {
+    "id": 2997085668,
+    "name": "ZFondo March 2022",
+    "imageName": "ZFondo202203_thumb"
+  },
+  {
     "id": 3002321123,
     "name": "Giant",
     "imageName": "Giant2017_thumb"
@@ -2366,6 +2396,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3084206699,
     "name": "Rad Race",
     "imageName": "RadRace_thumb"
+  },
+  {
+    "id": 3090729076,
+    "name": "Z Racing A",
+    "imageName": "ZRacingA_thumb"
   },
   {
     "id": 3097301453,
@@ -2434,7 +2469,7 @@ export const jerseys: ReadonlyArray<Jersey> = [
   },
   {
     "id": 3185255681,
-    "name": "BCBR Gravel Kit",
+    "name": "BCBR Gravel Explorer Kit",
     "imageName": "BCBRGravel2021_thumb"
   },
   {
@@ -2511,6 +2546,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3264337015,
     "name": "Scott Sram",
     "imageName": "ScottSram2020_thumb"
+  },
+  {
+    "id": 3271072532,
+    "name": "Z Racing C",
+    "imageName": "ZRacingC_thumb"
   },
   {
     "id": 3275729930,
@@ -2591,6 +2631,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3355052630,
     "name": "Team Jumbo-Visma",
     "imageName": "TeamJumboVisma2019_thumb"
+  },
+  {
+    "id": 3361977988,
+    "name": "ZFondo January 2022",
+    "imageName": "ZFondo202201_thumb"
   },
   {
     "id": 3370254609,
@@ -2713,6 +2758,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "PlushGlobal2021_thumb"
   },
   {
+    "id": 3456451761,
+    "name": "Team Racing Without Borders Kit",
+    "imageName": "TRWB2022_thumb"
+  },
+  {
     "id": 3459652898,
     "name": "Schleck Gran Fondo",
     "imageName": "SchleckGranFondo2018_thumb"
@@ -2813,9 +2863,19 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "Zwift_zFondo_Dec_thumb"
   },
   {
+    "id": 3581804427,
+    "name": "Pushing Limits 2021 Kit",
+    "imageName": "PushingLimits2021_thumb"
+  },
+  {
     "id": 3591639561,
     "name": "GSR Long Riders",
     "imageName": "GSRLongRiders2016_thumb"
+  },
+  {
+    "id": 3591907082,
+    "name": "Toyota CRYO RTD Kit",
+    "imageName": "ToyotaCryoRDT2021_thumb"
   },
   {
     "id": 3593181577,
@@ -3006,6 +3066,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3795276190,
     "name": "Team DIRT",
     "imageName": "TeamDIRT2019_thumb"
+  },
+  {
+    "id": 3808857926,
+    "name": "WHOOP Cycling Kit",
+    "imageName": "Whoop2021_thumb"
   },
   {
     "id": 3812986196,
@@ -3283,6 +3348,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "PrideOn2020_thumb"
   },
   {
+    "id": 4090819303,
+    "name": "Basecamp Kit",
+    "imageName": "Basecamp2021_thumb"
+  },
+  {
     "id": 4095063053,
     "name": "World Bicycle Relief 2015",
     "imageName": "WorldBikeRelief2015_thumb"
@@ -3441,5 +3511,10 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 4283763318,
     "name": "Trek Factory Racing Men",
     "imageName": "TrekFactoryRacingMensMTB2021_thumb"
+  },
+  {
+    "id": 4288197284,
+    "name": "Z Racing B",
+    "imageName": "ZRacingB_thumb"
   }
 ];

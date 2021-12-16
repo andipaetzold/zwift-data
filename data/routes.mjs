@@ -1694,4 +1694,28 @@ export const routes = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/wandering-flats",
   },
+  {
+    id: 1327147942,
+    slug: "2022-gran-fondo",
+    segments: [],
+    stravaSegmentId: null,
+  },
+  {
+    id: 2436095601,
+    slug: "2022-cycling-esports-world-championships-route",
+    segments: [],
+    stravaSegmentId: null,
+  },
+  {
+    id: 2900074211,
+    slug: "2022-medio-fondo",
+    segments: [],
+    stravaSegmentId: null,
+  },
+  {
+    id: 3368626651,
+    slug: "2022-bambino-fondo",
+    segments: [],
+    stravaSegmentId: null,
+  },
 ];

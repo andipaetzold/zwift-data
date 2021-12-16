@@ -307,6 +307,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Cannondale Synapse-Evo"
   },
   {
+    "id": 2272858534,
+    "name": "Cube CubeLitening2021-Commercial"
+  },
+  {
     "id": 2273815071,
     "name": "Zwift Carbon-Cofidis De Rosa"
   },
@@ -401,6 +405,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 2957255713,
     "name": "Specialized Tarmac SL7-Legion of LA"
+  },
+  {
+    "id": 2968318986,
+    "name": "Chapter2 Chapter2TOA2021-TOA"
   },
   {
     "id": 2996016213,
@@ -541,6 +549,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 3873895882,
     "name": "Specialized Shiv Disc-ZA Tri Team"
+  },
+  {
+    "id": 3876463492,
+    "name": "Cube CubeLitening2021-Team"
   },
   {
     "id": 3959514452,
