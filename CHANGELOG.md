@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/andipaetzold/zwift-data/compare/v1.11.0...v1.11.1) (2021-12-17)
+
+
+### Bug Fixes
+
+* update slugs of new routes ([#13](https://github.com/andipaetzold/zwift-data/issues/13)) ([e647cfb](https://github.com/andipaetzold/zwift-data/commit/e647cfbad33fddead41812d44fd319d6af4a7bae))
+
 # [1.11.0](https://github.com/andipaetzold/zwift-data/compare/v1.10.6...v1.11.0) (2021-12-16)
 
 
