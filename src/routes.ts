@@ -1542,7 +1542,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 1327147942,
     "name": "2022 Gran Fondo",
-    "slug": "1327147942",
+    "slug": "2022-gran-fondo",
     "world": "watopia",
     "eventOnly": true,
     "distance": 92.467,
@@ -3096,7 +3096,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 2436095601,
     "name": "2022 Cycling Esports World Championships Route",
-    "slug": "2436095601",
+    "slug": "2022-cycling-esports-world-championships-route",
     "world": "new-york",
     "eventOnly": true,
     "distance": 54.743,
@@ -3873,7 +3873,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 2900074211,
     "name": "2022 Medio Fondo",
-    "slug": "2900074211",
+    "slug": "2022-medio-fondo",
     "world": "watopia",
     "eventOnly": true,
     "distance": 79.023,
@@ -4714,7 +4714,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 3368626651,
     "name": "2022 Bambino Fondo",
-    "slug": "3368626651",
+    "slug": "2022-bambino-fondo",
     "world": "watopia",
     "eventOnly": true,
     "distance": 52.956,
