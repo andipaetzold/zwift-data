@@ -1553,8 +1553,58 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0,
     "leadInElevationInMeetups": 0,
-    "segments": [],
-    "segmentsOnRoute": [],
+    "segments": [
+      "watopia-sprint",
+      "fuego-flats-rev",
+      "fuego-flats",
+      "zwift-kom",
+      "titans-grove-kom-rev",
+      "volcano-circuit",
+      "volcano-kom",
+      "epic-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 5.602,
+        "to": 5.932,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 17.971,
+        "to": 25.062,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 26.54,
+        "to": 27.028,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 40.638,
+        "to": 41.528,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 53.092,
+        "to": 53.993,
+        "segment": "titans-grove-kom-rev"
+      },
+      {
+        "from": 66.455,
+        "to": 70.524,
+        "segment": "volcano-circuit"
+      },
+      {
+        "from": 72.355,
+        "to": 76.078,
+        "segment": "volcano-kom"
+      },
+      {
+        "from": 86.184,
+        "to": 92.364,
+        "segment": "epic-kom-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -1562,7 +1612,10 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30601015,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30601015",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-gran-fondo"
   },
   {
     "id": 1327665278,
@@ -3107,8 +3160,27 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0,
     "leadInElevationInMeetups": 0,
-    "segments": [],
-    "segmentsOnRoute": [],
+    "segments": [
+      "new-york-sprint-rev",
+      "new-york-kom"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 8.4,
+        "to": 9.762,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 30.93,
+        "to": 32.292,
+        "segment": "new-york-kom"
+      },
+      {
+        "from": 53.459,
+        "to": 54.825,
+        "segment": "new-york-kom"
+      }
+    ],
     "levelLocked": true,
     "lap": false,
     "supportsTT": false,
@@ -3116,7 +3188,10 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30601050,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30601050",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-cycling-esports-world-championships-route"
   },
   {
     "id": 2474227587,
@@ -3884,8 +3959,57 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0,
     "leadInElevationInMeetups": 0,
-    "segments": [],
-    "segmentsOnRoute": [],
+    "segments": [
+      "watopia-sprint",
+      "fuego-flats-rev",
+      "fuego-flats",
+      "titans-grove-kom",
+      "watopia-sprint-rev",
+      "zwift-kom-rev",
+      "epic-kom"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 5.614,
+        "to": 5.94,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 17.997,
+        "to": 25.087,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 26.568,
+        "to": 27.06,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 37.344,
+        "to": 39.961,
+        "segment": "titans-grove-kom"
+      },
+      {
+        "from": 49.127,
+        "to": 49.317,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 51.499,
+        "to": 53.959,
+        "segment": "zwift-kom-rev"
+      },
+      {
+        "from": 59.222,
+        "to": 59.711,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 69.752,
+        "to": 79.165,
+        "segment": "epic-kom"
+      }
+    ],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -3893,7 +4017,10 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30600597,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30600597",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-medio-fondo"
   },
   {
     "id": 2905381067,
@@ -4725,8 +4852,40 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0,
     "leadInElevationInMeetups": 0,
-    "segments": [],
-    "segmentsOnRoute": [],
+    "segments": [
+      "watopia-sprint",
+      "fuego-flats-rev",
+      "fuego-flats",
+      "volcano-circuit",
+      "volcano-kom"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 5.618,
+        "to": 5.944,
+        "segment": "watopia-sprint"
+      },
+      {
+        "from": 17.991,
+        "to": 25.081,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 26.561,
+        "to": 27.065,
+        "segment": "fuego-flats"
+      },
+      {
+        "from": 43.477,
+        "to": 47.551,
+        "segment": "volcano-circuit"
+      },
+      {
+        "from": 49.377,
+        "to": 53.107,
+        "segment": "volcano-kom"
+      }
+    ],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -4734,7 +4893,10 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 30601013,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30601013",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-bambino-fondo"
   },
   {
     "id": 3379779247,
