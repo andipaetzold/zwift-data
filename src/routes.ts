@@ -4436,6 +4436,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
+    "experience": 600,
     "stravaSegmentId": 29622065,
     "stravaSegmentUrl": "https://www.strava.com/segments/29622065",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/climbers-gambit",

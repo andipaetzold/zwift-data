@@ -1564,7 +1564,7 @@ export const routes = [
     id: 3023359358,
     slug: "climbers-gambit",
     segments: ["watopia-sprint-rev", "titans-grove-kom-rev", "epic-kom-rev"],
-    experience: null,
+    experience: 600,
     stravaSegmentId: 29622065,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/climbers-gambit",
     whatsOnZwiftUrl:
