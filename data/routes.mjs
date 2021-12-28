@@ -1544,7 +1544,7 @@ export const routes = [
     id: 3864857876,
     slug: "legends-and-lava",
     segments: ["titans-grove-kom-rev", "watopia-sprint", "volcano-kom"],
-    experience: null,
+    experience: 490,
     stravaSegmentId: 30630421,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/legends-and-lava",
     whatsOnZwiftUrl:

@@ -5902,6 +5902,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
+    "experience": 490,
     "stravaSegmentId": 30630421,
     "stravaSegmentUrl": "https://www.strava.com/segments/30630421",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/legends-and-lava",
