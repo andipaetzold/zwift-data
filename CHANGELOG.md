@@ -1,3 +1,12 @@
+## [1.11.3](https://github.com/andipaetzold/zwift-data/compare/v1.11.2...v1.11.3) (2021-12-28)
+
+
+### Bug Fixes
+
+* add xp for Climber's Gambit ([f948735](https://github.com/andipaetzold/zwift-data/commit/f948735ff5e367b76b3f3a047452558f12c9e01f))
+* add xp for Legends and Lava ([1cfb51a](https://github.com/andipaetzold/zwift-data/commit/1cfb51abda49b9caf5cf37074933f3a3a6e40629))
+* update strava segment of "Legends and Lava" ([113ea9e](https://github.com/andipaetzold/zwift-data/commit/113ea9eaca3b0de86a7bff5263817228048b2204))
+
 ## [1.11.2](https://github.com/andipaetzold/zwift-data/compare/v1.11.1...v1.11.2) (2021-12-19)
 
 
