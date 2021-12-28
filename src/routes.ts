@@ -5878,18 +5878,18 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "segmentsOnRoute": [
       {
-        "from": 4.118,
-        "to": 5.012,
+        "from": 3.576,
+        "to": 4.469,
         "segment": "titans-grove-kom-rev"
       },
       {
-        "from": 16.431,
-        "to": 16.758,
+        "from": 15.888,
+        "to": 16.216,
         "segment": "watopia-sprint"
       },
       {
-        "from": 20.805,
-        "to": 24.515,
+        "from": 20.263,
+        "to": 23.973,
         "segment": "volcano-kom"
       }
     ],
@@ -5901,8 +5901,8 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "stravaSegmentId": 29609516,
-    "stravaSegmentUrl": "https://www.strava.com/segments/29609516",
+    "stravaSegmentId": 30630421,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30630421",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/legends-and-lava",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/legends-and-lava"
   },
