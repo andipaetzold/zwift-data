@@ -187,6 +187,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Zwift Aero-Zwift Aero"
   },
   {
+    "id": 1546474285,
+    "name": "Felt FeltFR2022-FeltFR"
+  },
+  {
     "id": 1570565867,
     "name": "Specialized Shiv S-Works-Specialized Shiv S-Works Black"
   },
@@ -301,6 +305,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 2235539821,
     "name": "Cannondale Super Six Evo-Giro De Rigo"
+  },
+  {
+    "id": 2240051099,
+    "name": "Felt FeltFR2022-FeltFRRally"
   },
   {
     "id": 2266567131,
@@ -473,6 +481,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 3331187167,
     "name": "Specialized Amira-Team"
+  },
+  {
+    "id": 3335778980,
+    "name": "Felt FeltFR2022-FeltFR"
   },
   {
     "id": 3336992711,

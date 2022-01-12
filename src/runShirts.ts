@@ -113,6 +113,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "ZATriRun2021_thumb"
   },
   {
+    "id": 862160517,
+    "name": "World Cancer Day",
+    "imageName": "WorldCancerDayRun2021_thumb"
+  },
+  {
     "id": 911708174,
     "name": "New Balance",
     "imageName": "NewBalance2019_thumb"
@@ -571,5 +576,10 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 4198163224,
     "name": "ZRS Winter",
     "imageName": "ZRSWinter2020_thumb"
+  },
+  {
+    "id": 4291829110,
+    "name": "Tour of Watopia 2022",
+    "imageName": "TOWRun2022_thumb"
   }
 ];

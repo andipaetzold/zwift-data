@@ -28,6 +28,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "CyclingCapTourDeZwift2022_thumb"
   },
   {
+    "id": 444961024,
+    "name": "Tour of Watopia 2022",
+    "imageName": "RunningCapTOW2022_thumb"
+  },
+  {
     "id": 471358119,
     "name": "Run Festival Hat",
     "imageName": "RunnerCapRunFestival2021_thumb"
@@ -76,6 +81,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 788235908,
     "name": "Tour de Zwift 2022 Run Cap",
     "imageName": "RunningCapTourDeZwift2022_thumb"
+  },
+  {
+    "id": 796050981,
+    "name": "Tour of Watopia 2022",
+    "imageName": "CyclingCapTOW2022_thumb"
   },
   {
     "id": 935052582,
@@ -308,6 +318,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "RcZRSCiele2020_thumb"
   },
   {
+    "id": 3324753264,
+    "name": "Rapha Rising 2022",
+    "imageName": "CyclingCapRaphaRising2022_thumb"
+  },
+  {
     "id": 3346861673,
     "name": "Giro Eclipse Canyon SRAM",
     "imageName": "GiroEclipseCanyonSRAM2021"
@@ -391,6 +406,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 3912703277,
     "name": "Giro Eclipse FDJ",
     "imageName": "GiroEclipseFDJ2021"
+  },
+  {
+    "id": 4226117447,
+    "name": "INEOS Grenadiers",
+    "imageName": "CyclingCapINEOSGrenadiers2021_thumb"
   },
   {
     "id": 4241132751,

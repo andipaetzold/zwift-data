@@ -133,6 +133,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "ZwiftWhite"
   },
   {
+    "id": 1214718478,
+    "name": "INEOS Grenadiers",
+    "imageName": "Socks_INEOSGrenadiers2021_blue"
+  },
+  {
     "id": 1225125243,
     "name": "None",
     "imageName": ""
@@ -186,6 +191,11 @@ export const socks: ReadonlyArray<Sock> = [
     "id": 1701325752,
     "name": "ZA Road 2021 Socks",
     "imageName": "Socks_ZARoad2021"
+  },
+  {
+    "id": 1731120091,
+    "name": "Rapha Rising 2022",
+    "imageName": "Socks_RaphaRising2022"
   },
   {
     "id": 1856298600,
@@ -391,6 +401,11 @@ export const socks: ReadonlyArray<Sock> = [
     "id": 3782188179,
     "name": "Ultralight Crew Performance Socks",
     "imageName": "SocksRFTO2021"
+  },
+  {
+    "id": 3811667861,
+    "name": "INEOS Grenadiers",
+    "imageName": "Socks_INEOSGrenadiers2021_white"
   },
   {
     "id": 3814348865,

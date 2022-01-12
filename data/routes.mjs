@@ -1741,9 +1741,25 @@ export const routes = [
       "fuego-flats-rev",
       "fuego-flats",
       "volcano-circuit",
-      "volcano-kom"
+      "volcano-kom",
     ],
     stravaSegmentId: 30601013,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/2022-bambino-fondo",
+  },
+  {
+    id: 3742187716,
+    slug: "castle-to-castle",
+    segments: ["tower-sprint"],
+    experience: 460,
+    stravaSegmentId: 30629803,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/castle-to-castle",
+  },
+  {
+    id: 1457923570,
+    slug: "twilight-harbor",
+    segments: ["tower-sprint"],
+    experience: 135,
+    stravaSegmentId: 30629791,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/twighlight-harbor",
   },
 ];

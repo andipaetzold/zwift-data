@@ -828,6 +828,16 @@ export const achievements: ReadonlyArray<Achievement> = [
     "imageName": "RouteComplete"
   },
   {
+    "id": 172,
+    "name": "TWILIGHT HARBOR",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 175,
+    "name": "CASTLE TO CASTLE",
+    "imageName": "RouteComplete"
+  },
+  {
     "id": 176,
     "name": "NEOKYO CRIT COURSE",
     "imageName": "RouteComplete"

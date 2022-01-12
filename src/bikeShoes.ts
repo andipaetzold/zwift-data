@@ -53,6 +53,11 @@ export const bikeShoes: ReadonlyArray<BikeShoe> = [
     "imageName": "Neokyoshoe"
   },
   {
+    "id": 3128704198,
+    "name": "Tour of Watopia 2022",
+    "imageName": "TOWCyclingShoe2022"
+  },
+  {
     "id": 3238688697,
     "name": "Mavic Cosmic",
     "imageName": "MavicCosmic"

@@ -523,6 +523,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": false
   },
   {
+    "id": 3660740142,
+    "name": "Felt FeltFR2022",
+    "modelYear": 2022,
+    "isTT": false
+  },
+  {
     "id": 3710262807,
     "name": "Zwift Safety",
     "modelYear": 1885,

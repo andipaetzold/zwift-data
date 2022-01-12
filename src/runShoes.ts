@@ -18,6 +18,11 @@ export const runShoes: ReadonlyArray<RunShoe> = [
     "imageName": "RunningShoesRunFestival2021_thumb"
   },
   {
+    "id": 712146150,
+    "name": "Tour of Watopia 2022",
+    "imageName": "RunningShoe_TOW2022"
+  },
+  {
     "id": 888731925,
     "name": "Zwift Black",
     "imageName": "RunningShoe_Black"

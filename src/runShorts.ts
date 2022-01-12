@@ -48,6 +48,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "LARR2019_thumb"
   },
   {
+    "id": 424581175,
+    "name": "World Cancer Day",
+    "imageName": "WorldCancerDayRun2021_thumb"
+  },
+  {
     "id": 492773436,
     "name": "ZRS Spring 2021 Shorts",
     "imageName": "ZRS012021_thumb"
@@ -251,6 +256,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 3273293920,
     "name": "Zwift Running Shorts 11",
     "imageName": "Shorts11"
+  },
+  {
+    "id": 3289604891,
+    "name": "Tour of Watopia 2022",
+    "imageName": "TOWRun2022_thumb"
   },
   {
     "id": 3290761370,
