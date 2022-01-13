@@ -1903,6 +1903,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.009,
     "leadInElevationInMeetups": 0,
     "segments": [
+      "alley-sprint",
       "tower-sprint"
     ],
     "segmentsOnRoute": [
@@ -5643,6 +5644,7 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.029,
     "leadInElevationInMeetups": 0,
     "segments": [
+      "alley-sprint",
       "tower-sprint"
     ],
     "segmentsOnRoute": [

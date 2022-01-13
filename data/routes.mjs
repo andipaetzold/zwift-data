@@ -1749,7 +1749,7 @@ export const routes = [
   {
     id: 3742187716,
     slug: "castle-to-castle",
-    segments: ["tower-sprint"],
+    segments: ["alley-sprint", "tower-sprint"],
     experience: 460,
     stravaSegmentId: 30629803,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/castle-to-castle",
@@ -1757,7 +1757,7 @@ export const routes = [
   {
     id: 1457923570,
     slug: "twilight-harbor",
-    segments: ["tower-sprint"],
+    segments: ["alley-sprint", "tower-sprint"],
     experience: 135,
     stravaSegmentId: 30629791,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/twighlight-harbor",
