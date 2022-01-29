@@ -879,7 +879,7 @@ export const routes = [
     id: 263936293,
     slug: "thats-amore",
     segments: ["watopia-sprint-rev"],
-    experience: 225,
+    experience: 260,
     stravaSegmentId: 18993582,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/thats-amore",
     whatsOnZwiftUrl:
@@ -889,7 +889,7 @@ export const routes = [
     id: 1790569309,
     slug: "couch-to-sky-k",
     segments: [],
-    experience: 280,
+    experience: 260,
     stravaSegmentId: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/couch-to-sky-k",
     whatsOnZwiftUrl:
@@ -899,7 +899,7 @@ export const routes = [
     id: 711818913,
     slug: "flat-irons",
     segments: ["new-york-sprint-rev"],
-    experience: 600,
+    experience: 590,
     stravaSegmentId: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/flat-irons",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/new-york/route/flat-irons",
@@ -1504,7 +1504,7 @@ export const routes = [
     id: 3367186349,
     slug: "sukis-playground",
     segments: ["country-sprint"],
-    experience: 370,
+    experience: 365,
     stravaSegmentId: 29009511,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/sukis-playground",
     whatsOnZwiftUrl:
@@ -1593,7 +1593,7 @@ export const routes = [
     id: 246712730,
     slug: "railways-and-rooftops",
     segments: ["railway-sprint"],
-    experience: 150,
+    experience: 120,
     stravaSegmentId: 30407802,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/railways-and-rooftops",
     whatsOnZwiftUrl:

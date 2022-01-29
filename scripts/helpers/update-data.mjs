@@ -75,7 +75,9 @@ export async function updateData() {
         supportsTT: item.$.supportsTimeTrialMode === "1",
         supportsMeetups: item.$.blockedForMeetups === "0",
         sports: item.$.sports === "2" ? ["running"] : ["running", "cycling"],
-        experience: manualRouteData?.experience ?? undefined,
+        experience: item.$.xp
+          ? +item.$.xp
+          : manualRouteData?.experience ?? undefined,
         stravaSegmentId: manualRouteData?.stravaSegmentId ?? undefined,
         stravaSegmentUrl: manualRouteData?.stravaSegmentId
           ? `https://www.strava.com/segments/${manualRouteData.stravaSegmentId}`

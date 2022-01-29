@@ -398,7 +398,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 150,
+    "experience": 120,
     "stravaSegmentId": 30407802,
     "stravaSegmentUrl": "https://www.strava.com/segments/30407802",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/railways-and-rooftops",
@@ -435,7 +435,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 225,
+    "experience": 260,
     "stravaSegmentId": 18993582,
     "stravaSegmentUrl": "https://www.strava.com/segments/18993582",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/thats-amore",
@@ -847,7 +847,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 600,
+    "experience": 590,
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/flat-irons",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/flat-irons"
   },
@@ -2384,7 +2384,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 280,
+    "experience": 260,
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/couch-to-sky-k",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/couch-to-sky-k"
   },
@@ -4874,7 +4874,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 370,
+    "experience": 365,
     "stravaSegmentId": 29009511,
     "stravaSegmentUrl": "https://www.strava.com/segments/29009511",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/sukis-playground",
