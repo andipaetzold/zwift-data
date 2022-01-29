@@ -1,3 +1,11 @@
+## [1.12.3](https://github.com/andipaetzold/zwift-data/compare/v1.12.2...v1.12.3) (2022-01-29)
+
+
+### Bug Fixes
+
+* remove "Epic KOM Rev" from "Big Loop Rev" ([505e8c8](https://github.com/andipaetzold/zwift-data/commit/505e8c8d79953e87ffe3e6c653e888b6fadba444))
+* remove "Innsbruck KOM" from "Innsbruckring" ([50a37e4](https://github.com/andipaetzold/zwift-data/commit/50a37e4da200f3aaecb2e5b5db5d384d245c3fb9))
+
 ## [1.12.2](https://github.com/andipaetzold/zwift-data/compare/v1.12.1...v1.12.2) (2022-01-29)
 
 
