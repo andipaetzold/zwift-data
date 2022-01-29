@@ -1,3 +1,11 @@
+## [1.12.2](https://github.com/andipaetzold/zwift-data/compare/v1.12.1...v1.12.2) (2022-01-29)
+
+
+### Bug Fixes
+
+* add experience for "Neokyo All Nighter" ([6dc3981](https://github.com/andipaetzold/zwift-data/commit/6dc39819d48abbef803865ea07ccf612f0360040))
+* update route experiences ([e27e89c](https://github.com/andipaetzold/zwift-data/commit/e27e89c63eb734ab6657849a84705a75475da990))
+
 ## [1.12.1](https://github.com/andipaetzold/zwift-data/compare/v1.12.0...v1.12.1) (2022-01-13)
 
 
