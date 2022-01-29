@@ -1847,6 +1847,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
+    "experience": 485,
     "stravaSegmentId": 30407658,
     "stravaSegmentUrl": "https://www.strava.com/segments/30407658",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-all-nighter",

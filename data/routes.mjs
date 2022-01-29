@@ -1619,7 +1619,7 @@ export const routes = [
       "tower-sprint",
       "rooftop-kom",
     ],
-    expect: 485,
+    experience: 485,
     stravaSegmentId: 30407658,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/neokyo-all-nighter",
     whatsOnZwiftUrl:
