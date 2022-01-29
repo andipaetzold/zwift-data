@@ -997,7 +997,7 @@ export const routes = [
   {
     id: 4107844490,
     slug: "big-loop-rev",
-    segments: ["epic-kom-rev"],
+    segments: [],
     experience: null,
     stravaSegmentId: 16404624,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/big-loop-reverse",

@@ -6371,9 +6371,7 @@ export const routes: ReadonlyArray<Route> = [
     "elevation": 662,
     "leadInDistance": 0.218,
     "leadInElevation": 0,
-    "segments": [
-      "epic-kom-rev"
-    ],
+    "segments": [],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
