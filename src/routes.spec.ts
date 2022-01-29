@@ -56,6 +56,10 @@ describe.each(routes)("$name", (route) => {
         });
 
         // it("should be in segmentsOnRoute", () => {
+        //   if (!route.stravaSegmentId) {
+        //     return;
+        //   }
+
         //   const segment = segments.find((s) => s.slug === segmentSlug)!;
         //   if (!segment.stravaSegmentId) {
         //     return;
