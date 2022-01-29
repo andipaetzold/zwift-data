@@ -596,7 +596,7 @@ export const routes = [
   {
     id: 2592027600,
     slug: "innsbruckring",
-    segments: ["innsbruck-uci-lap", "innsbruck-kom", "innsbruck-sprint"],
+    segments: ["innsbruck-uci-lap", "innsbruck-sprint"],
     experience: 170,
     stravaSegmentId: 18398895,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/innsbruckring",

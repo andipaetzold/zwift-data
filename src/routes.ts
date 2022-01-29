@@ -3415,7 +3415,6 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 1,
     "segments": [
       "innsbruck-uci-lap",
-      "innsbruck-kom",
       "innsbruck-sprint"
     ],
     "segmentsOnRoute": [],
