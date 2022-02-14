@@ -1777,7 +1777,7 @@ export const routes = [
     slug: "mayan-bridge-loop",
     segments: [],
     stravaSegmentId: 26774640,
-    zwiftInsiderUrl: "https://zwiftinsider.com/mayan-bridge-loop"
+    zwiftInsiderUrl: "https://zwiftinsider.com/mayan-bridge-loop",
   },
   {
     id: 1993374659,
@@ -1789,7 +1789,7 @@ export const routes = [
     slug: "three-little-sisters",
     segments: ["zwift-kom", "epic-kom", "volcano-kom"],
     stravaSegmentId: 15159137,
-    zwiftInsiderUrl: "https://zwiftinsider.com/route/three-sisters"
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/three-sisters",
   },
   {
     id: 2708527018,
@@ -1813,7 +1813,7 @@ export const routes = [
     slug: "triple-flat-loops",
     segments: ["watopia-sprint-rev", "fuego-flats", "watopia-sprint"],
     stravaSegmentId: 20453276,
-    zwiftInsiderUrl: "https://zwiftinsider.com/triple-flat-loops"
+    zwiftInsiderUrl: "https://zwiftinsider.com/triple-flat-loops",
   },
   {
     id: 3573087582,
