@@ -1762,4 +1762,64 @@ export const routes = [
     stravaSegmentId: 30629791,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/twighlight-harbor",
   },
+  {
+    id: 5745690,
+    slug: "downdown-titans",
+    segments: [],
+  },
+  {
+    id: 910684583,
+    slug: "electric-loop",
+    segments: [],
+  },
+  {
+    id: 1082034232,
+    slug: "mayan-bridge-loop",
+    segments: [],
+    stravaSegmentId: 26774640,
+    zwiftInsiderUrl: "https://zwiftinsider.com/mayan-bridge-loop"
+  },
+  {
+    id: 1993374659,
+    slug: "handful-of-gravel",
+    segments: [],
+  },
+  {
+    id: 2627606248,
+    slug: "three-little-sisters",
+    segments: ["zwift-kom", "epic-kom", "volcano-kom"],
+    stravaSegmentId: 15159137,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/three-sisters"
+  },
+  {
+    id: 2708527018,
+    slug: "handful-of-gravel-run",
+    segments: [],
+  },
+  {
+    id: 2746475460,
+    slug: "eastern-eight",
+    segments: [],
+    stravaSegmentId: 22914116,
+    zwiftInsiderUrl: "https://zwiftinsider.com/eastern-eight",
+  },
+  {
+    id: 2866480562,
+    slug: "chasing-the-sun",
+    segments: [],
+  },
+  {
+    id: 3453194200,
+    slug: "triple-flat-loops",
+    segments: ["watopia-sprint-rev", "fuego-flats", "watopia-sprint"],
+    stravaSegmentId: 20453276,
+    zwiftInsiderUrl: "https://zwiftinsider.com/triple-flat-loops"
+  },
+  {
+    id: 3573087582,
+    slug: "italian-villas-circuit",
+    segments: ["watopia-sprint"],
+    stravaSegmentId: 26792130,
+    zwiftInsiderUrl: "https://zwiftinsider.com/italian-villas-sprint-circuit",
+  },
 ];

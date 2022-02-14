@@ -113,6 +113,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "SocksZwiftAcademyMen2019"
   },
   {
+    "id": 1054384401,
+    "name": "Movistar Team",
+    "imageName": "Socks_MovistarTeam2022"
+  },
+  {
     "id": 1062543140,
     "name": "Run Festival Socks",
     "imageName": "SocksRunFestival2021"
@@ -441,6 +446,11 @@ export const socks: ReadonlyArray<Sock> = [
     "id": 4034148441,
     "name": "GranFondo Plan Socks",
     "imageName": "GranFondo"
+  },
+  {
+    "id": 4137098634,
+    "name": "Le Col CC",
+    "imageName": "Socks_LeCol2022"
   },
   {
     "id": 4147048805,

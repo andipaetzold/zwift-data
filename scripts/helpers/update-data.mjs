@@ -25,6 +25,11 @@ export async function updateData() {
   {
     const data = [];
     for (const item of responseData.GameDictionary.ROUTES[0].ROUTE) {
+      if (+item.$.signature === 2746475460) {
+        // Ignore "Eastern Eight" as it contains invalid data
+        continue;
+      }
+
       const manualRouteData = routes.find((r) => r.id === +item.$.signature);
 
       if (!manualRouteData) {

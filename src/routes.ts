@@ -42,6 +42,32 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/lady-liberty"
   },
   {
+    "id": 5745690,
+    "name": "Downtown Titans",
+    "slug": "downdown-titans",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 24.645,
+    "elevation": 292,
+    "leadInDistance": 0.789,
+    "leadInElevation": 3,
+    "leadInDistanceFreeRide": 0.001,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.001,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 490
+  },
+  {
     "id": 54700404,
     "name": "Libby Hill After Party",
     "slug": "libby-hill-after-party",
@@ -1071,6 +1097,32 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/roule-ma-poule"
   },
   {
+    "id": 910684583,
+    "name": "Electric Loop",
+    "slug": "electric-loop",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 8.941,
+    "elevation": 42,
+    "leadInDistance": 0.041,
+    "leadInElevation": 1,
+    "leadInDistanceFreeRide": 0.023,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.032,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 170
+  },
+  {
     "id": 913172163,
     "name": "London Loop",
     "slug": "london-loop",
@@ -1352,6 +1404,35 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/20469780",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/watopias-waistband",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/watopia-s-waistband"
+  },
+  {
+    "id": 1082034232,
+    "name": "Mayan Bridge Loop",
+    "slug": "mayan-bridge-loop",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 5.274,
+    "elevation": 48,
+    "leadInDistance": 5.658,
+    "leadInElevation": 9,
+    "leadInDistanceFreeRide": 5.586,
+    "leadInElevationFreeRide": 9,
+    "leadInDistanceMeetups": 5.586,
+    "leadInElevationInMeetups": 9,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 105,
+    "stravaSegmentId": 26774640,
+    "stravaSegmentUrl": "https://www.strava.com/segments/26774640",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/mayan-bridge-loop"
   },
   {
     "id": 1086718516,
@@ -2495,6 +2576,32 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/valley-to-mountaintop"
   },
   {
+    "id": 1993374659,
+    "name": "Handful Of Gravel",
+    "slug": "handful-of-gravel",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 6.13,
+    "elevation": 75,
+    "leadInDistance": 4.254,
+    "leadInElevation": 19,
+    "leadInDistanceFreeRide": 0.001,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 125
+  },
+  {
     "id": 2001106885,
     "name": "Knickerbocker Reverse",
     "slug": "knickerbocker-reverse",
@@ -3433,6 +3540,55 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/route/innsbruckring"
   },
   {
+    "id": 2627606248,
+    "name": "Three Little Sisters",
+    "slug": "three-little-sisters",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 37.737,
+    "elevation": 435,
+    "leadInDistance": 0.69,
+    "leadInElevation": 3,
+    "leadInDistanceFreeRide": 0.664,
+    "leadInElevationFreeRide": 3,
+    "leadInDistanceMeetups": 0.664,
+    "leadInElevationInMeetups": 3,
+    "segments": [
+      "zwift-kom",
+      "epic-kom",
+      "volcano-kom"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 0.935,
+        "to": 1.823,
+        "segment": "zwift-kom"
+      },
+      {
+        "from": 10.092,
+        "to": 19.521,
+        "segment": "epic-kom"
+      },
+      {
+        "from": 36.781,
+        "to": 40.503,
+        "segment": "volcano-kom"
+      }
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 755,
+    "stravaSegmentId": 15159137,
+    "stravaSegmentUrl": "https://www.strava.com/segments/15159137",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-sisters"
+  },
+  {
     "id": 2653858696,
     "name": "Two Village Loop",
     "slug": "two-village-loop",
@@ -3576,6 +3732,31 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/12749761",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-classique",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/classique"
+  },
+  {
+    "id": 2708527018,
+    "name": "Handful of Gravel Run",
+    "slug": "handful-of-gravel-run",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 6.13,
+    "elevation": 75,
+    "leadInDistance": 4.254,
+    "leadInElevation": 19,
+    "leadInDistanceFreeRide": 0,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running"
+    ],
+    "experience": 125
   },
   {
     "id": 2737483381,
@@ -3836,6 +4017,32 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/24676054",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/petit-boucle",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/petit-boucle"
+  },
+  {
+    "id": 2866480562,
+    "name": "Chasing the Sun",
+    "slug": "chasing-the-sun",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 35.05,
+    "elevation": 315,
+    "leadInDistance": 0.038,
+    "leadInElevation": 1,
+    "leadInDistanceFreeRide": 0.023,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.032,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 690
   },
   {
     "id": 2875658892,
@@ -5103,6 +5310,50 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neon-flats"
   },
   {
+    "id": 3453194200,
+    "name": "Triple Flat Loops",
+    "slug": "triple-flat-loops",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 33.978,
+    "elevation": 157,
+    "leadInDistance": 2.383,
+    "leadInElevation": 6,
+    "leadInDistanceFreeRide": 0.151,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.151,
+    "leadInElevationInMeetups": 0,
+    "segments": [
+      "watopia-sprint-rev",
+      "fuego-flats",
+      "watopia-sprint"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 23.058,
+        "to": 23.253,
+        "segment": "watopia-sprint-rev"
+      },
+      {
+        "from": 33.431,
+        "to": 33.923,
+        "segment": "fuego-flats"
+      }
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 680,
+    "stravaSegmentId": 20453276,
+    "stravaSegmentUrl": "https://www.strava.com/segments/20453276",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/triple-flat-loops"
+  },
+  {
     "id": 3454338139,
     "name": "Seaside Sprint",
     "slug": "seaside-sprint",
@@ -5239,6 +5490,42 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/19613994",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/keith-hill-after-party",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/keith-hill-after-party"
+  },
+  {
+    "id": 3573087582,
+    "name": "Italian Villas Circuit",
+    "slug": "italian-villas-circuit",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 1.937,
+    "elevation": 15,
+    "leadInDistance": 0.777,
+    "leadInElevation": 3,
+    "leadInDistanceFreeRide": 0,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0,
+    "leadInElevationInMeetups": 0,
+    "segments": [
+      "watopia-sprint"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 1.558,
+        "to": 1.884,
+        "segment": "watopia-sprint"
+      }
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running"
+    ],
+    "experience": 40,
+    "stravaSegmentId": 26792130,
+    "stravaSegmentUrl": "https://www.strava.com/segments/26792130",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/italian-villas-sprint-circuit"
   },
   {
     "id": 3597939700,

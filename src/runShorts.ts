@@ -73,6 +73,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "CollinsCupRunRed2020_thumb"
   },
   {
+    "id": 703761467,
+    "name": "USA Triathlon",
+    "imageName": "USATriRun2022_thumb"
+  },
+  {
     "id": 832602111,
     "name": "Zwift Running Shorts 9",
     "imageName": "Shorts09"
@@ -116,6 +121,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 1181765358,
     "name": "Zwift Running Shorts 2",
     "imageName": "Shorts02"
+  },
+  {
+    "id": 1184382879,
+    "name": "LOC_ACCESSORY_ZRLROME2022",
+    "imageName": "ZRLRome2022_thumb"
   },
   {
     "id": 1187130313,
@@ -173,6 +183,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "Shorts03"
   },
   {
+    "id": 2081362761,
+    "name": "Women's Run Series 2022",
+    "imageName": "ZwiftWomensRun2022_thumb"
+  },
+  {
     "id": 2153158269,
     "name": "Super League Black",
     "imageName": "SuperLeague2020_thumb"
@@ -181,6 +196,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 2226846384,
     "name": "Zwift Running Shorts 12",
     "imageName": "Shorts12"
+  },
+  {
+    "id": 2265184990,
+    "name": "LOC_ACCESSORY_ZRLHELSINKI2022",
+    "imageName": "ZRLHelsinki2022_thumb"
   },
   {
     "id": 2391851422,
@@ -206,6 +226,16 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 2634750093,
     "name": "Super League White",
     "imageName": "SuperLeague2020_thumb"
+  },
+  {
+    "id": 2642396308,
+    "name": "Team Zoot 2022",
+    "imageName": "TeamZootRun2022_thumb"
+  },
+  {
+    "id": 2825173794,
+    "name": "LOC_ACCESSORY_ZRLMUNICH2022",
+    "imageName": "ZRLMunich2022_thumb"
   },
   {
     "id": 2896078426,
@@ -268,6 +298,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "HalloweenChase2019_thumb"
   },
   {
+    "id": 3291110514,
+    "name": "LOC_ACCESSORY_ZRLATLANTA2022",
+    "imageName": "ZRLAtlanta2022_thumb"
+  },
+  {
     "id": 3368541207,
     "name": "Xterra Running Shorts 2020",
     "imageName": "XterraRunShorts2020_thumb"
@@ -321,6 +356,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 3860420424,
     "name": "April Fools",
     "imageName": "TealPink2020_thumb"
+  },
+  {
+    "id": 3932074146,
+    "name": "LOC_ACCESSORY_ZRLSYDNEY2022",
+    "imageName": "ZRLSydney2022_thumb"
   },
   {
     "id": 4037580579,
