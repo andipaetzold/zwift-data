@@ -1771,6 +1771,7 @@ export const routes = [
     id: 910684583,
     slug: "electric-loop",
     segments: [],
+    stravaSegmentId: 30987848,
   },
   {
     id: 1082034232,
@@ -1806,7 +1807,8 @@ export const routes = [
   {
     id: 2866480562,
     slug: "chasing-the-sun",
-    segments: [],
+    segments: ["railway-sprint", "temple-kom-from-fishing-village-side"],
+    stravaSegmentId: 30988311,
   },
   {
     id: 3453194200,

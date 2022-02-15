@@ -1120,7 +1120,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 170
+    "experience": 170,
+    "stravaSegmentId": 30987848,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30987848"
   },
   {
     "id": 913172163,
@@ -4032,8 +4034,22 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 1,
     "leadInDistanceMeetups": 0.032,
     "leadInElevationInMeetups": 1,
-    "segments": [],
-    "segmentsOnRoute": [],
+    "segments": [
+      "railway-sprint",
+      "temple-kom-from-fishing-village-side"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 3.886,
+        "to": 4.38,
+        "segment": "railway-sprint"
+      },
+      {
+        "from": 21.064,
+        "to": 23.582,
+        "segment": "temple-kom-from-fishing-village-side"
+      }
+    ],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
@@ -4042,7 +4058,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 690
+    "experience": 690,
+    "stravaSegmentId": 30988311,
+    "stravaSegmentUrl": "https://www.strava.com/segments/30988311"
   },
   {
     "id": 2875658892,
