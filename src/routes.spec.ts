@@ -26,8 +26,9 @@ describe.each(routes)("$name", (route) => {
     }
 
     if (route.zwiftInsiderUrl) {
+      // (former) Rebel routes don't include /route/
       expect(
-        route.zwiftInsiderUrl.startsWith("https://zwiftinsider.com/route/")
+        route.zwiftInsiderUrl.startsWith("https://zwiftinsider.com/")
       ).toBeTruthy();
     }
 

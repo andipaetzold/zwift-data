@@ -833,6 +833,16 @@ export const achievements: ReadonlyArray<Achievement> = [
     "imageName": "RouteComplete"
   },
   {
+    "id": 173,
+    "name": "CHASING THE SUN",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 174,
+    "name": "ELECTRIC LOOP",
+    "imageName": "RouteComplete"
+  },
+  {
     "id": 175,
     "name": "CASTLE TO CASTLE",
     "imageName": "RouteComplete"
@@ -840,6 +850,46 @@ export const achievements: ReadonlyArray<Achievement> = [
   {
     "id": 176,
     "name": "NEOKYO CRIT COURSE",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 177,
+    "name": "THREE LITTLE SISTERS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 178,
+    "name": "TRIPLE FLAT LOOPS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 179,
+    "name": "DOWNTOWN TITANS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 180,
+    "name": "EASTERN EIGHT",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 181,
+    "name": "MAYAN BRIDGE LOOP",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 182,
+    "name": "ITALIAN VILLAS CIRCUIT",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 183,
+    "name": "HANDFUL OF GRAVEL (CYCLING)",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 184,
+    "name": "HANDFUL OF GRAVEL (RUNNING)",
     "imageName": "RouteComplete"
   }
 ];

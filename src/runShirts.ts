@@ -8,6 +8,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "RFTO2021_thumb"
   },
   {
+    "id": 47536991,
+    "name": "LOC_ACCESSORY_ZRLATLANTA2022",
+    "imageName": "ZRLAtlanta2022_thumb"
+  },
+  {
     "id": 48074430,
     "name": "Zwift Run Festival",
     "imageName": "RunFestivalThumb"
@@ -31,6 +36,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 316516064,
     "name": "2021 ZA Run Shirt",
     "imageName": "ZARun2021_thumb"
+  },
+  {
+    "id": 427831192,
+    "name": "LOC_ACCESSORY_ZRLSYDNEY2022",
+    "imageName": "ZRLSydney2022_thumb"
   },
   {
     "id": 434800288,
@@ -193,6 +203,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "Saucony2021_thumb"
   },
   {
+    "id": 1538925592,
+    "name": "LOC_ACCESSORY_ZRLMUNICH2022",
+    "imageName": "ZRLMunich2022_thumb"
+  },
+  {
     "id": 1539153651,
     "name": "Watopia Run Fest",
     "imageName": "WatopiaRunFest2020_thumb"
@@ -261,6 +276,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 1913778955,
     "name": "Halloween Chase",
     "imageName": "HalloweenChase2019_thumb"
+  },
+  {
+    "id": 1973477636,
+    "name": "LOC_ACCESSORY_ZRLROME2022",
+    "imageName": "ZRLRome2022_thumb"
   },
   {
     "id": 2045653702,
@@ -346,6 +366,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 2354164139,
     "name": "NGNM WRRS 2021 Run Shirt",
     "imageName": "WHM2021_thumb"
+  },
+  {
+    "id": 2379350655,
+    "name": "LOC_ACCESSORY_SUB8RUN2022",
+    "imageName": "Sub8Run2022_thumb"
   },
   {
     "id": 2460030069,
@@ -473,6 +498,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "Garmin2021_thumb"
   },
   {
+    "id": 3256506796,
+    "name": "LOC_ACCESSORY_ZRLHELSINKI2022",
+    "imageName": "ZRLHelsinki2022_thumb"
+  },
+  {
     "id": 3261313158,
     "name": "Super League Black",
     "imageName": "SuperLeague2020_thumb"
@@ -481,6 +511,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 3344420794,
     "name": "Zwift Running Shirt 10",
     "imageName": "Shirt10"
+  },
+  {
+    "id": 3392923864,
+    "name": "Women's Run Series 2022",
+    "imageName": "ZwiftWomensRun2022_thumb"
   },
   {
     "id": 3442834429,
@@ -508,9 +543,19 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "SuperLeague2020_thumb"
   },
   {
+    "id": 3630589926,
+    "name": "Team Zoot 2022",
+    "imageName": "TeamZootRun2022_thumb"
+  },
+  {
     "id": 3649029108,
     "name": "Tour of Watopia Finishers Kit",
     "imageName": "TourOfWatopiaRed2021_thumb"
+  },
+  {
+    "id": 3660321537,
+    "name": "USA Triathlon",
+    "imageName": "USATriRun2022_thumb"
   },
   {
     "id": 3666164253,
@@ -576,6 +621,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 4198163224,
     "name": "ZRS Winter",
     "imageName": "ZRSWinter2020_thumb"
+  },
+  {
+    "id": 4282817806,
+    "name": "LOC_ACCESSORY_SUB7RUN2022",
+    "imageName": "Sub7Run2022_thumb"
   },
   {
     "id": 4291829110,

@@ -8,6 +8,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
     "imageName": "Wheel_ZwiftBW"
   },
   {
+    "id": 190867464,
+    "name": "Enve G23",
+    "imageName": "Wheel_EnveG23"
+  },
+  {
     "id": 192959988,
     "name": "Roval Alpinist CLX",
     "imageName": "Wheel_RovalAlpinistCLX"
@@ -21,6 +26,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
     "id": 288225210,
     "name": "Mavic Cosmic CXR60c",
     "imageName": "Wheel_MavicCosmicCXR60c"
+  },
+  {
+    "id": 327143135,
+    "name": "Roval Terra CLX",
+    "imageName": "Wheel_RovalTerraCLX"
   },
   {
     "id": 346409677,

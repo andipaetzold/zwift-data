@@ -93,6 +93,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
     "imageName": "Wheel_BoraUltra35"
   },
   {
+    "id": 1694719327,
+    "name": "Enve G23",
+    "imageName": "Wheel_EnveG23"
+  },
+  {
     "id": 1758560098,
     "name": "Zipp 858/Super9",
     "imageName": "Wheel_ZippZwift858"
@@ -176,6 +181,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
     "id": 3309968019,
     "name": "Zwift Buffalo Fahrrad",
     "imageName": "Wheel_BuffaloFahrrad"
+  },
+  {
+    "id": 3454205320,
+    "name": "Roval Terra CLX",
+    "imageName": "Wheel_RovalTerraCLX"
   },
   {
     "id": 3473846672,

@@ -55,6 +55,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": false
   },
   {
+    "id": 291034584,
+    "name": "Trek Speed Concept 2021",
+    "modelYear": 2021,
+    "isTT": true
+  },
+  {
     "id": 385270250,
     "name": "Zwift Mountain",
     "modelYear": 2019,
@@ -228,6 +234,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "id": 1592822481,
     "name": "Canyon Lux",
     "modelYear": 2019,
+    "isTT": false
+  },
+  {
+    "id": 1639102673,
+    "name": "Specialized Specialized Crux 2022",
+    "modelYear": 2022,
     "isTT": false
   },
   {

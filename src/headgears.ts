@@ -118,6 +118,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "CcHauteRoute2020_thumb"
   },
   {
+    "id": 1208445863,
+    "name": "Team BikeExchange Cap",
+    "imageName": "CyclingCapBikeExchange2022_thumb"
+  },
+  {
     "id": 1225125243,
     "name": "None",
     "imageName": "none"
@@ -406,6 +411,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 3912703277,
     "name": "Giro Eclipse FDJ",
     "imageName": "GiroEclipseFDJ2021"
+  },
+  {
+    "id": 3961081102,
+    "name": "Le Col CC",
+    "imageName": "CyclingCapLeCol2022_thumb"
   },
   {
     "id": 4226117447,

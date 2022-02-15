@@ -23,6 +23,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Giant TCR Advanced SL-TCR Blue"
   },
   {
+    "id": 304373641,
+    "name": "Trek Speed Concept 2021-Base"
+  },
+  {
     "id": 352352109,
     "name": "Pinarello Dogma 65.1-Beta Scheme"
   },
@@ -133,6 +137,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 1050532355,
     "name": "Specialized Roubaix-Chameleon Black"
+  },
+  {
+    "id": 1066566931,
+    "name": "Canyon Aeroad Team Edition-Canyon SRAM 2022"
   },
   {
     "id": 1132004705,
@@ -308,7 +316,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   },
   {
     "id": 2240051099,
-    "name": "Felt FeltFR2022-FeltFRRally"
+    "name": "Felt FeltFR2022-FeltFRTwenty24"
   },
   {
     "id": 2266567131,
@@ -484,7 +492,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   },
   {
     "id": 3335778980,
-    "name": "Felt FeltFR2022-FeltFR"
+    "name": "Felt FeltFR2022-FeltFRRally"
   },
   {
     "id": 3336992711,
