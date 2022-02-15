@@ -1110,7 +1110,10 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 1,
     "leadInDistanceMeetups": 0.032,
     "leadInElevationInMeetups": 1,
-    "segments": [],
+    "segments": [
+      "alley-sprint-rev",
+      "tower-sprint-rev"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -1122,7 +1125,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 170,
     "stravaSegmentId": 30987848,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30987848"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30987848",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/electric-loop"
   },
   {
     "id": 913172163,
@@ -4035,7 +4039,9 @@ export const routes: ReadonlyArray<Route> = [
     "leadInDistanceMeetups": 0.032,
     "leadInElevationInMeetups": 1,
     "segments": [
+      "alley-sprint-rev",
       "railway-sprint",
+      "tower-sprint-rev",
       "temple-kom-from-fishing-village-side"
     ],
     "segmentsOnRoute": [
@@ -4060,7 +4066,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 690,
     "stravaSegmentId": 30988311,
-    "stravaSegmentUrl": "https://www.strava.com/segments/30988311"
+    "stravaSegmentUrl": "https://www.strava.com/segments/30988311",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/chasing-the-sun"
   },
   {
     "id": 2875658892,

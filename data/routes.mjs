@@ -1770,8 +1770,10 @@ export const routes = [
   {
     id: 910684583,
     slug: "electric-loop",
-    segments: [],
+    segments: ["alley-sprint-rev", "tower-sprint-rev"],
     stravaSegmentId: 30987848,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/electric-loop",
   },
   {
     id: 1082034232,
@@ -1807,8 +1809,15 @@ export const routes = [
   {
     id: 2866480562,
     slug: "chasing-the-sun",
-    segments: ["railway-sprint", "temple-kom-from-fishing-village-side"],
+    segments: [
+      "alley-sprint-rev",
+      "railway-sprint",
+      "tower-sprint-rev",
+      "temple-kom-from-fishing-village-side",
+    ],
     stravaSegmentId: 30988311,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/chasing-the-sun",
   },
   {
     id: 3453194200,
