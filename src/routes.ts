@@ -1126,6 +1126,7 @@ export const routes: ReadonlyArray<Route> = [
     "experience": 170,
     "stravaSegmentId": 30987848,
     "stravaSegmentUrl": "https://www.strava.com/segments/30987848",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/electric-loop",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/electric-loop"
   },
   {
@@ -4042,6 +4043,7 @@ export const routes: ReadonlyArray<Route> = [
       "alley-sprint-rev",
       "railway-sprint",
       "tower-sprint-rev",
+      "country-sprint",
       "temple-kom-from-fishing-village-side"
     ],
     "segmentsOnRoute": [
@@ -4067,6 +4069,7 @@ export const routes: ReadonlyArray<Route> = [
     "experience": 690,
     "stravaSegmentId": 30988311,
     "stravaSegmentUrl": "https://www.strava.com/segments/30988311",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/chasing-the-sun",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/chasing-the-sun"
   },
   {
