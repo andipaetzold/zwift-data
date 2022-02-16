@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/andipaetzold/zwift-data/compare/v1.13.0...v1.13.1) (2022-02-16)
+
+
+### Bug Fixes
+
+* add missing segment & add ZwiftInsider urls ([59216ce](https://github.com/andipaetzold/zwift-data/commit/59216cef8045cb5a29eb8103934f462f7cc8f479))
+
 # [1.13.0](https://github.com/andipaetzold/zwift-data/compare/v1.12.3...v1.13.0) (2022-02-15)
 
 
