@@ -1433,8 +1433,7 @@ export const routes: ReadonlyArray<Route> = [
     "supportsTT": false,
     "supportsMeetups": false,
     "sports": [
-      "running",
-      "cycling"
+      "running"
     ],
     "experience": 105,
     "stravaSegmentId": 26774640,
