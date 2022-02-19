@@ -12,10 +12,10 @@ const branchSummary = await git.branchLocal();
 const newBranch = !branchSummary.all.includes(BRANCH_NAME);
 
 if (newBranch) {
-  console.log("Creating new branch");
+  console.log(`Creating new branch '${BRANCH_NAME}'`);
   await git.checkoutLocalBranch(BRANCH_NAME);
 } else {
-  console.log("Checking out existing branch");
+  console.log(`Checking out and pulling existing branch '${BRANCH_NAME}'`);
   await git.checkout(BRANCH_NAME);
   await git.pull();
 }
@@ -28,6 +28,9 @@ if (statusResult.modified.length === 0) {
   process.exit(0);
 }
 
+console.log(`${statusResult.modified.length} changes`);
+
+console.log("Committing changes");
 await git.add("src");
 await git.commit("fix: update data from game dictionary");
 
@@ -38,7 +41,7 @@ console.log("Changes pushed");
 if (newBranch) {
   console.log("Creating PR");
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-  await octokit.pulls.create({
+  const pr = await octokit.pulls.create({
     owner: "andipaetzold",
     repo: "zwift-data",
     title: "fix: Update data",
@@ -46,5 +49,5 @@ if (newBranch) {
     base: "main",
     body: "Automatically created PR",
   });
-  console.log("PR created");
+  console.log(`PR created: ${pr.data.url}`);
 }
