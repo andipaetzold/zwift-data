@@ -4,6 +4,7 @@ on:
   schedule:
       - cron: 0 0 * * *
   workflow_dispatch:
+  push:
 
 
 jobs:
@@ -13,7 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false
           fetch-depth: 0
 
       - name: Get node version
