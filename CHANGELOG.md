@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/andipaetzold/zwift-data/compare/v1.13.1...v1.13.2) (2022-02-19)
+
+
+### Bug Fixes
+
+* Mayan Bridge Loop is running-only ([#16](https://github.com/andipaetzold/zwift-data/issues/16)) ([587f538](https://github.com/andipaetzold/zwift-data/commit/587f5388b50a7e1d1670e149e9320968e21eae10))
+
 ## [1.13.1](https://github.com/andipaetzold/zwift-data/compare/v1.13.0...v1.13.1) (2022-02-16)
 
 
