@@ -3561,23 +3561,23 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationInMeetups": 3,
     "segments": [
       "zwift-kom",
-      "epic-kom",
+      "titans-grove-kom",
       "volcano-kom"
     ],
     "segmentsOnRoute": [
       {
         "from": 0.935,
-        "to": 1.823,
+        "to": 1.839,
         "segment": "zwift-kom"
       },
       {
-        "from": 10.092,
-        "to": 19.521,
-        "segment": "epic-kom"
+        "from": 12.959,
+        "to": 15.565,
+        "segment": "titans-grove-kom"
       },
       {
-        "from": 36.781,
-        "to": 40.503,
+        "from": 25.46,
+        "to": 29.172,
         "segment": "volcano-kom"
       }
     ],
@@ -3590,9 +3590,9 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 755,
-    "stravaSegmentId": 15159137,
-    "stravaSegmentUrl": "https://www.strava.com/segments/15159137",
-    "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-sisters"
+    "stravaSegmentId": 22943213,
+    "stravaSegmentUrl": "https://www.strava.com/segments/22943213",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-little-sisters"
   },
   {
     "id": 2653858696,

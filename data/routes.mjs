@@ -1791,9 +1791,9 @@ export const routes = [
   {
     id: 2627606248,
     slug: "three-little-sisters",
-    segments: ["zwift-kom", "epic-kom", "volcano-kom"],
-    stravaSegmentId: 15159137,
-    zwiftInsiderUrl: "https://zwiftinsider.com/route/three-sisters",
+    segments: ["zwift-kom", "titans-grove-kom", "volcano-kom"],
+    stravaSegmentId: 22943213,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/three-little-sisters",
   },
   {
     id: 2708527018,
