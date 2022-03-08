@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/andipaetzold/zwift-data/compare/v1.13.2...v1.13.3) (2022-03-08)
+
+
+### Bug Fixes
+
+* "Three Little Sisters" Strava segment & ZI url ([a9f1aad](https://github.com/andipaetzold/zwift-data/commit/a9f1aadecf437ae9bff1ad4e020c778b38088a31))
+
 ## [1.13.2](https://github.com/andipaetzold/zwift-data/compare/v1.13.1...v1.13.2) (2022-02-19)
 
 
