@@ -167,6 +167,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": false
   },
   {
+    "id": 1133663232,
+    "name": "Specialized SpecializedDiverge2022",
+    "modelYear": 2022,
+    "isTT": false
+  },
+  {
     "id": 1174020494,
     "name": "Chapter2 Chapter2TOA2021",
     "modelYear": 2021,
@@ -270,6 +276,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "id": 1806040170,
     "name": "Canyon Ultimate",
     "modelYear": 2015,
+    "isTT": false
+  },
+  {
+    "id": 1821736990,
+    "name": "Mosaic MosaicRT12022",
+    "modelYear": 2022,
     "isTT": false
   },
   {
@@ -562,6 +574,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "id": 3867639546,
     "name": "Focus Izalco Max 2020",
     "modelYear": 2020,
+    "isTT": false
+  },
+  {
+    "id": 3868468027,
+    "name": "BMC BmcTeamMachine2022",
+    "modelYear": 2022,
     "isTT": false
   },
   {

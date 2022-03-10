@@ -131,6 +131,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Scott Foil-MitcheltonScott"
   },
   {
+    "id": 937986506,
+    "name": "Mosaic MosaicRT12022-Mosaic RT1"
+  },
+  {
     "id": 997166951,
     "name": "Specialized Allez Sprint-Sagan"
   },
