@@ -73,6 +73,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
     "imageName": "Wheel_ShimanoDuraAceC60"
   },
   {
+    "id": 1248620278,
+    "name": "Cadex CADEX AR 35",
+    "imageName": "Wheel_CadexAR35"
+  },
+  {
     "id": 1347687916,
     "name": "CADEX CADEX 42",
     "imageName": "Wheel_Cadex42"
@@ -106,6 +111,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
     "id": 1796445915,
     "name": "Zwift Mountain",
     "imageName": ""
+  },
+  {
+    "id": 1842698274,
+    "name": "Reserve Reserve 25 GR",
+    "imageName": "Wheel_Reserve25GR"
   },
   {
     "id": 1847864599,

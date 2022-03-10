@@ -8,8 +8,13 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "RFTO2021_thumb"
   },
   {
+    "id": 23190064,
+    "name": "ZSun",
+    "imageName": "ZSunRun2022_thumb"
+  },
+  {
     "id": 47536991,
-    "name": "LOC_ACCESSORY_ZRLATLANTA2022",
+    "name": "ZRL Atlanta Run Shirt",
     "imageName": "ZRLAtlanta2022_thumb"
   },
   {
@@ -38,8 +43,13 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "ZARun2021_thumb"
   },
   {
+    "id": 412155503,
+    "name": "Super League Tri Arena Games - Pink Jersey",
+    "imageName": "SLTRun2022pink_thumb"
+  },
+  {
     "id": 427831192,
-    "name": "LOC_ACCESSORY_ZRLSYDNEY2022",
+    "name": "ZRL Sydney Run Shirt",
     "imageName": "ZRLSydney2022_thumb"
   },
   {
@@ -63,16 +73,6 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "ClashOfClubs2020_thumb"
   },
   {
-    "id": 520113937,
-    "name": "Super League Orange",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
-    "id": 522586725,
-    "name": "Super League Yellow",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
     "id": 527816476,
     "name": "Zwift Running Shirt 9",
     "imageName": "Shirt09"
@@ -88,6 +88,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "RunFestivalWhite2021_thumb"
   },
   {
+    "id": 684551673,
+    "name": "Super League Tri Arena Games - Purple Jersey",
+    "imageName": "SLTRun2022purple_thumb"
+  },
+  {
     "id": 698898733,
     "name": "Black Celebration Series Shirt",
     "imageName": "BlackHistoryMonthRun2021_thumb"
@@ -98,9 +103,9 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "LARR2019_thumb"
   },
   {
-    "id": 766765797,
-    "name": "Super League Purple",
-    "imageName": "SuperLeague2020_thumb"
+    "id": 769877933,
+    "name": "Super League Tri Arena Games - Yellow Jersey",
+    "imageName": "SLTRun2022yellow_thumb"
   },
   {
     "id": 788896989,
@@ -126,6 +131,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 862160517,
     "name": "World Cancer Day",
     "imageName": "WorldCancerDayRun2021_thumb"
+  },
+  {
+    "id": 891026381,
+    "name": "Super League Tri Arena Games - Orange Jersey",
+    "imageName": "SLTRun2022orange_thumb"
   },
   {
     "id": 911708174,
@@ -168,6 +178,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "DempseyChallengeRun2021_thumb"
   },
   {
+    "id": 1288766544,
+    "name": "Super League Tri Arena Games - White Jersey",
+    "imageName": "SLTRun2022white_thumb"
+  },
+  {
     "id": 1416964875,
     "name": "Gosh",
     "imageName": "Gosh2020_thumb"
@@ -176,11 +191,6 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 1439027133,
     "name": "Zwift Running Shirt 3",
     "imageName": "Shirt03"
-  },
-  {
-    "id": 1442480891,
-    "name": "Super League Blue",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 1450618808,
@@ -204,18 +214,13 @@ export const runShirts: ReadonlyArray<RunShirt> = [
   },
   {
     "id": 1538925592,
-    "name": "LOC_ACCESSORY_ZRLMUNICH2022",
+    "name": "ZRL Munich Run Shirt",
     "imageName": "ZRLMunich2022_thumb"
   },
   {
     "id": 1539153651,
     "name": "Watopia Run Fest",
     "imageName": "WatopiaRunFest2020_thumb"
-  },
-  {
-    "id": 1552100011,
-    "name": "Super League Grey",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 1598044512,
@@ -278,8 +283,13 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "HalloweenChase2019_thumb"
   },
   {
+    "id": 1972429209,
+    "name": "Super League Tri Arena Games - Green Jersey",
+    "imageName": "SLTRun2022green_thumb"
+  },
+  {
     "id": 1973477636,
-    "name": "LOC_ACCESSORY_ZRLROME2022",
+    "name": "ZRL Rome Run Shirt",
     "imageName": "ZRLRome2022_thumb"
   },
   {
@@ -296,6 +306,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 2068852132,
     "name": "Under Armour Run Shirt",
     "imageName": "UnderArmour2021_thumb"
+  },
+  {
+    "id": 2077243976,
+    "name": "Super League Tri Arena Games - Grey Jersey",
+    "imageName": "SLTRun2022grey_thumb"
   },
   {
     "id": 2083092750,
@@ -369,7 +384,7 @@ export const runShirts: ReadonlyArray<RunShirt> = [
   },
   {
     "id": 2379350655,
-    "name": "LOC_ACCESSORY_SUB8RUN2022",
+    "name": "Sub 8 Run shirt",
     "imageName": "Sub8Run2022_thumb"
   },
   {
@@ -403,6 +418,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "SantaMonicaClassic2019_thumb"
   },
   {
+    "id": 2651350047,
+    "name": "Super League Tri Arena Games - Red Jersey",
+    "imageName": "SLTRun2022red_thumb"
+  },
+  {
     "id": 2665274070,
     "name": "ZLDR",
     "imageName": "ZLDR2021_thumb"
@@ -421,6 +441,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 2703204057,
     "name": "ZRS Firecracker",
     "imageName": "ZRSFirecracker2019"
+  },
+  {
+    "id": 2719460263,
+    "name": "Super League Tri Arena Games - Blue Jersey",
+    "imageName": "SLTRun2022blue_thumb"
   },
   {
     "id": 2734666004,
@@ -478,14 +503,14 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "ZwiftAcademyTri2019Thumb"
   },
   {
+    "id": 3166752689,
+    "name": "Super League Tri Arena Games - Black Jersey",
+    "imageName": "SLTRun2022black_thumb"
+  },
+  {
     "id": 3180829914,
     "name": "Zwift Running Shirt 12",
     "imageName": "Shirt12"
-  },
-  {
-    "id": 3214705897,
-    "name": "Super League Red",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 3221865192,
@@ -499,13 +524,8 @@ export const runShirts: ReadonlyArray<RunShirt> = [
   },
   {
     "id": 3256506796,
-    "name": "LOC_ACCESSORY_ZRLHELSINKI2022",
+    "name": "ZRL Helsinki Run Shirt",
     "imageName": "ZRLHelsinki2022_thumb"
-  },
-  {
-    "id": 3261313158,
-    "name": "Super League Black",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 3344420794,
@@ -516,11 +536,6 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 3392923864,
     "name": "Women's Run Series 2022",
     "imageName": "ZwiftWomensRun2022_thumb"
-  },
-  {
-    "id": 3442834429,
-    "name": "Super League Green",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 3473542057,
@@ -536,11 +551,6 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 3526863900,
     "name": "NY Road Runners",
     "imageName": "NYRR2019_thumb"
-  },
-  {
-    "id": 3540188247,
-    "name": "Super League Pink",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 3630589926,
@@ -571,11 +581,6 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 3719335274,
     "name": "Feels Like Summer",
     "imageName": "FeelsLikeSummer2019Thumb"
-  },
-  {
-    "id": 3745398390,
-    "name": "Super League White",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 3746982074,
@@ -624,7 +629,7 @@ export const runShirts: ReadonlyArray<RunShirt> = [
   },
   {
     "id": 4282817806,
-    "name": "LOC_ACCESSORY_SUB7RUN2022",
+    "name": "Sub 7 Run shirt",
     "imageName": "Sub7Run2022_thumb"
   },
   {

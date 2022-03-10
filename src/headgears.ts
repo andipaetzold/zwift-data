@@ -278,6 +278,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "RunnerCapSaucony2021_thumb"
   },
   {
+    "id": 2828152591,
+    "name": "Liv Backwards Cap",
+    "imageName": "BackwardsCyclingCapLiv2022_thumb"
+  },
+  {
     "id": 2896909333,
     "name": "Zwift Academy Tri 2020",
     "imageName": "RunnerCapZwiftAcademyTri2020_thumb"
@@ -366,6 +371,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 3525135378,
     "name": "2021 ZA Tri Hat Backwards",
     "imageName": "BackwardsCapZARun2021_thumb"
+  },
+  {
+    "id": 3630601017,
+    "name": "Giant Backwards Cap",
+    "imageName": "BackwardsCyclingCapGiant2022_thumb"
   },
   {
     "id": 3633294398,

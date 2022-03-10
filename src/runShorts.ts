@@ -13,14 +13,9 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "Shorts01"
   },
   {
-    "id": 127857751,
-    "name": "Super League Purple",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
-    "id": 162037624,
-    "name": "Super League Red",
-    "imageName": "SuperLeague2020_thumb"
+    "id": 164144930,
+    "name": "Super League Tri Arena Games - White Jersey",
+    "imageName": "SLTRun2022white_thumb"
   },
   {
     "id": 200937232,
@@ -78,6 +73,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "USATriRun2022_thumb"
   },
   {
+    "id": 814301931,
+    "name": "Super League Tri Arena Games - Green Jersey",
+    "imageName": "SLTRun2022green_thumb"
+  },
+  {
     "id": 832602111,
     "name": "Zwift Running Shorts 9",
     "imageName": "Shorts09"
@@ -88,19 +88,14 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "RunFestivalThumb"
   },
   {
+    "id": 844694699,
+    "name": "ZSun",
+    "imageName": "ZSunRun2022_thumb"
+  },
+  {
     "id": 866715834,
     "name": "ZRS Fall 2021 Shorts",
     "imageName": "ZRS032021_thumb"
-  },
-  {
-    "id": 889918679,
-    "name": "Super League Yellow",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
-    "id": 892162467,
-    "name": "Super League Orange",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 963884552,
@@ -124,7 +119,7 @@ export const runShorts: ReadonlyArray<RunShort> = [
   },
   {
     "id": 1184382879,
-    "name": "LOC_ACCESSORY_ZRLROME2022",
+    "name": "ZRL Rome Run Shorts",
     "imageName": "ZRLRome2022_thumb"
   },
   {
@@ -153,11 +148,6 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "EricMinHolidayRun2021_thumb"
   },
   {
-    "id": 1421634430,
-    "name": "Super League Pink",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
     "id": 1422442217,
     "name": "2021 ZA Tri Run Shorts",
     "imageName": "ZATriRun2021_thumb"
@@ -168,9 +158,19 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "WhoopRun2021_thumb"
   },
   {
+    "id": 1692970122,
+    "name": "Super League Tri Arena Games - Blue Jersey",
+    "imageName": "SLTRun2022blue_thumb"
+  },
+  {
     "id": 1747240866,
     "name": "Dempsey Challenge",
     "imageName": "DempseyChallengeRun2021_thumb"
+  },
+  {
+    "id": 1842805541,
+    "name": "Super League Tri Arena Games - Red Jersey",
+    "imageName": "SLTRun2022red_thumb"
   },
   {
     "id": 1877586804,
@@ -188,19 +188,19 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "ZwiftWomensRun2022_thumb"
   },
   {
-    "id": 2153158269,
-    "name": "Super League Black",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
     "id": 2226846384,
     "name": "Zwift Running Shorts 12",
     "imageName": "Shorts12"
   },
   {
     "id": 2265184990,
-    "name": "LOC_ACCESSORY_ZRLHELSINKI2022",
+    "name": "ZRL Helsinki Run Shorts",
     "imageName": "ZRLHelsinki2022_thumb"
+  },
+  {
+    "id": 2337665662,
+    "name": "Super League Tri Arena Games - Orange Jersey",
+    "imageName": "SLTRun2022orange_thumb"
   },
   {
     "id": 2391851422,
@@ -208,24 +208,24 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "Shorts07"
   },
   {
-    "id": 2399165702,
-    "name": "Super League Green",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
     "id": 2408514102,
     "name": "Eddie Izzard Celebration Run Shorts",
     "imageName": "EddieIzzardCelebration2021_thumb"
   },
   {
+    "id": 2477616670,
+    "name": "Super League Tri Arena Games - Yellow Jersey",
+    "imageName": "SLTRun2022yellow_thumb"
+  },
+  {
+    "id": 2525193290,
+    "name": "Super League Tri Arena Games - Purple Jersey",
+    "imageName": "SLTRun2022purple_thumb"
+  },
+  {
     "id": 2527667682,
     "name": "PRRC",
     "imageName": "PRRC2019"
-  },
-  {
-    "id": 2634750093,
-    "name": "Super League White",
-    "imageName": "SuperLeague2020_thumb"
   },
   {
     "id": 2642396308,
@@ -234,7 +234,7 @@ export const runShorts: ReadonlyArray<RunShort> = [
   },
   {
     "id": 2825173794,
-    "name": "LOC_ACCESSORY_ZRLMUNICH2022",
+    "name": "ZRL Munich Run Shorts",
     "imageName": "ZRLMunich2022_thumb"
   },
   {
@@ -273,6 +273,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "RunningDay2019"
   },
   {
+    "id": 3173989733,
+    "name": "Super League Tri Arena Games - Grey Jersey",
+    "imageName": "SLTRun2022grey_thumb"
+  },
+  {
     "id": 3213034432,
     "name": "2021 ZA Run Shorts",
     "imageName": "ZARun2021_thumb"
@@ -299,7 +304,7 @@ export const runShorts: ReadonlyArray<RunShort> = [
   },
   {
     "id": 3291110514,
-    "name": "LOC_ACCESSORY_ZRLATLANTA2022",
+    "name": "ZRL Atlanta Run Shorts",
     "imageName": "ZRLAtlanta2022_thumb"
   },
   {
@@ -323,11 +328,6 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "ZATri2021_thumb"
   },
   {
-    "id": 3527677394,
-    "name": "Super League Blue",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
     "id": 3601200867,
     "name": "Super League Community Shorts",
     "imageName": "SuperLeague2020_thumb"
@@ -338,14 +338,14 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "RunFestival2021_thumb"
   },
   {
-    "id": 3678256514,
-    "name": "Super League Grey",
-    "imageName": "SuperLeague2020_thumb"
-  },
-  {
     "id": 3731582468,
     "name": "Zwift Academy 2020 Run",
     "imageName": "ZwiftAcademyRun2020_thumb"
+  },
+  {
+    "id": 3731880258,
+    "name": "Super League Tri Arena Games - Pink Jersey",
+    "imageName": "SLTRun2022pink_thumb"
   },
   {
     "id": 3809167284,
@@ -359,7 +359,7 @@ export const runShorts: ReadonlyArray<RunShort> = [
   },
   {
     "id": 3932074146,
-    "name": "LOC_ACCESSORY_ZRLSYDNEY2022",
+    "name": "ZRL Sydney Run Shorts",
     "imageName": "ZRLSydney2022_thumb"
   },
   {
@@ -376,6 +376,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 4158603661,
     "name": "Lionel Sanders Shorts",
     "imageName": "LionelSanders2019_thumb"
+  },
+  {
+    "id": 4191775939,
+    "name": "Super League Tri Arena Games - Black Jersey",
+    "imageName": "SLTRun2022black_thumb"
   },
   {
     "id": 4231189810,

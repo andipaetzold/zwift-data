@@ -53,6 +53,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
     "imageName": "Wheel_Zipp404Firecrest"
   },
   {
+    "id": 635220876,
+    "name": "Reserve Reserve 25 GR",
+    "imageName": "Wheel_Reserve25GR"
+  },
+  {
     "id": 667389725,
     "name": "Zipp 454",
     "imageName": "Wheel_Zipp454"
@@ -201,6 +206,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
     "id": 2696607407,
     "name": "Campagnolo Bora Ultra 50",
     "imageName": "Wheel_BoraUltra50"
+  },
+  {
+    "id": 2755992695,
+    "name": "Cadex CADEX AR 35",
+    "imageName": "Wheel_CadexAR35"
   },
   {
     "id": 2866818884,
