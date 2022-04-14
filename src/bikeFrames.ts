@@ -91,6 +91,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": false
   },
   {
+    "id": 431820725,
+    "name": "Allied AlliedAble2022",
+    "modelYear": 2021,
+    "isTT": false
+  },
+  {
     "id": 529764489,
     "name": "Cannondale Super Six Evo",
     "modelYear": 2020,
@@ -348,6 +354,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": false
   },
   {
+    "id": 2162282312,
+    "name": "Liv LivDevote2022",
+    "modelYear": 2021,
+    "isTT": false
+  },
+  {
     "id": 2205705045,
     "name": "Giant TCR Advanced SL",
     "modelYear": 2015,
@@ -357,6 +369,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "id": 2346116422,
     "name": "Specialized SpecializedAethos2021",
     "modelYear": 2021,
+    "isTT": false
+  },
+  {
+    "id": 2360271970,
+    "name": "Giant GiantRevolt2022",
+    "modelYear": 2022,
     "isTT": false
   },
   {
@@ -437,6 +455,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": false
   },
   {
+    "id": 2884593499,
+    "name": "Canyon CanyonSRAMUltimate2022",
+    "modelYear": 2022,
+    "isTT": false
+  },
+  {
     "id": 2943880629,
     "name": "Cello Team",
     "modelYear": 2015,
@@ -474,6 +498,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
   {
     "id": 3079625256,
     "name": "Zwift BigWheel",
+    "isTT": false
+  },
+  {
+    "id": 3133382714,
+    "name": "Scott ScottSparkMTB2022",
+    "modelYear": 2022,
     "isTT": false
   },
   {

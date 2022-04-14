@@ -228,6 +228,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "PRRC2019"
   },
   {
+    "id": 2534535714,
+    "name": "ZA Run Team In Season",
+    "imageName": "ZARunInSeason2022_thumb"
+  },
+  {
     "id": 2642396308,
     "name": "Team Zoot 2022",
     "imageName": "TeamZootRun2022_thumb"
@@ -246,6 +251,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 2959332087,
     "name": "Zwift Academy Tri 2019",
     "imageName": "ZwiftAcademyTri2020_thumb"
+  },
+  {
+    "id": 3012491067,
+    "name": "Spaero Triathlon",
+    "imageName": "SpaeroRun2022_thumb"
   },
   {
     "id": 3018909742,
@@ -356,6 +366,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 3860420424,
     "name": "April Fools",
     "imageName": "TealPink2020_thumb"
+  },
+  {
+    "id": 3931583376,
+    "name": "That Triathlon Life",
+    "imageName": "TTLRun2022_thumb"
   },
   {
     "id": 3932074146,

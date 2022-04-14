@@ -328,6 +328,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "3Run13one"
   },
   {
+    "id": 3075314590,
+    "name": "ZA Run Team In-Season",
+    "imageName": "Socks_ZARunInSeason2022"
+  },
+  {
     "id": 3096650005,
     "name": "Dots Pink",
     "imageName": "SocksDotPink"
@@ -368,6 +373,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "BackToFitnessCycling"
   },
   {
+    "id": 3385688485,
+    "name": "Watch the Femmes 22",
+    "imageName": "Socks_TDFF2022D"
+  },
+  {
     "id": 3389251714,
     "name": "Solid Red",
     "imageName": "SolidRed"
@@ -396,6 +406,11 @@ export const socks: ReadonlyArray<Sock> = [
     "id": 3642635650,
     "name": "201 Running Plan Socks",
     "imageName": "201Run"
+  },
+  {
+    "id": 3643312501,
+    "name": "AAPI Heritage Month",
+    "imageName": "Socks_AAPI2022"
   },
   {
     "id": 3696890221,

@@ -13,6 +13,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "TruTreadmillRunHat2021_thumb"
   },
   {
+    "id": 248687448,
+    "name": "ZA Run Team In Season",
+    "imageName": "RunningCap_ZARunInSeason2022_thumb"
+  },
+  {
     "id": 284363248,
     "name": "Eddie Izzard Celebration Run Cap",
     "imageName": "RunnerCapEddieIzzardCelebration2021_thumb"
@@ -251,6 +256,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 2638087379,
     "name": "Zwift Academy Women 2018",
     "imageName": "RunningCap_ZA2018_Womens"
+  },
+  {
+    "id": 2638837937,
+    "name": "Watch the Femmes 22",
+    "imageName": "CyclingCapTDFF2022_thumb"
   },
   {
     "id": 2656884789,
