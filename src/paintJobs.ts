@@ -67,6 +67,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Factor One-One V2"
   },
   {
+    "id": 572769923,
+    "name": "Specialized Tarmac SL7 Sram-Tarmac Trinity 2022"
+  },
+  {
     "id": 596257196,
     "name": "Chapter2 Rere-Rere"
   },

@@ -168,6 +168,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "XterraRun2020_thumb"
   },
   {
+    "id": 1079011329,
+    "name": "Spaero Triathlon",
+    "imageName": "SpaeroRun2022_thumb"
+  },
+  {
     "id": 1125476352,
     "name": "Collins Cup Internationals",
     "imageName": "CollinsCupRunYellow2020_thumb"
@@ -528,6 +533,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "ZRLHelsinki2022_thumb"
   },
   {
+    "id": 3318177309,
+    "name": "ZA Run Team In Season",
+    "imageName": "ZARunInSeason2022_thumb"
+  },
+  {
     "id": 3344420794,
     "name": "Zwift Running Shirt 10",
     "imageName": "Shirt10"
@@ -546,6 +556,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 3481030138,
     "name": "Zwift Women's Tank Top 1",
     "imageName": "TankTop01"
+  },
+  {
+    "id": 3516157437,
+    "name": "That Triathlon Life",
+    "imageName": "TTLRun2022_thumb"
   },
   {
     "id": 3526863900,

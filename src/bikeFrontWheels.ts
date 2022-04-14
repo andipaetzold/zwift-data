@@ -99,7 +99,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
   },
   {
     "id": 1497226614,
-    "name": "CADEX CADEX 42",
+    "name": "Cadex CADEX 42",
     "imageName": "Wheel_Cadex42"
   },
   {
@@ -139,7 +139,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
   },
   {
     "id": 1767327477,
-    "name": "ENVE SES 8.9",
+    "name": "Enve SES 8.9",
     "imageName": "Wheel_Enve89"
   },
   {
@@ -154,7 +154,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
   },
   {
     "id": 1881778071,
-    "name": "ENVE SES 2.2",
+    "name": "Enve SES 2.2",
     "imageName": "Wheel_Enve22"
   },
   {
@@ -174,7 +174,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
   },
   {
     "id": 2223270801,
-    "name": "ENVE SES 3.4",
+    "name": "Enve SES 3.4",
     "imageName": "Wheel_Enve35"
   },
   {
@@ -194,12 +194,12 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
   },
   {
     "id": 2621265514,
-    "name": "CADEX CADEX 65",
+    "name": "Cadex CADEX 65",
     "imageName": "Wheel_Cadex65"
   },
   {
     "id": 2642167675,
-    "name": "CADEX 36",
+    "name": "Cadex 36",
     "imageName": "Wheel_Cadex36"
   },
   {
@@ -214,7 +214,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
   },
   {
     "id": 2866818884,
-    "name": "ENVE SES 7.8",
+    "name": "Enve SES 7.8",
     "imageName": "Wheel_Enve78"
   },
   {
@@ -224,7 +224,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
   },
   {
     "id": 3251069251,
-    "name": "ENVE SES 6.7",
+    "name": "Enve SES 6.7",
     "imageName": "Wheel_Enve67"
   },
   {

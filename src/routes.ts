@@ -46,21 +46,20 @@ export const routes: ReadonlyArray<Route> = [
     "name": "Downtown Titans",
     "slug": "downdown-titans",
     "world": "watopia",
-    "eventOnly": true,
+    "eventOnly": false,
     "distance": 24.645,
     "elevation": 292,
     "leadInDistance": 0.789,
     "leadInElevation": 3,
-    "leadInDistanceFreeRide": 0.001,
+    "leadInDistanceFreeRide": 0.029,
     "leadInElevationFreeRide": 1,
-    "leadInDistanceMeetups": 0.001,
-    "leadInElevationInMeetups": 1,
+    "leadInDistanceMeetups": 0.217,
     "segments": [],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -1417,21 +1416,21 @@ export const routes: ReadonlyArray<Route> = [
     "name": "Mayan Bridge Loop",
     "slug": "mayan-bridge-loop",
     "world": "watopia",
-    "eventOnly": true,
+    "eventOnly": false,
     "distance": 5.274,
     "elevation": 48,
     "leadInDistance": 5.658,
     "leadInElevation": 9,
-    "leadInDistanceFreeRide": 5.586,
-    "leadInElevationFreeRide": 9,
-    "leadInDistanceMeetups": 5.586,
-    "leadInElevationInMeetups": 9,
+    "leadInDistanceFreeRide": 0.49,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.59,
+    "leadInElevationInMeetups": 0,
     "segments": [],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running"
     ],
@@ -3550,15 +3549,15 @@ export const routes: ReadonlyArray<Route> = [
     "name": "Three Little Sisters",
     "slug": "three-little-sisters",
     "world": "watopia",
-    "eventOnly": true,
+    "eventOnly": false,
     "distance": 37.737,
     "elevation": 435,
     "leadInDistance": 0.69,
     "leadInElevation": 3,
-    "leadInDistanceFreeRide": 0.664,
-    "leadInElevationFreeRide": 3,
-    "leadInDistanceMeetups": 0.664,
-    "leadInElevationInMeetups": 3,
+    "leadInDistanceFreeRide": 0.029,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.217,
+    "leadInElevationInMeetups": 1,
     "segments": [
       "zwift-kom",
       "titans-grove-kom",
@@ -3584,7 +3583,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
@@ -3811,6 +3810,61 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/12118362",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/hilly-route",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/hilly-route"
+  },
+  {
+    "id": 2746475460,
+    "name": "Eastern Eight",
+    "slug": "eastern-eight",
+    "world": "watopia",
+    "eventOnly": false,
+    "distance": 51.68,
+    "elevation": 407,
+    "leadInDistance": 2.383,
+    "leadInElevation": 6,
+    "leadInDistanceFreeRide": 0.05,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.117,
+    "leadInElevationInMeetups": 1,
+    "segments": [
+      "titans-grove-kom",
+      "fuego-flats-rev",
+      "titans-grove-kom-rev",
+      "fuego-flats"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 10.257,
+        "to": 12.863,
+        "segment": "titans-grove-kom"
+      },
+      {
+        "from": 24.367,
+        "to": 31.439,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 37.831,
+        "to": 38.729,
+        "segment": "titans-grove-kom-rev"
+      },
+      {
+        "from": 51.171,
+        "to": 51.673,
+        "segment": "fuego-flats"
+      }
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 134,
+    "stravaSegmentId": 22914116,
+    "stravaSegmentUrl": "https://www.strava.com/segments/22914116",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/eastern-eight"
   },
   {
     "id": 2748657713,
@@ -5341,15 +5395,15 @@ export const routes: ReadonlyArray<Route> = [
     "name": "Triple Flat Loops",
     "slug": "triple-flat-loops",
     "world": "watopia",
-    "eventOnly": true,
+    "eventOnly": false,
     "distance": 33.978,
     "elevation": 157,
     "leadInDistance": 2.383,
     "leadInElevation": 6,
-    "leadInDistanceFreeRide": 0.151,
-    "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.151,
-    "leadInElevationInMeetups": 0,
+    "leadInDistanceFreeRide": 0.029,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.217,
+    "leadInElevationInMeetups": 1,
     "segments": [
       "watopia-sprint-rev",
       "fuego-flats",
@@ -5370,7 +5424,7 @@ export const routes: ReadonlyArray<Route> = [
     "levelLocked": false,
     "lap": true,
     "supportsTT": false,
-    "supportsMeetups": false,
+    "supportsMeetups": true,
     "sports": [
       "running",
       "cycling"
