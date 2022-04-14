@@ -3812,6 +3812,56 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/hilly-route"
   },
   {
+    "id": 2746475460,
+    "name": "Eastern Eight",
+    "slug": "eastern-eight",
+    "world": "watopia",
+    "eventOnly": false,
+    "distance": 51.68,
+    "elevation": 407,
+    "leadInDistance": 2.383,
+    "leadInElevation": 6,
+    "leadInDistanceFreeRide": 0.05,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.117,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "segmentsOnRoute": [
+      {
+        "from": 10.257,
+        "to": 12.863,
+        "segment": "titans-grove-kom"
+      },
+      {
+        "from": 24.367,
+        "to": 31.439,
+        "segment": "fuego-flats-rev"
+      },
+      {
+        "from": 37.831,
+        "to": 38.729,
+        "segment": "titans-grove-kom-rev"
+      },
+      {
+        "from": 51.171,
+        "to": 51.673,
+        "segment": "fuego-flats"
+      }
+    ],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 134,
+    "stravaSegmentId": 22914116,
+    "stravaSegmentUrl": "https://www.strava.com/segments/22914116",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/eastern-eight"
+  },
+  {
     "id": 2748657713,
     "name": "Out And Back Again",
     "slug": "out-and-back-again",
