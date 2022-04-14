@@ -3825,7 +3825,12 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 1,
     "leadInDistanceMeetups": 0.117,
     "leadInElevationInMeetups": 1,
-    "segments": [],
+    "segments": [
+      "titans-grove-kom",
+      "fuego-flats-rev",
+      "titans-grove-kom-rev",
+      "fuego-flats"
+    ],
     "segmentsOnRoute": [
       {
         "from": 10.257,

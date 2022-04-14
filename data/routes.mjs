@@ -1803,7 +1803,12 @@ export const routes = [
   {
     id: 2746475460,
     slug: "eastern-eight",
-    segments: [],
+    segments: [
+      "titans-grove-kom",
+      "fuego-flats-rev",
+      "titans-grove-kom-rev",
+      "fuego-flats",
+    ],
     stravaSegmentId: 22914116,
     zwiftInsiderUrl: "https://zwiftinsider.com/eastern-eight",
   },
