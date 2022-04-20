@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/andipaetzold/zwift-data/compare/v1.15.0...v1.15.1) (2022-04-20)
+
+
+### Bug Fixes
+
+* change id of Makuri Islands is 9 ([7ed68f9](https://github.com/andipaetzold/zwift-data/commit/7ed68f97b101168b96ad798681a3d34d467590b0))
+
 # [1.15.0](https://github.com/andipaetzold/zwift-data/compare/v1.14.0...v1.15.0) (2022-04-14)
 
 
