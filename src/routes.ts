@@ -4514,6 +4514,31 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/knickerbocker"
   },
   {
+    "id": 2956533021,
+    "name": "Gravel Mountain Reverse",
+    "slug": "gravel-mountain-rev",
+    "world": "gravel-mountain",
+    "eventOnly": true,
+    "distance": 5.181,
+    "elevation": 53,
+    "leadInDistance": 0,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.02,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.016,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ]
+  },
+  {
     "id": 2966818006,
     "name": "Watopia Mountain Route",
     "slug": "mountain-route",
@@ -5819,6 +5844,31 @@ export const routes: ReadonlyArray<Route> = [
     "experience": 360,
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/hudson-roll",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/hudson-roll"
+  },
+  {
+    "id": 3687150686,
+    "name": "Gravel Mountain",
+    "slug": "gravel-mountain",
+    "world": "gravel-mountain",
+    "eventOnly": true,
+    "distance": 5.181,
+    "elevation": 53,
+    "leadInDistance": 0,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.022,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.032,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ]
   },
   {
     "id": 3687251774,

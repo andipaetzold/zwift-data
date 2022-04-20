@@ -54,4 +54,10 @@ export const worlds = [
     slug: "france",
     imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_France.png",
   },
+  {
+    gameDictionary: "GRAVEL MOUNTAIN",
+    slug: "gravel-mountain",
+    imageUrl:
+      "https://cdn.zwift.com/static/images/maps/MiniMap_GravelMountain.png",
+  },
 ];

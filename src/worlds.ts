@@ -103,12 +103,13 @@ export const worlds: ReadonlyArray<World> = [
   },
   {
     id: 12,
-    name: "Makuri Islands",
-    slug: "makuri-islands",
+    name: "Gravel Mountain",
+    slug: "gravel-mountain",
     bounds: [
-      [-10.73746, 165.80468],
-      [-10.81405, 165.88222],
+      [0, 0],
+      [0, 0],
     ],
-    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Japan.png",
+    imageUrl:
+      "https://cdn.zwift.com/static/images/maps/MiniMap_GravelMountain.png",
   },
 ];

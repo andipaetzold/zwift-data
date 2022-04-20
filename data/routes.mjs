@@ -1841,4 +1841,14 @@ export const routes = [
     stravaSegmentId: 26792130,
     zwiftInsiderUrl: "https://zwiftinsider.com/italian-villas-sprint-circuit",
   },
+  {
+    id: 3687150686,
+    slug: "gravel-mountain",
+    segments: [],
+  },
+  {
+    id: 2956533021,
+    slug: "gravel-mountain-rev",
+    segments: [],
+  },
 ];

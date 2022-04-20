@@ -32,6 +32,7 @@ export type WorldSlug =
   | "bologna"
   | "crit-city"
   | "france"
+  | "gravel-mountain"
   | "innsbruck"
   | "london"
   | "paris"
