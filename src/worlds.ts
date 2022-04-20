@@ -82,6 +82,16 @@ export const worlds: ReadonlyArray<World> = [
     imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_CritCity.png",
   },
   {
+    id: 9,
+    name: "Makuri Islands",
+    slug: "makuri-islands",
+    bounds: [
+      [-10.73746, 165.80468],
+      [-10.81405, 165.88222],
+    ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Japan.png",
+  },
+  {
     id: 10,
     name: "France",
     slug: "france",
@@ -100,15 +110,5 @@ export const worlds: ReadonlyArray<World> = [
       [48.82945, 2.3722],
     ],
     imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Champs.png",
-  },
-  {
-    id: 12,
-    name: "Makuri Islands",
-    slug: "makuri-islands",
-    bounds: [
-      [-10.73746, 165.80468],
-      [-10.81405, 165.88222],
-    ],
-    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Japan.png",
   },
 ];
