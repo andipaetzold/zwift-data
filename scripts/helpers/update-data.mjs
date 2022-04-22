@@ -25,6 +25,11 @@ export async function updateData() {
   {
     const data = [];
     for (const item of responseData.ROUTES.ROUTE) {
+      // skip until release or map bounds are available
+      if (item.map === "GRAVEL MOUNTAIN") {
+        continue;
+      }
+
       const manualRouteData = routes.find((r) => r.id === +item.signature);
 
       if (!manualRouteData) {
