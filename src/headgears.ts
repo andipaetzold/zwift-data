@@ -28,6 +28,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "GiroVanquish"
   },
   {
+    "id": 322596379,
+    "name": "2022 ZA Tri Team Design",
+    "imageName": "SpecializedZATri2022"
+  },
+  {
     "id": 407446488,
     "name": "Tour de Zwift 2022 Ride Cap",
     "imageName": "CyclingCapTourDeZwift2022_thumb"
@@ -46,6 +51,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 478478662,
     "name": "SworksTT2020 Helmet",
     "imageName": "SworksTT2020"
+  },
+  {
+    "id": 518828917,
+    "name": "2022 adidas RFTO",
+    "imageName": "RunnerCapRFTO2022_thumb"
   },
   {
     "id": 521965311,

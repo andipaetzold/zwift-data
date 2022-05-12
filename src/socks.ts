@@ -398,6 +398,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "HelloFondo"
   },
   {
+    "id": 3523567906,
+    "name": "Pride 2022",
+    "imageName": "Socks_PrideOn2022"
+  },
+  {
     "id": 3620800398,
     "name": "2021 ZA Run Socks",
     "imageName": "Socks_ZARun2021"
@@ -461,6 +466,11 @@ export const socks: ReadonlyArray<Sock> = [
     "id": 4034148441,
     "name": "GranFondo Plan Socks",
     "imageName": "GranFondo"
+  },
+  {
+    "id": 4049893898,
+    "name": "2022 adidas RFTO",
+    "imageName": "SocksRFTO2022"
   },
   {
     "id": 4137098634,

@@ -183,6 +183,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "DempseyChallengeRun2021_thumb"
   },
   {
+    "id": 1207872178,
+    "name": "2022 adidas RFTO",
+    "imageName": "RFTO2022_thumb"
+  },
+  {
     "id": 1288766544,
     "name": "Super League Tri Arena Games - White Jersey",
     "imageName": "SLTRun2022white_thumb"
@@ -288,6 +293,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "HalloweenChase2019_thumb"
   },
   {
+    "id": 1954985515,
+    "name": "2022 ZA Tri Team Design",
+    "imageName": "ZATriRun2022_thumb"
+  },
+  {
     "id": 1972429209,
     "name": "Super League Tri Arena Games - Green Jersey",
     "imageName": "SLTRun2022green_thumb"
@@ -363,6 +373,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "JanFrodeno2019_thumb"
   },
   {
+    "id": 2292871545,
+    "name": "Pride 2022",
+    "imageName": "PrideOn2022_thumb"
+  },
+  {
     "id": 2296133418,
     "name": "Zwift Women's Tank Top 2",
     "imageName": "TankTop02"
@@ -381,6 +396,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 2307701209,
     "name": "ZRS Summer 2021 Shirt",
     "imageName": "ZRS022021_thumb"
+  },
+  {
+    "id": 2327454175,
+    "name": "Varlo Team",
+    "imageName": "VarloRun2022_thumb"
   },
   {
     "id": 2354164139,
@@ -461,6 +481,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 2768891314,
     "name": "Lionel Sanders",
     "imageName": "LionelSanders2019_thumb"
+  },
+  {
+    "id": 2795593609,
+    "name": "Halo ID",
+    "imageName": "HaloIDRun2022_thumb"
   },
   {
     "id": 2839896779,
@@ -598,6 +623,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "FeelsLikeSummer2019Thumb"
   },
   {
+    "id": 3742868537,
+    "name": "CredoTri",
+    "imageName": "CredoTriRun2022_thumb"
+  },
+  {
     "id": 3746982074,
     "name": "Norseman White Run Shirt",
     "imageName": "Norseman2021_thumb"
@@ -631,6 +661,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 4067041817,
     "name": "Pride On",
     "imageName": "PrideOn2020_thumb"
+  },
+  {
+    "id": 4116498457,
+    "name": "Sansego",
+    "imageName": "SansegoTriRun2022_thumb"
   },
   {
     "id": 4197967370,

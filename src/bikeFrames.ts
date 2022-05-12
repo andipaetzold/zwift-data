@@ -9,6 +9,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": true
   },
   {
+    "id": 11394848,
+    "name": "Felt Felt TT 2021",
+    "modelYear": 2021,
+    "isTT": true
+  },
+  {
     "id": 57842352,
     "name": "Liv LivLangma2021",
     "modelYear": 2021,
@@ -306,6 +312,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "name": "Cervelo CerveloS52021",
     "modelYear": 2021,
     "isTT": false
+  },
+  {
+    "id": 2002850191,
+    "name": "Scott ScottPlasma2022",
+    "modelYear": 2022,
+    "isTT": true
   },
   {
     "id": 2005280203,

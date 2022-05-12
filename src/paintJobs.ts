@@ -139,6 +139,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Mosaic MosaicRT12022-Mosaic RT1"
   },
   {
+    "id": 967878476,
+    "name": "Giant GiantTCRAdvancedSL-"
+  },
+  {
     "id": 997166951,
     "name": "Specialized Allez Sprint-Sagan"
   },
@@ -155,6 +159,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Specialized Roubaix S-Works-Rocket Red"
   },
   {
+    "id": 1204138276,
+    "name": "Scott Foil-Scott2022"
+  },
+  {
     "id": 1205664811,
     "name": "Ridley Noah Fast 2019-Lotto Soudal"
   },
@@ -169,6 +177,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 1215759893,
     "name": "Zwift Carbon-Total Direct Energie"
+  },
+  {
+    "id": 1240711427,
+    "name": "Liv LivLangma2021-Bike Exchange 2022"
   },
   {
     "id": 1248651886,
@@ -233,6 +245,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 1705788757,
     "name": "Specialized Tarmac SL7-Bora Hansgrohe"
+  },
+  {
+    "id": 1740143364,
+    "name": "Liv LivLangma2021-XSTRA 2022"
   },
   {
     "id": 1772206727,
@@ -537,6 +553,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 3593209473,
     "name": "Liv LivLangma2021-Liv Langma"
+  },
+  {
+    "id": 3608080215,
+    "name": "Specialized Shiv Disc-Specialized Shiv 2022"
   },
   {
     "id": 3628655892,

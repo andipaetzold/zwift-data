@@ -64,7 +64,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 490
+    "experience": 3
   },
   {
     "id": 54700404,
@@ -1434,7 +1434,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 105,
+    "experience": 1,
     "stravaSegmentId": 26774640,
     "stravaSegmentUrl": "https://www.strava.com/segments/26774640",
     "zwiftInsiderUrl": "https://zwiftinsider.com/mayan-bridge-loop"
@@ -2581,6 +2581,31 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/valley-to-mountaintop"
   },
   {
+    "id": 1988847319,
+    "name": "Splash and Dash",
+    "slug": "1988847319",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 6.03,
+    "elevation": 26,
+    "leadInDistance": 0.217,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.22,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.22,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running"
+    ],
+    "experience": 1
+  },
+  {
     "id": 1993374659,
     "name": "Handful Of Gravel",
     "slug": "handful-of-gravel",
@@ -2604,7 +2629,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 125
+    "experience": 1
   },
   {
     "id": 2001106885,
@@ -3761,7 +3786,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 125
+    "experience": 1
   },
   {
     "id": 2737483381,
@@ -3861,7 +3886,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 134,
+    "experience": 3,
     "stravaSegmentId": 22914116,
     "stravaSegmentUrl": "https://www.strava.com/segments/22914116",
     "zwiftInsiderUrl": "https://zwiftinsider.com/eastern-eight"
@@ -5429,7 +5454,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 680,
+    "experience": 2,
     "stravaSegmentId": 20453276,
     "stravaSegmentUrl": "https://www.strava.com/segments/20453276",
     "zwiftInsiderUrl": "https://zwiftinsider.com/triple-flat-loops"
@@ -5603,7 +5628,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 40,
+    "experience": 1.5,
     "stravaSegmentId": 26792130,
     "stravaSegmentUrl": "https://www.strava.com/segments/26792130",
     "zwiftInsiderUrl": "https://zwiftinsider.com/italian-villas-sprint-circuit"
@@ -6881,6 +6906,31 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/16781219",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-triple-loops",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/triple-loops"
+  },
+  {
+    "id": 4232726854,
+    "name": "Surfin' Safari",
+    "slug": "4232726854",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 9.77,
+    "elevation": 43,
+    "leadInDistance": 0.197,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.185,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.185,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running"
+    ],
+    "experience": 1
   },
   {
     "id": 4240327959,
