@@ -53,6 +53,11 @@ export const runShoes: ReadonlyArray<RunShoe> = [
     "imageName": "RunningShoe_Blue"
   },
   {
+    "id": 2810712238,
+    "name": "adidas ULTRABOOST 22",
+    "imageName": "RunningShoesRFTO2022_thumb"
+  },
+  {
     "id": 3055713810,
     "name": "HOVR Machina 2",
     "imageName": ""

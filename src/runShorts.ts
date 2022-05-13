@@ -43,6 +43,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "LARR2019_thumb"
   },
   {
+    "id": 325633081,
+    "name": "2022 ZA Tri Team Design",
+    "imageName": "ZATriRun2022_thumb"
+  },
+  {
     "id": 424581175,
     "name": "World Cancer Day",
     "imageName": "WorldCancerDayRun2021_thumb"
@@ -153,6 +158,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "ZATriRun2021_thumb"
   },
   {
+    "id": 1434435763,
+    "name": "Halo ID",
+    "imageName": "HaloIDRun2022_thumb"
+  },
+  {
     "id": 1625357719,
     "name": "WHOOP Run Shorts",
     "imageName": "WhoopRun2021_thumb"
@@ -186,6 +196,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 2081362761,
     "name": "Women's Run Series 2022",
     "imageName": "ZwiftWomensRun2022_thumb"
+  },
+  {
+    "id": 2127809752,
+    "name": "2022 adidas RFTO",
+    "imageName": "RFTO2022_thumb"
   },
   {
     "id": 2226846384,
@@ -233,9 +248,19 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "ZARunInSeason2022_thumb"
   },
   {
+    "id": 2584610635,
+    "name": "CredoTri",
+    "imageName": "CredoTriRun2022_thumb"
+  },
+  {
     "id": 2642396308,
     "name": "Team Zoot 2022",
     "imageName": "TeamZootRun2022_thumb"
+  },
+  {
+    "id": 2810864678,
+    "name": "Sansego",
+    "imageName": "SansegoTriRun2022_thumb"
   },
   {
     "id": 2825173794,
@@ -276,6 +301,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 3118125824,
     "name": "Zwift Running Shorts 13",
     "imageName": "Shorts13"
+  },
+  {
+    "id": 3146952674,
+    "name": "Pride 2022",
+    "imageName": "PrideOn2022_thumb"
   },
   {
     "id": 3147597225,
@@ -376,6 +406,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 3932074146,
     "name": "ZRL Sydney Run Shorts",
     "imageName": "ZRLSydney2022_thumb"
+  },
+  {
+    "id": 3981726669,
+    "name": "Varlo Team",
+    "imageName": "VarloRun2022_thumb"
   },
   {
     "id": 4037580579,

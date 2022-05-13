@@ -891,5 +891,15 @@ export const achievements: ReadonlyArray<Achievement> = [
     "id": 184,
     "name": "HANDFUL OF GRAVEL (RUNNING)",
     "imageName": "RouteComplete"
+  },
+  {
+    "id": 185,
+    "name": "SURFIN' SAFARI",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 186,
+    "name": "SPLASH AND DASH",
+    "imageName": "RouteComplete"
   }
 ];

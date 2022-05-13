@@ -68,6 +68,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "WNTRotor2019_thumb"
   },
   {
+    "id": 119884741,
+    "name": "Velos",
+    "imageName": "Velos2022_thumb"
+  },
+  {
     "id": 120279066,
     "name": "Super League Community 2021 Kit",
     "imageName": "SuperLeagueCommunity2021_thumb"
@@ -258,6 +263,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "OricaScott_thumb"
   },
   {
+    "id": 310916269,
+    "name": "WattFabrik",
+    "imageName": "WattFabrik2022_thumb"
+  },
+  {
     "id": 315634460,
     "name": "Saris-NoPinz",
     "imageName": "SarisNoPinz2022_thumb"
@@ -373,6 +383,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "Norseman2018_thumb"
   },
   {
+    "id": 429028749,
+    "name": "Scannellare",
+    "imageName": "Scannellare2022_thumb"
+  },
+  {
     "id": 429292215,
     "name": "Adventure Stache 2020",
     "imageName": "AdventureStache2020_thumb"
@@ -471,6 +486,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 555613191,
     "name": "DD-Qhubeka-Fan",
     "imageName": "DD-Qhubeka-Fan_thumb"
+  },
+  {
+    "id": 561363741,
+    "name": "CredoTri",
+    "imageName": "CredoTri2022_thumb"
   },
   {
     "id": 571847813,
@@ -958,6 +978,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "SZ2020_thumb"
   },
   {
+    "id": 1079776699,
+    "name": "TRINITY Racing Training",
+    "imageName": "TRINITYTraining2022_thumb"
+  },
+  {
     "id": 1086432412,
     "name": "Alpine Slopes 2",
     "imageName": "Zwift_Ski02_thumb"
@@ -1104,7 +1129,7 @@ export const jerseys: ReadonlyArray<Jersey> = [
   },
   {
     "id": 1276763333,
-    "name": "SAS",
+    "name": "SAINTS",
     "imageName": "SASCycleClub_thumb"
   },
   {
@@ -1693,9 +1718,9 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "AHDRLivBison_thumb"
   },
   {
-    "id": 1957749265,
-    "name": "Ruhr Riders",
-    "imageName": "ZwiftRuhrRiders2018_thumb"
+    "id": 1953455256,
+    "name": "Ruhrrider 2022",
+    "imageName": "RuhrRiders2022_thumb"
   },
   {
     "id": 1969335676,
@@ -1953,6 +1978,16 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "Zwift_WomensDay_thumb"
   },
   {
+    "id": 2303114199,
+    "name": "Enjoy Your Bike",
+    "imageName": "EnjoyYourBike2022_thumb"
+  },
+  {
+    "id": 2308547097,
+    "name": "Pride 2022",
+    "imageName": "PrideOn2022_thumb"
+  },
+  {
     "id": 2327670378,
     "name": "Wahoo Climbers",
     "imageName": "WahooClimb2022_thumb"
@@ -2021,6 +2056,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 2386311153,
     "name": "El Giro de Rigo 2021",
     "imageName": "ElGiroDeRigoCR2021_thumb"
+  },
+  {
+    "id": 2389611207,
+    "name": "Varlo Cycling",
+    "imageName": "Varlo2022_thumb"
   },
   {
     "id": 2394699876,
@@ -2238,6 +2278,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "VitalityCycling2021_thumb"
   },
   {
+    "id": 2636119382,
+    "name": "Team Greece",
+    "imageName": "TeamGreece2022_thumb"
+  },
+  {
     "id": 2643412332,
     "name": "Rave",
     "imageName": "Rave2022_thumb"
@@ -2248,9 +2293,9 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "FreeSpeed2015_thumb"
   },
   {
-    "id": 2651946795,
-    "name": "Trinity",
-    "imageName": "Trinity2021_thumb"
+    "id": 2662676193,
+    "name": "Alpentroedler Velo Club",
+    "imageName": "Alpentroedler2022_thumb"
   },
   {
     "id": 2668995113,
@@ -2313,6 +2358,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "Zwift_Green_Orange"
   },
   {
+    "id": 2727136434,
+    "name": "Team Novo Nordisk 2022",
+    "imageName": "TeamNovoNordisk2022_thumb"
+  },
+  {
     "id": 2736225678,
     "name": "ZHCC",
     "imageName": "ZHCC2019_thumb"
@@ -2358,6 +2408,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "CastelliVirtualClimber_Dark_thumb"
   },
   {
+    "id": 2756919352,
+    "name": "Ride Like King 14",
+    "imageName": "RideLikeAKing2022_thumb"
+  },
+  {
     "id": 2757515117,
     "name": "Trek",
     "imageName": "Trek_2014_thumb"
@@ -2366,6 +2421,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 2758001656,
     "name": "Black Sheep Black",
     "imageName": "BlackSheepBlack2019_thumb"
+  },
+  {
+    "id": 2761385929,
+    "name": "TriMag.DE",
+    "imageName": "TriMagde2022_thumb"
   },
   {
     "id": 2763945545,
@@ -2386,6 +2446,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 2768366528,
     "name": "Team ODZ 2018",
     "imageName": "ODZ2018Mens_thumb"
+  },
+  {
+    "id": 2781649419,
+    "name": "Halo ID",
+    "imageName": "HaloID2022_thumb"
   },
   {
     "id": 2784272641,
@@ -2551,6 +2616,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 2986648336,
     "name": "Classy 2",
     "imageName": "ZwiftClassy02_thumb"
+  },
+  {
+    "id": 2988130623,
+    "name": "LUX Cycling",
+    "imageName": "LUXCycling2022_thumb"
   },
   {
     "id": 2993458510,
@@ -2743,11 +2813,6 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "WEZ2020_thumb"
   },
   {
-    "id": 3236010357,
-    "name": "Women's Ride Series 2022",
-    "imageName": "ZwiftWomens2022_thumb"
-  },
-  {
     "id": 3237599752,
     "name": "Zwift zFondo December 2018",
     "imageName": "ZwiftZFondoDec2018_thumb"
@@ -2893,11 +2958,6 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "ValcarCylance2019_thumb"
   },
   {
-    "id": 3375581593,
-    "name": "Team Novo Nordisk",
-    "imageName": "NovoNordisk_thumb"
-  },
-  {
     "id": 3382526362,
     "name": "USAC Elite",
     "imageName": "USAC_thumb"
@@ -2923,6 +2983,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "ZwiftInsider2022_thumb"
   },
   {
+    "id": 3398931495,
+    "name": "Team Roland Cogeas Edelweiss",
+    "imageName": "TeamRolandCogeas2022_thumb"
+  },
+  {
     "id": 3405367476,
     "name": "Evoq.Bike",
     "imageName": "EvoqBike2020_thumb"
@@ -2936,6 +3001,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3407909128,
     "name": "World Bicycle Relief",
     "imageName": "WBRKit2019_thumb"
+  },
+  {
+    "id": 3415411505,
+    "name": "Sansego",
+    "imageName": "SansegoTri2022_thumb"
   },
   {
     "id": 3419241775,
@@ -2971,6 +3041,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3427652207,
     "name": "Liv Ride Like King 2018",
     "imageName": "RideLikeKing2018_thumb"
+  },
+  {
+    "id": 3430221138,
+    "name": "2022 ZA Tri Team Design",
+    "imageName": "ZATri2022_thumb"
   },
   {
     "id": 3439799665,
@@ -3171,6 +3246,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3640900519,
     "name": "Movember",
     "imageName": "Movember2019_thumb"
+  },
+  {
+    "id": 3651831027,
+    "name": "TRINITY Racing Race",
+    "imageName": "TRINITYRace2022_thumb"
   },
   {
     "id": 3652093952,

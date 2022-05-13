@@ -2581,6 +2581,30 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/valley-to-mountaintop"
   },
   {
+    "id": 1988847319,
+    "name": "Splash and Dash",
+    "slug": "splash-and-dash",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 6.03,
+    "elevation": 26,
+    "leadInDistance": 0.217,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.22,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.22,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running"
+    ]
+  },
+  {
     "id": 1993374659,
     "name": "Handful Of Gravel",
     "slug": "handful-of-gravel",
@@ -6881,6 +6905,30 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/16781219",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-triple-loops",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/triple-loops"
+  },
+  {
+    "id": 4232726854,
+    "name": "Surfin' Safari",
+    "slug": "surfin-safari",
+    "world": "watopia",
+    "eventOnly": true,
+    "distance": 9.77,
+    "elevation": 43,
+    "leadInDistance": 0.197,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.185,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.185,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running"
+    ]
   },
   {
     "id": 4240327959,
