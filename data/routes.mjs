@@ -1841,4 +1841,12 @@ export const routes = [
     stravaSegmentId: 26792130,
     zwiftInsiderUrl: "https://zwiftinsider.com/italian-villas-sprint-circuit",
   },
+  {
+    id: 1988847319,
+    slug: "splash-and-dash",
+  },
+  {
+    id: 4232726854,
+    slug: "surfin-safari",
+  },
 ];

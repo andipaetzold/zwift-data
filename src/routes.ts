@@ -2583,7 +2583,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 1988847319,
     "name": "Splash and Dash",
-    "slug": "1988847319",
+    "slug": "splash-and-dash",
     "world": "watopia",
     "eventOnly": true,
     "distance": 6.03,
@@ -6910,7 +6910,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 4232726854,
     "name": "Surfin' Safari",
-    "slug": "4232726854",
+    "slug": "surfin-safari",
     "world": "watopia",
     "eventOnly": true,
     "distance": 9.77,
