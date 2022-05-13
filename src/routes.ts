@@ -64,7 +64,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 3
+    "experience": 490
   },
   {
     "id": 54700404,
@@ -1434,7 +1434,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 1,
+    "experience": 105,
     "stravaSegmentId": 26774640,
     "stravaSegmentUrl": "https://www.strava.com/segments/26774640",
     "zwiftInsiderUrl": "https://zwiftinsider.com/mayan-bridge-loop"
@@ -2602,8 +2602,7 @@ export const routes: ReadonlyArray<Route> = [
     "supportsMeetups": false,
     "sports": [
       "running"
-    ],
-    "experience": 1
+    ]
   },
   {
     "id": 1993374659,
@@ -2629,7 +2628,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 1
+    "experience": 125
   },
   {
     "id": 2001106885,
@@ -3786,7 +3785,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 1
+    "experience": 125
   },
   {
     "id": 2737483381,
@@ -3886,7 +3885,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 3,
+    "experience": 134,
     "stravaSegmentId": 22914116,
     "stravaSegmentUrl": "https://www.strava.com/segments/22914116",
     "zwiftInsiderUrl": "https://zwiftinsider.com/eastern-eight"
@@ -5454,7 +5453,7 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 2,
+    "experience": 680,
     "stravaSegmentId": 20453276,
     "stravaSegmentUrl": "https://www.strava.com/segments/20453276",
     "zwiftInsiderUrl": "https://zwiftinsider.com/triple-flat-loops"
@@ -5628,7 +5627,7 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running"
     ],
-    "experience": 1.5,
+    "experience": 40,
     "stravaSegmentId": 26792130,
     "stravaSegmentUrl": "https://www.strava.com/segments/26792130",
     "zwiftInsiderUrl": "https://zwiftinsider.com/italian-villas-sprint-circuit"
@@ -6929,8 +6928,7 @@ export const routes: ReadonlyArray<Route> = [
     "supportsMeetups": false,
     "sports": [
       "running"
-    ],
-    "experience": 1
+    ]
   },
   {
     "id": 4240327959,
