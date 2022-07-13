@@ -63,6 +63,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "CalorieChallenge2020"
   },
   {
+    "id": 583553384,
+    "name": "Zwift Academy 2022",
+    "imageName": "Socks_ZARoad2022"
+  },
+  {
     "id": 595416697,
     "name": "Off the MAAP 2021 SOCKS",
     "imageName": "Socks_OffTheMaap2021"
@@ -191,6 +196,11 @@ export const socks: ReadonlyArray<Sock> = [
     "id": 1662777809,
     "name": "Build Me Up Plan Socks",
     "imageName": "BuildMeUp"
+  },
+  {
+    "id": 1692216489,
+    "name": "Off the MAAP",
+    "imageName": "Socks_OffTheMaap2022"
   },
   {
     "id": 1701325752,

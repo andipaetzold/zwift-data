@@ -28,6 +28,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "WhoopRun2021_thumb"
   },
   {
+    "id": 138962417,
+    "name": "Precision Fuel & Hydration",
+    "imageName": "PrecisionRun2022_thumb"
+  },
+  {
     "id": 179331189,
     "name": "Eddie Izzard Marathon Challenge Kit",
     "imageName": "EddieIzzardCelebration2021_thumb"
@@ -86,6 +91,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 614033845,
     "name": "Run Festival White Kit 2021",
     "imageName": "RunFestivalWhite2021_thumb"
+  },
+  {
+    "id": 662489813,
+    "name": "GTN",
+    "imageName": "GTNRun2022_thumb"
   },
   {
     "id": 684551673,
@@ -311,6 +321,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 2045653702,
     "name": "Pride On 2019",
     "imageName": "PrideOn2019thumb"
+  },
+  {
+    "id": 2053684003,
+    "name": "ASICS VENTILATE ACTIBREEZE™ SS",
+    "imageName": "AsicsRun2022_thumb"
   },
   {
     "id": 2059528817,
@@ -571,6 +586,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 3392923864,
     "name": "Women's Run Series 2022",
     "imageName": "ZwiftWomensRun2022_thumb"
+  },
+  {
+    "id": 3430427983,
+    "name": "Ascenders Team",
+    "imageName": "TeamAscendersRun2022_thumb"
   },
   {
     "id": 3473542057,

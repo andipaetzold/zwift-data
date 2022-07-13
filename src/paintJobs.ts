@@ -47,6 +47,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Zwift Carbon-AG2R"
   },
   {
+    "id": 472970370,
+    "name": "QuintanaRoo QuintanaVPR2022-base"
+  },
+  {
     "id": 507139888,
     "name": "Cannondale Super Six Evo-Education First"
   },
@@ -147,6 +151,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Specialized Allez Sprint-Sagan"
   },
   {
+    "id": 1011207669,
+    "name": "Scott ScottFoil2022-Scott Foil 2022"
+  },
+  {
     "id": 1050532355,
     "name": "Specialized Roubaix-Chameleon Black"
   },
@@ -207,8 +215,16 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Canyon Aeroad 2021-Canyon Aeroad 2020 ZA Women"
   },
   {
+    "id": 1476698751,
+    "name": "Ventum One-Ventum One 2022"
+  },
+  {
     "id": 1482037529,
     "name": "Zwift DefaultOrange-8bitBike"
+  },
+  {
+    "id": 1487319623,
+    "name": "Chapter2 Chapter2KOKO2022-CHapter2KOKO2022"
   },
   {
     "id": 1546077430,
@@ -247,8 +263,16 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
     "name": "Specialized Tarmac SL7-Bora Hansgrohe"
   },
   {
+    "id": 1729418039,
+    "name": "Ventum VentumNS12022-VentumNS12022"
+  },
+  {
     "id": 1740143364,
     "name": "Liv LivLangma2021-XSTRA 2022"
+  },
+  {
+    "id": 1764726667,
+    "name": "Canyon Aeroad 2021-Zwift Academy 2022"
   },
   {
     "id": 1772206727,
@@ -393,6 +417,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 2518119954,
     "name": "Cervelo S5-S5"
+  },
+  {
+    "id": 2522283696,
+    "name": "Scott ScottAddict2021-2022"
   },
   {
     "id": 2549915409,
