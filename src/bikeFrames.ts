@@ -15,6 +15,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": true
   },
   {
+    "id": 43434703,
+    "name": "Scott ScottFoil2022",
+    "modelYear": 2022,
+    "isTT": false
+  },
+  {
     "id": 57842352,
     "name": "Liv LivLangma2021",
     "modelYear": 2021,
@@ -143,6 +149,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": false
   },
   {
+    "id": 835142897,
+    "name": "Ventum VentumNS12022",
+    "modelYear": 2022,
+    "isTT": false
+  },
+  {
     "id": 935373427,
     "name": "Specialized Tarmac SL7",
     "modelYear": 2021,
@@ -183,6 +195,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "name": "Specialized SpecializedDiverge2022",
     "modelYear": 2022,
     "isTT": false
+  },
+  {
+    "id": 1152794347,
+    "name": "QuintanaRoo QuintanaVPR2022",
+    "modelYear": 2022,
+    "isTT": true
   },
   {
     "id": 1174020494,
@@ -305,6 +323,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
   {
     "id": 1928137471,
     "name": "Trek Emonda SL",
+    "isTT": false
+  },
+  {
+    "id": 1936733870,
+    "name": "Chapter2 Chapter2KOKO2022",
+    "modelYear": 2022,
     "isTT": false
   },
   {

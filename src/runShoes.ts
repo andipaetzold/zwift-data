@@ -3,6 +3,11 @@ import { RunShoe } from "./types";
 // prettier-ignore
 export const runShoes: ReadonlyArray<RunShoe> = [
   {
+    "id": 144280537,
+    "name": "ASICS METASPEED™ Sky+",
+    "imageName": "RunningShoesAsics_2022_thumb"
+  },
+  {
     "id": 176985884,
     "name": "Zwift Academy Tri 2019",
     "imageName": "RunningShoesZwiftAcademyTri2020_thumb"
@@ -104,8 +109,8 @@ export const runShoes: ReadonlyArray<RunShoe> = [
   },
   {
     "id": 3913112068,
-    "name": "Saucony Endorphin 2.0 Shoe",
-    "imageName": "RunningShoesSaucony_2021_thumb"
+    "name": "Saucony Endorphin Pro",
+    "imageName": ""
   },
   {
     "id": 3939519764,

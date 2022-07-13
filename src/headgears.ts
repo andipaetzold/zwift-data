@@ -118,6 +118,16 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "BucketHatZRSWinter2020_thumb"
   },
   {
+    "id": 1021510657,
+    "name": "Zwift Academy 2022",
+    "imageName": "Headband_ZA2022"
+  },
+  {
+    "id": 1079998558,
+    "name": "Off the MAAP",
+    "imageName": "Headband_OffTheMaap2022"
+  },
+  {
     "id": 1081853028,
     "name": "Specialized 2019",
     "imageName": "CyclingCapSpecialized2019_thumb"
@@ -149,8 +159,13 @@ export const headgears: ReadonlyArray<Headgear> = [
   },
   {
     "id": 1292376041,
-    "name": "LazerBullet",
+    "name": "LOC_ACCESSORY_LAZERBULLET",
     "imageName": "LazerBullet"
+  },
+  {
+    "id": 1356164614,
+    "name": "Giro Eclipse",
+    "imageName": "GiroEclipse2021"
   },
   {
     "id": 1367469675,
@@ -408,6 +423,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "CyclingCapRaphaLetape2019_thumb"
   },
   {
+    "id": 3654765885,
+    "name": "Precision Fuel & Hydration",
+    "imageName": "BackwardsCapPrecision2022_thumb"
+  },
+  {
     "id": 3657825972,
     "name": "Zwift Academy Tri 2020",
     "imageName": "CyclingCapZwiftAcademyTri2020_thumb"
@@ -446,6 +466,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 3961081102,
     "name": "Le Col CC",
     "imageName": "CyclingCapLeCol2022_thumb"
+  },
+  {
+    "id": 4144877717,
+    "name": "RunningCapPrecision2022",
+    "imageName": "RunningCapPrecision2022_thumb"
   },
   {
     "id": 4226117447,

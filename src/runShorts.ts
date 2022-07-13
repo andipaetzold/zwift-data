@@ -53,9 +53,19 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "WorldCancerDayRun2021_thumb"
   },
   {
+    "id": 482325688,
+    "name": "GTN",
+    "imageName": "GTNRun2022_thumb"
+  },
+  {
     "id": 492773436,
     "name": "ZRS Spring 2021 Shorts",
     "imageName": "ZRS012021_thumb"
+  },
+  {
+    "id": 495372593,
+    "name": "ASICS VENTILATE 5IN",
+    "imageName": "AsicsRun2022_thumb"
   },
   {
     "id": 614375038,
@@ -218,6 +228,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "SLTRun2022orange_thumb"
   },
   {
+    "id": 2387413940,
+    "name": "Ascenders Team",
+    "imageName": "TeamAscendersRun2022_thumb"
+  },
+  {
     "id": 2391851422,
     "name": "Zwift Running Shorts 7",
     "imageName": "Shorts07"
@@ -286,6 +301,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 3018909742,
     "name": "Zwift Running Shorts 6",
     "imageName": "Shorts06"
+  },
+  {
+    "id": 3053874242,
+    "name": "Precision Fuel & Hydration",
+    "imageName": "PrecisionRun2022_thumb"
   },
   {
     "id": 3099073192,
