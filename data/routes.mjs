@@ -10,7 +10,6 @@ export const routes = [
       "zwift-kom-rev",
       "fuego-flats",
     ],
-    experience: 1340,
     stravaSegmentId: 21911191,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/big-foot-hills",
     whatsOnZwiftUrl:
@@ -20,7 +19,6 @@ export const routes = [
     id: 2947111049,
     slug: "big-loop",
     segments: ["epic-kom"],
-    experience: 840,
     stravaSegmentId: 16402683,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/big-loop",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/big-loop",
@@ -29,7 +27,6 @@ export const routes = [
     id: 2139708890,
     slug: "bigger-loop",
     segments: ["fuego-flats", "epic-kom"],
-    experience: 1060,
     stravaSegmentId: 20425565,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/bigger-loop",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/bigger-loop",
@@ -38,7 +35,6 @@ export const routes = [
     id: 2675063596,
     slug: "dust-in-the-wind",
     segments: ["titans-grove-kom-rev", "fuego-flats-rev"],
-    experience: 1080,
     stravaSegmentId: 22458637,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/dust-in-the-wind",
     whatsOnZwiftUrl:
@@ -53,7 +49,6 @@ export const routes = [
       "zwift-kom",
       "watopia-sprint",
     ],
-    experience: 580,
     stravaSegmentId: 12118421,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/figure-8",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/figure-8",
@@ -67,7 +62,6 @@ export const routes = [
       "watopia-sprint",
       "zwift-kom",
     ],
-    experience: 580,
     stravaSegmentId: 27177732,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/figure-8-reverse",
     whatsOnZwiftUrl:
@@ -77,7 +71,6 @@ export const routes = [
     id: 3395698268,
     slug: "flat-route",
     segments: ["watopia-sprint"],
-    experience: 200,
     stravaSegmentId: 27130302,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/flat-route",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/flat-route",
@@ -92,7 +85,6 @@ export const routes = [
       "alpe-du-zwift",
       "watopia-sprint",
     ],
-    experience: 1780,
     stravaSegmentId: 20390815,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/four-horsemen",
     whatsOnZwiftUrl:
@@ -102,7 +94,6 @@ export const routes = [
     id: 2737483381,
     slug: "hilly-route",
     segments: ["hilly-loop", "zwift-kom", "watopia-sprint"],
-    experience: 180,
     stravaSegmentId: 12118362,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/hilly-route",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/hilly-route",
@@ -111,7 +102,6 @@ export const routes = [
     id: 743730361,
     slug: "jungle-circuit",
     segments: ["jungle-loop-rev"],
-    experience: 260,
     stravaSegmentId: 16359363,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/jungle-circuit",
     whatsOnZwiftUrl:
@@ -121,7 +111,6 @@ export const routes = [
     id: 3219074012,
     slug: "mountain-8",
     segments: ["watopia-sprint"],
-    experience: 640,
     stravaSegmentId: 12118544,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/mountain-8",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/mountain-8",
@@ -130,7 +119,6 @@ export const routes = [
     id: 2966818006,
     slug: "mountain-route",
     segments: ["epic-kom", "watopia-sprint"],
-    experience: 580,
     stravaSegmentId: 12483517,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/mountain-route",
     whatsOnZwiftUrl:
@@ -140,7 +128,6 @@ export const routes = [
     id: 2139465450,
     slug: "muir-and-the-mountain",
     segments: ["epic-kom", "titans-grove-kom-rev"],
-    experience: 680,
     stravaSegmentId: 22368918,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/muir-and-the-mountain",
     whatsOnZwiftUrl:
@@ -150,7 +137,6 @@ export const routes = [
     id: 2748657713,
     slug: "out-and-back-again",
     segments: ["watopia-sprint", "volcano-kom", "zwift-kom-rev", "fuego-flats"],
-    experience: 840,
     stravaSegmentId: 20350104,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/out-and-back-again",
     whatsOnZwiftUrl:
@@ -160,7 +146,6 @@ export const routes = [
     id: 2969952077,
     slug: "quatch-quest",
     segments: ["titans-grove-kom-rev", "epic-kom", "alpe-du-zwift"],
-    experience: 920,
     stravaSegmentId: 21344377,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/quatch-quest",
     whatsOnZwiftUrl:
@@ -170,7 +155,6 @@ export const routes = [
     id: 3701568815,
     slug: "road-to-ruins",
     segments: [],
-    experience: 580,
     stravaSegmentId: 16404154,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/road-to-ruins",
     whatsOnZwiftUrl:
@@ -180,7 +164,6 @@ export const routes = [
     id: 2663908549,
     slug: "road-to-sky",
     segments: ["alpe-du-zwift"],
-    experience: 380,
     stravaSegmentId: 22280036,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/road-to-sky",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/road-to-sky",
@@ -189,7 +172,6 @@ export const routes = [
     id: 604330868,
     slug: "sand-and-sequoias",
     segments: ["titans-grove-kom", "fuego-flats"],
-    experience: 400,
     stravaSegmentId: 21911197,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/sand-and-sequoias",
     whatsOnZwiftUrl:
@@ -199,7 +181,6 @@ export const routes = [
     id: 2128890027,
     slug: "tempus-fugit",
     segments: ["fuego-flats-rev", "fuego-flats"],
-    experience: 380,
     stravaSegmentId: 20350088,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/tempus-fugit",
     whatsOnZwiftUrl:
@@ -215,7 +196,6 @@ export const routes = [
       "epic-kom",
       "zwift-kom-rev",
     ],
-    experience: 2140,
     stravaSegmentId: 16939150,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-mega-pretzel",
     whatsOnZwiftUrl:
@@ -232,7 +212,6 @@ export const routes = [
       "epic-kom-rev",
       "watopia-sprint",
     ],
-    experience: 1440,
     stravaSegmentId: 12118762,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-pretzel",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/the-pretzel",
@@ -249,7 +228,6 @@ export const routes = [
       "fuego-flats",
       "alpe-du-zwift",
     ],
-    experience: 2560,
     stravaSegmentId: 27313482,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-uber-pretzel",
     whatsOnZwiftUrl:
@@ -259,7 +237,6 @@ export const routes = [
     id: 4142772830,
     slug: "three-sisters",
     segments: ["zwift-kom", "epic-kom", "volcano-kom"],
-    experience: 950,
     stravaSegmentId: 15159137,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/three-sisters",
     whatsOnZwiftUrl:
@@ -269,7 +246,6 @@ export const routes = [
     id: 3366225080,
     slug: "tick-tock",
     segments: ["fuego-flats"],
-    experience: 380,
     stravaSegmentId: 20350376,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/tick-tock",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/tick-tock",
@@ -278,7 +254,6 @@ export const routes = [
     id: 1766405776,
     slug: "tour-of-fire-and-ice",
     segments: ["alpe-du-zwift"],
-    experience: 500,
     stravaSegmentId: 17265057,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/tour-of-fire-and-ice",
     whatsOnZwiftUrl:
@@ -288,7 +263,6 @@ export const routes = [
     id: 686828068,
     slug: "volcano-circuit",
     segments: ["volcano-circuit"],
-    experience: 80,
     stravaSegmentId: 14032406,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/volcano-circuit",
     whatsOnZwiftUrl:
@@ -298,7 +272,6 @@ export const routes = [
     id: 3866241330,
     slug: "volcano-circuit-ccw",
     segments: ["volcano-circuit-rev"],
-    experience: 80,
     stravaSegmentId: 14032426,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/volcano-circuit-ccw",
     whatsOnZwiftUrl:
@@ -308,7 +281,6 @@ export const routes = [
     id: 849508252,
     slug: "volcano-climb",
     segments: ["volcano-kom"],
-    experience: 460,
     stravaSegmentId: 16425130,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/volcano-climb",
     whatsOnZwiftUrl:
@@ -318,7 +290,6 @@ export const routes = [
     id: 3994934674,
     slug: "volcano-flat",
     segments: [],
-    experience: 240,
     stravaSegmentId: 14032442,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/volcano-flat",
     whatsOnZwiftUrl:
@@ -328,7 +299,6 @@ export const routes = [
     id: 982239385,
     slug: "whole-lotta-lava",
     segments: ["volcano-kom"],
-    experience: 240,
     stravaSegmentId: 20545879,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/whole-lotta-lava",
     whatsOnZwiftUrl:
@@ -338,7 +308,6 @@ export const routes = [
     id: 2694166390,
     slug: "london-classique",
     segments: ["london-sprint-rev"],
-    experience: 110,
     stravaSegmentId: 12749761,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-classique",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/classique",
@@ -347,7 +316,6 @@ export const routes = [
     id: 87055383,
     slug: "greater-london-8",
     segments: ["box-hill"],
-    experience: 480,
     stravaSegmentId: 15158866,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/greater-london-8",
     whatsOnZwiftUrl:
@@ -357,7 +325,6 @@ export const routes = [
     id: 928793662,
     slug: "greater-london-flat",
     segments: [],
-    experience: 230,
     stravaSegmentId: 15389301,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/greater-london-flat",
     whatsOnZwiftUrl:
@@ -367,7 +334,6 @@ export const routes = [
     id: 3276403604,
     slug: "greater-london-loop",
     segments: ["box-hill"],
-    experience: 420,
     stravaSegmentId: 15158576,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/greater-london-loop",
     whatsOnZwiftUrl:
@@ -377,7 +343,6 @@ export const routes = [
     id: 1880443431,
     slug: "greatest-london-flat",
     segments: ["london-sprint"],
-    experience: 500,
     stravaSegmentId: 16982511,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/greatest-london-flat",
     whatsOnZwiftUrl:
@@ -387,7 +352,6 @@ export const routes = [
     id: 3853654821,
     slug: "greatest-london-loop",
     segments: ["leith-hill"],
-    experience: 510,
     stravaSegmentId: 16781177,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/greatest-london-loop",
     whatsOnZwiftUrl:
@@ -397,7 +361,6 @@ export const routes = [
     id: 4012646479,
     slug: "london-8",
     segments: ["london-sprint", "box-hill"],
-    experience: 410,
     stravaSegmentId: 12747814,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-8",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/london-8",
@@ -406,7 +369,6 @@ export const routes = [
     id: 913172163,
     slug: "london-loop",
     segments: ["london-loop", "box-hill"],
-    experience: 300,
     stravaSegmentId: 12749649,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-loop",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/london-loop",
@@ -415,7 +377,6 @@ export const routes = [
     id: 3707791029,
     slug: "surrey-hills",
     segments: ["leith-hill", "keith-hill", "fox-hill"],
-    experience: 820,
     stravaSegmentId: 16786868,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/surrey-hills",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/surrey-hills",
@@ -424,7 +385,6 @@ export const routes = [
     id: 163688809,
     slug: "the-london-pretzel",
     segments: ["london-sprint", "fox-hill", "london-sprint-rev", "box-hill"],
-    experience: 1100,
     stravaSegmentId: 15155838,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-london-pretzel",
     whatsOnZwiftUrl:
@@ -434,7 +394,6 @@ export const routes = [
     id: 2204461619,
     slug: "london-the-prl-full",
     segments: ["london-loop", "box-hill", "london-sprint-rev"],
-    experience: 3460,
     stravaSegmentId: 12759760,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-the-prl-full",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/the-prl-full",
@@ -443,7 +402,6 @@ export const routes = [
     id: 764532081,
     slug: "the-prl-half",
     segments: ["box-hill", "london-sprint-rev", "london-loop"],
-    experience: 1380,
     stravaSegmentId: 12759713,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-prl-half",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/the-prl-half",
@@ -452,7 +410,6 @@ export const routes = [
     id: 4210048937,
     slug: "london-triple-loops",
     segments: ["london-sprint-rev", "leith-hill"],
-    experience: 810,
     stravaSegmentId: 16781219,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-triple-loops",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/triple-loops",
@@ -461,7 +418,6 @@ export const routes = [
     id: 1509089537,
     slug: "astoria-line-8",
     segments: ["new-york-sprint-rev"],
-    experience: 230,
     stravaSegmentId: 19141340,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/astoria-line-8",
     whatsOnZwiftUrl:
@@ -476,7 +432,6 @@ export const routes = [
       "new-york-kom",
       "new-york-sprint-rev",
     ],
-    experience: 690,
     stravaSegmentId: 19141223,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/everything-bagel",
     whatsOnZwiftUrl:
@@ -486,7 +441,6 @@ export const routes = [
     id: 2945813240,
     slug: "grand-central-circuit",
     segments: ["new-york-kom-rev", "new-york-sprint"],
-    experience: 140,
     stravaSegmentId: 19141192,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/grand-central-circuit",
     whatsOnZwiftUrl:
@@ -496,7 +450,6 @@ export const routes = [
     id: 2954366662,
     slug: "knickerbocker",
     segments: ["new-york-sprint", "new-york-kom"],
-    experience: 450,
     stravaSegmentId: 19141299,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/knickerbocker",
     whatsOnZwiftUrl:
@@ -506,7 +459,6 @@ export const routes = [
     id: 2001106885,
     slug: "knickerbocker-reverse",
     segments: ["new-york-kom-rev", "new-york-sprint-rev"],
-    experience: 450,
     stravaSegmentId: 20721179,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/knickerbocker-reverse",
     whatsOnZwiftUrl:
@@ -516,7 +468,6 @@ export const routes = [
     id: 5103974,
     slug: "lady-liberty",
     segments: ["new-york-kom-rev", "new-york-sprint-rev"],
-    experience: 240,
     stravaSegmentId: 19141269,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/lady-liberty",
     whatsOnZwiftUrl:
@@ -526,7 +477,6 @@ export const routes = [
     id: 3872978134,
     slug: "mighty-metropolitan",
     segments: ["new-york-kom-rev"],
-    experience: 400,
     stravaSegmentId: 19141368,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/mighty-metropolitan",
     whatsOnZwiftUrl:
@@ -536,7 +486,6 @@ export const routes = [
     id: 1919980508,
     slug: "park-perimeter-loop",
     segments: ["new-york-sprint-rev"],
-    experience: 190,
     stravaSegmentId: 19170651,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/park-perimeter-loop",
     whatsOnZwiftUrl:
@@ -546,7 +495,6 @@ export const routes = [
     id: 3078665969,
     slug: "rising-empire",
     segments: ["new-york-kom", "new-york-sprint-rev", "new-york-kom-rev"],
-    experience: 410,
     stravaSegmentId: 19171748,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/rising-empire",
     whatsOnZwiftUrl:
@@ -556,7 +504,6 @@ export const routes = [
     id: 3597939700,
     slug: "the-6-train",
     segments: [],
-    experience: 130,
     stravaSegmentId: 19172136,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-6-train",
     whatsOnZwiftUrl:
@@ -566,7 +513,6 @@ export const routes = [
     id: 1732356505,
     slug: "the-highline",
     segments: ["new-york-kom"],
-    experience: 210,
     stravaSegmentId: 19173163,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-highline",
     whatsOnZwiftUrl:
@@ -576,7 +522,6 @@ export const routes = [
     id: 3114603308,
     slug: "2018-uci-worlds-course-short-lap",
     segments: ["innsbruck-kom", "innsbruck-sprint", "innsbruck-uci-lap"],
-    experience: 470,
     stravaSegmentId: 18397725,
     zwiftInsiderUrl:
       "https://zwiftinsider.com/route/2018-uci-worlds-course-short-lap",
@@ -587,7 +532,6 @@ export const routes = [
     id: 4009235104,
     slug: "achterbahn",
     segments: ["innsbruck-kom-rev", "innsbruck-kom", "innsbruck-sprint"],
-    experience: 950,
     stravaSegmentId: 18398698,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/achterbahn",
     whatsOnZwiftUrl:
@@ -597,7 +541,6 @@ export const routes = [
     id: 2592027600,
     slug: "innsbruckring",
     segments: ["innsbruck-uci-lap", "innsbruck-sprint"],
-    experience: 170,
     stravaSegmentId: 18398895,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/innsbruckring",
     whatsOnZwiftUrl:
@@ -607,7 +550,6 @@ export const routes = [
     id: 156457316,
     slug: "lutscher",
     segments: ["innsbruck-kom"],
-    experience: 270,
     stravaSegmentId: 18406508,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/lutscher",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/innsbruck/route/lutscher",
@@ -616,7 +558,6 @@ export const routes = [
     id: 3801241714,
     slug: "lutscher-ccw",
     segments: ["innsbruck-kom-rev"],
-    experience: 270,
     stravaSegmentId: 18407469,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/lutscher-ccw",
     whatsOnZwiftUrl:
@@ -626,7 +567,6 @@ export const routes = [
     id: 2007026433,
     slug: "harrogate-circuit",
     segments: ["yorkshire-kom", "yorkshire-sprint"],
-    experience: 270,
     stravaSegmentId: 21738724,
     zwiftInsiderUrl:
       "https://zwiftinsider.com/route/2019-uci-worlds-harrogate-circuit",
@@ -637,7 +577,6 @@ export const routes = [
     id: 1233527301,
     slug: "duchy-estate",
     segments: ["yorkshire-sprint"],
-    experience: 60,
     stravaSegmentId: 21748097,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/duchy-estate",
     whatsOnZwiftUrl:
@@ -647,7 +586,6 @@ export const routes = [
     id: 3007266671,
     slug: "queens-highway",
     segments: ["yorkshire-sprint-rev"],
-    experience: 60,
     stravaSegmentId: 21748253,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/queens-highway",
     whatsOnZwiftUrl:
@@ -657,7 +595,6 @@ export const routes = [
     id: 1086718516,
     slug: "tour-of-tewit-well",
     segments: ["yorkshire-kom-rev"],
-    experience: 210,
     stravaSegmentId: 21758283,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/tour-of-tewit-well",
     whatsOnZwiftUrl:
@@ -672,7 +609,6 @@ export const routes = [
       "yorkshire-sprint",
       "yorkshire-kom-rev",
     ],
-    experience: 550,
     stravaSegmentId: 21757792,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/royal-pump-room-8",
     whatsOnZwiftUrl:
@@ -688,7 +624,6 @@ export const routes = [
       "richmond-kom",
       "23rd-st",
     ],
-    experience: 320,
     stravaSegmentId: 12128718,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/2015-uci-worlds-course",
     whatsOnZwiftUrl:
@@ -698,7 +633,6 @@ export const routes = [
     id: 1545087483,
     slug: "cobbled-climbs",
     segments: ["richmond-kom", "23rd-st"],
-    experience: 180,
     stravaSegmentId: 11308213,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/cobbled-climbs",
     whatsOnZwiftUrl:
@@ -708,7 +642,6 @@ export const routes = [
     id: 1638640398,
     slug: "the-fan-flats",
     segments: ["richmond-sprint"],
-    experience: 100,
     stravaSegmentId: 19852166,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-fan-flats",
     whatsOnZwiftUrl:
@@ -723,7 +656,6 @@ export const routes = [
       "petit-kom",
       "marina-sprint-rev",
     ],
-    experience: 460,
     stravaSegmentId: 24674909,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/casse-pattes",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/casse-pattes",
@@ -732,7 +664,6 @@ export const routes = [
     id: 986252325,
     slug: "douce-france",
     segments: ["ballon-sprint", "aqueduc-kom", "pave-sprint", "marina-sprint"],
-    experience: 480,
     stravaSegmentId: 24676071,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/douce-france",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/douce-france",
@@ -751,7 +682,6 @@ export const routes = [
       "petit-kom",
       "marina-sprint-rev",
     ],
-    experience: 1220,
     stravaSegmentId: 24676054,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/petit-boucle",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/petit-boucle",
@@ -760,7 +690,6 @@ export const routes = [
     id: 872351836,
     slug: "roule-ma-poule",
     segments: ["aqueduc-kom", "pave-sprint", "marina-sprint"],
-    experience: 460,
     stravaSegmentId: 24690956,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/roule-ma-poule",
     whatsOnZwiftUrl:
@@ -775,7 +704,6 @@ export const routes = [
       "ballon-sprint-rev",
       "marina-sprint-rev",
     ],
-    experience: 480,
     stravaSegmentId: 24685955,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/rgv",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/r-g-v",
@@ -794,7 +722,6 @@ export const routes = [
       "pave-sprint",
       "marina-sprint",
     ],
-    experience: 1220,
     stravaSegmentId: 24690941,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/tire-bouchon",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/tire-bouchon",
@@ -803,7 +730,6 @@ export const routes = [
     id: 2573468147,
     slug: "ven-top",
     segments: ["ventoux-kom"],
-    experience: 420,
     stravaSegmentId: 24682608,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/ven-top",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/ven-top",
@@ -812,7 +738,6 @@ export const routes = [
     id: 3364574135,
     slug: "champs-elysees",
     segments: ["lutece-sprint", "champs-elysees"],
-    experience: 140,
     stravaSegmentId: 24674235,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/champs-elysees",
     whatsOnZwiftUrl:
@@ -822,7 +747,6 @@ export const routes = [
     id: 1236439870,
     slug: "lutece-express",
     segments: ["lutece-sprint-rev", "champs-elysees-rev"],
-    experience: 140,
     stravaSegmentId: 24674248,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/lutece-express",
     whatsOnZwiftUrl:
@@ -832,7 +756,6 @@ export const routes = [
     id: 4240327959,
     slug: "ocean-blvd",
     segments: [],
-    experience: 440,
     stravaSegmentId: 18993273,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/ocean-blvd",
     whatsOnZwiftUrl:
@@ -842,7 +765,6 @@ export const routes = [
     id: 3819095753,
     slug: "5k-loop",
     segments: [],
-    experience: 200,
     stravaSegmentId: 18993168,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/5k-loop",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/5k-loop",
@@ -851,7 +773,6 @@ export const routes = [
     id: 1373909093,
     slug: "chili-pepper",
     segments: [],
-    experience: 320,
     stravaSegmentId: 18993284,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/chili-pepper",
     whatsOnZwiftUrl:
@@ -861,7 +782,6 @@ export const routes = [
     id: 136957568,
     slug: "jons-route",
     segments: [],
-    experience: 500,
     stravaSegmentId: 18993345,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/jons-route",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/jon-s-route",
@@ -870,7 +790,6 @@ export const routes = [
     id: 3012588561,
     slug: "may-field",
     segments: [],
-    experience: 20,
     stravaSegmentId: 22540731,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/may-field",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/may-field",
@@ -879,7 +798,6 @@ export const routes = [
     id: 263936293,
     slug: "thats-amore",
     segments: ["watopia-sprint-rev"],
-    experience: 260,
     stravaSegmentId: 18993582,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/thats-amore",
     whatsOnZwiftUrl:
@@ -889,7 +807,6 @@ export const routes = [
     id: 1790569309,
     slug: "couch-to-sky-k",
     segments: [],
-    experience: 260,
     stravaSegmentId: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/couch-to-sky-k",
     whatsOnZwiftUrl:
@@ -899,7 +816,6 @@ export const routes = [
     id: 711818913,
     slug: "flat-irons",
     segments: ["new-york-sprint-rev"],
-    experience: 590,
     stravaSegmentId: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/flat-irons",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/new-york/route/flat-irons",
@@ -908,7 +824,6 @@ export const routes = [
     id: 3665959404,
     slug: "hudson-roll",
     segments: [],
-    experience: 360,
     stravaSegmentId: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/hudson-roll",
     whatsOnZwiftUrl:
@@ -918,7 +833,6 @@ export const routes = [
     id: 1378559127,
     slug: "park-to-peak",
     segments: [],
-    experience: 180,
     stravaSegmentId: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/park-to-peak",
     whatsOnZwiftUrl:
@@ -928,7 +842,6 @@ export const routes = [
     id: 2590569306,
     slug: "shuman-trail-loop",
     segments: [],
-    experience: 100,
     stravaSegmentId: null,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/shuman-trail-loop",
     whatsOnZwiftUrl:
@@ -938,7 +851,6 @@ export const routes = [
     id: 2474227587,
     slug: "beach-island-loop",
     segments: ["watopia-sprint"],
-    experience: 255,
     stravaSegmentId: 26741693,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/beach-island-loop",
     whatsOnZwiftUrl:
@@ -948,7 +860,6 @@ export const routes = [
     id: 1386460176,
     slug: "ocean-lava-cliffside-loop",
     segments: [],
-    experience: 380,
     stravaSegmentId: 26741663,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/ocean-lava-cliffside-loop",
     whatsOnZwiftUrl:
@@ -958,7 +869,6 @@ export const routes = [
     id: 2829629527,
     slug: "serpentine-8",
     segments: [],
-    experience: 385,
     stravaSegmentId: 26742092,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/serpentine-8",
     whatsOnZwiftUrl:
@@ -968,7 +878,6 @@ export const routes = [
     id: 3312037616,
     slug: "two-bridges-loop",
     segments: ["watopia-sprint-rev"],
-    experience: 140,
     stravaSegmentId: 26741685,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/two-bridges-loop",
     whatsOnZwiftUrl:
@@ -1424,7 +1333,6 @@ export const routes = [
     id: 3691918883,
     slug: "chain-chomper",
     segments: ["castle-kom", "temple-kom-from-castle-side", "country-sprint"],
-    experience: 270,
     stravaSegmentId: 28430973,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/chain-chomper",
     whatsOnZwiftUrl:
@@ -1434,7 +1342,6 @@ export const routes = [
     id: 525689100,
     slug: "countryside-tour",
     segments: ["country-sprint", "temple-kom-from-fishing-village-side"],
-    experience: 310,
     stravaSegmentId: 28431416,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/countryside-tour",
     whatsOnZwiftUrl:
@@ -1444,7 +1351,6 @@ export const routes = [
     id: 3282611437,
     slug: "flatland-loop",
     segments: ["country-sprint"],
-    experience: 260,
     stravaSegmentId: 28432116,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/flatland-loop",
     whatsOnZwiftUrl:
@@ -1454,7 +1360,6 @@ export const routes = [
     id: 1562187590,
     slug: "kappa-quest",
     segments: ["temple-kom-from-fishing-village-side"],
-    experience: 180,
     stravaSegmentId: 28432243,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/kappa-quest",
     whatsOnZwiftUrl:
@@ -1464,7 +1369,6 @@ export const routes = [
     id: 3603635554,
     slug: "sea-to-tree",
     segments: ["temple-kom-from-fishing-village-side"],
-    experience: 65,
     stravaSegmentId: 28432204,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/sea-to-tree",
     whatsOnZwiftUrl:
@@ -1474,7 +1378,6 @@ export const routes = [
     id: 3523806426,
     slug: "spirit-forest",
     segments: [],
-    experience: 165,
     stravaSegmentId: 28432455,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/spirit-forest",
     whatsOnZwiftUrl:
@@ -1484,7 +1387,6 @@ export const routes = [
     id: 3379779247,
     slug: "three-village-loop",
     segments: ["castle-kom", "country-sprint"],
-    experience: 210,
     stravaSegmentId: 28433076,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/three-village-loop",
     whatsOnZwiftUrl:
@@ -1494,7 +1396,6 @@ export const routes = [
     id: 2653858696,
     slug: "two-village-loop",
     segments: ["country-sprint", "village-sprint"],
-    experience: 255,
     stravaSegmentId: 28433439,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/two-village-loop",
     whatsOnZwiftUrl:
@@ -1504,7 +1405,6 @@ export const routes = [
     id: 3367186349,
     slug: "sukis-playground",
     segments: ["country-sprint"],
-    experience: 365,
     stravaSegmentId: 29009511,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/sukis-playground",
     whatsOnZwiftUrl:
@@ -1514,7 +1414,6 @@ export const routes = [
     id: 1454553567,
     slug: "kappa-quest-reverse",
     segments: ["temple-kom-from-castle-side"],
-    experience: 180,
     stravaSegmentId: 29009500,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/kappa-quest-reverse",
     whatsOnZwiftUrl:
@@ -1524,7 +1423,6 @@ export const routes = [
     id: 2980619755,
     slug: "farmland-loop",
     segments: [],
-    experience: 155,
     stravaSegmentId: 29534888,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/farmland-loop",
     whatsOnZwiftUrl:
@@ -1534,7 +1432,6 @@ export const routes = [
     id: 1941800093,
     slug: "valley-to-mountaintop",
     segments: ["temple-kom-from-castle-side"],
-    experience: 100,
     stravaSegmentId: 29559312,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/valley-to-mountaintop",
     whatsOnZwiftUrl:
@@ -1544,7 +1441,6 @@ export const routes = [
     id: 3864857876,
     slug: "legends-and-lava",
     segments: ["titans-grove-kom-rev", "watopia-sprint", "volcano-kom"],
-    experience: 490,
     stravaSegmentId: 30630421,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/legends-and-lava",
     whatsOnZwiftUrl:
@@ -1564,7 +1460,6 @@ export const routes = [
     id: 3023359358,
     slug: "climbers-gambit",
     segments: ["watopia-sprint-rev", "titans-grove-kom-rev", "epic-kom-rev"],
-    experience: 600,
     stravaSegmentId: 29622065,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/climbers-gambit",
     whatsOnZwiftUrl:
@@ -1593,7 +1488,6 @@ export const routes = [
     id: 246712730,
     slug: "railways-and-rooftops",
     segments: ["railway-sprint"],
-    experience: 120,
     stravaSegmentId: 30407802,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/railways-and-rooftops",
     whatsOnZwiftUrl:
@@ -1603,7 +1497,6 @@ export const routes = [
     id: 1127056801,
     slug: "neokyo-crit-course",
     segments: ["alley-sprint-rev", "castle-park-sprint-rev"],
-    experience: 90,
     stravaSegmentId: 30480835,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/neokyo-crit-course",
     whatsOnZwiftUrl:
@@ -1619,7 +1512,6 @@ export const routes = [
       "tower-sprint",
       "rooftop-kom",
     ],
-    experience: 485,
     stravaSegmentId: 30407658,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/neokyo-all-nighter",
     whatsOnZwiftUrl:
@@ -1633,7 +1525,6 @@ export const routes = [
       "castle-kom",
       "temple-kom-from-fishing-village-side",
     ],
-    experience: 650,
     stravaSegmentId: 30408107,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/temples-and-towers",
     whatsOnZwiftUrl:
@@ -1643,7 +1534,6 @@ export const routes = [
     id: 3302953739,
     slug: "sleepless-city",
     segments: ["castle-park-sprint-rev"],
-    experience: 185,
     stravaSegmentId: 30407957,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/sleepless-city",
     whatsOnZwiftUrl:
@@ -1658,7 +1548,6 @@ export const routes = [
       "alley-sprint-rev",
       "railway-sprint",
     ],
-    experience: 245,
     stravaSegmentId: 30412485,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/sprinters-playground",
     whatsOnZwiftUrl:
@@ -1668,7 +1557,6 @@ export const routes = [
     id: 3407362320,
     slug: "neon-flats",
     segments: ["tower-sprint", "alley-sprint", "castle-park-sprint"],
-    experience: 290,
     stravaSegmentId: 30414842,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/neon-flats",
     whatsOnZwiftUrl:
@@ -1678,7 +1566,6 @@ export const routes = [
     id: 3565430790,
     slug: "rooftop-rendezvous",
     segments: ["rooftop-kom"],
-    experience: 74,
     stravaSegmentId: 30407898,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/rooftop-rendezvous",
     whatsOnZwiftUrl:
@@ -1688,7 +1575,6 @@ export const routes = [
     id: 3914529041,
     slug: "wandering-flats",
     segments: ["country-sprint", "tower-sprint-rev", "alley-sprint-rev"],
-    experience: 515,
     stravaSegmentId: 30408380,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/wandering-flats",
     whatsOnZwiftUrl:
@@ -1750,7 +1636,6 @@ export const routes = [
     id: 3742187716,
     slug: "castle-to-castle",
     segments: ["alley-sprint", "tower-sprint"],
-    experience: 460,
     stravaSegmentId: 30629803,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/castle-to-castle",
   },
@@ -1758,7 +1643,6 @@ export const routes = [
     id: 1457923570,
     slug: "twilight-harbor",
     segments: ["alley-sprint", "tower-sprint"],
-    experience: 135,
     stravaSegmentId: 30629791,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/twighlight-harbor",
   },
@@ -1766,7 +1650,6 @@ export const routes = [
     id: 5745690,
     slug: "downdown-titans",
     segments: [],
-    experience: 490,
   },
   {
     id: 910684583,
@@ -1781,7 +1664,6 @@ export const routes = [
     id: 1082034232,
     slug: "mayan-bridge-loop",
     segments: [],
-    experience: 105,
     stravaSegmentId: 26774640,
     zwiftInsiderUrl: "https://zwiftinsider.com/mayan-bridge-loop",
   },
@@ -1813,7 +1695,6 @@ export const routes = [
       "titans-grove-kom-rev",
       "fuego-flats",
     ],
-    experience: 134,
     stravaSegmentId: 22914116,
     zwiftInsiderUrl: "https://zwiftinsider.com/eastern-eight",
   },
@@ -1836,7 +1717,6 @@ export const routes = [
     id: 3453194200,
     slug: "triple-flat-loops",
     segments: ["watopia-sprint-rev", "fuego-flats", "watopia-sprint"],
-    experience: 680,
     stravaSegmentId: 20453276,
     zwiftInsiderUrl: "https://zwiftinsider.com/triple-flat-loops",
   },
@@ -1844,9 +1724,9 @@ export const routes = [
     id: 3573087582,
     slug: "italian-villas-circuit",
     segments: ["watopia-sprint"],
-    experience: 40,
     stravaSegmentId: 26792130,
     zwiftInsiderUrl: "https://zwiftinsider.com/italian-villas-sprint-circuit",
+    experience: 40,
   },
   {
     id: 1988847319,
