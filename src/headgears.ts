@@ -113,6 +113,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "CyclingCapJanFrodeno2019_thumb"
   },
   {
+    "id": 1011377720,
+    "name": "Zwift Academy Tri 2022",
+    "imageName": "RunningCapZATri2022_thumb"
+  },
+  {
     "id": 1014087812,
     "name": "ZRS Winter Bucket Hat",
     "imageName": "BucketHatZRSWinter2020_thumb"
@@ -178,6 +183,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "RunnerCapZRSKit012021_thumb"
   },
   {
+    "id": 1379982027,
+    "name": "ZA Run 2022",
+    "imageName": "RunningCapZARun2022_thumb"
+  },
+  {
     "id": 1387973863,
     "name": "ABUS GameChanger",
     "imageName": "AbusGameChangerWhite2021"
@@ -206,6 +216,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 1609128200,
     "name": "Tour de Zwift 2021 Ride Cap",
     "imageName": "CyclingCapTourDeZwift2021_thumb"
+  },
+  {
+    "id": 1684913570,
+    "name": "ZC Training Cap",
+    "imageName": "BackwardsCapZCTraining2022_thumb"
   },
   {
     "id": 1774524673,
@@ -338,6 +353,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "RunnerCapZwiftAcademy2020_thumb"
   },
   {
+    "id": 3027813077,
+    "name": "Alpine",
+    "imageName": "LederhoseHat2022_thumb"
+  },
+  {
     "id": 3033412906,
     "name": "Bell Javelin",
     "imageName": "BellJavelin"
@@ -438,6 +458,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "POCVentralAirEF"
   },
   {
+    "id": 3711236696,
+    "name": "ZA Tri 2022",
+    "imageName": "ZATri2022"
+  },
+  {
     "id": 3718341152,
     "name": "Tour de Zwift 2021 Run Cap",
     "imageName": "RunnerCapTourDeZwift2021_thumb"
@@ -486,6 +511,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 4252145787,
     "name": "Zwift Academy 2020 Womens",
     "imageName": "CyclingCapZwiftAcademyWomen2020_thumb"
+  },
+  {
+    "id": 4289252182,
+    "name": "Black & Gold Cap",
+    "imageName": "BackwardsCapFluoro01_thumb"
   },
   {
     "id": 4291019094,

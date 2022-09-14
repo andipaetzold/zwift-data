@@ -572,6 +572,12 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "isTT": true
   },
   {
+    "id": 3402382031,
+    "name": "Cadex CadexTri2022",
+    "modelYear": 2022,
+    "isTT": true
+  },
+  {
     "id": 3469325930,
     "name": "Factor One",
     "modelYear": 2020,
@@ -634,6 +640,11 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = [
     "id": 3787085621,
     "name": "Lauf Lauf True Grit",
     "modelYear": 2021,
+    "isTT": false
+  },
+  {
+    "id": 3814159195,
+    "name": "Zwift Handcycle",
     "isTT": false
   },
   {
