@@ -48,6 +48,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "SpainElite2020_thumb"
   },
   {
+    "id": 88121645,
+    "name": "Intermarché–Wanty–Gobert Matériaux",
+    "imageName": "IntermarcheWG2022_thumb"
+  },
+  {
     "id": 90433914,
     "name": "Zwift Standard Orange",
     "imageName": "ZwiftStandardOrange_thumb"
@@ -116,6 +121,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 158338255,
     "name": "SZR",
     "imageName": "SZR_thumb"
+  },
+  {
+    "id": 158595409,
+    "name": "Donut",
+    "imageName": "ZwiftFood03_thumb"
   },
   {
     "id": 167026782,
@@ -211,6 +221,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 248516205,
     "name": "Ride On",
     "imageName": "RideOnJersey_thumb"
+  },
+  {
+    "id": 252581346,
+    "name": "CHAPTER2",
+    "imageName": "Chapter22022_thumb"
   },
   {
     "id": 253887160,
@@ -343,6 +358,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "HUUB2019_thumb"
   },
   {
+    "id": 408159995,
+    "name": "Cheetah Print",
+    "imageName": "ZwiftAnimals03_thumb"
+  },
+  {
     "id": 409344255,
     "name": "Radavist",
     "imageName": "Radavist_thumb"
@@ -438,6 +458,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "LucyCharles2018_thumb"
   },
   {
+    "id": 468316144,
+    "name": "Andy Schleck–CP NVST–Immo Losch",
+    "imageName": "AndySchleck2022_thumb"
+  },
+  {
     "id": 480846458,
     "name": "Thomson Bike Tours",
     "imageName": "Thomson2021_thumb"
@@ -498,6 +523,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "CredoTri2022_thumb"
   },
   {
+    "id": 566694532,
+    "name": "Zwift Academy Tri 2022",
+    "imageName": "ZATri2022_thumb"
+  },
+  {
     "id": 571847813,
     "name": "Giant Seorak Gran Fondo",
     "imageName": "GiantSeorakGranFondo_thumb"
@@ -516,6 +546,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 584555341,
     "name": "Sumo Leamington Cycling Team",
     "imageName": "SumoLeamington2022_thumb"
+  },
+  {
+    "id": 585416961,
+    "name": "Super League Triathlon Cheetahs",
+    "imageName": "SLTCheetahs2022_thumb"
   },
   {
     "id": 594066491,
@@ -566,6 +601,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 622687850,
     "name": "Zwift Academy Tri",
     "imageName": "ZwiftAcademyTri2019_thumb"
+  },
+  {
+    "id": 624176971,
+    "name": "Tiger Print",
+    "imageName": "ZwiftAnimals02_thumb"
   },
   {
     "id": 630051236,
@@ -641,6 +681,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 713852384,
     "name": "Giant Ride Like King",
     "imageName": "RideLikeKing2019_thumb"
+  },
+  {
+    "id": 715624988,
+    "name": "Level 60",
+    "imageName": "ZwiftLVL60_thumb"
   },
   {
     "id": 716189513,
@@ -791,6 +836,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 866555848,
     "name": "Black Sheep",
     "imageName": "BlackSheep2018_thumb"
+  },
+  {
+    "id": 873713889,
+    "name": "Espresso",
+    "imageName": "ZwiftFood02_thumb"
   },
   {
     "id": 875545637,
@@ -1553,6 +1603,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "NextEnshored2021_thumb"
   },
   {
+    "id": 1653888411,
+    "name": "Cow Print",
+    "imageName": "ZwiftAnimals01_thumb"
+  },
+  {
     "id": 1665932906,
     "name": "Zwift Riders Scotland",
     "imageName": "ZRScotland2022_thumb"
@@ -1631,6 +1686,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 1801600368,
     "name": "Tour de Zwift 2021 Kit",
     "imageName": "TourDeZwift2021_thumb"
+  },
+  {
+    "id": 1802089334,
+    "name": "Zwift Hub",
+    "imageName": "ZwiftHub2022_thumb"
   },
   {
     "id": 1805412330,
@@ -1758,6 +1818,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "PanMass2021_thumb"
   },
   {
+    "id": 1941154353,
+    "name": "Avocado",
+    "imageName": "ZwiftFood01_thumb"
+  },
+  {
     "id": 1947253559,
     "name": "AHDR Liv Bison",
     "imageName": "AHDRLivBison_thumb"
@@ -1883,6 +1948,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "Zwift_Ski03_thumb"
   },
   {
+    "id": 2108157867,
+    "name": "Fat Creations",
+    "imageName": "FatCreations2022_thumb"
+  },
+  {
     "id": 2114571944,
     "name": "Doltcini Van Eyck",
     "imageName": "DoltciniVanEyck"
@@ -1981,6 +2051,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 2242745186,
     "name": "Endura",
     "imageName": "Endura2022_thumb"
+  },
+  {
+    "id": 2247572096,
+    "name": "Super League Triathlon Eagles",
+    "imageName": "SLTEagles2022_thumb"
   },
   {
     "id": 2252477074,
@@ -2176,6 +2251,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 2436486671,
     "name": "Zwift Academy Women",
     "imageName": "ZwiftAcademyWomen2019_thumb"
+  },
+  {
+    "id": 2439396652,
+    "name": "Super League Triathlon Sharks",
+    "imageName": "SLTSharks2022_thumb"
   },
   {
     "id": 2464496177,
@@ -2543,6 +2623,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "OutsideMagazine2021_thumb"
   },
   {
+    "id": 2808241362,
+    "name": "Super League Triathlon Rhinos",
+    "imageName": "SLTRhinos2022_thumb"
+  },
+  {
     "id": 2810981379,
     "name": "Champion",
     "imageName": "Plain_06_thumb"
@@ -2766,6 +2851,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3094259953,
     "name": "Good Guys Racing",
     "imageName": "GoodGuys2022_thumb"
+  },
+  {
+    "id": 3094952450,
+    "name": "Super League Triathlon Scorpions",
+    "imageName": "SLTScorpions2022_thumb"
   },
   {
     "id": 3097301453,
@@ -3104,7 +3194,7 @@ export const jerseys: ReadonlyArray<Jersey> = [
   },
   {
     "id": 3427039185,
-    "name": "April Fools",
+    "name": "1980s",
     "imageName": "TealPink2020_thumb"
   },
   {
@@ -3356,6 +3446,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3660671907,
     "name": "Zwift Academy 2020 Mens",
     "imageName": "ZwiftAcademyMen2020_thumb"
+  },
+  {
+    "id": 3672963209,
+    "name": "Lederhose",
+    "imageName": "Lederhosen2022_thumb"
   },
   {
     "id": 3674985275,

@@ -23,6 +23,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "Shorts14"
   },
   {
+    "id": 202263616,
+    "name": "Super League Triathlon Eagles",
+    "imageName": "SLTEagles2022_thumb"
+  },
+  {
     "id": 213931599,
     "name": "Zwift Running Shorts 8",
     "imageName": "Shorts08"
@@ -46,6 +51,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 325633081,
     "name": "2022 ZA Tri Team Design",
     "imageName": "ZATriRun2022_thumb"
+  },
+  {
+    "id": 413092844,
+    "name": "Super League Triathlon Sharks",
+    "imageName": "SLTSharks2022_thumb"
   },
   {
     "id": 424581175,
@@ -86,6 +96,16 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 703761467,
     "name": "USA Triathlon",
     "imageName": "USATriRun2022_thumb"
+  },
+  {
+    "id": 781920786,
+    "name": "Super League Triathlon Rhinos",
+    "imageName": "SLTRhinos2022_thumb"
+  },
+  {
+    "id": 790877474,
+    "name": "Team Type 1",
+    "imageName": "TeamType12022_thumb"
   },
   {
     "id": 814301931,
@@ -161,6 +181,16 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 1306892875,
     "name": "2021 Zwift Holiday Run Shorts",
     "imageName": "EricMinHolidayRun2021_thumb"
+  },
+  {
+    "id": 1350060991,
+    "name": "Super League Triathlon Cheetahs",
+    "imageName": "SLTCheetahs2022_thumb"
+  },
+  {
+    "id": 1393921609,
+    "name": "Lederhose",
+    "imageName": "LederhosenRun2022_thumb"
   },
   {
     "id": 1422442217,
@@ -246,6 +276,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 2477616670,
     "name": "Super League Tri Arena Games - Yellow Jersey",
     "imageName": "SLTRun2022yellow_thumb"
+  },
+  {
+    "id": 2496804867,
+    "name": "Super League Triathlon Scorpions",
+    "imageName": "SLTScorpions2022_thumb"
   },
   {
     "id": 2525193290,
@@ -433,6 +468,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "VarloRun2022_thumb"
   },
   {
+    "id": 4020634998,
+    "name": "Zwift Academy 2022",
+    "imageName": "ZARun2022_thumb"
+  },
+  {
     "id": 4037580579,
     "name": "New Balance",
     "imageName": "NewBalance2019_thumb"
@@ -446,6 +486,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "id": 4158603661,
     "name": "Lionel Sanders Shorts",
     "imageName": "LionelSanders2019_thumb"
+  },
+  {
+    "id": 4163074320,
+    "name": "ZA Run 2022",
+    "imageName": "ZARun2022_thumb"
   },
   {
     "id": 4191775939,

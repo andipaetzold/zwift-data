@@ -332,7 +332,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   },
   {
     "id": 2081714545,
-    "name": "Zwift Steel-April Fools"
+    "name": "Zwift Steel-80s"
   },
   {
     "id": 2085745080,
@@ -569,6 +569,10 @@ export const paintJobs: ReadonlyArray<PaintJob> = [
   {
     "id": 3476669516,
     "name": "Specialized Tarmac Pro-Quickstep"
+  },
+  {
+    "id": 3489546844,
+    "name": "Cadex CadexTri2022-Black/White"
   },
   {
     "id": 3511538066,

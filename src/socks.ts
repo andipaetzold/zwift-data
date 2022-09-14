@@ -73,6 +73,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "Socks_OffTheMaap2021"
   },
   {
+    "id": 620709508,
+    "name": "Shiba",
+    "imageName": "Cute01"
+  },
+  {
     "id": 657449117,
     "name": "Zwift Academy 2020 Womens",
     "imageName": "SocksZwiftAcademyWomen2020"
@@ -198,6 +203,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "BuildMeUp"
   },
   {
+    "id": 1667185748,
+    "name": "Tabby",
+    "imageName": "Cute02"
+  },
+  {
     "id": 1692216489,
     "name": "Off the MAAP",
     "imageName": "Socks_OffTheMaap2022"
@@ -244,7 +254,7 @@ export const socks: ReadonlyArray<Sock> = [
   },
   {
     "id": 2098463286,
-    "name": "April Fools",
+    "name": "1980s",
     "imageName": "TealPink2020"
   },
   {
@@ -253,9 +263,19 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "Socks_TourDeZwiftRun2022"
   },
   {
+    "id": 2247184434,
+    "name": "Fire Socks",
+    "imageName": "FlameTrails"
+  },
+  {
     "id": 2309812449,
     "name": "Zipp",
     "imageName": "Socks_ZippB2021"
+  },
+  {
+    "id": 2423356766,
+    "name": "ZA Run 2022",
+    "imageName": "Socks_ZARun2022"
   },
   {
     "id": 2434443470,
@@ -448,6 +468,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "Stripes04OrangeBlue"
   },
   {
+    "id": 3828604711,
+    "name": "Alpine",
+    "imageName": "Lederhose2022"
+  },
+  {
     "id": 3871721080,
     "name": "Generic Orange",
     "imageName": "ZwiftOrange"
@@ -496,6 +521,11 @@ export const socks: ReadonlyArray<Sock> = [
     "id": 4236764097,
     "name": "Zwift Academy 2020 Tri Cycle",
     "imageName": "SocksZwiftAcademyTriCycle2020"
+  },
+  {
+    "id": 4269392301,
+    "name": "Zwift Academy Tri 2022",
+    "imageName": "Socks_ZATri2022"
   },
   {
     "id": 4276889507,

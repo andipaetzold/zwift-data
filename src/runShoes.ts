@@ -28,6 +28,11 @@ export const runShoes: ReadonlyArray<RunShoe> = [
     "imageName": "RunningShoe_TOW2022"
   },
   {
+    "id": 798247478,
+    "name": "Zwift Academy Tri 2022",
+    "imageName": "RunningShoesZATri2022_thumb"
+  },
+  {
     "id": 888731925,
     "name": "Zwift Black",
     "imageName": "RunningShoe_Black"
@@ -36,6 +41,11 @@ export const runShoes: ReadonlyArray<RunShoe> = [
     "id": 1031530322,
     "name": "Tour Of Watopia",
     "imageName": "RunningShoe_TourOfWatopia2020"
+  },
+  {
+    "id": 1100805829,
+    "name": "ZA Run 2022",
+    "imageName": "RunningShoesZARun2022_thumb"
   },
   {
     "id": 1385330702,
@@ -51,6 +61,11 @@ export const runShoes: ReadonlyArray<RunShoe> = [
     "id": 1784111512,
     "name": "Zante V4",
     "imageName": ""
+  },
+  {
+    "id": 2031493632,
+    "name": "Alpine",
+    "imageName": "Runningshoe_Lederhose2022_thumb"
   },
   {
     "id": 2457594239,

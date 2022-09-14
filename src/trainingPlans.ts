@@ -4,7 +4,7 @@ import { TrainingPlan } from "./types";
 export const trainingPlans: ReadonlyArray<TrainingPlan> = [
   {
     "id": 23939648,
-    "name": "Zwift Employee: High-Mileage Half",
+    "name": "High-Mileage Half",
     "imageName": "Wordmark_ZwiftInternal"
   },
   {

@@ -48,6 +48,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "ZARun2021_thumb"
   },
   {
+    "id": 358738125,
+    "name": "Super League Triathlon Cheetahs",
+    "imageName": "SLTCheetahs2022_thumb"
+  },
+  {
     "id": 412155503,
     "name": "Super League Tri Arena Games - Pink Jersey",
     "imageName": "SLTRun2022pink_thumb"
@@ -103,6 +108,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "SLTRun2022purple_thumb"
   },
   {
+    "id": 693699163,
+    "name": "Zwift Academy 2022",
+    "imageName": "ZATriRun2022v2_thumb"
+  },
+  {
     "id": 698898733,
     "name": "Black Celebration Series Shirt",
     "imageName": "BlackHistoryMonthRun2021_thumb"
@@ -111,6 +121,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 708384525,
     "name": "LA Road Runners",
     "imageName": "LARR2019_thumb"
+  },
+  {
+    "id": 714879408,
+    "name": "Super League Triathlon Scorpions",
+    "imageName": "SLTScorpions2022_thumb"
   },
   {
     "id": 769877933,
@@ -206,6 +221,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 1416964875,
     "name": "Gosh",
     "imageName": "Gosh2020_thumb"
+  },
+  {
+    "id": 1434311728,
+    "name": "ZA Run 2022",
+    "imageName": "ZARun2022_thumb"
   },
   {
     "id": 1439027133,
@@ -478,6 +498,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "Shirt07"
   },
   {
+    "id": 2697662835,
+    "name": "Lederhose",
+    "imageName": "LederhosenRun2022_thumb"
+  },
+  {
     "id": 2703204057,
     "name": "ZRS Firecracker",
     "imageName": "ZRSFirecracker2019"
@@ -638,6 +663,16 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "Adidas2019_thumb"
   },
   {
+    "id": 3707587096,
+    "name": "Team Type 1",
+    "imageName": "TeamType12022_thumb"
+  },
+  {
+    "id": 3712333096,
+    "name": "Super League Triathlon Rhinos",
+    "imageName": "SLTRhinos2022_thumb"
+  },
+  {
     "id": 3719335274,
     "name": "Feels Like Summer",
     "imageName": "FeelsLikeSummer2019Thumb"
@@ -666,6 +701,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 3917042036,
     "name": "Slowtwitch",
     "imageName": "SlowTwitch2020_thumb"
+  },
+  {
+    "id": 3946960086,
+    "name": "Super League Triathlon Sharks",
+    "imageName": "SLTSharks2022_thumb"
   },
   {
     "id": 3958869815,
@@ -706,5 +746,10 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "id": 4291829110,
     "name": "Tour of Watopia 2022",
     "imageName": "TOWRun2022_thumb"
+  },
+  {
+    "id": 4291875706,
+    "name": "Super League Triathlon Eagles",
+    "imageName": "SLTEagles2022_thumb"
   }
 ];

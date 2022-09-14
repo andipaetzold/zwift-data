@@ -3,6 +3,11 @@ import { BikeShoe } from "./types";
 // prettier-ignore
 export const bikeShoes: ReadonlyArray<BikeShoe> = [
   {
+    "id": 138403836,
+    "name": "Alpine",
+    "imageName": "Lederhose2022"
+  },
+  {
     "id": 560768614,
     "name": "Zwift Beta Shoe",
     "imageName": "zwiftbetashoe"

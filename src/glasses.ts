@@ -23,9 +23,14 @@ export const glasses: ReadonlyArray<Glass> = [
     "imageName": "Glasses_Goodr_thumb"
   },
   {
+    "id": 1163597738,
+    "name": "Rearview Mirror Glasses",
+    "imageName": "Glasses_RearView"
+  },
+  {
     "id": 1220623368,
-    "name": "April Fools",
-    "imageName": "Glasses_TealPink2020Glasses01_thumb"
+    "name": "1980s",
+    "imageName": "Glasses_TealPink2020Glasses02_thumb"
   },
   {
     "id": 1225125243,

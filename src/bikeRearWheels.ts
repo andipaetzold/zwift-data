@@ -173,6 +173,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
     "imageName": "Wheel_ZwiftFunIsFast"
   },
   {
+    "id": 2602078812,
+    "name": "Zwift Handcycle",
+    "imageName": "Wheel_CampagnoloHigh"
+  },
+  {
     "id": 2649189525,
     "name": "Enve SES 2.2",
     "imageName": "Wheel_Enve22"
@@ -186,6 +191,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
     "id": 2783190436,
     "name": "DTSwiss ARC 1100 DICUT DISC",
     "imageName": "Wheel_DTSwissARC1100AeroTT"
+  },
+  {
+    "id": 2913819265,
+    "name": "HED HED Vanquish RC6 Pro",
+    "imageName": "Wheel_VanquishRC6"
   },
   {
     "id": 3309968019,

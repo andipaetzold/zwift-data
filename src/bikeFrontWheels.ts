@@ -143,6 +143,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
     "imageName": "Wheel_Enve89"
   },
   {
+    "id": 1791179228,
+    "name": "HED HED Vanquish RC6 Pro",
+    "imageName": "Wheel_VanquishRC6"
+  },
+  {
     "id": 1820135676,
     "name": "Zwift Gravel",
     "imageName": "Wheel_ZwiftGravel"
@@ -251,6 +256,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = [
     "id": 4185901178,
     "name": "Mavic Cosmic Ultimate UST",
     "imageName": "Wheel_MavicCosmicUltUST"
+  },
+  {
+    "id": 4221174482,
+    "name": "Zwift Handcycle",
+    "imageName": "Wheel_CampagnoloHigh"
   },
   {
     "id": 4235764609,
