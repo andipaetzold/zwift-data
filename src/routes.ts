@@ -4843,7 +4843,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 3101693166,
     "name": "InnsbruckConti",
-    "slug": "3101693166",
+    "slug": "2023-continental-qualifiers",
     "world": "innsbruck",
     "eventOnly": true,
     "distance": 12.478,

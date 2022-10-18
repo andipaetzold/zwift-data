@@ -1736,4 +1736,8 @@ export const routes = [
     id: 4232726854,
     slug: "surfin-safari",
   },
+  {
+    id: 3101693166,
+    slug: "2023-continental-qualifiers",
+  },
 ];
