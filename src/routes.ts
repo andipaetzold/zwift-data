@@ -4841,6 +4841,31 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/rising-empire"
   },
   {
+    "id": 3101693166,
+    "name": "InnsbruckConti",
+    "slug": "3101693166",
+    "world": "innsbruck",
+    "eventOnly": true,
+    "distance": 12.478,
+    "elevation": 480,
+    "leadInDistance": 0.464,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.234,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.254,
+    "leadInElevationInMeetups": 0,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ]
+  },
+  {
     "id": 3114603308,
     "name": "2018 UCI Worlds Short Lap",
     "slug": "2018-uci-worlds-course-short-lap",

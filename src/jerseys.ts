@@ -3,6 +3,11 @@ import { Jersey } from "./types";
 // prettier-ignore
 export const jerseys: ReadonlyArray<Jersey> = [
   {
+    "id": 1962443,
+    "name": "Zwift Academy Finalist",
+    "imageName": "ZARoadFinalist12022_thumb"
+  },
+  {
     "id": 3523119,
     "name": "TBR 2020",
     "imageName": "TBR2020_thumb"
@@ -359,7 +364,7 @@ export const jerseys: ReadonlyArray<Jersey> = [
   },
   {
     "id": 408159995,
-    "name": "Cheetah Print",
+    "name": "Cow Print",
     "imageName": "ZwiftAnimals03_thumb"
   },
   {
@@ -604,7 +609,7 @@ export const jerseys: ReadonlyArray<Jersey> = [
   },
   {
     "id": 624176971,
-    "name": "Tiger Print",
+    "name": "Cheetah Print",
     "imageName": "ZwiftAnimals02_thumb"
   },
   {
@@ -741,6 +746,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 775444693,
     "name": "Rapha Womens 100 2021",
     "imageName": "RaphaWomens1002021_thumb"
+  },
+  {
+    "id": 787208525,
+    "name": "Zwift Academy Finalist",
+    "imageName": "ZARoadFinalist32022_thumb"
   },
   {
     "id": 799948511,
@@ -941,6 +951,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 958696823,
     "name": "Team Jumbo-Visma Men",
     "imageName": "JumboVismaMen2022_thumb"
+  },
+  {
+    "id": 965790990,
+    "name": "Zwift Academy Finalist",
+    "imageName": "ZARoadFinalist22022_thumb"
   },
   {
     "id": 971980441,
@@ -1211,6 +1226,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 1247156896,
     "name": "Zwift zFondo September",
     "imageName": "Zwift_zFondo2018_Sept_thumb"
+  },
+  {
+    "id": 1250604164,
+    "name": "Zwift Academy Finalist",
+    "imageName": "ZARoadFinalist42022_thumb"
   },
   {
     "id": 1276763333,
@@ -1508,6 +1528,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "LaGrange2019_thumb"
   },
   {
+    "id": 1576116423,
+    "name": "Zwift Academy Finalist",
+    "imageName": "ZARoadFinalist52022_thumb"
+  },
+  {
     "id": 1582340905,
     "name": "zFondo Jan 2021",
     "imageName": "ZFondo2021Jan_thumb"
@@ -1604,7 +1629,7 @@ export const jerseys: ReadonlyArray<Jersey> = [
   },
   {
     "id": 1653888411,
-    "name": "Cow Print",
+    "name": "Tiger Print",
     "imageName": "ZwiftAnimals01_thumb"
   },
   {
@@ -1624,7 +1649,7 @@ export const jerseys: ReadonlyArray<Jersey> = [
   },
   {
     "id": 1701380341,
-    "name": "Assos Speed Club 2019",
+    "name": "Assos Speed Club 2022",
     "imageName": "AssosSpeedClub2019_thumb"
   },
   {
@@ -2199,7 +2224,7 @@ export const jerseys: ReadonlyArray<Jersey> = [
   },
   {
     "id": 2398622818,
-    "name": "RoadCC",
+    "name": "Road.cc",
     "imageName": "RoadCC_thumb"
   },
   {
@@ -2936,6 +2961,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 3189709644,
     "name": "Biehler Syndicate Jersey",
     "imageName": "BiehlerSyndicate2021_thumb"
+  },
+  {
+    "id": 3194421153,
+    "name": "Tour of Makuri Islands",
+    "imageName": "TourOfMakuri2022_thumb"
   },
   {
     "id": 3203180937,
