@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/andipaetzold/zwift-data/compare/v1.18.0...v1.19.0) (2022-10-21)
+
+
+### Features
+
+* October 2022 update ([#24](https://github.com/andipaetzold/zwift-data/issues/24)) ([15676e7](https://github.com/andipaetzold/zwift-data/commit/15676e7ad4728a42310fe184f07f9b965737af24))
+
 # [1.18.0](https://github.com/andipaetzold/zwift-data/compare/v1.17.0...v1.18.0) (2022-09-14)
 
 
