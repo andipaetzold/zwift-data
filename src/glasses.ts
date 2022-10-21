@@ -93,6 +93,11 @@ export const glasses: ReadonlyArray<Glass> = [
     "imageName": "Glasses_POCClarityAspire"
   },
   {
+    "id": 2628706018,
+    "name": "Tour of Makuri Islands",
+    "imageName": "Glasses_TourOfMakuri2022"
+  },
+  {
     "id": 2978871359,
     "name": "ZRS Glasses 3",
     "imageName": "Glasses_ZRS2021Glasses03"

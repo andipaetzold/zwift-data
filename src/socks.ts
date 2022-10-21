@@ -313,6 +313,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "Socks_Vitality2021"
   },
   {
+    "id": 2703880917,
+    "name": "Tour of Makuri Islands",
+    "imageName": "TourOfMakuri2022"
+  },
+  {
     "id": 2712186425,
     "name": "Solid Light Blue",
     "imageName": "SolidLightBlue"

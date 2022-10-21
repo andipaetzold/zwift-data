@@ -1736,4 +1736,12 @@ export const routes = [
     id: 4232726854,
     slug: "surfin-safari",
   },
+  {
+    id: 3101693166,
+    slug: "2023-continental-qualifiers",
+    segments: ["innsbruck-sprint-rev", "innsbruck-kom-rev"],
+    stravaSegmentId: 33089178,
+    zwiftInsiderUrl:
+      "https://zwiftinsider.com/route/innsbruck-continentals-hill-climb",
+  },
 ];

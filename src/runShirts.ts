@@ -128,6 +128,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "SLTScorpions2022_thumb"
   },
   {
+    "id": 746845203,
+    "name": "Tour of Makuri Islands",
+    "imageName": "TourOfMakuri2022_thumb"
+  },
+  {
     "id": 769877933,
     "name": "Super League Tri Arena Games - Yellow Jersey",
     "imageName": "SLTRun2022yellow_thumb"

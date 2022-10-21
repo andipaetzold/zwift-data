@@ -4841,6 +4841,43 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/rising-empire"
   },
   {
+    "id": 3101693166,
+    "name": "InnsbruckConti",
+    "slug": "2023-continental-qualifiers",
+    "world": "innsbruck",
+    "eventOnly": true,
+    "distance": 12.478,
+    "elevation": 480,
+    "leadInDistance": 0.464,
+    "leadInElevation": 0,
+    "leadInDistanceFreeRide": 0.234,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.254,
+    "leadInElevationInMeetups": 0,
+    "segments": [
+      "innsbruck-sprint-rev",
+      "innsbruck-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 7.197,
+        "to": 12.936,
+        "segment": "innsbruck-kom-rev"
+      }
+    ],
+    "levelLocked": false,
+    "lap": false,
+    "supportsTT": false,
+    "supportsMeetups": false,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "stravaSegmentId": 33089178,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33089178",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/innsbruck-continentals-hill-climb"
+  },
+  {
     "id": 3114603308,
     "name": "2018 UCI Worlds Short Lap",
     "slug": "2018-uci-worlds-course-short-lap",

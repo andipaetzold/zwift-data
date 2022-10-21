@@ -33,6 +33,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "SpecializedZATri2022"
   },
   {
+    "id": 341420555,
+    "name": "Team Jumbo-Visma 2022",
+    "imageName": "CyclingCapJumboVisma2022_thumb"
+  },
+  {
     "id": 407446488,
     "name": "Tour de Zwift 2022 Ride Cap",
     "imageName": "CyclingCapTourDeZwift2022_thumb"
@@ -223,6 +228,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "BackwardsCapZCTraining2022_thumb"
   },
   {
+    "id": 1720452859,
+    "name": "Tour of Makuri Islands",
+    "imageName": "Visor_TourOfMakuri2022"
+  },
+  {
     "id": 1774524673,
     "name": "Giro d'Italia",
     "imageName": "Giro2019_thumb"
@@ -378,6 +388,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "Headband_Orange"
   },
   {
+    "id": 3249347051,
+    "name": "Zwift Pro Training Camp 2022",
+    "imageName": "CyclingCapZwiftProTraining2022_thumb"
+  },
+  {
     "id": 3291118897,
     "name": "ZRS Ciele",
     "imageName": "RcZRSCiele2020_thumb"
@@ -491,6 +506,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "id": 3961081102,
     "name": "Le Col CC",
     "imageName": "CyclingCapLeCol2022_thumb"
+  },
+  {
+    "id": 4039413009,
+    "name": "Team Movistar 2022",
+    "imageName": "CyclingCapMovistar2022_thumb"
   },
   {
     "id": 4144877717,
