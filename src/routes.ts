@@ -4854,8 +4854,17 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.254,
     "leadInElevationInMeetups": 0,
-    "segments": [],
-    "segmentsOnRoute": [],
+    "segments": [
+      "innsbruck-sprint-rev",
+      "innsbruck-kom-rev"
+    ],
+    "segmentsOnRoute": [
+      {
+        "from": 7.197,
+        "to": 12.936,
+        "segment": "innsbruck-kom-rev"
+      }
+    ],
     "levelLocked": false,
     "lap": false,
     "supportsTT": false,
@@ -4863,7 +4872,10 @@ export const routes: ReadonlyArray<Route> = [
     "sports": [
       "running",
       "cycling"
-    ]
+    ],
+    "stravaSegmentId": 33089178,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33089178",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/innsbruck-continentals-hill-climb"
   },
   {
     "id": 3114603308,
