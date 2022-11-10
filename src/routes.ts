@@ -337,7 +337,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 211138252,
     "name": "Island Outskirts",
-    "slug": "211138252",
+    "slug": "island-outskirts",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 11.352,
@@ -358,7 +358,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 225
+    "experience": 225,
+    "stravaSegmentId": 0,
+    "zwiftInsiderUrl": ""
   },
   {
     "id": 242381847,
@@ -605,7 +607,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 468624015,
     "name": "Fine and Sandy",
-    "slug": "468624015",
+    "slug": "fine-and-sandy",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 10.654,
@@ -626,7 +628,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 210
+    "experience": 210,
+    "stravaSegmentId": 0,
+    "zwiftInsiderUrl": ""
   },
   {
     "id": 474781994,
@@ -786,7 +790,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 576953930,
     "name": "Country to Coastal",
-    "slug": "576953930",
+    "slug": "country-to-coastal",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 33.431,
@@ -807,7 +811,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 665
+    "experience": 665,
+    "stravaSegmentId": 0,
+    "zwiftInsiderUrl": ""
   },
   {
     "id": 604330868,
@@ -1179,7 +1185,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 890800649,
     "name": "Makuri 40",
-    "slug": "890800649",
+    "slug": "makuri-40",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 40.115,
@@ -1200,7 +1206,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 800
+    "experience": 800,
+    "stravaSegmentId": 0,
+    "zwiftInsiderUrl": ""
   },
   {
     "id": 910684583,
@@ -1859,7 +1867,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 1366943680,
     "name": "Mech Isle Loop",
-    "slug": "1366943680",
+    "slug": "mech-isle-loop",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 4.023,
@@ -1880,7 +1888,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 80
+    "experience": 80,
+    "stravaSegmentId": 0,
+    "zwiftInsiderUrl": ""
   },
   {
     "id": 1373909093,
@@ -2435,7 +2445,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 1760877317,
     "name": "Bridges and Boardwalks",
-    "slug": "1760877317",
+    "slug": "bridges-and-boardwalks",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 6.334,
@@ -2456,7 +2466,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 125
+    "experience": 125,
+    "stravaSegmentId": 0,
+    "zwiftInsiderUrl": ""
   },
   {
     "id": 1763213625,
@@ -3001,7 +3013,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 2140131142,
     "name": "Island Hopper",
-    "slug": "2140131142",
+    "slug": "island-hopper",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 17.983,
@@ -3022,7 +3034,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 360
+    "experience": 360,
+    "stravaSegmentId": 0,
+    "zwiftInsiderUrl": ""
   },
   {
     "id": 2165880404,
@@ -7198,7 +7212,7 @@ export const routes: ReadonlyArray<Route> = [
   {
     "id": 4258943387,
     "name": "Turf N Surf",
-    "slug": "4258943387",
+    "slug": "turf-n-surf",
     "world": "makuri-islands",
     "eventOnly": false,
     "distance": 24.617,
@@ -7219,7 +7233,9 @@ export const routes: ReadonlyArray<Route> = [
       "running",
       "cycling"
     ],
-    "experience": 490
+    "experience": 490,
+    "stravaSegmentId": 0,
+    "zwiftInsiderUrl": ""
   },
   {
     "id": 4263172118,
