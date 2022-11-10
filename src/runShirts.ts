@@ -98,6 +98,11 @@ export const runShirts: ReadonlyArray<RunShirt> = [
     "imageName": "RunFestivalWhite2021_thumb"
   },
   {
+    "id": 640108508,
+    "name": "Tour de Zwift 2023",
+    "imageName": "TourDeZwift2023_thumb"
+  },
+  {
     "id": 662489813,
     "name": "GTN",
     "imageName": "GTNRun2022_thumb"

@@ -208,6 +208,11 @@ export const runShorts: ReadonlyArray<RunShort> = [
     "imageName": "WhoopRun2021_thumb"
   },
   {
+    "id": 1665066158,
+    "name": "Tour de Zwift 2023",
+    "imageName": "TourDeZwift2023_thumb"
+  },
+  {
     "id": 1692970122,
     "name": "Super League Tri Arena Games - Blue Jersey",
     "imageName": "SLTRun2022blue_thumb"

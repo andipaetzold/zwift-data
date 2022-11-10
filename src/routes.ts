@@ -335,6 +335,32 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/the-london-pretzel"
   },
   {
+    "id": 211138252,
+    "name": "Island Outskirts",
+    "slug": "211138252",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 11.352,
+    "elevation": 90,
+    "leadInDistance": 0.156,
+    "leadInElevation": 2,
+    "leadInDistanceFreeRide": 0.01,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.02,
+    "leadInElevationInMeetups": 8,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 225
+  },
+  {
     "id": 242381847,
     "name": "Zwift Gran Fondo",
     "slug": "gran-fondo",
@@ -402,9 +428,9 @@ export const routes: ReadonlyArray<Route> = [
     "elevation": 70,
     "leadInDistance": 2.175,
     "leadInElevation": 21,
-    "leadInDistanceFreeRide": 1.674,
+    "leadInDistanceFreeRide": 1.691,
     "leadInElevationFreeRide": 20,
-    "leadInDistanceMeetups": 1.674,
+    "leadInDistanceMeetups": 1.716,
     "leadInElevationInMeetups": 20,
     "segments": [
       "railway-sprint"
@@ -577,6 +603,32 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/volcano-climb-after-party"
   },
   {
+    "id": 468624015,
+    "name": "Fine and Sandy",
+    "slug": "468624015",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 10.654,
+    "elevation": 77,
+    "leadInDistance": 0.096,
+    "leadInElevation": 1,
+    "leadInDistanceFreeRide": 0.027,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.032,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 210
+  },
+  {
     "id": 474781994,
     "name": "Greater London Loop Reverse",
     "slug": "greater-london-loop-rev",
@@ -644,10 +696,12 @@ export const routes: ReadonlyArray<Route> = [
     "eventOnly": false,
     "distance": 15.85,
     "elevation": 185,
-    "leadInDistance": 0.23,
+    "leadInDistance": 0.05,
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.05,
     "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.05,
+    "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint",
       "temple-kom-from-fishing-village-side"
@@ -728,6 +782,32 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/27177732",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/figure-8-reverse",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/figure-8-reverse"
+  },
+  {
+    "id": 576953930,
+    "name": "Country to Coastal",
+    "slug": "576953930",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 33.431,
+    "elevation": 274,
+    "leadInDistance": 0.137,
+    "leadInElevation": 6,
+    "leadInDistanceFreeRide": 0.105,
+    "leadInElevationFreeRide": 6,
+    "leadInDistanceMeetups": 0.127,
+    "leadInElevationInMeetups": 6,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 665
   },
   {
     "id": 604330868,
@@ -1095,6 +1175,32 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/24690956",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/roule-ma-poule",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/roule-ma-poule"
+  },
+  {
+    "id": 890800649,
+    "name": "Makuri 40",
+    "slug": "890800649",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 40.115,
+    "elevation": 307,
+    "leadInDistance": 0.137,
+    "leadInElevation": 6,
+    "leadInDistanceFreeRide": 0.105,
+    "leadInElevationFreeRide": 6,
+    "leadInDistanceMeetups": 0.127,
+    "leadInElevationInMeetups": 6,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 800
   },
   {
     "id": 910684583,
@@ -1751,6 +1857,32 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/everything-bagel"
   },
   {
+    "id": 1366943680,
+    "name": "Mech Isle Loop",
+    "slug": "1366943680",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 4.023,
+    "elevation": 39,
+    "leadInDistance": 0.086,
+    "leadInElevation": 1,
+    "leadInDistanceFreeRide": 0.017,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.022,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 80
+  },
+  {
     "id": 1373909093,
     "name": "Chili Pepper",
     "slug": "chili-pepper",
@@ -1899,13 +2031,13 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "neokyo-all-nighter",
     "world": "makuri-islands",
     "eventOnly": false,
-    "distance": 24.332,
+    "distance": 24.324,
     "elevation": 168,
     "leadInDistance": 0.278,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0.025,
+    "leadInDistanceFreeRide": 0.02,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.05,
+    "leadInDistanceMeetups": 0.044,
     "leadInElevationInMeetups": 0,
     "segments": [
       "castle-park-sprint",
@@ -1952,6 +2084,8 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 130,
     "leadInDistanceFreeRide": 5.032,
     "leadInElevationFreeRide": 130,
+    "leadInDistanceMeetups": 5.034,
+    "leadInElevationInMeetups": 130,
     "segments": [
       "temple-kom-from-castle-side"
     ],
@@ -2299,6 +2433,32 @@ export const routes: ReadonlyArray<Route> = [
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/the-highline"
   },
   {
+    "id": 1760877317,
+    "name": "Bridges and Boardwalks",
+    "slug": "1760877317",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 6.334,
+    "elevation": 60,
+    "leadInDistance": 1.923,
+    "leadInElevation": 11,
+    "leadInDistanceFreeRide": 1.777,
+    "leadInElevationFreeRide": 10,
+    "leadInDistanceMeetups": 1.787,
+    "leadInElevationInMeetups": 10,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 125
+  },
+  {
     "id": 1763213625,
     "name": "The Highline Reverse",
     "slug": "the-highline-rev",
@@ -2551,12 +2711,14 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "valley-to-mountaintop",
     "world": "makuri-islands",
     "eventOnly": false,
-    "distance": 5.007,
+    "distance": 5.009,
     "elevation": 131,
     "leadInDistance": 0.122,
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.012,
     "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.012,
+    "leadInElevationInMeetups": 0,
     "segments": [
       "temple-kom-from-castle-side"
     ],
@@ -2835,6 +2997,32 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/20425565",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/bigger-loop",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/bigger-loop"
+  },
+  {
+    "id": 2140131142,
+    "name": "Island Hopper",
+    "slug": "2140131142",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 17.983,
+    "elevation": 129,
+    "leadInDistance": 0.156,
+    "leadInElevation": 2,
+    "leadInDistanceFreeRide": 0.01,
+    "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.02,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 360
   },
   {
     "id": 2165880404,
@@ -3630,6 +3818,8 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.051,
     "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.051,
+    "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint",
       "village-sprint"
@@ -4665,8 +4855,10 @@ export const routes: ReadonlyArray<Route> = [
     "elevation": 57,
     "leadInDistance": 0.229,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0.004,
+    "leadInDistanceFreeRide": 0.003,
     "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.003,
+    "leadInElevationInMeetups": 0,
     "segments": [],
     "segmentsOnRoute": [],
     "levelLocked": false,
@@ -4997,10 +5189,12 @@ export const routes: ReadonlyArray<Route> = [
     "eventOnly": false,
     "distance": 12.855,
     "elevation": 99,
-    "leadInDistance": 0.254,
+    "leadInDistance": 0.082,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0,
+    "leadInDistanceFreeRide": 0.082,
     "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.104,
+    "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint"
     ],
@@ -5087,13 +5281,13 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "sprinters-playground",
     "world": "makuri-islands",
     "eventOnly": false,
-    "distance": 12.343,
+    "distance": 12.342,
     "elevation": 67,
     "leadInDistance": 0.257,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0.027,
+    "leadInDistanceFreeRide": 0.011,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.025,
+    "leadInDistanceMeetups": 0.031,
     "leadInElevationInMeetups": 0,
     "segments": [
       "tower-sprint-rev",
@@ -5211,6 +5405,8 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevation": 0,
     "leadInDistanceFreeRide": 0.05,
     "leadInElevationFreeRide": 0,
+    "leadInDistanceMeetups": 0.05,
+    "leadInElevationInMeetups": 0,
     "segments": [
       "country-sprint"
     ],
@@ -5418,13 +5614,13 @@ export const routes: ReadonlyArray<Route> = [
     "slug": "neon-flats",
     "world": "makuri-islands",
     "eventOnly": false,
-    "distance": 14.74,
+    "distance": 14.725,
     "elevation": 72,
     "leadInDistance": 0.26,
     "leadInElevation": 0,
-    "leadInDistanceFreeRide": 0.017,
+    "leadInDistanceFreeRide": 0.014,
     "leadInElevationFreeRide": 0,
-    "leadInDistanceMeetups": 0.037,
+    "leadInDistanceMeetups": 0.035,
     "leadInElevationInMeetups": 0,
     "segments": [
       "tower-sprint",
@@ -5743,8 +5939,10 @@ export const routes: ReadonlyArray<Route> = [
     "elevation": 108,
     "leadInDistance": 0.572,
     "leadInElevation": 14,
-    "leadInDistanceFreeRide": 0,
-    "leadInElevationFreeRide": 0,
+    "leadInDistanceFreeRide": 0.024,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.024,
+    "leadInElevationInMeetups": 1,
     "segments": [
       "temple-kom-from-fishing-village-side"
     ],
@@ -6996,6 +7194,32 @@ export const routes: ReadonlyArray<Route> = [
     "stravaSegmentUrl": "https://www.strava.com/segments/18993273",
     "zwiftInsiderUrl": "https://zwiftinsider.com/route/ocean-blvd",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/11-1-ocean-blvd"
+  },
+  {
+    "id": 4258943387,
+    "name": "Turf N Surf",
+    "slug": "4258943387",
+    "world": "makuri-islands",
+    "eventOnly": false,
+    "distance": 24.617,
+    "elevation": 196,
+    "leadInDistance": 0.075,
+    "leadInElevation": 2,
+    "leadInDistanceFreeRide": 0.024,
+    "leadInElevationFreeRide": 1,
+    "leadInDistanceMeetups": 0.038,
+    "leadInElevationInMeetups": 1,
+    "segments": [],
+    "segmentsOnRoute": [],
+    "levelLocked": false,
+    "lap": true,
+    "supportsTT": false,
+    "supportsMeetups": true,
+    "sports": [
+      "running",
+      "cycling"
+    ],
+    "experience": 490
   },
   {
     "id": 4263172118,
