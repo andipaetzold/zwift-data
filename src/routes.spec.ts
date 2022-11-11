@@ -51,9 +51,9 @@ describe.each(routes)("$name", (route) => {
         });
 
         it("should be in same world", () => {
-          const segment = segments.find((s) => s.slug === segmentSlug)!;
+          const segment = segments.find((s) => s.slug === segmentSlug);
 
-          expect(segment.world).toBe(route.world);
+          expect(segment?.world).toBe(route.world);
         });
 
         // it("should be in segmentsOnRoute", () => {

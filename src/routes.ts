@@ -348,7 +348,10 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.02,
     "leadInElevationInMeetups": 8,
-    "segments": [],
+    "segments": [
+      "shisa-sprint-rev",
+      "tidepool-sprint"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -359,8 +362,9 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 225,
-    "stravaSegmentId": 0,
-    "zwiftInsiderUrl": "",
+    "stravaSegmentId": 33237309,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33237309",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/island-outskirts",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/island-outskirts"
   },
   {
@@ -619,7 +623,10 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 1,
     "leadInDistanceMeetups": 0.032,
     "leadInElevationInMeetups": 1,
-    "segments": [],
+    "segments": [
+      "boardwalk-sprint",
+      "tidepool-sprint"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -630,8 +637,9 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 210,
-    "stravaSegmentId": 0,
-    "zwiftInsiderUrl": "",
+    "stravaSegmentId": 33237114,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33237114",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/fine-and-sandy",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/fine-and-sandy"
   },
   {
@@ -803,7 +811,12 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 6,
     "leadInDistanceMeetups": 0.127,
     "leadInElevationInMeetups": 6,
-    "segments": [],
+    "segments": [
+      "village-sprint-rev",
+      "country-sprint-rev",
+      "shisa-sprint-rev",
+      "tidepool-sprint"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -814,8 +827,9 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 665,
-    "stravaSegmentId": 0,
-    "zwiftInsiderUrl": "",
+    "stravaSegmentId": 33238095,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33238095",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/country-to-coastal",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/country-to-coastal"
   },
   {
@@ -1199,7 +1213,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 6,
     "leadInDistanceMeetups": 0.127,
     "leadInElevationInMeetups": 6,
-    "segments": [],
+    "segments": [
+      "village-sprint-rev",
+      "country-sprint-rev",
+      "alley-sprint-rev",
+      "castle-park-sprint",
+      "shisa-sprint"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -1210,8 +1230,9 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 800,
-    "stravaSegmentId": 0,
-    "zwiftInsiderUrl": "",
+    "stravaSegmentId": 33237747,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33237747",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/makuri-40",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/makuri-40"
   },
   {
@@ -1882,7 +1903,13 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 1,
     "leadInDistanceMeetups": 0.022,
     "leadInElevationInMeetups": 1,
-    "segments": [],
+    "segments": [
+      "village-sprint-rev",
+      "country-sprint-rev",
+      "alley-sprint-rev",
+      "castle-park-sprint",
+      "shisa-sprint"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -2462,7 +2489,10 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 10,
     "leadInDistanceMeetups": 1.787,
     "leadInElevationInMeetups": 10,
-    "segments": [],
+    "segments": [
+      "boardwalk-sprint",
+      "shisa-sprint"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -2473,8 +2503,9 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 125,
-    "stravaSegmentId": 0,
-    "zwiftInsiderUrl": "",
+    "stravaSegmentId": 33221600,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33221600",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/bridges-and-boardwalks",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/bridges-and-boardwalks"
   },
   {
@@ -3031,7 +3062,11 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 0,
     "leadInDistanceMeetups": 0.02,
     "leadInElevationInMeetups": 1,
-    "segments": [],
+    "segments": [
+      "boardwalk-sprint",
+      "tidepool-sprint",
+      "shisa-sprint-rev"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -3042,8 +3077,9 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 360,
-    "stravaSegmentId": 0,
-    "zwiftInsiderUrl": "",
+    "stravaSegmentId": 33236919,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33236919",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/island-hopper",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/island-hopper"
   },
   {
@@ -7231,7 +7267,10 @@ export const routes: ReadonlyArray<Route> = [
     "leadInElevationFreeRide": 1,
     "leadInDistanceMeetups": 0.038,
     "leadInElevationInMeetups": 1,
-    "segments": [],
+    "segments": [
+      "alley-sprint",
+      "shisa-sprint-rev"
+    ],
     "segmentsOnRoute": [],
     "levelLocked": false,
     "lap": true,
@@ -7242,8 +7281,9 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 490,
-    "stravaSegmentId": 0,
-    "zwiftInsiderUrl": "",
+    "stravaSegmentId": 33238344,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33238344",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/turf-n-surf",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/turf-n-surf"
   },
   {

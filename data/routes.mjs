@@ -1747,43 +1747,60 @@ export const routes = [
   {
     id: 211138252,
     slug: "island-outskirts",
-    segments: [],
-    stravaSegmentId: 0,
+    segments: ["shisa-sprint-rev", "tidepool-sprint"],
+    stravaSegmentId: 33237309,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/island-outskirts",
-    zwiftInsiderUrl: "",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/island-outskirts",
   },
   {
     id: 468624015,
     slug: "fine-and-sandy",
-    segments: [],
-    stravaSegmentId: 0,
+    segments: ["boardwalk-sprint", "tidepool-sprint"],
+    stravaSegmentId: 33237114,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/fine-and-sandy",
-    zwiftInsiderUrl: "",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/fine-and-sandy",
   },
   {
     id: 576953930,
     slug: "country-to-coastal",
-    segments: [],
-    stravaSegmentId: 0,
+    segments: [
+      "village-sprint-rev",
+      "country-sprint-rev",
+      "shisa-sprint-rev",
+      "tidepool-sprint",
+    ],
+    stravaSegmentId: 33238095,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/country-to-coastal",
-    zwiftInsiderUrl: "",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/country-to-coastal",
   },
   {
     id: 890800649,
     slug: "makuri-40",
-    segments: [],
-    stravaSegmentId: 0,
+    segments: [
+      "village-sprint-rev",
+      "country-sprint-rev",
+      "alley-sprint-rev",
+      "castle-park-sprint",
+      "shisa-sprint",
+    ],
+    stravaSegmentId: 33237747,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/makuri-40",
-    zwiftInsiderUrl: "",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/makuri-40",
   },
   {
     id: 1366943680,
     slug: "mech-isle-loop",
-    segments: [],
+    segments: [
+      "village-sprint-rev",
+      "country-sprint-rev",
+      "alley-sprint-rev",
+      "castle-park-sprint",
+      "shisa-sprint",
+    ],
     stravaSegmentId: 33214506,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/mech-isle-loop",
@@ -1792,28 +1809,32 @@ export const routes = [
   {
     id: 1760877317,
     slug: "bridges-and-boardwalks",
-    segments: [],
-    stravaSegmentId: 0,
+    segments: ["boardwalk-sprint", "shisa-sprint"],
+    stravaSegmentId: 33221600,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/bridges-and-boardwalks",
-    zwiftInsiderUrl: "",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/bridges-and-boardwalks",
   },
   {
     id: 2140131142,
     slug: "island-hopper",
-    segments: [],
-    stravaSegmentId: 0,
+    segments: [
+      "boardwalk-sprint",
+      "tidepool-sprint",
+      "shisa-sprint-rev",
+    ],
+    stravaSegmentId: 33236919,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/island-hopper",
-    zwiftInsiderUrl: "",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/island-hopper",
   },
   {
     id: 4258943387,
     slug: "turf-n-surf",
-    segments: [],
-    stravaSegmentId: 0,
+    segments: ["alley-sprint", "shisa-sprint-rev"],
+    stravaSegmentId: 33238344,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/turf-n-surf",
-    zwiftInsiderUrl: "",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/turf-n-surf",
   },
 ];
