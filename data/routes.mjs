@@ -1749,6 +1749,8 @@ export const routes = [
     slug: "island-outskirts",
     segments: [],
     stravaSegmentId: 0,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/island-outskirts",
     zwiftInsiderUrl: "",
   },
   {
@@ -1756,6 +1758,8 @@ export const routes = [
     slug: "fine-and-sandy",
     segments: [],
     stravaSegmentId: 0,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/fine-and-sandy",
     zwiftInsiderUrl: "",
   },
   {
@@ -1763,6 +1767,8 @@ export const routes = [
     slug: "country-to-coastal",
     segments: [],
     stravaSegmentId: 0,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/country-to-coastal",
     zwiftInsiderUrl: "",
   },
   {
@@ -1770,20 +1776,26 @@ export const routes = [
     slug: "makuri-40",
     segments: [],
     stravaSegmentId: 0,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/makuri-40",
     zwiftInsiderUrl: "",
   },
   {
     id: 1366943680,
     slug: "mech-isle-loop",
     segments: [],
-    stravaSegmentId: 0,
-    zwiftInsiderUrl: "",
+    stravaSegmentId: 33214506,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/mech-isle-loop",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/mech-isle-loop",
   },
   {
     id: 1760877317,
     slug: "bridges-and-boardwalks",
     segments: [],
     stravaSegmentId: 0,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/bridges-and-boardwalks",
     zwiftInsiderUrl: "",
   },
   {
@@ -1791,6 +1803,8 @@ export const routes = [
     slug: "island-hopper",
     segments: [],
     stravaSegmentId: 0,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/island-hopper",
     zwiftInsiderUrl: "",
   },
   {
@@ -1798,6 +1812,8 @@ export const routes = [
     slug: "turf-n-surf",
     segments: [],
     stravaSegmentId: 0,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/turf-n-surf",
     zwiftInsiderUrl: "",
   },
 ];

@@ -360,7 +360,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 225,
     "stravaSegmentId": 0,
-    "zwiftInsiderUrl": ""
+    "zwiftInsiderUrl": "",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/island-outskirts"
   },
   {
     "id": 242381847,
@@ -630,7 +631,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 210,
     "stravaSegmentId": 0,
-    "zwiftInsiderUrl": ""
+    "zwiftInsiderUrl": "",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/fine-and-sandy"
   },
   {
     "id": 474781994,
@@ -813,7 +815,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 665,
     "stravaSegmentId": 0,
-    "zwiftInsiderUrl": ""
+    "zwiftInsiderUrl": "",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/country-to-coastal"
   },
   {
     "id": 604330868,
@@ -1208,7 +1211,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 800,
     "stravaSegmentId": 0,
-    "zwiftInsiderUrl": ""
+    "zwiftInsiderUrl": "",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/makuri-40"
   },
   {
     "id": 910684583,
@@ -1889,8 +1893,10 @@ export const routes: ReadonlyArray<Route> = [
       "cycling"
     ],
     "experience": 80,
-    "stravaSegmentId": 0,
-    "zwiftInsiderUrl": ""
+    "stravaSegmentId": 33214506,
+    "stravaSegmentUrl": "https://www.strava.com/segments/33214506",
+    "zwiftInsiderUrl": "https://zwiftinsider.com/route/mech-isle-loop",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/mech-isle-loop"
   },
   {
     "id": 1373909093,
@@ -2468,7 +2474,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 125,
     "stravaSegmentId": 0,
-    "zwiftInsiderUrl": ""
+    "zwiftInsiderUrl": "",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/bridges-and-boardwalks"
   },
   {
     "id": 1763213625,
@@ -3036,7 +3043,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 360,
     "stravaSegmentId": 0,
-    "zwiftInsiderUrl": ""
+    "zwiftInsiderUrl": "",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/island-hopper"
   },
   {
     "id": 2165880404,
@@ -7235,7 +7243,8 @@ export const routes: ReadonlyArray<Route> = [
     ],
     "experience": 490,
     "stravaSegmentId": 0,
-    "zwiftInsiderUrl": ""
+    "zwiftInsiderUrl": "",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/turf-n-surf"
   },
   {
     "id": 4263172118,
