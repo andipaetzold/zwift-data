@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/andipaetzold/zwift-data/compare/v1.20.0...v1.20.1) (2022-11-19)
+
+
+### Bug Fixes
+
+* adjust Makuri Islands bounds ([1679720](https://github.com/andipaetzold/zwift-data/commit/1679720aa0f87f8bf018b05e28254cc63eac2316))
+
 # [1.20.0](https://github.com/andipaetzold/zwift-data/compare/v1.19.0...v1.20.0) (2022-11-19)
 
 
