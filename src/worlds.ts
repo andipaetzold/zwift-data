@@ -86,8 +86,8 @@ export const worlds: ReadonlyArray<World> = [
     name: "Makuri Islands",
     slug: "makuri-islands",
     bounds: [
-      [-10.7375, 165.7828],
-      [-10.831, 165.8772],
+      [-10.73746, 165.76591],
+      [-10.85234, 165.88222],
     ],
     imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Japan.png",
   },
