@@ -523,6 +523,11 @@ export const headgears: ReadonlyArray<Headgear> = [
     "imageName": "CyclingCapINEOSGrenadiers2021_thumb"
   },
   {
+    "id": 4227553526,
+    "name": "Tour de Zwift 2023",
+    "imageName": "BackwardsCapTourDeZwift2023_thumb"
+  },
+  {
     "id": 4241132751,
     "name": "ABUS GameChanger Movistar Team",
     "imageName": "AbusGameChanger2021"

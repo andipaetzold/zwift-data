@@ -807,5 +807,53 @@ export const segments: ReadonlyArray<Segment> = [
     "stravaSegmentId": 30412927,
     "stravaSegmentUrl": "https://www.strava.com/segments/30412927",
     "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/segment/railway-sprint/forward"
+  },
+  {
+    "name": "Boardwalk Sprint",
+    "slug": "boardwalk-sprint",
+    "distance": 0.24,
+    "type": "sprint",
+    "world": "makuri-islands",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/segment/boardwalk-sprint/forward"
+  },
+  {
+    "name": "Tidepool Sprint",
+    "slug": "tidepool-sprint",
+    "distance": 0.31,
+    "type": "sprint",
+    "world": "makuri-islands",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/reverse"
+  },
+  {
+    "name": "Shisa Sprint Rev.",
+    "slug": "shisa-sprint-rev",
+    "distance": 0.29,
+    "type": "sprint",
+    "world": "makuri-islands",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/segment/shisa-sprint/reverse"
+  },
+  {
+    "name": "Shisa Sprint",
+    "slug": "shisa-sprint",
+    "distance": 0.28,
+    "type": "sprint",
+    "world": "makuri-islands",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/segment/shisa-sprint/forward"
+  },
+  {
+    "name": "Village Sprint Rev.",
+    "slug": "village-sprint-rev",
+    "distance": 0.14,
+    "type": "sprint",
+    "world": "makuri-islands",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/segment/village-sprint/reverse"
+  },
+  {
+    "name": "Country Sprint Rev.",
+    "slug": "country-sprint-rev",
+    "distance": 0.13,
+    "type": "sprint",
+    "world": "makuri-islands",
+    "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/segment/country-sprint/reverse"
   }
 ];

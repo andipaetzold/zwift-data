@@ -263,6 +263,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "GCN_2017_thumb"
   },
   {
+    "id": 295857680,
+    "name": "Tour de Zwift 2023",
+    "imageName": "TourDeZwift2023_thumb"
+  },
+  {
     "id": 298968645,
     "name": "VW",
     "imageName": "VW_2015_thumb"
@@ -2733,6 +2738,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "TrekFactoryRacingWomensMTB2020_thumb"
   },
   {
+    "id": 2911779990,
+    "name": "2022 Rapha Festive 500",
+    "imageName": "RaphaFestive5002022_thumb"
+  },
+  {
     "id": 2918338388,
     "name": "Vox Women 2019",
     "imageName": "VoxWomen2019_thumb"
@@ -3918,6 +3928,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "TeamKalas2020_thumb"
   },
   {
+    "id": 4058671073,
+    "name": "22-'23 ZFondo Bambino",
+    "imageName": "ZFondoBambino2023_thumb"
+  },
+  {
     "id": 4065189818,
     "name": "Z Fondo March",
     "imageName": "ZFondo2020Mar_thumb"
@@ -3998,6 +4013,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "imageName": "DutchNational_thumb"
   },
   {
+    "id": 4113146346,
+    "name": "22-'23 ZFondo Gran",
+    "imageName": "ZFondoGran2023_thumb"
+  },
+  {
     "id": 4113250696,
     "name": "Team Zoot 2022",
     "imageName": "TeamZoot2022_thumb"
@@ -4026,6 +4046,11 @@ export const jerseys: ReadonlyArray<Jersey> = [
     "id": 4137478375,
     "name": "KOM",
     "imageName": "KOM_01"
+  },
+  {
+    "id": 4140697669,
+    "name": "22-'23 ZFondo Medio",
+    "imageName": "ZFondoMedio2023_thumb"
   },
   {
     "id": 4143072100,

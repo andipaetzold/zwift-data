@@ -258,6 +258,11 @@ export const socks: ReadonlyArray<Sock> = [
     "imageName": "TealPink2020"
   },
   {
+    "id": 2217505987,
+    "name": "Tour de Zwift 2023",
+    "imageName": "TourDeZwift2023"
+  },
+  {
     "id": 2218100751,
     "name": "Tour de Zwift 2022 Run Socks",
     "imageName": "Socks_TourDeZwiftRun2022"

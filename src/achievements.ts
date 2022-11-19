@@ -901,5 +901,45 @@ export const achievements: ReadonlyArray<Achievement> = [
     "id": 186,
     "name": "SPLASH AND DASH",
     "imageName": "RouteComplete"
+  },
+  {
+    "id": 194,
+    "name": "MECH ISLE LOOP",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 195,
+    "name": "BRIDGES AND BOARDWALKS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 196,
+    "name": "ISLAND HOPPER",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 197,
+    "name": "FINE AND SANDY",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 198,
+    "name": "ISLAND OUTSKIRTS",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 199,
+    "name": "MAKURI 40",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 200,
+    "name": "COUNTRY TO COASTAL",
+    "imageName": "RouteComplete"
+  },
+  {
+    "id": 201,
+    "name": "TURF N SURF",
+    "imageName": "RouteComplete"
   }
 ];
