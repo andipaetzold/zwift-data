@@ -1,280 +1,69 @@
 import { BikeRearWheel } from "./types";
 
-// prettier-ignore
-export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = [
-  {
-    "id": 59917648,
-    "name": "Roval CLX64",
-    "imageName": "Wheel_SpecializedRovalCLX64"
-  },
-  {
-    "id": 214800767,
-    "name": "Zipp 808",
-    "imageName": "Wheel_Zipp808Firecrest"
-  },
-  {
-    "id": 345690674,
-    "name": "Zwift Zwift Trike",
-    "imageName": "Wheel_ZwiftBW"
-  },
-  {
-    "id": 393022867,
-    "name": "Zipp 808/Super9",
-    "imageName": "Wheel_ZippDisc"
-  },
-  {
-    "id": 413360396,
-    "name": "Mavic Cosmic Ultimate UST",
-    "imageName": "Wheel_MavicCosmicUltUST"
-  },
-  {
-    "id": 413430806,
-    "name": "Zwift Zwift BW Concept Rear Wheel",
-    "imageName": "Wheel_ZwiftBW"
-  },
-  {
-    "id": 461030369,
-    "name": "Zipp 454",
-    "imageName": "Wheel_Zipp454"
-  },
-  {
-    "id": 530549195,
-    "name": "Shimano C40",
-    "imageName": "Wheel_ShimanoDuraAceC40"
-  },
-  {
-    "id": 705669234,
-    "name": "Zwift Plain",
-    "imageName": "Wheel_ZwiftPlain"
-  },
-  {
-    "id": 881139533,
-    "name": "Zipp 858",
-    "imageName": "Wheel_Zipp858"
-  },
-  {
-    "id": 886534142,
-    "name": "Enve SES 7.8",
-    "imageName": "Wheel_Enve78"
-  },
-  {
-    "id": 961116451,
-    "name": "Zwift Concept",
-    "imageName": "Wheel_ZwiftConcept"
-  },
-  {
-    "id": 1023074440,
-    "name": "Giant SLR 0",
-    "imageName": "Wheel_AdvancedPropel"
-  },
-  {
-    "id": 1207119882,
-    "name": "Shimano C60",
-    "imageName": "Wheel_ShimanoDuraAceC60"
-  },
-  {
-    "id": 1248620278,
-    "name": "Cadex CADEX AR 35",
-    "imageName": "Wheel_CadexAR35"
-  },
-  {
-    "id": 1347687916,
-    "name": "Cadex CADEX 42",
-    "imageName": "Wheel_Cadex42"
-  },
-  {
-    "id": 1437212052,
-    "name": "Zwift Classic",
-    "imageName": "Wheel_ZwiftClassic"
-  },
-  {
-    "id": 1547965258,
-    "name": "Zwift Zwift Bat Wheel",
-    "imageName": ""
-  },
-  {
-    "id": 1614586487,
-    "name": "Campagnolo Bora Ultra 35",
-    "imageName": "Wheel_BoraUltra35"
-  },
-  {
-    "id": 1694719327,
-    "name": "Enve G23",
-    "imageName": "Wheel_EnveG23"
-  },
-  {
-    "id": 1758560098,
-    "name": "Zipp 858/Super9",
-    "imageName": "Wheel_ZippZwift858"
-  },
-  {
-    "id": 1796445915,
-    "name": "Zwift Mountain",
-    "imageName": ""
-  },
-  {
-    "id": 1842698274,
-    "name": "Reserve Reserve 25 GR",
-    "imageName": "Wheel_Reserve25GR"
-  },
-  {
-    "id": 1847864599,
-    "name": "Zipp 202",
-    "imageName": "Wheel_Zipp202Firecrest"
-  },
-  {
-    "id": 1848192392,
-    "name": "Zwift 50mm Carbon",
-    "imageName": "Wheel_CampagnoloHigh"
-  },
-  {
-    "id": 1856021360,
-    "name": "Campagnolo Bora Ultra 50",
-    "imageName": "Wheel_BoraUltra50"
-  },
-  {
-    "id": 1887739925,
-    "name": "Cadex 36",
-    "imageName": "Wheel_Cadex36"
-  },
-  {
-    "id": 1965395406,
-    "name": "Zwift Zwift Skeletal",
-    "imageName": ""
-  },
-  {
-    "id": 2019751723,
-    "name": "Zipp 353 NSW",
-    "imageName": "Wheel_Zipp353"
-  },
-  {
-    "id": 2026413230,
-    "name": "Enve SES 6.7",
-    "imageName": "Wheel_Enve67"
-  },
-  {
-    "id": 2049111692,
-    "name": "DTSwiss ARC 1100 DICUT 62",
-    "imageName": "Wheel_DTSwissARC62"
-  },
-  {
-    "id": 2235474271,
-    "name": "Roval Alpinist CLX",
-    "imageName": "Wheel_RovalAlpinistCLX"
-  },
-  {
-    "id": 2402320131,
-    "name": "Enve SES 8.9",
-    "imageName": "Wheel_Enve89"
-  },
-  {
-    "id": 2506347267,
-    "name": "Zwift Supersonic Wheelset",
-    "imageName": "Wheel_ZwiftFunIsFast"
-  },
-  {
-    "id": 2602078812,
-    "name": "Zwift Handcycle",
-    "imageName": "Wheel_CampagnoloHigh"
-  },
-  {
-    "id": 2649189525,
-    "name": "Enve SES 2.2",
-    "imageName": "Wheel_Enve22"
-  },
-  {
-    "id": 2771477956,
-    "name": "Zwift Gravel",
-    "imageName": "Wheel_ZwiftGravel"
-  },
-  {
-    "id": 2783190436,
-    "name": "DTSwiss ARC 1100 DICUT DISC",
-    "imageName": "Wheel_DTSwissARC1100AeroTT"
-  },
-  {
-    "id": 2913819265,
-    "name": "HED HED Vanquish RC6 Pro",
-    "imageName": "Wheel_VanquishRC6"
-  },
-  {
-    "id": 3309968019,
-    "name": "Zwift Buffalo Fahrrad",
-    "imageName": "Wheel_BuffaloFahrrad"
-  },
-  {
-    "id": 3454205320,
-    "name": "Roval Terra CLX",
-    "imageName": "Wheel_RovalTerraCLX"
-  },
-  {
-    "id": 3473846672,
-    "name": "Zwift Safety",
-    "imageName": "Wheel_ZwiftSafety"
-  },
-  {
-    "id": 3548735686,
-    "name": "Roval Rapide CLX",
-    "imageName": "Wheel_RovalRapide"
-  },
-  {
-    "id": 3594144634,
-    "name": "Bontrager Aeolus5",
-    "imageName": "Wheel_Bontrager"
-  },
-  {
-    "id": 3659884507,
-    "name": "Lightweight Lightweight Meilenstein",
-    "imageName": "Wheel_LightweightMeilenstein"
-  },
-  {
-    "id": 3725678091,
-    "name": "Shimano C50",
-    "imageName": "Wheel_ShimanoDuraAceC50"
-  },
-  {
-    "id": 3835575171,
-    "name": "Enve SES 3.4",
-    "imageName": "Wheel_Enve35"
-  },
-  {
-    "id": 3940857684,
-    "name": "Cadex CADEX 65",
-    "imageName": "Wheel_Cadex65"
-  },
-  {
-    "id": 4001596344,
-    "name": "Mavic Comete Pro Carbon SL UST",
-    "imageName": "Wheel_MavicCometeProCarbonSLUST"
-  },
-  {
-    "id": 4064842315,
-    "name": "Mavic Cosmic CXR60c",
-    "imageName": "Wheel_MavicCosmicCXR60c"
-  },
-  {
-    "id": 4111310185,
-    "name": "Zwift 8-Bit",
-    "imageName": ""
-  },
-  {
-    "id": 4137014419,
-    "name": "Zwift 32mm Carbon",
-    "imageName": "Wheel_CampagnoloLow"
-  },
-  {
-    "id": 4151096267,
-    "name": "FFWD RYOT55",
-    "imageName": "Wheel_FFWDRYOT55"
-  },
-  {
-    "id": 4182312168,
-    "name": "Novatec Novatec R4",
-    "imageName": "Wheel_NovatecR4"
-  },
-  {
-    "id": 4183014640,
-    "name": "Zipp 404",
-    "imageName": "Wheel_Zipp404Firecrest"
-  }
-];
+export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
+  [
+    [59917648, "Roval CLX64", "Wheel_SpecializedRovalCLX64"],
+    [214800767, "Zipp 808", "Wheel_Zipp808Firecrest"],
+    [345690674, "Zwift Zwift Trike", "Wheel_ZwiftBW"],
+    [393022867, "Zipp 808/Super9", "Wheel_ZippDisc"],
+    [413360396, "Mavic Cosmic Ultimate UST", "Wheel_MavicCosmicUltUST"],
+    [413430806, "Zwift Zwift BW Concept Rear Wheel", "Wheel_ZwiftBW"],
+    [461030369, "Zipp 454", "Wheel_Zipp454"],
+    [530549195, "Shimano C40", "Wheel_ShimanoDuraAceC40"],
+    [705669234, "Zwift Plain", "Wheel_ZwiftPlain"],
+    [881139533, "Zipp 858", "Wheel_Zipp858"],
+    [886534142, "Enve SES 7.8", "Wheel_Enve78"],
+    [961116451, "Zwift Concept", "Wheel_ZwiftConcept"],
+    [1023074440, "Giant SLR 0", "Wheel_AdvancedPropel"],
+    [1207119882, "Shimano C60", "Wheel_ShimanoDuraAceC60"],
+    [1248620278, "Cadex CADEX AR 35", "Wheel_CadexAR35"],
+    [1347687916, "Cadex CADEX 42", "Wheel_Cadex42"],
+    [1437212052, "Zwift Classic", "Wheel_ZwiftClassic"],
+    [1547965258, "Zwift Zwift Bat Wheel", ""],
+    [1614586487, "Campagnolo Bora Ultra 35", "Wheel_BoraUltra35"],
+    [1694719327, "Enve G23", "Wheel_EnveG23"],
+    [1758560098, "Zipp 858/Super9", "Wheel_ZippZwift858"],
+    [1796445915, "Zwift Mountain", ""],
+    [1842698274, "Reserve Reserve 25 GR", "Wheel_Reserve25GR"],
+    [1847864599, "Zipp 202", "Wheel_Zipp202Firecrest"],
+    [1848192392, "Zwift 50mm Carbon", "Wheel_CampagnoloHigh"],
+    [1856021360, "Campagnolo Bora Ultra 50", "Wheel_BoraUltra50"],
+    [1887739925, "Cadex 36", "Wheel_Cadex36"],
+    [1965395406, "Zwift Zwift Skeletal", ""],
+    [2019751723, "Zipp 353 NSW", "Wheel_Zipp353"],
+    [2026413230, "Enve SES 6.7", "Wheel_Enve67"],
+    [2049111692, "DTSwiss ARC 1100 DICUT 62", "Wheel_DTSwissARC62"],
+    [2235474271, "Roval Alpinist CLX", "Wheel_RovalAlpinistCLX"],
+    [2402320131, "Enve SES 8.9", "Wheel_Enve89"],
+    [2506347267, "Zwift Supersonic Wheelset", "Wheel_ZwiftFunIsFast"],
+    [2602078812, "Zwift Handcycle", "Wheel_CampagnoloHigh"],
+    [2649189525, "Enve SES 2.2", "Wheel_Enve22"],
+    [2771477956, "Zwift Gravel", "Wheel_ZwiftGravel"],
+    [2783190436, "DTSwiss ARC 1100 DICUT DISC", "Wheel_DTSwissARC1100AeroTT"],
+    [2913819265, "HED HED Vanquish RC6 Pro", "Wheel_VanquishRC6"],
+    [3309968019, "Zwift Buffalo Fahrrad", "Wheel_BuffaloFahrrad"],
+    [3454205320, "Roval Terra CLX", "Wheel_RovalTerraCLX"],
+    [3473846672, "Zwift Safety", "Wheel_ZwiftSafety"],
+    [3548735686, "Roval Rapide CLX", "Wheel_RovalRapide"],
+    [3594144634, "Bontrager Aeolus5", "Wheel_Bontrager"],
+    [
+      3659884507,
+      "Lightweight Lightweight Meilenstein",
+      "Wheel_LightweightMeilenstein",
+    ],
+    [3725678091, "Shimano C50", "Wheel_ShimanoDuraAceC50"],
+    [3835575171, "Enve SES 3.4", "Wheel_Enve35"],
+    [3940857684, "Cadex CADEX 65", "Wheel_Cadex65"],
+    [
+      4001596344,
+      "Mavic Comete Pro Carbon SL UST",
+      "Wheel_MavicCometeProCarbonSLUST",
+    ],
+    [4064842315, "Mavic Cosmic CXR60c", "Wheel_MavicCosmicCXR60c"],
+    [4111310185, "Zwift 8-Bit", ""],
+    [4137014419, "Zwift 32mm Carbon", "Wheel_CampagnoloLow"],
+    [4151096267, "FFWD RYOT55", "Wheel_FFWDRYOT55"],
+    [4182312168, "Novatec Novatec R4", "Wheel_NovatecR4"],
+    [4183014640, "Zipp 404", "Wheel_Zipp404Firecrest"],
+  ] as const
+).map(([id, name, imageName]) => ({ id, name, imageName }));

@@ -1,20 +1,9 @@
 import { Challenge } from "./types";
 
-// prettier-ignore
-export const challenges: ReadonlyArray<Challenge> = [
-  {
-    "id": 1231,
-    "name": "CLIMB MT.EVEREST",
-    "imageName": "CLIMB_MT_EVEREST"
-  },
-  {
-    "id": 1234153,
-    "name": "RIDE CALIFORNIA",
-    "imageName": "RIDE_CALIFORNIA"
-  },
-  {
-    "id": 15313453,
-    "name": "TOUR ITALY",
-    "imageName": "TOUR_ITALY"
-  }
-];
+export const challenges: ReadonlyArray<Challenge> = (
+  [
+    [1231, "CLIMB MT.EVEREST", "CLIMB_MT_EVEREST"],
+    [1234153, "RIDE CALIFORNIA", "RIDE_CALIFORNIA"],
+    [15313453, "TOUR ITALY", "TOUR_ITALY"],
+  ] as const
+).map(([id, name, imageName]) => ({ id, name, imageName }));

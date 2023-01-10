@@ -1,53 +1,18 @@
 import { UnlockableCategory } from "./types";
 
-// prettier-ignore
-export const unlockableCategories: ReadonlyArray<UnlockableCategory> = [
-  {
-    "id": 0,
-    "name": "CYCLING_BIKE"
-  },
-  {
-    "id": 1,
-    "name": "CYCLING_JERSEY"
-  },
-  {
-    "id": 2,
-    "name": "CYCLING_WHEELS"
-  },
-  {
-    "id": 3,
-    "name": "CYCLING_PAINTJOB"
-  },
-  {
-    "id": 4,
-    "name": "CYCLING_HEADGEAR"
-  },
-  {
-    "id": 5,
-    "name": "CYCLING_SHOES"
-  },
-  {
-    "id": 6,
-    "name": "CYCLING_GLOVES"
-  },
-  {
-    "id": 7,
-    "name": "RUNNING_HEADGEAR"
-  },
-  {
-    "id": 8,
-    "name": "RUNNING_SHOES"
-  },
-  {
-    "id": 9,
-    "name": "RUNNING_KIT"
-  },
-  {
-    "id": 10,
-    "name": "SOCKS"
-  },
-  {
-    "id": 11,
-    "name": "EYEWEAR"
-  }
-];
+export const unlockableCategories: ReadonlyArray<UnlockableCategory> = (
+  [
+    [0, "CYCLING_BIKE"],
+    [1, "CYCLING_JERSEY"],
+    [2, "CYCLING_WHEELS"],
+    [3, "CYCLING_PAINTJOB"],
+    [4, "CYCLING_HEADGEAR"],
+    [5, "CYCLING_SHOES"],
+    [6, "CYCLING_GLOVES"],
+    [7, "RUNNING_HEADGEAR"],
+    [8, "RUNNING_SHOES"],
+    [9, "RUNNING_KIT"],
+    [10, "SOCKS"],
+    [11, "EYEWEAR"],
+  ] as const
+).map(([id, name]) => ({ id, name }));

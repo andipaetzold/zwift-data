@@ -1,130 +1,31 @@
 import { Glass } from "./types";
 
-// prettier-ignore
-export const glasses: ReadonlyArray<Glass> = [
-  {
-    "id": 258033368,
-    "name": "April Fools",
-    "imageName": "Glasses_TealPink2020Glasses02_thumb"
-  },
-  {
-    "id": 478032186,
-    "name": "Oakley Radar",
-    "imageName": "Glasses_Original"
-  },
-  {
-    "id": 817902595,
-    "name": "Wave Wearers",
-    "imageName": "Glasses_Generic01"
-  },
-  {
-    "id": 821811498,
-    "name": "Goodr",
-    "imageName": "Glasses_Goodr_thumb"
-  },
-  {
-    "id": 1163597738,
-    "name": "Rearview Mirror Glasses",
-    "imageName": "Glasses_RearView"
-  },
-  {
-    "id": 1220623368,
-    "name": "1980s",
-    "imageName": "Glasses_TealPink2020Glasses02_thumb"
-  },
-  {
-    "id": 1225125243,
-    "name": "None",
-    "imageName": "none"
-  },
-  {
-    "id": 1241540451,
-    "name": "Top Guns",
-    "imageName": "Glasses_Generic03"
-  },
-  {
-    "id": 1541295082,
-    "name": "Zwift Glasses #1",
-    "imageName": "Glasses_Generic04"
-  },
-  {
-    "id": 1725649243,
-    "name": "Roka GP-1x",
-    "imageName": "Glasses_Roka01"
-  },
-  {
-    "id": 1859702145,
-    "name": "Oakley Flight Jacket",
-    "imageName": "Glasses_ZA2018Womens"
-  },
-  {
-    "id": 1988601419,
-    "name": "Tour de Zwift 2022 Sunglasses",
-    "imageName": "Glasses_TdZGlasses2021"
-  },
-  {
-    "id": 2002800339,
-    "name": "Weskers",
-    "imageName": "Glasses_Generic02"
-  },
-  {
-    "id": 2106991204,
-    "name": "Oakley Flight Jacket",
-    "imageName": "Glasses_RideWithReason2018"
-  },
-  {
-    "id": 2289830259,
-    "name": "Retro 80's",
-    "imageName": "Glasses_80sGlasses"
-  },
-  {
-    "id": 2344157440,
-    "name": "Oakley Flight Jacket",
-    "imageName": "Glasses_ZA2018Mens"
-  },
-  {
-    "id": 2364395919,
-    "name": "ZRS Glasses 2",
-    "imageName": "Glasses_ZRS2021Glasses02"
-  },
-  {
-    "id": 2472441074,
-    "name": "POC Clarity Aspire",
-    "imageName": "Glasses_POCClarityAspire"
-  },
-  {
-    "id": 2628706018,
-    "name": "Tour of Makuri Islands",
-    "imageName": "Glasses_TourOfMakuri2022"
-  },
-  {
-    "id": 2978871359,
-    "name": "ZRS Glasses 3",
-    "imageName": "Glasses_ZRS2021Glasses03"
-  },
-  {
-    "id": 3027735239,
-    "name": "Vintage Goggles",
-    "imageName": "Glasses_Goggles"
-  },
-  {
-    "id": 3309343427,
-    "name": "Rockstar",
-    "imageName": "Glasses_Generic06"
-  },
-  {
-    "id": 3410864991,
-    "name": "ZRS Glasses 1",
-    "imageName": "Glasses_ZRS2021Glasses01"
-  },
-  {
-    "id": 3987516741,
-    "name": "Race Trap",
-    "imageName": "Glasses_100RaceTrap"
-  },
-  {
-    "id": 4162894707,
-    "name": "Oversize",
-    "imageName": "Glasses_Generic05"
-  }
-];
+export const glasses: ReadonlyArray<Glass> = (
+  [
+    [258033368, "April Fools", "Glasses_TealPink2020Glasses02_thumb"],
+    [478032186, "Oakley Radar", "Glasses_Original"],
+    [817902595, "Wave Wearers", "Glasses_Generic01"],
+    [821811498, "Goodr", "Glasses_Goodr_thumb"],
+    [1163597738, "Rearview Mirror Glasses", "Glasses_RearView"],
+    [1220623368, "1980s", "Glasses_TealPink2020Glasses02_thumb"],
+    [1225125243, "None", "none"],
+    [1241540451, "Top Guns", "Glasses_Generic03"],
+    [1541295082, "Zwift Glasses #1", "Glasses_Generic04"],
+    [1725649243, "Roka GP-1x", "Glasses_Roka01"],
+    [1859702145, "Oakley Flight Jacket", "Glasses_ZA2018Womens"],
+    [1988601419, "Tour de Zwift 2022 Sunglasses", "Glasses_TdZGlasses2021"],
+    [2002800339, "Weskers", "Glasses_Generic02"],
+    [2106991204, "Oakley Flight Jacket", "Glasses_RideWithReason2018"],
+    [2289830259, "Retro 80's", "Glasses_80sGlasses"],
+    [2344157440, "Oakley Flight Jacket", "Glasses_ZA2018Mens"],
+    [2364395919, "ZRS Glasses 2", "Glasses_ZRS2021Glasses02"],
+    [2472441074, "POC Clarity Aspire", "Glasses_POCClarityAspire"],
+    [2628706018, "Tour of Makuri Islands", "Glasses_TourOfMakuri2022"],
+    [2978871359, "ZRS Glasses 3", "Glasses_ZRS2021Glasses03"],
+    [3027735239, "Vintage Goggles", "Glasses_Goggles"],
+    [3309343427, "Rockstar", "Glasses_Generic06"],
+    [3410864991, "ZRS Glasses 1", "Glasses_ZRS2021Glasses01"],
+    [3987516741, "Race Trap", "Glasses_100RaceTrap"],
+    [4162894707, "Oversize", "Glasses_Generic05"],
+  ] as const
+).map(([id, name, imageName]) => ({ id, name, imageName }));
