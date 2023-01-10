@@ -1,3 +1,10 @@
+## [1.20.2-next.1](https://github.com/andipaetzold/zwift-data/compare/v1.20.1...v1.20.2-next.1) (2023-01-10)
+
+
+### Bug Fixes
+
+* reduce package size ([79ef9f7](https://github.com/andipaetzold/zwift-data/commit/79ef9f7567134faeaecfae9bd774f8c79c68bdf9))
+
 ## [1.20.1](https://github.com/andipaetzold/zwift-data/compare/v1.20.0...v1.20.1) (2022-11-19)
 
 
