@@ -1,3 +1,11 @@
+## [1.20.2](https://github.com/andipaetzold/zwift-data/compare/v1.20.1...v1.20.2) (2023-01-13)
+
+
+### Bug Fixes
+
+* reduce package size ([79ef9f7](https://github.com/andipaetzold/zwift-data/commit/79ef9f7567134faeaecfae9bd774f8c79c68bdf9))
+* typo in slug of "Downtown Titans" ([667694f](https://github.com/andipaetzold/zwift-data/commit/667694ff16fb530b5d8659155113d7d0f004f3dd))
+
 ## [1.20.2-next.1](https://github.com/andipaetzold/zwift-data/compare/v1.20.1...v1.20.2-next.1) (2023-01-10)
 
 
