@@ -1648,7 +1648,7 @@ export const routes = [
   },
   {
     id: 5745690,
-    slug: "downdown-titans",
+    slug: "downtown-titans",
     segments: [],
   },
   {
@@ -1818,11 +1818,7 @@ export const routes = [
   {
     id: 2140131142,
     slug: "island-hopper",
-    segments: [
-      "boardwalk-sprint",
-      "tidepool-sprint",
-      "shisa-sprint-rev",
-    ],
+    segments: ["boardwalk-sprint", "tidepool-sprint", "shisa-sprint-rev"],
     stravaSegmentId: 33236919,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/island-hopper",

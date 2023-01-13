@@ -32,7 +32,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       5745690,
       "Downtown Titans",
-      "downdown-titans",
+      "downtown-titans",
       "watopia",
       false,
       24.645,
