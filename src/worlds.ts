@@ -111,4 +111,14 @@ export const worlds: ReadonlyArray<World> = [
     ],
     imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Champs.png",
   },
+  {
+    id: 13,
+    name: "Scotland",
+    slug: "scotland",
+    bounds: [
+      [0, 0],
+      [0, 0],
+    ],
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Scotland.png",
+  },
 ];

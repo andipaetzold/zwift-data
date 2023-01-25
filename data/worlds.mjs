@@ -54,4 +54,9 @@ export const worlds = [
     slug: "france",
     imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_France.png",
   },
+  {
+    gameDictionary: "SCOTLAND",
+    slug: "scotland",
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Scotland.png",
+  },
 ];
