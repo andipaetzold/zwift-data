@@ -4,6 +4,7 @@ export const trainingPlans: ReadonlyArray<TrainingPlan> = (
   [
     [23939648, "High-Mileage Half", "Wordmark_ZwiftInternal"],
     [142075445, "CRIT Crusher", "Wordmark_CritCrusher"],
+    [147262524, "Build Me Up Lite", "Wordmark_BuildMeUp"],
     [160527161, "Zwift Racing", "Wordmark_ZwiftRacing"],
     [359714946, "Dirt Destroyer", "Wordmark_DirtDestroyer"],
     [622710059, "ZWIFT 101: Running", "Wordmark_101run"],
@@ -15,6 +16,7 @@ export const trainingPlans: ReadonlyArray<TrainingPlan> = (
     [1160472062, "Build Me Up", "Wordmark_BuildMeUp"],
     [1200543035, "3 Run 13.1", "Wordmark_3x13.1"],
     [1499915840, "ZWIFT 101: CYCLING", "Wordmark_101cycle"],
+    [1518164201, "Fast Track Fitness", "wordmark_fasttrackfitness"],
     [1803127634, "FTP Builder", "Wordmark_FTPBuilder"],
     [1933759722, "Back to Fitness", "Wordmark_BacktoFitness_Cycling"],
     [1979360334, "PRL46 2019", "Wordmark_PRL46"],
