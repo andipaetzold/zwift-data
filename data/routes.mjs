@@ -1833,4 +1833,55 @@ export const routes = [
       "https://whatsonzwift.com/world/makuri-islands/route/turf-n-surf",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/turf-n-surf",
   },
+  {
+    id: 4107749591,
+    slug: "city-and-the-sgurr",
+    segments: ["sgurr-summit-south", "sgurr-summit-north"],
+    stravaSegmentId: 33635722,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/city-and-the-sgurr",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/city-and-the-sgurr",
+  },
+  {
+    id: 3765339356,
+    slug: "glasgow-crit-circuit",
+    segments: ["the-clyde-kicker", "champions-sprint"],
+    stravaSegmentId: 33620076,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/glasgow-crit-circuit",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/glasgow-crit-circuit",
+  },
+  {
+    id: 742057576,
+    slug: "loch-loop",
+    segments: ["breakaway-brae-rev"],
+    stravaSegmentId: 33636526,
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/scotland/route/loch-loop",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/loch-loop",
+  },
+  {
+    id: 46799750,
+    slug: "rolling-highlands",
+    segments: ["breakaway-brae-rev"],
+    stravaSegmentId: 33620176,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/rolling-highlands",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/rolling-highlands",
+  },
+  {
+    id: 3662705581,
+    slug: "the-muckle-yin",
+    segments: [
+      "breakaway-brae",
+      "sgurr-summit-north",
+      "breakaway-brae-rev",
+      "sgurr-summit-south",
+      "the-clyde-kicker",
+      "champions-sprint",
+    ],
+    stravaSegmentId: 33636050,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/the-muckle-yin",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/the-muckle-yin",
+  },
 ];

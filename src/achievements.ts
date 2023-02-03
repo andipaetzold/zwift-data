@@ -190,5 +190,14 @@ export const achievements: ReadonlyArray<Achievement> = (
     [199, "MAKURI 40", "RouteComplete"],
     [200, "COUNTRY TO COASTAL", "RouteComplete"],
     [201, "TURF N SURF", "RouteComplete"],
+    [202, "LA REINE", "RouteComplete"],
+    [203, "GOTHAM GRIND", "RouteComplete"],
+    [204, "WATOPIAS WAISTBAND", "RouteComplete"],
+    [205, "RICHMOND UCI REVERSE", "RouteComplete"],
+    [206, "ROLLING HIGHLANDS", "RouteComplete"],
+    [207, "CITY AND THE SGURR", "RouteComplete"],
+    [208, "GLASGOW CRIT CIRCUIT", "RouteComplete"],
+    [209, "LOCH LOOP", "RouteComplete"],
+    [210, "THE MUCKLE YIN", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

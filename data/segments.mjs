@@ -939,4 +939,80 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/country-sprint/reverse",
   },
+  {
+    name: "Sgurr Summit South",
+    slug: "sgurr-summit-south",
+    distance: 1,
+    avgIncline: 3.3,
+    type: "climb",
+    world: "scotland",
+    stravaSegmentId: 33636430,
+    stravaSegmentUrl: "https://www.strava.com/segments/33636430",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/segment/sgurr-summit-south/forward",
+  },
+  {
+    name: "Sgurr Summit North",
+    slug: "sgurr-summit-north",
+    distance: 1.6,
+    avgIncline: 3.7,
+    type: "climb",
+    world: "scotland",
+    stravaSegmentId: 33636401,
+    stravaSegmentUrl: "https://www.strava.com/segments/33636401",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/segment/sgurr-summit-north/reverse",
+  },
+  {
+    name: "The Clyde Kicker",
+    slug: "the-clyde-kicker",
+    distance: 0.3,
+    avgIncline: 3.6,
+    type: "climb",
+    world: "scotland",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/segment/the-clyde-kicker/forward",
+  },
+  {
+    name: "Champion's Sprint",
+    slug: "champions-sprint",
+    distance: 0.2,
+    type: "sprint",
+    world: "scotland",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/segment/champion-s-sprint/forward",
+  },
+  {
+    name: "Breakaway Brae",
+    slug: "breakaway-brae",
+    distance: 0.45,
+    avgIncline: 2,
+    type: "sprint",
+    world: "scotland",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/segment/breakaway-brae/forward",
+  },
+  {
+    name: "Breakaway Brae Rev.",
+    slug: "breakaway-brae-rev",
+    distance: 0.62,
+    avgIncline: 2.4,
+    type: "sprint",
+    world: "scotland",
+    stravaSegmentId: 33620168,
+    stravaSegmentUrl: "https://www.strava.com/segments/33620168",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/segment/breakaway-brae-reverse/reverse",
+  },
+  {
+    name: "Loch Loop Rev.",
+    slug: "loch-loop-rev",
+    distance: 8.06,
+    type: "segment",
+    world: "scotland",
+    stravaSegmentId: 33620222,
+    stravaSegmentUrl: "https://www.strava.com/segments/33620222",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/segment/loch-loop-reverse/reverse",
+  },
 ];

@@ -9,11 +9,19 @@ import { fetchSegments } from "./fetch-segments.mjs";
 
 export async function updateData() {
   const response = await fetch(
-    "https://www.zwift.com/zwift-web-pages/gamedictionaryextended"
+    "https://www.zwift.com/zwift-web-pages/gamedictionary"
   );
-
   const responseData = await response.json();
-
+  const responseExtendedData = Object.fromEntries(
+    Object.entries(responseData.GameDictionary).map(([key1, value1]) => [
+      key1,
+      {
+        [Object.keys(value1[0])[0]]: Object.values(value1[0])[0].map(
+          (value2) => value2.$
+        ),
+      },
+    ])
+  );
   const segmentsWithLatLng = await fetchSegments();
 
   // Segments
@@ -24,7 +32,7 @@ export async function updateData() {
   // Routes
   {
     const data = [];
-    for (const item of responseData.ROUTES.ROUTE) {
+    for (const item of responseExtendedData.ROUTES.ROUTE) {
       // skip until release or map bounds are available
       if (item.map === "GRAVEL MOUNTAIN") {
         continue;
@@ -95,7 +103,7 @@ export async function updateData() {
 
   // Achievements
   {
-    const data = responseData.ACHIEVEMENTS.ACHIEVEMENT.map((item) => ({
+    const data = responseExtendedData.ACHIEVEMENTS.ACHIEVEMENT.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -105,7 +113,7 @@ export async function updateData() {
 
   // Bike Frames
   {
-    const data = responseData.BIKEFRAMES.BIKEFRAME.map((item) => ({
+    const data = responseExtendedData.BIKEFRAMES.BIKEFRAME.map((item) => ({
       id: +item.signature,
       name: item.name,
       modelYear: item.modelYear === "0" ? undefined : +item.modelYear,
@@ -116,27 +124,31 @@ export async function updateData() {
 
   // Bike Front Wheels
   {
-    const data = responseData.BIKEFRONTWHEELS.BIKEFRONTWHEEL.map((item) => ({
-      id: +item.signature,
-      name: item.name,
-      imageName: item.imageName,
-    }));
+    const data = responseExtendedData.BIKEFRONTWHEELS.BIKEFRONTWHEEL.map(
+      (item) => ({
+        id: +item.signature,
+        name: item.name,
+        imageName: item.imageName,
+      })
+    );
     writeData(data, "bikeFrontWheels", "BikeFrontWheel");
   }
 
   // Bike Rear Wheels
   {
-    const data = responseData.BIKEREARWHEELS.BIKEREARWHEEL.map((item) => ({
-      id: +item.signature,
-      name: item.name,
-      imageName: item.imageName,
-    }));
+    const data = responseExtendedData.BIKEREARWHEELS.BIKEREARWHEEL.map(
+      (item) => ({
+        id: +item.signature,
+        name: item.name,
+        imageName: item.imageName,
+      })
+    );
     writeData(data, "bikeRearWheels", "BikeRearWheel");
   }
 
   // Bike Shoes
   {
-    const data = responseData.BIKESHOES.BIKESHOE.map((item) => ({
+    const data = responseExtendedData.BIKESHOES.BIKESHOE.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -146,7 +158,7 @@ export async function updateData() {
 
   // Challenges
   {
-    const data = responseData.CHALLENGES.CHALLENGE.map((item) => ({
+    const data = responseExtendedData.CHALLENGES.CHALLENGE.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -156,7 +168,7 @@ export async function updateData() {
 
   // Glasses
   {
-    const data = responseData.GLASSES.GLASS.map((item) => ({
+    const data = responseExtendedData.GLASSES.GLASS.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -166,7 +178,7 @@ export async function updateData() {
 
   // Headgear
   {
-    const data = responseData.HEADGEARS.HEADGEAR.map((item) => ({
+    const data = responseExtendedData.HEADGEARS.HEADGEAR.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -176,7 +188,7 @@ export async function updateData() {
 
   // Jerseys
   {
-    const data = responseData.JERSEYS.JERSEY.map((item) => ({
+    const data = responseExtendedData.JERSEYS.JERSEY.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -186,7 +198,7 @@ export async function updateData() {
 
   // Paint Jobs
   {
-    const data = responseData.PAINTJOBS.PAINTJOB.map((item) => ({
+    const data = responseExtendedData.PAINTJOBS.PAINTJOB.map((item) => ({
       id: +item.signature,
       name: item.name,
     }));
@@ -195,7 +207,7 @@ export async function updateData() {
 
   // Run Shirts
   {
-    const data = responseData.RUNSHIRTS.RUNSHIRT.map((item) => ({
+    const data = responseExtendedData.RUNSHIRTS.RUNSHIRT.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -205,7 +217,7 @@ export async function updateData() {
 
   // Run Shoes
   {
-    const data = responseData.RUNSHOES.RUNSHOE.map((item) => ({
+    const data = responseExtendedData.RUNSHOES.RUNSHOE.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -215,7 +227,7 @@ export async function updateData() {
 
   // Run Shorts
   {
-    const data = responseData.RUNSHORTS.RUNSHORT.map((item) => ({
+    const data = responseExtendedData.RUNSHORTS.RUNSHORT.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -225,7 +237,7 @@ export async function updateData() {
 
   // Socks
   {
-    const data = responseData.SOCKS.SOCK.map((item) => ({
+    const data = responseExtendedData.SOCKS.SOCK.map((item) => ({
       id: +item.signature,
       name: item.name,
       imageName: item.imageName,
@@ -235,35 +247,39 @@ export async function updateData() {
 
   // Training Plans
   {
-    const data = responseData.TRAINING_PLANS.TRAINING_PLAN.map((item) => ({
-      id: +item.signature,
-      name: item.name,
-      imageName: item.imageName,
-    }));
+    const data = responseExtendedData.TRAINING_PLANS.TRAINING_PLAN.map(
+      (item) => ({
+        id: +item.signature,
+        name: item.name,
+        imageName: item.imageName,
+      })
+    );
     writeData(data, "trainingPlans", "TrainingPlan");
   }
 
   // Notable Moment Types
   {
-    const data = responseData.NOTABLE_MOMENT_TYPES.NOTABLE_MOMENT_TYPE.map(
-      (item) => ({
-        id: +item.signature,
-        name: item.name,
-        imageName: item.imageName,
-        priority: +item.priority,
-      })
-    );
+    const data =
+      responseExtendedData.NOTABLE_MOMENT_TYPES.NOTABLE_MOMENT_TYPE.map(
+        (item) => ({
+          id: +item.signature,
+          name: item.name,
+          imageName: item.imageName,
+          priority: +item.priority,
+        })
+      );
     writeData(data, "notableMomentTypes", "NotableMomentType");
   }
 
   // Unlockable Categories
   {
-    const data = responseData.UNLOCKABLE_CATEGORIES.UNLOCKABLE_CATEGORY.map(
-      (item) => ({
-        id: +item.signature,
-        name: item.name,
-      })
-    );
+    const data =
+      responseExtendedData.UNLOCKABLE_CATEGORIES.UNLOCKABLE_CATEGORY.map(
+        (item) => ({
+          id: +item.signature,
+          name: item.name,
+        })
+      );
     writeData(data, "unlockableCategories", "UnlockableCategory");
   }
 }

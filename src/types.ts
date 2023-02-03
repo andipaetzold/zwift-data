@@ -38,6 +38,7 @@ export type WorldSlug =
   | "makuri-islands"
   | "new-york"
   | "richmond"
+  | "scotland"
   | "watopia"
   | "yorkshire";
 
