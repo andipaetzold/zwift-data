@@ -116,8 +116,8 @@ export const worlds: ReadonlyArray<World> = [
     name: "Scotland",
     slug: "scotland",
     bounds: [
-      [55.67595, -5.28053],
-      [55.6185, -5.17753],
+      [55.67595, -5.2802],
+      [55.61845, -5.17798],
     ],
     imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Scotland.png",
   },
