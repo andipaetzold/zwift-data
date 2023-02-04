@@ -1,3 +1,10 @@
+## [1.21.1](https://github.com/andipaetzold/zwift-data/compare/v1.21.0...v1.21.1) (2023-02-04)
+
+
+### Bug Fixes
+
+* adjust scotland bounds ([eca8918](https://github.com/andipaetzold/zwift-data/commit/eca8918cd3681199515502161ff7a44257e81f6c))
+
 # [1.21.0](https://github.com/andipaetzold/zwift-data/compare/v1.20.2...v1.21.0) (2023-02-03)
 
 
