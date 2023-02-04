@@ -34,7 +34,7 @@
     "@turf/turf": "6.5.0",
     "@types/jest": "26.0.23",
     "@types/lodash": "4.14.178",
-    "@types/node": "15.6.1",
+    "@types/node": "18.11.18",
     "jest": "27.0.3",
     "lodash": "4.17.21",
     "node-fetch": "3.1.0",
