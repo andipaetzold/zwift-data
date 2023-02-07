@@ -36,7 +36,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     [837111845, "Zwift Run Festival", "RunFestivalThumb"],
     [844694699, "ZSun", "ZSunRun2022_thumb"],
     [866715834, "ZRS Fall 2021 Shorts", "ZRS032021_thumb"],
-    [927838145, "Scotland Launch", "Scotland2023_thumb"],
+    [927838145, "Scotland Jersey", "Scotland2023_thumb"],
     [963884552, "MARATHON 20 PRIMEBLUE", "RFTO2021_thumb"],
     [1073721685, "US Military Endurance Sports", "USMES2021_thumb"],
     [1164162762, "Jan Frodeno Shorts", "JanFrodeno2019_thumb"],
