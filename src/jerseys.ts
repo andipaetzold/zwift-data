@@ -27,6 +27,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     ],
     [121390527, "Tour Of Watopia", "TourOfWatopia2019_thumb"],
     [
+      121442316,
+      "UCI Federation 2023 Hong Kong",
+      "UCIFederationHongKong2023_thumb",
+    ],
+    [
       122407386,
       "Specialized Bicycledelics Kit",
       "SpecializedBicycledelics2021_thumb",
@@ -46,6 +51,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
       "CastelliVirtualClimber_Light_thumb",
     ],
     [173668358, "Colombia Elite", "ColombiaFederation2020_thumb"],
+    [
+      177191477,
+      "UCI Federation 2023 Argentina",
+      "UCIFederationArgentina2023_thumb",
+    ],
     [179248736, "Echelon-Cannondale-4iiii", "EchelonCannondale2021_thumb"],
     [179750023, "Toyota", "Toyota2020_thumb"],
     [
@@ -151,6 +161,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [605422273, "Power Up", "PowerUp2020_thumb"],
     [608088435, "Garneau 2018", "Garneau2018_thumb"],
     [608333324, "France Elite", "FrenchFederationElite2020_thumb"],
+    [
+      612633962,
+      "UCI Federation 2023 Colombia",
+      "UCIBlackFlagColombia2023_thumb",
+    ],
     [
       614640035,
       "Super League Tri Arena Games - Green Jersey",
@@ -259,6 +274,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1022287351, "TIBCO-Silicon Valley Bank", "Tibco2020_thumb"],
     [1025753934, "Fight ALS", "AndreGreipel2019_thumb"],
     [1028356106, "AHDR Giant Bison", "AHDRGiantBison_thumb"],
+    [
+      1033566112,
+      "UCI Federation 2023 Czech Republic",
+      "UCIFederationCzechRepublic2023_thumb",
+    ],
     [1033576880, "Sub 8", "Sub82022_thumb"],
     [1040478737, "2XU Cycling", "2XUCycling2021_thumb"],
     [1055383332, "zFondo Mar 2021", "ZFondo2021Mar_thumb"],
@@ -274,7 +294,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1088165651, "Collins Cup USA", "CollinsCupRed2020_thumb"],
     [1092846644, "Zwift eFondo August", "Zwift_eFondo_Aug_thumb"],
     [1097944869, "Computrainer", "Computrainer_thumb"],
-    [1106501889, "Scotland Launch", "ScotlandKit2023_thumb"],
+    [1106501889, "Scotland Jersey", "ScotlandKit2023_thumb"],
     [1112024311, "UCI Federation 2023 Italy", "UCIFederationItaly2023_thumb"],
     [1126295234, "Specialized F", "SpecializedDolmansSLPro_thumb"],
     [1128201030, "Arkea", "ArkeaWomens2020_thumb"],
@@ -418,6 +438,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
       "SWE Cycling Member 2022",
       "SwedenFederationSupport2022_thumb",
     ],
+    [
+      1769856110,
+      "UCI Federation 2023 Germany",
+      "UCIFederationGermany2023_thumb",
+    ],
     [1771577861, "Rapha Womens 100 2022", "RaphaWomens1002022_thumb"],
     [1776034995, "Trek Segafredo Training", "TrekSegafredoTrain2022_thumb"],
     [1801600368, "Tour de Zwift 2021 Kit", "TourDeZwift2021_thumb"],
@@ -549,6 +574,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [2411973716, "ZFondo February 2022", "ZFondo202202_thumb"],
     [2414198484, "INEOS Energy Station", "INEOSEnergyStation2021_thumb"],
     [2418675542, "JLT Condor", "JLT_Condor_thumb"],
+    [
+      2419799133,
+      "UCI Federation 2023 Slovenia",
+      "UCIBlackFlagSlovenia2023_thumb",
+    ],
     [2422367611, "Precision Fuel & Hydration", "Precision2022_thumb"],
     [2422819298, "Eolo Kometa", "EoloKometa2021_thumb"],
     [2426765558, "Black Sheep Man Ride", "BlackSheepManRide2019_thumb"],

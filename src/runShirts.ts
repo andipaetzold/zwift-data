@@ -75,7 +75,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
       "Super League Tri Arena Games - White Jersey",
       "SLTRun2022white_thumb",
     ],
-    [1352916435, "Scotland Launch", "Scotland2023_thumb"],
+    [1352916435, "Scotland Jersey", "Scotland2023_thumb"],
     [1416964875, "Gosh", "Gosh2020_thumb"],
     [1434311728, "Zwift Academy 2023", "ZARun2022_thumb"],
     [1439027133, "Zwift Running Shirt 3", "Shirt03"],
