@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "glob": "^8.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "xml-js": "^1.6.11"
+  }
+}

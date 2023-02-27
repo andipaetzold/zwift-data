@@ -234,6 +234,19 @@ export interface Segment {
 
 export type SegmentType = "sprint" | "climb" | "segment";
 
+export interface Bike {
+  make: string;
+  name: string;
+  year?: number;
+  level: number; // negative for special cases like Tron bike
+  frameWeight: number;
+  frameCdA: number;
+  forkWeight?: number;
+  handlebarsWeight?: number;
+  crankWeight?: number;
+  rearDerailleurWeight?: number;
+}
+
 export interface BikeFrame {
   id: number;
   name: string;
