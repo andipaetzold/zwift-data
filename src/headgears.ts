@@ -140,7 +140,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3438211262, "Protone INEOS Grenadier", "ProtonKaskINEOS2021"],
     [3500373581, "2021 ZA Run Hat", "RunningCapZARun2021_thumb"],
     [3525135378, "2021 ZA Tri Hat Backwards", "BackwardsCapZARun2021_thumb"],
-    [3599973897, "Tour of Watopia 2023", "RunningCapTourOfWatopia2023_thumb"],
+    [
+      3599973897,
+      "LOC_RUNNING_HEADGEAR_RUNNINGCAPTOUROFWATOPIA2023_NAME",
+      "RunningCapTourOfWatopia2023_thumb",
+    ],
     [3630601017, "Giant Backwards Cap", "BackwardsCyclingCapGiant2022_thumb"],
     [3633294398, "ZA Tri Team Helmet 2020", "SpecializedZA2021"],
     [3644241871, "Rapha L'Etape", "CyclingCapRaphaLetape2019_thumb"],
