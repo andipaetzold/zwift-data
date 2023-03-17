@@ -1884,4 +1884,21 @@ export const routes = [
       "https://whatsonzwift.com/world/scotland/route/the-muckle-yin",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-muckle-yin",
   },
+  {
+    id: 2136907048,
+    slug: "france-classic-fondo",
+    segments: [
+      "pave-sprint",
+      "pave-sprint-rev",
+      "ballon-sprint",
+      "ballon-sprint-rev",
+      "aqueduc-kom",
+      "aqueduc-kom-rev",
+      "marina-sprint",
+      "marina-sprint-rev",
+      "petit-kom",
+    ],
+    stravaSegmentId: 33950833,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/france-classic-fondo/",
+  },
 ];
