@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/andipaetzold/zwift-data/compare/v1.22.0...v1.22.1) (2023-03-19)
+
+
+### Bug Fixes
+
+* update "France Classic Fondo" strava segment ([63298e2](https://github.com/andipaetzold/zwift-data/commit/63298e2aa01f5886692c94616c7e8314fc6b53ea))
+
 # [1.22.0](https://github.com/andipaetzold/zwift-data/compare/v1.21.3...v1.22.0) (2023-03-17)
 
 
