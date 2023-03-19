@@ -2399,9 +2399,9 @@ export const routes: ReadonlyArray<Route> = (
       true,
       ["running", "cycling"],
       undefined,
-      33950833,
-      "https://www.strava.com/segments/33950833",
-      "https://zwiftinsider.com/route/france-classic-fondo/",
+      33955609,
+      "https://www.strava.com/segments/33955609",
+      "https://zwiftinsider.com/route/france-classic-fondo",
       undefined,
     ],
     [

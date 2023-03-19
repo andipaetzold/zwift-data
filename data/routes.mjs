@@ -1898,7 +1898,7 @@ export const routes = [
       "marina-sprint-rev",
       "petit-kom",
     ],
-    stravaSegmentId: 33950833,
-    zwiftInsiderUrl: "https://zwiftinsider.com/route/france-classic-fondo/",
+    stravaSegmentId: 33955609,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/france-classic-fondo",
   },
 ];
