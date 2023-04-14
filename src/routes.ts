@@ -1418,7 +1418,7 @@ export const routes: ReadonlyArray<Route> = (
     ],
     [
       1327147942,
-      "2022 Gran Fondo",
+      "Zwift Gran Fondo 2022",
       "2022-gran-fondo",
       "watopia",
       true,
@@ -3511,7 +3511,7 @@ export const routes: ReadonlyArray<Route> = (
     ],
     [
       2900074211,
-      "2022 Medio Fondo",
+      "Zwift Medio Fondo 2022",
       "2022-medio-fondo",
       "watopia",
       true,
@@ -4203,7 +4203,7 @@ export const routes: ReadonlyArray<Route> = (
     ],
     [
       3368626651,
-      "2022 Bambino Fondo",
+      "Zwift Bambino Fondo 2022",
       "2022-bambino-fondo",
       "watopia",
       true,
