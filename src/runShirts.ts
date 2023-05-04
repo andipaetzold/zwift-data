@@ -165,6 +165,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     [2921978652, "Fluoro Tank Kit", "FluoroTank01_thumb"],
     [2944680840, "PRRC", "PRRC2019"],
     [2952889628, "ZRS Spring 2021 Shirt", "ZRS012021_thumb"],
+    [3049937097, "Pride 2023 Running Shirt", "PrideOn2023_thumb"],
     [3052272503, "Hilltop Hustle", "HilltopHustle2019"],
     [3075910280, "Tour de Zwift 2021 Run Shirt", "TourDeZwiftRun2021_thumb"],
     [3153648945, "Zwift Running Camo Green Shirt", "ShirtCamoGreen"],
