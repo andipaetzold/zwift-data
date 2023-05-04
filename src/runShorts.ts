@@ -73,6 +73,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     [2081362761, "Women's Run Series 2022", "ZwiftWomensRun2022_thumb"],
     [2127809752, "2022 adidas RFTO", "RFTO2022_thumb"],
     [2226846384, "Zwift Running Shorts 12", "Shorts12"],
+    [2264041042, "Pride 2023 Running Shorts", "PrideOn2023_thumb"],
     [2265184990, "ZRL Helsinki Run Shorts", "ZRLHelsinki2022_thumb"],
     [
       2337665662,
