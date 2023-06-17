@@ -1901,4 +1901,12 @@ export const routes = [
     stravaSegmentId: 33955609,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/france-classic-fondo",
   },
+  {
+    id: 762747962,
+    slug: "repack-rush",
+    segments: [],
+    stravaSegmentId: 34612602,
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/repack-rush",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/repack-rush",
+  },
 ];
