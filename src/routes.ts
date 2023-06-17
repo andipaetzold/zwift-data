@@ -842,7 +842,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       762747962,
       "Repack Rush",
-      "762747962",
+      "repack-rush",
       "watopia",
       true,
       2.776,
@@ -861,10 +861,10 @@ export const routes: ReadonlyArray<Route> = (
       false,
       ["running", "cycling"],
       56,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
+      34612602,
+      "https://www.strava.com/segments/34612602",
+      "https://zwiftinsider.com/route/repack-rush",
+      "https://whatsonzwift.com/world/watopia/route/repack-rush",
     ],
     [
       764532081,
