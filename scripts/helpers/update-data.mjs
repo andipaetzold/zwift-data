@@ -34,7 +34,7 @@ export async function updateData() {
     const data = [];
     for (const item of responseExtendedData.ROUTES.ROUTE) {
       // skip until release or map bounds are available
-      if (item.map === "GRAVEL MOUNTAIN") {
+      if (item.map === "" || item.map === "GRAVEL MOUNTAIN") {
         continue;
       }
 
