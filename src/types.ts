@@ -19,7 +19,7 @@ export interface World {
    */
   bounds: [
     [latitude: number, longitude: number],
-    [latitude: number, longitude: number]
+    [latitude: number, longitude: number],
   ];
 
   /**

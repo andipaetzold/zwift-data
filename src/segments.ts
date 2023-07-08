@@ -1142,5 +1142,5 @@ export const segments: ReadonlyArray<Segment> = (
     stravaSegmentUrl,
     avgIncline,
     climbType,
-  })
+  }),
 );

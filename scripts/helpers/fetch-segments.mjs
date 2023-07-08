@@ -16,6 +16,6 @@ export async function fetchSegments() {
           latlng: data.latlng,
           distanceStream: data.distance,
         };
-      })
+      }),
   );
 }

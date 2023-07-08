@@ -14,13 +14,13 @@ describe.each(segments)("$name", (segment) => {
   it("Urls", () => {
     if (segment.stravaSegmentId && segment.stravaSegmentUrl) {
       expect(
-        segment.stravaSegmentUrl.startsWith("https://www.strava.com/segments/")
+        segment.stravaSegmentUrl.startsWith("https://www.strava.com/segments/"),
       ).toBeTruthy();
     }
 
     if (segment.whatsOnZwiftUrl) {
       expect(
-        segment.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com")
+        segment.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com"),
       ).toBeTruthy();
     }
   });

@@ -5774,5 +5774,5 @@ export const routes: ReadonlyArray<Route> = (
     stravaSegmentUrl,
     zwiftInsiderUrl,
     whatsOnZwiftUrl,
-  })
+  }),
 );

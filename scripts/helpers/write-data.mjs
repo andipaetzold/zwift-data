@@ -15,6 +15,6 @@ export const ${name}: ReadonlyArray<${typeName}> =
 `;
   writeFileSync(
     `./src/${name}.ts`,
-    prettier.format(content, { parser: "typescript" })
+    prettier.format(content, { parser: "typescript" }),
   );
 }
