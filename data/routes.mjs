@@ -1909,4 +1909,17 @@ export const routes = [
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/repack-rush",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/repack-rush",
   },
+  {
+    id: 2681889340,
+    slug: "climb-portal-volcano",
+    segments: ["volcano-circuit-rev"],
+    whatsOnZwiftUrl: "https://whatsonzwift.com/route/climb-portal-volcano",
+  },
+  {
+    id: 4149936043,
+    slug: "climb-portal-mont-saint-michel",
+    segments: [],
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/route/climb-portal-mont-saint-michel",
+  },
 ];
