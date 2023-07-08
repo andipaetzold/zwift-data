@@ -3120,7 +3120,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2681889340,
       "Climb Portal - Volcano",
-      "2681889340",
+      "climb-portal-volcano",
       "watopia",
       false,
       7.204,
@@ -3131,7 +3131,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       3.473,
       18,
-      [],
+      ["volcano-circuit-rev"],
       [],
       false,
       false,
@@ -3142,7 +3142,7 @@ export const routes: ReadonlyArray<Route> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      "https://whatsonzwift.com/route/climb-portal-volcano",
     ],
     [
       2694166390,
@@ -5579,7 +5579,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       4149936043,
       "Climb Portal - Mont Saint-Michel",
-      "4149936043",
+      "climb-portal-mont-saint-michel",
       "france",
       false,
       2.469,
@@ -5601,7 +5601,7 @@ export const routes: ReadonlyArray<Route> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      "https://whatsonzwift.com/route/climb-portal-mont-saint-michel",
     ],
     [
       4194352271,
