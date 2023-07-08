@@ -26,7 +26,7 @@ export async function updateData() {
 
   // Segments
   {
-    writeData(segments, "segments", "Segment");
+    await writeData(segments, "segments", "Segment");
   }
 
   // Routes
@@ -98,7 +98,7 @@ export async function updateData() {
         whatsOnZwiftUrl: manualRouteData?.whatsOnZwiftUrl ?? undefined,
       });
     }
-    writeData(data, "routes", "Route");
+    await writeData(data, "routes", "Route");
   }
 
   // Achievements
@@ -108,7 +108,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "achievements", "Achievement");
+    await writeData(data, "achievements", "Achievement");
   }
 
   // Bike Frames
@@ -119,7 +119,7 @@ export async function updateData() {
       modelYear: item.modelYear === "0" ? undefined : +item.modelYear,
       isTT: item.isTT === "1",
     }));
-    writeData(data, "bikeFrames", "BikeFrame");
+    await writeData(data, "bikeFrames", "BikeFrame");
   }
 
   // Bike Front Wheels
@@ -131,7 +131,7 @@ export async function updateData() {
         imageName: item.imageName,
       }),
     );
-    writeData(data, "bikeFrontWheels", "BikeFrontWheel");
+    await writeData(data, "bikeFrontWheels", "BikeFrontWheel");
   }
 
   // Bike Rear Wheels
@@ -143,7 +143,7 @@ export async function updateData() {
         imageName: item.imageName,
       }),
     );
-    writeData(data, "bikeRearWheels", "BikeRearWheel");
+    await writeData(data, "bikeRearWheels", "BikeRearWheel");
   }
 
   // Bike Shoes
@@ -153,7 +153,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "bikeShoes", "BikeShoe");
+    await writeData(data, "bikeShoes", "BikeShoe");
   }
 
   // Challenges
@@ -163,7 +163,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "challenges", "Challenge");
+    await writeData(data, "challenges", "Challenge");
   }
 
   // Glasses
@@ -173,7 +173,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "glasses", "Glass");
+    await writeData(data, "glasses", "Glass");
   }
 
   // Headgear
@@ -183,7 +183,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "headgears", "Headgear");
+    await writeData(data, "headgears", "Headgear");
   }
 
   // Jerseys
@@ -193,7 +193,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "jerseys", "Jersey");
+    await writeData(data, "jerseys", "Jersey");
   }
 
   // Paint Jobs
@@ -202,7 +202,7 @@ export async function updateData() {
       id: +item.signature,
       name: item.name,
     }));
-    writeData(data, "paintJobs", "PaintJob");
+    await writeData(data, "paintJobs", "PaintJob");
   }
 
   // Run Shirts
@@ -212,7 +212,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "runShirts", "RunShirt");
+    await writeData(data, "runShirts", "RunShirt");
   }
 
   // Run Shoes
@@ -222,7 +222,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "runShoes", "RunShoe");
+    await writeData(data, "runShoes", "RunShoe");
   }
 
   // Run Shorts
@@ -232,7 +232,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "runShorts", "RunShort");
+    await writeData(data, "runShorts", "RunShort");
   }
 
   // Socks
@@ -242,7 +242,7 @@ export async function updateData() {
       name: item.name,
       imageName: item.imageName,
     }));
-    writeData(data, "socks", "Sock");
+    await writeData(data, "socks", "Sock");
   }
 
   // Training Plans
@@ -254,7 +254,7 @@ export async function updateData() {
         imageName: item.imageName,
       }),
     );
-    writeData(data, "trainingPlans", "TrainingPlan");
+    await writeData(data, "trainingPlans", "TrainingPlan");
   }
 
   // Notable Moment Types
@@ -268,7 +268,7 @@ export async function updateData() {
           priority: +item.priority,
         }),
       );
-    writeData(data, "notableMomentTypes", "NotableMomentType");
+    await writeData(data, "notableMomentTypes", "NotableMomentType");
   }
 
   // Unlockable Categories
@@ -280,6 +280,6 @@ export async function updateData() {
           name: item.name,
         }),
       );
-    writeData(data, "unlockableCategories", "UnlockableCategory");
+    await writeData(data, "unlockableCategories", "UnlockableCategory");
   }
 }
