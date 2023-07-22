@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/andipaetzold/zwift-data/compare/v1.24.0...v1.25.0) (2023-07-22)
+
+
+### Features
+
+* new jerseys ([#68](https://github.com/andipaetzold/zwift-data/issues/68)) ([16bd459](https://github.com/andipaetzold/zwift-data/commit/16bd459794794009c1dc3b5ca0f033bc9e60fae8))
+
 # [1.24.0](https://github.com/andipaetzold/zwift-data/compare/v1.23.0...v1.24.0) (2023-07-08)
 
 
