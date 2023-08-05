@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/andipaetzold/zwift-data#readme",
   "devDependencies": {
-    "@octokit/rest": "19.0.13",
+    "@octokit/rest": "20.0.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@tsconfig/recommended": "1.0.2",
