@@ -199,5 +199,8 @@ export const achievements: ReadonlyArray<Achievement> = (
     [208, "GLASGOW CRIT CIRCUIT", "RouteComplete"],
     [209, "LOCH LOOP", "RouteComplete"],
     [210, "THE MUCKLE YIN", "RouteComplete"],
+    [211, "Portal Climber", "ClimbPortal1x"],
+    [212, "Climb Portal Pro", "ClimbPortal10x"],
+    [213, "Legs of Steel", "ClimbPortal25x"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));
