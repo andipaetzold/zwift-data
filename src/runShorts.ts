@@ -9,6 +9,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
       "Super League Tri Arena Games - White Jersey",
       "SLTRun2022white_thumb",
     ],
+    [168066036, "Tour of Watopia Fall 2023 Run Kit", "ToWFall2023_thumb"],
     [200937232, "Zwift Running Shorts 14", "Shorts14"],
     [202263616, "Super League Triathlon Eagles", "SLTEagles2022_thumb"],
     [213931599, "Zwift Running Shorts 8", "Shorts08"],

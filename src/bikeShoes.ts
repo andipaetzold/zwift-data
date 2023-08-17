@@ -24,6 +24,11 @@ export const bikeShoes: ReadonlyArray<BikeShoe> = (
     [3547687330, "Zwift Shoe", "zwiftshoe"],
     [3595139078, "Ride With Reason", "CyclingShoe_RideWithReason2018"],
     [3764859895, "Vintage Leather", "ZwiftLeather"],
+    [
+      3822527320,
+      "Tour of Watopia Fall 2023 Cycling Shoes",
+      "CyclingShoes_ToWFall2023_thumb",
+    ],
     [4004475280, "Specialized Mix Tape", "SpecializedMixTape2019"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));
