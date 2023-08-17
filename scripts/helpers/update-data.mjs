@@ -9,7 +9,7 @@ import { fetchSegments } from "./fetch-segments.mjs";
 
 export async function updateData() {
   const response = await fetch(
-    "https://www.zwift.com/zwift-web-pages/gamedictionary",
+    "https://www.zwift.com/zwift-web-pages/gamedictionary"
   );
   const responseData = await response.json();
   const responseExtendedData = Object.fromEntries(
@@ -17,10 +17,10 @@ export async function updateData() {
       key1,
       {
         [Object.keys(value1[0])[0]]: Object.values(value1[0])[0].map(
-          (value2) => value2.$,
+          (value2) => value2.$
         ),
       },
-    ]),
+    ])
   );
   const segmentsWithLatLng = await fetchSegments();
 
@@ -53,7 +53,7 @@ export async function updateData() {
       if (manualRouteData?.stravaSegmentId) {
         segmentsOnRoute = await findSegmentsOnRoute(
           manualRouteData,
-          segmentsWithLatLng.filter((s) => s.world === manualWorldData.slug),
+          segmentsWithLatLng.filter((s) => s.world === manualWorldData.slug)
         );
       }
 
@@ -68,16 +68,16 @@ export async function updateData() {
         leadInDistance: formatDistance(item.leadinDistanceInMeters),
         leadInElevation: formatElevation(item.leadinAscentInMeters),
         leadInDistanceFreeRide: formatDistance(
-          item.freeRideLeadinDistanceInMeters,
+          item.freeRideLeadinDistanceInMeters
         ),
         leadInElevationFreeRide: formatElevation(
-          item.freeRideLeadinAscentInMeters,
+          item.freeRideLeadinAscentInMeters
         ),
         leadInDistanceMeetups: formatDistance(
-          item.meetupLeadinDistanceInMeters,
+          item.meetupLeadinDistanceInMeters
         ),
         leadInElevationInMeetups: formatElevation(
-          item.meetupLeadinAscentInMeters,
+          item.meetupLeadinAscentInMeters
         ),
         segments: manualRouteData?.segments ?? [],
         segmentsOnRoute,
@@ -96,6 +96,9 @@ export async function updateData() {
           : undefined,
         zwiftInsiderUrl: manualRouteData?.zwiftInsiderUrl ?? undefined,
         whatsOnZwiftUrl: manualRouteData?.whatsOnZwiftUrl ?? undefined,
+        zwifterBikesUrl: manualRouteData.zwifterBikesPath
+          ? `https://zwifterbikes.web.app/route/${manualRouteData.zwifterBikesPath}`
+          : undefined,
       });
     }
     await writeData(data, "routes", "Route");
@@ -129,7 +132,7 @@ export async function updateData() {
         id: +item.signature,
         name: item.name,
         imageName: item.imageName,
-      }),
+      })
     );
     await writeData(data, "bikeFrontWheels", "BikeFrontWheel");
   }
@@ -141,7 +144,7 @@ export async function updateData() {
         id: +item.signature,
         name: item.name,
         imageName: item.imageName,
-      }),
+      })
     );
     await writeData(data, "bikeRearWheels", "BikeRearWheel");
   }
@@ -252,7 +255,7 @@ export async function updateData() {
         id: +item.signature,
         name: item.name,
         imageName: item.imageName,
-      }),
+      })
     );
     await writeData(data, "trainingPlans", "TrainingPlan");
   }
@@ -266,7 +269,7 @@ export async function updateData() {
           name: item.name,
           imageName: item.imageName,
           priority: +item.priority,
-        }),
+        })
       );
     await writeData(data, "notableMomentTypes", "NotableMomentType");
   }
@@ -278,7 +281,7 @@ export async function updateData() {
         (item) => ({
           id: +item.signature,
           name: item.name,
-        }),
+        })
       );
     await writeData(data, "unlockableCategories", "UnlockableCategory");
   }

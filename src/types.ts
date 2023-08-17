@@ -171,6 +171,11 @@ export interface Route {
    * `true`, if the route is available for meetups
    */
   supportsMeetups: boolean;
+
+  /**
+   * Url of the route on Zwifter Bikes
+   */
+  zwifterBikesUrl?: string;
 }
 
 export type Sport = "running" | "cycling";
