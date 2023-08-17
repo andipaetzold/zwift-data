@@ -26,7 +26,16 @@ export async function updateData() {
 
   // Segments
   {
-    await writeData(segments, "segments", "Segment");
+    const data = [];
+    for (const { zwifterBikesPath, ...segment } of segments) {
+      data.push({
+        ...segment,
+        zwifterBikesUrl: zwifterBikesPath
+          ? `https://zwifterbikes.web.app/route/${zwifterBikesPath}`
+          : undefined,
+      });
+    }
+    await writeData(data, "segments", "Segment");
   }
 
   // Routes

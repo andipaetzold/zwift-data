@@ -7,6 +7,7 @@ export const segments = [
     distance: 0.212,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/ballon-sprint/forward",
+    zwiftBikesPath: "ballon-sprint",
   },
   {
     name: "Ballon Sprint Rev.",
@@ -18,6 +19,7 @@ export const segments = [
     distance: 0.325,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/ballon-sprint-reverse/reverse",
+    zwiftBikesPath: "ballon-sprint-reverse",
   },
   {
     name: "Broad St.",
@@ -29,6 +31,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/12128880",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/richmond/segment/broad-st/forward",
+    zwiftBikesPath: "broad-street",
   },
   {
     name: "Broad St. Rev.",
@@ -49,6 +52,7 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/fuego-flats/forward",
     distance: 0.496,
+    zwiftBikesPath: "fuego-flats",
   },
   {
     name: "Fuego Flats Rev.",
@@ -60,6 +64,7 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/fuego-flats-reverse/reverse",
     distance: 7.1,
+    zwiftBikesPath: "fuego-flats-reverse",
   },
   {
     name: "Innsbruck Sprint",
@@ -69,6 +74,7 @@ export const segments = [
     distance: 0.3,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/innsbruck/segment/sprint/forward",
+    zwiftBikesPath: "innsbruck-sprint",
   },
   {
     name: "Innsbruck Sprint Rev.",
@@ -78,6 +84,7 @@ export const segments = [
     distance: 0.2,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/innsbruck/segment/sprint/reverse",
+    zwiftBikesPath: "innsbruck-sprint-reverse",
   },
   {
     name: "Lutece Sprint",
@@ -87,6 +94,7 @@ export const segments = [
     distance: 0.148,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/lutece-sprint/forward",
+    zwiftBikesPath: "lutece-sprint",
   },
   {
     name: "Lutece Sprint Rev.",
@@ -96,6 +104,7 @@ export const segments = [
     distance: 0.225,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/lutece-reverse-sprint/reverse",
+    zwiftBikesPath: "lutece-sprint-reverse",
   },
   {
     name: "Marina Sprint",
@@ -107,6 +116,7 @@ export const segments = [
     distance: 0.338,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/marina-sprint/forward",
+    zwiftBikesPath: "marina-sprint",
   },
   {
     name: "Marina Sprint Rev.",
@@ -116,6 +126,7 @@ export const segments = [
     distance: 0.193,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/marina-sprint-reverse/reverse",
+    zwiftBikesPath: "marina-sprint-reverse",
   },
   {
     name: "Richmond Sprint",
@@ -127,6 +138,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/12128762",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/richmond/segment/sprint/forward",
+    zwiftBikesPath: "richmond-sprint",
   },
   {
     name: "Richmond Sprint Rev.",
@@ -136,6 +148,7 @@ export const segments = [
     distance: 0.203,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/richmond/segment/sprint/reverse",
+    zwiftBikesPath: "richmond-sprint-reverse",
   },
   {
     name: "New York Sprint",
@@ -146,6 +159,7 @@ export const segments = [
     avgIncline: -4.3,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/segment/ny-sprint/forward",
+    zwiftBikesPath: "ny-sprint",
   },
   {
     name: "New York Sprint Rev.",
@@ -155,6 +169,7 @@ export const segments = [
     distance: 0.23,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/segment/ny-sprint/reverse",
+    zwiftBikesPath: "ny-sprint-reverse",
   },
   {
     name: "Pavé Sprint",
@@ -164,6 +179,7 @@ export const segments = [
     distance: 0.333,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/pave-sprint/forward",
+    zwiftBikesPath: "pave-sprint",
   },
   {
     name: "Pavé Sprint Rev.",
@@ -173,6 +189,7 @@ export const segments = [
     distance: 0.334,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/segment/pave-sprint-reverse/reverse",
+    zwiftBikesPath: "pave-sprint-reverse",
   },
   {
     name: "London Sprint",
@@ -184,6 +201,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/12749402",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/london/segment/sprint/forward",
+    zwiftBikesPath: "london-sprint",
   },
   {
     name: "London Sprint Rev.",
@@ -195,6 +213,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/12749377",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/london/segment/sprint/reverse",
+    zwiftBikesPath: "london-sprint-reverse",
   },
   {
     name: "Watopia Sprint",
@@ -206,6 +225,7 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/sprint/forward",
     distance: 0.36,
+    zwiftBikesPath: "sprint_watopia-sprint",
   },
   {
     name: "Watopia Sprint Rev.",
@@ -217,6 +237,7 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/sprint/reverse",
     distance: 0.2,
+    zwiftBikesPath: "watopia-sprint-reverse",
   },
   {
     name: "Yorkshire Sprint",
@@ -226,6 +247,7 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/yorkshire/segment/yorkshire-sprint/forward",
     distance: 0.25,
+    zwiftBikesPath: "yorkshire-sprint",
   },
   {
     name: "Yorkshire Sprint Rev.",
@@ -237,6 +259,7 @@ export const segments = [
     distance: 0.4,
     stravaSegmentId: 21748007,
     stravaSegmentUrl: "https://www.strava.com/segments/21748007",
+    zwiftBikesPath: "yorkshire-sprint-reverse",
   },
   {
     name: "Alpe du Zwift",
@@ -250,6 +273,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/alpe-du-zwift/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/17267489",
     stravaSegmentId: 17267489,
+    zwiftBikesPath: "alpe-du-zwift",
   },
   {
     name: "Epic KOM",
@@ -263,6 +287,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/epic-kom/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/16784833",
     stravaSegmentId: 16784833,
+    zwiftBikesPath: "epic-kom",
   },
   {
     name: "Epic KOM Rev.",
@@ -276,6 +301,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/epic-kom/reverse",
     stravaSegmentId: 16784850,
     stravaSegmentUrl: "https://www.strava.com/segments/16784850",
+    zwiftBikesPath: "epic-kom-reverse",
   },
   {
     name: "Hilly Loop",
@@ -287,6 +313,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/hilly-loop/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/12118362",
     stravaSegmentId: 12118362,
+    zwiftBikesPath: "hilly-loop",
   },
   {
     name: "Hilly Loop Rev.",
@@ -298,6 +325,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/hilly-loop/reverse",
     stravaSegmentId: 12128037,
     stravaSegmentUrl: "https://www.strava.com/segments/12128037",
+    zwiftBikesPath: "hilly-loop-reverse",
   },
   {
     name: "Jungle Loop",
@@ -309,6 +337,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/jungle-loop/forward",
     stravaSegmentId: 16359371,
     stravaSegmentUrl: "https://www.strava.com/segments/16359371",
+    zwiftBikesPath: "jungle-loop",
   },
   {
     name: "Jungle Loop Rev.",
@@ -320,6 +349,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/jungle-loop/reverse",
     stravaSegmentId: 16359363,
     stravaSegmentUrl: "https://www.strava.com/segments/16359363",
+    zwiftBikesPath: "jungle-loop-reverse",
   },
   {
     name: "Titans Grove KOM",
@@ -332,6 +362,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/titans-grove-kom/forward",
     stravaSegmentId: 21343975,
     stravaSegmentUrl: "https://www.strava.com/segments/21343975",
+    zwiftBikesPath: "titans-grove-kom",
   },
   {
     name: "Titans Grove KOM Rev.",
@@ -344,6 +375,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/titans-grove-kom/reverse",
     stravaSegmentId: 21343961,
     stravaSegmentUrl: "https://www.strava.com/segments/21343961",
+    zwiftBikesPath: "titans-grove-kom-reverse",
   },
   {
     name: "Volcano Circuit",
@@ -355,6 +387,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/volcano/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/14032406",
     stravaSegmentId: 14032406,
+    zwiftBikesPath: "volcano-circuit",
   },
   {
     name: "Volcano Circuit Rev.",
@@ -366,6 +399,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/volcano/reverse",
     stravaSegmentId: 14032426,
     stravaSegmentUrl: "https://www.strava.com/segments/14032426",
+    zwiftBikesPath: "volcano-circuit-ccw",
   },
   {
     name: "Volcano KOM",
@@ -378,6 +412,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/volcano-kom/forward",
     stravaSegmentId: 14270131,
     stravaSegmentUrl: "https://www.strava.com/segments/14270131",
+    zwiftBikesPath: "volcano-kom",
   },
   {
     name: "Zwift KOM",
@@ -390,6 +425,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/zwift-kom/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/12109030",
     stravaSegmentId: 12109030,
+    zwiftBikesPath: "zwift-kom",
   },
   {
     name: "Zwift KOM Rev.",
@@ -402,6 +438,7 @@ export const segments = [
       "https://whatsonzwift.com/world/watopia/segment/zwift-kom/reverse",
     stravaSegmentId: 12128029,
     stravaSegmentUrl: "https://www.strava.com/segments/12128029",
+    zwiftBikesPath: "zwift-kom-reverse",
   },
   {
     name: "Bologna TT",
@@ -414,6 +451,7 @@ export const segments = [
       "https://whatsonzwift.com/world/bologna-tt/segment/bologna-tt/forward",
     stravaSegmentId: 20560239,
     stravaSegmentUrl: "https://www.strava.com/segments/20560239",
+    zwiftBikesPath: "bologna-tt",
   },
   {
     name: "Central Park Loop Rev.",
@@ -438,6 +476,7 @@ export const segments = [
       "https://whatsonzwift.com/world/new-york/segment/new-york-kom/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/19141090",
     stravaSegmentId: 19141090,
+    zwiftBikesPath: "new-york-kom",
   },
   {
     name: "New York KOM Rev.",
@@ -450,6 +489,7 @@ export const segments = [
       "https://whatsonzwift.com/world/new-york/segment/new-york-kom/reverse",
     stravaSegmentId: 19141092,
     stravaSegmentUrl: "https://www.strava.com/segments/19141092",
+    zwiftBikesPath: "new-york-kom-reverse",
   },
   {
     name: "23rd St.",
@@ -462,6 +502,7 @@ export const segments = [
       "https://whatsonzwift.com/world/richmond/segment/23rd-st/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/12128917",
     stravaSegmentId: 12128917,
+    zwiftBikesPath: "23rd-street",
   },
   {
     name: "23rd St. Rev",
@@ -474,6 +515,7 @@ export const segments = [
       "https://whatsonzwift.com/world/richmond/segment/23rd-st/reverse",
     stravaSegmentId: 22813206,
     stravaSegmentUrl: "https://www.strava.com/segments/22813206",
+    zwiftBikesPath: "23rd-street-reverse",
   },
   {
     name: "Richmond KOM",
@@ -486,6 +528,7 @@ export const segments = [
       "https://whatsonzwift.com/world/richmond/segment/kom/forward",
     stravaSegmentId: 12128826,
     stravaSegmentUrl: "https://www.strava.com/segments/12128826",
+    zwiftBikesPath: "richmond-kom",
   },
   {
     name: "Richmond KOM Rev.",
@@ -498,6 +541,7 @@ export const segments = [
       "https://whatsonzwift.com/world/richmond/segment/kom/reverse",
     stravaSegmentUrl: "https://www.strava.com/segments/26935782",
     stravaSegmentId: 26935782,
+    zwiftBikesPath: "richmond-kom-reverse",
   },
   {
     name: "Richmond UCI Cource",
@@ -509,6 +553,7 @@ export const segments = [
       "https://whatsonzwift.com/world/richmond/segment/uci-course/forward",
     stravaSegmentId: 12128718,
     stravaSegmentUrl: "https://www.strava.com/segments/12128718",
+    zwiftBikesPath: "2015-uci-worlds-course",
   },
   {
     name: "Fox Hill",
@@ -522,6 +567,7 @@ export const segments = [
       "https://whatsonzwift.com/world/london/segment/fox-hill/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/16802545",
     stravaSegmentId: 16802545,
+    zwiftBikesPath: "fox-hill",
   },
   {
     name: "Box Hill",
@@ -535,6 +581,7 @@ export const segments = [
       "https://whatsonzwift.com/world/london/segment/box-hill/reverse",
     stravaSegmentId: 12744502,
     stravaSegmentUrl: "https://www.strava.com/segments/12744502",
+    zwiftBikesPath: "box-hill",
   },
   {
     name: "Leith Hill",
@@ -548,6 +595,7 @@ export const segments = [
       "https://whatsonzwift.com/world/london/segment/leith-hill/forward",
     stravaSegmentId: 16781411,
     stravaSegmentUrl: "https://www.strava.com/segments/16781411",
+    zwiftBikesPath: "leith-hill",
   },
   {
     name: "Keith Hill",
@@ -561,6 +609,7 @@ export const segments = [
       "https://whatsonzwift.com/world/london/segment/keith-hill/reverse",
     stravaSegmentUrl: "https://www.strava.com/segments/16781407",
     stravaSegmentId: 16781407,
+    zwiftBikesPath: "keith-hill",
   },
   {
     name: "London Loop",
@@ -572,6 +621,7 @@ export const segments = [
     world: "london",
     stravaSegmentUrl: "https://www.strava.com/segments/12749649",
     stravaSegmentId: 12749649,
+    zwiftBikesPath: "london-loop",
   },
   {
     name: "Aqueduc KOM",
@@ -584,6 +634,7 @@ export const segments = [
       "https://whatsonzwift.com/world/france/segment/aqueduc-kom/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/24700976",
     stravaSegmentId: 24700976,
+    zwiftBikesPath: "aqueduc-kom",
   },
   {
     name: "Aqueduc KOM Rev.",
@@ -596,6 +647,7 @@ export const segments = [
       "https://whatsonzwift.com/world/france/segment/aqueduc-kom/reverse",
     stravaSegmentUrl: "https://www.strava.com/segments/24701010",
     stravaSegmentId: 24701010,
+    zwiftBikesPath: "aqueduc-kom-reverse",
   },
   {
     name: "Petit KOM",
@@ -609,6 +661,7 @@ export const segments = [
     world: "france",
     stravaSegmentUrl: "https://www.strava.com/segments/24690967",
     stravaSegmentId: 24690967,
+    zwiftBikesPath: "petit-kom",
   },
   {
     name: "Ventoux KOM",
@@ -621,6 +674,7 @@ export const segments = [
       "https://whatsonzwift.com/world/france/segment/ventoux-kom/forward",
     stravaSegmentUrl: "https://www.strava.com/segments/24682578",
     stravaSegmentId: 24682578,
+    zwiftBikesPath: "ventoux-kom",
   },
   {
     name: "Innsbruck KOM",
@@ -634,6 +688,7 @@ export const segments = [
     climbType: "2",
     stravaSegmentUrl: "https://www.strava.com/segments/18397965",
     stravaSegmentId: 18397965,
+    zwiftBikesPath: "innsbruck-kom",
   },
   {
     name: "Innsbruck KOM Rev.",
@@ -647,6 +702,7 @@ export const segments = [
     climbType: "2",
     stravaSegmentUrl: "https://www.strava.com/segments/18397927",
     stravaSegmentId: 18397927,
+    zwiftBikesPath: "innsbruck-kom-reverse",
   },
   {
     name: "Innsbruck UCI Lap",
@@ -658,6 +714,7 @@ export const segments = [
       "https://whatsonzwift.com/world/innsbruck/segment/uci-lap/forward",
     stravaSegmentId: 18398895,
     stravaSegmentUrl: "https://www.strava.com/segments/18398895",
+    zwiftBikesPath: "uci-lap",
   },
   {
     name: "Yorkshire KOM",
@@ -670,6 +727,7 @@ export const segments = [
     world: "yorkshire",
     stravaSegmentId: 21747822,
     stravaSegmentUrl: "https://www.strava.com/segments/21747822",
+    zwiftBikesPath: "yorkshire-kom",
   },
   {
     name: "Yorkshire KOM Rev.",
@@ -682,6 +740,7 @@ export const segments = [
     world: "yorkshire",
     stravaSegmentId: 21747891,
     stravaSegmentUrl: "https://www.strava.com/segments/21747891",
+    zwiftBikesPath: "yorkshire-kom-reverse",
   },
   {
     name: "Crit City",
@@ -693,6 +752,7 @@ export const segments = [
     world: "crit-city",
     stravaSegmentId: 22445564,
     stravaSegmentUrl: "https://www.strava.com/segments/22445564",
+    zwiftBikesPath: "crit-city-",
   },
   {
     name: "Crit City Rev.",
@@ -704,6 +764,7 @@ export const segments = [
     world: "crit-city",
     stravaSegmentId: 22419554,
     stravaSegmentUrl: "https://www.strava.com/segments/22419554",
+    zwiftBikesPath: "crit-city-reverse",
   },
   {
     name: "Prime",
@@ -714,6 +775,7 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/crit-city/segment/prime/forward",
     world: "crit-city",
+    zwiftBikesPath: "prime-kom",
   },
   {
     name: "Prime Rev.",
@@ -723,6 +785,7 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/crit-city/segment/prime/reverse",
     world: "crit-city",
+    zwiftBikesPath: "prime-sprint",
   },
   {
     name: "Champs Elysées",
@@ -734,6 +797,7 @@ export const segments = [
       "https://whatsonzwift.com/world/paris/segment/champs-elysees/forward",
     stravaSegmentId: 24674235,
     stravaSegmentUrl: "https://www.strava.com/segments/24674235",
+    zwiftBikesPath: "champs-elysees",
   },
   {
     name: "Champs Elysées Rev.",
@@ -745,6 +809,7 @@ export const segments = [
       "https://whatsonzwift.com/world/paris/segment/champs-elysees/reverse",
     stravaSegmentId: 24674248,
     stravaSegmentUrl: "https://www.strava.com/segments/24674248",
+    zwiftBikesPath: "champs-elysees-reverse",
   },
   {
     name: "Country Sprint",
@@ -754,6 +819,7 @@ export const segments = [
     world: "makuri-islands",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/country-sprint/forward",
+    zwiftBikesPath: "country-sprint",
   },
   {
     name: "Castle KOM",
@@ -766,6 +832,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/28433453",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/castle-kom/forward",
+    zwiftBikesPath: "castle-kom",
   },
   {
     name: "Village Sprint",
@@ -776,6 +843,7 @@ export const segments = [
     world: "makuri-islands",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/village-sprint/forward",
+    zwiftBikesPath: "village-sprint",
   },
   {
     name: "Temple KOM from Fishing Village Side",
@@ -789,6 +857,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/28432259",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/temple-kom/forward",
+    zwiftBikesPath: "temple-kom",
   },
   {
     name: "Temple KOM from Castle Side",
@@ -801,6 +870,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/28432293",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/temple-kom/reverse",
+    zwiftBikesPath: "temple-kom-reverse",
   },
   {
     name: "Rooftop KOM",
@@ -813,6 +883,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/30407861",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/rooftop-kom/forward",
+    zwiftBikesPath: "rooftop-kom",
   },
   {
     name: "Tower Sprint",
@@ -824,6 +895,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/30412571",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/tower-sprint/forward",
+    zwiftBikesPath: "tower-sprint",
   },
   {
     name: "Tower Sprint Rev.",
@@ -833,6 +905,7 @@ export const segments = [
     world: "makuri-islands",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/tower-sprint/reverse",
+    zwiftBikesPath: "tower-sprint-reverse",
   },
   {
     name: "Castle Park Sprint",
@@ -842,6 +915,7 @@ export const segments = [
     world: "makuri-islands",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/castle-park-sprint/forward",
+    zwiftBikesPath: "castle-park-sprint",
   },
   {
     name: "Castle Park Sprint Rev.",
@@ -851,6 +925,7 @@ export const segments = [
     world: "makuri-islands",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/castle-park-sprint/reverse",
+    zwiftBikesPath: "castle-park-sprint-reverse",
   },
   {
     name: "Alley Sprint",
@@ -862,6 +937,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/30412916",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/alley-sprint/forward",
+    zwiftBikesPath: "alley-sprint",
   },
   {
     name: "Alley Sprint Rev.",
@@ -873,6 +949,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/30412903",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/alley-sprint/reverse",
+    zwiftBikesPath: "alley-sprint-reverse",
   },
   {
     name: "Railway Sprint",
@@ -884,6 +961,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/30412927",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/railway-sprint/forward",
+    zwiftBikesPath: "railway-sprint",
   },
   {
     name: "Boardwalk Sprint",
@@ -929,6 +1007,7 @@ export const segments = [
     world: "makuri-islands",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/village-sprint/reverse",
+    zwiftBikesPath: "village-sprint-reverse",
   },
   {
     name: "Country Sprint Rev.",
@@ -938,6 +1017,7 @@ export const segments = [
     world: "makuri-islands",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/segment/country-sprint/reverse",
+    zwiftBikesPath: "country-sprint-reverse",
   },
   {
     name: "Sgurr Summit South",
@@ -950,6 +1030,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/33636430",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/sgurr-summit-south/forward",
+    zwiftBikesPath: "sgurr-summit-south",
   },
   {
     name: "Sgurr Summit North",
@@ -962,6 +1043,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/33636401",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/sgurr-summit-north/reverse",
+    zwiftBikesPath: "sgurr-summit-north",
   },
   {
     name: "The Clyde Kicker",
@@ -972,6 +1054,7 @@ export const segments = [
     world: "scotland",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/the-clyde-kicker/forward",
+    zwiftBikesPath: "",
   },
   {
     name: "Champion's Sprint",
@@ -981,6 +1064,7 @@ export const segments = [
     world: "scotland",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/champion-s-sprint/forward",
+    zwiftBikesPath: "the-clyde-kicker",
   },
   {
     name: "Breakaway Brae",
@@ -991,6 +1075,7 @@ export const segments = [
     world: "scotland",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/breakaway-brae/forward",
+    zwiftBikesPath: "breakaway-brae",
   },
   {
     name: "Breakaway Brae Rev.",
@@ -1003,6 +1088,7 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/33620168",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/breakaway-brae-reverse/reverse",
+    zwiftBikesPath: "breakaway-brae-reverse",
   },
   {
     name: "Loch Loop Rev.",
