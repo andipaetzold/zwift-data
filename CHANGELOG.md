@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/andipaetzold/zwift-data/compare/v1.26.0...v1.27.0) (2023-08-17)
+
+
+### Features
+
+* Tour of Watopia Fall 2023 ([#73](https://github.com/andipaetzold/zwift-data/issues/73)) ([562ba65](https://github.com/andipaetzold/zwift-data/commit/562ba657b9838be5281a85d60358cc2519121a5c))
+
 # [1.26.0](https://github.com/andipaetzold/zwift-data/compare/v1.25.0...v1.26.0) (2023-08-05)
 
 
