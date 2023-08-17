@@ -1,3 +1,10 @@
+# [1.28.0](https://github.com/andipaetzold/zwift-data/compare/v1.27.0...v1.28.0) (2023-08-17)
+
+
+### Features
+
+* ZwifterBikes urls ([#74](https://github.com/andipaetzold/zwift-data/issues/74)) ([e1d3054](https://github.com/andipaetzold/zwift-data/commit/e1d305490c65173a612ab71b6e3f4ea7899c8224))
+
 # [1.27.0](https://github.com/andipaetzold/zwift-data/compare/v1.26.0...v1.27.0) (2023-08-17)
 
 
