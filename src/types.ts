@@ -171,6 +171,11 @@ export interface Route {
    * `true`, if the route is available for meetups
    */
   supportsMeetups: boolean;
+
+  /**
+   * Url of the route on Zwifter Bikes
+   */
+  zwifterBikesUrl?: string;
 }
 
 export type Sport = "running" | "cycling";
@@ -230,6 +235,11 @@ export interface Segment {
    * Rating of a climb segment. Only available if `type=climb`.
    */
   climbType?: "HC" | "4" | "3" | "2" | "1";
+
+  /**
+   * Url of the route on Zwifter Bikes
+   */
+  zwifterBikesUrl?: string;
 }
 
 export type SegmentType = "sprint" | "climb" | "segment";
