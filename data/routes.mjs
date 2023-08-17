@@ -1801,7 +1801,7 @@ export const routes = [
   {
     id: 5745690,
     slug: "downtown-titans",
-    segments: [],
+    segments: ["itans-grove-kom-rev", "zwift-kom", "watopia-sprint"],
     stravaSegmentId: 23167123,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/downtown-titans/",
     zwifterBikesPath: "downtown-titans",

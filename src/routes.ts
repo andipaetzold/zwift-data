@@ -44,7 +44,7 @@ export const routes: ReadonlyArray<Route> = (
       3,
       0.913,
       3,
-      [],
+      ["itans-grove-kom-rev", "zwift-kom", "watopia-sprint"],
       [
         { from: 5.776, to: 6.693, segment: "titans-grove-kom-rev" },
         { from: 16.349, to: 17.241, segment: "zwift-kom" },
