@@ -29,7 +29,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [695560183, "BMC BMCRoadMachine2021-base"],
     [734183080, "Canyon Grail-Canyon Grail"],
     [773794647, "Cannondale EVO-Evo Team"],
-    [806402273, "Zwift Carbon-AG2R"],
+    [806402273, "Zwift Carbon-Orbea Orca"],
     [854249359, "Canyon Aeroad 2021-Canyon Aeroad 2021 ZA Road"],
     [857609205, "Pinarello Dogma F10-Dogma F10"],
     [870887764, "Pinarello Dogma F-Ineos"],

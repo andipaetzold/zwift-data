@@ -67,6 +67,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1409224145, "Limar Air Speed White", "LimarAirSpeedWhite2021"],
     [1419384011, "2021 ZA Tri TT Helmet", "SpecializedZATri2021"],
     [
+      1461166849,
+      "Tour of Watopia Fall 2023 Cycling Cap",
+      "CyclingCapToWFall2023_thumb",
+    ],
+    [
       1498204581,
       "AEROREADY PRIMEBLUE Runner Low Cap",
       "RunnerCapRFTO2021_thumb",
@@ -105,6 +110,11 @@ export const headgears: ReadonlyArray<Headgear> = (
       2748617150,
       "Zwift Academy Tri 2020",
       "CyclingCapZwiftAcademyTriCycle2020_thumb",
+    ],
+    [
+      2756081505,
+      "Tour of Watopia Fall 2023 Run Cap",
+      "RunningCapToWFall2023_thumb",
     ],
     [2763919224, "ZRL2021", "ZRL2021_thumb"],
     [2803157511, "Saucony Outpace Cap", "RunnerCapSaucony2021_thumb"],
