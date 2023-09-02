@@ -23,7 +23,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     ],
     [427831192, "ZRL Sydney Run Shirt", "ZRLSydney2022_thumb"],
     [434800288, "Gwen", "Gwen2020_thumb"],
-    [446059465, "LOC_ACCESSORY_FILM_MY_RUN", "FilmMyRun2023_thumb"],
+    [446059465, "Film My Run", "FilmMyRun2023_thumb"],
     [467140979, "GTN", "GTN2020_thumb"],
     [499817505, "Tour For All", "TourForAll2020_thumb"],
     [505490707, "Clash Of Clubs Pink", "ClashOfClubs2020_thumb"],
