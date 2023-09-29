@@ -3,6 +3,7 @@ import { Headgear } from "./types";
 export const headgears: ReadonlyArray<Headgear> = (
   [
     [9439966, "Limar Air Speed TWENTY24", "LimarAirSpeedTWENTY242021"],
+    [202102819, "2023 Zwift Academy Helmet", "ZAHelmet2023_thumb"],
     [216566426, "True Treadmill Run Hat 2021", "TruTreadmillRunHat2021_thumb"],
     [248687448, "ZA Run Team In Season", "RunningCap_ZARunInSeason2022_thumb"],
     [
@@ -141,6 +142,7 @@ export const headgears: ReadonlyArray<Headgear> = (
       "Zwift Pro Training Camp 2022",
       "CyclingCapZwiftProTraining2022_thumb",
     ],
+    [3264601636, "2023 Zwift Academy Cap", "CyclingCapZwiftAcademy2023_thumb"],
     [3291118897, "ZRS Ciele", "RcZRSCiele2020_thumb"],
     [3324753264, "Rapha Rising 2022", "CyclingCapRaphaRising2022_thumb"],
     [3346861673, "Giro Eclipse Canyon SRAM", "GiroEclipseCanyonSRAM2021"],

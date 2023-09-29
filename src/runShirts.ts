@@ -192,11 +192,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     [3483051353, "Monochrome Pattern Tank Kit", "MonochromeTank01_thumb"],
     [3516157437, "That Triathlon Life", "TTLRun2022_thumb"],
     [3526863900, "NY Road Runners", "NYRR2019_thumb"],
-    [
-      3541219510,
-      "LOC_ACCESSORY_RUN_SHIRT_INNOVATION_RUNNING",
-      "InnovationRunning2023_thumb",
-    ],
+    [3541219510, "Innovation Multisport", "InnovationRunning2023_thumb"],
     [3630589926, "Team Zoot 2022", "TeamZootRun2022_thumb"],
     [3649029108, "Tour of Watopia Finishers Kit", "TourOfWatopiaRed2021_thumb"],
     [3660321537, "USA Triathlon", "USATriRun2022_thumb"],

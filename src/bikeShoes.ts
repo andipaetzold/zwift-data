@@ -16,6 +16,7 @@ export const bikeShoes: ReadonlyArray<BikeShoe> = (
     [2095963351, "Bont Helix", "BontHelix"],
     [2136843441, "Zwift Academy Men", "ShoesZwiftAcademyMen2019"],
     [2209271558, "Zwift Academy Women", "ShoesZwiftAcademyWomen2019"],
+    [2546048809, "Exploration 101 Shoes", "CyclingShoes_Onboarding2023_thumb"],
     [2635788984, "Zwift Academy Tri 2019", "ShoesZwiftAcademyTri2020"],
     [2659789772, "2021 Neokyo Shoes", "Neokyoshoe"],
     [3128704198, "Tour of Watopia 2022", "TOWCyclingShoe2022"],
@@ -26,7 +27,7 @@ export const bikeShoes: ReadonlyArray<BikeShoe> = (
     [3764859895, "Vintage Leather", "ZwiftLeather"],
     [
       3822527320,
-      "Tour of Watopia Fall 2023 Cycling Shoes",
+      "TOW FALL 2023 CYCLING SHOES",
       "CyclingShoes_ToWFall2023_thumb",
     ],
     [4004475280, "Specialized Mix Tape", "SpecializedMixTape2019"],
