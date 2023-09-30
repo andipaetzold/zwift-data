@@ -153,6 +153,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [3593209473, "Liv LivLangma2021-Liv Langma"],
     [3608080215, "Specialized Shiv Disc-Specialized Shiv 2022"],
     [3628655892, "Canyon Speedmax-Black/White"],
+    [3678722547, "Zwift ZwiftAcademy2023-ZwiftAcademy2023"],
     [3684234811, "Specialized Tarmac SL7-Red"],
     [3706956804, "Cannondale Super Six Evo-Evo"],
     [3736833547, "Cello Team-Cello Elliot"],
