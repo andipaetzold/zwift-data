@@ -202,5 +202,25 @@ export const achievements: ReadonlyArray<Achievement> = (
     [211, "Portal Climber", "ClimbPortal1x"],
     [212, "Climb Portal Pro", "ClimbPortal10x"],
     [213, "Legs of Steel", "ClimbPortal25x"],
+    [214, "COAST CRUSHER", "Watopia-Expansion_badges_10-2023-coast-crusher"],
+    [215, "THE BIG RING", "Watopia-Expansion_badges_10-2023-the-big-ring"],
+    [
+      216,
+      "ACCELERATE TO ELEVATE",
+      "Watopia-Expansion_badges_10-2023-Accelerate-to-elevate",
+    ],
+    [
+      217,
+      "SHORELINES AND SUMMITS",
+      "Watopia-Expansion_badges_10-2023-07-shorelines-and-summits",
+    ],
+    [218, "SUGAR COOKIE", "Watopia-Expansion_badges_10-2023-Sugar-Cookie"],
+    [219, "GOING COASTAL", "Watopia-Expansion_badges_10-2023-Going-Coastal"],
+    [220, "TEMPLE TREK", "Watopia-Expansion_badges_10-2023-Temple-trek"],
+    [
+      221,
+      "CANOPIES AND COASTLINES",
+      "Watopia-Expansion_badges_10-2023-canopies-and-coastlines",
+    ],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

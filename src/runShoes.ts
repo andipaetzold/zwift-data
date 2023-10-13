@@ -24,11 +24,7 @@ export const runShoes: ReadonlyArray<RunShoe> = (
       "Tour of Watopia 2023",
       "RunningShoes_TourofWatopia2023_thumb",
     ],
-    [
-      2337041824,
-      "Tour of Watopia Fall 2023 Run Shoes",
-      "RunningShoes_ToWFall2023_thumb",
-    ],
+    [2337041824, "TOW Fall 2023 Run Shoes", "RunningShoes_ToWFall2023_thumb"],
     [2457594239, "Zwift Blue", "RunningShoe_Blue"],
     [2810712238, "adidas ULTRABOOST 22", "RunningShoesRFTO2022_thumb"],
     [3055713810, "HOVR Machina 2", ""],
