@@ -27,6 +27,11 @@ export const socks: ReadonlyArray<Sock> = (
     [805406818, "ZRS Socks 2", "ZRS2021Socks02"],
     [853522319, "FTPBuilder Plan Socks", "FtpBuilder"],
     [861674422, "Single Track Slayer Plan Socks", "SingleTrackSlayer"],
+    [
+      906799315,
+      "LOC_ACCESSORY_Socks_TourDeZwift2024_NAME",
+      "Socks_TourDeZwift2024",
+    ],
     [936629429, "Dots Green", "SocksDotGreen"],
     [1007580513, "LA Marathon", "LAM2020"],
     [1032478488, "Zwift Academy Men", "SocksZwiftAcademyMen2019"],

@@ -12,6 +12,7 @@ export const glasses: ReadonlyArray<Glass> = (
     [1241540451, "Top Guns", "Glasses_Generic03"],
     [1541295082, "Zwift Glasses #1", "Glasses_Generic04"],
     [1725649243, "Roka GP-1x", "Glasses_Roka01"],
+    [1773488310, "LOC_TourDeZwift2024", "Glasses_TourDeZwift2024"],
     [
       1823176845,
       "Watch the Femmes Sunglasses",

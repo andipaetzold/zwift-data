@@ -85,6 +85,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     ],
     [1684913570, "ZC Training Cap", "BackwardsCapZCTraining2022_thumb"],
     [1713458564, "Tour of Watopia 2023", "CyclingCapTourOfWatopia2023_thumb"],
+    [
+      1716963782,
+      "LOC_BucketHat_TourDeZwift2024_NAME",
+      "BucketHat_TourDeZwift2024_thumb",
+    ],
     [1720452859, "Tour of Makuri Islands", "Visor_TourOfMakuri2022"],
     [1774524673, "Giro d'Italia", "Giro2019_thumb"],
     [1805966666, "ZRS Running Cap 2", "RunnerCapZRSKit022021_thumb"],
