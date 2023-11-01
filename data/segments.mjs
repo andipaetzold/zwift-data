@@ -1094,6 +1094,7 @@ export const segments = [
     name: "Loch Loop Rev.",
     slug: "loch-loop-rev",
     distance: 8.06,
+    avgIncline: 0.1,
     type: "segment",
     world: "scotland",
     stravaSegmentId: 33620222,
@@ -1105,6 +1106,7 @@ export const segments = [
     name: "Stoneway Sprint",
     slug: "stoneway-sprint",
     distance: 0.4,
+    avgIncline: 0.8,
     type: "sprint",
     world: "watopia",
     whatsOnZwiftUrl:
@@ -1114,6 +1116,7 @@ export const segments = [
     name: "Stoneway Sprint Rev.",
     slug: "stoneway-sprint-rev",
     distance: 0.4,
+    avgIncline: 0.4,
     type: "sprint",
     world: "watopia",
     whatsOnZwiftUrl:
@@ -1123,6 +1126,7 @@ export const segments = [
     name: "Acropolis Sprint",
     slug: "acropolis-sprint",
     distance: 0.45,
+    avgIncline: 0.7,
     type: "sprint",
     world: "watopia",
     whatsOnZwiftUrl:
@@ -1132,6 +1136,7 @@ export const segments = [
     name: "Acropolis Sprint Rev.",
     slug: "acropolis-sprint-rev",
     distance: 0.45,
+    avgIncline: -1.1,
     type: "sprint",
     world: "watopia",
     whatsOnZwiftUrl:
@@ -1141,6 +1146,7 @@ export const segments = [
     name: "Sasquatch Sprint",
     slug: "sasquatch-sprint",
     distance: 0.35,
+    avgIncline: 0.3,
     type: "sprint",
     world: "watopia",
     whatsOnZwiftUrl:
@@ -1150,6 +1156,7 @@ export const segments = [
     name: "Sasquatch Sprint Rev.",
     slug: "sasquatch-sprint-rev",
     distance: 0.35,
+    avgIncline: -0.9,
     type: "sprint",
     world: "watopia",
     whatsOnZwiftUrl:
@@ -1159,6 +1166,7 @@ export const segments = [
     name: "Woodland Sprint",
     slug: "woodland-sprint",
     distance: 0.5,
+    avgIncline: -2.2,
     type: "sprint",
     world: "watopia",
     stravaSegmentId: 35705436,
@@ -1170,6 +1178,7 @@ export const segments = [
     name: "Woodland Sprint Rev.",
     slug: "woodland-sprint-rev",
     distance: 0.5,
+    avgIncline: -1.6,
     type: "sprint",
     world: "watopia",
     whatsOnZwiftUrl:

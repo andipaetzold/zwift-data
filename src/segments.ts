@@ -1301,7 +1301,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       33620222,
       "https://www.strava.com/segments/33620222",
-      undefined,
+      0.1,
       undefined,
     ],
     [
@@ -1315,7 +1315,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      0.8,
       undefined,
     ],
     [
@@ -1329,7 +1329,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      0.4,
       undefined,
     ],
     [
@@ -1343,7 +1343,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      0.7,
       undefined,
     ],
     [
@@ -1357,7 +1357,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      -1.1,
       undefined,
     ],
     [
@@ -1371,7 +1371,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      0.3,
       undefined,
     ],
     [
@@ -1385,7 +1385,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      -0.9,
       undefined,
     ],
     [
@@ -1399,7 +1399,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       35705436,
       "https://www.strava.com/segments/35705436",
-      undefined,
+      -2.2,
       undefined,
     ],
     [
@@ -1413,7 +1413,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      -1.6,
       undefined,
     ],
   ] as const
