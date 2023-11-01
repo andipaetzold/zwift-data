@@ -12,6 +12,7 @@ export const glasses: ReadonlyArray<Glass> = (
     [1241540451, "Top Guns", "Glasses_Generic03"],
     [1541295082, "Zwift Glasses #1", "Glasses_Generic04"],
     [1725649243, "Roka GP-1x", "Glasses_Roka01"],
+    [1773488310, "LOC_TourDeZwift2024", "Glasses_TourDeZwift2024"],
     [
       1823176845,
       "Watch the Femmes Sunglasses",
@@ -32,6 +33,7 @@ export const glasses: ReadonlyArray<Glass> = (
     [3309343427, "Rockstar", "Glasses_Generic06"],
     [3410864991, "ZRS Glasses 1", "Glasses_ZRS2021Glasses01"],
     [3987516741, "Race Trap", "Glasses_100RaceTrap"],
+    [4148144169, "Glasses Temp", "Glasses_Temp"],
     [4162894707, "Oversize", "Glasses_Generic05"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

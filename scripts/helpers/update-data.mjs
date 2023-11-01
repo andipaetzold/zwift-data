@@ -27,11 +27,11 @@ export async function updateData() {
   // Segments
   {
     const data = [];
-    for (const { zwifterBikesPath, ...segment } of segments) {
+    for (const segment of segments) {
       data.push({
         ...segment,
-        zwifterBikesUrl: zwifterBikesPath
-          ? `https://zwifterbikes.web.app/route/${zwifterBikesPath}`
+        zwifterBikesUrl: segment.zwifterBikesPath
+          ? `https://zwifterbikes.web.app/route/${segment.zwifterBikesPath}`
           : undefined,
       });
     }
@@ -105,7 +105,7 @@ export async function updateData() {
           : undefined,
         zwiftInsiderUrl: manualRouteData?.zwiftInsiderUrl ?? undefined,
         whatsOnZwiftUrl: manualRouteData?.whatsOnZwiftUrl ?? undefined,
-        zwifterBikesUrl: manualRouteData.zwifterBikesPath
+        zwifterBikesUrl: manualRouteData?.zwifterBikesPath
           ? `https://zwifterbikes.web.app/route/${manualRouteData.zwifterBikesPath}`
           : undefined,
       });

@@ -19,6 +19,7 @@ export const bikeShoes: ReadonlyArray<BikeShoe> = (
     [2546048809, "Exploration 101 Shoes", "CyclingShoes_Onboarding2023_thumb"],
     [2635788984, "Zwift Academy Tri 2019", "ShoesZwiftAcademyTri2020"],
     [2659789772, "2021 Neokyo Shoes", "Neokyoshoe"],
+    [2734175096, "Shoes Temp", "Shoes_Temp"],
     [3128704198, "Tour of Watopia 2022", "TOWCyclingShoe2022"],
     [3238688697, "Mavic Cosmic", "MavicCosmic"],
     [3251024571, "Fizik Vento Infinito Carbon", "FizikVentoInfinitoCarbon2021"],

@@ -139,6 +139,11 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     [2354164139, "NGNM WRRS 2021 Run Shirt", "WHM2021_thumb"],
     [2379350655, "Sub 8 Run shirt", "Sub8Run2022_thumb"],
     [2460030069, "US Military Endurance Sports", "USMES2021_thumb"],
+    [
+      2483526604,
+      "LOC_RUNNING_OUTFIT_Runningshirt_TourdeZwift2024_NAME",
+      "TourdeZwift2024_thumb",
+    ],
     [2531703007, "Dempsey Challenge", "DempseyChallenge2020_thumb"],
     [2564379583, "Clash Of Clubs Blue", "ClashOfClubs2020_thumb"],
     [2636464333, "Zwift Running Shirt 6", "Shirt06"],

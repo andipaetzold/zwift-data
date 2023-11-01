@@ -202,5 +202,13 @@ export const achievements: ReadonlyArray<Achievement> = (
     [211, "Portal Climber", "ClimbPortal1x"],
     [212, "Climb Portal Pro", "ClimbPortal10x"],
     [213, "Legs of Steel", "ClimbPortal25x"],
+    [214, "COAST CRUSHER", "RouteComplete"],
+    [215, "THE BIG RING", "RouteComplete"],
+    [216, "ACCELERATE TO ELEVATE", "RouteComplete"],
+    [217, "SHORELINES AND SUMMITS", "RouteComplete"],
+    [218, "SUGAR COOKIE", "RouteComplete"],
+    [219, "GOING COASTAL", "RouteComplete"],
+    [220, "TEMPLE TREK", "RouteComplete"],
+    [221, "CANOPIES AND COASTLINES", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));
