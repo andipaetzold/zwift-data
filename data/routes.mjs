@@ -2191,7 +2191,7 @@ export const routes = [
   {
     id: 2330634655,
     slug: "temple-trek",
-    segments: ["soneway-sprint", "acropolis-sprint"],
+    segments: ["stoneway-sprint", "acropolis-sprint"],
     stravaSegmentId: 35705430,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/temple-trek",
     zwifterBikesPath: "temple-trek",

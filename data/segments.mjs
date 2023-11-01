@@ -1101,4 +1101,78 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/loch-loop-reverse/reverse",
   },
+  {
+    name: "Stoneway Sprint",
+    slug: "stoneway-sprint",
+    distance: 0.4,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/stoneway-sprint/forward",
+  },
+  {
+    name: "Stoneway Sprint Rev.",
+    slug: "stoneway-sprint-rev",
+    distance: 0.4,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/stoneway-sprint/reverse",
+  },
+  {
+    name: "Acropolis Sprint",
+    slug: "acropolis-sprint",
+    distance: 0.45,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/acropolis-sprint/forward",
+  },
+  {
+    name: "Acropolis Sprint Rev.",
+    slug: "acropolis-sprint-rev",
+    distance: 0.45,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/acropolis-sprint/reverse",
+  },
+  {
+    name: "Sasquatch Sprint",
+    slug: "sasquatch-sprint",
+    distance: 0.35,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/sasquatch-sprint/forward",
+  },
+  {
+    name: "Sasquatch Sprint Rev.",
+    slug: "sasquatch-sprint-rev",
+    distance: 0.35,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/sasquatch-sprint/reverse",
+  },
+  {
+    name: "Woodland Sprint",
+    slug: "woodland-sprint",
+    distance: 0.5,
+    type: "sprint",
+    world: "watopia",
+    stravaSegmentId: 35705436,
+    stravaSegmentUrl: "https://www.strava.com/segments/35705436",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/woodland-sprint/forward",
+  },
+  {
+    name: "Woodland Sprint Rev.",
+    slug: "woodland-sprint-rev",
+    distance: 0.5,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/woodland-sprint/reverse",
+  },
 ];
