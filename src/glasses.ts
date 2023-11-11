@@ -12,7 +12,7 @@ export const glasses: ReadonlyArray<Glass> = (
     [1241540451, "Top Guns", "Glasses_Generic03"],
     [1541295082, "Zwift Glasses #1", "Glasses_Generic04"],
     [1725649243, "Roka GP-1x", "Glasses_Roka01"],
-    [1773488310, "LOC_TourDeZwift2024", "Glasses_TourDeZwift2024"],
+    [1773488310, "Tour de Zwift 2024 Sunglasses", "Glasses_TourDeZwift2024"],
     [
       1823176845,
       "Watch the Femmes Sunglasses",
@@ -27,6 +27,7 @@ export const glasses: ReadonlyArray<Glass> = (
     [2364395919, "ZRS Glasses 2", "Glasses_ZRS2021Glasses02"],
     [2472441074, "POC Clarity Aspire", "Glasses_POCClarityAspire"],
     [2628706018, "Tour of Makuri Islands", "Glasses_TourOfMakuri2022"],
+    [2886622243, "Rapha Pro Team Full Frame Sunglasses", "Glasses_Temp"],
     [2978871359, "ZRS Glasses 3", "Glasses_ZRS2021Glasses03"],
     [3027735239, "Vintage Goggles", "Glasses_Goggles"],
     [3171375327, "Community 101 Sunglasses", "Glasses_Onboarding2023"],

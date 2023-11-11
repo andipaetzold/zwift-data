@@ -99,6 +99,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [2266567131, "Cannondale Synapse-Evo"],
     [2272858534, "Cube CubeLitening2021-Commercial"],
     [2273815071, "Zwift Carbon-Cofidis De Rosa"],
+    [2280475316, "Canyon Aeroad Team Edition-Movistar 2023"],
     [2349002710, "Canyon Aeroad 2015-Arkea Samsic"],
     [2355377397, "Cervelo P5-Black"],
     [2385576714, "Chapter2 Tere-Tere"],

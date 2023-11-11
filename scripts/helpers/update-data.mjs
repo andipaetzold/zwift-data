@@ -42,8 +42,11 @@ export async function updateData() {
   {
     const data = [];
     for (const item of responseExtendedData.ROUTES.ROUTE) {
-      // skip until release or map bounds are available
-      if (item.map === "" || item.map === "GRAVEL MOUNTAIN") {
+      if (
+        item.map === "" ||
+        item.map === "GRAVEL MOUNTAIN" || // skip until release or map bounds are available
+        item.name === "Critcade Test" // skip test route
+      ) {
         continue;
       }
 
