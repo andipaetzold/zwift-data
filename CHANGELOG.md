@@ -1,3 +1,10 @@
+# [1.31.0](https://github.com/andipaetzold/zwift-data/compare/v1.30.1...v1.31.0) (2023-11-29)
+
+
+### Features
+
+* update watopia image url and bounds ([a473920](https://github.com/andipaetzold/zwift-data/commit/a4739206da4424447bc31b5570982fc6cd70c714))
+
 ## [1.30.1](https://github.com/andipaetzold/zwift-data/compare/v1.30.0...v1.30.1) (2023-11-11)
 
 
