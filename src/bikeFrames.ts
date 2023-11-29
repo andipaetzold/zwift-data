@@ -78,7 +78,6 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = (
     [2442494761, "Specialized Tarmac", 2015, false],
     [2459800850, "VanRysel VanRyselEDR2021", 2021, false],
     [2460287610, "Specialized Shiv Disc", 2019, true],
-    [2482721771, "Zwift ZwiftAcademy2023", 2021, false],
     [2513788321, "Canyon CanyonSpeedmaxCRSLXDisc2021", 2021, true],
     [2583787351, "Giant GiantTCRAdvancedSL", 2021, false],
     [2650592817, "Cervelo S5", 2015, false],
