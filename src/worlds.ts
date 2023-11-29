@@ -7,9 +7,9 @@ export const worlds: ReadonlyArray<World> = [
     slug: "watopia",
     bounds: [
       [-11.62597, 166.87747],
-      [-11.70255, 167.03255],
+      [-11.74087, 167.03255],
     ],
-    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Watopia.png",
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_Watopia_2.png",
   },
   {
     id: 2,
