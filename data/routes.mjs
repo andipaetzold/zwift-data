@@ -2212,4 +2212,19 @@ export const routes = [
     zwifterBikesPath: "sugar-cookie",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/sugar-cookie",
   },
+  {
+    id: 1917017591,
+    slug: "big-flat-8",
+    zwiftInsiderUrl: "https://zwiftinsider.com/big-flat-8",
+  },
+  {
+    id: 3261167746,
+    slug: "spiral-into-the-volcano",
+    zwiftInsiderUrl: "https://zwiftinsider.com/spiral-into-the-volcano",
+  },
+  {
+    id: 3706527503,
+    slug: "castle-crit",
+    zwiftInsiderUrl: "https://zwiftinsider.com/castle-crit",
+  },
 ];
