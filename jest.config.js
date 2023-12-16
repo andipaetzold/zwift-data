@@ -1,12 +1,5 @@
 module.exports = {
-  transform: {
-    "^.+\\.ts$": "ts-jest",
-  },
+  preset: 'ts-jest',
   testRegex: "^.+\\.spec\\.ts$",
   coverageDirectory: "test-results/coverage",
-  globals: {
-    "ts-jest": {
-      tsconfig: "tsconfig.jest.json",
-    },
-  },
 };
