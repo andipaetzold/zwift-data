@@ -1,3 +1,10 @@
+## [1.32.1](https://github.com/andipaetzold/zwift-data/compare/v1.32.0...v1.32.1) (2023-12-16)
+
+
+### Bug Fixes
+
+* add details to new routes ([edc5d38](https://github.com/andipaetzold/zwift-data/commit/edc5d38c7fc37ed1bbd9cb4c941353059308913a))
+
 # [1.32.0](https://github.com/andipaetzold/zwift-data/compare/v1.31.0...v1.32.0) (2023-12-06)
 
 
