@@ -2215,16 +2215,26 @@ export const routes = [
   {
     id: 1917017591,
     slug: "big-flat-8",
+    segments: ["fuego-flats"],
+    stravaSegmentId: 26974627,
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/big-flat-8",
     zwiftInsiderUrl: "https://zwiftinsider.com/big-flat-8",
   },
   {
     id: 3261167746,
     slug: "spiral-into-the-volcano",
+    segments: ["volcano-kom", "watopia-sprint", "fuego-flats-rev"],
+    stravaSegmentId: 20522725,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/spiral-into-the-volcano",
     zwiftInsiderUrl: "https://zwiftinsider.com/spiral-into-the-volcano",
   },
   {
     id: 3706527503,
     slug: "castle-crit",
+    stravaSegmentId: 30326079,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/castle-crit",
     zwiftInsiderUrl: "https://zwiftinsider.com/castle-crit",
   },
 ];
