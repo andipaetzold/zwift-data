@@ -48,6 +48,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [157839058, "Solid Mustard", "SolidColorKitPackMustard_thumb"],
     [158338255, "SZR", "SZR_thumb"],
     [158595409, "Donut", "ZwiftFood03_thumb"],
+    [162720319, "DoddieAid 2024", "DoddieAid2024_thumb"],
     [167026782, "Maratona Dolomiti", "MaratonaDolomiti_thumb"],
     [
       172691656,
@@ -102,6 +103,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [326883871, "Inflite Type One", "InfliteTypeOne2023_thumb"],
     [330017973, "GGCC", "GGCC2020_thumb"],
     [351896555, "Zwift", "Zwift_02_thumb"],
+    [
+      352481813,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_USACCHAMPION2024_NAME",
+      "USAC_Champ2024_thumb",
+    ],
     [352543030, "Mitchelton-SCOTT", "MitcheltonScottPro2019_thumb"],
     [354409479, "ZWC 2021", "ZWC2021_thumb"],
     [359543567, "Jumbo Visma Cycling Club", "JumboVismaCC2023_thumb"],
@@ -987,6 +993,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3574886872, "World Bicycle Relief 2016", "WorldBicycleRelief2016_thumb"],
     [3580594002, "Zwift zFondo December", "Zwift_zFondo_Dec_thumb"],
     [3581804427, "Pushing Limits 2021 Kit", "PushingLimits2021_thumb"],
+    [
+      3584804543,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_DCFCHAMPION2024_NAME",
+      "DanishCyclingFederation_Champ2024_thumb",
+    ],
     [3591639561, "GSR Long Riders", "GSRLongRiders2016_thumb"],
     [3591729486, "Flamme Rouge Racing", "FlammeRougeRacing2023_thumb"],
     [3591907082, "Toyota CRYO RTD Kit", "ToyotaCryoRDT2021_thumb"],
@@ -1053,6 +1064,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3839989188, "NSI", "NSI2015_thumb"],
     [3840427844, "Felt Cycling", "Felt2021_thumb"],
     [
+      3840633700,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_CYCLINGCANADACHAMPION2024_NAME",
+      "CyclingCanada_Champ2024_thumb",
+    ],
+    [
       3847642573,
       "UCI Federation Portugal 2023",
       "UCIFederationPortugal2023_thumb",
@@ -1102,6 +1118,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3970107365, "Dino Power", "DinoPower_thumb"],
     [3970245639, "CANYON//SRAM Racing", "CanyonSRAMRacing2022_thumb"],
     [3977378563, "Clash Of Clubs Green", "ClashOfClubs2020_thumb"],
+    [
+      3981040718,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_FFCCHAMPION2024_NAME",
+      "FrenchCyclingFederation_Champ2024_thumb",
+    ],
     [3988640695, "Rapha L'Etape", "RaphaLetape2019_thumb"],
     [3988726887, "CeramicSpeed", "CeramicSpeed2020_thumb"],
     [

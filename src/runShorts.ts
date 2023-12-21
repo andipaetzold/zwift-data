@@ -134,6 +134,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     [3515596595, "ZA Tri Team Shorts", "ZATri2021_thumb"],
     [3601200867, "Super League Community Shorts", "SuperLeague2020_thumb"],
     [3628568393, "Zwift Run Festival", "RunFestival2021_thumb"],
+    [3711037404, "ZLDR 2023", "ZLDRRunShort2023_thumb"],
     [3731582468, "Zwift Academy 2020 Run", "ZwiftAcademyRun2020_thumb"],
     [
       3731880258,
@@ -142,6 +143,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     ],
     [3809167284, "ZA Run Team Shorts 2021", "ZwiftAcademyRun2021_thumb"],
     [3860420424, "April Fools", "TealPink2020_thumb"],
+    [3913862387, "ZLDR 2023", "FilmMyRunRunShort2023_thumb"],
     [3931583376, "That Triathlon Life", "TTLRun2022_thumb"],
     [3932074146, "ZRL Sydney Run Shorts", "ZRLSydney2022_thumb"],
     [3981726669, "Varlo Team", "VarloRun2022_thumb"],
@@ -150,6 +152,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     [4098921214, "Zwift Running Shorts 5", "Shorts05"],
     [4158603661, "Lionel Sanders Shorts", "LionelSanders2019_thumb"],
     [4163074320, "Zwift Academy 2023", "ZARun2022_thumb"],
+    [4181698052, "Innovation Multisport", "InnovationRunningShort2023_thumb"],
     [
       4191775939,
       "Super League Tri Arena Games - Black Jersey",

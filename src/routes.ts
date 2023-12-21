@@ -1296,7 +1296,7 @@ export const routes: ReadonlyArray<Route> = (
     ],
     [
       1039983620,
-      "Richmond UCI Reverse",
+      "Richmond 2015 Worlds Reverse",
       "richmond-uci-rev",
       "richmond",
       false,
@@ -2571,7 +2571,7 @@ export const routes: ReadonlyArray<Route> = (
     ],
     [
       2007026433,
-      "2019 UCI Worlds Harrogate Circuit",
+      "2019 Worlds Harrogate Circuit",
       "harrogate-circuit",
       "yorkshire",
       false,
@@ -4413,7 +4413,7 @@ export const routes: ReadonlyArray<Route> = (
     ],
     [
       3114603308,
-      "2018 UCI Worlds Short Lap",
+      "2018 Worlds Short Lap",
       "2018-uci-worlds-course-short-lap",
       "innsbruck",
       false,
