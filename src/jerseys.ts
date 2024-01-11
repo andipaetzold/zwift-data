@@ -42,6 +42,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [123854412, "Alpine Slopes 1", "Zwift_Ski01_thumb"],
     [138392085, "Team Charles-Barclay", "lucy_charles_barclay_thumb"],
     [139090872, "BMTR Community Club", "BearMountaineers2021_thumb"],
+    [140311973, "2024 L'Étape du Tour", "LEtape2024_thumb"],
     [141416810, "Collins Cup Europe", "CollinsCupBlue2020_thumb"],
     [142676981, "Assos Superleger", "AssosSuperleger2021_thumb"],
     [153074962, "Finesse 2021", "Finesse2021_thumb"],
@@ -105,7 +106,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [351896555, "Zwift", "Zwift_02_thumb"],
     [
       352481813,
-      "LOC_CYCLING_JERSEY_PRO_TEAMS_USACCHAMPION2024_NAME",
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_USAC_CHAMP2024_NAME",
       "USAC_Champ2024_thumb",
     ],
     [352543030, "Mitchelton-SCOTT", "MitcheltonScottPro2019_thumb"],
@@ -287,6 +288,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [902756936, "Zwift eFondo September", "Zwift_eFondo_Sept_thumb"],
     [908866226, "DD UK Champ", "DimensionDataUKChamp_thumb"],
     [920337189, "Bartali", "Bartali2020_thumb"],
+    [
+      925765748,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_INEOS2024_NAME",
+      "Ineos2024_thumb",
+    ],
     [927604154, "Cofidis 2018", "Cofidis2018_thumb"],
     [930946828, "Alpecin-Fenix Pro Team", "AlpecinDeceuninck2022_thumb"],
     [933043223, "Goseong Gran Fondo", "GoseongGranFondo2018_thumb"],
@@ -301,7 +307,6 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [971496426, "Gravel Party", "GravelPartyKit_thumb"],
     [971980441, "Bicycling", "Bicycling_thumb"],
     [972716108, "Ekoi Elegance R-Waves", "Ekoi2022_thumb"],
-    [974637685, "Kit Temp", "Kit_Temp"],
     [980654946, "Deloitte Digital", "DeloitteDigital_thumb"],
     [
       981392121,
@@ -455,6 +460,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1566215999, "MyProCoach", "MyProCoach2023_thumb"],
     [1567544184, "La Grange", "LaGrange2019_thumb"],
     [1576116423, "Zwift Academy Finalist", "ZARoadFinalist52022_thumb"],
+    [
+      1578477980,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_FDJSUEZ2024_NAME",
+      "FDJSuez2024_thumb",
+    ],
     [1582340905, "zFondo Jan 2021", "ZFondo2021Jan_thumb"],
     [1587982785, "AG2R La Mondiale", "AG2R2020_thumb"],
     [1589345470, "BIGLA UCI", "BIGLA2019UCI_thumb"],
@@ -486,6 +496,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1652462599, "Next-Enshored Kit", "NextEnshored2021_thumb"],
     [1653888411, "Tiger Print", "ZwiftAnimals01_thumb"],
     [1665932906, "Zwift Riders Scotland", "ZRScotland2022_thumb"],
+    [
+      1676005799,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_CANYONSRAMRACING2024_NAME",
+      "CanyonSRAMRacing2024_thumb",
+    ],
     [1677202555, "Indoor Specialist", "IndoorSpecialist_thumb"],
     [1697837945, "Kiwi Crew", "KiwiCrew2022_thumb"],
     [1701380341, "Assos Speed Club 2022", "AssosSpeedClub2019_thumb"],
@@ -550,6 +565,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1953455256, "Ruhrrider 2022", "RuhrRiders2022_thumb"],
     [1965538384, "Holiday Fondo Kit", "DecemberFondo2023_thumb"],
     [1969335676, "ASTANA PRO TEAM", "Astana2020_thumb"],
+    [
+      1975933102,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_MOVISTAR2024_NAME",
+      "Movistar2024_thumb",
+    ],
     [1983748286, "Le Col Legends 2021", "LeColLegends2021_thumb"],
     [1986777769, "Madison Genesis", "MadisonGenesis2018_thumb"],
     [1987737590, "ATOC 2017", "AmgenTourCA_thumb"],
@@ -995,7 +1015,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3581804427, "Pushing Limits 2021 Kit", "PushingLimits2021_thumb"],
     [
       3584804543,
-      "LOC_CYCLING_JERSEY_PRO_TEAMS_DCFCHAMPION2024_NAME",
+      "LOC_CYCLING_JERSEY_DCF_CHAMPS2024_NAME",
       "DanishCyclingFederation_Champ2024_thumb",
     ],
     [3591639561, "GSR Long Riders", "GSRLongRiders2016_thumb"],
@@ -1065,7 +1085,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3840427844, "Felt Cycling", "Felt2021_thumb"],
     [
       3840633700,
-      "LOC_CYCLING_JERSEY_PRO_TEAMS_CYCLINGCANADACHAMPION2024_NAME",
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_CYCLINGCANADA_CHAMP2024_NAME",
       "CyclingCanada_Champ2024_thumb",
     ],
     [
@@ -1120,7 +1140,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3977378563, "Clash Of Clubs Green", "ClashOfClubs2020_thumb"],
     [
       3981040718,
-      "LOC_CYCLING_JERSEY_PRO_TEAMS_FFCCHAMPION2024_NAME",
+      "LOC_CYCLING_JERSEY_FFC_CHAMPS2024_NAME",
       "FrenchCyclingFederation_Champ2024_thumb",
     ],
     [3988640695, "Rapha L'Etape", "RaphaLetape2019_thumb"],
@@ -1187,6 +1207,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [4113146346, "22-'23 ZFondo Gran", "ZFondoGran2023_thumb"],
     [4113250696, "Team Zoot 2022", "TeamZoot2022_thumb"],
     [4115647532, "Hagens Berman Supermint", "HagensBermanSupermint2019_thumb"],
+    [
+      4118910897,
+      "LOC_CYCLING_JERSEY_PRO_TEAMS_PROJECTECHELON2024_NAME",
+      "ProjectEchelon2024_thumb",
+    ],
     [4121221568, "Classy 1", "ZwiftClassy01_thumb"],
     [4123532946, "KOA Sports", "KoaSports2019_thumb"],
     [4130579852, "Lotto", "Lotto_2015_thumb"],
