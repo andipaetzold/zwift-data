@@ -1297,7 +1297,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1033940053,
       "Castle Crit Run",
-      "1033940053",
+      "castle-crit-run",
       "makuri-islands",
       true,
       3.47,

@@ -2237,4 +2237,8 @@ export const routes = [
       "https://whatsonzwift.com/world/makuri-islands/route/castle-crit",
     zwiftInsiderUrl: "https://zwiftinsider.com/castle-crit",
   },
+  {
+    id: 1033940053,
+    slug: "castle-crit-run",
+  },
 ];
