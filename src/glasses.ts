@@ -34,7 +34,6 @@ export const glasses: ReadonlyArray<Glass> = (
     [3309343427, "Rockstar", "Glasses_Generic06"],
     [3410864991, "ZRS Glasses 1", "Glasses_ZRS2021Glasses01"],
     [3987516741, "Race Trap", "Glasses_100RaceTrap"],
-    [4148144169, "Glasses Temp", "Glasses_Temp"],
     [4162894707, "Oversize", "Glasses_Generic05"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

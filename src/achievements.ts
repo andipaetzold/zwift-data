@@ -214,5 +214,6 @@ export const achievements: ReadonlyArray<Achievement> = (
     [223, "SPIRAL INTO THE VOLCANO", "RouteComplete"],
     [224, "BIG FLAT 8", "RouteComplete"],
     [225, "CASTLE CRIT", "RouteComplete"],
+    [226, "CASTLE CRIT (RUNNING)", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));
