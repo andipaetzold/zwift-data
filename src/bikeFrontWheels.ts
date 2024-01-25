@@ -47,6 +47,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
       "Lightweight Lightweight Meilenstein",
       "Wheel_LightweightMeilenstein",
     ],
+    [2365488570, "Zwift Tri Spoke // Disc Wheel", "Wheel_BigSpin2024"],
     [2568138708, "Zwift Buffalo Fahrrad", "Wheel_BuffaloFahrrad"],
     [2612651137, "Roval CLX64", "Wheel_SpecializedRovalCLX64"],
     [2621265514, "Cadex CADEX 65", "Wheel_Cadex65"],

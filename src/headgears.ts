@@ -8,6 +8,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [202102819, "2023 Zwift Academy Helmet", "ZAHelmet2023_thumb"],
     [216566426, "True Treadmill Run Hat 2021", "TruTreadmillRunHat2021_thumb"],
     [248687448, "ZA Run Team In Season", "RunningCap_ZARunInSeason2022_thumb"],
+    [271741505, "Sky Blue Helmet", "BigSpin2024_thumb"],
     [
       284363248,
       "Eddie Izzard Celebration Run Cap",
@@ -42,6 +43,11 @@ export const headgears: ReadonlyArray<Headgear> = (
       "RunningCapTourDeZwift2022_thumb",
     ],
     [796050981, "Tour of Watopia 2022", "CyclingCapTOW2022_thumb"],
+    [
+      842065288,
+      "Zwift Games Gold Cap",
+      "CyclingCapZwiftGamesGoldCap2024_thumb",
+    ],
     [857849616, "Kask Elemento", "KaskElementoHelmet"],
     [864167623, "Watch the Femmes 23 Cap", "CyclingCapTdFFaZ2023_thumb"],
     [935052582, "Zwift Helmet", "zwifthelmet"],
@@ -117,6 +123,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2638087379, "Zwift Academy Women 2018", "RunningCap_ZA2018_Womens"],
     [2638837937, "Watch the Femmes 22", "CyclingCapTDFF2022_thumb"],
     [2656884789, "Off the MAAP 2021 Cap", "BackwardsCapOffTheMaap2021_thumb"],
+    [2684416694, "Orange Headphones", "HeadphonesBigSpin2024_thumb"],
     [2698520959, "Zwift Running Cap", "RunningCap_Orange"],
     [
       2748617150,
