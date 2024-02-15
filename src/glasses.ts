@@ -23,6 +23,7 @@ export const glasses: ReadonlyArray<Glass> = (
     [2002800339, "Weskers", "Glasses_Generic02"],
     [2106991204, "Oakley Flight Jacket", "Glasses_RideWithReason2018"],
     [2289830259, "Retro 80's", "Glasses_80sGlasses"],
+    [2314973348, "Makuri Neon Sunglasses", "Glasses_BigSpin2024"],
     [2344157440, "Oakley Flight Jacket", "Glasses_ZA2018Mens"],
     [2364395919, "ZRS Glasses 2", "Glasses_ZRS2021Glasses02"],
     [2472441074, "POC Clarity Aspire", "Glasses_POCClarityAspire"],

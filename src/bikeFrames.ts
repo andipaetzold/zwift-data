@@ -41,6 +41,7 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = (
     [1254205148, "Scott Spark RC", 2019, false],
     [1315158373, "Scott Foil", 2015, false],
     [1381140630, "Canyon Grail", 2019, false],
+    [1409258486, "Zwift BigSpinCruiser2024", 1885, false],
     [1418783338, "Specialized Shiv S-Works", undefined, true],
     [1433973142, "Felt IA", 2019, true],
     [1444415023, "Zwift DefaultOrange", undefined, false],
@@ -127,6 +128,7 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = (
     [4150853780, "Zwift Bat", undefined, false],
     [4200057616, "Specialized Allez", 2015, false],
     [4208139356, "Pinarello Dogma F", 2021, false],
+    [4243692575, "Zwift Concept Z1 Gold", 2115, false],
     [4288910569, "Ridley Noah Fast 2019", 2019, false],
   ] as const
 ).map(([id, name, modelYear, isTT]) => ({ id, name, modelYear, isTT }));
