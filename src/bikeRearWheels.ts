@@ -38,6 +38,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [2506347267, "Zwift Supersonic Wheelset", "Wheel_ZwiftFunIsFast"],
     [2602078812, "Zwift Handcycle", "Wheel_CampagnoloHigh"],
     [2649189525, "Enve SES 2.2", "Wheel_Enve22"],
+    [
+      2740373137,
+      "Zwift LOC_WHEELNAME_ZWIFT_BigSpinCruiser2024",
+      "Wheel_BigSpinCruiser2024",
+    ],
     [2771477956, "Zwift Gravel", "Wheel_ZwiftGravel"],
     [2783190436, "DTSwiss ARC 1100 DICUT DISC", "Wheel_DTSwissARC1100AeroTT"],
     [2913819265, "HED HED Vanquish RC6 Pro", "Wheel_VanquishRC6"],
@@ -60,9 +65,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
       "Wheel_MavicCometeProCarbonSLUST",
     ],
     [4064842315, "Mavic Cosmic CXR60c", "Wheel_MavicCosmicCXR60c"],
+    [4088741326, "Zwift Tri Spoke // Disc Wheel", "Wheel_BigSpin2024"],
     [4111310185, "Zwift 8-Bit", ""],
     [4137014419, "Zwift 32mm Carbon", "Wheel_CampagnoloLow"],
     [4151096267, "FFWD RYOT55", "Wheel_FFWDRYOT55"],
+    [4151822963, "Zwift Concept", "Wheel_ZwiftConceptGold"],
     [4182312168, "Novatec Novatec R4", "Wheel_NovatecR4"],
     [4183014640, "Zipp 404", "Wheel_Zipp404Firecrest"],
   ] as const
