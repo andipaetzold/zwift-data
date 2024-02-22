@@ -183,6 +183,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     ],
     [3630601017, "Giant Backwards Cap", "BackwardsCyclingCapGiant2022_thumb"],
     [3633294398, "ZA Tri Team Helmet 2020", "SpecializedZA2021"],
+    [
+      3640209185,
+      "LOC_CYCLING_HEADGEAR_CyclingCapSpringTrainingHat2024_NAME",
+      "CyclingCapSpringTrainingHat2024_thumb",
+    ],
     [3644241871, "Rapha L'Etape", "CyclingCapRaphaLetape2019_thumb"],
     [
       3654765885,
