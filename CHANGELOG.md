@@ -1,3 +1,10 @@
+# [1.33.0](https://github.com/andipaetzold/zwift-data/compare/v1.32.4...v1.33.0) (2024-02-24)
+
+
+### Features
+
+* February 2024 update ([#99](https://github.com/andipaetzold/zwift-data/issues/99)) ([8ab050e](https://github.com/andipaetzold/zwift-data/commit/8ab050eea874d7eb55bab85271041d4a8da28220))
+
 ## [1.32.4](https://github.com/andipaetzold/zwift-data/compare/v1.32.3...v1.32.4) (2024-02-15)
 
 
