@@ -2,7 +2,7 @@ import { BikeShoe } from "./types";
 
 export const bikeShoes: ReadonlyArray<BikeShoe> = (
   [
-    [123888986, "Big Spin Shoes", "BigSpin2024_thumb"],
+    [123888986, "The Zwift Big Spin Shoes", "BigSpin2024_thumb"],
     [138403836, "Alpine", "Lederhose2022"],
     [
       231828206,

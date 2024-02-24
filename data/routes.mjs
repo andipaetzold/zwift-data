@@ -2240,5 +2240,66 @@ export const routes = [
   {
     id: 1033940053,
     slug: "castle-crit-run",
+    stravaSegmentId: 30326079,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/castle-crit-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/castle-crit",
+  },
+  {
+    id: 87631443,
+    slug: "queens-highway-after-party",
+    segments: ["yorkshire-sprint-rev"],
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/yorkshire/route/queens-highway-after-party",
+  },
+  {
+    id: 243949867,
+    slug: "loop-de-loop",
+    segments: ["watopia-sprint-rev", "zwift-kom"],
+    stravaSegmentId: 36342198,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/loop-de-loop",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/loop-de-loop",
+  },
+  {
+    id: 762151244,
+    slug: "zwift-games-2024-epic",
+    segments: [
+      "zwift-kom",
+      "titans-grove-kom-rev",
+      "woodland-sprint-rev",
+      "sasquatch-sprint-rev",
+      "acropolis-sprint-rev",
+      "titans-grove-kom",
+      "watopia-sprint-rev",
+      "zwift-kom-rev",
+      "watopia-sprint",
+    ],
+    stravaSegmentId: 36343341,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/zwift-games-2024-epic",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/zwift-games-2024-epic",
+  },
+  {
+    id: 2953010285,
+    slug: "mountain-mash",
+    segments: [],
+    stravaSegmentId: 36342419,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/mountain-mash",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/mountain-mash",
+  },
+  {
+    id: 4009130866,
+    slug: "jurassic-coast",
+    segments: [
+      "titans-grove-kom-rev",
+      "woodland-sprint-rev",
+      "sasquatch-sprint-rev",
+    ],
+    stravaSegmentId: 36343069,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/jurassic-coast",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/jurassic-coast",
   },
 ];
