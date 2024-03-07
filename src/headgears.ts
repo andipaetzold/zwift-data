@@ -185,7 +185,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3633294398, "ZA Tri Team Helmet 2020", "SpecializedZA2021"],
     [
       3640209185,
-      "LOC_CYCLING_HEADGEAR_CyclingCapSpringTrainingHat2024_NAME",
+      "Spring Training 2024",
       "CyclingCapSpringTrainingHat2024_thumb",
     ],
     [3644241871, "Rapha L'Etape", "CyclingCapRaphaLetape2019_thumb"],

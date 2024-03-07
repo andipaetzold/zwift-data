@@ -38,6 +38,7 @@ export const socks: ReadonlyArray<Sock> = (
     [1142442551, "Generic White", "ZwiftWhite"],
     [1214718478, "INEOS Grenadiers", "Socks_INEOSGrenadiers2021_blue"],
     [1225125243, "None", ""],
+    [1381501486, "Confetti", "ConfettiTrails"],
     [1422305746, "Patterned Blue", "Pattern01Blue"],
     [1427912484, "Zwift Academy Tri 2019", "SocksZwiftAcademyTriBlue2020"],
     [1483856737, "Classic Crew Socks", "SocksBigSpin2024"],
