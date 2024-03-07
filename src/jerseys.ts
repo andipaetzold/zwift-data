@@ -56,7 +56,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
       "Castelli Virtual Aero Light",
       "CastelliVirtualClimber_Light_thumb",
     ],
-    [172810261, "The Big Spin Kit", "TourOfMarch2024_thumb"],
+    [172810261, "The Zwift Big Spin", "TourOfMarch2024_thumb"],
     [173668358, "Colombia Elite", "ColombiaFederation2020_thumb"],
     [
       177191477,
@@ -310,11 +310,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [989955139, "Team Experimental", "TeamExperimental_thumb"],
     [996458198, "Rapha Flyweight", "RaphaFlyweight_thumb"],
     [1000257656, "Rocacorba", "Rocacorba2021_thumb"],
-    [
-      1016760902,
-      "LOC_CYCLING_JERSEY_PRO_TEAMS_SCFCHAMP2024_NAME",
-      "SCF2024_thumb",
-    ],
+    [1016760902, "SCF Champ 2024", "SCF2024_thumb"],
     [1021172827, "Hincapie", "Hincapie2020_thumb"],
     [
       1022121143,
@@ -503,11 +499,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1746959823, "Skyline", "Skyline2020_thumb"],
     [1751349769, "UAE", "UAE_2017_thumb"],
     [1756517729, "UnoXPro2022", "UnoXPro2022_thumb"],
-    [
-      1764008063,
-      "LOC_CYCLING_JERSEY_PRO_TEAMS_AUSCYCLINGCHAMP2024_NAME",
-      "AusCycling2024_thumb",
-    ],
+    [1764008063, "AusCycling Champion 2024", "AusCycling2024_thumb"],
     [1766102862, "Elite", "Elite_thumb"],
     [
       1769311524,
@@ -995,11 +987,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3502306062, "Doddie Aid", "DoddieAid2023_thumb"],
     [3503002798, "Bardiani 2019", "Bardiani2019_thumb"],
     [3503400331, "BL13 Ladies", "BL13Ladies2023_thumb"],
-    [
-      3516730865,
-      "LOC_CYCLING_JERSEY_ORIGINALS_SpringTraining2024_NAME",
-      "SpringTraining2024_thumb",
-    ],
+    [3516730865, "Spring Training 2024", "SpringTraining2024_thumb"],
     [3526847660, "Ryzon 2021", "Ryzon2021_thumb"],
     [3535768157, "Monochrome 3", "Zwift_Monochrome03_thumb"],
     [3535883671, "Rye", "Rye2015_thumb"],

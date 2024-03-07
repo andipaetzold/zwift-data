@@ -2547,7 +2547,7 @@ export const routes: ReadonlyArray<Route> = (
       ["fuego-flats"],
       [{ from: 28.719, to: 29.217, segment: "fuego-flats" }],
       false,
-      false,
+      true,
       false,
       true,
       ["running", "cycling"],

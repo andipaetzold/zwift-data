@@ -2,11 +2,7 @@ import { Glass } from "./types";
 
 export const glasses: ReadonlyArray<Glass> = (
   [
-    [
-      31330258,
-      "LOC_GLASSES_SpringTrainingSunglasses2024_NAME",
-      "Glasses_SpringTrainingSunglasses2024",
-    ],
+    [31330258, "Spring Training 2024", "Glasses_SpringTrainingSunglasses2024"],
     [258033368, "April Fools", "Glasses_TealPink2020Glasses02_thumb"],
     [478032186, "Oakley Radar", "Glasses_Original"],
     [817902595, "Wave Wearers", "Glasses_Generic01"],
