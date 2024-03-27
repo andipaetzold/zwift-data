@@ -6515,7 +6515,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1258415487,
       "Glasgow Reverse",
-      "1258415487",
+      "glasgow-reverse",
       "scotland",
       true,
       3.012,
@@ -6534,10 +6534,10 @@ export const routes: ReadonlyArray<Route> = (
       true,
       ["running", "cycling"],
       120,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
+      33620087,
+      "https://www.strava.com/segments/33620087",
+      "https://zwiftinsider.com/glasgow-crit-circuit-reverse",
+      "https://whatsonzwift.com/world/scotland/route/glasgow-reverse",
       undefined,
     ],
   ] as const
