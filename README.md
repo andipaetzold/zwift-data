@@ -51,7 +51,7 @@ import {
   bikeRearWheels,
   bikeShoes,
   challenges,
-  galsses,
+  glasses,
   headgears,
   jerseys,
   notableMomentTypes
