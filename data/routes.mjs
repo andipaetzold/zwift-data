@@ -2302,4 +2302,13 @@ export const routes = [
       "https://whatsonzwift.com/world/watopia/route/jurassic-coast",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/jurassic-coast",
   },
+  {
+    id: 1258415487,
+    slug: "glasgow-reverse",
+    segments: [],
+    stravaSegmentId: 33620087,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/glasgow-reverse",
+    zwiftInsiderUrl: "https://zwiftinsider.com/glasgow-crit-circuit-reverse",
+  },
 ];
