@@ -219,5 +219,6 @@ export const achievements: ReadonlyArray<Achievement> = (
     [228, "MOUNTAIN MASH", "RouteComplete"],
     [229, "ZWIFT GAMES 2024 EPIC", "RouteComplete"],
     [230, "JURASSIC COAST", "RouteComplete"],
+    [231, "PARTY ON!", "GetRideOn1"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));
