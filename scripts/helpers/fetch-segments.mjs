@@ -11,6 +11,12 @@ export async function fetchSegments() {
         const url = `https://www.strava.com/stream/segments/${segment.stravaSegmentId}?streams%5B%5D=latlng&streams%5B%5D=distance`;
         const response = await fetch(url);
         const data = await response.json();
+        if ("error" in data) {
+          throw new Error(
+            `Error fetching segment '${segment.stravaSegmentId}'`,
+            data.error
+          );
+        }
         return {
           ...segment,
           latlng: data.latlng,

@@ -232,8 +232,6 @@ export const segments = [
     slug: "watopia-sprint-rev",
     type: "sprint",
     world: "watopia",
-    stravaSegmentId: 12109228,
-    stravaSegmentUrl: "https://www.strava.com/segments/12109228",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/sprint/reverse",
     distance: 0.2,
