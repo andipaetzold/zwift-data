@@ -1,3 +1,10 @@
+## [1.35.1](https://github.com/andipaetzold/zwift-data/compare/v1.35.0...v1.35.1) (2024-04-22)
+
+
+### Bug Fixes
+
+* remove deleted strava segment "Watopia Sprint Rev." ([864db22](https://github.com/andipaetzold/zwift-data/commit/864db22924b87e250d8073989ad80b4f872da549))
+
 # [1.35.0](https://github.com/andipaetzold/zwift-data/compare/v1.34.0...v1.35.0) (2024-04-04)
 
 
