@@ -110,6 +110,7 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = (
     [3628259811, "Colnago Colnago V3RS", 2020, false],
     [3660740142, "Felt FeltFR2022", 2022, false],
     [3710262807, "Zwift Safety", 1885, false],
+    [3713154300, "Pinarello DogmaX2024", 2023, false],
     [3772124007, "Specialized Shiv", 2015, true],
     [3787085621, "Lauf Lauf True Grit", 2021, false],
     [3814159195, "Zwift Handcycle", undefined, false],
