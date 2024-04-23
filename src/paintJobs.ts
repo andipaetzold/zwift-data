@@ -167,6 +167,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [3873708758, "Scott Foil-Orica"],
     [3873895882, "Specialized Shiv Disc-ZA Tri Team"],
     [3876463492, "Cube CubeLitening2021-Team"],
+    [3877664587, "Pinarello DogmaX2024-Dogma X"],
     [3959514452, "Factor One-One Israel"],
     [3962435618, "BMC SLR01-SLR01 2"],
     [3985070191, "Specialized Ruby-Chameleon Black"],
