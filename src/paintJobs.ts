@@ -99,6 +99,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [2229015867, "Cervelo S5-ZA 2018"],
     [2235539821, "Cannondale Super Six Evo-Giro De Rigo"],
     [2240051099, "Felt FeltFR2022-FeltFRTwenty24"],
+    [2251624409, "Pinarello Espada-Espada"],
     [2266567131, "Cannondale Synapse-Evo"],
     [2272858534, "Cube CubeLitening2021-Commercial"],
     [2273815071, "Zwift Carbon-Cofidis De Rosa"],

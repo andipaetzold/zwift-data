@@ -220,5 +220,9 @@ export const achievements: ReadonlyArray<Achievement> = (
     [229, "ZWIFT GAMES 2024 EPIC", "RouteComplete"],
     [230, "JURASSIC COAST", "RouteComplete"],
     [231, "PARTY ON!", "GetRideOn1"],
+    [232, "QUEENS HIGHWAY REVERSE", "RouteComplete"],
+    [233, "HILLY ROUTE REVERSE", "RouteComplete"],
+    [234, "LONDON CLASSIQUE REVERSE", "RouteComplete"],
+    [235, "PARK PERIMETER REVERSE", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

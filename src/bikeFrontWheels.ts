@@ -71,5 +71,6 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [4221174482, "Zwift Handcycle", "Wheel_CampagnoloHigh"],
     [4235764609, "Shimano C40", "Wheel_ShimanoDuraAceC40"],
     [4237316283, "FFWD RYOT55", "Wheel_FFWDRYOT55"],
+    [4249063997, "Pinarello Pinarello Espada", "Wheel_PinarelloEspadaDisc"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));
