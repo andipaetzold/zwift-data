@@ -36,6 +36,7 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = (
     [1029279076, "Zwift Steel", 2015, false],
     [1133663232, "Specialized SpecializedDiverge2022", 2022, false],
     [1152794347, "QuintanaRoo QuintanaVPR2022", 2022, true],
+    [1169494001, "Pinarello Espada", 1995, true],
     [1174020494, "Chapter2 Chapter2TOA2021", 2021, false],
     [1188190925, "Specialized Tarmac SL7 Sram", 2021, false],
     [1254205148, "Scott Spark RC", 2019, false],
