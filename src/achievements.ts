@@ -220,7 +220,7 @@ export const achievements: ReadonlyArray<Achievement> = (
     [229, "ZWIFT GAMES 2024 EPIC", "RouteComplete"],
     [230, "JURASSIC COAST", "RouteComplete"],
     [231, "PARTY ON!", "GetRideOn1"],
-    [232, "QUEENS HIGHWAY REVERSE", "RouteComplete"],
+    [232, "QUEEN'S HIGHWAY AFTER PARTY", "RouteComplete"],
     [233, "HILLY ROUTE REVERSE", "RouteComplete"],
     [234, "LONDON CLASSIQUE REVERSE", "RouteComplete"],
     [235, "PARK PERIMETER REVERSE", "RouteComplete"],
