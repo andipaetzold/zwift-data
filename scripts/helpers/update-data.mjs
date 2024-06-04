@@ -12,6 +12,7 @@ export async function updateData() {
     "https://www.zwift.com/zwift-web-pages/gamedictionary"
   );
   const responseData = await response.json();
+  delete responseData.GameDictionary["$"];
   const responseExtendedData = Object.fromEntries(
     Object.entries(responseData.GameDictionary).map(([key1, value1]) => [
       key1,
