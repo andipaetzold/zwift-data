@@ -6874,7 +6874,6 @@ export const routes: ReadonlyArray<Route> = (
         "stoneway-sprint-rev",
         "mayan-mountainside-kom",
         "itza-kom",
-        "acropolis-sprint-rev",
       ],
       [],
       false,

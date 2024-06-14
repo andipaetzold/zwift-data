@@ -2433,7 +2433,6 @@ export const routes = [
       "stoneway-sprint-rev",
       "mayan-mountainside-kom",
       "itza-kom",
-      "acropolis-sprint-rev",
     ],
     stravaSegmentId: 37039844,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/mayan-mash",
