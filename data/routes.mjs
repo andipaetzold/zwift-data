@@ -2439,4 +2439,18 @@ export const routes = [
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/mayan-mash",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/mayan-mash",
   },
+  {
+    id: 2768300955,
+    slug: "coastal-crown-loop",
+    segments: [
+      "itza-kom",
+      "acropolis-sprint-rev",
+      "stoneway-sprint-rev",
+      "mayan-mountainside-kom",
+    ],
+    stravaSegmentId: 37039562,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/coastal-crown-loop",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/coastal-crown-loop",
+  },
 ];
