@@ -1182,4 +1182,43 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/woodland-sprint/reverse",
   },
+  {
+    name: "Itza KOM",
+    slug: "itza-kom",
+    distance: 3.75,
+    elevation: 95,
+    avgIncline: 2,
+    type: "climb",
+    world: "watopia",
+    stravaSegmentId: 37039571,
+    stravaSegmentUrl: "https://www.strava.com/segments/37039571",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/itza-kom/forward",
+  },
+  {
+    name: "Mayan Mountainside KOM",
+    slug: "mayan-mountainside-kom",
+    distance: 1.99,
+    elevation: 62,
+    avgIncline: 3.1,
+    type: "climb",
+    world: "watopia",
+    stravaSegmentId: 37049451,
+    stravaSegmentUrl: "https://www.strava.com/segments/37049451",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/mayan-mountainside-kom/forward",
+  },
+  {
+    name: "The Grade KOM",
+    slug: "the-grade-kom",
+    distance: 3.52,
+    elevation: 305,
+    avgIncline: 8.6,
+    type: "climb",
+    world: "watopia",
+    stravaSegmentId: 37033150,
+    stravaSegmentUrl: "https://www.strava.com/segments/37033150",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/the-grade/forward",
+  },
 ];

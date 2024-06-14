@@ -62,7 +62,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1208445863, "Team BikeExchange Cap", "CyclingCapBikeExchange2022_thumb"],
     [1225125243, "None", "none"],
     [1247929422, "Zwift Cycling Cap", "CyclingCap_Orange"],
-    [1292376041, "LOC_ACCESSORY_LAZERBULLET", "LazerBullet"],
+    [1292376041, "Lazer Vento", "LazerBullet"],
     [1295867791, "HEP", "CylcingCapHEP_thumb2022"],
     [1356164614, "Giro Eclipse", "GiroEclipse2021"],
     [
@@ -137,7 +137,7 @@ export const headgears: ReadonlyArray<Headgear> = (
       "Tour of Watopia Fall 2023 Run Cap",
       "RunningCapToWFall2023_thumb",
     ],
-    [2763919224, "ZRL2021", "ZRL2021_thumb"],
+    [2763919224, "ZRL Winner", "ZRL2021_thumb"],
     [2803157511, "Saucony Outpace Cap", "RunnerCapSaucony2021_thumb"],
     [2828152591, "Liv Backwards Cap", "BackwardsCyclingCapLiv2022_thumb"],
     [

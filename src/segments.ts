@@ -15,6 +15,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Ballon Sprint Rev.",
@@ -27,6 +28,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/ballon-sprint-reverse",
       24700963,
       "https://www.strava.com/segments/24700963",
+      undefined,
       undefined,
       undefined,
     ],
@@ -43,6 +45,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12128880",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Broad St. Rev.",
@@ -51,6 +54,7 @@ export const segments: ReadonlyArray<Segment> = (
       "richmond",
       0.064,
       "https://whatsonzwift.com/world/richmond/segment/broad-st/reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -71,6 +75,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/20350107",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Fuego Flats Rev.",
@@ -85,6 +90,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/20350066",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Innsbruck Sprint",
@@ -95,6 +101,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/innsbruck/segment/sprint/forward",
       "innsbruck-sprint",
       "https://zwifterbikes.web.app/route/innsbruck-sprint",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -113,6 +120,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Lutece Sprint",
@@ -123,6 +131,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/paris/segment/lutece-sprint/forward",
       "lutece-sprint",
       "https://zwifterbikes.web.app/route/lutece-sprint",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -141,6 +150,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Marina Sprint",
@@ -155,6 +165,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/24710590",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Marina Sprint Rev.",
@@ -165,6 +176,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/france/segment/marina-sprint-reverse/reverse",
       "marina-sprint-reverse",
       "https://zwifterbikes.web.app/route/marina-sprint-reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -183,6 +195,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12128762",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Richmond Sprint Rev.",
@@ -193,6 +206,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/richmond/segment/sprint/reverse",
       "richmond-sprint-reverse",
       "https://zwifterbikes.web.app/route/richmond-sprint-reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -211,6 +225,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       -4.3,
       undefined,
+      undefined,
     ],
     [
       "New York Sprint Rev.",
@@ -221,6 +236,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/new-york/segment/ny-sprint/reverse",
       "ny-sprint-reverse",
       "https://zwifterbikes.web.app/route/ny-sprint-reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -239,6 +255,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Pavé Sprint Rev.",
@@ -249,6 +266,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/france/segment/pave-sprint-reverse/reverse",
       "pave-sprint-reverse",
       "https://zwifterbikes.web.app/route/pave-sprint-reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -267,6 +285,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12749402",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "London Sprint Rev.",
@@ -279,6 +298,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/london-sprint-reverse",
       12749377,
       "https://www.strava.com/segments/12749377",
+      undefined,
       undefined,
       undefined,
     ],
@@ -295,6 +315,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12109305",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Watopia Sprint Rev.",
@@ -305,6 +326,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/watopia/segment/sprint/reverse",
       "watopia-sprint-reverse",
       "https://zwifterbikes.web.app/route/watopia-sprint-reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -323,6 +345,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Yorkshire Sprint Rev.",
@@ -335,6 +358,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/yorkshire-sprint-reverse",
       21748007,
       "https://www.strava.com/segments/21748007",
+      undefined,
       undefined,
       undefined,
     ],
@@ -351,6 +375,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/17267489",
       8.5,
       "HC",
+      undefined,
     ],
     [
       "Epic KOM",
@@ -365,6 +390,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/16784833",
       4,
       "2",
+      undefined,
     ],
     [
       "Epic KOM Rev.",
@@ -379,6 +405,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/16784850",
       6.3,
       "2",
+      undefined,
     ],
     [
       "Hilly Loop",
@@ -391,6 +418,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/hilly-loop",
       12118362,
       "https://www.strava.com/segments/12118362",
+      undefined,
       undefined,
       undefined,
     ],
@@ -407,6 +435,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12128037",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Jungle Loop",
@@ -419,6 +448,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/jungle-loop",
       16359371,
       "https://www.strava.com/segments/16359371",
+      undefined,
       undefined,
       undefined,
     ],
@@ -435,6 +465,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/16359363",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Titans Grove KOM",
@@ -448,6 +479,7 @@ export const segments: ReadonlyArray<Segment> = (
       21343975,
       "https://www.strava.com/segments/21343975",
       2.2,
+      undefined,
       undefined,
     ],
     [
@@ -463,6 +495,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/21343961",
       6.6,
       undefined,
+      undefined,
     ],
     [
       "Volcano Circuit",
@@ -475,6 +508,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/volcano-circuit",
       14032406,
       "https://www.strava.com/segments/14032406",
+      undefined,
       undefined,
       undefined,
     ],
@@ -491,6 +525,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/14032426",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Volcano KOM",
@@ -504,6 +539,7 @@ export const segments: ReadonlyArray<Segment> = (
       14270131,
       "https://www.strava.com/segments/14270131",
       3.2,
+      undefined,
       undefined,
     ],
     [
@@ -519,6 +555,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12109030",
       5,
       undefined,
+      undefined,
     ],
     [
       "Zwift KOM Rev.",
@@ -532,6 +569,7 @@ export const segments: ReadonlyArray<Segment> = (
       12128029,
       "https://www.strava.com/segments/12128029",
       2,
+      undefined,
       undefined,
     ],
     [
@@ -547,6 +585,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/20560239",
       2.8,
       undefined,
+      undefined,
     ],
     [
       "Central Park Loop Rev.",
@@ -559,6 +598,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       19170661,
       "https://www.strava.com/segments/19170661",
+      undefined,
       undefined,
       undefined,
     ],
@@ -575,6 +615,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/19141090",
       6.1,
       "4",
+      undefined,
     ],
     [
       "New York KOM Rev.",
@@ -588,6 +629,7 @@ export const segments: ReadonlyArray<Segment> = (
       19141092,
       "https://www.strava.com/segments/19141092",
       5.7,
+      undefined,
       undefined,
     ],
     [
@@ -603,6 +645,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12128917",
       10,
       undefined,
+      undefined,
     ],
     [
       "23rd St. Rev",
@@ -616,6 +659,7 @@ export const segments: ReadonlyArray<Segment> = (
       22813206,
       "https://www.strava.com/segments/22813206",
       3.5,
+      undefined,
       undefined,
     ],
     [
@@ -631,6 +675,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12128826",
       6.4,
       undefined,
+      undefined,
     ],
     [
       "Richmond KOM Rev.",
@@ -645,6 +690,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/26935782",
       3.4,
       undefined,
+      undefined,
     ],
     [
       "Richmond UCI Cource",
@@ -657,6 +703,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/2015-uci-worlds-course",
       12128718,
       "https://www.strava.com/segments/12128718",
+      undefined,
       undefined,
       undefined,
     ],
@@ -673,6 +720,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/16802545",
       4.9,
       "4",
+      undefined,
     ],
     [
       "Box Hill",
@@ -687,6 +735,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/12744502",
       4.3,
       "4",
+      undefined,
     ],
     [
       "Leith Hill",
@@ -701,6 +750,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/16781411",
       6.8,
       "4",
+      undefined,
     ],
     [
       "Keith Hill",
@@ -715,6 +765,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/16781407",
       5,
       "3",
+      undefined,
     ],
     [
       "London Loop",
@@ -727,6 +778,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/london-loop",
       12749649,
       "https://www.strava.com/segments/12749649",
+      undefined,
       undefined,
       undefined,
     ],
@@ -743,6 +795,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/24700976",
       3,
       undefined,
+      undefined,
     ],
     [
       "Aqueduc KOM Rev.",
@@ -756,6 +809,7 @@ export const segments: ReadonlyArray<Segment> = (
       24701010,
       "https://www.strava.com/segments/24701010",
       5,
+      undefined,
       undefined,
     ],
     [
@@ -771,6 +825,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/24690967",
       4,
       "4",
+      undefined,
     ],
     [
       "Ventoux KOM",
@@ -784,6 +839,7 @@ export const segments: ReadonlyArray<Segment> = (
       24682578,
       "https://www.strava.com/segments/24682578",
       8,
+      undefined,
       undefined,
     ],
     [
@@ -799,6 +855,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/18397965",
       6,
       "2",
+      undefined,
     ],
     [
       "Innsbruck KOM Rev.",
@@ -813,6 +870,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/18397927",
       8,
       "2",
+      undefined,
     ],
     [
       "Innsbruck UCI Lap",
@@ -825,6 +883,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/uci-lap",
       18398895,
       "https://www.strava.com/segments/18398895",
+      undefined,
       undefined,
       undefined,
     ],
@@ -841,6 +900,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/21747822",
       5.5,
       undefined,
+      undefined,
     ],
     [
       "Yorkshire KOM Rev.",
@@ -855,6 +915,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/21747891",
       3.8,
       undefined,
+      undefined,
     ],
     [
       "Crit City",
@@ -867,6 +928,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/crit-city-",
       22445564,
       "https://www.strava.com/segments/22445564",
+      undefined,
       undefined,
       undefined,
     ],
@@ -883,6 +945,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/22419554",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Prime",
@@ -897,6 +960,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       4,
       undefined,
+      undefined,
     ],
     [
       "Prime Rev.",
@@ -907,6 +971,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/crit-city/segment/prime/reverse",
       "prime-sprint",
       "https://zwifterbikes.web.app/route/prime-sprint",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -925,6 +990,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/24674235",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Champs Elysées Rev.",
@@ -939,6 +1005,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/24674248",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Country Sprint",
@@ -949,6 +1016,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/makuri-islands/segment/country-sprint/forward",
       "country-sprint",
       "https://zwifterbikes.web.app/route/country-sprint",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -967,6 +1035,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/28433453",
       2.45,
       undefined,
+      undefined,
     ],
     [
       "Village Sprint",
@@ -980,6 +1049,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       0.99,
+      undefined,
       undefined,
     ],
     [
@@ -995,6 +1065,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/28432259",
       3.95,
       "4",
+      undefined,
     ],
     [
       "Temple KOM from Castle Side",
@@ -1008,6 +1079,7 @@ export const segments: ReadonlyArray<Segment> = (
       28432293,
       "https://www.strava.com/segments/28432293",
       3.59,
+      undefined,
       undefined,
     ],
     [
@@ -1023,6 +1095,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/30407861",
       2.7,
       undefined,
+      undefined,
     ],
     [
       "Tower Sprint",
@@ -1037,6 +1110,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/30412571",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Tower Sprint Rev.",
@@ -1047,6 +1121,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/makuri-islands/segment/tower-sprint/reverse",
       "tower-sprint-reverse",
       "https://zwifterbikes.web.app/route/tower-sprint-reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -1065,6 +1140,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Castle Park Sprint Rev.",
@@ -1075,6 +1151,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/makuri-islands/segment/castle-park-sprint/reverse",
       "castle-park-sprint-reverse",
       "https://zwifterbikes.web.app/route/castle-park-sprint-reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -1093,6 +1170,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/30412916",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Alley Sprint Rev.",
@@ -1105,6 +1183,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://zwifterbikes.web.app/route/alley-sprint-reverse",
       30412903,
       "https://www.strava.com/segments/30412903",
+      undefined,
       undefined,
       undefined,
     ],
@@ -1121,6 +1200,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/30412927",
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Boardwalk Sprint",
@@ -1129,6 +1209,7 @@ export const segments: ReadonlyArray<Segment> = (
       "makuri-islands",
       0.24,
       "https://whatsonzwift.com/world/makuri-islands/segment/boardwalk-sprint/forward",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -1149,6 +1230,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Shisa Sprint Rev.",
@@ -1157,6 +1239,7 @@ export const segments: ReadonlyArray<Segment> = (
       "makuri-islands",
       0.29,
       "https://whatsonzwift.com/world/makuri-islands/segment/shisa-sprint/reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -1177,6 +1260,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Village Sprint Rev.",
@@ -1187,6 +1271,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/makuri-islands/segment/village-sprint/reverse",
       "village-sprint-reverse",
       "https://zwifterbikes.web.app/route/village-sprint-reverse",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -1205,6 +1290,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
+      undefined,
     ],
     [
       "Sgurr Summit South",
@@ -1218,6 +1304,7 @@ export const segments: ReadonlyArray<Segment> = (
       33636430,
       "https://www.strava.com/segments/33636430",
       3.3,
+      undefined,
       undefined,
     ],
     [
@@ -1233,6 +1320,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/33636401",
       3.7,
       undefined,
+      undefined,
     ],
     [
       "The Clyde Kicker",
@@ -1247,6 +1335,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       3.6,
       undefined,
+      undefined,
     ],
     [
       "Champion's Sprint",
@@ -1257,6 +1346,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://whatsonzwift.com/world/scotland/segment/champion-s-sprint/forward",
       "the-clyde-kicker",
       "https://zwifterbikes.web.app/route/the-clyde-kicker",
+      undefined,
       undefined,
       undefined,
       undefined,
@@ -1275,6 +1365,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       2,
       undefined,
+      undefined,
     ],
     [
       "Breakaway Brae Rev.",
@@ -1288,6 +1379,7 @@ export const segments: ReadonlyArray<Segment> = (
       33620168,
       "https://www.strava.com/segments/33620168",
       2.4,
+      undefined,
       undefined,
     ],
     [
@@ -1303,6 +1395,7 @@ export const segments: ReadonlyArray<Segment> = (
       "https://www.strava.com/segments/33620222",
       0.1,
       undefined,
+      undefined,
     ],
     [
       "Stoneway Sprint",
@@ -1316,6 +1409,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       0.8,
+      undefined,
       undefined,
     ],
     [
@@ -1331,6 +1425,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       0.4,
       undefined,
+      undefined,
     ],
     [
       "Acropolis Sprint",
@@ -1344,6 +1439,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       0.7,
+      undefined,
       undefined,
     ],
     [
@@ -1359,6 +1455,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       -1.1,
       undefined,
+      undefined,
     ],
     [
       "Sasquatch Sprint",
@@ -1372,6 +1469,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       0.3,
+      undefined,
       undefined,
     ],
     [
@@ -1387,6 +1485,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       -0.9,
       undefined,
+      undefined,
     ],
     [
       "Woodland Sprint",
@@ -1400,6 +1499,7 @@ export const segments: ReadonlyArray<Segment> = (
       35705436,
       "https://www.strava.com/segments/35705436",
       -2.2,
+      undefined,
       undefined,
     ],
     [
@@ -1415,6 +1515,52 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       -1.6,
       undefined,
+      undefined,
+    ],
+    [
+      "Itza KOM",
+      "itza-kom",
+      "climb",
+      "watopia",
+      3.75,
+      "https://whatsonzwift.com/world/watopia/segment/itza-kom/forward",
+      undefined,
+      undefined,
+      37039571,
+      "https://www.strava.com/segments/37039571",
+      2,
+      undefined,
+      95,
+    ],
+    [
+      "Mayan Mountainside KOM",
+      "mayan-mountainside-kom",
+      "climb",
+      "watopia",
+      1.99,
+      "https://whatsonzwift.com/world/watopia/segment/mayan-mountainside-kom/forward",
+      undefined,
+      undefined,
+      37049451,
+      "https://www.strava.com/segments/37049451",
+      3.1,
+      undefined,
+      62,
+    ],
+    [
+      "The Grade KOM",
+      "the-grade-kom",
+      "climb",
+      "watopia",
+      3.52,
+      "https://whatsonzwift.com/world/watopia/segment/the-grade/forward",
+      undefined,
+      undefined,
+      37033150,
+      "https://www.strava.com/segments/37033150",
+      8.6,
+      undefined,
+      305,
     ],
   ] as const
 ).map(
@@ -1431,6 +1577,7 @@ export const segments: ReadonlyArray<Segment> = (
     stravaSegmentUrl,
     avgIncline,
     climbType,
+    elevation,
   ]) => ({
     name,
     slug,
@@ -1444,5 +1591,6 @@ export const segments: ReadonlyArray<Segment> = (
     stravaSegmentUrl,
     avgIncline,
     climbType,
+    elevation,
   }),
 );
