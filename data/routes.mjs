@@ -2381,7 +2381,7 @@ export const routes = [
   {
     id: 3324272424,
     slug: "snowman",
-    segments: ["jwb-sprint-rev", "mayan-mountainside-kom", "itza-kom"],
+    segments: ["watopia-sprint-rev", "mayan-mountainside-kom", "itza-kom"],
     stravaSegmentId: 37049460,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/snowman",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/snowman",
