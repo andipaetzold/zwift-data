@@ -170,6 +170,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
       "SLTRun2022blue_thumb",
     ],
     [2722487491, "Monochrome Pattern Tank Kit", "MonochromeTank01_thumb"],
+    [2732445655, "LOC_RUNNING_OUTFIT_WAHOORUN2024_NAME", "PrideOn2023_thumb"],
     [2734666004, "The Running Channel Shirt", "RunningChannel2021_thumb"],
     [2768891314, "Lionel Sanders", "LionelSanders2019_thumb"],
     [2795593609, "Halo ID", "HaloIDRun2022_thumb"],
