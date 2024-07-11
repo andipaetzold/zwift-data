@@ -17,6 +17,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     [315747548, "Collins Cup Europe", "CollinsCupRunBlue2020_thumb"],
     [320106855, "LA Road Runners", "LARR2019_thumb"],
     [325633081, "2022 ZA Tri Team Design", "ZATriRun2022_thumb"],
+    [367091450, "HISP Kit", "HISP2024_thumb"],
     [413092844, "Super League Triathlon Sharks", "SLTSharks2022_thumb"],
     [424581175, "World Cancer Day", "WorldCancerDayRun2021_thumb"],
     [482325688, "GTN", "GTNRun2022_thumb"],

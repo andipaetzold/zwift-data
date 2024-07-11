@@ -47,6 +47,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     [708384525, "LA Road Runners", "LARR2019_thumb"],
     [714879408, "Super League Triathlon Scorpions", "SLTScorpions2022_thumb"],
     [746845203, "Tour of Makuri Islands", "TourOfMakuri2022_thumb"],
+    [751581328, "HISP Kit", "HISP2024_thumb"],
     [
       769877933,
       "Super League Tri Arena Games - Yellow Jersey",
