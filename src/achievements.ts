@@ -235,5 +235,15 @@ export const achievements: ReadonlyArray<Achievement> = (
     [247, "ITZA CLIMB FINISH", "RouteComplete"],
     [248, "ITZA PARTY", "RouteComplete"],
     [250, "ELEVATION EVALUATION", "RouteComplete"],
+    [251, "TITAN'S RUN", "RouteComplete"],
+    [252, "EPIC RUN", "RouteComplete"],
+    [253, "HILLY ROUTE REVERSE RUN", "RouteComplete"],
+    [254, "MECH ISLE LOOP RUN", "RouteComplete"],
+    [255, "CHAMPS-ÉLYSÉES RUN", "RouteComplete"],
+    [256, "LUTECE EXPRESS RUN", "RouteComplete"],
+    [257, "COBBLED CLIMBS RUN", "RouteComplete"],
+    [258, "QUEEN'S HIGHWAY RUN", "RouteComplete"],
+    [259, "GLASGOW CRIT CIRCUIT RUN", "RouteComplete"],
+    [260, "LOCH LOOP RUN", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

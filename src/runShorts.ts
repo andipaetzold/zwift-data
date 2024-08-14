@@ -128,7 +128,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     [3289604891, "Tour of Watopia 2022", "TOWRun2022_thumb"],
     [3290761370, "Halloween Chase", "HalloweenChase2019_thumb"],
     [3291110514, "ZRL Atlanta Run Shorts", "ZRLAtlanta2022_thumb"],
-    [3308502469, "LOC_RUNNING_OUTFIT_WAHOORUN2024_NAME", "PrideOn2023_thumb"],
+    [3308502469, "Wahoo", "WahooRun2024_thumb"],
     [3368541207, "Xterra Running Shorts 2020", "XterraRunShorts2020_thumb"],
     [3375414094, "Zwift Running Shorts 4", "Shorts04"],
     [3423758014, "Team LCB Run Shorts", "LucyCharles2021_thumb"],
