@@ -61,6 +61,7 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = (
     [1874220070, "Moots MootsVamoots2021", 2021, false],
     [1928137471, "Trek Emonda SL", undefined, false],
     [1936733870, "Chapter2 Chapter2KOKO2022", 2022, false],
+    [1950596038, "Pinarello DogmaF2024", 2024, false],
     [1972610461, "Cervelo CerveloS52021", 2021, false],
     [2002850191, "Scott ScottPlasma2022", 2022, true],
     [2005280203, "Cannondale System Six", 2019, false],

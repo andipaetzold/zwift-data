@@ -30,6 +30,7 @@ export const runShoes: ReadonlyArray<RunShoe> = (
     [3055713810, "HOVR Machina 2", ""],
     [3086387372, "Adidas UB19", ""],
     [3303617268, "Zwift White", "RunningShoe_White"],
+    [3371909522, "Tour of Watopia '24", "RunningShoes_TourOfWatopia2024_thumb"],
     [3413023141, "ZRS Running Shoes 1", "RunningShoe_ZRSKit012021"],
     [3589642520, "4DFWD", "RunningShoesAdidas4DFWD_2021_thumb"],
     [3662000114, "Tour De Zwift 2020", "RunningShoe_TourDeZwift2020_thumb"],
