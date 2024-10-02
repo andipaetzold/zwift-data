@@ -1,5 +1,3 @@
-import { segmentEach } from "@turf/turf";
-
 export const routes = [
   {
     id: 3921412335,
