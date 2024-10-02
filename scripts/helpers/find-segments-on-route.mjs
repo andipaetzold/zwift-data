@@ -11,13 +11,16 @@ export async function findSegmentsOnRoute(route, segments) {
   const url = `https://www.strava.com/stream/segments/${route.stravaSegmentId}?streams%5B%5D=latlng&streams%5B%5D=distance`;
   const response = await fetch(url);
   const data = await response.json();
+  if ("error" in data) {
+    throw new Error(data.error);
+  }
   const routeLatLng = data.latlng;
   const routeDistance = data.distance;
 
   const segmentsOnRoute = segments
     .filter((s) => !(route.invalidSegments ?? []).includes(s.slug))
     .flatMap((segment) =>
-      findSegmentOnRoute(routeLatLng, routeDistance, segment),
+      findSegmentOnRoute(routeLatLng, routeDistance, segment)
     );
 
   return segmentsOnRoute
@@ -41,7 +44,7 @@ function findSegmentOnRoute(routeLatLng, routeDistanceStream, segment) {
     if (
       lineDistance(
         segment.latlng.slice(0, 2),
-        routeLatLng.slice(startPointIndex, startPointIndex + 2),
+        routeLatLng.slice(startPointIndex, startPointIndex + 2)
       ) > TOLERANCE
     ) {
       continue;
@@ -56,19 +59,19 @@ function findSegmentOnRoute(routeLatLng, routeDistanceStream, segment) {
           lineDistance(
             segment.latlng.slice(
               segment.latlng.length - 3,
-              segment.latlng.length - 1,
+              segment.latlng.length - 1
             ),
-            routeLatLng.slice(endPointIndex, endPointIndex + 2),
-          ) <= TOLERANCE,
+            routeLatLng.slice(endPointIndex, endPointIndex + 2)
+          ) <= TOLERANCE
       )
       .filter(
         // check distance
         (endPointIndex) =>
           Math.abs(
             segmentDistanceInMeters -
-              (routeDistanceStream[endPointIndex] - routeDistanceStart),
+              (routeDistanceStream[endPointIndex] - routeDistanceStart)
           ) <=
-          0.1 * segmentDistanceInMeters,
+          0.1 * segmentDistanceInMeters
       )
       .filter(
         // check 20%
@@ -88,7 +91,7 @@ function findSegmentOnRoute(routeLatLng, routeDistanceStream, segment) {
             if (
               lineDistance(
                 segment.latlng.slice(segmentIndex, segmentIndex + 2),
-                routeLatLng.slice(middlePointIndex, middlePointIndex + 2),
+                routeLatLng.slice(middlePointIndex, middlePointIndex + 2)
               ) > TOLERANCE
             ) {
               continue;
@@ -98,7 +101,7 @@ function findSegmentOnRoute(routeLatLng, routeDistanceStream, segment) {
               Math.abs(
                 routeDistanceStream[middlePointIndex] -
                   routeDistanceStart -
-                  segment.distanceStream[segmentIndex],
+                  segment.distanceStream[segmentIndex]
               ) >
               0.1 * segmentDistanceInMeters
             ) {
@@ -109,7 +112,7 @@ function findSegmentOnRoute(routeLatLng, routeDistanceStream, segment) {
           }
 
           return false;
-        },
+        }
       );
 
     if (newOverlaps.length === 0) {
@@ -132,12 +135,12 @@ function lineDistance(lineA, lineB) {
   const distanceA = turf.pointToLineDistance(
     turf.point(lineA[0]),
     turf.lineString(lineB),
-    OPTIONS,
+    OPTIONS
   );
   const distanceB = turf.pointToLineDistance(
     turf.point(lineB[0]),
     turf.lineString(lineA),
-    OPTIONS,
+    OPTIONS
   );
 
   return Math.min(distanceA, distanceB);

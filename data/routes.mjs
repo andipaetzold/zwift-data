@@ -1,3 +1,5 @@
+import { segmentEach } from "@turf/turf";
+
 export const routes = [
   {
     id: 3921412335,
@@ -89,6 +91,7 @@ export const routes = [
       "zwift-kom",
       "volcano-kom",
       "epic-kom",
+      "radio-tower-kom",
       "alpe-du-zwift",
       "watopia-sprint",
     ],
@@ -120,7 +123,7 @@ export const routes = [
   {
     id: 3219074012,
     slug: "mountain-8",
-    segments: ["watopia-sprint"],
+    segments: ["radio-tower-kom", "watopia-sprint"],
     stravaSegmentId: 12118544,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/mountain-8",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/mountain-8",
@@ -129,7 +132,7 @@ export const routes = [
   {
     id: 2966818006,
     slug: "mountain-route",
-    segments: ["epic-kom", "watopia-sprint"],
+    segments: ["epic-kom", "radio-tower-kom", "watopia-sprint"],
     stravaSegmentId: 12483517,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/mountain-route",
     whatsOnZwiftUrl:
@@ -139,7 +142,7 @@ export const routes = [
   {
     id: 2139465450,
     slug: "muir-and-the-mountain",
-    segments: ["epic-kom", "titans-grove-kom-rev"],
+    segments: ["epic-kom", "radio-tower-kom", "titans-grove-kom-rev"],
     stravaSegmentId: 22368918,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/muir-and-the-mountain",
     whatsOnZwiftUrl:
@@ -226,6 +229,7 @@ export const routes = [
     slug: "the-pretzel",
     segments: [
       "epic-kom",
+      "radio-tower-kom",
       "zwift-kom-rev",
       "watopia-sprint-rev",
       "zwift-kom",
@@ -242,6 +246,7 @@ export const routes = [
     slug: "the-uber-pretzel",
     segments: [
       "epic-kom",
+      "radio-tower-kom",
       "volcano-kom",
       "watopia-sprint-rev",
       "fuego-flats-rev",
@@ -258,7 +263,7 @@ export const routes = [
   {
     id: 4142772830,
     slug: "three-sisters",
-    segments: ["zwift-kom", "epic-kom", "volcano-kom"],
+    segments: ["zwift-kom", "epic-kom", "radio-tower-kom", "volcano-kom"],
     stravaSegmentId: 15159137,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/three-sisters",
     whatsOnZwiftUrl:
@@ -391,7 +396,6 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/greatest-london-loop",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/london/route/greatest-london-loop",
-    zwifterBikesPath: "",
   },
   {
     id: 4012646479,
@@ -446,7 +450,6 @@ export const routes = [
     stravaSegmentId: 12759713,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-prl-half",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/the-prl-half",
-    zwifterBikesPath: "",
   },
   {
     id: 4210048937,
@@ -631,7 +634,6 @@ export const routes = [
       "https://zwiftinsider.com/route/2019-uci-worlds-harrogate-circuit",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/yorkshire/route/2019-uci-worlds-harrogate-circuit",
-    zwifterBikesPath: "",
   },
   {
     id: 1233527301,
@@ -841,10 +843,9 @@ export const routes = [
     id: 3819095753,
     slug: "5k-loop",
     segments: [],
-    stravaSegmentId: 18993168,
+    stravaSegmentId: 18960184,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/5k-loop",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/5k-loop",
-    zwifterBikesPath: "",
   },
   {
     id: 1373909093,
@@ -1388,7 +1389,7 @@ export const routes = [
   {
     id: 4263172118,
     slug: "three-sisters-rev",
-    segments: ["volcano-kom", "zwift-kom-rev"],
+    segments: ["volcano-kom", "radio-tower-kom", "zwift-kom-rev"],
     experience: null,
     stravaSegmentId: 15175857,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/three-sisters-reverse",
@@ -1443,7 +1444,7 @@ export const routes = [
   {
     id: 2218409282,
     slug: "wbr-climbing-series",
-    segments: ["epic-kom", "watopia-sprint"],
+    segments: ["epic-kom", "radio-tower-kom", "watopia-sprint"],
     experience: null,
     stravaSegmentId: 28776598,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/wbr-climbing-series",
@@ -2181,6 +2182,7 @@ export const routes = [
       "sasquatch-sprint",
       "woodland-sprint",
       "epic-kom",
+      "radio-tower-kom",
     ],
     stravaSegmentId: 35697595,
     whatsOnZwiftUrl:
@@ -2451,5 +2453,218 @@ export const routes = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/coastal-crown-loop",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/coastal-crown-loop",
+  },
+  {
+    id: 806114032,
+    slug: "navig8",
+    segments: [
+      "woodland-sprint-rev",
+      "sasquatch-sprint-rev",
+      "acropolis-sprint-rev",
+      "stoneway-sprint-rev",
+      "mayan-mountainside-kom",
+      "itza-kom",
+      "sasquatch-sprint",
+      "woodland-sprint",
+      "fuego-flats",
+    ],
+    stravaSegmentId: 37716261,
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/navig8",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/navig8",
+  },
+  {
+    id: 3330165223,
+    slug: "shisa-shakedown",
+    segments: [
+      "castle-park-sprint-rev",
+      "alley-sprint-rev",
+      "railway-sprint",
+      "castle-kom",
+      "temple-kom-from-fishing-village-side",
+      "shisa-sprint",
+    ],
+    stravaSegmentId: 37300447,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/shisha-shakedown",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/shisa-shakedown",
+  },
+  {
+    id: 3351665212,
+    slug: "glasgow-crit-circuit-run",
+    segments: ["the-clyde-kicker", "champions-sprint"],
+    stravaSegmentId: 33816215,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/glasgow-crit-circuit-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/glasgow-crit-circuit",
+  },
+  {
+    id: 3166535632,
+    slug: "cobbled-climbs-run",
+    segments: ["richmond-kom", "23rd-st"],
+    stravaSegmentId: 37547501,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/richmond/route/cobbled-climbs-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/cobbled-climbs",
+  },
+  {
+    id: 525587103,
+    slug: "mech-isle-loop-run",
+    segments: [],
+    stravaSegmentId: 33254295,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/mech-isle-loop-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/mech-isle-loop",
+  },
+  {
+    id: 86621553,
+    slug: "lutece-express-run",
+    segments: ["lutece-sprint", "champs-elysees-rev"],
+    stravaSegmentId: 37539085,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/lutece-express-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/lutece-express",
+  },
+  {
+    id: 4084028627,
+    slug: "mayan-8",
+    segments: [
+      "stoneway-sprint-rev",
+      "mayan-mountainside-kom",
+      "itza-kom",
+      "acropolis-sprint-rev",
+    ],
+    stravaSegmentId: 37683459,
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/mayan-8",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/mayan-8",
+  },
+  {
+    id: 4102513789,
+    slug: "radio-rendezvous",
+    segments: [
+      "stoneway-sprint-rev",
+      "mayan-mountainside-kom",
+      "itza-kom",
+      "the-grade-kom",
+      "radio-tower-kom",
+    ],
+    stravaSegmentId: 37716248,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/radio-rendezvous",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/radio-rendezvous",
+  },
+  {
+    id: 3878295865,
+    slug: "queens-highway-run",
+    segments: ["yorkshire-sprint-rev"],
+    stravaSegmentId: 37502819,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/yorkshire/route/queen-s-highway-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/queens-highway",
+  },
+  {
+    id: 3912793970,
+    slug: "richmond-loop-around",
+    segments: [
+      "23rd-st-rev",
+      "richmond-kom-rev",
+      "richmond-sprint",
+      "broad-st",
+      "richmond-kom",
+      "23rd-st",
+    ],
+    stravaSegmentId: 37300438,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/richmond/route/richmond-loop-around",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/richmond-loop-around",
+  },
+  {
+    id: 1384155764,
+    slug: "loch-loop-run",
+    segments: ["loch-loop-rev", "breakaway-brae-rev"],
+    stravaSegmentId: 37547806,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/loch-loop-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/loch-loop",
+  },
+  {
+    id: 1695691428,
+    slug: "epic-run",
+    segments: ["radio-tower-kom"],
+    stravaSegmentId: 37501292,
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/epic-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/epic-run",
+  },
+  {
+    id: 1696938496,
+    slug: "hilly-route-rev-run",
+    segments: ["hilly-loop-rev", "watopia-sprint-rev", "zwift-kom-rev"],
+    stravaSegmentId: 37501806,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/hilly-route-reverse-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/hilly-route-reverse",
+  },
+  {
+    id: 1788218813,
+    slug: "yorkshire-double-loop",
+    segments: [
+      "yorkshire-kom-rev",
+      "yorkshire-sprint-rev",
+      "yorkshire-kom",
+      "yorkshire-sprint",
+    ],
+    stravaSegmentId: 37300398,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/yorkshire/route/yorkshire-double-loop",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/yorkshire-double-loops",
+  },
+  {
+    id: 2064290391,
+    slug: "power-to-the-tower",
+    segments: [
+      "epic-kom-rev",
+      "the-grade-sprint-rev",
+      "the-grade-kom",
+      "epic-kom",
+      "radio-tower-kom",
+    ],
+    stravaSegmentId: 37731230,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/power-to-the-tower",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/power-to-the-tower",
+  },
+  {
+    id: 2818536273,
+    slug: "champs-elysees-run",
+    segments: ["champs-elysees"],
+    stravaSegmentId: 37538726,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/champs-elysees-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/champs-elysees",
+  },
+  {
+    id: 2927651296,
+    slug: "makuri-pretzel",
+    segments: [
+      "country-sprint-rev",
+      "shisa-sprint-rev",
+      "tower-sprint",
+      "alley-sprint",
+      "shisa-sprint",
+      "country-sprint",
+      "tower-sprint-rev",
+      "alley-sprint-rev",
+    ],
+    stravaSegmentId: 37684132,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/makuri-pretzel",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/makuri-pretzel",
+  },
+  {
+    id: 3099224394,
+    slug: "titans-run",
+    segments: ["titans-grove-kom-rev"],
+    stravaSegmentId: 37495683,
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/titan-s-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/titans-run",
   },
 ];

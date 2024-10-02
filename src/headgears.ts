@@ -55,6 +55,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1011377720, "Zwift Academy Tri 2022", "RunningCapZATri2022_thumb"],
     [1014087812, "ZRS Winter Bucket Hat", "BucketHatZRSWinter2020_thumb"],
     [1021510657, "Zwift Academy 2022", "Headband_ZA2022"],
+    [1061365842, "Zwift World Series Helmet", "ZwiftWorldSeries2024_thumb"],
     [1079998558, "Off the MAAP", "Headband_OffTheMaap2022"],
     [1081853028, "Specialized 2019", "CyclingCapSpecialized2019_thumb"],
     [1087064675, "Red Bull", "RunnerCapRedBull_thumb"],
@@ -92,6 +93,11 @@ export const headgears: ReadonlyArray<Headgear> = (
       "CyclingCapTourDeZwift2021_thumb",
     ],
     [1684913570, "ZC Training Cap", "BackwardsCapZCTraining2022_thumb"],
+    [
+      1689510425,
+      "Tour of Watopia '24 Bikepacker",
+      "RunningCapTourOfWatopia2024_thumb",
+    ],
     [1713458564, "Tour of Watopia 2023", "CyclingCapTourOfWatopia2023_thumb"],
     [
       1716963782,
@@ -176,6 +182,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3438211262, "Protone INEOS Grenadier", "ProtonKaskINEOS2021"],
     [3500373581, "2021 ZA Run Hat", "RunningCapZARun2021_thumb"],
     [3525135378, "2021 ZA Tri Hat Backwards", "BackwardsCapZARun2021_thumb"],
+    [
+      3556872596,
+      "Tour of Watopia '24 Bikepacker",
+      "RunningCapTourOfWatopia2024_thumb",
+    ],
     [
       3599973897,
       "LOC_RUNNING_HEADGEAR_RUNNINGCAPTOUROFWATOPIA2023_NAME",

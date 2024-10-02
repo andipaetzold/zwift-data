@@ -1221,4 +1221,26 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/the-grade/forward",
   },
+  {
+    name: "The Grade Rev.",
+    slug: "the-grade-sprint-rev",
+    distance: 0.06,
+    avgIncline: 0.3,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/the-grade/reverse",
+  },
+  {
+    name: "Radio Tower KOM",
+    slug: "radio-tower-kom",
+    distance: 1.2,
+    avgIncline: 12.9,
+    type: "climb",
+    world: "watopia",
+    stravaSegmentId: 14120182,
+    stravaSegmentUrl: "https://www.strava.com/segments/14120182",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/radio-tower-kom/forward",
+  },
 ];
