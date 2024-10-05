@@ -1,3 +1,10 @@
+## [1.38.1](https://github.com/andipaetzold/zwift-data/compare/v1.38.0...v1.38.1) (2024-10-05)
+
+
+### Bug Fixes
+
+* update strava segment of `Innsbruck KOM Rev.` ([7a6543d](https://github.com/andipaetzold/zwift-data/commit/7a6543df4393f13375076dd98605258350d9b836))
+
 # [1.38.0](https://github.com/andipaetzold/zwift-data/compare/v1.37.3...v1.38.0) (2024-10-02)
 
 
