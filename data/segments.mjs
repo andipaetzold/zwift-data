@@ -698,8 +698,8 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/innsbruck/segment/kom/reverse",
     climbType: "2",
-    stravaSegmentUrl: "https://www.strava.com/segments/18397927",
-    stravaSegmentId: 18397927,
+    stravaSegmentUrl: "https://www.strava.com/segments/18389384",
+    stravaSegmentId: 18389384,
     zwifterBikesPath: "innsbruck-kom-reverse",
   },
   {
