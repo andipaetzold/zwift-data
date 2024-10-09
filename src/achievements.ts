@@ -254,5 +254,6 @@ export const achievements: ReadonlyArray<Achievement> = (
     [263, "YORKSHIRE DOUBLE LOOP", "RouteComplete"],
     [264, "SHISHA SHAKEDOWN", "RouteComplete"],
     [265, "MAKURI PRETZEL", "RouteComplete"],
+    [266, "BRAEK-FAST CRITS AND GRITS", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));
