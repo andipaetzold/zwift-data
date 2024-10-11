@@ -2665,4 +2665,17 @@ export const routes = [
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/titan-s-run",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/titans-run",
   },
+  {
+    id: 377566656,
+    slug: "braek-fast-crits-and-grits",
+    segments: [
+      "sgurr-summit-south",
+      "the-clyde-kicker",
+      "champions-sprint",
+      "breakaway-brae-rev",
+    ],
+    stravaSegmentId: 37675052,
+    zwiftInsiderUrl:
+      "https://zwiftinsider.com/route/braek-fast-crits-and-grits",
+  },
 ];
