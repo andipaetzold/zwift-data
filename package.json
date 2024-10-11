@@ -43,7 +43,7 @@
     "semantic-release": "24.1.2",
     "simple-git": "3.27.0",
     "ts-jest": "29.2.5",
-    "typedoc": "0.26.8",
+    "typedoc": "0.26.9",
     "typescript": "5.6.3"
   },
   "scripts": {
