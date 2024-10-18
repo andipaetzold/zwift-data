@@ -177,6 +177,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     [2768891314, "Lionel Sanders", "LionelSanders2019_thumb"],
     [2795593609, "Halo ID", "HaloIDRun2022_thumb"],
     [2839896779, "Tour Of Watopia", "TourOfWatopia2020"],
+    [2842145404, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [2852192250, "ZRS June", "ZRSCieleJune2020_thumb"],
     [2921978652, "Fluoro Tank Kit", "FluoroTank01_thumb"],
     [2944680840, "PRRC", "PRRC2019"],

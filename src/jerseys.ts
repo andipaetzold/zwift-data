@@ -43,11 +43,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
       "SpecializedBicycledelics2021_thumb",
     ],
     [123854412, "Alpine Slopes 1", "Zwift_Ski01_thumb"],
-    [
-      124374424,
-      "LOC_CYCLING_JERSEY_PRO_TEAMS_SKYLINECADENCE_NAME",
-      "TeamSkylineCadence2024_thumb",
-    ],
+    [124374424, "Team Skyline/Cadence", "TeamSkylineCadence2024_thumb"],
     [138392085, "Team Charles-Barclay", "lucy_charles_barclay_thumb"],
     [139090872, "BMTR Community Club", "BearMountaineers2021_thumb"],
     [140311973, "2024 L'Étape du Tour", "LEtape2024_thumb"],

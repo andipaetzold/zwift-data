@@ -252,7 +252,7 @@ export const achievements: ReadonlyArray<Achievement> = (
     [261, "LIBBY HILL AFTER PARTY", "RouteComplete"],
     [262, "RICHMOND LOOP AROUND", "RouteComplete"],
     [263, "YORKSHIRE DOUBLE LOOP", "RouteComplete"],
-    [264, "SHISHA SHAKEDOWN", "RouteComplete"],
+    [264, "SHISA SHAKEDOWN", "RouteComplete"],
     [265, "MAKURI PRETZEL", "RouteComplete"],
     [266, "BRAEK-FAST CRITS AND GRITS", "RouteComplete"],
   ] as const

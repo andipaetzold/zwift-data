@@ -150,6 +150,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     [3913862387, "ZLDR 2023", "FilmMyRunRunShort2023_thumb"],
     [3931583376, "That Triathlon Life", "TTLRun2022_thumb"],
     [3932074146, "ZRL Sydney Run Shorts", "ZRLSydney2022_thumb"],
+    [3967684878, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [3981726669, "Varlo Team", "VarloRun2022_thumb"],
     [4020634998, "Zwift Academy 2022", "ZARun2022_thumb"],
     [4037580579, "New Balance", "NewBalance2019_thumb"],
