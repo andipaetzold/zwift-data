@@ -5468,7 +5468,7 @@ export const routes: ReadonlyArray<Route> = (
     ],
     [
       3330165223,
-      "Shisha Shakedown",
+      "Shisa Shakedown",
       "shisa-shakedown",
       "makuri-islands",
       true,
@@ -6828,7 +6828,7 @@ export const routes: ReadonlyArray<Route> = (
       "Richmond Loop Around",
       "richmond-loop-around",
       "richmond",
-      true,
+      false,
       42.552,
       556,
       0.111,
