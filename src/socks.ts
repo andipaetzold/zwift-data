@@ -7,6 +7,7 @@ export const socks: ReadonlyArray<Sock> = (
     [175974360, "Giro d'Italia", "SocksGiro2019"],
     [178935728, "Striped Green", "Stripes03Green"],
     [179567877, "Dots Orange", "SocksDotOrange"],
+    [191660387, "2025 Tour de Zwift", "SocksTourDeZwift2025"],
     [224502226, "ZRS Socks 3", "ZRS2021Socks03"],
     [251030947, "Back To Fitness: Running", "BackToFitnessRunning"],
     [269863069, "Solid Yellow", "SolidYellow"],
