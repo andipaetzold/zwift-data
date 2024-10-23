@@ -2570,7 +2570,7 @@ export const routes = [
       "richmond-kom",
       "23rd-st",
     ],
-    stravaSegmentId: 37300438,
+    stravaSegmentId: 38009202,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/richmond/route/richmond-loop-around",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/richmond-loop-around",
