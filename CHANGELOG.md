@@ -1,3 +1,10 @@
+## [1.39.2](https://github.com/andipaetzold/zwift-data/compare/v1.39.1...v1.39.2) (2024-10-23)
+
+
+### Bug Fixes
+
+* update strava segment of 'Richmond Loop Around' ([27ae840](https://github.com/andipaetzold/zwift-data/commit/27ae8401a7c79c7421ab7e5fad155f468596c363))
+
 ## [1.39.1](https://github.com/andipaetzold/zwift-data/compare/v1.39.0...v1.39.1) (2024-10-18)
 
 
