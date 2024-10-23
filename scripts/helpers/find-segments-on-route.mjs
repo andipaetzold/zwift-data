@@ -12,7 +12,10 @@ export async function findSegmentsOnRoute(route, segments) {
   const response = await fetch(url);
   const data = await response.json();
   if ("error" in data) {
-    throw new Error(data.error);
+    throw new Error(
+      `Error fetching segment '${route.stravaSegmentId}'`,
+      data.error
+    );
   }
   const routeLatLng = data.latlng;
   const routeDistance = data.distance;
