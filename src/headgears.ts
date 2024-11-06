@@ -5,9 +5,15 @@ export const headgears: ReadonlyArray<Headgear> = (
     [9439966, "Limar Air Speed TWENTY24", "LimarAirSpeedTWENTY242021"],
     [9506232, "Scotty Squirrel", "CyclingCapScottyTheSquirrel_thumb"],
     [16032183, "Light Aero", "LightAero_thumb"],
+    [40090128, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [202102819, "2023 Zwift Academy Helmet", "ZAHelmet2023_thumb"],
     [216566426, "True Treadmill Run Hat 2021", "TruTreadmillRunHat2021_thumb"],
     [248687448, "ZA Run Team In Season", "RunningCap_ZARunInSeason2022_thumb"],
+    [
+      269775961,
+      "2025 Ultimate Tour de Zwift Challenge",
+      "TourDeZwiftUltimate2025_thumb",
+    ],
     [271741505, "Sky Blue Helmet", "BigSpin2024_thumb"],
     [
       284363248,
@@ -56,6 +62,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1014087812, "ZRS Winter Bucket Hat", "BucketHatZRSWinter2020_thumb"],
     [1021510657, "Zwift Academy 2022", "Headband_ZA2022"],
     [1061365842, "Zwift World Series Helmet", "ZwiftWorldSeries2024_thumb"],
+    [1064307880, "Off The MAAP", "CyclingCapOffTheMAAP2024_thumb"],
     [1079998558, "Off the MAAP", "Headband_OffTheMaap2022"],
     [1081853028, "Specialized 2019", "CyclingCapSpecialized2019_thumb"],
     [1087064675, "Red Bull", "RunnerCapRedBull_thumb"],
@@ -165,6 +172,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3104058090, "HJC Furion", "HJCFurion"],
     [3109903878, "S-Works Evade", "SworksEvade"],
     [3137618299, "Zwift Head Band", "Headband_Orange"],
+    [3140426290, "Watopia Postal Service Hat", "WatopiaPostalService_thumb"],
     [
       3249347051,
       "Zwift Pro Training Camp 2022",

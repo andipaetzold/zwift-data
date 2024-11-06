@@ -106,6 +106,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [304856285, "Lava", "Lava2015_thumb"],
     [307186134, "Orica Scott", "OricaScott_thumb"],
     [310916269, "WattFabrik", "WattFabrik2022_thumb"],
+    [311012497, "Tour de Zwift Challenge", "TourDeZwiftUltimate2025_thumb"],
     [315634460, "Saris-NoPinz", "SarisNoPinz2022_thumb"],
     [321508751, "Bora-Hansgrohe", "BoraHansgrohe2018_thumb"],
     [326883871, "Inflite Type One", "InfliteTypeOne2023_thumb"],
@@ -760,6 +761,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [2644587674, "FreeSpeed", "FreeSpeed2015_thumb"],
     [2654375510, "Daniela Ryf", "daniela_ryf_thumb"],
     [2662676193, "Alpentroedler Velo Club", "Alpentroedler2022_thumb"],
+    [2665651120, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [2667207033, "Pain Cave Heroes", "PainCaveHeroes2023_thumb"],
     [2668995113, "Vattern Rundan", "VatternRundan2019_thumb"],
     [2676350104, "The Breakaway", "TheBreakawayApp2022_thumb"],
@@ -966,6 +968,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3370254609, "Trek Tour", "TrekTour2019_thumb"],
     [3371519326, "Overall/KOM", "Zwift_Orange_KOM"],
     [3372672430, "Valcar-Travel and Service", "ValcarCylance2019_thumb"],
+    [3377071816, "Off the MAAP", "OffTheMAAP2024_thumb"],
     [
       3382087244,
       "UCI Federation New Zealand 2023",
