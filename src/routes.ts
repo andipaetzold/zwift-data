@@ -764,7 +764,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       454871454,
       "Deca Dash",
-      "454871454",
+      "deca-dash",
       "watopia",
       true,
       48.35,
@@ -1801,7 +1801,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1092181131,
       "Loopin Lava",
-      "1092181131",
+      "loopin-lava",
       "watopia",
       true,
       14.214,
@@ -4123,7 +4123,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2644664789,
       "Triple Twist",
-      "2644664789",
+      "triple-twist",
       "watopia",
       true,
       19.877,
@@ -4294,7 +4294,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2698009951,
       "The Classic",
-      "2698009951",
+      "the-classic",
       "watopia",
       true,
       4.836,
@@ -5229,7 +5229,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3068694512,
       "The Classic Run",
-      "3068694512",
+      "the-classic-run",
       "watopia",
       true,
       4.836,
@@ -5837,7 +5837,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3378411990,
       "Waisted 8",
-      "3378411990",
+      "waisted-8",
       "watopia",
       true,
       30.687,
@@ -7555,7 +7555,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       4199497144,
       "Coast to Coast",
-      "4199497144",
+      "cost-to-coast",
       "watopia",
       true,
       24.092,

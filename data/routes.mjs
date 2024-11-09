@@ -2678,4 +2678,32 @@ export const routes = [
     zwiftInsiderUrl:
       "https://zwiftinsider.com/route/braek-fast-crits-and-grits",
   },
+  {
+    id: 454871454,
+    slug: "deca-dash",
+  },
+  {
+    id: 1092181131,
+    slug: "loopin-lava",
+  },
+  {
+    id: 2644664789,
+    slug: "triple-twist",
+  },
+  {
+    id: 2698009951,
+    slug: "the-classic",
+  },
+  {
+    id: 3068694512,
+    slug: "the-classic-run",
+  },
+  {
+    id: 3378411990,
+    slug: "waisted-8",
+  },
+  {
+    id: 4199497144,
+    slug: "cost-to-coast",
+  },
 ];
