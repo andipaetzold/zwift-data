@@ -1243,4 +1243,50 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/segment/radio-tower-kom/forward",
   },
+  {
+    name: "Jarvis KOM",
+    slug: "jarvis-kom",
+    distance: 1.8,
+    avgIncline: 1.8,
+    type: "climb",
+    world: "watopia",
+    stravaSegmentId: 38138480,
+    stravaSegmentUrl: "https://www.strava.com/segments/38138480",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/jarvis-kom/forward",
+  },
+  {
+    name: "Jarvis KOM Rev.",
+    slug: "jarvis-kom-rev",
+    distance: 1.3,
+    avgIncline: 3.1,
+    type: "climb",
+    world: "watopia",
+    stravaSegmentId: 38132913,
+    stravaSegmentUrl: "https://www.strava.com/segments/38132913",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/jarvis-kom/reverse",
+  },
+  {
+    name: "Jarvis Sprint",
+    slug: "jarvis-sprint",
+    distance: 0.2,
+    avgIncline: -0.1,
+    type: "sprint",
+    world: "watopia",
+    stravaSegmentId: 38151476,
+    stravaSegmentUrl: "https://www.strava.com/segments/38151476",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/jarvis-sprint/forward",
+  },
+  {
+    name: "Jarvis Sprint Rev.",
+    slug: "jarvis-sprint-rev",
+    distance: 0.2,
+    avgIncline: 0.2,
+    type: "sprint",
+    world: "watopia",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/jarvis-sprint-reverse/reverse",
+  },
 ];
