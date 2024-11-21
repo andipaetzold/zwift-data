@@ -2408,7 +2408,7 @@ export const routes = [
     stravaSegmentId: 37011743,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/oh-hill-no",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/oh-hill-no",
-    zwifterBikesPath: 'oh-hill-no',
+    zwifterBikesPath: "oh-hill-no",
   },
   {
     id: 3558689342,
@@ -2470,7 +2470,7 @@ export const routes = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/coastal-crown-loop",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/coastal-crown-loop",
-    zwifterBikesPath: 'coastal-crown-loop',
+    zwifterBikesPath: "coastal-crown-loop",
   },
   {
     id: 806114032,
@@ -2489,7 +2489,7 @@ export const routes = [
     stravaSegmentId: 37716261,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/navig8",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/navig8",
-    zwifterBikesPath: 'navig8',
+    zwifterBikesPath: "navig8",
   },
   {
     id: 3330165223,
@@ -2781,5 +2781,34 @@ export const routes = [
       "https://whatsonzwift.com/world/watopia/route/coast-to-coast",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/coast-to-coast",
     zwifterBikesPath: "cost-to-coast",
+  },
+  {
+    id: 3262665065,
+    slug: "london-flat",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/london-flat",
+  },
+  {
+    id: 4159356920,
+    slug: "petite-douleur",
+    zwiftInsiderUrl: "https://zwiftinsider.com/petite-douleur",
+  },
+  {
+    id: 3030004732,
+    slug: "power-to-the-portal",
+  },
+  {
+    id: 2826340040,
+    slug: "outer-scotland",
+    zwiftInsiderUrl: "https://zwiftinsider.com/outer-scotland",
+  },
+  {
+    id: 2062126722,
+    slug: "tair-dringfa-fechan",
+    stravaSegmentId: 38008828,
+    segments: ["watopia-sprint", "titans-grove-kom-rev"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/tair-dringfa-fechan",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/tair-dringfa-fechan",
+    zwifterBikesPath: "tair-dringfa-fechan",
   },
 ];
