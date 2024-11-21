@@ -2399,7 +2399,7 @@ export const routes = [
     stravaSegmentId: 37049460,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/snowman",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/snowman",
-    zwiftInsiderUrl: "snowman",
+    zwifterBikesPath: "snowman",
   },
   {
     id: 3532866973,
@@ -2408,7 +2408,7 @@ export const routes = [
     stravaSegmentId: 37011743,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/oh-hill-no",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/oh-hill-no",
-    zwiftInsiderUrl: 'oh-hill-no',
+    zwifterBikesPath: 'oh-hill-no',
   },
   {
     id: 3558689342,

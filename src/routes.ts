@@ -5743,9 +5743,9 @@ export const routes: ReadonlyArray<Route> = (
       880,
       37049460,
       "https://www.strava.com/segments/37049460",
-      "snowman",
+      "https://zwiftinsider.com/route/snowman",
       "https://whatsonzwift.com/world/watopia/route/snowman",
-      undefined,
+      "https://zwifterbikes.web.app/route/snowman",
     ],
     [
       3330165223,
@@ -6230,9 +6230,9 @@ export const routes: ReadonlyArray<Route> = (
       160,
       37011743,
       "https://www.strava.com/segments/37011743",
-      "oh-hill-no",
+      "https://zwiftinsider.com/route/oh-hill-no",
       "https://whatsonzwift.com/world/watopia/route/oh-hill-no",
-      undefined,
+      "https://zwifterbikes.web.app/route/oh-hill-no",
     ],
     [
       3558689342,
