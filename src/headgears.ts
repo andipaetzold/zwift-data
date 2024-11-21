@@ -5,7 +5,6 @@ export const headgears: ReadonlyArray<Headgear> = (
     [9439966, "Limar Air Speed TWENTY24", "LimarAirSpeedTWENTY242021"],
     [9506232, "Scotty Squirrel", "CyclingCapScottyTheSquirrel_thumb"],
     [16032183, "Light Aero", "LightAero_thumb"],
-    [40090128, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [202102819, "2023 Zwift Academy Helmet", "ZAHelmet2023_thumb"],
     [216566426, "True Treadmill Run Hat 2021", "TruTreadmillRunHat2021_thumb"],
     [248687448, "ZA Run Team In Season", "RunningCap_ZARunInSeason2022_thumb"],
@@ -134,6 +133,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2462854936, "Garmin Unbound Helmet Skin", "GarminUnbound2021"],
     [2529465619, "Wahoo Custom", "WahooCustomCap2018_thumb"],
     [2546356403, "Le Beret", "CyclingCap_BigSpinBeret2024_thumb"],
+    [2631621268, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [2638087379, "Zwift Academy Women 2018", "RunningCap_ZA2018_Womens"],
     [2638837937, "Watch the Femmes 22", "CyclingCapTDFF2022_thumb"],
     [2656884789, "Off the MAAP 2021 Cap", "BackwardsCapOffTheMaap2021_thumb"],
@@ -153,6 +153,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2763919224, "ZRL Winner", "ZRL2021_thumb"],
     [2803157511, "Saucony Outpace Cap", "RunnerCapSaucony2021_thumb"],
     [2828152591, "Liv Backwards Cap", "BackwardsCyclingCapLiv2022_thumb"],
+    [2859073480, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [
       2896909333,
       "Zwift Academy Tri 2020",
