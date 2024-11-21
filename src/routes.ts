@@ -4180,8 +4180,8 @@ export const routes: ReadonlyArray<Route> = (
       [
         "jarvis-sprint-rev",
         "jarvis-kom-rev",
-        "jwb-sprint-rev",
-        "hilly-kom-rev",
+        "watopia-sprint-rev",
+        "zwift-kom-rev",
       ],
       [
         { from: 0.227, to: 1.528, segment: "jarvis-kom-rev" },

@@ -2731,8 +2731,8 @@ export const routes = [
     segments: [
       "jarvis-sprint-rev",
       "jarvis-kom-rev",
-      "jwb-sprint-rev",
-      "hilly-kom-rev",
+      "watopia-sprint-rev",
+      "zwift-kom-rev",
     ],
     stravaSegmentId: 38138494,
     whatsOnZwiftUrl:
