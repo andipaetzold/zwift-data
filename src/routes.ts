@@ -7730,7 +7730,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       4199497144,
       "Coast to Coast",
-      "cost-to-coast",
+      "coast-to-coast",
       "watopia",
       false,
       24.092,
@@ -7757,7 +7757,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/38138499",
       "https://zwiftinsider.com/route/coast-to-coast",
       "https://whatsonzwift.com/world/watopia/route/coast-to-coast",
-      "https://zwifterbikes.web.app/route/cost-to-coast",
+      "https://zwifterbikes.web.app/route/coast-to-coast",
     ],
     [
       4210048937,

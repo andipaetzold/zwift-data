@@ -2769,7 +2769,7 @@ export const routes = [
   },
   {
     id: 4199497144,
-    slug: "cost-to-coast",
+    slug: "coast-to-coast",
     segments: [
       "sasquatch-sprint",
       "woodland-sprint",
@@ -2780,7 +2780,7 @@ export const routes = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/coast-to-coast",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/coast-to-coast",
-    zwifterBikesPath: "cost-to-coast",
+    zwifterBikesPath: "coast-to-coast",
   },
   {
     id: 3262665065,
