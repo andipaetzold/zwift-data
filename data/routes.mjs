@@ -2711,7 +2711,7 @@ export const routes = [
     id: 454871454,
     slug: "deca-dash",
     segments: ["jarvis-sprint-rev", "jarvis-kom-rev"],
-    stravaSegmentId: 38138485,
+    stravaSegmentId: 38146678,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/deca-dash",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/deca-dash",
     zwifterBikesPath: "deca-dash",
