@@ -1,3 +1,11 @@
+## [1.40.1](https://github.com/andipaetzold/zwift-data/compare/v1.40.0...v1.40.1) (2024-12-04)
+
+
+### Bug Fixes
+
+* typo in "Coast to Coast" slug ([5de1a17](https://github.com/andipaetzold/zwift-data/commit/5de1a172036323dd46a30cd872db4a7f08cca28d))
+* update segment of "Deca Dash" ([44e56ed](https://github.com/andipaetzold/zwift-data/commit/44e56ed64717588433e474766fc2f27907d00568))
+
 # [1.40.0](https://github.com/andipaetzold/zwift-data/compare/v1.39.2...v1.40.0) (2024-11-21)
 
 
