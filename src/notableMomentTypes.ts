@@ -10,11 +10,12 @@ export const notableMomentTypes: ReadonlyArray<NotableMomentType> = (
     [5, "LEVEL UP!", "GAINED_LEVEL", 2],
     [8, "TOOK A JERSEY", "TOOK_ARCH_JERSEY", 10],
     [10, "COMPLETED A GOAL", "COMPLETED_GOAL", 7],
-    [13, "FINISHED EVENT", "FINISHED_EVENT", 12],
-    [15, "FINISHED WORKOUT", "FINISHED_WORKOUT", 13],
+    [13, "FINISHED EVENT", "FINISHED_EVENT", 13],
+    [15, "FINISHED WORKOUT", "FINISHED_WORKOUT", 14],
     [17, "FINISHED CHALLENGE", "FINISHED_CHALLENGE", 11],
     [19, "TRAINING PLAN COMPLETE!", "TRAINING_PLAN_COMPLETE", 3],
-    [20, "ACTIVITY BESTS", "ACTIVITY_BESTS", 14],
-    [32, "SPECIAL EVENT", "SPECIAL_EVENT", 9],
+    [20, "BIKE UPGRADE UNLOCKED!", "BIKEUPGRADE_UNLOCKED", 12],
+    [21, "ACTIVITY BESTS", "ACTIVITY_BESTS", 15],
+    [33, "SPECIAL EVENT", "SPECIAL_EVENT", 9],
   ] as const
 ).map(([id, name, imageName, priority]) => ({ id, name, imageName, priority }));
