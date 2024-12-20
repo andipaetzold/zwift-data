@@ -41,6 +41,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     [623502205, "Zwift Academy Men", "CyclingCapZwiftAcademyMen2019_thumb"],
     [627272873, "Red Bull", "Redbull"],
     [639195682, "Zwift Academy Tri 2019", "VisorZwiftAcademyTri2020_Thumb"],
+    [
+      677371865,
+      "LOC_CYCLING_HEADGEAR_HEADPHONESBIGSPIN90s2025_NAME",
+      "HeadphonesBigSpin90s2025_thumb",
+    ],
     [765196864, "Newsy", "Newsy"],
     [
       788235908,
@@ -133,9 +138,19 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2462854936, "Garmin Unbound Helmet Skin", "GarminUnbound2021"],
     [2529465619, "Wahoo Custom", "WahooCustomCap2018_thumb"],
     [2546356403, "Le Beret", "CyclingCap_BigSpinBeret2024_thumb"],
+    [
+      2595853305,
+      "LOC_CYCLING_HEADGEAR_VISORBIGSPIN2025_NAME",
+      "VisorBigSpin2025_thumb",
+    ],
     [2631621268, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [2638087379, "Zwift Academy Women 2018", "RunningCap_ZA2018_Womens"],
     [2638837937, "Watch the Femmes 22", "CyclingCapTDFF2022_thumb"],
+    [
+      2640370438,
+      "LOC_GLASSES_HEADPHONESBIGSPIN2025_NAME",
+      "HeadphonesBigSpin2025_thumb",
+    ],
     [2656884789, "Off the MAAP 2021 Cap", "BackwardsCapOffTheMaap2021_thumb"],
     [2664954147, "NY Baseball Cap", "BackwardsBaseballCap2024_thumb"],
     [2684416694, "Orange Headphones", "HeadphonesBigSpin2024_thumb"],
@@ -189,6 +204,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3365311940, "Zwift Helmet White", "ZwiftHelmetpartdeuxWhite"],
     [3366418234, "Skate Park", "ZwiftHelmetBowl01"],
     [3438211262, "Protone INEOS Grenadier", "ProtonKaskINEOS2021"],
+    [
+      3460366108,
+      "LOC_ACCESSORY_BIG_SPIN_HELMET_2025",
+      "BigSpinHelmet2025_thumb",
+    ],
     [3500373581, "2021 ZA Run Hat", "RunningCapZARun2021_thumb"],
     [3525135378, "2021 ZA Tri Hat Backwards", "BackwardsCapZARun2021_thumb"],
     [
@@ -235,6 +255,11 @@ export const headgears: ReadonlyArray<Headgear> = (
       "BucketHat_BigSpinUnionFlag2024_thumb",
     ],
     [3826988747, "Zwift Academy 2020 Sworks", "SworksZA2020"],
+    [
+      3890008533,
+      "LOC_CYCLING_HEADGEAR_BUCKETHATBIGSPIN2025_NAME",
+      "BucketHatBigSpin2025_thumb",
+    ],
     [3912703277, "Giro Eclipse FDJ", "GiroEclipseFDJ2021"],
     [3961081102, "Le Col CC", "CyclingCapLeCol2022_thumb"],
     [3997506118, "Orange Sun Visor", "VisorBold01_thumb"],

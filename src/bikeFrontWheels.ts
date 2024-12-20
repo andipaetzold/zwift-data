@@ -24,6 +24,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     ],
     [998391700, "Zwift Concept", "Wheel_ZwiftConcept"],
     [1053884173, "Campagnolo Bora Ultra 35", "Wheel_BoraUltra35"],
+    [1299227258, "Zwift LOC_WHEELS_ZWIFTBIGSPIN2025_NAME", "Wheel_BigSpin2025"],
     [1324365960, "Zwift Plain", "Wheel_ZwiftPlain"],
     [1344753875, "Zwift Concept", "Wheel_ZwiftConceptGold"],
     [1361038541, "Zwift Zwift Trike", "Wheel_ZwiftBW"],
