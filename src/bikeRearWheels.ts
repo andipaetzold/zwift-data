@@ -9,6 +9,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [413360396, "Mavic Cosmic Ultimate UST", "Wheel_MavicCosmicUltUST"],
     [413430806, "Zwift Zwift BW Concept Rear Wheel", "Wheel_ZwiftBW"],
     [461030369, "Zipp 454", "Wheel_Zipp454"],
+    [477583088, "Zwift LOC_WHEELS_ZWIFTBIGSPIN2025_NAME", "Wheel_BigSpin2025"],
     [530549195, "Shimano C40", "Wheel_ShimanoDuraAceC40"],
     [705669234, "Zwift Plain", "Wheel_ZwiftPlain"],
     [881139533, "Zipp 858", "Wheel_Zipp858"],
