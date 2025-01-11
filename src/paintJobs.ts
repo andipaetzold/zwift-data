@@ -2,6 +2,7 @@ import { PaintJob } from "./types";
 
 export const paintJobs: ReadonlyArray<PaintJob> = (
   [
+    [0, "Zwift BigSpin2025-"],
     [58038927, "Pinarello F8-Team Wiggins"],
     [67852049, "Canyon Ultimate-Zwift Academy Women"],
     [97563820, "Zwift Carbon-Madison Genesis Zero"],
