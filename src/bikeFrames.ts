@@ -126,6 +126,7 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = (
     [3932292289, "Cervelo P5", 2015, true],
     [3943092814, "Cannondale CAAD12", 2015, false],
     [3985977100, "Canyon Aeroad 2021", 2021, false],
+    [3988344633, "Zwift BigSpin2025", 1885, false],
     [3998075483, "Cube Aerium", 2019, true],
     [4048415486, "Cervelo S3D", 2015, false],
     [4100131524, "Scott ScottAddict2021", 2021, false],

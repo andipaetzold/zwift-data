@@ -2785,21 +2785,36 @@ export const routes = [
   {
     id: 3262665065,
     slug: "london-flat",
+    segments: [],
+    stravaSegmentId: 38274994,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-flat",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/london/route/london-flat",
+    zwifterBikesPath: "london-flat",
   },
   {
     id: 4159356920,
     slug: "petite-douleur",
+    segments: ["ballon-sprint", "petit-kom"],
+    stravaSegmentId: 24984611,
     zwiftInsiderUrl: "https://zwiftinsider.com/petite-douleur",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/france/route/petite-douleur",
+    zwifterBikesPath: "petite-douleur",
   },
   {
     id: 3030004732,
     slug: "power-to-the-portal",
+    segments: ["jarvis-sprint-rev", "jarvis-kom-rev"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/power-to-the-portal",
   },
   {
     id: 2826340040,
     slug: "outer-scotland",
+    stravaSegmentId: 34255102,
     zwiftInsiderUrl: "https://zwiftinsider.com/outer-scotland",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/outer-scotland",
+    zwifterBikesPath: "outer-scotland",
   },
   {
     id: 2062126722,
@@ -2810,5 +2825,54 @@ export const routes = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/tair-dringfa-fechan",
     zwifterBikesPath: "tair-dringfa-fechan",
+  },
+  {
+    id: 172610229,
+    slug: "scotland-smash",
+    stravaSegmentId: 38412900,
+    segments: ["champions-sprint", "the-clyde-kicker", "breakaway-brae-rev"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/scotland-smash",
+  },
+  {
+    id: 186601870,
+    slug: "makuri-madness",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/makuri-madness",
+    stravaSegmentId: 38413164,
+    segments: [
+      "alley-sprint",
+      "tower-sprint",
+      "tidepool-sprint",
+      "boardwalk-sprint",
+    ],
+  },
+  {
+    id: 938096831,
+    slug: "zg25-climb-champs",
+  },
+  {
+    id: 1675611962,
+    slug: "downtown-eruoption",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/downtown-eruption",
+    segments: ["volcano-kom", "zwift-kom"],
+    stravaSegmentId: 38413304,
+  },
+  {
+    id: 1724903700,
+    slug: "zg25-queen",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/zg25-queen",
+    stravaSegmentId: 38412699,
+    segments: [
+      "jarvis-sprint-rev",
+      "jarvis-kom-rev",
+      "mayan-mountainside-kom",
+      "itza-kom",
+    ],
+  },
+  {
+    id: 3250904331,
+    slug: "london-uprising",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/london-uprising",
+    stravaSegmentId: 38413079,
+    segments: ["fox-hill", "london-sprint-rev", "box-hill"],
   },
 ];
