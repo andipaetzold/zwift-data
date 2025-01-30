@@ -2875,4 +2875,13 @@ export const routes = [
     stravaSegmentId: 38413079,
     segments: ["fox-hill", "london-sprint-rev", "box-hill"],
   },
+  {
+    id: 2888820995,
+    slug: "danger-noodle",
+    stravaSegmentId: 38326016,
+    segments: ["titans-grove-kom", "titans-grove-kom-rev"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/danger-noodle",
+    whatsOnZwiftUrl: 'https://whatsonzwift.com/world/watopia/route/danger-noodle',
+    zwifterBikesPath: 'danger-noodle',
+  },
 ];
