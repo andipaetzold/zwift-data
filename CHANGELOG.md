@@ -1,3 +1,10 @@
+# [1.42.0](https://github.com/andipaetzold/zwift-data/compare/v1.41.0...v1.42.0) (2025-01-30)
+
+
+### Features
+
+* Danger Noodle ([#152](https://github.com/andipaetzold/zwift-data/issues/152)) ([e663c28](https://github.com/andipaetzold/zwift-data/commit/e663c280fb446d4b5efa2854db8625c9a4bc32fb))
+
 # [1.41.0](https://github.com/andipaetzold/zwift-data/compare/v1.40.3...v1.41.0) (2025-01-11)
 
 
