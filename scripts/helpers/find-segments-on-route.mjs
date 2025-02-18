@@ -1,6 +1,7 @@
 import * as turf from "@turf/turf";
 import fetch from "node-fetch";
 import range from "lodash/range.js";
+import isEqual from "lodash/isEqual.js";
 
 const TOLERANCE = 5;
 const OPTIONS = { units: "meters" };
@@ -135,16 +136,35 @@ function findSegmentOnRoute(routeLatLng, routeDistanceStream, segment) {
 }
 
 function lineDistance(lineA, lineB) {
-  const distanceA = turf.pointToLineDistance(
-    turf.point(lineA[0]),
-    turf.lineString(lineB),
-    OPTIONS
-  );
-  const distanceB = turf.pointToLineDistance(
-    turf.point(lineB[0]),
-    turf.lineString(lineA),
-    OPTIONS
-  );
+  let distanceA;
+  if (isEqual(lineB[0], lineB[1])) {
+    distanceA = turf.distance(
+      turf.point(lineA[0]),
+      turf.point(lineB[0]),
+      OPTIONS
+    );
+  } else {
+    distanceA = turf.pointToLineDistance(
+      turf.point(lineA[0]),
+      turf.lineString(lineB),
+      OPTIONS
+    );
+  }
+
+  let distanceB;
+  if (isEqual(lineA[0], lineA[1])) {
+    distanceB = turf.distance(
+      turf.point(lineB[0]),
+      turf.point(lineA[0]),
+      OPTIONS
+    );
+  } else {
+    distanceB = turf.pointToLineDistance(
+      turf.point(lineB[0]),
+      turf.lineString(lineA),
+      OPTIONS
+    );
+  }
 
   return Math.min(distanceA, distanceB);
 }
