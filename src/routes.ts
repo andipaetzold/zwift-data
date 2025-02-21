@@ -7503,7 +7503,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3961473046,
       "Hilltop Hustle",
-      "3961473046",
+      "hilltop-hustle",
       "watopia",
       true,
       13.634,
@@ -7514,7 +7514,7 @@ export const routes: ReadonlyArray<Route> = (
       10,
       2.22,
       10,
-      [],
+      ["the-grade-kom", "the-grade-sprint-rev", "sasquatch-sprint"],
       [],
       false,
       true,
@@ -7525,7 +7525,7 @@ export const routes: ReadonlyArray<Route> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      "https://whatsonzwift.com/world/watopia/route/hilltop-hustle",
       undefined,
     ],
     [
