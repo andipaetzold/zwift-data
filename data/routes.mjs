@@ -2885,11 +2885,11 @@ export const routes = [
       "https://whatsonzwift.com/world/watopia/route/danger-noodle",
     zwifterBikesPath: "danger-noodle",
   },
-  {
-    id: 3961473046,
-    slug: "hilltop-hustle",
-    segments: ["the-grade-kom", "the-grade-sprint-rev", "sasquatch-sprint"],
-    whatsOnZwiftUrl:
-      "https://whatsonzwift.com/world/watopia/route/hilltop-hustle",
-  },
+  // {
+  //   id: 3961473046,
+  //   slug: "hilltop-hustle",
+  //   segments: ["the-grade-kom", "the-grade-sprint-rev", "sasquatch-sprint"],
+  //   whatsOnZwiftUrl:
+  //     "https://whatsonzwift.com/world/watopia/route/hilltop-hustle",
+  // },
 ];
