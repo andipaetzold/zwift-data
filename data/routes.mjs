@@ -2881,7 +2881,15 @@ export const routes = [
     stravaSegmentId: 38326016,
     segments: ["titans-grove-kom", "titans-grove-kom-rev"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/danger-noodle",
-    whatsOnZwiftUrl: 'https://whatsonzwift.com/world/watopia/route/danger-noodle',
-    zwifterBikesPath: 'danger-noodle',
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/danger-noodle",
+    zwifterBikesPath: "danger-noodle",
   },
+  // {
+  //   id: 3961473046,
+  //   slug: "hilltop-hustle",
+  //   segments: ["the-grade-kom", "the-grade-sprint-rev", "sasquatch-sprint"],
+  //   whatsOnZwiftUrl:
+  //     "https://whatsonzwift.com/world/watopia/route/hilltop-hustle",
+  // },
 ];

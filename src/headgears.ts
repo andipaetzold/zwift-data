@@ -134,11 +134,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2462854936, "Garmin Unbound Helmet Skin", "GarminUnbound2021"],
     [2529465619, "Wahoo Custom", "WahooCustomCap2018_thumb"],
     [2546356403, "Le Beret", "CyclingCap_BigSpinBeret2024_thumb"],
-    [
-      2551213910,
-      "LOC_CYCLING_HEADGEAR_HEADPHONESWATCHTHEFEMMES2025_NAME",
-      "HeadphonesWatchTheFemmes2025_thumb",
-    ],
+    [2551213910, "2025 Watch the Femmes", "HeadphonesWatchTheFemmes2025_thumb"],
     [2595853305, "Granny Visor", "VisorBigSpin2025_thumb"],
     [2631621268, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [2638087379, "Zwift Academy Women 2018", "RunningCap_ZA2018_Womens"],
@@ -178,6 +174,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2994345379, "Training 101 Helmet", "OnBoardingHelmet"],
     [3027813077, "Alpine", "LederhoseHat2022_thumb"],
     [3033412906, "Bell Javelin", "BellJavelin"],
+    [
+      3091213638,
+      "2025 Paris-Roubaix Femmes avec Zwift",
+      "CyclingCapPRFaZ2025_thumb",
+    ],
     [3104058090, "HJC Furion", "HJCFurion"],
     [3109903878, "S-Works Evade", "SworksEvade"],
     [3137618299, "Zwift Head Band", "Headband_Orange"],
@@ -238,11 +239,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     ],
     [3740815468, "ZRS June", "RcZRSCieleJune2020_thumb"],
     [3744415423, "Bike Packer", "RunningCapBikePacker_thumb"],
-    [
-      3778367593,
-      "LOC_CYCLING_HEADGEAR_VISORZWIFTCAMPINSIDEOUT2025_NAME",
-      "VisorZwiftCampInsideOut2025_thumb",
-    ],
+    [3778367593, "Inside Out", "VisorZwiftCampInsideOut2025_thumb"],
     [3791937810, "Zwift Visor", "Visor_White"],
     [
       3812947982,
