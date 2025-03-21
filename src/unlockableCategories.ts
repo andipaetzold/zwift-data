@@ -14,5 +14,6 @@ export const unlockableCategories: ReadonlyArray<UnlockableCategory> = (
     [9, "RUNNING_KIT"],
     [10, "SOCKS"],
     [11, "EYEWEAR"],
+    [12, "STREAK_FLAIR"],
   ] as const
 ).map(([id, name]) => ({ id, name }));

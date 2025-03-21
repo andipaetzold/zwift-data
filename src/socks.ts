@@ -24,7 +24,7 @@ export const socks: ReadonlyArray<Sock> = (
       "SocksZwiftAcademyTriOrange2019",
     ],
     [708573979, "CritCrusher Plan Socks", "CritCrusher"],
-    [728024758, "LOC_SOCKS_LIGHTNINGAERO_NAME", "Socks_LightningAero"],
+    [728024758, "Aero Lightning Socks", "Socks_LightningAero"],
     [776931720, "Watopia Origins Socks", "SocksTourOfWatopia2024"],
     [805406818, "ZRS Socks 2", "ZRS2021Socks02"],
     [853522319, "FTPBuilder Plan Socks", "FtpBuilder"],
