@@ -2,7 +2,9 @@ import { BikeRearWheel } from "./types";
 
 export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
   [
+    [21937401, "Roval PROJECT 74", "Wheel_RovalProject74"],
     [59917648, "Roval CLX64", "Wheel_SpecializedRovalCLX64"],
+    [201030698, "Cannondale R4000 Roller Blade", "Wheel_CannondalePong"],
     [214800767, "Zipp 808", "Wheel_Zipp808Firecrest"],
     [345690674, "Zwift Zwift Trike", "Wheel_ZwiftBW"],
     [393022867, "Zipp 808/Super9", "Wheel_ZippDisc"],

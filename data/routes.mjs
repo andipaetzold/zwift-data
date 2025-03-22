@@ -2892,4 +2892,23 @@ export const routes = [
   //   whatsOnZwiftUrl:
   //     "https://whatsonzwift.com/world/watopia/route/hilltop-hustle",
   // },
+  {
+    id: 1367364772,
+    slug: "neon-after-party",
+    stravaSegmentId: 38754616,
+    segments: [
+      "alley-sprint",
+      "tower-sprint-rev",
+      "castle-park-sprint-rev",
+      "rooftop-kom",
+    ],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/neon-after-party",
+  },
+  {
+    id: 3669622170,
+    slug: "laguardia-after-party",
+    stravaSegmentId: 38758184,
+    segments: ["new-york-sprint", "new-york-kom-rev"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/laguardia-after-party",
+  },
 ];
