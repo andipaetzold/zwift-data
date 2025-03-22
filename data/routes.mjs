@@ -2900,7 +2900,6 @@ export const routes = [
       "alley-sprint",
       "tower-sprint-rev",
       "castle-park-sprint-rev",
-      "alley-sprint",
       "rooftop-kom",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/neon-after-party",

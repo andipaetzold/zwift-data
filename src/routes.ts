@@ -2238,7 +2238,6 @@ export const routes: ReadonlyArray<Route> = (
         "alley-sprint",
         "tower-sprint-rev",
         "castle-park-sprint-rev",
-        "alley-sprint",
         "rooftop-kom",
       ],
       [{ from: 14.261, to: 16.139, segment: "rooftop-kom" }],
