@@ -277,5 +277,16 @@ export const achievements: ReadonlyArray<Achievement> = (
     [286, "HILLTOP HUSTLE", "RouteComplete"],
     [287, "LAGUARDIA AFTER PARTY", "RouteComplete"],
     [288, "NEON AFTER PARTY", "RouteComplete"],
+    [289, "VEN-10", "RouteComplete"],
+    [290, "CROISSANT", "RouteComplete"],
+    [291, "THREE MUSKETEERS", "RouteComplete"],
+    [292, "GENTIL 8", "RouteComplete"],
+    [293, "BON VOYAGE", "RouteComplete"],
+    [294, "HELL OF THE NORTH", "RouteComplete"],
+    [295, "KNIGHTS OF THE ROUNDABOUT", "RouteComplete"],
+    [296, "SACRE BLEU", "RouteComplete"],
+    [297, "MACARON", "RouteComplete"],
+    [298, "VEN-10 RUN", "RouteComplete"],
+    [299, "RAPIDE RUN", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

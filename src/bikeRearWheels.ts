@@ -71,7 +71,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     ],
     [4064842315, "Mavic Cosmic CXR60c", "Wheel_MavicCosmicCXR60c"],
     [4088741326, "Zwift Tri Spoke // Disc Wheel", "Wheel_BigSpin2024"],
-    [4097663513, "Pinarello Pinarello Espada", "Wheel_PinarelloEspadaDisc"],
+    [4097663513, "Pinarello Espada", "Wheel_PinarelloEspadaDisc"],
     [4111310185, "Zwift 8-Bit", ""],
     [4137014419, "Zwift 32mm Carbon", "Wheel_CampagnoloLow"],
     [4151096267, "FFWD RYOT55", "Wheel_FFWDRYOT55"],
