@@ -34,7 +34,7 @@ export const bikeShoes: ReadonlyArray<BikeShoe> = (
     [3128704198, "Tour of Watopia 2022", "TOWCyclingShoe2022"],
     [3238688697, "Mavic Cosmic", "MavicCosmic"],
     [3251024571, "Fizik Vento Infinito Carbon", "FizikVentoInfinitoCarbon2021"],
-    [3389594817, "Nimbl Ultimate Pro", "NimblFEATUltimate_thumb"],
+    [3389594817, "nimbl Ultimate Pro", "NimblFEATUltimate_thumb"],
     [3505437713, "Mirage", "CyclingShoes_Mirage_thumb"],
     [3547687330, "Zwift Shoe", "zwiftshoe"],
     [3595139078, "Ride With Reason", "CyclingShoe_RideWithReason2018"],
