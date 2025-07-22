@@ -3006,6 +3006,7 @@ export const routes = [
     id: 3974965857,
     slug: "knights-of-the-roundabout",
     stravaSegmentId: 38859646,
+    segments: ["aqueduc-kom", "petit-kom"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/knights-of-the-roundabout",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/route/knights-of-the-roundabout",

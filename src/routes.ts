@@ -7976,7 +7976,7 @@ export const routes: ReadonlyArray<Route> = (
       22,
       3.088,
       22,
-      [],
+      ["aqueduc-kom", "petit-kom"],
       [
         { from: 6.876, to: 7.296, segment: "aqueduc-kom" },
         { from: 34.149, to: 36.827, segment: "petit-kom" },
