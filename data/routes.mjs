@@ -38,7 +38,7 @@ export const routes = [
     id: 2675063596,
     slug: "dust-in-the-wind",
     segments: ["titans-grove-kom-rev", "fuego-flats-rev"],
-    stravaSegmentId: 22458637,
+    stravaSegmentId: 33852827,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/dust-in-the-wind",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/dust-in-the-wind",
@@ -2711,7 +2711,7 @@ export const routes = [
     id: 454871454,
     slug: "deca-dash",
     segments: ["jarvis-sprint-rev", "jarvis-kom-rev"],
-    stravaSegmentId: 38146678,
+    stravaSegmentId: 39270881,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/deca-dash",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/deca-dash",
     zwifterBikesPath: "deca-dash",
@@ -2907,8 +2907,108 @@ export const routes = [
   {
     id: 3669622170,
     slug: "laguardia-after-party",
-    stravaSegmentId: 38758184,
     segments: ["new-york-sprint", "new-york-kom-rev"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/laguardia-after-party",
+  },
+  {
+    id: 136140280,
+    slug: "sacre-bleu",
+    stravaSegmentId: 39270823,
+    segments: [
+      "aqueduc-kom-rev",
+      "ballon-sprint-rev",
+      "aqueduc-kom",
+      "marina-sprint",
+    ],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/sacre-bleu",
+  },
+  {
+    id: 319138658,
+    slug: "three-musketeers",
+    stravaSegmentId: 38873256,
+    segments: ["aqueduc-kom-rev", "ballon-sprint-rev"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/three-musketeers",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/france/route/three-musketeers",
+  },
+  {
+    id: 358794394,
+    slug: "ven-10",
+    stravaSegmentId: 38856912,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/ven-10",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/ven-10",
+  },
+  {
+    id: 573843083,
+    slug: "macaron",
+    stravaSegmentId: 38876339,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/macaron",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/macaron",
+  },
+  {
+    id: 2143464829,
+    slug: "bon-voyage",
+    stravaSegmentId: 39240977,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/bon-voyage",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/bon-voyage",
+  },
+  {
+    id: 1600198346,
+    slug: "croissant",
+    stravaSegmentId: 39270805,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/croissant",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/croissant",
+  },
+  {
+    id: 1538375239,
+    slug: "gentil-8",
+    stravaSegmentId: 38856602,
+    segments: ["petit-kom"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/gentil-8",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/gentil-8",
+  },
+  {
+    id: 1464561389,
+    slug: "climb-control",
+  },
+  {
+    id: 2892858917,
+    slug: "red-zone-repeats",
+  },
+  {
+    id: 1793712753,
+    slug: "hell-of-the-north",
+    stravaSegmentId: 38859707,
+    segments: ["petit-kom"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/hell-of-the-north",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/france/route/hell-of-the-north",
+  },
+  {
+    id: 1201172818,
+    slug: "power-punches",
+  },
+  {
+    id: 1258526800,
+    slug: "flat-out-fast",
+  },
+  {
+    id: 1409345545,
+    slug: "rapide-run",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/rapide-run",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/rapide-run",
+  },
+  {
+    id: 1975694067,
+    slug: "ven-10-run",
+  },
+  {
+    id: 3974965857,
+    slug: "knights-of-the-roundabout",
+    stravaSegmentId: 38859646,
+    segments: ["aqueduc-kom", "petit-kom"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/knights-of-the-roundabout",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/france/route/knights-of-the-roundabout",
   },
 ];

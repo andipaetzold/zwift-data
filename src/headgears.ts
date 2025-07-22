@@ -142,7 +142,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2640370438, "Big Spin 2025 Headphones", "HeadphonesBigSpin2025_thumb"],
     [2656884789, "Off the MAAP 2021 Cap", "BackwardsCapOffTheMaap2021_thumb"],
     [2664954147, "NY Baseball Cap", "BackwardsBaseballCap2024_thumb"],
-    [2684416694, "Orange Headphones", "HeadphonesBigSpin2024_thumb"],
+    [2684416694, "Zwift x H20", "HeadphonesBigSpin2024_thumb"],
     [2698520959, "Zwift Running Cap", "RunningCap_Orange"],
     [
       2748617150,
@@ -202,6 +202,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3460366108, "Sticker Skate Helmet", "BigSpinHelmet2025_thumb"],
     [3500373581, "2021 ZA Run Hat", "RunningCapZARun2021_thumb"],
     [3525135378, "2021 ZA Tri Hat Backwards", "BackwardsCapZARun2021_thumb"],
+    [3534088186, "Didi the Devil", "DevilHorns2025_thumb"],
     [
       3556872596,
       "Tour of Watopia '24 Bikepacker",

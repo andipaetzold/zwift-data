@@ -3,6 +3,7 @@ import { PaintJob } from "./types";
 export const paintJobs: ReadonlyArray<PaintJob> = (
   [
     [0, "Zwift BigSpin2025-"],
+    [12577204, "Giant GiantTCRAdvancedSL2023-default"],
     [58038927, "Pinarello F8-Team Wiggins"],
     [67852049, "Canyon Ultimate-Zwift Academy Women"],
     [97563820, "Zwift Carbon-Madison Genesis Zero"],
@@ -30,6 +31,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [608105152, "Zwift Carbon-Zwift Racer"],
     [633914565, "Cervelo S5-Qhubeka"],
     [638400506, "Zwift Carbon-Vital"],
+    [674138548, "Zwift BromptonPLine2025-Default"],
     [689888077, "Specialized Tarmac Mixtape-Specialized MixTape"],
     [695560183, "BMC BMCRoadMachine2021-base"],
     [734183080, "Canyon Grail-Canyon Grail"],
@@ -51,6 +53,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [1050532355, "Specialized Roubaix-Chameleon Black"],
     [1066566931, "Canyon Aeroad Team Edition-Canyon SRAM 2022"],
     [1132004705, "Specialized Roubaix S-Works-Rocket Red"],
+    [1192921579, "Liv LivLangmaAdvancedSL2023-default"],
     [1204138276, "Scott Foil-Scott2022"],
     [1205664811, "Ridley Noah Fast 2019-Lotto Soudal"],
     [1208416225, "Zwift Carbon-Astana"],
