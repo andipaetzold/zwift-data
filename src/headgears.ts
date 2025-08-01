@@ -43,6 +43,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [639195682, "Zwift Academy Tri 2019", "VisorZwiftAcademyTri2020_Thumb"],
     [677371865, "90s Headphones", "HeadphonesBigSpin90s2025_thumb"],
     [765196864, "Newsy", "Newsy"],
+    [769319873, "2025 Zwift Camp: Baseline", "ZwiftCampBaseline2025_thumb"],
     [
       788235908,
       "Tour de Zwift 2022 Run Cap",
@@ -135,6 +136,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2529465619, "Wahoo Custom", "WahooCustomCap2018_thumb"],
     [2546356403, "Le Beret", "CyclingCap_BigSpinBeret2024_thumb"],
     [2551213910, "2025 Watch the Femmes", "HeadphonesWatchTheFemmes2025_thumb"],
+    [2566547961, "Ekoi", "EkoiRAero2025_thumb"],
     [2595853305, "Granny Visor", "VisorBigSpin2025_thumb"],
     [2631621268, "2025 Tour de Zwift", "TourDeZwift2025_thumb"],
     [2638087379, "Zwift Academy Women 2018", "RunningCap_ZA2018_Womens"],

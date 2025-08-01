@@ -2,6 +2,11 @@ import { BikeShoe } from "./types";
 
 export const bikeShoes: ReadonlyArray<BikeShoe> = (
   [
+    [
+      119293702,
+      "2025 Zwift Camp: Baseline Lace Ups",
+      "ZwiftCampBaseline2025_thumb",
+    ],
     [123888986, "The Zwift Big Spin Shoes", "BigSpin2024_thumb"],
     [138403836, "Alpine", "Lederhose2022"],
     [
