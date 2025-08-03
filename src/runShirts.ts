@@ -93,6 +93,11 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     [1531810507, "Saucony Stopwatch Run Shirt", "Saucony2021_thumb"],
     [1538925592, "ZRL Munich Run Shirt", "ZRLMunich2022_thumb"],
     [1539153651, "Watopia Run Fest", "WatopiaRunFest2020_thumb"],
+    [
+      1543112234,
+      "LOC_ACCESSORY_EpicRunCrew2025_SHIRT",
+      "EpicRunCrew2025_thumb",
+    ],
     [1556464651, "Tour of Watopia '24", "TourOfWatopia2024_thumb"],
     [1598044512, "Neokyo Launch Run Shirt", "NeokyoRun2021_thumb"],
     [1636252940, "Tour De Zwift", "TourDeZwift2020_thumb"],

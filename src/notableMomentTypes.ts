@@ -17,6 +17,6 @@ export const notableMomentTypes: ReadonlyArray<NotableMomentType> = (
     [20, "BIKE UPGRADE UNLOCKED!", "BIKEUPGRADE_UNLOCKED", 12],
     [21, "ACTIVITY BESTS", "ACTIVITY_BESTS", 15],
     [34, "SPECIAL EVENT", "SPECIAL_EVENT", 9],
-    [35, "NEW POWER PR!", "NEW_POWER_PR", 16],
+    [35, "NEW POWER PR:", "NEW_POWER_PR", 16],
   ] as const
 ).map(([id, name, imageName, priority]) => ({ id, name, imageName, priority }));
