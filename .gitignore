@@ -4,3 +4,5 @@ node_modules/
 test-results/
 
 .DS_Store
+
+data/bikes.csv # source of truth is in the .json file, csv is only for easier "visual" inspection
