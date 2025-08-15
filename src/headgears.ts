@@ -194,6 +194,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3290534814, "Dino Power", "CyclingCapDinoPower_thumb"],
     [3291118897, "ZRS Ciele", "RcZRSCiele2020_thumb"],
     [3324753264, "Rapha Rising 2022", "CyclingCapRaphaRising2022_thumb"],
+    [3339150633, "2025 Zwift Unlocked", "BeanieZwiftUnlocked2025_thumb"],
     [3346861673, "Giro Eclipse Canyon SRAM", "GiroEclipseCanyonSRAM2021"],
     [3351716541, "Retro 80's", "80sHelmet"],
     [3354474434, "Specialized Mix Tape", "SpecializedMixTape2019"],
