@@ -2,6 +2,11 @@ import { Jersey } from "./types";
 
 export const jerseys: ReadonlyArray<Jersey> = (
   [
+    [
+      1204170,
+      "LOC_CYCLING_JERSEY_ZWIFTLONGDISTANCERIDERS2025",
+      "ZwiftLongDistanceRiders2025_thumb",
+    ],
     [1962443, "Zwift Academy Finalist", "ZARoadFinalist12022_thumb"],
     [3523119, "TBR 2020", "TBR2020_thumb"],
     [10145717, "Coalition Alpha Men", "CoalitionAlphaMen2023_thumb"],
@@ -183,11 +188,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [532913371, "Sky", "Sky_2014_thumb"],
     [537047233, "Alé BTC Ljubljana", "AleCipollini2020_thumb"],
     [542207259, "INEOS Grenadiers 2022 Pro", "INEOSGrenadiers2021_thumb"],
-    [
-      542634757,
-      "LOC_CYCLING_JERSEY_COFFEELOVERS2025",
-      "CoffeeLovers2025_thumb",
-    ],
+    [542634757, "Coffee Lovers", "CoffeeLovers2025_thumb"],
     [550267244, "Vocsnor", "vocsnor_thumb"],
     [552170906, "Israel Premier-Tech", "IsraelPT2022_thumb"],
     [555613191, "DD-Qhubeka-Fan", "DD-Qhubeka-Fan_thumb"],
@@ -489,7 +490,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1446002244, "Lamont Cycling", "LamontCycling2019_thumb"],
     [1456211971, "Circus - Wanty Gobert", "CircusWantyGobert_thumb"],
     [1461334436, "ATOC 2018", "ATOC2018_thumb"],
-    [1463878036, "LOC_CYCLING_JERSEY_4STARRACING2025", "4StarRacing2025_thumb"],
+    [1463878036, "4Star Racing", "4StarRacing2025_thumb"],
     [1464573843, "Zwift zFondo January 2019", "ZwiftZFondoJan2019_thumb"],
     [1482458261, "Morning Glory CC", "MorningGloryCC_thumb"],
     [
@@ -502,6 +503,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1494272741, "Team SD Worx", "SDWorx2022_thumb"],
     [1494912035, "Zwift Academy Tri 2020", "ZwiftAcademyTriCycle2020_thumb"],
     [1499244597, "Wahoo Le CoL Team Kit", "WahooLeCoL2021_thumb"],
+    [1501856096, "RO4H 2025", "RO4H2025_thumb"],
     [1502842919, "Zwift Allstars", "ZwiftAllstars2019_thumb"],
     [1513854402, "CycleVox", "CycleVox_thumb"],
     [1518198854, "Herd Cycling 2020", "HerdCycling2020_thumb"],
@@ -565,11 +567,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [1716914056, "Cycling Weekly Kit", "CyclingWeekly2021_thumb"],
     [1718052948, "2021 ZA Tri Kit", "ZATri2021_thumb"],
     [1727340017, "Hong Kong Federation Elite 2022", "UCIBlackHK2022_thumb"],
-    [
-      1731659900,
-      "LOC_CYCLING_JERSEY_PINEAPPLETORTUREFEST2025",
-      "PineappleTortureFest2025_thumb",
-    ],
+    [1731659900, "Pineapple Torturefest", "PineappleTortureFest2025_thumb"],
     [1735340823, "Level 40", "Zwift_LVL40_thumb"],
     [1746959823, "Skyline", "Skyline2020_thumb"],
     [1751349769, "UAE", "UAE_2017_thumb"],
@@ -820,6 +818,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [2622309203, "Team Vitality Kit", "VitalityCycling2021_thumb"],
     [2628117485, "eSRT", "eSRT2023_thumb"],
     [2636119382, "Team Greece", "TeamGreece2022_thumb"],
+    [2637363176, "The Watt Squad", "TheWattSquad2025_thumb"],
     [
       2642337455,
       "Intermarché Wanty Circus 2023",
@@ -902,6 +901,11 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [2855133168, "Trek Training Kit", "Trek_2017_Yellow_thumb"],
     [2855388550, "TSOK", "TSOK2023_thumb"],
     [2856076954, "2021 Virtual Series Kit", "OVSPlain2021_thumb"],
+    [
+      2856359988,
+      "LOC_CYCLING_JERSEY_DADBODCYCLINGINC2025",
+      "DadBodCyclingInc2025_thumb",
+    ],
     [2872877007, "Mike's Bikes", "MikesBikes2022_thumb"],
     [2879713688, "Downing Cycling Donny Chaingang", "Downing2021_thumb"],
     [2885953440, "RO4H", "RO4H2021_thumb"],
@@ -1162,6 +1166,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3672963209, "Lederhose", "Lederhosen2022_thumb"],
     [3674985275, "KZR white", "KZRwhite_thumb"],
     [3681814664, "Mountain Massif 2023", "MountainMassif2023_thumb"],
+    [3686333973, "Rapha Women's 100 + Kelly Anna", "RaphaWomens1002025_thumb"],
     [3687043191, "Betty Designs Signature", "BettyDesignsSignature_thumb"],
     [3690012873, "Level 90", "Zwift_LVL90_thumb"],
     [3694781490, "Internationelles", "Internationelles2021_thumb"],
@@ -1184,7 +1189,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3752612147, "JETT", "JETT2021_thumb"],
     [
       3754285428,
-      "LOC_CYCLING_JERSEY_HERTSCOUNTYTRIATHLETES2025",
+      "Herts County Triathletes",
       "HertsCountyTriathletes2025_thumb",
     ],
     [3757074019, "CIS Training Systems", "CIS_thumb"],

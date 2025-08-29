@@ -73,6 +73,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [2755992695, "Cadex CADEX AR 35", "Wheel_CadexAR35"],
     [2866818884, "Enve SES 7.8", "Wheel_Enve78"],
     [2907165694, "Zwift 8-Bit", ""],
+    [3114121871, "Enve ENVE SES 4.5 PRO", "Wheel_ENVESES4"],
     [3207647806, "Zwift BMX Bandit", "Wheel_BigSpinBMX2025"],
     [3251069251, "Enve SES 6.7", "Wheel_Enve67"],
     [3557711998, "Zwift Brompton P Line", "Wheel_BromptonPLine2025"],

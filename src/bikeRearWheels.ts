@@ -19,6 +19,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
       "DTSwiss ARC 1100 DICUT 85/Disc",
       "Wheel_DTSwissARC1100DICUT85DISC",
     ],
+    [635106022, "Enve ENVE SES 4.5 PRO", "Wheel_ENVESES4"],
     [705669234, "Zwift Plain", "Wheel_ZwiftPlain"],
     [881139533, "Zipp 858", "Wheel_Zipp858"],
     [886534142, "Enve SES 7.8", "Wheel_Enve78"],
