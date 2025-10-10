@@ -3011,4 +3011,59 @@ export const routes = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/route/knights-of-the-roundabout",
   },
+  {
+    id: 65777922,
+    slug: "electric-break",
+    // TODO
+  },
+  {
+    id: 152965568,
+    slug: "yoru-run",
+    // TODO
+  },
+  {
+    id: 979250573,
+    slug: "watts-of-the-wild",
+    // TODO
+  },
+  {
+    id: 2312882507,
+    slug: "dun-dash",
+    // TODO
+  },
+  {
+    id: 2661047295,
+    slug: "jarvis-seaside-sprint",
+    // TODO
+  },
+  {
+    id: 2773927650,
+    slug: "highland-run",
+    // TODO
+  },
+  {
+    id: 2836167073,
+    slug: "london-calling",
+    // TODO
+  },
+  {
+    id: 3636436865,
+    slug: "tropic-rush",
+    // TODO
+  },
+  {
+    id: 3680493479,
+    slug: "southern-coast-cruise",
+    // TODO
+  },
+  {
+    id: 3871332877,
+    slug: "track-meet",
+    // TODO
+  },
+  {
+    id: 4227232797,
+    slug: "scotland-after-party",
+    // TODO
+  },
 ];

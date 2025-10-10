@@ -129,7 +129,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       65777922,
       "Electric Break",
-      "65777922",
+      "electric-break",
       "makuri-islands",
       true,
       17.76,
@@ -333,7 +333,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       152965568,
       "Yoru Run",
-      "152965568",
+      "yoru-run",
       "makuri-islands",
       true,
       6.89,
@@ -1865,7 +1865,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       979250573,
       "Watts of the Wild",
-      "979250573",
+      "watts-of-the-wild",
       "watopia",
       true,
       42.023,
@@ -4315,7 +4315,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2312882507,
       "Dùn Dash",
-      "2312882507",
+      "dun-dash",
       "scotland",
       true,
       12.419,
@@ -4902,7 +4902,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2661047295,
       "Jarvis Seaside Sprint",
-      "2661047295",
+      "jarvis-seaside-sprint",
       "watopia",
       true,
       12.501,
@@ -5244,7 +5244,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2773927650,
       "Highland Run",
-      "2773927650",
+      "highland-run",
       "scotland",
       true,
       5.729,
@@ -5356,7 +5356,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2836167073,
       "London Calling",
-      "2836167073",
+      "london-calling",
       "london",
       true,
       31.228,
@@ -6826,7 +6826,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3636436865,
       "Tropic Rush",
-      "3636436865",
+      "tropic-rush",
       "makuri-islands",
       true,
       41.267,
@@ -7482,7 +7482,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3680493479,
       "Southern Coast Cruise",
-      "3680493479",
+      "southern-coast-cruise",
       "watopia",
       true,
       23.623,
@@ -8014,7 +8014,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3871332877,
       "Track Meet",
-      "3871332877",
+      "track-meet",
       "watopia",
       true,
       6.073,
@@ -8781,7 +8781,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       4227232797,
       "Scotland After Party",
-      "4227232797",
+      "scotland-after-party",
       "scotland",
       true,
       13.634,
