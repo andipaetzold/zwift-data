@@ -1877,10 +1877,10 @@ export const routes: ReadonlyArray<Route> = (
       0.029,
       0,
       [
-        "jwb-sprint-rev",
+        "watopia-sprint-rev",
         "jarvis-kom",
         "jarvis-sprint",
-        "fuego-flats-sprint",
+        "fuego-flats",
         "titans-grove-kom",
       ],
       [
@@ -4337,7 +4337,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.031,
       0,
-      ["the-clyde-kicker-rev", "breakaway-brae", "sgurr-summit-south"],
+      ["the-clyde-kicker", "breakaway-brae-rev", "sgurr-summit-south"],
       [
         { from: 7.501, to: 8.125, segment: "breakaway-brae-rev" },
         { from: 11.376, to: 12.372, segment: "sgurr-summit-south" },
@@ -4927,7 +4927,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.253,
       1,
-      ["jwb-sprint-rev", "jarvis-kom-rev", "jarvis-kom-rev"],
+      ["watopia-sprint-rev", "jarvis-kom-rev"],
       [{ from: 3.443, to: 4.73, segment: "jarvis-kom-rev" }],
       false,
       true,
@@ -8821,11 +8821,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.043,
       0,
-      [
-        "champions-sprint-rev",
-        "the-clyde-kicker-rev",
-        "sgurr-summit-north-rev",
-      ],
+      ["champions-sprint", "the-clyde-kicker", "sgurr-summit-north"],
       [{ from: 11.988, to: 13.57, segment: "sgurr-summit-north" }],
       false,
       false,

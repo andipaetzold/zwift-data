@@ -3032,10 +3032,10 @@ export const routes = [
     slug: "watts-of-the-wild",
     stravaSegmentId: 40234360,
     segments: [
-      "jwb-sprint-rev",
+      "watopia-sprint-rev",
       "jarvis-kom",
       "jarvis-sprint",
-      "fuego-flats-sprint",
+      "fuego-flats",
       "titans-grove-kom",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/watts-of-the-wild",
@@ -3046,7 +3046,7 @@ export const routes = [
     id: 2312882507,
     slug: "dun-dash",
     stravaSegmentId: 40233889,
-    segments: ["the-clyde-kicker-rev", "breakaway-brae", "sgurr-summit-south"],
+    segments: ["the-clyde-kicker", "breakaway-brae-rev", "sgurr-summit-south"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/dun-dash",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/scotland/route/dun-dash",
   },
@@ -3054,7 +3054,7 @@ export const routes = [
     id: 2661047295,
     slug: "jarvis-seaside-sprint",
     stravaSegmentId: 40054523,
-    segments: ["jwb-sprint-rev", "jarvis-kom-rev", "jarvis-kom-rev"],
+    segments: ["watopia-sprint-rev", "jarvis-kom-rev"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/jarvis-seaside-sprint",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/jarvis-seaside-sprint",
@@ -3116,9 +3116,9 @@ export const routes = [
     slug: "scotland-after-party",
     stravaSegmentId: 40233914,
     segments: [
-      "champions-sprint-rev",
-      "the-clyde-kicker-rev",
-      "sgurr-summit-north-rev",
+      "champions-sprint",
+      "the-clyde-kicker",
+      "sgurr-summit-north",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/scotland-after-party",
     whatsOnZwiftUrl:
