@@ -13,6 +13,7 @@ export const socks: ReadonlyArray<Sock> = (
     [273734482, "TT Tune-Up Plan Socks", "TTTuneup"],
     [356238025, "Solid Purple", "SolidPurple"],
     [474850163, "Specialized Mix Tape", "SpecializedMixTape2019"],
+    [483854767, "Zwift Camp: Build", "SocksZwiftCampBuild2025"],
     [535265719, "Calorie Challenge", "CalorieChallenge2020"],
     [583553384, "Zwift Academy 2022", "Socks_ZARoad2022"],
     [595416697, "Off the MAAP 2021 SOCKS", "Socks_OffTheMaap2021"],

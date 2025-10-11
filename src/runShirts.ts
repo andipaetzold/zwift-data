@@ -221,6 +221,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     [3742868537, "CredoTri", "CredoTriRun2022_thumb"],
     [3746982074, "Norseman White Run Shirt", "Norseman2021_thumb"],
     [3787396827, "Holiday Heat", "HolidayHeat2019_thumb"],
+    [3812261854, "NoblePro Running Club", "NobleProRunningClub2025_thumb"],
     [3827075510, "ZLDR 2023", "ZLDR2023_thumb"],
     [3853619347, "supertri.e kit [Grey]", "SLT2024Grey_thumb"],
     [3890549677, "Zwift Running Shirt 4", "Shirt04"],
