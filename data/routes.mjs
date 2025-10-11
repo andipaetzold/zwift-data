@@ -3014,56 +3014,114 @@ export const routes = [
   {
     id: 65777922,
     slug: "electric-break",
-    // TODO
+    stravaSegmentId: 40233903,
+    segments: ["castle-park-sprint", "rooftop-kom"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/electric-break",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/electric-break",
   },
   {
     id: 152965568,
     slug: "yoru-run",
-    // TODO
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/yoru-run",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/yoru-run",
   },
   {
     id: 979250573,
     slug: "watts-of-the-wild",
-    // TODO
+    stravaSegmentId: 40234360,
+    segments: [
+      "jwb-sprint-rev",
+      "jarvis-kom",
+      "jarvis-sprint",
+      "fuego-flats-sprint",
+      "titans-grove-kom",
+    ],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/watts-of-the-wild",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/watts-of-the-wild",
   },
   {
     id: 2312882507,
     slug: "dun-dash",
-    // TODO
+    stravaSegmentId: 40233889,
+    segments: ["the-clyde-kicker-rev", "breakaway-brae", "sgurr-summit-south"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/dun-dash",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/scotland/route/dun-dash",
   },
   {
     id: 2661047295,
     slug: "jarvis-seaside-sprint",
-    // TODO
+    stravaSegmentId: 40054523,
+    segments: ["jwb-sprint-rev", "jarvis-kom-rev", "jarvis-kom-rev"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/jarvis-seaside-sprint",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/jarvis-seaside-sprint",
   },
   {
     id: 2773927650,
     slug: "highland-run",
-    // TODO
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/highland-run",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/highland-run",
   },
   {
     id: 2836167073,
     slug: "london-calling",
-    // TODO
+    stravaSegmentId: 40232835,
+    segments: ["london-sprint"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/london-calling",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/london/route/london-calling",
   },
   {
     id: 3636436865,
     slug: "tropic-rush",
-    // TODO
+    stravaSegmentId: 40232566,
+    segments: [
+      "alley-sprint-rev",
+      "railway-sprint",
+      "shisa-sprint-rev",
+      "castle-park-sprint",
+      "rooftop-kom",
+      "tower-sprint-rev",
+    ],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/tropic-rush",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/tropic-rush",
   },
   {
     id: 3680493479,
     slug: "southern-coast-cruise",
-    // TODO
+    stravaSegmentId: 40097976,
+    segments: [
+      "woodland-sprint",
+      "woodland-sprint-rev",
+      "sasquatch-sprint-rev",
+      "sasquatch-sprint",
+    ],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/southern-coast-cruise",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/southern-coast-cruise",
   },
   {
     id: 3871332877,
     slug: "track-meet",
-    // TODO
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/track-meet",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/track-meet",
   },
   {
     id: 4227232797,
     slug: "scotland-after-party",
-    // TODO
+    stravaSegmentId: 40233914,
+    segments: [
+      "champions-sprint-rev",
+      "the-clyde-kicker-rev",
+      "sgurr-summit-north-rev",
+    ],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/scotland-after-party",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/scotland/route/scotland-after-party",
   },
 ];
