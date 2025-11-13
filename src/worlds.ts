@@ -37,9 +37,9 @@ export const worlds: ReadonlyArray<World> = [
     slug: "new-york",
     bounds: [
       [40.81725, -74.0227],
-      [40.74085, -73.9222],
+      [40.6385, -73.9222],
     ],
-    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_NewYork.png",
+    imageUrl: "https://cdn.zwift.com/static/images/maps/MiniMap_NewYork_2.png",
   },
   {
     id: 5,
