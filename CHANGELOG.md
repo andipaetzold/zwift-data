@@ -1,3 +1,10 @@
+# [1.46.0](https://github.com/andipaetzold/zwift-data/compare/v1.45.0...v1.46.0) (2025-11-13)
+
+
+### Features
+
+* update NYC image url and bounds ([ac966c8](https://github.com/andipaetzold/zwift-data/commit/ac966c8d6c214dffcab4d0628469d4fa825e940e))
+
 # [1.45.0](https://github.com/andipaetzold/zwift-data/compare/v1.44.3...v1.45.0) (2025-10-11)
 
 
