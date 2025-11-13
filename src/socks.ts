@@ -118,6 +118,7 @@ export const socks: ReadonlyArray<Sock> = (
     [3523567906, "Pride 2022", "Socks_PrideOn2022"],
     [3542549299, "Mirage", "Socks_Mirage"],
     [3560570028, "Party Orange", "Socks_Party02"],
+    [3606966457, "2025 Off the MAAP", "SocksOffTheMAAP2025"],
     [3620800398, "2021 ZA Run Socks", "Socks_ZARun2021"],
     [3642635650, "201 Running Plan Socks", "201Run"],
     [3643312501, "AAPI Heritage Month", "Socks_AAPI2022"],
