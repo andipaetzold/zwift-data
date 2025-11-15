@@ -1,3 +1,11 @@
+## [1.46.1](https://github.com/andipaetzold/zwift-data/compare/v1.46.0...v1.46.1) (2025-11-15)
+
+
+### Bug Fixes
+
+* update new york image bounds ([bd27ea5](https://github.com/andipaetzold/zwift-data/commit/bd27ea5463bf7d1a9d2ae36fc09a3d600bfecbe2))
+* update new york image bounds ([900be46](https://github.com/andipaetzold/zwift-data/commit/900be46d9f444db1fe65fd968e3656dd65f8ae15))
+
 # [1.46.0](https://github.com/andipaetzold/zwift-data/compare/v1.45.0...v1.46.0) (2025-11-13)
 
 
