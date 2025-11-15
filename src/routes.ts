@@ -1074,7 +1074,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.143,
       0,
-      ["new-york-kom"],
+      ["new-york-sprint"],
       [],
       false,
       true,

@@ -1055,7 +1055,7 @@ export const routes = [
   {
     id: 480315274,
     slug: "gotham-grind",
-    segments: ["new-york-kom"],
+    segments: ["new-york-sprint"],
     experience: null,
     stravaSegmentId: 19820820,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/gotham-grind",
