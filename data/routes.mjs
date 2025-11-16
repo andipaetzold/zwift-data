@@ -2912,6 +2912,7 @@ export const routes = [
     slug: "laguardia-after-party",
     segments: ["new-york-sprint", "new-york-kom-rev"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/laguardia-after-party",
+    zwifterBikesPath: "laguardia-after-party",
   },
   {
     id: 136140280,
@@ -2924,6 +2925,7 @@ export const routes = [
       "marina-sprint",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/sacre-bleu",
+    zwifterBikesPath: "sacre-bleu",
   },
   {
     id: 319138658,
@@ -2933,6 +2935,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/three-musketeers",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/route/three-musketeers",
+    zwifterBikesPath: "three-musketeers",
   },
   {
     id: 358794394,
@@ -2940,6 +2943,7 @@ export const routes = [
     stravaSegmentId: 38856912,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/ven-10",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/ven-10",
+    zwifterBikesPath: "ven-10",
   },
   {
     id: 573843083,
@@ -2947,6 +2951,7 @@ export const routes = [
     stravaSegmentId: 38876339,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/macaron",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/macaron",
+    zwifterBikesPath: "macaron",
   },
   {
     id: 2143464829,
@@ -2954,6 +2959,7 @@ export const routes = [
     stravaSegmentId: 39240977,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/bon-voyage",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/bon-voyage",
+    zwifterBikesPath: "bon-voyage",
   },
   {
     id: 1600198346,
@@ -2961,6 +2967,7 @@ export const routes = [
     stravaSegmentId: 39270805,
     zwiftInsiderUrl: "https://zwiftinsider.com/route/croissant",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/croissant",
+    zwifterBikesPath: "croissant",
   },
   {
     id: 1538375239,
@@ -2969,14 +2976,27 @@ export const routes = [
     segments: ["petit-kom"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/gentil-8",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/france/route/gentil-8",
+    zwifterBikesPath: "gentil-8",
   },
   {
     id: 1464561389,
     slug: "climb-control",
+    stravaSegmentId: 40385661,
+    segments: ["acropolis-sprint-rev", "stoneway-sprint-rev"],
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/climb-control",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/climb-control",
+    zwifterBikesPath: "climb-control",
   },
   {
     id: 2892858917,
     slug: "red-zone-repeats",
+    stravaSegmentId: 39889363,
+    segments: ["tower-sprint-rev", "alley-sprint", "towser-sprint"],
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/red-zone-repeats",
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/red-zone-repeats",
+    zwifterBikesPath: "red-zone-repeats",
   },
   {
     id: 1793712753,
@@ -2986,6 +3006,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/hell-of-the-north",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/route/hell-of-the-north",
+    zwifterBikesPath: "hell-of-the-north",
   },
   {
     id: 1201172818,
@@ -3013,6 +3034,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/knights-of-the-roundabout",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/france/route/knights-of-the-roundabout",
+    zwifterBikesPath: "knights-of-the-roundabout",
   },
   {
     id: 65777922,
@@ -3022,6 +3044,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/electric-break",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/electric-break",
+    zwifterBikesPath: "electric-break",
   },
   {
     id: 152965568,
@@ -3044,6 +3067,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/watts-of-the-wild",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/watts-of-the-wild",
+    zwifterBikesPath: "watts-of-the-wild",
   },
   {
     id: 2312882507,
@@ -3052,6 +3076,7 @@ export const routes = [
     segments: ["the-clyde-kicker", "breakaway-brae-rev", "sgurr-summit-south"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/dun-dash",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/scotland/route/dun-dash",
+    zwifterBikesPath: "dun-dash",
   },
   {
     id: 2661047295,
@@ -3061,6 +3086,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/jarvis-seaside-sprint",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/jarvis-seaside-sprint",
+    zwifterBikesPath: "jarvis-seaside-sprint",
   },
   {
     id: 2773927650,
@@ -3077,6 +3103,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/london-calling",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/london/route/london-calling",
+    zwifterBikesPath: "london-calling",
   },
   {
     id: 3636436865,
@@ -3093,6 +3120,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/tropic-rush",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/tropic-rush",
+    zwifterBikesPath: "tropic-rush",
   },
   {
     id: 3680493479,
@@ -3107,6 +3135,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/southern-coast-cruise",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/southern-coast-cruise",
+    zwifterBikesPath: "southern-coast-cruise",
   },
   {
     id: 3871332877,
@@ -3122,6 +3151,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/scotland-after-party",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/route/scotland-after-party",
+    zwiftInsiderUrl: "scotland-after-party",
   },
   {
     id: 22757204,
@@ -3131,6 +3161,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/prospect-park-loop",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/prospect-park-loop",
+    zwifterBikesPath: "prospect-park-loop",
   },
   {
     id: 79243399,
@@ -3154,6 +3185,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/issendorf-express",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/issendorf-express",
+    zwifterBikesPath: "issendorf-express",
   },
   {
     id: 494933300,
@@ -3162,6 +3194,7 @@ export const routes = [
     segments: ["center-sprint", "the-peristyle-sprint-rev"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/avon-flyer",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/new-york/route/avon-flyer",
+    zwifterBikesPath: "avon-flyer",
   },
   {
     id: 730052368,
@@ -3175,6 +3208,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/spinfinity-ultra",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/spinfinity-ultra",
+    zwifterBikesPath: "spinfinity-ultra",
   },
   {
     id: 975408707,
@@ -3183,6 +3217,7 @@ export const routes = [
     segments: ["center-sprint", "the-peristyle-sprint-rev"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/avon-flyer",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/new-york/route/avon-flyer",
+    zwifterBikesPath: "avon-flyer",
   },
   {
     id: 1099226581,
@@ -3192,6 +3227,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/double-span-spin",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/double-span-spin",
+    zwifterBikesPath: "double-span-spin",
   },
   {
     id: 1178708985,
@@ -3206,6 +3242,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/green-to-screen",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/green-to-screen",
+    zwifterBikesPath: "green-to-screen",
   },
   {
     id: 1472166107,
@@ -3215,6 +3252,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/toefield-tornado",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/toefield-tornado",
+    zwifterBikesPath: "toefield-tornado",
   },
   {
     id: 1552189318,
@@ -3224,6 +3262,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-double-borough",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/the-double-borough",
+    zwifterBikesPath: "the-double-borough",
   },
   {
     id: 1671282746,
@@ -3263,6 +3302,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/double-parked",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/double-parked",
+    zwifterBikesPath: "double-parked",
   },
   {
     id: 2251715424,
@@ -3280,6 +3320,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/watts-the-limit",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/watts-the-limit",
+    zwifterBikesPath: "watts-the-limit",
   },
   {
     id: 2949228237,
@@ -3304,6 +3345,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-greenway",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/the-greenway",
+    zwifterBikesPath: "the-greenway",
   },
   {
     id: 3079921742,
@@ -3319,6 +3361,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/stay-puft-pursuit",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/stay-puft-pursuit",
+    zwifterBikesPath: "stay-puft-pursuit",
   },
   {
     id: 3314406972,
@@ -3327,6 +3370,7 @@ export const routes = [
     segments: ["brooklyn-bridge-kom", "manhatten-sprint"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/spinfinity",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/new-york/route/spinfinity",
+    zwifterBikesPath: "spinfinity",
   },
   {
     id: 3678866163,
@@ -3344,6 +3388,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/fuhgeddaboudit",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/fuhgeddaboudit",
+    zwifterBikesPath: "fuhgeddaboudit",
   },
   {
     id: 3835625237,
@@ -3353,6 +3398,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/prospect-park-loop",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/prospect-park-loop",
+    zwifterBikesPath: "prospect-park-loop",
   },
   {
     id: 4232620535,
@@ -3362,5 +3408,6 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/toefield-tornado",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/toefield-tornado",
+    zwifterBikesPath: "toefield-tornado",
   },
 ];

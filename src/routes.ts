@@ -88,7 +88,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40325245",
       "https://zwiftinsider.com/route/prospect-park-loop",
       "https://whatsonzwift.com/world/new-york/route/prospect-park-loop",
-      undefined,
+      "https://zwifterbikes.web.app/route/prospect-park-loop",
     ],
     [
       46799750,
@@ -180,7 +180,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40233903",
       "https://zwiftinsider.com/route/electric-break",
       "https://whatsonzwift.com/world/makuri-islands/route/electric-break",
-      undefined,
+      "https://zwifterbikes.web.app/route/electric-break",
     ],
     [
       79243399,
@@ -356,7 +356,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40331604",
       "https://zwiftinsider.com/route/issendorf-express",
       "https://whatsonzwift.com/world/new-york/route/issendorf-express",
-      undefined,
+      "https://zwifterbikes.web.app/route/issendorf-express",
     ],
     [
       136140280,
@@ -389,7 +389,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/39270823",
       "https://zwiftinsider.com/route/sacre-bleu",
       undefined,
-      undefined,
+      "https://zwifterbikes.web.app/route/sacre-bleu",
     ],
     [
       136957568,
@@ -935,7 +935,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/38873256",
       "https://zwiftinsider.com/route/three-musketeers",
       "https://whatsonzwift.com/world/france/route/three-musketeers",
-      undefined,
+      "https://zwifterbikes.web.app/route/three-musketeers",
     ],
     [
       352245150,
@@ -991,7 +991,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/38856912",
       "https://zwiftinsider.com/route/ven-10",
       "https://whatsonzwift.com/world/france/route/ven-10",
-      undefined,
+      "https://zwifterbikes.web.app/route/ven-10",
     ],
     [
       377566656,
@@ -1203,7 +1203,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40325105",
       "https://zwiftinsider.com/route/avon-flyer",
       "https://whatsonzwift.com/world/new-york/route/avon-flyer",
-      undefined,
+      "https://zwifterbikes.web.app/route/avon-flyer",
     ],
     [
       525587103,
@@ -1325,7 +1325,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/38876339",
       "https://zwiftinsider.com/route/macaron",
       "https://whatsonzwift.com/world/france/route/macaron",
-      undefined,
+      "https://zwifterbikes.web.app/route/macaron",
     ],
     [
       576953930,
@@ -1504,7 +1504,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40337487",
       "https://zwiftinsider.com/route/spinfinity-ultra",
       "https://whatsonzwift.com/world/new-york/route/spinfinity-ultra",
-      undefined,
+      "https://zwifterbikes.web.app/route/spinfinity-ultra",
     ],
     [
       742057576,
@@ -2033,7 +2033,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40325105",
       "https://zwiftinsider.com/route/avon-flyer",
       "https://whatsonzwift.com/world/new-york/route/avon-flyer",
-      undefined,
+      "https://zwifterbikes.web.app/route/avon-flyer",
     ],
     [
       979250573,
@@ -2072,7 +2072,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40234360",
       "https://zwiftinsider.com/route/watts-of-the-wild",
       "https://whatsonzwift.com/world/watopia/route/watts-of-the-wild",
-      undefined,
+      "https://zwifterbikes.web.app/route/watts-of-the-wild",
     ],
     [
       982239385,
@@ -2339,7 +2339,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40325250",
       "https://zwiftinsider.com/route/double-span-spin",
       "https://whatsonzwift.com/world/new-york/route/double-span-spin",
-      undefined,
+      "https://zwifterbikes.web.app/route/double-span-spin",
     ],
     [
       1115260805,
@@ -2435,7 +2435,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40336212",
       "https://zwiftinsider.com/route/green-to-screen",
       "https://whatsonzwift.com/world/new-york/route/green-to-screen",
-      undefined,
+      "https://zwifterbikes.web.app/route/green-to-screen",
     ],
     [
       1201172818,
@@ -3064,19 +3064,22 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.08,
       0,
-      [],
-      [],
+      ["acropolis-sprint-rev", "stoneway-sprint-rev"],
+      [
+        { from: 7.952, to: 15.774, segment: "jungle-loop" },
+        { from: 15.798, to: 23.63, segment: "jungle-loop" },
+      ],
       false,
       false,
       false,
       true,
       ["running", "cycling"],
       475,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
+      40385661,
+      "https://www.strava.com/segments/40385661",
+      "https://zwiftinsider.com/route/climb-control",
+      "https://whatsonzwift.com/world/watopia/route/climb-control",
+      "https://zwifterbikes.web.app/route/climb-control",
     ],
     [
       1472166107,
@@ -3104,7 +3107,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40337526",
       "https://zwiftinsider.com/route/toefield-tornado",
       "https://whatsonzwift.com/world/new-york/route/toefield-tornado",
-      undefined,
+      "https://zwifterbikes.web.app/route/toefield-tornado",
     ],
     [
       1475638265,
@@ -3205,7 +3208,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/38856602",
       "https://zwiftinsider.com/route/gentil-8",
       "https://whatsonzwift.com/world/france/route/gentil-8",
-      undefined,
+      "https://zwifterbikes.web.app/route/gentil-8",
     ],
     [
       1545087483,
@@ -3264,7 +3267,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40343676",
       "https://zwiftinsider.com/route/the-double-borough",
       "https://whatsonzwift.com/world/new-york/route/the-double-borough",
-      undefined,
+      "https://zwifterbikes.web.app/route/the-double-borough",
     ],
     [
       1562187590,
@@ -3354,7 +3357,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/39270805",
       "https://zwiftinsider.com/route/croissant",
       "https://whatsonzwift.com/world/france/route/croissant",
-      undefined,
+      "https://zwifterbikes.web.app/route/croissant",
     ],
     [
       1631692097,
@@ -3911,7 +3914,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/38859707",
       "https://zwiftinsider.com/route/hell-of-the-north",
       "https://whatsonzwift.com/world/france/route/hell-of-the-north",
-      undefined,
+      "https://zwifterbikes.web.app/route/hell-of-the-north",
     ],
     [
       1880443431,
@@ -4295,7 +4298,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40336136",
       "https://zwiftinsider.com/route/double-parked",
       "https://whatsonzwift.com/world/new-york/route/double-parked",
-      undefined,
+      "https://zwifterbikes.web.app/route/double-parked",
     ],
     [
       2128890027,
@@ -4493,7 +4496,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/39240977",
       "https://zwiftinsider.com/route/bon-voyage",
       "https://whatsonzwift.com/world/france/route/bon-voyage",
-      undefined,
+      "https://zwifterbikes.web.app/route/bon-voyage",
     ],
     [
       2165880404,
@@ -4772,7 +4775,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40233889",
       "https://zwiftinsider.com/route/dun-dash",
       "https://whatsonzwift.com/world/scotland/route/dun-dash",
-      undefined,
+      "https://zwifterbikes.web.app/route/dun-dash",
     ],
     [
       2328501978,
@@ -5362,7 +5365,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40054523",
       "https://zwiftinsider.com/route/jarvis-seaside-sprint",
       "https://whatsonzwift.com/world/watopia/route/jarvis-seaside-sprint",
-      undefined,
+      "https://zwifterbikes.web.app/route/jarvis-seaside-sprint",
     ],
     [
       2663908549,
@@ -5816,7 +5819,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40232835",
       "https://zwiftinsider.com/route/london-calling",
       "https://whatsonzwift.com/world/london/route/london-calling",
-      undefined,
+      "https://zwifterbikes.web.app/route/london-calling",
     ],
     [
       2839057126,
@@ -6074,19 +6077,19 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.166,
       0,
-      [],
-      [],
+      ["tower-sprint-rev", "alley-sprint", "towser-sprint"],
+      [{ from: 18.977, to: 19.297, segment: "tower-sprint" }],
       false,
       false,
       false,
       true,
       ["running", "cycling"],
       390,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
-      undefined,
+      39889363,
+      "https://www.strava.com/segments/39889363",
+      "https://zwiftinsider.com/route/red-zone-repeats",
+      "https://whatsonzwift.com/world/makuri-islands/route/red-zone-repeats",
+      "https://zwifterbikes.web.app/route/red-zone-repeats",
     ],
     [
       2896159042,
@@ -6150,7 +6153,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40337473",
       "https://zwiftinsider.com/route/watts-the-limit",
       "https://whatsonzwift.com/world/new-york/route/watts-the-limit",
-      undefined,
+      "https://zwifterbikes.web.app/route/watts-the-limit",
     ],
     [
       2900074211,
@@ -6677,7 +6680,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40337514",
       "https://zwiftinsider.com/route/the-greenway",
       "https://whatsonzwift.com/world/new-york/route/the-greenway",
-      undefined,
+      "https://zwifterbikes.web.app/route/the-greenway",
     ],
     [
       3068694512,
@@ -6776,7 +6779,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40368797",
       "https://zwiftinsider.com/route/stay-puft-pursuit",
       "https://whatsonzwift.com/world/new-york/route/stay-puft-pursuit",
-      undefined,
+      "https://zwifterbikes.web.app/route/stay-puft-pursuit",
     ],
     [
       3099224394,
@@ -7154,7 +7157,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40331488",
       "https://zwiftinsider.com/route/spinfinity",
       "https://whatsonzwift.com/world/new-york/route/spinfinity",
-      undefined,
+      "https://zwifterbikes.web.app/route/spinfinity",
     ],
     [
       3324272424,
@@ -7956,7 +7959,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40232566",
       "https://zwiftinsider.com/route/tropic-rush",
       "https://whatsonzwift.com/world/makuri-islands/route/tropic-rush",
-      undefined,
+      "https://zwifterbikes.web.app/route/tropic-rush",
     ],
     [
       3649347250,
@@ -8079,7 +8082,7 @@ export const routes: ReadonlyArray<Route> = (
       undefined,
       "https://zwiftinsider.com/route/laguardia-after-party",
       undefined,
-      undefined,
+      "https://zwifterbikes.web.app/route/laguardia-after-party",
     ],
     [
       3678866163,
@@ -8115,7 +8118,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40335851",
       "https://zwiftinsider.com/route/fuhgeddaboudit",
       "https://whatsonzwift.com/world/new-york/route/fuhgeddaboudit",
-      undefined,
+      "https://zwifterbikes.web.app/route/fuhgeddaboudit",
     ],
     [
       3680493479,
@@ -8148,7 +8151,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40097976",
       "https://zwiftinsider.com/route/southern-coast-cruise",
       "https://whatsonzwift.com/world/watopia/route/southern-coast-cruise",
-      undefined,
+      "https://zwifterbikes.web.app/route/southern-coast-cruise",
     ],
     [
       3687251774,
@@ -8552,7 +8555,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40325245",
       "https://zwiftinsider.com/route/prospect-park-loop",
       "https://whatsonzwift.com/world/new-york/route/prospect-park-loop",
-      undefined,
+      "https://zwifterbikes.web.app/route/prospect-park-loop",
     ],
     [
       3848492017,
@@ -8942,7 +8945,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/38859646",
       "https://zwiftinsider.com/route/knights-of-the-roundabout",
       "https://whatsonzwift.com/world/france/route/knights-of-the-roundabout",
-      undefined,
+      "https://zwifterbikes.web.app/route/knights-of-the-roundabout",
     ],
     [
       3976402826,
@@ -9473,7 +9476,7 @@ export const routes: ReadonlyArray<Route> = (
       275,
       40233914,
       "https://www.strava.com/segments/40233914",
-      "https://zwiftinsider.com/route/scotland-after-party",
+      "scotland-after-party",
       "https://whatsonzwift.com/world/scotland/route/scotland-after-party",
       undefined,
     ],
@@ -9503,7 +9506,7 @@ export const routes: ReadonlyArray<Route> = (
       "https://www.strava.com/segments/40337526",
       "https://zwiftinsider.com/route/toefield-tornado",
       "https://whatsonzwift.com/world/new-york/route/toefield-tornado",
-      undefined,
+      "https://zwifterbikes.web.app/route/toefield-tornado",
     ],
     [
       4232726854,
