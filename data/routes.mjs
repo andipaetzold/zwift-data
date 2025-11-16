@@ -2982,7 +2982,7 @@ export const routes = [
     id: 1464561389,
     slug: "climb-control",
     stravaSegmentId: 40385661,
-    segments: ["acropolis-sprint-rev", "stoneway-sprint-rev"],
+    segments: ["acropolis-sprint-rev", "stoneway-sprint-rev", "jungle-loop"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/climb-control",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/climb-control",
@@ -2992,7 +2992,7 @@ export const routes = [
     id: 2892858917,
     slug: "red-zone-repeats",
     stravaSegmentId: 39889363,
-    segments: ["tower-sprint-rev", "alley-sprint", "towser-sprint"],
+    segments: ["tower-sprint-rev", "alley-sprint", "tower-sprint"],
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/red-zone-repeats",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/red-zone-repeats",
@@ -3082,7 +3082,7 @@ export const routes = [
     id: 2661047295,
     slug: "jarvis-seaside-sprint",
     stravaSegmentId: 40054523,
-    segments: ["watopia-sprint-rev", "jarvis-kom-rev"],
+    segments: ["watopia-sprint-rev", "jarvis-kom-rev", "jarvis-sprint-rev"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/jarvis-seaside-sprint",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/jarvis-seaside-sprint",
@@ -3151,7 +3151,7 @@ export const routes = [
     zwiftInsiderUrl: "https://zwiftinsider.com/route/scotland-after-party",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/route/scotland-after-party",
-    zwiftInsiderUrl: "scotland-after-party",
+    zwifterBikesPath: "scotland-after-party",
   },
   {
     id: 22757204,
@@ -3176,12 +3176,7 @@ export const routes = [
     id: 112312944,
     slug: "issendorf-express",
     stravaSegmentId: 40331604,
-    segments: [
-      "center-sprint",
-      "the-peristyle-sprint-rev",
-      "center-sprint",
-      "the-hill-kom",
-    ],
+    segments: ["center-sprint", "the-peristyle-sprint-rev", "the-hill-kom"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/issendorf-express",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/issendorf-express",
@@ -3202,8 +3197,8 @@ export const routes = [
     stravaSegmentId: 40337487,
     segments: [
       "brooklyn-bridge-kom",
-      "manhatten-sprint",
-      "manhatten-sprint-rev",
+      "manhattan-sprint",
+      "manhattan-sprint-rev",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/spinfinity-ultra",
     whatsOnZwiftUrl:
@@ -3223,7 +3218,7 @@ export const routes = [
     id: 1099226581,
     slug: "double-span-spin",
     stravaSegmentId: 40325250,
-    segments: ["manhatten-sprint", "brooklyn-bridge-kom"],
+    segments: ["manhattan-sprint", "brooklyn-bridge-kom"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/double-span-spin",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/double-span-spin",
@@ -3236,7 +3231,7 @@ export const routes = [
     segments: [
       "the-peristyle-sprint",
       "the-hill-kom",
-      "manhatten-sprint",
+      "manhattan-sprint",
       "brooklyn-bridge-kom",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/green-to-screen",
@@ -3258,7 +3253,7 @@ export const routes = [
     id: 1552189318,
     slug: "the-double-borough",
     stravaSegmentId: 40343676,
-    segments: ["brooklyn-bridge-kom", "manhatten-sprint"],
+    segments: ["brooklyn-bridge-kom", "manhattan-sprint"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-double-borough",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/the-double-borough",
@@ -3272,7 +3267,7 @@ export const routes = [
       "center-sprint",
       "the-peristyle-sprint-rev",
       "the-hill-kom",
-      "manhatten-sprint",
+      "manhattan-sprint",
       "new-york-kom",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/empire-elevation",
@@ -3295,9 +3290,9 @@ export const routes = [
     segments: [
       "the-peristyle-sprint",
       "the-hill-kom",
-      "manhatten-sprint",
-      "ny-sprint",
-      "manhatten-sprint-rev",
+      "manhattan-sprint",
+      "new-york-sprint",
+      "manhattan-sprint-rev",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/double-parked",
     whatsOnZwiftUrl:
@@ -3308,7 +3303,7 @@ export const routes = [
     id: 2251715424,
     slug: "hot-laps",
     stravaSegmentId: 40469531,
-    segments: ["jarvis-kom"],
+    segments: ["jarvis-kom", "volcano-circuit"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/hot-laps",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/hot-laps",
   },
@@ -3316,7 +3311,7 @@ export const routes = [
     id: 2898229208,
     slug: "watts-the-limit",
     stravaSegmentId: 40337473,
-    segments: ["ny-sprint", "manhatten-sprint-rev", "manhatten-sprint"],
+    segments: ["new-york-sprint", "manhattan-sprint-rev", "manhattan-sprint"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/watts-the-limit",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/watts-the-limit",
@@ -3336,11 +3331,10 @@ export const routes = [
     slug: "the-greenway",
     stravaSegmentId: 40337514,
     segments: [
-      "the-hill-kom-rev",
       "center-sprint-rev",
-      "manhatten-sprint",
+      "manhattan-sprint",
       "brooklyn-bridge-kom",
-      "manhatten-sprint-rev",
+      "manhattan-sprint-rev",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/the-greenway",
     whatsOnZwiftUrl:
@@ -3353,9 +3347,9 @@ export const routes = [
     stravaSegmentId: 40368797,
     segments: [
       "brooklyn-bridge-kom",
-      "manhatten-sprint",
+      "manhattan-sprint",
       "new-york-kom-rev",
-      "ny-sprint-rev",
+      "new-york-sprint-rev",
       "new-york-kom",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/stay-puft-pursuit",
@@ -3367,7 +3361,7 @@ export const routes = [
     id: 3314406972,
     slug: "spinfinity",
     stravaSegmentId: 40331488,
-    segments: ["brooklyn-bridge-kom", "manhatten-sprint"],
+    segments: ["brooklyn-bridge-kom", "manhattan-sprint"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/spinfinity",
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/new-york/route/spinfinity",
     zwifterBikesPath: "spinfinity",
@@ -3379,11 +3373,11 @@ export const routes = [
     segments: [
       "the-peristyle-sprint",
       "the-hill-kom",
-      "manhatten-sprint",
+      "manhattan-sprint",
       "new-york-kom-rev",
-      "ny-sprint",
+      "new-york-sprint",
       "brooklyn-bridge-kom",
-      "manhatten-sprint-rev",
+      "manhattan-sprint-rev",
     ],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/fuhgeddaboudit",
     whatsOnZwiftUrl:
