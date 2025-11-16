@@ -65,7 +65,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       22757204,
       "Prospect Park Loop",
-      "22757204",
+      "prospect-park-loop",
       "new-york",
       false,
       5.428,
@@ -185,7 +185,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       79243399,
       "Glasgow Crit Six",
-      "79243399",
+      "glasgow-crit-six",
       "scotland",
       true,
       18.07,
@@ -328,7 +328,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       112312944,
       "Issendorf Express",
-      "112312944",
+      "issendorf-express",
       "new-york",
       false,
       7.234,
@@ -1175,7 +1175,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       494933300,
       "Avon Flyer Run",
-      "494933300",
+      "avon-flyer-run",
       "new-york",
       false,
       3.307,
@@ -1476,7 +1476,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       730052368,
       "Spinfinity Ultra",
-      "730052368",
+      "spinfinity-ultra",
       "new-york",
       false,
       35.006,
@@ -2005,7 +2005,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       975408707,
       "Avon Flyer",
-      "975408707",
+      "avon-flyer",
       "new-york",
       false,
       3.307,
@@ -2311,7 +2311,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1099226581,
       "Double Span Spin",
-      "1099226581",
+      "double-span-spin",
       "new-york",
       false,
       7.018,
@@ -2402,7 +2402,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1178708985,
       "Green to Screen",
-      "1178708985",
+      "green-to-screen",
       "new-york",
       false,
       28.377,
@@ -3071,7 +3071,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1472166107,
       "Toefield Tornado Run",
-      "1472166107",
+      "toefield-tornado-run",
       "new-york",
       false,
       10.219,
@@ -3231,7 +3231,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1552189318,
       "The Double Borough",
-      "1552189318",
+      "the-double-borough",
       "new-york",
       false,
       17.809,
@@ -3475,7 +3475,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1671282746,
       "Empire Elevation",
-      "1671282746",
+      "empire-elevation",
       "new-york",
       true,
       24.155,
@@ -4012,7 +4012,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       1942591558,
       "Times Square Circuit",
-      "1942591558",
+      "times-square-circuit",
       "new-york",
       true,
       3.5,
@@ -4250,7 +4250,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2101060245,
       "Double Parked",
-      "2101060245",
+      "double-parked",
       "new-york",
       false,
       42.171,
@@ -4690,7 +4690,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2251715424,
       "Hot Laps",
-      "2251715424",
+      "hot-laps",
       "watopia",
       true,
       23.28,
@@ -6096,7 +6096,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2898229208,
       "Watts the Limit",
-      "2898229208",
+      "watts-the-limit",
       "new-york",
       false,
       29.532,
@@ -6298,7 +6298,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       2949228237,
       "Times Square Circuit Run",
-      "2949228237",
+      "times-square-circuit-run",
       "new-york",
       true,
       3.5,
@@ -6617,7 +6617,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3051823795,
       "The Greenway",
-      "3051823795",
+      "the-greenway",
       "new-york",
       false,
       36.223,
@@ -6707,7 +6707,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3079921742,
       "Stay Puft Pursuit",
-      "3079921742",
+      "stay-puft-pursuit",
       "new-york",
       false,
       31.181,
@@ -7085,7 +7085,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3314406972,
       "Spinfinity",
-      "3314406972",
+      "spinfinity",
       "new-york",
       false,
       19.28,
@@ -8038,7 +8038,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3678866163,
       "Fuhgeddaboudit",
-      "3678866163",
+      "fuhgeddaboudit",
       "new-york",
       false,
       78.905,
@@ -8475,7 +8475,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       3835625237,
       "Prospect Park Loop Run",
-      "3835625237",
+      "prospect-park-loop-run",
       "new-york",
       false,
       5.428,
@@ -9426,7 +9426,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       4232620535,
       "Toefield Tornado",
-      "4232620535",
+      "toefield-tornado",
       "new-york",
       false,
       10.216,

@@ -3115,13 +3115,97 @@ export const routes = [
     id: 4227232797,
     slug: "scotland-after-party",
     stravaSegmentId: 40233914,
-    segments: [
-      "champions-sprint",
-      "the-clyde-kicker",
-      "sgurr-summit-north",
-    ],
+    segments: ["champions-sprint", "the-clyde-kicker", "sgurr-summit-north"],
     zwiftInsiderUrl: "https://zwiftinsider.com/route/scotland-after-party",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/route/scotland-after-party",
+  },
+  {
+    id: 22757204,
+    slug: "prospect-park-loop",
+  },
+  {
+    id: 79243399,
+    slug: "glasgow-crit-six",
+  },
+  {
+    id: 112312944,
+    slug: "issendorf-express",
+  },
+  {
+    id: 494933300,
+    slug: "avon-flyer-run",
+  },
+  {
+    id: 730052368,
+    slug: "spinfinity-ultra",
+  },
+  {
+    id: 975408707,
+    slug: "avon-flyer",
+  },
+  {
+    id: 1099226581,
+    slug: "double-span-spin",
+  },
+  {
+    id: 1178708985,
+    slug: "green-to-screen",
+  },
+  {
+    id: 1472166107,
+    slug: "toefield-tornado-run",
+  },
+  {
+    id: 1552189318,
+    slug: "the-double-borough",
+  },
+  {
+    id: 1671282746,
+    slug: "empire-elevation",
+  },
+  {
+    id: 1942591558,
+    slug: "times-square-circuit",
+  },
+  {
+    id: 2101060245,
+    slug: "double-parked",
+  },
+  {
+    id: 2251715424,
+    slug: "hot-laps",
+  },
+  {
+    id: 2898229208,
+    slug: "watts-the-limit",
+  },
+  {
+    id: 2949228237,
+    slug: "times-square-circuit-run",
+  },
+  {
+    id: 3051823795,
+    slug: "the-greenway",
+  },
+  {
+    id: 3079921742,
+    slug: "stay-puft-pursuit",
+  },
+  {
+    id: 3314406972,
+    slug: "spinfinity",
+  },
+  {
+    id: 3678866163,
+    slug: "fuhgeddaboudit",
+  },
+  {
+    id: 3835625237,
+    slug: "prospect-park-loop-run",
+  },
+  {
+    id: 4232620535,
+    slug: "toefield-tornado",
   },
 ];
