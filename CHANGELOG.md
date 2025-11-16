@@ -1,3 +1,10 @@
+# [1.47.0](https://github.com/andipaetzold/zwift-data/compare/v1.46.1...v1.47.0) (2025-11-16)
+
+
+### Features
+
+* NYC Expansion ([#186](https://github.com/andipaetzold/zwift-data/issues/186)) ([1408e3f](https://github.com/andipaetzold/zwift-data/commit/1408e3fa467698fe8d438032771155068a65fc92))
+
 ## [1.46.1](https://github.com/andipaetzold/zwift-data/compare/v1.46.0...v1.46.1) (2025-11-15)
 
 
