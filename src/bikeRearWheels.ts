@@ -24,7 +24,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [881139533, "Zipp 858", "Wheel_Zipp858"],
     [886534142, "Enve SES 7.8", "Wheel_Enve78"],
     [961116451, "Zwift Concept", "Wheel_ZwiftConcept"],
-    [1002105871, "Shimano Shimano C36", "Wheel_ShimanoDuraAceC36"],
+    [1002105871, "Shimano DURA-ACE C36", "Wheel_ShimanoDuraAceC36"],
     [1023074440, "Giant SLR 0", "Wheel_AdvancedPropel"],
     [1040669859, "Zwift BMX Bandit", "Wheel_BigSpinBMX2025"],
     [1207119882, "Shimano DURA-ACE C60", "Wheel_ShimanoDuraAceC60"],

@@ -108,6 +108,7 @@ export const runShorts: ReadonlyArray<RunShort> = (
     [2642396308, "Team Zoot 2022", "TeamZootRun2022_thumb"],
     [2810864678, "Sansego", "SansegoTriRun2022_thumb"],
     [2825173794, "ZRL Munich Run Shorts", "ZRLMunich2022_thumb"],
+    [2883480542, "Tour de Zwift 2026 Run Kit", "TourDeZwift2026_thumb"],
     [2896078426, "Neokyo Launch Run Shorts", "NeokyoRun2021_thumb"],
     [2959332087, "Zwift Academy Tri 2019", "ZwiftAcademyTri2020_thumb"],
     [3012491067, "Spaero Triathlon", "SpaeroRun2022_thumb"],
