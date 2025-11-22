@@ -228,6 +228,7 @@ export const runShirts: ReadonlyArray<RunShirt> = (
     [3917042036, "Slowtwitch", "SlowTwitch2020_thumb"],
     [3946960086, "Super League Triathlon Sharks", "SLTSharks2022_thumb"],
     [3958869815, "True Treadmill Shirt", "TrueTreadmill2021_thumb"],
+    [4006070444, "Tour de Zwift 2026 Run Kit", "TourDeZwift2026_thumb"],
     [4007991323, "Tour of Watopia 2023", "TourOfWatopia2023_thumb"],
     [4042707032, "Tour de Zwift 2022 Run Shirt", "TourDeZwiftRun2022_thumb"],
     [4067041817, "Pride On", "PrideOn2020_thumb"],

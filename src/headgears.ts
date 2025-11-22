@@ -55,6 +55,11 @@ export const headgears: ReadonlyArray<Headgear> = (
       "Zwift Games Gold Cap",
       "CyclingCapZwiftGamesGoldCap2024_thumb",
     ],
+    [
+      857462662,
+      "Tour de Zwift 2026 Afterparty Cap",
+      "BackwardsCapTourDeZwift2026_thumb",
+    ],
     [857849616, "Kask Elemento", "KaskElementoHelmet"],
     [864167623, "Watch the Femmes 23 Cap", "CyclingCapTdFFaZ2023_thumb"],
     [935052582, "Zwift Helmet", "zwifthelmet"],
@@ -234,6 +239,11 @@ export const headgears: ReadonlyArray<Headgear> = (
       3657825972,
       "Zwift Academy Tri 2020",
       "CyclingCapZwiftAcademyTri2020_thumb",
+    ],
+    [
+      3682279492,
+      "Tour de Zwift 2026 Party Cap",
+      "RunningCapTourDeZwift2026_thumb",
     ],
     [3707571564, "POC Ventral Air EF", "POCVentralAirEF"],
     [3711236696, "ZA Tri 2022", "ZATri2022"],
