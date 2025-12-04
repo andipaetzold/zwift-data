@@ -2,6 +2,7 @@ import fetch from "node-fetch";
 import { segments } from "../../data/segments.mjs";
 import { routes } from "../../data/routes.mjs";
 import { worlds } from "../../data/worlds.mjs";
+import bikes from "../../data/bikes.json" assert { type: 'json' };
 import { writeData } from "./write-data.mjs";
 import { formatDistance, formatElevation } from "./format.mjs";
 import { findSegmentsOnRoute } from "./find-segments-on-route.mjs";
@@ -126,6 +127,11 @@ export async function updateData() {
       imageName: item.imageName,
     }));
     await writeData(data, "achievements", "Achievement");
+  }
+
+  // Bikes
+  {
+    writeData(bikes, "bikes", "Bike");
   }
 
   // Bike Frames
