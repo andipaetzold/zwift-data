@@ -1,4 +1,3 @@
-import fetch from "node-fetch";
 import { segments } from "../../data/segments.mjs";
 import { routes } from "../../data/routes.mjs";
 import { worlds } from "../../data/worlds.mjs";

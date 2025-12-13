@@ -1,5 +1,4 @@
 import * as turf from "@turf/turf";
-import fetch from "node-fetch";
 import range from "lodash/range.js";
 import isEqual from "lodash/isEqual.js";
 

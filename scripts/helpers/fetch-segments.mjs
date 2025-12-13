@@ -1,5 +1,4 @@
 import { segments } from "../../data/segments.mjs";
-import fetch from "node-fetch";
 
 export async function fetchSegments() {
   return await Promise.all(
