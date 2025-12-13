@@ -1,5 +1,4 @@
 import * as turf from "@turf/turf";
-import fetch from "node-fetch";
 import range from "lodash/range.js";
 import isEqual from "lodash/isEqual.js";
 
@@ -7,8 +6,6 @@ const TOLERANCE = 5;
 const OPTIONS = { units: "meters" };
 
 export async function findSegmentsOnRoute(route, segments) {
-  console.log(`Calculating segments on route ${route.slug}`);
-
   const url = `https://www.strava.com/stream/segments/${route.stravaSegmentId}?streams%5B%5D=latlng&streams%5B%5D=distance`;
   const response = await fetch(url);
   const data = await response.json();

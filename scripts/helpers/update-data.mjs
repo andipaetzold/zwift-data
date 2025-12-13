@@ -1,11 +1,8 @@
-import fetch from "node-fetch";
 import { segments } from "../../data/segments.mjs";
-import { routes } from "../../data/routes.mjs";
-import { worlds } from "../../data/worlds.mjs";
 import { writeData } from "./write-data.mjs";
-import { formatDistance, formatElevation } from "./format.mjs";
-import { findSegmentsOnRoute } from "./find-segments-on-route.mjs";
+import { prepareRoute } from "./prepare-route.mjs";
 import { fetchSegments } from "./fetch-segments.mjs";
+import { SingleBar } from "cli-progress";
 
 export async function updateData() {
   const response = await fetch(
@@ -23,8 +20,7 @@ export async function updateData() {
       },
     ])
   );
-  const segmentsWithLatLng = await fetchSegments();
-
+  
   // Segments
   {
     const data = [];
@@ -32,90 +28,30 @@ export async function updateData() {
       data.push({
         ...segment,
         zwifterBikesUrl: segment.zwifterBikesPath
-          ? `https://zwifterbikes.web.app/route/${segment.zwifterBikesPath}`
-          : undefined,
+        ? `https://zwifterbikes.web.app/route/${segment.zwifterBikesPath}`
+        : undefined,
       });
     }
     await writeData(data, "segments", "Segment");
   }
-
+  
   // Routes
   {
-    const data = [];
-    for (const item of responseExtendedData.ROUTES.ROUTE) {
-      if (
-        item.map === "" ||
-        item.map === "GRAVEL MOUNTAIN" || // skip until release or map bounds are available
-        item.name === "Critcade Test" || // skip test route
-        item.name === "Hilltop Hustle" // not enough data
-      ) {
-        continue;
-      }
+    const segmentsWithLatLng = await fetchSegments();
 
-      const manualRouteData = routes.find((r) => r.id === +item.signature);
+    const bar = new SingleBar({
+      format: "Preparing routes [{bar}] {percentage}% | {value}/{total}",
+    });
+    bar.start(responseExtendedData.ROUTES.ROUTE.length, 0);
 
-      if (!manualRouteData) {
-        console.warn(`Missing manual data for "${item.name}"`);
-      }
+    const data = await Promise.all(responseExtendedData.ROUTES.ROUTE.map(async item => {
+      await prepareRoute(item, segmentsWithLatLng)
+      bar.increment();
+    }))
+    const dataFiltered = data.filter(d => d !== undefined);
+    await writeData(dataFiltered, "routes", "Route");
 
-      const manualWorldData = worlds.find((w) => w.gameDictionary === item.map);
-      if (!manualWorldData) {
-        throw new Error(`Unknown world: "${item.map}"`);
-      }
-
-      let segmentsOnRoute = [];
-      if (manualRouteData?.stravaSegmentId) {
-        segmentsOnRoute = await findSegmentsOnRoute(
-          manualRouteData,
-          segmentsWithLatLng.filter((s) => s.world === manualWorldData.slug)
-        );
-      }
-
-      data.push({
-        id: +item.signature,
-        name: item.name,
-        slug: manualRouteData?.slug ?? item.signature,
-        world: manualWorldData.slug,
-        eventOnly: item.eventOnly === "1",
-        distance: formatDistance(item.distanceInMeters),
-        elevation: formatElevation(item.ascentInMeters),
-        leadInDistance: formatDistance(item.leadinDistanceInMeters),
-        leadInElevation: formatElevation(item.leadinAscentInMeters),
-        leadInDistanceFreeRide: formatDistance(
-          item.freeRideLeadinDistanceInMeters
-        ),
-        leadInElevationFreeRide: formatElevation(
-          item.freeRideLeadinAscentInMeters
-        ),
-        leadInDistanceMeetups: formatDistance(
-          item.meetupLeadinDistanceInMeters
-        ),
-        leadInElevationInMeetups: formatElevation(
-          item.meetupLeadinAscentInMeters
-        ),
-        segments: manualRouteData?.segments ?? [],
-        segmentsOnRoute,
-        levelLocked: item.levelLocked === "1",
-        lap: item.supportedLaps === "1",
-        supportsTT: item.supportsTimeTrialMode === "1",
-        supportsMeetups: item.blockedForMeetups === "0",
-        sports: item.sports === "2" ? ["running"] : ["running", "cycling"],
-        experience:
-          item.xp && +item.xp > 10
-            ? +item.xp
-            : (manualRouteData?.experience ?? undefined),
-        stravaSegmentId: manualRouteData?.stravaSegmentId ?? undefined,
-        stravaSegmentUrl: manualRouteData?.stravaSegmentId
-          ? `https://www.strava.com/segments/${manualRouteData.stravaSegmentId}`
-          : undefined,
-        zwiftInsiderUrl: manualRouteData?.zwiftInsiderUrl ?? undefined,
-        whatsOnZwiftUrl: manualRouteData?.whatsOnZwiftUrl ?? undefined,
-        zwifterBikesUrl: manualRouteData?.zwifterBikesPath
-          ? `https://zwifterbikes.web.app/route/${manualRouteData.zwifterBikesPath}`
-          : undefined,
-      });
-    }
-    await writeData(data, "routes", "Route");
+    bar.stop();
   }
 
   // Achievements
