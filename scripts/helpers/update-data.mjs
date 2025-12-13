@@ -20,7 +20,7 @@ export async function updateData() {
       },
     ])
   );
-  
+
   // Segments
   {
     const data = [];
@@ -28,13 +28,13 @@ export async function updateData() {
       data.push({
         ...segment,
         zwifterBikesUrl: segment.zwifterBikesPath
-        ? `https://zwifterbikes.web.app/route/${segment.zwifterBikesPath}`
-        : undefined,
+          ? `https://zwifterbikes.web.app/route/${segment.zwifterBikesPath}`
+          : undefined,
       });
     }
     await writeData(data, "segments", "Segment");
   }
-  
+
   // Routes
   {
     const segmentsWithLatLng = await fetchSegments();
@@ -45,8 +45,9 @@ export async function updateData() {
     bar.start(responseExtendedData.ROUTES.ROUTE.length, 0);
 
     const data = await Promise.all(responseExtendedData.ROUTES.ROUTE.map(async item => {
-      await prepareRoute(item, segmentsWithLatLng)
+      const itemResult = await prepareRoute(item, segmentsWithLatLng)
       bar.increment();
+      return itemResult;
     }))
     const dataFiltered = data.filter(d => d !== undefined);
     await writeData(dataFiltered, "routes", "Route");
