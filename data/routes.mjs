@@ -3404,4 +3404,38 @@ export const routes = [
       "https://whatsonzwift.com/world/new-york/route/toefield-tornado",
     zwifterBikesPath: "toefield-tornado",
   },
+  {
+    id: 750613981,
+    slug: 'hudson-hustle',
+    zwiftInsiderUrl: 'https://zwiftinsider.com/route/hudson-hustle'
+  },
+  {
+    id: 941280950,
+    slug: 'peaky-pave',
+    zwiftInsiderUrl: 'https://zwiftinsider.com/route/peaky-pave',
+  },
+  {
+    id: 2244765560,
+    slug: 'cobbled-crown',
+    zwiftInsiderUrl: 'https://zwiftinsider.com/route/cobbled-crown'
+  },
+  {
+    id: 2833089100,
+    slug: 'kaze-kicker',
+    zwiftInsiderUrl: 'https://zwiftinsider.com/route/kaze-kicker'
+  },
+  {
+    id: 3486338362,
+    slug: 'the-epiloch',
+    stravaSegmentId: 33636526,
+    segments: ['champions-sprint', 'breakaway-brae-rev'],
+    zwiftInsiderUrl: 'https://zwiftinsider.com/route/the-epiloch'
+  },
+  {
+    id: 3536020075,
+    slug: 'three-step-sisters',
+    stravaSegmentId: 40621964,
+    segments: ['jarvis-sprint-rev', 'jarvis-kom-rev', 'watopia-sprint-rev', 'sasquatch-sprint-rev', 'the-grade-kom'],
+    zwiftInsiderUrl: 'https://zwiftinsider.com/route/three-step-sisters'
+  }
 ];
