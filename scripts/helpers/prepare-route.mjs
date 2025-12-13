@@ -69,7 +69,7 @@ export async function prepareRoute(item, segmentsWithLatLng) {
         stravaSegmentUrl: manualRouteData?.stravaSegmentId
             ? `https://www.strava.com/segments/${manualRouteData.stravaSegmentId}`
             : undefined,
-        zwiftInsiderUrl: manualRouteData?.zwiftInsiderUrl ?? undefined,
+        zwiftInsiderUrl: manualRouteData?.zwiftInsiderPath ? `https://zwiftinsider.com/route/${manualRouteData.zwiftInsiderPath}` : undefined,
         whatsOnZwiftUrl: manualRouteData?.whatsOnZwiftUrl ?? undefined,
         zwifterBikesUrl: manualRouteData?.zwifterBikesPath
             ? `https://zwifterbikes.web.app/route/${manualRouteData.zwifterBikesPath}`
