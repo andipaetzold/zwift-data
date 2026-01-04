@@ -2,16 +2,18 @@ import simpleGit from "simple-git";
 import { updateData } from "./helpers/update-data.mjs";
 import { Octokit } from "@octokit/rest";
 
+const REMOTE = "origin";
+const BRANCH_NAME = "update-data";
+const REMOTE_REF = `${REMOTE}/${BRANCH_NAME}`;
+
 const git = simpleGit();
 await git.addConfig("user.name", "Andi Pätzold [bot]");
 await git.addConfig("user.email", "github+bot@andipaetzold.com");
 
-const BRANCH_NAME = "update-data";
+const remoteBranches = await git.branch(["-r"]);
+const createNewBranch = !remoteBranches.all.includes(REMOTE_REF);
 
-const branchSummary = await git.branchLocal();
-const newBranch = !branchSummary.all.includes(BRANCH_NAME);
-
-if (newBranch) {
+if (createNewBranch) {
   console.log(`Creating new branch '${BRANCH_NAME}'`);
   await git.checkoutLocalBranch(BRANCH_NAME);
 } else {
@@ -38,7 +40,7 @@ console.log("Pushing changes");
 await git.push(["-u", "origin", BRANCH_NAME]);
 console.log("Changes pushed");
 
-if (newBranch) {
+if (createNewBranch) {
   console.log("Creating PR");
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
   const pr = await octokit.pulls.create({
