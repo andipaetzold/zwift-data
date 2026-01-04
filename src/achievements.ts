@@ -332,5 +332,8 @@ export const achievements: ReadonlyArray<Achievement> = (
     [341, "PEAKY PAVE", "RouteComplete"],
     [342, "THREE STEP SISTERS", "RouteComplete"],
     [343, "THE EPILOCH", "RouteComplete"],
+    [344, "NEON SHORE LOOP", "RouteComplete"],
+    [345, "SOUTHERN COAST CRUISE", "RouteComplete"],
+    [346, "JARVIS SEASIDE SPRINT", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

@@ -578,8 +578,7 @@ export const routes = [
     slug: "2018-uci-worlds-course-short-lap",
     segments: ["innsbruck-kom", "innsbruck-sprint", "innsbruck-uci-lap"],
     stravaSegmentId: 18397725,
-    zwiftInsiderPath:
-      "2018-uci-worlds-course-short-lap",
+    zwiftInsiderPath: "2018-uci-worlds-course-short-lap",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/innsbruck/route/2018-uci-worlds-short-lap",
     zwifterBikesPath: "2018-uci-worlds-course-short-lap",
@@ -628,8 +627,7 @@ export const routes = [
     slug: "harrogate-circuit",
     segments: ["yorkshire-kom", "yorkshire-sprint"],
     stravaSegmentId: 21738724,
-    zwiftInsiderPath:
-      "2019-uci-worlds-harrogate-circuit",
+    zwiftInsiderPath: "2019-uci-worlds-harrogate-circuit",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/yorkshire/route/2019-uci-worlds-harrogate-circuit",
   },
@@ -1087,8 +1085,7 @@ export const routes = [
     segments: ["new-york-kom-rev", "new-york-sprint-rev"],
     experience: null,
     stravaSegmentId: 19141192,
-    zwiftInsiderPath:
-      "grand-central-circuit-reverse",
+    zwiftInsiderPath: "grand-central-circuit-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/grand-central-circuit-reverse",
     zwifterBikesPath: "grand-central-circuit-reverse",
@@ -1099,8 +1096,7 @@ export const routes = [
     segments: ["fox-hill"],
     experience: null,
     stravaSegmentId: 15167351,
-    zwiftInsiderPath:
-      "greater-london-loop-reverse",
+    zwiftInsiderPath: "greater-london-loop-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/london/route/greater-london-loop-reverse",
     zwifterBikesPath: "greater-london-loop-reverse",
@@ -1111,8 +1107,7 @@ export const routes = [
     segments: ["keith-hill"],
     experience: null,
     stravaSegmentId: 30327200,
-    zwiftInsiderPath:
-      "greatest-london-loop-reverse",
+    zwiftInsiderPath: "greatest-london-loop-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/london/route/greatest-london-loop-reverse",
     zwifterBikesPath: "greatest-london-loop-reverse",
@@ -1243,8 +1238,7 @@ export const routes = [
     segments: ["box-hill"],
     experience: null,
     stravaSegmentId: 19636460,
-    zwiftInsiderPath:
-      "london-loop-with-box-hill-finish",
+    zwiftInsiderPath: "london-loop-with-box-hill-finish",
     whatsOnZwiftUrl: null,
     zwifterBikesPath: "london-loop-with-box-hill-finish",
   },
@@ -1747,8 +1741,7 @@ export const routes = [
     slug: "2022-cycling-esports-world-championships-route",
     segments: ["new-york-sprint-rev", "new-york-kom"],
     stravaSegmentId: 30601050,
-    zwiftInsiderPath:
-      "2022-cycling-esports-world-championships-route",
+    zwiftInsiderPath: "2022-cycling-esports-world-championships-route",
     zwifterBikesPath: "2022-cycling-esports-world-championships-route",
   },
   {
@@ -1901,8 +1894,7 @@ export const routes = [
     slug: "2023-continental-qualifiers",
     segments: ["innsbruck-sprint-rev", "innsbruck-kom-rev"],
     stravaSegmentId: 33089178,
-    zwiftInsiderPath:
-      "innsbruck-continentals-hill-climb",
+    zwiftInsiderPath: "innsbruck-continentals-hill-climb",
   },
   {
     id: 211138252,
@@ -2706,8 +2698,7 @@ export const routes = [
       "breakaway-brae-rev",
     ],
     stravaSegmentId: 37675052,
-    zwiftInsiderPath:
-      "braek-fast-crits-and-grits",
+    zwiftInsiderPath: "braek-fast-crits-and-grits",
     zwifterBikesPath: "braek-fast-crits-and-grits",
   },
   {
@@ -3406,36 +3397,66 @@ export const routes = [
   },
   {
     id: 750613981,
-    slug: 'hudson-hustle',
-    zwiftInsiderPath: 'hudson-hustle'
+    slug: "hudson-hustle",
+    zwiftInsiderPath: "hudson-hustle",
   },
   {
     id: 941280950,
-    slug: 'peaky-pave',
-    zwiftInsiderPath: 'peaky-pave',
+    slug: "peaky-pave",
+    zwiftInsiderPath: "peaky-pave",
   },
   {
     id: 2244765560,
-    slug: 'cobbled-crown',
-    zwiftInsiderPath: 'cobbled-crown'
+    slug: "cobbled-crown",
+    zwiftInsiderPath: "cobbled-crown",
   },
   {
     id: 2833089100,
-    slug: 'kaze-kicker',
-    zwiftInsiderPath: 'kaze-kicker'
+    slug: "kaze-kicker",
+    zwiftInsiderPath: "kaze-kicker",
   },
   {
     id: 3486338362,
-    slug: 'the-epiloch',
+    slug: "the-epiloch",
     stravaSegmentId: 33636526,
-    segments: ['champions-sprint', 'breakaway-brae-rev'],
-    zwiftInsiderPath: 'the-epiloch'
+    segments: ["champions-sprint", "breakaway-brae-rev"],
+    zwiftInsiderPath: "the-epiloch",
   },
   {
     id: 3536020075,
-    slug: 'three-step-sisters',
+    slug: "three-step-sisters",
     stravaSegmentId: 40621964,
-    segments: ['jarvis-sprint-rev', 'jarvis-kom-rev', 'watopia-sprint-rev', 'sasquatch-sprint-rev', 'the-grade-kom'],
-    zwiftInsiderPath: 'three-step-sisters'
-  }
+    segments: [
+      "jarvis-sprint-rev",
+      "jarvis-kom-rev",
+      "watopia-sprint-rev",
+      "sasquatch-sprint-rev",
+      "the-grade-kom",
+    ],
+    zwiftInsiderPath: "three-step-sisters",
+  },
+  {
+    id: 104170948,
+    slug: "no-sleep-till-brooklyn",
+    stravaSegmentId: 40651003,
+    segments: [
+      "manhattan-sprint-rev",
+      "center-sprint-rev",
+      "manhattan-sprint",
+      "brooklyn-bridge-kom",
+    ],
+    zwiftInsiderPath: "no-sleep-till-brooklyn",
+  },
+  {
+    id: 3600776267,
+    slug: "neon-shore-loop",
+    stravaSegmentId: 40657892,
+    segments: [
+      "alley-sprint",
+      "tower-sprint",
+      "rooftop-kom",
+      "boardwalk-sprint",
+    ],
+    zwiftInsiderPath: "neon-shore-loop",
+  },
 ];
