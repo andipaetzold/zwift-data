@@ -190,6 +190,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3109903878, "S-Works Evade", "SworksEvade"],
     [3137618299, "Zwift Head Band", "Headband_Orange"],
     [3140426290, "Watopia Postal Service Hat", "WatopiaPostalService_thumb"],
+    [3164497707, "Oakley Velo Stelvio™", "OakleyVeloStelvio2026_thumb"],
     [
       3249347051,
       "Zwift Pro Training Camp 2022",
