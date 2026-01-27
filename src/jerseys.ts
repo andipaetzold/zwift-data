@@ -66,7 +66,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [157839058, "Solid Mustard", "SolidColorKitPackMustard_thumb"],
     [158338255, "SZR", "SZR_thumb"],
     [158595409, "Donut", "ZwiftFood03_thumb"],
-    [162720319, "LOC_CYCLING_JERSEY_DODDIEAID2024", "DoddieAid2024_thumb"],
+    [162720319, "Doddie Aid", "DoddieAid2024_thumb"],
     [167026782, "Maratona Dolomiti", "MaratonaDolomiti_thumb"],
     [
       172691656,
