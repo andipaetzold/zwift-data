@@ -77,7 +77,13 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [3207647806, "Zwift BMX Bandit", "Wheel_BigSpinBMX2025"],
     [3251069251, "Enve SES 6.7", "Wheel_Enve67"],
     [3557711998, "Zwift Brompton P Line", "Wheel_BromptonPLine2025"],
+    [3566388347, "Zwift LOC_WHEELS_ZWIFTBIGSPIN2026_NAME", "Wheel_BigSpin2026"],
     [3682262345, "Zwift Pride On Disc", "Wheel_ZwiftPrideOn2025"],
+    [
+      3752892537,
+      "Zwift LOC_BIKE_ZWIFTBIGSPIN2026_NAME",
+      "Wheel_BigSpinMXRider2026",
+    ],
     [3787145210, "Zwift Mountain", "Wheel_ZwiftMountain"],
     [3849702821, "Zwift Zwift Skeletal", ""],
     [4029436085, "Zwift 32mm Carbon", "Wheel_CampagnoloLow"],
