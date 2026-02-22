@@ -146,6 +146,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [2730699339, "Zwift Buffalo Fahrrad-Buffalo Fahrrad"],
     [2745763723, "Brompton BromptonPLine2025-TdF2025"],
     [2814305325, "Scott ScottAddict2021-base"],
+    [2844881078, "Zwift BigSpin2026-Default"],
     [2850354759, "BMC Timemachine01-BMC Timemachine01 Black"],
     [2878178034, "BMC SLR01-SLR01 1"],
     [2893476115, "Specialized Tarmac-Specialized S-Works"],

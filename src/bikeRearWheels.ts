@@ -6,6 +6,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [59917648, "Roval CLX64", "Wheel_SpecializedRovalCLX64"],
     [201030698, "Cannondale R4000 Roller Blade", "Wheel_CannondalePong"],
     [214800767, "Zipp 808", "Wheel_Zipp808Firecrest"],
+    [247713340, "Zwift MX Rider", "Wheel_BigSpinMXRider2026"],
     [345690674, "Zwift Zwift Trike", "Wheel_ZwiftBW"],
     [393022867, "Zipp 808/Super9", "Wheel_ZippDisc"],
     [413360396, "Mavic Cosmic Ultimate UST", "Wheel_MavicCosmicUltUST"],
@@ -30,6 +31,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [1207119882, "Shimano DURA-ACE C60", "Wheel_ShimanoDuraAceC60"],
     [1248620278, "Cadex CADEX AR 35", "Wheel_CadexAR35"],
     [1347687916, "Cadex CADEX 42", "Wheel_Cadex42"],
+    [
+      1380586225,
+      "Princeton Carbon Works Wake 6560 LOC_WHEELS_WAKE6560_NAME",
+      "Wheel_PrincetonCarbonWorksWake6560",
+    ],
     [1437212052, "Zwift Classic", "Wheel_ZwiftClassic"],
     [1547965258, "Zwift Zwift Bat Wheel", ""],
     [1614586487, "Campagnolo Bora Ultra 35", "Wheel_BoraUltra35"],
@@ -84,9 +90,15 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [4097663513, "Pinarello Espada", "Wheel_PinarelloEspadaDisc"],
     [4111310185, "Zwift 8-Bit", ""],
     [4137014419, "Zwift 32mm Carbon", "Wheel_CampagnoloLow"],
+    [4148227571, "Zwift Big Spin Tri-Spoke", "Wheel_BigSpin2026"],
     [4151096267, "FFWD RYOT55", "Wheel_FFWDRYOT55"],
     [4151822963, "Zwift Concept", "Wheel_ZwiftConceptGold"],
     [4182312168, "Novatec Novatec R4", "Wheel_NovatecR4"],
     [4183014640, "Zipp 404", "Wheel_Zipp404Firecrest"],
+    [
+      4293845976,
+      "Princeton Carbon Works Wake 6560 Red LOC_WHEELS_WAKE6560RED_NAME",
+      "Wheel_PrincetonCarbonWorksWake6560Red",
+    ],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));
