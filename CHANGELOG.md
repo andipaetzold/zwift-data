@@ -1,3 +1,10 @@
+## [1.48.4](https://github.com/andipaetzold/zwift-data/compare/v1.48.3...v1.48.4) (2026-02-22)
+
+
+### Bug Fixes
+
+* strava segments of loch-loop and grand-central-circuit-rev ([#204](https://github.com/andipaetzold/zwift-data/issues/204)) ([b3e8bd0](https://github.com/andipaetzold/zwift-data/commit/b3e8bd0f63194e740c67e06e207d14b48b39719d))
+
 ## [1.48.3](https://github.com/andipaetzold/zwift-data/compare/v1.48.2...v1.48.3) (2026-02-22)
 
 
