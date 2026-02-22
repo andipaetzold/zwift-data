@@ -2025,7 +2025,7 @@ export const routes = [
   {
     id: 46799750,
     slug: "rolling-highlands",
-    segments: ["breakaway-brae-rev"],
+    segments: ["breakaway-brae"],
     stravaSegmentId: 33620176,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/route/rolling-highlands",
@@ -2824,7 +2824,7 @@ export const routes = [
     id: 172610229,
     slug: "scotland-smash",
     stravaSegmentId: 38412900,
-    segments: ["champions-sprint", "the-clyde-kicker", "breakaway-brae-rev"],
+    segments: ["champions-sprint", "the-clyde-kicker", "breakaway-brae"],
     zwiftInsiderPath: "scotland-smash",
   },
   {
