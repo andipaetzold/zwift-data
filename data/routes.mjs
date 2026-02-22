@@ -2016,7 +2016,7 @@ export const routes = [
   {
     id: 742057576,
     slug: "loch-loop",
-    segments: ["breakaway-brae-rev"],
+    segments: ["breakaway-brae"],
     stravaSegmentId: 33620222,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/scotland/route/loch-loop",
     zwiftInsiderPath: "loch-loop",
@@ -2598,7 +2598,7 @@ export const routes = [
   {
     id: 1384155764,
     slug: "loch-loop-run",
-    segments: ["loch-loop-rev", "breakaway-brae-rev"],
+    segments: ["breakaway-brae-rev"],
     stravaSegmentId: 37547806,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/route/loch-loop-run",
@@ -3419,7 +3419,7 @@ export const routes = [
     id: 3486338362,
     slug: "the-epiloch",
     stravaSegmentId: 33620222,
-    segments: ["champions-sprint", "breakaway-brae-rev", "loch-loop-rev"],
+    segments: ["champions-sprint", "breakaway-brae-rev"],
     zwiftInsiderPath: "the-epiloch",
   },
   {
