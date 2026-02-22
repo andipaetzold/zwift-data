@@ -119,8 +119,14 @@ export const headgears: ReadonlyArray<Headgear> = (
     ],
     [1720452859, "Tour of Makuri Islands", "Visor_TourOfMakuri2022"],
     [1774524673, "Giro d'Italia", "Giro2019_thumb"],
+    [1794253089, "Big Spin Limeade", "BigSpin2026_thumb"],
     [1805966666, "ZRS Running Cap 2", "RunnerCapZRSKit022021_thumb"],
     [1880866806, "Zwift Helmet Part Deux", "zwifthelmetpartdeux"],
+    [
+      1943858714,
+      "LOC_CYCLING_HEADGEAR_CyclingCapAlpecinPremierTech2026_NAME",
+      "CyclingCapAlpecinPremierTech2026_thumb",
+    ],
     [
       1995868324,
       "Zwift Academy Women",
@@ -134,6 +140,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2122481581, "L'Etape", "LeTape2019_thumb"],
     [2133821406, "Kask Protone Helmet", "ProtonKask2021"],
     [2146340664, "Giro Synthe", "GiroSynthe"],
+    [2406026778, "Dino-Mite Hard Hat", "HardHatBigSpin2026_thumb"],
     [2410144465, "ZA Road 2021 Cap", "CyclingCapZARoad2021_thumb"],
     [2439046900, "S-Works Evade-3", "SWorksEvade3_thumb"],
     [2444075592, "Zwift TT Helmet", "zwifttthelmet"],
@@ -218,11 +225,13 @@ export const headgears: ReadonlyArray<Headgear> = (
       "Tour of Watopia '24 Bikepacker",
       "RunningCapTourOfWatopia2024_thumb",
     ],
+    [3591155112, "Lumberjack Chic", "BeanieBigSpin2026_thumb"],
     [
       3599973897,
       "LOC_RUNNING_HEADGEAR_RUNNINGCAPTOUROFWATOPIA2023_NAME",
       "RunningCapTourOfWatopia2023_thumb",
     ],
+    [3616661453, "Rhinestone Rider", "CowboyHat2026_thumb"],
     [3630601017, "Giant Backwards Cap", "BackwardsCyclingCapGiant2022_thumb"],
     [3633294398, "ZA Tri Team Helmet 2020", "SpecializedZA2021"],
     [
@@ -241,6 +250,7 @@ export const headgears: ReadonlyArray<Headgear> = (
       "Zwift Academy Tri 2020",
       "CyclingCapZwiftAcademyTri2020_thumb",
     ],
+    [3670057430, "Jungle Phones", "HeadphonesBigSpin2026_thumb"],
     [
       3682279492,
       "Tour de Zwift 2026 Party Cap",
@@ -277,6 +287,7 @@ export const headgears: ReadonlyArray<Headgear> = (
       "Zwift Academy 2020 Womens",
       "CyclingCapZwiftAcademyWomen2020_thumb",
     ],
+    [4281263551, "Paisley", "HeadbandBigSpin2026_thumb"],
     [4289252182, "Black & Gold Cap", "BackwardsCapFluoro01_thumb"],
     [4291019094, "ZA Run Team Hat 2021", "RunnerCapZwiftAcademyRun2021_thumb"],
   ] as const
