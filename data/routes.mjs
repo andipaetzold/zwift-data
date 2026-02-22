@@ -1084,7 +1084,7 @@ export const routes = [
     slug: "grand-central-circuit-rev",
     segments: ["new-york-kom-rev", "new-york-sprint-rev"],
     experience: null,
-    stravaSegmentId: 19141192,
+    stravaSegmentId: 19178367,
     zwiftInsiderPath: "grand-central-circuit-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/grand-central-circuit-reverse",
@@ -2017,7 +2017,7 @@ export const routes = [
     id: 742057576,
     slug: "loch-loop",
     segments: ["breakaway-brae-rev"],
-    stravaSegmentId: 33636526,
+    stravaSegmentId: 33620222,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/scotland/route/loch-loop",
     zwiftInsiderPath: "loch-loop",
     zwifterBikesPath: "loch-loop",
@@ -3418,7 +3418,7 @@ export const routes = [
   {
     id: 3486338362,
     slug: "the-epiloch",
-    stravaSegmentId: 33636526,
+    stravaSegmentId: 33620222,
     segments: ["champions-sprint", "breakaway-brae-rev"],
     zwiftInsiderPath: "the-epiloch",
   },
