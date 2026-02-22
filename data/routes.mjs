@@ -3418,7 +3418,7 @@ export const routes = [
   {
     id: 3486338362,
     slug: "the-epiloch",
-    stravaSegmentId: 33620222,
+    stravaSegmentId: 33636526,
     segments: ["champions-sprint", "breakaway-brae-rev"],
     zwiftInsiderPath: "the-epiloch",
   },
