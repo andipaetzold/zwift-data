@@ -7857,7 +7857,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.014,
       0,
-      ["champions-sprint", "breakaway-brae-rev"],
+      ["champions-sprint", "breakaway-brae-rev", "loch-loop-rev"],
       [
         { from: 0, to: 8.007, segment: "loch-loop-rev" },
         { from: 4.455, to: 5.078, segment: "breakaway-brae-rev" },
@@ -8496,7 +8496,7 @@ export const routes: ReadonlyArray<Route> = (
       undefined,
       undefined,
       undefined,
-      ["new-york-kom-rev", "new-york-sprint-rev"],
+      ["new-york-kom", "new-york-sprint-rev"],
       [{ from: 2.826, to: 4.184, segment: "new-york-kom" }],
       true,
       true,

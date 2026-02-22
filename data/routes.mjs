@@ -1082,7 +1082,7 @@ export const routes = [
   {
     id: 3687251774,
     slug: "grand-central-circuit-rev",
-    segments: ["new-york-kom-rev", "new-york-sprint-rev"],
+    segments: ["new-york-kom", "new-york-sprint-rev"],
     experience: null,
     stravaSegmentId: 19178367,
     zwiftInsiderPath: "grand-central-circuit-reverse",
@@ -3419,7 +3419,7 @@ export const routes = [
     id: 3486338362,
     slug: "the-epiloch",
     stravaSegmentId: 33620222,
-    segments: ["champions-sprint", "breakaway-brae-rev"],
+    segments: ["champions-sprint", "breakaway-brae-rev", "loch-loop-rev"],
     zwiftInsiderPath: "the-epiloch",
   },
   {
