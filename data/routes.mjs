@@ -1082,9 +1082,9 @@ export const routes = [
   {
     id: 3687251774,
     slug: "grand-central-circuit-rev",
-    segments: ["new-york-kom-rev", "new-york-sprint-rev"],
+    segments: ["new-york-kom", "new-york-sprint-rev"],
     experience: null,
-    stravaSegmentId: 19141192,
+    stravaSegmentId: 19178367,
     zwiftInsiderPath: "grand-central-circuit-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/grand-central-circuit-reverse",
@@ -2016,8 +2016,8 @@ export const routes = [
   {
     id: 742057576,
     slug: "loch-loop",
-    segments: ["breakaway-brae-rev"],
-    stravaSegmentId: 33636526,
+    segments: ["breakaway-brae"],
+    stravaSegmentId: 33620222,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/scotland/route/loch-loop",
     zwiftInsiderPath: "loch-loop",
     zwifterBikesPath: "loch-loop",
@@ -2025,7 +2025,7 @@ export const routes = [
   {
     id: 46799750,
     slug: "rolling-highlands",
-    segments: ["breakaway-brae-rev"],
+    segments: ["breakaway-brae"],
     stravaSegmentId: 33620176,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/route/rolling-highlands",
@@ -2598,7 +2598,7 @@ export const routes = [
   {
     id: 1384155764,
     slug: "loch-loop-run",
-    segments: ["loch-loop-rev", "breakaway-brae-rev"],
+    segments: ["breakaway-brae-rev"],
     stravaSegmentId: 37547806,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/route/loch-loop-run",
@@ -2824,7 +2824,7 @@ export const routes = [
     id: 172610229,
     slug: "scotland-smash",
     stravaSegmentId: 38412900,
-    segments: ["champions-sprint", "the-clyde-kicker", "breakaway-brae-rev"],
+    segments: ["champions-sprint", "the-clyde-kicker", "breakaway-brae"],
     zwiftInsiderPath: "scotland-smash",
   },
   {

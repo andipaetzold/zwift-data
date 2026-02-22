@@ -1071,6 +1071,8 @@ export const segments = [
     avgIncline: 2,
     type: "sprint",
     world: "scotland",
+    stravaSegmentId: 33620168,
+    stravaSegmentUrl: "https://www.strava.com/segments/33620168",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/breakaway-brae/forward",
     zwifterBikesPath: "breakaway-brae",
@@ -1082,23 +1084,11 @@ export const segments = [
     avgIncline: 2.4,
     type: "sprint",
     world: "scotland",
-    stravaSegmentId: 33620168,
-    stravaSegmentUrl: "https://www.strava.com/segments/33620168",
+    stravaSegmentId: 38170246,
+    stravaSegmentUrl: "https://www.strava.com/segments/38170246",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/scotland/segment/breakaway-brae-reverse/reverse",
     zwifterBikesPath: "breakaway-brae-reverse",
-  },
-  {
-    name: "Loch Loop Rev.",
-    slug: "loch-loop-rev",
-    distance: 8.06,
-    avgIncline: 0.1,
-    type: "segment",
-    world: "scotland",
-    stravaSegmentId: 33620222,
-    stravaSegmentUrl: "https://www.strava.com/segments/33620222",
-    whatsOnZwiftUrl:
-      "https://whatsonzwift.com/world/scotland/segment/loch-loop-reverse/reverse",
   },
   {
     name: "Stoneway Sprint",
