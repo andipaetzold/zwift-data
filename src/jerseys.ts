@@ -1295,11 +1295,7 @@ export const jerseys: ReadonlyArray<Jersey> = (
     [3891872995, "Beastmode", "BeastMode2021_thumb"],
     [3895503603, "Zwifteurs Ghost Team", "ZwifteursGhostTeam2025_thumb"],
     [3895671417, "Qhubeka Assos Pro Team Kit", "QhubekaAssos2021_thumb"],
-    [
-      3896519682,
-      "LOC_CYCLING_JERSEY_ALPECINPREMIERTECH2026",
-      "AlpecinPremierTech2026_thumb",
-    ],
+    [3896519682, "Alpecin–Premier Tech 2026", "AlpecinPremierTech2026_thumb"],
     [
       3897344494,
       "UCI Federation 2023 Ireland",
