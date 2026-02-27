@@ -15,11 +15,7 @@ export const glasses: ReadonlyArray<Glass> = (
     [1241540451, "Top Guns", "Glasses_Generic03"],
     [1541295082, "Zwift Glasses #1", "Glasses_Generic04"],
     [1576804539, "Oakley Sphaera Glasses", "Glasses_OakleySphaera"],
-    [
-      1679681285,
-      "LOC_GLASSES_OAKLEYVELOKATOGLASSES2026_NAME",
-      "Glasses_OakleyVeloKato2026",
-    ],
+    [1679681285, "Oakley Velo Kato", "Glasses_OakleyVeloKato2026"],
     [1725649243, "Roka GP-1x", "Glasses_Roka01"],
     [1773488310, "Tour de Zwift 2024 Sunglasses", "Glasses_TourDeZwift2024"],
     [

@@ -139,6 +139,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [2549915409, "Canyon Aeroad 2015-Alpecin Fenix"],
     [2558246084, "Moots MootsVamoots2021-Moots Vamoots"],
     [2635250513, "Specialized Venge S-Works-Default"],
+    [2641208546, "Pinarello DogmaF2024-Dogma F Starry Red"],
     [2652704500, "Pinarello F8-F8"],
     [2654897726, "Giant GiantTCRAdvancedSL-"],
     [2701915750, "Canyon CanyonAeroadMano2025-CanyonAeroad2025 Mano"],
