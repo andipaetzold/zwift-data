@@ -62,6 +62,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     ],
     [857849616, "Kask Elemento", "KaskElementoHelmet"],
     [864167623, "Watch the Femmes 23 Cap", "CyclingCapTdFFaZ2023_thumb"],
+    [
+      915188220,
+      "LOC_CYCLING_HEADGEAR_CyclingCapTourDe42026_NAME",
+      "CyclingCapTourDe42026_thumb",
+    ],
     [935052582, "Zwift Helmet", "zwifthelmet"],
     [993200485, "Jan Frodeno", "CyclingCapJanFrodeno2019_thumb"],
     [1011377720, "Zwift Academy Tri 2022", "RunningCapZATri2022_thumb"],
@@ -124,7 +129,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1880866806, "Zwift Helmet Part Deux", "zwifthelmetpartdeux"],
     [
       1943858714,
-      "LOC_CYCLING_HEADGEAR_CyclingCapAlpecinPremierTech2026_NAME",
+      "Alpecin–Premier Tech 2026",
       "CyclingCapAlpecinPremierTech2026_thumb",
     ],
     [

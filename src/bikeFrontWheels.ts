@@ -26,7 +26,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     ],
     [
       976859048,
-      "Princeton Carbon Works Wake 6560 LOC_WHEELS_WAKE6560_NAME",
+      "Princeton Wake 6560 White",
       "Wheel_PrincetonCarbonWorksWake6560",
     ],
     [998391700, "Zwift Concept", "Wheel_ZwiftConcept"],
@@ -62,7 +62,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     ],
     [
       2015793973,
-      "Princeton Carbon Works Wake 6560 Red LOC_WHEELS_WAKE6560RED_NAME",
+      "Princeton Wake 6560 Lava",
       "Wheel_PrincetonCarbonWorksWake6560Red",
     ],
     [2055468653, "Giant SLR 0", "Wheel_AdvancedPropel"],

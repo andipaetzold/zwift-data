@@ -33,7 +33,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [1347687916, "Cadex CADEX 42", "Wheel_Cadex42"],
     [
       1380586225,
-      "Princeton Carbon Works Wake 6560 LOC_WHEELS_WAKE6560_NAME",
+      "Princeton Wake 6560 White",
       "Wheel_PrincetonCarbonWorksWake6560",
     ],
     [1437212052, "Zwift Classic", "Wheel_ZwiftClassic"],
@@ -97,7 +97,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [4183014640, "Zipp 404", "Wheel_Zipp404Firecrest"],
     [
       4293845976,
-      "Princeton Carbon Works Wake 6560 Red LOC_WHEELS_WAKE6560RED_NAME",
+      "Princeton Wake 6560 Lava",
       "Wheel_PrincetonCarbonWorksWake6560Red",
     ],
   ] as const
