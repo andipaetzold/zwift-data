@@ -1,3 +1,10 @@
+## [1.48.6](https://github.com/andipaetzold/zwift-data/compare/v1.48.5...v1.48.6) (2026-03-13)
+
+
+### Bug Fixes
+
+* Update data ([#208](https://github.com/andipaetzold/zwift-data/issues/208)) ([126f8f4](https://github.com/andipaetzold/zwift-data/commit/126f8f4fac1c58f30bc08dcb7801ba95dc2f231d))
+
 ## [1.48.5](https://github.com/andipaetzold/zwift-data/compare/v1.48.4...v1.48.5) (2026-02-27)
 
 
