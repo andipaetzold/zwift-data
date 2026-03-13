@@ -20,6 +20,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [702195190, "Bontrager Aeolus5", "Wheel_Bontrager"],
     [789015973, "Zipp 858/Super9", "Wheel_ZippZwift858"],
     [
+      817265411,
+      "Princeton  Mach TSV2/Blur Disc ",
+      "Wheel_PrincetonCarbonWorksMachTSV2Blur",
+    ],
+    [
       897949453,
       "Mavic Comete Pro Carbon SL UST",
       "Wheel_MavicCometeProCarbonSLUST",
@@ -83,6 +88,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [2755992695, "Cadex CADEX AR 35", "Wheel_CadexAR35"],
     [2866818884, "Enve SES 7.8", "Wheel_Enve78"],
     [2907165694, "Zwift 8-Bit", ""],
+    [2927980636, "Princeton Alta 3532", "Wheel_PrincetonCarbonWorksAlta3532"],
     [3114121871, "Enve ENVE SES 4.5 PRO", "Wheel_ENVESES4"],
     [3207647806, "Zwift BMX Bandit", "Wheel_BigSpinBMX2025"],
     [3251069251, "Enve SES 6.7", "Wheel_Enve67"],
