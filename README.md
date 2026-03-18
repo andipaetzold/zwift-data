@@ -54,9 +54,9 @@ import {
   glasses,
   headgears,
   jerseys,
-  notableMomentTypes
-  paintJobs
-  routes
+  notableMomentTypes,
+  paintJobs,
+  routes,
   runShirts,
   runShoes,
   runShorts,
