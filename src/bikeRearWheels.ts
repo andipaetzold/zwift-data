@@ -68,6 +68,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [2906922335, "DTSwiss ARC 1100 DICUT 65", "Wheel_DTSwissARC1100DICUT65"],
     [2913819265, "HED HED Vanquish RC6 Pro", "Wheel_VanquishRC6"],
     [3171611979, "Zwift Zwift Baseline Wheels", "Wheel_ZwiftCampBaseline2024"],
+    [3269590172, "Zipp ZIPP 303 XPLR SW", "Wheel_Zipp303XPLR"],
     [3309968019, "Zwift Buffalo Fahrrad", "Wheel_BuffaloFahrrad"],
     [3454205320, "Roval Terra CLX", "Wheel_RovalTerraCLX"],
     [3473846672, "Zwift Safety", "Wheel_ZwiftSafety"],

@@ -3,6 +3,7 @@ import { BikeFrontWheel } from "./types";
 export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
   [
     [69023253, "Zwift Zwift BW Concept Front Wheel", "Wheel_ZwiftBW"],
+    [162142627, "Zipp ZIPP 303 XPLR SW", "Wheel_Zipp303XPLR"],
     [190867464, "Enve G23", "Wheel_EnveG23"],
     [192959988, "Roval Alpinist CLX", "Wheel_RovalAlpinistCLX"],
     [195571528, "DTSwiss ARC 1100 DICUT 65", "Wheel_DTSwissARC1100DICUT65"],
