@@ -468,5 +468,6 @@ export const achievements: ReadonlyArray<Achievement> = (
     [473, "RED ROCK RUN", "RouteComplete"],
     [474, "RED ROCK LOOP ARCADE", "RouteComplete"],
     [475, "YUMEZI GRIT", "RouteComplete"],
+    [476, "RED ROCK LOOP REVERSE", "RouteComplete"],
   ] as const
 ).map(([id, name, imageName]) => ({ id, name, imageName }));

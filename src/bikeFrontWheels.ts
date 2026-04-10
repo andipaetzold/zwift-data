@@ -95,6 +95,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [3251069251, "Enve SES 6.7", "Wheel_Enve67"],
     [3557711998, "Zwift Brompton P Line", "Wheel_BromptonPLine2025"],
     [3566388347, "Zwift Big Spin Tri-Spoke", "Wheel_BigSpin2026"],
+    [3575343065, "Roval Terra Aero CLX", "Wheel_RovalTerraAeroCLX"],
     [3682262345, "Zwift Pride On Disc", "Wheel_ZwiftPrideOn2025"],
     [3752892537, "Zwift MX Rider", "Wheel_BigSpinMXRider2026"],
     [3787145210, "Zwift Mountain", "Wheel_ZwiftMountain"],
