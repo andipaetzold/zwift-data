@@ -76,6 +76,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1185678513, "Haute Route", "CcHauteRoute2020_thumb"],
     [1208445863, "Team BikeExchange Cap", "CyclingCapBikeExchange2022_thumb"],
     [1225125243, "None", "none"],
+    [1227522566, "LOC_ACCESSORY_TOURFEVER2026", "TourFever2026_thumb"],
     [1247929422, "Zwift Cycling Cap", "CyclingCap_Orange"],
     [1292376041, "Lazer Vento", "LazerBullet"],
     [1295867791, "HEP", "CylcingCapHEP_thumb2022"],
@@ -123,6 +124,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1794253089, "Big Spin Limeade", "BigSpin2026_thumb"],
     [1805966666, "ZRS Running Cap 2", "RunnerCapZRSKit022021_thumb"],
     [1880866806, "Zwift Helmet Part Deux", "zwifthelmetpartdeux"],
+    [1901760068, "Lazer Sphere", "LazerSphere2026"],
     [
       1943858714,
       "Alpecin–Premier Tech 2026",
@@ -189,6 +191,11 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2994345379, "Training 101 Helmet", "OnBoardingHelmet"],
     [3027813077, "Alpine", "LederhoseHat2022_thumb"],
     [3033412906, "Bell Javelin", "BellJavelin"],
+    [
+      3048194832,
+      "LOC_CYCLING_HEADGEAR_BUCKETHATTOURFEVER2026_NAME",
+      "BucketHatTourFever2026_thumb",
+    ],
     [
       3091213638,
       "2025 Paris-Roubaix Femmes avec Zwift",

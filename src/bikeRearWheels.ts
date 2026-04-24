@@ -68,6 +68,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [2783190436, "DTSwiss ARC 1100 DICUT DISC", "Wheel_DTSwissARC1100AeroTT"],
     [2906922335, "DTSwiss ARC 1100 DICUT 65", "Wheel_DTSwissARC1100DICUT65"],
     [2913819265, "HED HED Vanquish RC6 Pro", "Wheel_VanquishRC6"],
+    [
+      2914913734,
+      "DTSwiss LOC_WHEELS_SwissSideHADRONUltimate650_NAME",
+      "Wheel_SwissSideHADRONUltimate650",
+    ],
     [3171611979, "Zwift Zwift Baseline Wheels", "Wheel_ZwiftCampBaseline2024"],
     [3269590172, "Zipp ZIPP 303 XPLR SW", "Wheel_Zipp303XPLR"],
     [3309968019, "Zwift Buffalo Fahrrad", "Wheel_BuffaloFahrrad"],
@@ -79,6 +84,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
       3659884507,
       "Lightweight Lightweight Meilenstein",
       "Wheel_LightweightMeilenstein",
+    ],
+    [
+      3707266432,
+      "DTSwiss HADRON Ultimate 850/Disc \n",
+      "Wheel_SwissSideHADRONUltimate850Disc",
     ],
     [
       3710951039,

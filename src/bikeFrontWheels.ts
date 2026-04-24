@@ -14,6 +14,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [327143135, "Roval Terra CLX", "Wheel_RovalTerraCLX"],
     [346409677, "DTSwiss ARC 1100 DICUT 62", "Wheel_DTSwissARC62"],
     [442607221, "Zipp 202", "Wheel_Zipp202Firecrest"],
+    [
+      498424949,
+      "DTSwiss HADRON Ultimate 850/Disc \n",
+      "Wheel_SwissSideHADRONUltimate850Disc",
+    ],
     [567256284, "DTSwiss ARC 1100 DICUT DISC", "Wheel_DTSwissARC1100AeroTT"],
     [613983807, "Zipp 404", "Wheel_Zipp404Firecrest"],
     [635220876, "Reserve Reserve 25 GR", "Wheel_Reserve25GR"],
@@ -74,6 +79,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [2055468653, "Giant SLR 0", "Wheel_AdvancedPropel"],
     [2060527008, "Zwift 50mm Carbon", "Wheel_CampagnoloHigh"],
     [2181416413, "Roval Rapide CLX", "Wheel_RovalRapide"],
+    [
+      2189164216,
+      "DTSwiss LOC_WHEELS_SwissSideHADRONUltimate650_NAME",
+      "Wheel_SwissSideHADRONUltimate650",
+    ],
     [2223270801, "Enve SES 3.4", "Wheel_Enve35"],
     [
       2282170788,
