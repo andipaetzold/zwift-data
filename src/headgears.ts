@@ -76,7 +76,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1185678513, "Haute Route", "CcHauteRoute2020_thumb"],
     [1208445863, "Team BikeExchange Cap", "CyclingCapBikeExchange2022_thumb"],
     [1225125243, "None", "none"],
-    [1227522566, "LOC_ACCESSORY_TOURFEVER2026", "TourFever2026_thumb"],
+    [1227522566, "Tour Fever", "TourFever2026_thumb"],
     [1247929422, "Zwift Cycling Cap", "CyclingCap_Orange"],
     [1292376041, "Lazer Vento", "LazerBullet"],
     [1295867791, "HEP", "CylcingCapHEP_thumb2022"],
@@ -193,7 +193,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3033412906, "Bell Javelin", "BellJavelin"],
     [
       3048194832,
-      "LOC_CYCLING_HEADGEAR_BUCKETHATTOURFEVER2026_NAME",
+      "Ultimate Challenge Bucket Hat",
       "BucketHatTourFever2026_thumb",
     ],
     [
@@ -270,6 +270,11 @@ export const headgears: ReadonlyArray<Headgear> = (
       3718341152,
       "Tour de Zwift 2021 Run Cap",
       "RunnerCapTourDeZwift2021_thumb",
+    ],
+    [
+      3729485067,
+      "LOC_CYCLING_HEADGEAR_INDOOROUTDOORCHALLENGE2026_NAME",
+      "CyclingCapIndoorOutdoorChallenge2026_thumb",
     ],
     [3740815468, "ZRS June", "RcZRSCieleJune2020_thumb"],
     [3744415423, "Bike Packer", "RunningCapBikePacker_thumb"],

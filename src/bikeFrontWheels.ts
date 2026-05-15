@@ -14,11 +14,6 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [327143135, "Roval Terra CLX", "Wheel_RovalTerraCLX"],
     [346409677, "DTSwiss ARC 1100 DICUT 62", "Wheel_DTSwissARC62"],
     [442607221, "Zipp 202", "Wheel_Zipp202Firecrest"],
-    [
-      498424949,
-      "DTSwiss HADRON Ultimate 850/Disc \n",
-      "Wheel_SwissSideHADRONUltimate850Disc",
-    ],
     [567256284, "DTSwiss ARC 1100 DICUT DISC", "Wheel_DTSwissARC1100AeroTT"],
     [613983807, "Zipp 404", "Wheel_Zipp404Firecrest"],
     [635220876, "Reserve Reserve 25 GR", "Wheel_Reserve25GR"],
@@ -79,11 +74,6 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [2055468653, "Giant SLR 0", "Wheel_AdvancedPropel"],
     [2060527008, "Zwift 50mm Carbon", "Wheel_CampagnoloHigh"],
     [2181416413, "Roval Rapide CLX", "Wheel_RovalRapide"],
-    [
-      2189164216,
-      "DTSwiss LOC_WHEELS_SwissSideHADRONUltimate650_NAME",
-      "Wheel_SwissSideHADRONUltimate650",
-    ],
     [2223270801, "Enve SES 3.4", "Wheel_Enve35"],
     [
       2282170788,
@@ -101,6 +91,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [2907165694, "Zwift 8-Bit", ""],
     [2927980636, "Princeton Alta 3532", "Wheel_PrincetonCarbonWorksAlta3532"],
     [3114121871, "Enve ENVE SES 4.5 PRO", "Wheel_ENVESES4"],
+    [
+      3197301744,
+      "SwissSide HADRON Ultimate 650",
+      "Wheel_SwissSideHADRONUltimate650",
+    ],
     [3207647806, "Zwift BMX Bandit", "Wheel_BigSpinBMX2025"],
     [3251069251, "Enve SES 6.7", "Wheel_Enve67"],
     [3557711998, "Zwift Brompton P Line", "Wheel_BromptonPLine2025"],
@@ -110,6 +105,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [3752892537, "Zwift MX Rider", "Wheel_BigSpinMXRider2026"],
     [3787145210, "Zwift Mountain", "Wheel_ZwiftMountain"],
     [3849702821, "Zwift Zwift Skeletal", ""],
+    [
+      3944647638,
+      "SwissSide HADRON Ultimate Disc",
+      "Wheel_SwissSideHADRONUltimate850Disc",
+    ],
     [4029436085, "Zwift 32mm Carbon", "Wheel_CampagnoloLow"],
     [4169703170, "Zipp 858", "Wheel_Zipp858"],
     [4185901178, "Mavic Cosmic Ultimate UST", "Wheel_MavicCosmicUltUST"],
