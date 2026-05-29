@@ -7,6 +7,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [190867464, "Enve G23", "Wheel_EnveG23"],
     [192959988, "Roval Alpinist CLX", "Wheel_RovalAlpinistCLX"],
     [195571528, "DTSwiss ARC 1100 DICUT 65", "Wheel_DTSwissARC1100DICUT65"],
+    [214744904, "Zwift Recumbent Trike", "Wheel_RecumbentlFront"],
     [272842014, "Shimano DURA-ACE C60", "Wheel_ShimanoDuraAceC60"],
     [288225210, "Mavic Cosmic CXR60c", "Wheel_MavicCosmicCXR60c"],
     [291681757, "Zwift Zwift Baseline Wheels", "Wheel_ZwiftCampBaseline2024"],

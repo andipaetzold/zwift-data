@@ -201,6 +201,7 @@ export const paintJobs: ReadonlyArray<PaintJob> = (
     [3792193601, "Parlee ESX-Parlee ESX"],
     [3798128356, "Canyon Aeroad 2015-Canyon Aeroad"],
     [3850644062, "Canyon Aeroad 2021-Aeroad Alpecin Fenix 2021"],
+    [3866245386, "Zwift ZwiftRecumbent-Default"],
     [3873708758, "Scott Foil-Orica"],
     [3873895882, "Specialized Shiv Disc-ZA Tri Team"],
     [3876463492, "Cube CubeLitening2021-Team"],

@@ -37,6 +37,7 @@ export const bikeFrames: ReadonlyArray<BikeFrame> = (
     [940439989, "Specialized Epic S-Works", 2020, false],
     [973848540, "Specialized Venge 2015", 2015, false],
     [988819017, "Ridley Helium", 2018, false],
+    [990301571, "Zwift Recumbent Trike", undefined, false],
     [1000176255, "Parlee ESX", 2015, false],
     [1025859452, "Cervelo Aspero 5", 2026, false],
     [1029279076, "Zwift Steel", 2015, false],

@@ -191,11 +191,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2994345379, "Training 101 Helmet", "OnBoardingHelmet"],
     [3027813077, "Alpine", "LederhoseHat2022_thumb"],
     [3033412906, "Bell Javelin", "BellJavelin"],
-    [
-      3048194832,
-      "Ultimate Challenge Bucket Hat",
-      "BucketHatTourFever2026_thumb",
-    ],
+    [3048194832, "Tour Fever Bucket Hat", "BucketHatTourFever2026_thumb"],
     [
       3091213638,
       "2025 Paris-Roubaix Femmes avec Zwift",
@@ -273,7 +269,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     ],
     [
       3729485067,
-      "LOC_CYCLING_HEADGEAR_INDOOROUTDOORCHALLENGE2026_NAME",
+      "Indoor Outdoor Challenge",
       "CyclingCapIndoorOutdoorChallenge2026_thumb",
     ],
     [3740815468, "ZRS June", "RcZRSCieleJune2020_thumb"],
