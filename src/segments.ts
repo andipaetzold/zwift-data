@@ -193,7 +193,7 @@ export const segments: ReadonlyArray<Segment> = (
       undefined,
       undefined,
       undefined,
-      undefined,
+      4.2,
       undefined,
       undefined,
     ],

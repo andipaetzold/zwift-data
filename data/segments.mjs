@@ -130,6 +130,7 @@ export const segments = [
     type: "climb",
     world: "paris",
     distance: 1.2,
+    avgIncline: 4.2,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/montmartre-kom/forward",
   },
