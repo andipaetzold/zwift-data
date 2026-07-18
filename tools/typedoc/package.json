@@ -1,0 +1,12 @@
+{
+  "name": "@zwift-data/docs-tool",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "typedoc": "0.28.20",
+    "typescript": "6.0.3"
+  },
+  "scripts": {
+    "build": "typedoc ../../src/index.ts --out ../../docs --tsconfig ../../tsconfig.json"
+  }
+}

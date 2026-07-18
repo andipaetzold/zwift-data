@@ -21,20 +21,20 @@ describe.each(routes)("$name", (route) => {
   it("Urls", () => {
     if (route.stravaSegmentId && route.stravaSegmentUrl) {
       expect(
-        route.stravaSegmentUrl.startsWith("https://www.strava.com/segments/")
+        route.stravaSegmentUrl.startsWith("https://www.strava.com/segments/"),
       ).toBeTruthy();
     }
 
     if (route.zwiftInsiderUrl) {
       // (former) Rebel routes don't include /route/
       expect(
-        route.zwiftInsiderUrl.startsWith("https://zwiftinsider.com/")
+        route.zwiftInsiderUrl.startsWith("https://zwiftinsider.com/"),
       ).toBeTruthy();
     }
 
     if (route.whatsOnZwiftUrl) {
       expect(
-        route.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com")
+        route.whatsOnZwiftUrl.startsWith("https://whatsonzwift.com"),
       ).toBeTruthy();
     }
   });
@@ -77,11 +77,9 @@ describe.each(routes)("$name", (route) => {
     });
   });
 
-  describe("Calculated segment", () => {
-    route.segmentsOnRoute.map((sor) =>
-      it(`${sor.segment} should be included in manual list`, () => {
-        expect(route.segments).toContain(sor.segment);
-      })
-    );
+  route.segmentsOnRoute.forEach((sor) => {
+    it(`Calculated segment ${sor.segment} should be included in manual list`, () => {
+      expect(route.segments).toContain(sor.segment);
+    });
   });
 });
