@@ -45,7 +45,7 @@
     "simple-git": "3.36.0",
     "ts-jest": "29.4.11",
     "typedoc": "0.28.20",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
