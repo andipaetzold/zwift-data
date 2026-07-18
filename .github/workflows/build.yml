@@ -1,17 +1,19 @@
-name: Build & Release
+name: Build & Test
 
 on:
   - push
 
+permissions:
+  contents: read
+
 jobs:
-  build-test-release:
-    name: Build, Test, Release
+  build-test:
+    name: Build & Test
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
         with:
           persist-credentials: false
-          fetch-depth: 0
 
       - name: Get node version
         id: node-version
@@ -26,7 +28,3 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test -- --ci --runInBand --coverage
-      - run: npm run semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
