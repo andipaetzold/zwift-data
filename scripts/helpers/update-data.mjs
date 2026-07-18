@@ -4,6 +4,8 @@ import { prepareRoute } from "./prepare-route.mjs";
 import { fetchSegments } from "./fetch-segments.mjs";
 import { SingleBar } from "cli-progress";
 
+const FETCH_STRAVA_SEGMENTS = process.env.FETCH_STRAVA_SEGMENTS === "true";
+
 export async function updateData() {
   const response = await fetch(
     "https://www.zwift.com/zwift-web-pages/gamedictionary"
@@ -36,7 +38,7 @@ export async function updateData() {
   }
 
   // Routes
-  {
+  if (FETCH_STRAVA_SEGMENTS) {
     const segmentsWithLatLng = await fetchSegments();
 
     const bar = new SingleBar({
@@ -53,6 +55,10 @@ export async function updateData() {
     await writeData(dataFiltered, "routes", "Route");
 
     bar.stop();
+  } else {
+    console.log(
+      "Skipping route updates because Strava segment fetching is disabled"
+    );
   }
 
   // Achievements

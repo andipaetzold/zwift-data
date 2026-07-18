@@ -212,6 +212,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3291118897, "ZRS Ciele", "RcZRSCiele2020_thumb"],
     [3306100355, "Zwift Camp: Build", "HeadphonesZwiftCampBuild2025_thumb"],
     [3324753264, "Rapha Rising 2022", "CyclingCapRaphaRising2022_thumb"],
+    [3335823310, "SYN APEX World Tour", "BackwardsCapSynClubCircuit2026_thumb"],
     [3339150633, "2025 Zwift Unlocked", "BeanieZwiftUnlocked2025_thumb"],
     [3346861673, "Giro Eclipse Canyon SRAM", "GiroEclipseCanyonSRAM2021"],
     [3351716541, "Retro 80's", "80sHelmet"],
