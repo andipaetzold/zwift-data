@@ -76,6 +76,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1185678513, "Haute Route", "CcHauteRoute2020_thumb"],
     [1208445863, "Team BikeExchange Cap", "CyclingCapBikeExchange2022_thumb"],
     [1225125243, "None", "none"],
+    [1227522566, "Tour Fever", "TourFever2026_thumb"],
     [1247929422, "Zwift Cycling Cap", "CyclingCap_Orange"],
     [1292376041, "Lazer Vento", "LazerBullet"],
     [1295867791, "HEP", "CylcingCapHEP_thumb2022"],
@@ -123,6 +124,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [1794253089, "Big Spin Limeade", "BigSpin2026_thumb"],
     [1805966666, "ZRS Running Cap 2", "RunnerCapZRSKit022021_thumb"],
     [1880866806, "Zwift Helmet Part Deux", "zwifthelmetpartdeux"],
+    [1901760068, "Lazer Sphere", "LazerSphere2026"],
     [
       1943858714,
       "Alpecin–Premier Tech 2026",
@@ -189,6 +191,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2994345379, "Training 101 Helmet", "OnBoardingHelmet"],
     [3027813077, "Alpine", "LederhoseHat2022_thumb"],
     [3033412906, "Bell Javelin", "BellJavelin"],
+    [3048194832, "Tour Fever Bucket Hat", "BucketHatTourFever2026_thumb"],
     [
       3091213638,
       "2025 Paris-Roubaix Femmes avec Zwift",
@@ -209,6 +212,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [3291118897, "ZRS Ciele", "RcZRSCiele2020_thumb"],
     [3306100355, "Zwift Camp: Build", "HeadphonesZwiftCampBuild2025_thumb"],
     [3324753264, "Rapha Rising 2022", "CyclingCapRaphaRising2022_thumb"],
+    [3335823310, "SYN APEX World Tour", "BackwardsCapSynClubCircuit2026_thumb"],
     [3339150633, "2025 Zwift Unlocked", "BeanieZwiftUnlocked2025_thumb"],
     [3346861673, "Giro Eclipse Canyon SRAM", "GiroEclipseCanyonSRAM2021"],
     [3351716541, "Retro 80's", "80sHelmet"],
@@ -263,6 +267,11 @@ export const headgears: ReadonlyArray<Headgear> = (
       3718341152,
       "Tour de Zwift 2021 Run Cap",
       "RunnerCapTourDeZwift2021_thumb",
+    ],
+    [
+      3729485067,
+      "Indoor Outdoor Challenge",
+      "CyclingCapIndoorOutdoorChallenge2026_thumb",
     ],
     [3740815468, "ZRS June", "RcZRSCieleJune2020_thumb"],
     [3744415423, "Bike Packer", "RunningCapBikePacker_thumb"],
