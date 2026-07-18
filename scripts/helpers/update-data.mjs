@@ -2,7 +2,10 @@ import { segments } from "../../data/segments.mjs";
 import { writeData } from "./write-data.mjs";
 import { prepareRoute } from "./prepare-route.mjs";
 import { fetchSegments } from "./fetch-segments.mjs";
+import { loadCurrentRoutes } from "./load-current-routes.mjs";
 import { SingleBar } from "cli-progress";
+
+const FETCH_STRAVA_SEGMENTS = process.env.FETCH_STRAVA_SEGMENTS === "true";
 
 export async function updateData() {
   const response = await fetch(
@@ -37,7 +40,19 @@ export async function updateData() {
 
   // Routes
   {
-    const segmentsWithLatLng = await fetchSegments();
+    const currentRoutes = await loadCurrentRoutes();
+    const currentRoutesById = new Map(
+      currentRoutes.map((route) => [route.id, route])
+    );
+    const segmentsWithLatLng = FETCH_STRAVA_SEGMENTS
+      ? await fetchSegments()
+      : undefined;
+
+    if (!FETCH_STRAVA_SEGMENTS) {
+      console.log(
+        "Skipping Strava segment fetching and preserving existing route segments"
+      );
+    }
 
     const bar = new SingleBar({
       format: "Preparing routes [{bar}] {percentage}% | {value}/{total}",
@@ -45,7 +60,13 @@ export async function updateData() {
     bar.start(responseExtendedData.ROUTES.ROUTE.length, 0);
 
     const data = await Promise.all(responseExtendedData.ROUTES.ROUTE.map(async item => {
-      const itemResult = await prepareRoute(item, segmentsWithLatLng)
+      const currentSegmentsOnRoute =
+        currentRoutesById.get(+item.signature)?.segmentsOnRoute ?? [];
+      const itemResult = await prepareRoute(
+        item,
+        segmentsWithLatLng,
+        currentSegmentsOnRoute
+      )
       bar.increment();
       return itemResult;
     }))

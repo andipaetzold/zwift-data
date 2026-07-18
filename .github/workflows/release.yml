@@ -1,0 +1,40 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+      - next
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Get node version
+        id: node-version
+        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
+      - name: Use node ${{ matrix.node }}
+        uses: actions/setup-node@v7.0.0
+        with:
+          node-version: ${{ steps.node-version.outputs.NODE_VERSION }}
+      - name: Node version
+        run: node --version
+
+      - run: npm ci
+      - run: npm run build
+      - run: npm test -- --ci --runInBand --coverage
+      - run: npm run semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
