@@ -389,6 +389,7 @@ export const routes = [
   {
     id: 3853654821,
     slug: "greatest-london-loop",
+    zwifterBikesPath: "greatest-london-loop",
     segments: ["leith-hill"],
     stravaSegmentId: 16781177,
     zwiftInsiderPath: "greatest-london-loop",
@@ -444,6 +445,7 @@ export const routes = [
   {
     id: 764532081,
     slug: "the-prl-half",
+    zwifterBikesPath: "the-prl-half",
     segments: ["box-hill", "london-sprint-rev", "london-loop"],
     stravaSegmentId: 12759713,
     zwiftInsiderPath: "the-prl-half",
@@ -625,6 +627,7 @@ export const routes = [
   {
     id: 2007026433,
     slug: "harrogate-circuit",
+    zwifterBikesPath: "2019-uci-worlds-harrogate-circuit",
     segments: ["yorkshire-kom", "yorkshire-sprint"],
     stravaSegmentId: 21738724,
     zwiftInsiderPath: "2019-uci-worlds-harrogate-circuit",
@@ -1892,6 +1895,7 @@ export const routes = [
   {
     id: 3101693166,
     slug: "2023-continental-qualifiers",
+    zwifterBikesPath: "innsbruck-continentals-hill-climb",
     segments: ["innsbruck-sprint-rev", "innsbruck-kom-rev"],
     stravaSegmentId: 33089178,
     zwiftInsiderPath: "innsbruck-continentals-hill-climb",
@@ -2070,6 +2074,7 @@ export const routes = [
   {
     id: 762747962,
     slug: "repack-rush",
+    zwifterBikesPath: "repack-rush",
     segments: [],
     stravaSegmentId: 34612602,
     whatsOnZwiftUrl: "https://whatsonzwift.com/world/watopia/route/repack-rush",
@@ -2798,6 +2803,7 @@ export const routes = [
   {
     id: 3030004732,
     slug: "power-to-the-portal",
+    zwifterBikesPath: "power-to-the-portal",
     segments: ["jarvis-sprint-rev", "jarvis-kom-rev"],
     zwiftInsiderPath: "power-to-the-portal",
   },
@@ -2823,6 +2829,7 @@ export const routes = [
   {
     id: 172610229,
     slug: "scotland-smash",
+    zwifterBikesPath: "scotland-smash",
     stravaSegmentId: 38412900,
     segments: ["champions-sprint", "the-clyde-kicker", "breakaway-brae"],
     zwiftInsiderPath: "scotland-smash",
@@ -2830,6 +2837,7 @@ export const routes = [
   {
     id: 186601870,
     slug: "makuri-madness",
+    zwifterBikesPath: "makuri-madness",
     zwiftInsiderPath: "makuri-madness",
     stravaSegmentId: 38413164,
     segments: [
@@ -2842,10 +2850,12 @@ export const routes = [
   {
     id: 938096831,
     slug: "zg25-climb-champs",
+    zwifterBikesPath: "zg25-climb-champs",
   },
   {
     id: 1675611962,
     slug: "downtown-eruoption",
+    zwifterBikesPath: "downtown-eruption",
     zwiftInsiderPath: "downtown-eruption",
     segments: ["volcano-kom", "zwift-kom"],
     stravaSegmentId: 38413304,
@@ -2853,6 +2863,7 @@ export const routes = [
   {
     id: 1724903700,
     slug: "zg25-queen",
+    zwifterBikesPath: "zg25-queen",
     zwiftInsiderPath: "zg25-queen",
     stravaSegmentId: 38412699,
     segments: [
@@ -2865,6 +2876,7 @@ export const routes = [
   {
     id: 3250904331,
     slug: "london-uprising",
+    zwifterBikesPath: "london-uprising",
     zwiftInsiderPath: "london-uprising",
     stravaSegmentId: 38413079,
     segments: ["fox-hill", "london-sprint-rev", "box-hill"],
@@ -2889,6 +2901,7 @@ export const routes = [
   {
     id: 1367364772,
     slug: "neon-after-party",
+    zwifterBikesPath: "neon-after-party",
     stravaSegmentId: 38754616,
     segments: [
       "alley-sprint",
@@ -3002,10 +3015,12 @@ export const routes = [
   {
     id: 1201172818,
     slug: "power-punches",
+    zwifterBikesPath: "power-punches",
   },
   {
     id: 1258526800,
     slug: "flat-out-fast",
+    zwifterBikesPath: "flat-out-fast",
   },
   {
     id: 1409345545,
@@ -3157,6 +3172,7 @@ export const routes = [
   {
     id: 79243399,
     slug: "glasgow-crit-six",
+    zwifterBikesPath: "glasgow-crit-six",
     stravaSegmentId: 40454428,
     segments: ["champions-sprint", "the-clyde-kicker"],
     zwiftInsiderPath: "glasgow-crit-six",
@@ -3253,6 +3269,7 @@ export const routes = [
   {
     id: 1671282746,
     slug: "empire-elevation",
+    zwifterBikesPath: "empire-elevation",
     stravaSegmentId: 40493992,
     segments: [
       "center-sprint",
@@ -3268,6 +3285,7 @@ export const routes = [
   {
     id: 1942591558,
     slug: "times-square-circuit",
+    zwifterBikesPath: "times-square-circuit",
     stravaSegmentId: 40342792,
     segments: [],
     zwiftInsiderPath: "times-square-circuit",
@@ -3293,6 +3311,7 @@ export const routes = [
   {
     id: 2251715424,
     slug: "hot-laps",
+    zwifterBikesPath: "hot-laps",
     stravaSegmentId: 40469531,
     segments: ["jarvis-kom", "volcano-circuit"],
     zwiftInsiderPath: "hot-laps",
@@ -3398,26 +3417,31 @@ export const routes = [
   {
     id: 750613981,
     slug: "hudson-hustle",
+    zwifterBikesPath: "hudson-hustle",
     zwiftInsiderPath: "hudson-hustle",
   },
   {
     id: 941280950,
     slug: "peaky-pave",
+    zwifterBikesPath: "peaky-pave",
     zwiftInsiderPath: "peaky-pave",
   },
   {
     id: 2244765560,
     slug: "cobbled-crown",
+    zwifterBikesPath: "cobbled-crown",
     zwiftInsiderPath: "cobbled-crown",
   },
   {
     id: 2833089100,
     slug: "kaze-kicker",
+    zwifterBikesPath: "kaze-kicker",
     zwiftInsiderPath: "kaze-kicker",
   },
   {
     id: 3486338362,
     slug: "the-epiloch",
+    zwifterBikesPath: "the-epiloch",
     stravaSegmentId: 33636526,
     segments: ["champions-sprint", "breakaway-brae-rev"],
     zwiftInsiderPath: "the-epiloch",
@@ -3425,6 +3449,7 @@ export const routes = [
   {
     id: 3536020075,
     slug: "three-step-sisters",
+    zwifterBikesPath: "three-step-sisters",
     stravaSegmentId: 40621964,
     segments: [
       "jarvis-sprint-rev",
@@ -3438,6 +3463,7 @@ export const routes = [
   {
     id: 104170948,
     slug: "no-sleep-till-brooklyn",
+    zwifterBikesPath: "no-sleep-till-brooklyn",
     stravaSegmentId: 40651003,
     segments: [
       "manhattan-sprint-rev",
@@ -3450,6 +3476,7 @@ export const routes = [
   {
     id: 3600776267,
     slug: "neon-shore-loop",
+    zwifterBikesPath: "neon-shore-loop",
     stravaSegmentId: 40657892,
     segments: [
       "alley-sprint",
@@ -3458,5 +3485,15 @@ export const routes = [
       "boardwalk-sprint",
     ],
     zwiftInsiderPath: "neon-shore-loop",
+  },
+  {
+    id: 2521625692,
+    slug: "yumezi-grit",
+    zwifterBikesPath: "yumezi-grit",
+    segments: ["village-sprint-rev"],
+    stravaSegmentId: 41092576,
+    zwiftInsiderPath: "yumezi-grit",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/yumezi-grit",
   },
 ];
