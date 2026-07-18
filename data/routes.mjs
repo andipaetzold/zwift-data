@@ -3496,4 +3496,141 @@ export const routes = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/yumezi-grit",
   },
+  {
+    id: 565111133,
+    slug: "heart-of-montmartre",
+    zwifterBikesPath: "heart-of-montmartre",
+    segments: [
+      "lutece-sprint",
+      "monceau-sprint",
+      "montmartre-kom",
+      "tchou-tchou-sprint",
+    ],
+    stravaSegmentId: 41624979,
+    zwiftInsiderPath: "heart-of-montmartre",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/heart-of-montmartre",
+  },
+  {
+    id: 870135081,
+    slug: "la-boucle",
+    zwifterBikesPath: "la-boucle",
+    segments: [
+      "lutece-sprint",
+      "monceau-sprint",
+      "montmartre-kom",
+      "tchou-tchou-sprint",
+    ],
+    stravaSegmentId: 41606182,
+    zwiftInsiderPath: "la-boucle",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/la-boucle",
+  },
+  {
+    id: 1247427185,
+    slug: "montmartre-mixer",
+    zwifterBikesPath: "montmartre-mixer",
+    segments: [
+      "lutece-sprint",
+      "monceau-sprint",
+      "eglise-sprint",
+      "montmartre-kom",
+      "tchou-tchou-sprint",
+    ],
+    stravaSegmentId: 41606447,
+    zwiftInsiderPath: "montmartre-mixer",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/montmartre-mixer",
+  },
+  {
+    id: 1365497350,
+    slug: "double-espresso",
+    zwifterBikesPath: "double-espresso",
+    segments: [
+      "lutece-sprint",
+      "eglise-sprint",
+      "montmartre-kom",
+      "tchou-tchou-sprint",
+      "monceau-sprint",
+    ],
+    stravaSegmentId: 41623178,
+    zwiftInsiderPath: "double-espresso",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/double-espresso",
+  },
+  {
+    id: 2128895616,
+    slug: "paris-pacer",
+    zwifterBikesPath: "paris-pacer",
+    segments: [
+      "monceau-sprint",
+      "tchou-tchou-sprint",
+      "eglise-sprint",
+    ],
+    stravaSegmentId: 41741773,
+    zwiftInsiderPath: "paris-pacer",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/paris-pacer",
+  },
+  {
+    id: 2316916973,
+    slug: "rues-in-rythme",
+    zwifterBikesPath: "rues-in-rythme",
+    segments: ["eglise-sprint", "lutece-sprint-rev"],
+    stravaSegmentId: 41741825,
+    zwiftInsiderPath: "rues-in-rythme",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/rues-in-rythme",
+  },
+  {
+    id: 2805636083,
+    slug: "paris-toujours",
+    zwifterBikesPath: "paris-toujours",
+    segments: [
+      "lutece-sprint",
+      "champs-elysees",
+      "eglise-sprint",
+      "montmartre-kom",
+      "tchou-tchou-sprint",
+    ],
+    stravaSegmentId: 41685039,
+    zwiftInsiderPath: "paris-toujours",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/paris-toujours",
+  },
+  {
+    id: 3141079998,
+    slug: "crepe-escape",
+    zwifterBikesPath: "crepe-escape",
+    segments: [
+      "lutece-sprint",
+      "eglise-sprint",
+      "montmartre-kom",
+      "tchou-tchou-sprint",
+    ],
+    stravaSegmentId: 41606209,
+    zwiftInsiderPath: "crepe-escape",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/crepe-escape",
+  },
+  {
+    id: 3381223955,
+    slug: "loop-de-loop-de-loop",
+    zwifterBikesPath: "loop-de-loop-de-loop",
+    segments: ["lutece-sprint", "monceau-sprint"],
+    stravaSegmentId: 41622853,
+    zwiftInsiderPath: "loop-de-loop-de-loop",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/loop-de-loop-de-loop",
+  },
+  {
+    id: 4234984253,
+    slug: "cirque-du-suffer",
+    zwifterBikesPath: "cirque-du-suffer",
+    segments: ["lutece-sprint-rev"],
+    stravaSegmentId: 41606378,
+    zwiftInsiderPath: "cirque-du-suffer",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/route/cirque-du-suffer",
+  },
 ];

@@ -107,6 +107,42 @@ export const segments = [
     zwifterBikesPath: "lutece-sprint-reverse",
   },
   {
+    name: "Église Sprint",
+    slug: "eglise-sprint",
+    type: "sprint",
+    world: "paris",
+    distance: 0.25,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/segment/eglise-sprint/forward",
+  },
+  {
+    name: "Monceau Sprint",
+    slug: "monceau-sprint",
+    type: "sprint",
+    world: "paris",
+    distance: 0.3,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/segment/monceau-sprint/forward",
+  },
+  {
+    name: "Montmartre KOM",
+    slug: "montmartre-kom",
+    type: "climb",
+    world: "paris",
+    distance: 1.2,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/segment/montmartre-kom/forward",
+  },
+  {
+    name: "Tchou Tchou Sprint",
+    slug: "tchou-tchou-sprint",
+    type: "sprint",
+    world: "paris",
+    distance: 0.15,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/paris/segment/tchou-tchou-sprint/reverse",
+  },
+  {
     name: "Marina Sprint",
     slug: "marina-sprint",
     type: "sprint",
