@@ -1,3 +1,15 @@
+# [1.50.0](https://github.com/andipaetzold/zwift-data/compare/v1.49.1...v1.50.0) (2026-07-31)
+
+
+### Bug Fixes
+
+* Update data ([89307ea](https://github.com/andipaetzold/zwift-data/commit/89307ea65a7c253f929b69d2b40a10d03d567f43))
+
+
+### Features
+
+* update segments & routes in Paris ([#218](https://github.com/andipaetzold/zwift-data/issues/218)) ([43c70fa](https://github.com/andipaetzold/zwift-data/commit/43c70fafb0186807ce583fe0efdc0e688e68f556))
+
 ## [1.49.1](https://github.com/andipaetzold/zwift-data/compare/v1.49.0...v1.49.1) (2026-07-31)
 
 
