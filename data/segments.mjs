@@ -95,6 +95,9 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/lutece-sprint/forward",
     zwifterBikesPath: "lutece-sprint",
+    // Strava names this "Champs-Élysées Sprint"
+    stravaSegmentId: 38169117,
+    stravaSegmentUrl: "https://www.strava.com/segments/38169117",
   },
   {
     name: "Lutece Sprint Rev.",
@@ -105,6 +108,9 @@ export const segments = [
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/lutece-reverse-sprint/reverse",
     zwifterBikesPath: "lutece-sprint-reverse",
+    // Strava names this "Lutece Express Sprint"
+    stravaSegmentId: 38169108,
+    stravaSegmentUrl: "https://www.strava.com/segments/38169108",
   },
   {
     name: "Église Sprint",
@@ -114,6 +120,8 @@ export const segments = [
     distance: 0.25,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/eglise-sprint/forward",
+    stravaSegmentId: 41640670,
+    stravaSegmentUrl: "https://www.strava.com/segments/41640670",
   },
   {
     name: "Monceau Sprint",
@@ -123,6 +131,8 @@ export const segments = [
     distance: 0.3,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/monceau-sprint/forward",
+    stravaSegmentId: 41640667,
+    stravaSegmentUrl: "https://www.strava.com/segments/41640667",
   },
   {
     name: "Montmartre KOM",
@@ -133,6 +143,8 @@ export const segments = [
     avgIncline: 4.2,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/montmartre-kom/forward",
+    stravaSegmentId: 41640653,
+    stravaSegmentUrl: "https://www.strava.com/segments/41640653",
   },
   {
     name: "Tchou Tchou Sprint",
@@ -142,6 +154,8 @@ export const segments = [
     distance: 0.15,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/segment/tchou-tchou-sprint/reverse",
+    stravaSegmentId: 41640647,
+    stravaSegmentUrl: "https://www.strava.com/segments/41640647",
   },
   {
     name: "Marina Sprint",
