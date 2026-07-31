@@ -3,11 +3,7 @@ import { worlds } from "../../data/worlds.mjs";
 import { findSegmentsOnRoute } from "./find-segments-on-route.mjs";
 import { formatDistance, formatElevation } from "./format.mjs";
 
-export async function prepareRoute(
-    item,
-    segmentsWithLatLng,
-    currentSegmentsOnRoute = []
-) {
+export async function prepareRoute(item, segmentsWithLatLng) {
     if (
         item.map === "" ||
         item.map === "GRAVEL MOUNTAIN" || // skip until release or map bounds are available
@@ -28,8 +24,8 @@ export async function prepareRoute(
         throw new Error(`Unknown world: "${item.map}"`);
     }
 
-    let segmentsOnRoute = currentSegmentsOnRoute;
-    if (segmentsWithLatLng && manualRouteData?.stravaSegmentId) {
+    let segmentsOnRoute = [];
+    if (manualRouteData?.stravaSegmentId) {
         segmentsOnRoute = await findSegmentsOnRoute(
             manualRouteData,
             segmentsWithLatLng.filter((s) => s.world === manualWorldData.slug)

@@ -1,6 +1,6 @@
 {
   "name": "zwift-data",
-  "version": "1.49.0",
+  "version": "1.49.1",
   "description": "Data about Zwift worlds, routes and segments",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -28,8 +28,8 @@
   "homepage": "https://github.com/andipaetzold/zwift-data#readme",
   "devDependencies": {
     "@octokit/rest": "22.0.1",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
+    "@semantic-release/changelog": "7.0.0",
+    "@semantic-release/git": "11.0.1",
     "@tsconfig/recommended": "1.0.13",
     "@turf/turf": "7.3.5",
     "@types/cli-progress": "3.11.6",

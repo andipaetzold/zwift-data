@@ -1,3 +1,10 @@
+## [1.49.1](https://github.com/andipaetzold/zwift-data/compare/v1.49.0...v1.49.1) (2026-07-31)
+
+
+### Bug Fixes
+
+* update Strava segment of "Going Coastal" route ([cad27b6](https://github.com/andipaetzold/zwift-data/commit/cad27b62094e33b23ac08668442b10373b0ad192))
+
 # [1.49.0](https://github.com/andipaetzold/zwift-data/compare/v1.48.6...v1.49.0) (2026-07-18)
 
 
