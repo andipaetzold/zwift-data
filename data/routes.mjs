@@ -2165,7 +2165,7 @@ export const routes = [
     id: 1635842477,
     slug: "going-coastal",
     segments: ["fuego-flats", "woodland-sprint-rev", "sasquatch-sprint-rev"],
-    stravaSegmentId: 35697589,
+    stravaSegmentId: 41600242,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/going-coastal",
     zwifterBikesPath: "going-coastal",
