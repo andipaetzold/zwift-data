@@ -227,7 +227,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.038,
       0,
-      ["lutece-sprint", "champs-elysees-rev"],
+      ["lutece-sprint", "champs-elysees-rev", "lutece-sprint-rev"],
       [
         { from: 0, to: 6.585, segment: "champs-elysees-rev" },
         { from: 5.02, to: 5.252, segment: "lutece-sprint-rev" },
@@ -1399,6 +1399,7 @@ export const routes: ReadonlyArray<Route> = (
       0.025,
       0,
       [
+        "champs-elysees",
         "lutece-sprint",
         "monceau-sprint",
         "montmartre-kom",
@@ -4722,7 +4723,12 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.032,
       1,
-      ["monceau-sprint", "tchou-tchou-sprint", "eglise-sprint"],
+      [
+        "monceau-sprint",
+        "montmartre-kom",
+        "tchou-tchou-sprint",
+        "eglise-sprint",
+      ],
       [
         { from: 1.656, to: 1.95, segment: "monceau-sprint" },
         { from: 3.806, to: 5.036, segment: "montmartre-kom" },
@@ -6277,7 +6283,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.022,
       0,
-      ["champs-elysees"],
+      ["champs-elysees", "lutece-sprint"],
       [
         { from: 0, to: 6.631, segment: "champs-elysees" },
         { from: 1.173, to: 1.323, segment: "lutece-sprint" },
@@ -8159,7 +8165,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.04,
       0,
-      ["lutece-sprint", "monceau-sprint"],
+      ["champs-elysees", "lutece-sprint", "monceau-sprint"],
       [
         { from: 0, to: 7.188, segment: "champs-elysees" },
         { from: 1.175, to: 1.326, segment: "lutece-sprint" },
