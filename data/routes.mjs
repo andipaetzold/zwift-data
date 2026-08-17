@@ -1153,7 +1153,7 @@ export const routes = [
     slug: "jungle-circuit-rev",
     segments: ["jungle-loop"],
     experience: null,
-    stravaSegmentId: null,
+    stravaSegmentId: 16359371,
     zwiftInsiderPath: "jungle-circuit-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/jungle-circuit-reverse",
@@ -1419,7 +1419,7 @@ export const routes = [
     slug: "volcano-flat-rev",
     segments: [],
     experience: null,
-    stravaSegmentId: null,
+    stravaSegmentId: 14120237,
     zwiftInsiderPath: "volcano-flat-reverse",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/watopia/route/volcano-flat-reverse",
@@ -1823,6 +1823,10 @@ export const routes = [
     slug: "handful-of-gravel",
     segments: [],
     experience: 125,
+    stravaSegmentId: 31095294,
+    zwiftInsiderPath: "handful-of-gravel",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/handful-of-gravel",
     zwifterBikesPath: "handful-of-gravel",
   },
   {
@@ -2251,7 +2255,9 @@ export const routes = [
   {
     id: 87631443,
     slug: "queens-highway-after-party",
-    segments: ["yorkshire-sprint-rev"],
+    segments: ["yorkshire-sprint-rev", "yorkshire-kom-rev"],
+    stravaSegmentId: 39270897,
+    zwiftInsiderPath: "queens-highway-after-party",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/yorkshire/route/queens-highway-after-party",
     zwifterBikesPath: "queens-highway-after-party",
@@ -2915,7 +2921,10 @@ export const routes = [
     id: 3669622170,
     slug: "laguardia-after-party",
     segments: ["new-york-sprint", "new-york-kom-rev"],
+    stravaSegmentId: 39086492,
     zwiftInsiderPath: "laguardia-after-party",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/new-york/route/laguardia-after-party",
     zwifterBikesPath: "laguardia-after-party",
   },
   {
@@ -3021,6 +3030,11 @@ export const routes = [
     id: 1258526800,
     slug: "flat-out-fast",
     zwifterBikesPath: "flat-out-fast",
+    segments: ["fuego-flats", "fuego-flats-rev"],
+    stravaSegmentId: 39873080,
+    zwiftInsiderPath: "flat-out-fast",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/flat-out-fast",
   },
   {
     id: 1409345545,
@@ -3418,7 +3432,11 @@ export const routes = [
     id: 750613981,
     slug: "hudson-hustle",
     zwifterBikesPath: "hudson-hustle",
+    segments: ["new-york-sprint-rev"],
+    stravaSegmentId: 40654556,
     zwiftInsiderPath: "hudson-hustle",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/new-york/route/hudson-hustle",
   },
   {
     id: 941280950,
@@ -3430,13 +3448,28 @@ export const routes = [
     id: 2244765560,
     slug: "cobbled-crown",
     zwifterBikesPath: "cobbled-crown",
+    segments: [
+      "23rd-st-rev",
+      "richmond-kom-rev",
+      "richmond-sprint",
+      "broad-st",
+      "richmond-kom",
+      "23rd-st",
+    ],
+    stravaSegmentId: 40657307,
     zwiftInsiderPath: "cobbled-crown",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/richmond/route/cobbled-crown",
   },
   {
     id: 2833089100,
     slug: "kaze-kicker",
     zwifterBikesPath: "kaze-kicker",
+    segments: ["tidepool-sprint", "tower-sprint", "boardwalk-sprint"],
+    stravaSegmentId: 40654914,
     zwiftInsiderPath: "kaze-kicker",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/kaze-kicker",
   },
   {
     id: 3486338362,
@@ -3632,5 +3665,33 @@ export const routes = [
     zwiftInsiderPath: "cirque-du-suffer",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/route/cirque-du-suffer",
+  },
+  {
+    id: 2919739330,
+    slug: "mech-isle-mayhem",
+    segments: ["tidepool-sprint"],
+    stravaSegmentId: 41888254,
+    zwiftInsiderPath: "mech-isle-mayhem",
+  },
+  {
+    id: 4092230492,
+    slug: "urumaze",
+    segments: ["tidepool-sprint", "tower-sprint", "shisa-sprint-rev"],
+    stravaSegmentId: 41887960,
+    zwiftInsiderPath: "urumaze",
+  },
+  {
+    id: 362278484,
+    slug: "twilight-crit",
+    segments: ["castle-park-sprint-rev"],
+    stravaSegmentId: 41882382,
+    zwiftInsiderPath: "twilight-crit",
+  },
+  {
+    id: 811898717,
+    slug: "what-yumezi-were-lost",
+    segments: ["country-sprint", "temple-kom-from-fishing-village-side"],
+    stravaSegmentId: 41888860,
+    zwiftInsiderPath: "whatyumeziwerelost",
   },
 ];
