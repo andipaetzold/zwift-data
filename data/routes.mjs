@@ -2544,7 +2544,7 @@ export const routes = [
   {
     id: 86621553,
     slug: "lutece-express-run",
-    segments: ["lutece-sprint", "champs-elysees-rev"],
+    segments: ["lutece-sprint", "champs-elysees-rev", "lutece-sprint-rev"],
     stravaSegmentId: 37539085,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/route/lutece-express-run",
@@ -2666,7 +2666,7 @@ export const routes = [
   {
     id: 2818536273,
     slug: "champs-elysees-run",
-    segments: ["champs-elysees"],
+    segments: ["champs-elysees", "lutece-sprint"],
     stravaSegmentId: 37538726,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/paris/route/champs-elysees-run",
@@ -3534,6 +3534,7 @@ export const routes = [
     slug: "heart-of-montmartre",
     zwifterBikesPath: "heart-of-montmartre",
     segments: [
+      "champs-elysees",
       "lutece-sprint",
       "monceau-sprint",
       "montmartre-kom",
@@ -3597,6 +3598,7 @@ export const routes = [
     zwifterBikesPath: "paris-pacer",
     segments: [
       "monceau-sprint",
+      "montmartre-kom",
       "tchou-tchou-sprint",
       "eglise-sprint",
     ],
@@ -3650,7 +3652,7 @@ export const routes = [
     id: 3381223955,
     slug: "loop-de-loop-de-loop",
     zwifterBikesPath: "loop-de-loop-de-loop",
-    segments: ["lutece-sprint", "monceau-sprint"],
+    segments: ["champs-elysees", "lutece-sprint", "monceau-sprint"],
     stravaSegmentId: 41622853,
     zwiftInsiderPath: "loop-de-loop-de-loop",
     whatsOnZwiftUrl:
