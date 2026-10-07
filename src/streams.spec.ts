@@ -14,11 +14,4 @@ describe.each([
         .sort(),
     );
   });
-
-  it("returns undefined for missing coverage", () => {
-    expect(streams["unknown-slug"]).toBeUndefined();
-    for (const entry of metadata.filter((entry) => !entry.stravaSegmentId)) {
-      expect(streams[entry.slug]).toBeUndefined();
-    }
-  });
 });

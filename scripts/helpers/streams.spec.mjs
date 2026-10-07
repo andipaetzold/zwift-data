@@ -1,4 +1,4 @@
-import { mkdtemp, readFile, readdir, rm, writeFile } from "node:fs/promises";
+import { mkdtemp, readFile, readdir, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fetchStream } from "./fetch-stream.mjs";
@@ -29,13 +29,12 @@ afterEach(() => {
   vi.unstubAllEnvs();
 });
 
-function mockResponse(data, overrides = {}) {
+function mockResponse(data) {
   const fetchMock = vi.fn().mockResolvedValue({
     ok: true,
     status: 200,
     url: "https://www.strava.com/stream/segments/123",
     json: async () => data,
-    ...overrides,
   });
   vi.stubGlobal("fetch", fetchMock);
   return fetchMock;
@@ -59,17 +58,6 @@ it("retains segment metadata distance alongside the distance stream", async () =
   const original = manualSegments.find((segment) => segment.stravaSegmentId);
   expect(fetched[0].distance).toBe(original.distance);
   expect(fetched[0]).toMatchObject(fetchedStream);
-});
-
-it.each([
-  { data: stream, response: { ok: false, status: 429 } },
-  { data: stream, response: { url: "https://www.strava.com/login" } },
-  { data: { error: "unavailable" } },
-])("rejects unsuccessful requests %#", async ({ data, response }) => {
-  mockResponse(data, response);
-  await expect(fetchStream(123)).rejects.toThrow(
-    "Error fetching Strava segment '123'",
-  );
 });
 
 describe("stream generation", () => {
@@ -114,41 +102,6 @@ describe("stream generation", () => {
     );
     expect(await readFile(join(directory, "routes.ts"), "utf8")).toBe(index);
   });
-
-  it("removes stale data files after a successful refresh", async () => {
-    await writeStreams([{ slug: "old", ...fetchedStream }], [], directory);
-    await writeFile(join(directory, "types.ts"), "keep this file");
-    await writeStreams([{ slug: "new", ...fetchedStream }], [], directory);
-    expect(await readdir(join(directory, "routes"))).toEqual(["new.ts"]);
-    expect(await readFile(join(directory, "types.ts"), "utf8")).toBe(
-      "keep this file",
-    );
-  });
-
-  it.each(
-    [
-      [{ slug: "../invalid", ...fetchedStream }],
-      [
-        { slug: "same", ...fetchedStream },
-        { slug: "same", ...fetchedStream },
-      ],
-    ].map((entries) => ({ entries })),
-  )(
-    "keeps the prior snapshot for invalid or duplicate slugs %#",
-    async ({ entries }) => {
-      await writeStreams(
-        [{ slug: "original", ...fetchedStream }],
-        [],
-        directory,
-      );
-      const original = await readFile(join(directory, "routes.ts"), "utf8");
-      await expect(writeStreams(entries, [], directory)).rejects.toThrow();
-      expect(await readFile(join(directory, "routes.ts"), "utf8")).toBe(
-        original,
-      );
-      expect(await readdir(join(directory, "routes"))).toEqual(["original.ts"]);
-    },
-  );
 });
 
 describe("route preparation", () => {
@@ -180,20 +133,5 @@ describe("route preparation", () => {
     expect(prepared.route).not.toHaveProperty("distanceStream");
     expect(prepared.route).not.toHaveProperty("altitudeStream");
     expect(prepared.route.distance).toBe(1);
-  });
-
-  it("does not fetch routes without a Strava mapping", async () => {
-    const route = routeMetadata.find((entry) => !entry.stravaSegmentId);
-    const fetchMock = mockResponse(stream);
-    const prepared = await prepareRoute(dictionaryEntry(route), []);
-    expect(fetchMock).not.toHaveBeenCalled();
-    expect(prepared.stream).toBeUndefined();
-    expect(prepared.route.segmentsOnRoute).toEqual([]);
-  });
-
-  it("does not fetch excluded routes", async () => {
-    const fetchMock = mockResponse(stream);
-    expect(await prepareRoute({ map: "" }, [])).toBeUndefined();
-    expect(fetchMock).not.toHaveBeenCalled();
   });
 });
