@@ -23,7 +23,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [789015973, "Zipp 858/Super9", "Wheel_ZippZwift858"],
     [
       817265411,
-      "Princeton  Mach TSV2/Blur Disc ",
+      "Princeton Mach TSV2/Blur Disc",
       "Wheel_PrincetonCarbonWorksMachTSV2Blur",
     ],
     [
@@ -39,6 +39,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [998391700, "Zwift Concept", "Wheel_ZwiftConcept"],
     [1053884173, "Campagnolo Bora Ultra 35", "Wheel_BoraUltra35"],
     [1114387765, "Cannondale R4000 Roller Blade", "Wheel_CannondalePong"],
+    [1160815788, "Shimano DURA-ACE C99 + Disc", "Wheel_ShimanoDuraAceC992026"],
     [
       1213183664,
       "DTSwiss ARC 1100 DICUT 85/Disc",
@@ -54,6 +55,11 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [1547965258, "Zwift Zwift Bat Wheel", ""],
     [1572602779, "Roval PROJECT 74", "Wheel_RovalProject74"],
     [1593377918, "Novatec Novatec R4", "Wheel_NovatecR4"],
+    [
+      1690454004,
+      "BlackInc LOC_ENTITLEMENT_CYCLING_WHEELS_BLACKINC_THREEZERO_NAME",
+      "Wheel_BlackIncThreeZero2026",
+    ],
     [1742598126, "Shimano DURA-ACE C50", "Wheel_ShimanoDuraAceC50"],
     [1763482218, "Zwift Safety", "Wheel_ZwiftSafety"],
     [1766659417, "Zwift Supersonic Wheelset", "Wheel_ZwiftFunIsFast"],
@@ -83,6 +89,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     ],
     [2365488570, "Zwift Tri Spoke // Disc Wheel", "Wheel_BigSpin2024"],
     [2482805243, "Reserve 34/37", "Wheel_Reserve34"],
+    [2489344011, "Shimano DURA-ACE C50", "Wheel_ShimanoDuraAceC502026"],
     [2568138708, "Zwift Buffalo Fahrrad", "Wheel_BuffaloFahrrad"],
     [2612651137, "Roval CLX64", "Wheel_SpecializedRovalCLX64"],
     [2621265514, "Cadex 65", "Wheel_Cadex65"],
@@ -94,6 +101,7 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     [2927980636, "Princeton Alta 3532", "Wheel_PrincetonCarbonWorksAlta3532"],
     [3023364973, "Miche Deva RD 62", "Wheel_MicheDevaRD62"],
     [3114121871, "Enve SES 4.5 PRO", "Wheel_ENVESES4"],
+    [3181958393, "Shimano DURA-ACE C60", "Wheel_ShimanoDuraAceC602026"],
     [
       3197301744,
       "SwissSide HADRON Ultimate 650",
@@ -101,13 +109,24 @@ export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
     ],
     [3207647806, "Zwift BMX Bandit", "Wheel_BigSpinBMX2025"],
     [3251069251, "Enve SES 6.7", "Wheel_Enve67"],
-    [3400914270, "Roval Sprint CLX", "Wheel_RovalRapideCLX"],
+    [3400914270, "Roval Rapide Sprint CLX", "Wheel_RovalRapideCLX"],
     [3557711998, "Zwift Brompton P Line", "Wheel_BromptonPLine2025"],
     [3566388347, "Zwift Big Spin Tri-Spoke", "Wheel_BigSpin2026"],
     [3575343065, "Roval Terra Aero CLX", "Wheel_RovalTerraAeroCLX"],
+    [
+      3667484525,
+      "Reserve LOC_ENTITLEMENT_CYCLING_WHEELS_RESERVE_INFINITY_NAME",
+      "Wheel_ReserveInfinityDisc2026",
+    ],
     [3682262345, "Zwift Pride On Disc", "Wheel_ZwiftPrideOn2025"],
     [3752892537, "Zwift MX Rider", "Wheel_BigSpinMXRider2026"],
     [3787145210, "Zwift Mountain", "Wheel_ZwiftMountain"],
+    [
+      3827121667,
+      "Cadex LOC_ENTITLEMENT_CYCLING_WHEELS_GIANT_CADEX4_NAME",
+      "Wheel_Cadex4SpokeDisc65",
+    ],
+    [3842759965, "Shimano DURA-ACE C36", "Wheel_ShimanoDuraAceC362026"],
     [3844299290, "Reserve 57/64", "Wheel_Reserve57"],
     [3849702821, "Zwift Zwift Skeletal", ""],
     [

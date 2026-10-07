@@ -30,11 +30,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [444961024, "Tour of Watopia 2022", "RunningCapTOW2022_thumb"],
     [471358119, "Run Festival Hat", "RunnerCapRunFestival2021_thumb"],
     [478478662, "SworksTT2020 Helmet", "SworksTT2020"],
-    [
-      510898553,
-      "LOC_CYCLING_HEADGEAR_RUNNINGCAPTOUROFWATOPIA2026_NAME",
-      "RunningCapTourOfWatopia2026_thumb",
-    ],
+    [510898553, "2026 TOUR OF WATOPIA", "RunningCapTourOfWatopia2026_thumb"],
     [518828917, "2022 adidas RFTO", "RunnerCapRFTO2022_thumb"],
     [521965311, "Giro Eclipse Bike Exchange", "GiroEclipseBikeExchange2021"],
     [
@@ -107,11 +103,7 @@ export const headgears: ReadonlyArray<Headgear> = (
       "AEROREADY PRIMEBLUE Runner Low Cap",
       "RunnerCapRFTO2021_thumb",
     ],
-    [
-      1527767683,
-      "LOC_CYCLING_HEADGEAR_DuraAce2026_NAME",
-      "CyclingCapDuraAce2026_thumb",
-    ],
+    [1527767683, "DURA-ACE Cap", "CyclingCapDuraAce2026_thumb"],
     [
       1609128200,
       "Tour de Zwift 2021 Ride Cap",
@@ -160,7 +152,7 @@ export const headgears: ReadonlyArray<Headgear> = (
     [2462854936, "Garmin Unbound Helmet Skin", "GarminUnbound2021"],
     [
       2509063280,
-      "LOC_RUNNING_HEADGEAR_BACKWARDSCAPZWIFTRACINGLEAGUE2026_NAME",
+      "Zwift Racing League",
       "BackwardsCapZwiftRacingLeague2026_thumb",
     ],
     [2529465619, "Wahoo Custom", "WahooCustomCap2018_thumb"],

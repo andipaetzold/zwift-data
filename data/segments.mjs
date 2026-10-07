@@ -1028,7 +1028,7 @@ export const segments = [
     type: "sprint",
     world: "makuri-islands",
     whatsOnZwiftUrl:
-      "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/reverse",
+      "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/forward",
   },
   {
     name: "Shisa Sprint Rev.",
@@ -1427,5 +1427,53 @@ export const segments = [
     stravaSegmentUrl: "https://www.strava.com/segments/40342819",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/segment/brooklyn-bridge-kom/forward",
+  },
+  {
+    name: "Jarvis Lap",
+    slug: "jarvis-lap",
+    type: "segment",
+    world: "watopia",
+    distance: 4.84,
+    avgIncline: -0.2,
+    stravaSegmentId: 38132897,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/jarvis-lap/forward",
+    stravaSegmentUrl: "https://www.strava.com/segments/38132897",
+  },
+  {
+    name: "Jarvis Lap Rev.",
+    slug: "jarvis-lap-rev",
+    type: "segment",
+    world: "watopia",
+    distance: 4.84,
+    avgIncline: 0.2,
+    stravaSegmentId: 38132907,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/segment/jarvis-lap-reverse/reverse",
+    stravaSegmentUrl: "https://www.strava.com/segments/38132907",
+  },
+  {
+    name: "Boardwalk Sprint Rev.",
+    slug: "boardwalk-sprint-rev",
+    type: "sprint",
+    world: "makuri-islands",
+    distance: 0.35,
+    avgIncline: 1,
+    stravaSegmentId: 38169032,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/boardwalk-sprint/reverse",
+    stravaSegmentUrl: "https://www.strava.com/segments/38169032",
+  },
+  {
+    name: "Tidepool Sprint Rev.",
+    slug: "tidepool-sprint-rev",
+    type: "sprint",
+    world: "makuri-islands",
+    distance: 0.35,
+    avgIncline: 0,
+    stravaSegmentId: 38169055,
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/reverse",
+    stravaSegmentUrl: "https://www.strava.com/segments/38169055",
   },
 ];
