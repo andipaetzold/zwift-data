@@ -30,12 +30,17 @@ export async function writeStreams(
         throw new Error(`Invalid or duplicate ${kind} slug: '${slug}'`);
       }
       slugs.add(slug);
+      const rounded = {
+        latlng: latlng.map(([lat, lng]) => [round(lat, 6), round(lng, 6)]),
+        distance: distanceStream.map((value) => round(value, 1)),
+        altitude: altitudeStream.map((value) => round(value, 1)),
+      };
       files.push([
         join(kind, `${slug}.ts`),
         `import type { StreamData } from "../types.js";
-export const latlng: StreamData["latlng"] = ${JSON.stringify(latlng)};
-export const distance: StreamData["distance"] = ${JSON.stringify(distanceStream)};
-export const altitude: StreamData["altitude"] = ${JSON.stringify(altitudeStream)};
+export const latlng: StreamData["latlng"] = ${JSON.stringify(rounded.latlng)};
+export const distance: StreamData["distance"] = ${JSON.stringify(rounded.distance)};
+export const altitude: StreamData["altitude"] = ${JSON.stringify(rounded.altitude)};
 const stream: StreamData = { latlng, distance, altitude };
 export default stream;
 `,
@@ -99,4 +104,9 @@ ${streamSources[type].join("\n")}
       }
     }
   }
+}
+
+function round(value, decimals) {
+  const factor = 10 ** decimals;
+  return Math.round(value * factor) / factor;
 }

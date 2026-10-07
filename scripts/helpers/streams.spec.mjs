@@ -10,8 +10,8 @@ import { routes as routeMetadata } from "../../src/routes.js";
 import { worlds } from "../../data/worlds.mjs";
 
 const latlng = [
-  [40.123456, -73.456789],
-  [40.123457, -73.456788],
+  [40.1234564, -73.4567894],
+  [40.1234566, -73.4567876],
 ];
 const stream = {
   latlng,
@@ -69,7 +69,7 @@ describe("stream generation", () => {
     await rm(directory, { recursive: true, force: true });
   });
 
-  it("preserves raw streams, sorts slugs, and omits missing mappings", async () => {
+  it("rounds streams, preserves point order, sorts slugs, and omits missing mappings", async () => {
     const routes = [
       { slug: "z-route", ...fetchedStream },
       { slug: "a-route", ...fetchedStream },
@@ -95,7 +95,14 @@ describe("stream generation", () => {
         ),
       ]),
     );
-    expect(data).toEqual(stream);
+    expect(data).toEqual({
+      latlng: [
+        [40.123456, -73.456789],
+        [40.123457, -73.456788],
+      ],
+      distance: [0, 10.1],
+      altitude: [-3.1, 61],
+    });
     const index = await readFile(join(directory, "routes.ts"), "utf8");
     expect(index).toContain('from "./routes/a-route.js"');
     expect(index.indexOf('"a-route"')).toBeLessThan(index.indexOf('"z-route"'));
