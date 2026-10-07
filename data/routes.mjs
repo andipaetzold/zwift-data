@@ -1837,6 +1837,8 @@ export const routes = [
   {
     id: 1993374659,
     slug: "handful-of-gravel",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/handful-of-gravel",
     zwiftInsiderPath: "handful-of-gravel",
     stravaSegmentId: 31095294,
     segments: [],
@@ -2947,6 +2949,8 @@ export const routes = [
   {
     id: 3669622170,
     slug: "laguardia-after-party",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/new-york/route/laguardia-after-party",
     stravaSegmentId: 39086492,
     segments: ["new-york-sprint", "new-york-kom-rev"],
     zwiftInsiderPath: "laguardia-after-party",
@@ -3062,6 +3066,8 @@ export const routes = [
   {
     id: 1258526800,
     slug: "flat-out-fast",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/watopia/route/flat-out-fast",
     segments: ["fuego-flats", "fuego-flats-rev"],
     zwiftInsiderPath: "flat-out-fast",
     stravaSegmentId: 39873080,
@@ -3468,6 +3474,8 @@ export const routes = [
   {
     id: 750613981,
     slug: "hudson-hustle",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/new-york/route/hudson-hustle",
     segments: ["new-york-sprint-rev"],
     stravaSegmentId: 40654556,
     zwifterBikesPath: "hudson-hustle",
@@ -3489,6 +3497,8 @@ export const routes = [
   {
     id: 2244765560,
     slug: "cobbled-crown",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/richmond/route/cobbled-crown",
     segments: [
       "23rd-st-rev",
       "richmond-kom-rev",
@@ -3504,6 +3514,8 @@ export const routes = [
   {
     id: 2833089100,
     slug: "kaze-kicker",
+    whatsOnZwiftUrl:
+      "https://whatsonzwift.com/world/makuri-islands/route/kaze-kicker",
     segments: ["tidepool-sprint-rev", "tower-sprint", "boardwalk-sprint"],
     stravaSegmentId: 40654914,
     zwifterBikesPath: "kaze-kicker",

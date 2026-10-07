@@ -1837,7 +1837,7 @@ export const routes: ReadonlyArray<Route> = (
       40654556,
       "https://www.strava.com/segments/40654556",
       "https://zwiftinsider.com/route/hudson-hustle",
-      undefined,
+      "https://whatsonzwift.com/world/new-york/route/hudson-hustle",
       "https://zwifterbikes.web.app/route/hudson-hustle",
     ],
     [
@@ -3175,7 +3175,7 @@ export const routes: ReadonlyArray<Route> = (
       39873080,
       "https://www.strava.com/segments/39873080",
       "https://zwiftinsider.com/route/flat-out-fast",
-      undefined,
+      "https://whatsonzwift.com/world/watopia/route/flat-out-fast",
       "https://zwifterbikes.web.app/route/flat-out-fast",
     ],
     [
@@ -4817,7 +4817,7 @@ export const routes: ReadonlyArray<Route> = (
       31095294,
       "https://www.strava.com/segments/31095294",
       "https://zwiftinsider.com/route/handful-of-gravel",
-      undefined,
+      "https://whatsonzwift.com/world/watopia/route/handful-of-gravel",
       "https://zwifterbikes.web.app/route/handful-of-gravel",
     ],
     [
@@ -5530,7 +5530,7 @@ export const routes: ReadonlyArray<Route> = (
       40657307,
       "https://www.strava.com/segments/40657307",
       "https://zwiftinsider.com/route/cobbled-crown",
-      undefined,
+      "https://whatsonzwift.com/world/richmond/route/cobbled-crown",
       "https://zwifterbikes.web.app/route/cobbled-crown",
     ],
     [
@@ -6812,7 +6812,7 @@ export const routes: ReadonlyArray<Route> = (
       40654914,
       "https://www.strava.com/segments/40654914",
       "https://zwiftinsider.com/route/kaze-kicker",
-      undefined,
+      "https://whatsonzwift.com/world/makuri-islands/route/kaze-kicker",
       "https://zwifterbikes.web.app/route/kaze-kicker",
     ],
     [
@@ -9457,7 +9457,7 @@ export const routes: ReadonlyArray<Route> = (
       39086492,
       "https://www.strava.com/segments/39086492",
       "https://zwiftinsider.com/route/laguardia-after-party",
-      undefined,
+      "https://whatsonzwift.com/world/new-york/route/laguardia-after-party",
       "https://zwifterbikes.web.app/route/laguardia-after-party",
     ],
     [
