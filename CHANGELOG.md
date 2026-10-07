@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/andipaetzold/zwift-data/compare/v2.0.0...v2.1.0) (2026-10-07)
+
+
+### Features
+
+* add route and segment streams ([#227](https://github.com/andipaetzold/zwift-data/issues/227)) ([6be92a6](https://github.com/andipaetzold/zwift-data/commit/6be92a65474810866999d14b700641f2c215774e))
+
 # [2.0.0](https://github.com/andipaetzold/zwift-data/compare/v1.51.0...v2.0.0) (2026-10-07)
 
 
