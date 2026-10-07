@@ -2,6 +2,7 @@ import { BikeRearWheel } from "./types";
 
 export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
   [
+    [14115933, "Shimano DURA-ACE C36", "Wheel_ShimanoDuraAceC362026"],
     [21937401, "Roval PROJECT 74", "Wheel_RovalProject74"],
     [59917648, "Roval CLX64", "Wheel_SpecializedRovalCLX64"],
     [201030698, "Cannondale R4000 Roller Blade", "Wheel_CannondalePong"],
@@ -21,10 +22,16 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
       "Wheel_DTSwissARC1100DICUT85DISC",
     ],
     [635106022, "Enve SES 4.5 PRO", "Wheel_ENVESES4"],
+    [
+      659802619,
+      "Reserve LOC_ENTITLEMENT_CYCLING_WHEELS_RESERVE_INFINITY_NAME",
+      "Wheel_ReserveInfinityDisc2026",
+    ],
     [676356957, "Reserve 57/64", "Wheel_Reserve57"],
     [689667921, "Cadex Max 50", "Wheel_CadexMax50"],
     [705669234, "Zwift Plain", "Wheel_ZwiftPlain"],
     [735187485, "Reserve 34/37", "Wheel_Reserve34"],
+    [827108797, "Shimano DURA-ACE C99 + Disc", "Wheel_ShimanoDuraAceC992026"],
     [881139533, "Zipp 858", "Wheel_Zipp858"],
     [886534142, "Enve SES 7.8", "Wheel_Enve78"],
     [961116451, "Zwift Concept", "Wheel_ZwiftConcept"],
@@ -57,6 +64,11 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [1856021360, "Campagnolo Bora Ultra 50", "Wheel_BoraUltra50"],
     [1887739925, "Cadex 36", "Wheel_Cadex36"],
     [1965395406, "Zwift Zwift Skeletal", ""],
+    [
+      2002469001,
+      "BlackInc LOC_ENTITLEMENT_CYCLING_WHEELS_BLACKINC_THREEZERO_NAME",
+      "Wheel_BlackIncThreeZero2026",
+    ],
     [2019751723, "Zipp 353 NSW", "Wheel_Zipp353"],
     [2026413230, "Enve SES 6.7", "Wheel_Enve67"],
     [2049111692, "DTSwiss ARC 1100 DICUT 62", "Wheel_DTSwissARC62"],
@@ -80,6 +92,12 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [3171611979, "Zwift Zwift Baseline Wheels", "Wheel_ZwiftCampBaseline2024"],
     [3269590172, "Zipp ZIPP 303 XPLR SW", "Wheel_Zipp303XPLR"],
     [3309968019, "Zwift Buffalo Fahrrad", "Wheel_BuffaloFahrrad"],
+    [3415380320, "Shimano DURA-ACE C60", "Wheel_ShimanoDuraAceC602026"],
+    [
+      3443883036,
+      "Cadex LOC_ENTITLEMENT_CYCLING_WHEELS_GIANT_CADEX4_NAME",
+      "Wheel_Cadex4SpokeDisc65",
+    ],
     [3454205320, "Roval Terra CLX", "Wheel_RovalTerraCLX"],
     [
       3456736597,
@@ -87,7 +105,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
       "Wheel_SwissSideHADRONUltimate850Disc",
     ],
     [3473846672, "Zwift Safety", "Wheel_ZwiftSafety"],
-    [3517161569, "Roval Sprint CLX", "Wheel_RovalRapideCLX"],
+    [3517161569, "Roval Rapide Sprint CLX", "Wheel_RovalRapideCLX"],
     [3548735686, "Roval Rapide CLX", "Wheel_RovalRapide"],
     [3594144634, "Bontrager Aeolus5", "Wheel_Bontrager"],
     [
@@ -95,9 +113,10 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
       "Lightweight Lightweight Meilenstein",
       "Wheel_LightweightMeilenstein",
     ],
+    [3673160473, "Shimano DURA-ACE C50", "Wheel_ShimanoDuraAceC502026"],
     [
       3710951039,
-      "Princeton  Mach TSV2/Blur Disc ",
+      "Princeton Mach TSV2/Blur Disc",
       "Wheel_PrincetonCarbonWorksMachTSV2Blur",
     ],
     [3725678091, "Shimano DURA-ACE C50", "Wheel_ShimanoDuraAceC50"],
