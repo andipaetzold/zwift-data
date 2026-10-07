@@ -3756,7 +3756,7 @@ export const routes = [
   },
   {
     id: 811898717,
-    slug: "whatyumeziwe-relost",
+    slug: "what-yumezi-were-lost",
     zwifterBikesPath: "whatyumeziwerelost",
     stravaSegmentId: 41888860,
     segments: ["country-sprint-rev", "temple-kom-from-fishing-village-side"],

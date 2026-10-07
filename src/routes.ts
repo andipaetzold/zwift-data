@@ -2101,7 +2101,7 @@ export const routes: ReadonlyArray<Route> = (
     [
       811898717,
       "WhatYumeziWe'reLost?",
-      "whatyumeziwe-relost",
+      "what-yumezi-were-lost",
       "makuri-islands",
       false,
       17.43,
