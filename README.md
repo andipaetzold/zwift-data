@@ -72,6 +72,58 @@ The package is ESM-only and also exports TypeScript types.
 
 The data structure is documented [here](https://andipaetzold.github.io/zwift-data).
 
+### Route and segment streams
+
+Route and segment streams are available through `zwift-data/streams`:
+
+```typescript
+import { routes, segments } from "zwift-data/streams";
+
+const stream = routes["lady-liberty"];
+const coordinates = stream?.latlng; // [latitude, longitude] pairs in degrees
+const distance = stream?.distance; // cumulative distance in meters
+const altitude = stream?.altitude; // altitude in meters
+```
+
+Both exports are readonly maps keyed by the same slugs as the route and segment
+metadata. Each value contains three readonly arrays: `latlng`, `distance`, and
+`altitude`. Values at the same index describe the same point. All values come
+from the corresponding Strava segment stream. Coordinates are rounded to six
+decimal places, and distance and altitude to one decimal place (0.1 m). Point
+order and matching indices are preserved without deduplication or altitude
+corrections. Entries without a Strava mapping are omitted, and missing lookups
+return `undefined`.
+
+For a single stream type, use its dedicated entry point:
+
+```typescript
+import { routes, segments } from "zwift-data/streams/altitude";
+
+const altitude = routes["lady-liberty"]; // readonly number[] | undefined
+```
+
+`zwift-data/streams/distance` exports distance arrays, and
+`zwift-data/streams/latlng` exports coordinate arrays. Each exports readonly
+`routes` and `segments` maps with the same slugs and coverage. These entry points
+allow bundlers to omit the other stream types. `zwift-data/streams` includes all
+three types together.
+
+The entry point also exports the `StreamData`, `Coordinate`, and `Coordinates`
+TypeScript types. If you also need metadata, alias the stream imports:
+
+```typescript
+import { routes } from "zwift-data";
+import { routes as routeStreams } from "zwift-data/streams";
+```
+
+Stream files are committed to the repository and refreshed by
+`npm run update-data`, using the `STRAVA_COOKIE` environment variable. Consumers
+do not need to fetch streams or provide Strava credentials.
+
+Importing `zwift-data` does not load the stream data. Importing
+`zwift-data/streams` includes the combined stream dataset. The installed package
+includes both entry points, so its download and disk size are larger.
+
 ## Data source
 
 Some data is automatically fetched and updated from Zwift's public API.

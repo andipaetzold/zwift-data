@@ -1,5 +1,6 @@
 import { segments } from "../../data/segments.mjs";
 import { SingleBar } from "cli-progress";
+import { fetchStream } from "./fetch-stream.mjs";
 
 export async function fetchSegments() {
   const filteredSegments = segments.filter(
@@ -13,29 +14,9 @@ export async function fetchSegments() {
 
   const result = await Promise.all(
     filteredSegments.map(async (segment) => {
-      const url = `https://www.strava.com/stream/segments/${segment.stravaSegmentId}?streams%5B%5D=latlng&streams%5B%5D=distance`;
-      const response = await fetch(url, {
-        headers: {
-          cookie: process.env.STRAVA_COOKIE,
-        },
-      });
-      try {
-        const data = await response.json();
-        if ("error" in data) {
-          throw data.error;
-        }
-
-        bar.increment();
-        return {
-          ...segment,
-          latlng: data.latlng,
-          distanceStream: data.distance,
-        };
-      } catch (e) {
-        throw new Error(`Error fetching segment '${segment.stravaSegmentId}'`, {
-          cause: e,
-        });
-      }
+      const stream = await fetchStream(segment.stravaSegmentId);
+      bar.increment();
+      return { ...segment, ...stream };
     }),
   );
 

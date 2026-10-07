@@ -59,6 +59,23 @@
       "types": "./lib/index.d.ts",
       "default": "./lib/index.js"
     },
-    "./package.json": "./package.json"
-  }
+    "./package.json": "./package.json",
+    "./streams": {
+      "types": "./lib/streams/index.d.ts",
+      "default": "./lib/streams/index.js"
+    },
+    "./streams/latlng": {
+      "types": "./lib/streams/latlng.d.ts",
+      "default": "./lib/streams/latlng.js"
+    },
+    "./streams/distance": {
+      "types": "./lib/streams/distance.d.ts",
+      "default": "./lib/streams/distance.js"
+    },
+    "./streams/altitude": {
+      "types": "./lib/streams/altitude.d.ts",
+      "default": "./lib/streams/altitude.js"
+    }
+  },
+  "sideEffects": false
 }

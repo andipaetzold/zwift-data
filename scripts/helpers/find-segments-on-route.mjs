@@ -5,40 +5,23 @@ import isEqual from "lodash/isEqual.js";
 const TOLERANCE = 5;
 const OPTIONS = { units: "meters" };
 
-export async function findSegmentsOnRoute(route, segments) {
-  try {
-    const url = `https://www.strava.com/stream/segments/${route.stravaSegmentId}?streams%5B%5D=latlng&streams%5B%5D=distance`;
-    const response = await fetch(url, {
-      headers: {
-        cookie: process.env.STRAVA_COOKIE,
-      },
-    });
-    const data = await response.json();
-    if ("error" in data) {
-      throw data.error;
-    }
+export function findSegmentsOnRoute(route, stream, segments) {
+  const routeLatLng = stream.latlng;
+  const routeDistance = stream.distanceStream;
 
-    const routeLatLng = data.latlng;
-    const routeDistance = data.distance;
+  const segmentsOnRoute = segments
+    .filter((s) => !(route.invalidSegments ?? []).includes(s.slug))
+    .flatMap((segment) =>
+      findSegmentOnRoute(routeLatLng, routeDistance, segment),
+    );
 
-    const segmentsOnRoute = segments
-      .filter((s) => !(route.invalidSegments ?? []).includes(s.slug))
-      .flatMap((segment) =>
-        findSegmentOnRoute(routeLatLng, routeDistance, segment),
-      );
-
-    return segmentsOnRoute
-      .sort((a, b) => a.from - b.from)
-      .map(({ segment, from, to }) => ({
-        from: Math.round(routeDistance[from]) / 1_000,
-        to: Math.round(routeDistance[to]) / 1_000,
-        segment,
-      }));
-  } catch (error) {
-    throw new Error(`Error fetching segment '${route.stravaSegmentId}'`, {
-      cause: error,
-    });
-  }
+  return segmentsOnRoute
+    .sort((a, b) => a.from - b.from)
+    .map(({ segment, from, to }) => ({
+      from: Math.round(routeDistance[from]) / 1_000,
+      to: Math.round(routeDistance[to]) / 1_000,
+      segment,
+    }));
 }
 
 function findSegmentOnRoute(routeLatLng, routeDistanceStream, segment) {
