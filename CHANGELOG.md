@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/andipaetzold/zwift-data/compare/v1.51.0...v2.0.0) (2026-10-07)
+
+
+* feat!: publish ESM only ([#228](https://github.com/andipaetzold/zwift-data/issues/228)) ([107dbee](https://github.com/andipaetzold/zwift-data/commit/107dbeeee720df09797e97cd37f5464e56ef7bbe))
+
+
+### BREAKING CHANGES
+
+* The package is ESM-only.
+
 # [1.51.0](https://github.com/andipaetzold/zwift-data/compare/v1.50.0...v1.51.0) (2026-10-07)
 
 
