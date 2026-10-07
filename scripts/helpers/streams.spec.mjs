@@ -85,22 +85,40 @@ describe("stream generation", () => {
       "z-route.ts",
     ]);
     const file = await readFile(join(directory, "routes/a-route.ts"), "utf8");
-    const data = JSON.parse(
-      file
-        .match(/= ([\s\S]*);\nexport/)[1]
-        .replace(/\b(latlng|distance|altitude):/g, '"$1":')
-        .replace(/,(\s*[\]}])/g, "$1"),
+    const data = Object.fromEntries(
+      ["latlng", "distance", "altitude"].map((type) => [
+        type,
+        JSON.parse(
+          file
+            .match(new RegExp(`export const ${type}:.*? = ([\\s\\S]*?);`))[1]
+            .replace(/,(\s*[\]}])/g, "$1"),
+        ),
+      ]),
     );
     expect(data).toEqual(stream);
     const index = await readFile(join(directory, "routes.ts"), "utf8");
     expect(index).toContain('from "./routes/a-route.js"');
     expect(index.indexOf('"a-route"')).toBeLessThan(index.indexOf('"z-route"'));
+    const maps = await Promise.all(
+      ["latlng", "distance", "altitude"].map(async (type) => {
+        const content = await readFile(join(directory, `${type}.ts`), "utf8");
+        expect(content).toContain(`import { ${type} as routes0 }`);
+        expect(content).toContain(`import { ${type} as segments0 }`);
+        expect(content).not.toContain('"missing"');
+        return content;
+      }),
+    );
     await writeStreams(
       [...routes].reverse(),
       [{ slug: "sprint", ...fetchedStream }],
       directory,
     );
     expect(await readFile(join(directory, "routes.ts"), "utf8")).toBe(index);
+    for (const [index, type] of ["latlng", "distance", "altitude"].entries()) {
+      expect(await readFile(join(directory, `${type}.ts`), "utf8")).toBe(
+        maps[index],
+      );
+    }
   });
 });
 

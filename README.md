@@ -74,7 +74,7 @@ The data structure is documented [here](https://andipaetzold.github.io/zwift-dat
 
 ### Route and segment streams
 
-Raw route and segment streams are available through a separate entry point:
+Raw route and segment streams are available through `zwift-data/streams`:
 
 ```typescript
 import { routes, segments } from "zwift-data/streams";
@@ -91,6 +91,20 @@ metadata. Each value contains three readonly arrays: `latlng`, `distance`, and
 from the corresponding Strava segment stream, preserving source order and
 precision without rounding, deduplication, or altitude corrections. Entries
 without a Strava mapping are omitted, and missing lookups return `undefined`.
+
+For a single stream type, use its dedicated entry point:
+
+```typescript
+import { routes, segments } from "zwift-data/streams/altitude";
+
+const altitude = routes["lady-liberty"]; // readonly number[] | undefined
+```
+
+`zwift-data/streams/distance` exports distance arrays, and
+`zwift-data/streams/latlng` exports coordinate arrays. Each exports readonly
+`routes` and `segments` maps with the same slugs and coverage. These entry points
+allow bundlers to omit the other stream types. `zwift-data/streams` includes all
+three types together.
 
 The entry point also exports the `StreamData`, `Coordinate`, and `Coordinates`
 TypeScript types. If you also need metadata, alias the stream imports:
