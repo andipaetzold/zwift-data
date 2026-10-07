@@ -2,9 +2,8 @@
   "name": "zwift-data",
   "version": "1.51.0",
   "description": "Data about Zwift worlds, routes and segments",
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/types/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
     "lib"
   ],
@@ -46,14 +45,20 @@
   },
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "rimraf lib && npm run build:cjs && npm run build:esm",
-    "build:cjs": "rimraf lib/cjs && tsc --module commonjs --outDir lib/cjs",
-    "build:esm": "rimraf lib/esm && tsc --module ES2015 --outDir lib/esm",
+    "build": "rimraf lib && tsc",
     "build-docs": "rimraf docs && npm --prefix tools/typedoc ci && npm --prefix tools/typedoc run build",
     "test": "npm run test:types && vitest run",
     "test:types": "tsc --project tsconfig.test.json --noEmit",
     "semantic-release": "semantic-release",
     "update-data": "node ./scripts/update-data.mjs",
     "prepare-pr": "node ./scripts/prepare-pr.mjs"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
   }
 }

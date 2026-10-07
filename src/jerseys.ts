@@ -1,4 +1,4 @@
-import { Jersey } from "./types";
+import type { Jersey } from "./types.js";
 
 export const jerseys: ReadonlyArray<Jersey> = (
   [

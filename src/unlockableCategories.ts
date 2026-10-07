@@ -1,4 +1,4 @@
-import { UnlockableCategory } from "./types";
+import type { UnlockableCategory } from "./types.js";
 
 export const unlockableCategories: ReadonlyArray<UnlockableCategory> = (
   [

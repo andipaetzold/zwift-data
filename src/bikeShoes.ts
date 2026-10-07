@@ -1,4 +1,4 @@
-import { BikeShoe } from "./types";
+import type { BikeShoe } from "./types.js";
 
 export const bikeShoes: ReadonlyArray<BikeShoe> = (
   [

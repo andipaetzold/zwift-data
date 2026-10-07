@@ -1,11 +1,11 @@
 {
   "extends": "@tsconfig/recommended",
   "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "bundler",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "declaration": true,
-    "declarationDir": "lib/types",
-    "rootDir": "src"
+    "rootDir": "src",
+    "outDir": "lib"
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/*.spec.ts"]

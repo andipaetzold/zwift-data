@@ -1,5 +1,5 @@
-import { segments } from "./segments";
-import { worlds } from "./worlds";
+import { segments } from "./segments.js";
+import { worlds } from "./worlds.js";
 
 it("Unique slugs", () => {
   expect(new Set(segments.map((s) => s.slug)).size).toBe(segments.length);

@@ -1,4 +1,4 @@
-import { RunShirt } from "./types";
+import type { RunShirt } from "./types.js";
 
 export const runShirts: ReadonlyArray<RunShirt> = (
   [

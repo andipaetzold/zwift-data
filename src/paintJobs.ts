@@ -1,4 +1,4 @@
-import { PaintJob } from "./types";
+import type { PaintJob } from "./types.js";
 
 export const paintJobs: ReadonlyArray<PaintJob> = (
   [

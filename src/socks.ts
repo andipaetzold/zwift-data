@@ -1,4 +1,4 @@
-import { Sock } from "./types";
+import type { Sock } from "./types.js";
 
 export const socks: ReadonlyArray<Sock> = (
   [
