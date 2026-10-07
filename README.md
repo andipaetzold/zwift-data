@@ -72,6 +72,38 @@ The package is ESM-only and also exports TypeScript types.
 
 The data structure is documented [here](https://andipaetzold.github.io/zwift-data).
 
+### Coordinates
+
+Route and segment coordinates are available through a separate entry point:
+
+```typescript
+import { routes, segments } from "zwift-data/coordinates";
+
+const routeCoordinates = routes["lady-liberty"];
+const segmentCoordinates = segments["new-york-kom"];
+```
+
+Both exports are readonly maps keyed by the same slugs as the route and segment
+metadata. Each value is an ordered array of `[latitude, longitude]` pairs in
+degrees. Coordinates come from the corresponding Strava segment stream, without
+simplification or rounding. Entries without a Strava mapping are omitted, and
+missing lookups return `undefined`.
+
+If you also need metadata, alias the coordinate imports:
+
+```typescript
+import { routes } from "zwift-data";
+import { routes as routeCoordinates } from "zwift-data/coordinates";
+```
+
+Coordinate files are committed to the repository and refreshed by
+`npm run update-data`, using the `STRAVA_COOKIE` environment variable. Consumers
+do not need to fetch coordinates or provide Strava credentials.
+
+Importing `zwift-data` does not load the coordinate data. Importing
+`zwift-data/coordinates` includes the combined coordinate dataset. The installed
+package includes both entry points, so its download and disk size are larger.
+
 ## Data source
 
 Some data is automatically fetched and updated from Zwift's public API.

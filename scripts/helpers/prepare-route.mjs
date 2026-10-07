@@ -2,6 +2,7 @@ import { routes } from "../../data/routes.mjs";
 import { worlds } from "../../data/worlds.mjs";
 import { findSegmentsOnRoute } from "./find-segments-on-route.mjs";
 import { formatDistance, formatElevation } from "./format.mjs";
+import { fetchStream } from "./fetch-stream.mjs";
 
 export async function prepareRoute(item, segmentsWithLatLng) {
     if (
@@ -25,14 +26,17 @@ export async function prepareRoute(item, segmentsWithLatLng) {
     }
 
     let segmentsOnRoute = [];
+    let stream;
     if (manualRouteData?.stravaSegmentId) {
-        segmentsOnRoute = await findSegmentsOnRoute(
+        stream = await fetchStream(manualRouteData.stravaSegmentId);
+        segmentsOnRoute = findSegmentsOnRoute(
             manualRouteData,
+            stream,
             segmentsWithLatLng.filter((s) => s.world === manualWorldData.slug)
         );
     }
 
-    return {
+    const route = {
         id: +item.signature,
         name: item.name,
         slug: manualRouteData?.slug ?? item.signature,
@@ -75,4 +79,6 @@ export async function prepareRoute(item, segmentsWithLatLng) {
             ? `https://zwifterbikes.web.app/route/${manualRouteData.zwifterBikesPath}`
             : undefined,
     }
+
+    return { route, latlng: stream?.latlng };
 }

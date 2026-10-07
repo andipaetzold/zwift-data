@@ -7,6 +7,6 @@
     "typescript": "6.0.3"
   },
   "scripts": {
-    "build": "typedoc ../../src/index.ts --out ../../docs --tsconfig ../../tsconfig.json"
+    "build": "typedoc ../../src/index.ts ../../src/coordinates/index.ts --out ../../docs --tsconfig ../../tsconfig.json"
   }
 }

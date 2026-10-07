@@ -1,0 +1,5 @@
+{
+  "main": "../lib/cjs/coordinates/index.js",
+  "module": "../lib/esm/coordinates/index.js",
+  "types": "../lib/types/coordinates/index.d.ts"
+}
