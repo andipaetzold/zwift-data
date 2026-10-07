@@ -1028,7 +1028,7 @@ export const segments = [
     type: "sprint",
     world: "makuri-islands",
     whatsOnZwiftUrl:
-      "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/reverse",
+      "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/forward",
   },
   {
     name: "Shisa Sprint Rev.",
@@ -1467,14 +1467,13 @@ export const segments = [
   {
     name: "Tidepool Sprint Rev.",
     slug: "tidepool-sprint-rev",
-    // Zwift Insider calls this reverse; What's on Zwift calls it forward.
     type: "sprint",
     world: "makuri-islands",
     distance: 0.35,
     avgIncline: 0,
     stravaSegmentId: 38169055,
     whatsOnZwiftUrl:
-      "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/forward",
+      "https://whatsonzwift.com/world/makuri-islands/segment/tidepool-sprint/reverse",
     stravaSegmentUrl: "https://www.strava.com/segments/38169055",
   },
 ];
