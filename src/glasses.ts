@@ -1,4 +1,4 @@
-import { Glass } from "./types";
+import type { Glass } from "./types.js";
 
 export const glasses: ReadonlyArray<Glass> = (
   [

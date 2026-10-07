@@ -1,4 +1,4 @@
-import { NotableMomentType } from "./types";
+import type { NotableMomentType } from "./types.js";
 
 export const notableMomentTypes: ReadonlyArray<NotableMomentType> = (
   [

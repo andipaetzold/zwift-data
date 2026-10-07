@@ -1,4 +1,4 @@
-import { Route } from "./types";
+import type { Route } from "./types.js";
 
 export const routes: ReadonlyArray<Route> = (
   [

@@ -1,4 +1,4 @@
-import { Segment } from "./types";
+import type { Segment } from "./types.js";
 
 export const segments: ReadonlyArray<Segment> = (
   [

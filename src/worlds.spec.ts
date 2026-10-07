@@ -1,4 +1,4 @@
-import { worlds } from "./worlds";
+import { worlds } from "./worlds.js";
 
 it("Unique ids", () => {
   const worldIds = worlds.map((w) => w.id).filter((id) => id !== undefined);

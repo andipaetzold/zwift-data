@@ -1,4 +1,4 @@
-import { Challenge } from "./types";
+import type { Challenge } from "./types.js";
 
 export const challenges: ReadonlyArray<Challenge> = (
   [

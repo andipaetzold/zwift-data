@@ -1,4 +1,4 @@
-import { RunShoe } from "./types";
+import type { RunShoe } from "./types.js";
 
 export const runShoes: ReadonlyArray<RunShoe> = (
   [

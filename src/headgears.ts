@@ -1,4 +1,4 @@
-import { Headgear } from "./types";
+import type { Headgear } from "./types.js";
 
 export const headgears: ReadonlyArray<Headgear> = (
   [

@@ -1,4 +1,4 @@
-import { Achievement } from "./types";
+import type { Achievement } from "./types.js";
 
 export const achievements: ReadonlyArray<Achievement> = (
   [

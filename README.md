@@ -65,10 +65,10 @@ import {
   trainingPlans,
   unlockableCategories,
   worlds,
- } from "zwift-data";
+} from "zwift-data";
 ```
 
-The package also exports TypeScript types.
+The package is ESM-only and also exports TypeScript types.
 
 The data structure is documented [here](https://andipaetzold.github.io/zwift-data).
 

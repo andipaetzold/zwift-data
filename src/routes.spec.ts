@@ -1,6 +1,6 @@
-import { routes } from "./routes";
-import { segments } from "./segments";
-import { worlds } from "./worlds";
+import { routes } from "./routes.js";
+import { segments } from "./segments.js";
+import { worlds } from "./worlds.js";
 
 it("Unique ids", () => {
   const routeIds = routes.map((r) => r.id).filter((id) => id !== undefined);

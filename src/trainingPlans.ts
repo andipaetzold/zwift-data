@@ -1,4 +1,4 @@
-import { TrainingPlan } from "./types";
+import type { TrainingPlan } from "./types.js";
 
 export const trainingPlans: ReadonlyArray<TrainingPlan> = (
   [

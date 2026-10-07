@@ -1,4 +1,4 @@
-import { BikeFrame } from "./types";
+import type { BikeFrame } from "./types.js";
 
 export const bikeFrames: ReadonlyArray<BikeFrame> = (
   [

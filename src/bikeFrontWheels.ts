@@ -1,4 +1,4 @@
-import { BikeFrontWheel } from "./types";
+import type { BikeFrontWheel } from "./types.js";
 
 export const bikeFrontWheels: ReadonlyArray<BikeFrontWheel> = (
   [

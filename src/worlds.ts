@@ -1,4 +1,4 @@
-import { World } from "./types";
+import type { World } from "./types.js";
 
 export const worlds: ReadonlyArray<World> = [
   {
