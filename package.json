@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/andipaetzold/zwift-data#readme",
   "devDependencies": {
-    "@octokit/rest": "22.0.1",
     "@semantic-release/changelog": "7.0.0",
     "@semantic-release/git": "11.0.1",
     "@tsconfig/recommended": "1.0.13",
@@ -39,7 +38,6 @@
     "prettier": "3.9.5",
     "rimraf": "6.1.3",
     "semantic-release": "25.0.8",
-    "simple-git": "4.0.2",
     "typescript": "7.0.2",
     "vitest": "5.0.2"
   },
@@ -50,8 +48,7 @@
     "test": "npm run test:types && vitest run",
     "test:types": "tsc --project tsconfig.test.json --noEmit",
     "semantic-release": "semantic-release",
-    "update-data": "node ./scripts/update-data.mjs",
-    "prepare-pr": "node ./scripts/prepare-pr.mjs"
+    "update-data": "node ./scripts/update-data.mjs"
   },
   "type": "module",
   "exports": {
