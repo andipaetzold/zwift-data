@@ -1467,6 +1467,7 @@ export const segments = [
   {
     name: "Tidepool Sprint Rev.",
     slug: "tidepool-sprint-rev",
+    // Zwift Insider calls this reverse; What's on Zwift calls it forward.
     type: "sprint",
     world: "makuri-islands",
     distance: 0.35,

@@ -3759,7 +3759,7 @@ export const routes = [
     slug: "what-yumezi-were-lost",
     zwifterBikesPath: "whatyumeziwerelost",
     stravaSegmentId: 41888860,
-    segments: ["country-sprint-rev", "temple-kom-from-fishing-village-side"],
+    segments: ["country-sprint", "temple-kom-from-fishing-village-side"],
     zwiftInsiderPath: "whatyumeziwerelost",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/whatyumeziwe-relost",
@@ -3886,7 +3886,7 @@ export const routes = [
     id: 4092230492,
     slug: "urumaze",
     zwifterBikesPath: "urumaze",
-    segments: ["tower-sprint", "tidepool-sprint-rev", "shisa-sprint"],
+    segments: ["tower-sprint", "tidepool-sprint-rev", "shisa-sprint-rev"],
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/makuri-islands/route/urumaze",
     zwiftInsiderPath: "urumaze",

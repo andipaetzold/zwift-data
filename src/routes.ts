@@ -2112,7 +2112,7 @@ export const routes: ReadonlyArray<Route> = (
       3,
       0.053,
       3,
-      ["country-sprint-rev", "temple-kom-from-fishing-village-side"],
+      ["country-sprint", "temple-kom-from-fishing-village-side"],
       [],
       false,
       false,
@@ -10484,7 +10484,7 @@ export const routes: ReadonlyArray<Route> = (
       0,
       0.064,
       0,
-      ["tower-sprint", "tidepool-sprint-rev", "shisa-sprint"],
+      ["tower-sprint", "tidepool-sprint-rev", "shisa-sprint-rev"],
       [
         { from: 5.736, to: 6.038, segment: "tower-sprint" },
         { from: 13.059, to: 13.381, segment: "tidepool-sprint-rev" },
