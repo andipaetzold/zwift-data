@@ -920,7 +920,7 @@ export const routes = [
     slug: "park-to-peak",
     zwifterBikesPath: "park-to-peak",
     stravaSegmentId: 37541175,
-    segments: [],
+    segments: ["new-york-kom-rev"],
     zwiftInsiderPath: "park-to-peak",
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/route/park-to-peak",
@@ -2278,7 +2278,7 @@ export const routes = [
     slug: "queens-highway-after-party",
     zwiftInsiderPath: "queens-highway-after-party",
     stravaSegmentId: 39270897,
-    segments: ["yorkshire-sprint-rev"],
+    segments: ["yorkshire-sprint-rev", "yorkshire-kom-rev"],
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/yorkshire/route/queens-highway-after-party",
     zwifterBikesPath: "queens-highway-after-party",
@@ -2880,6 +2880,7 @@ export const routes = [
   {
     id: 938096831,
     slug: "zg25-climb-champs",
+    segments: ["fox-hill"],
     zwiftInsiderPath: "zg25-climb-champs",
     stravaSegmentId: 38548881,
     zwifterBikesPath: "zg25-climb-champs",
@@ -3061,6 +3062,7 @@ export const routes = [
   {
     id: 1258526800,
     slug: "flat-out-fast",
+    segments: ["fuego-flats", "fuego-flats-rev"],
     zwiftInsiderPath: "flat-out-fast",
     stravaSegmentId: 39873080,
     zwifterBikesPath: "flat-out-fast",
@@ -3466,6 +3468,7 @@ export const routes = [
   {
     id: 750613981,
     slug: "hudson-hustle",
+    segments: ["new-york-sprint-rev"],
     stravaSegmentId: 40654556,
     zwifterBikesPath: "hudson-hustle",
     zwiftInsiderPath: "hudson-hustle",
@@ -3473,6 +3476,12 @@ export const routes = [
   {
     id: 941280950,
     slug: "peaky-pave",
+    segments: [
+      "ballon-sprint-rev",
+      "pave-sprint-rev",
+      "aqueduc-kom-rev",
+      "petit-kom",
+    ],
     stravaSegmentId: 40657294,
     zwifterBikesPath: "peaky-pave",
     zwiftInsiderPath: "peaky-pave",
@@ -3480,6 +3489,14 @@ export const routes = [
   {
     id: 2244765560,
     slug: "cobbled-crown",
+    segments: [
+      "23rd-st-rev",
+      "richmond-kom-rev",
+      "richmond-sprint",
+      "broad-st",
+      "richmond-kom",
+      "23rd-st",
+    ],
     stravaSegmentId: 40657307,
     zwifterBikesPath: "cobbled-crown",
     zwiftInsiderPath: "cobbled-crown",
@@ -3487,6 +3504,7 @@ export const routes = [
   {
     id: 2833089100,
     slug: "kaze-kicker",
+    segments: ["tidepool-sprint-rev", "tower-sprint", "boardwalk-sprint"],
     stravaSegmentId: 40654914,
     zwifterBikesPath: "kaze-kicker",
     zwiftInsiderPath: "kaze-kicker",
@@ -3577,8 +3595,7 @@ export const routes = [
     ],
     stravaSegmentId: 41606182,
     zwiftInsiderPath: "la-boucle",
-    whatsOnZwiftUrl:
-      "https://whatsonzwift.com/world/paris/route/la-boucle",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/paris/route/la-boucle",
   },
   {
     id: 1247427185,
@@ -3664,8 +3681,7 @@ export const routes = [
     ],
     stravaSegmentId: 41606209,
     zwiftInsiderPath: "crepe-escape",
-    whatsOnZwiftUrl:
-      "https://whatsonzwift.com/world/paris/route/crepe-escape",
+    whatsOnZwiftUrl: "https://whatsonzwift.com/world/paris/route/crepe-escape",
   },
   {
     id: 3381223955,
