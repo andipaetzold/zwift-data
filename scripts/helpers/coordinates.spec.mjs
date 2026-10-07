@@ -119,6 +119,7 @@ describe("coordinate generation", () => {
     );
     expect(data).toEqual(latlng);
     const index = await readFile(join(directory, "routes.ts"), "utf8");
+    expect(index).toContain('from "./routes/a-route.js"');
     expect(index.indexOf('"a-route"')).toBeLessThan(index.indexOf('"z-route"'));
     await writeCoordinates(
       [...routes].reverse(),

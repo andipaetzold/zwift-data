@@ -6,6 +6,7 @@
   "types": "./lib/index.d.ts",
   "files": [
     "lib",
+    "coordinates",
     "coordinates"
   ],
   "keywords": [
@@ -60,6 +61,10 @@
       "types": "./lib/index.d.ts",
       "default": "./lib/index.js"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./coordinates": {
+      "types": "./lib/coordinates/index.d.ts",
+      "default": "./lib/coordinates/index.js"
+    }
   }
 }

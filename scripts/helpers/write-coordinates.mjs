@@ -32,14 +32,14 @@ const coordinates: Coordinates = ${JSON.stringify(latlng)};
 export default coordinates;
 `,
       ]);
-      imports.push(`import coordinates${index} from "./${kind}/${slug}";`);
+      imports.push(`import coordinates${index} from "./${kind}/${slug}.js";`);
       properties.push(`${JSON.stringify(slug)}: coordinates${index}`);
     }
 
     slugsByKind.set(kind, slugs);
     files.push([
       `${kind}.ts`,
-      `import type { Coordinates } from "./types";
+      `import type { Coordinates } from "./types.js";
 ${imports.join("\n")}
 export const ${kind}: Readonly<Record<string, Coordinates | undefined>> = {
 ${properties.join(",\n")}
