@@ -3,7 +3,7 @@ import { writeData } from "./write-data.mjs";
 import { prepareRoute } from "./prepare-route.mjs";
 import { fetchSegments } from "./fetch-segments.mjs";
 import { SingleBar } from "cli-progress";
-import { writeCoordinates } from "./write-coordinates.mjs";
+import { writeStreams } from "./write-streams.mjs";
 
 export async function updateData() {
   const response = await fetch(
@@ -51,8 +51,8 @@ export async function updateData() {
       return itemResult;
     }))
     const dataFiltered = data.filter(d => d !== undefined);
-    await writeCoordinates(
-      dataFiltered.map(({ route, latlng }) => ({ slug: route.slug, latlng })),
+    await writeStreams(
+      dataFiltered.map(({ route, stream }) => ({ slug: route.slug, ...stream })),
       segmentsWithLatLng,
     );
     await writeData(dataFiltered.map(({ route }) => route), "routes", "Route");

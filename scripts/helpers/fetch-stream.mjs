@@ -1,7 +1,7 @@
 export async function fetchStream(stravaSegmentId) {
   try {
     const response = await fetch(
-      `https://www.strava.com/stream/segments/${stravaSegmentId}?streams%5B%5D=latlng&streams%5B%5D=distance`,
+      `https://www.strava.com/stream/segments/${stravaSegmentId}?streams%5B%5D=latlng&streams%5B%5D=distance&streams%5B%5D=altitude`,
       {
         headers: process.env.STRAVA_COOKIE
           ? { cookie: process.env.STRAVA_COOKIE }
@@ -15,7 +15,11 @@ export async function fetchStream(stravaSegmentId) {
     if (data.error) {
       throw new Error("Strava returned an error");
     }
-    return { latlng: data.latlng, distanceStream: data.distance };
+    return {
+      latlng: data.latlng,
+      distanceStream: data.distance,
+      altitudeStream: data.altitude,
+    };
   } catch (cause) {
     throw new Error(`Error fetching Strava segment '${stravaSegmentId}'`, {
       cause,

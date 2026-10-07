@@ -1,0 +1,4 @@
+{
+  "main": "../lib/streams/index.js",
+  "types": "../lib/streams/index.d.ts"
+}

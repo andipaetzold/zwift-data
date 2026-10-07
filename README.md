@@ -72,37 +72,41 @@ The package is ESM-only and also exports TypeScript types.
 
 The data structure is documented [here](https://andipaetzold.github.io/zwift-data).
 
-### Coordinates
+### Route and segment streams
 
-Route and segment coordinates are available through a separate entry point:
+Raw route and segment streams are available through a separate entry point:
 
 ```typescript
-import { routes, segments } from "zwift-data/coordinates";
+import { routes, segments } from "zwift-data/streams";
 
-const routeCoordinates = routes["lady-liberty"];
-const segmentCoordinates = segments["new-york-kom"];
+const stream = routes["lady-liberty"];
+const coordinates = stream?.latlng; // [latitude, longitude] pairs in degrees
+const distance = stream?.distance; // cumulative distance in meters
+const altitude = stream?.altitude; // altitude in meters
 ```
 
 Both exports are readonly maps keyed by the same slugs as the route and segment
-metadata. Each value is an ordered array of `[latitude, longitude]` pairs in
-degrees. Coordinates come from the corresponding Strava segment stream, without
-simplification or rounding. Entries without a Strava mapping are omitted, and
-missing lookups return `undefined`.
+metadata. Each value contains three readonly arrays: `latlng`, `distance`, and
+`altitude`. Values at the same index describe the same point. All values come
+from the corresponding Strava segment stream, preserving source order and
+precision without rounding, deduplication, or altitude corrections. Entries
+without a Strava mapping are omitted, and missing lookups return `undefined`.
 
-If you also need metadata, alias the coordinate imports:
+The entry point also exports the `StreamData`, `Coordinate`, and `Coordinates`
+TypeScript types. If you also need metadata, alias the stream imports:
 
 ```typescript
 import { routes } from "zwift-data";
-import { routes as routeCoordinates } from "zwift-data/coordinates";
+import { routes as routeStreams } from "zwift-data/streams";
 ```
 
-Coordinate files are committed to the repository and refreshed by
+Stream files are committed to the repository and refreshed by
 `npm run update-data`, using the `STRAVA_COOKIE` environment variable. Consumers
-do not need to fetch coordinates or provide Strava credentials.
+do not need to fetch streams or provide Strava credentials.
 
-Importing `zwift-data` does not load the coordinate data. Importing
-`zwift-data/coordinates` includes the combined coordinate dataset. The installed
-package includes both entry points, so its download and disk size are larger.
+Importing `zwift-data` does not load the stream data. Importing
+`zwift-data/streams` includes the combined stream dataset. The installed package
+includes both entry points, so its download and disk size are larger.
 
 ## Data source
 

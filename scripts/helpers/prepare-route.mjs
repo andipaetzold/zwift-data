@@ -80,5 +80,5 @@ export async function prepareRoute(item, segmentsWithLatLng) {
             : undefined,
     }
 
-    return { route, latlng: stream?.latlng };
+    return { route, stream };
 }
