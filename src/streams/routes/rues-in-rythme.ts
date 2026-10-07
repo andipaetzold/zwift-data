@@ -1,4 +1,4 @@
-import type { StreamData } from "../types";
+import type { StreamData } from "../types.js";
 const stream: StreamData = {
   latlng: [
     [48.865983, 2.319233],

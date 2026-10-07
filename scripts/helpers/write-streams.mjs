@@ -28,7 +28,7 @@ export async function writeStreams(
       slugs.add(slug);
       files.push([
         join(kind, `${slug}.ts`),
-        `import type { StreamData } from "../types";
+        `import type { StreamData } from "../types.js";
 const stream: StreamData = ${JSON.stringify({
           latlng,
           distance: distanceStream,

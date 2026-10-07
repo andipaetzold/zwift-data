@@ -1,6 +1,6 @@
-import { routes as routeMetadata } from "./routes";
-import { segments as segmentMetadata } from "./segments";
-import { routes, segments } from "./streams";
+import { routes as routeMetadata } from "./routes.js";
+import { segments as segmentMetadata } from "./segments.js";
+import { routes, segments } from "./streams/index.js";
 
 describe.each([
   { name: "routes", metadata: routeMetadata, streams: routes },

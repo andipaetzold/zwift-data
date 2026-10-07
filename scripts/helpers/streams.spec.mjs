@@ -6,7 +6,7 @@ import { fetchSegments } from "./fetch-segments.mjs";
 import { segments as manualSegments } from "../../data/segments.mjs";
 import { writeStreams } from "./write-streams.mjs";
 import { prepareRoute } from "./prepare-route.mjs";
-import { routes as routeMetadata } from "../../src/routes";
+import { routes as routeMetadata } from "../../src/routes.js";
 import { worlds } from "../../data/worlds.mjs";
 
 const latlng = [
