@@ -1,3 +1,10 @@
+# [1.51.0](https://github.com/andipaetzold/zwift-data/compare/v1.50.0...v1.51.0) (2026-10-07)
+
+
+### Features
+
+* August and September 2026 update ([#226](https://github.com/andipaetzold/zwift-data/issues/226)) ([e025b5d](https://github.com/andipaetzold/zwift-data/commit/e025b5d7302d1c1cb0bd0f50760b71984d47c0fb)), closes [#220](https://github.com/andipaetzold/zwift-data/issues/220)
+
 # [1.50.0](https://github.com/andipaetzold/zwift-data/compare/v1.49.1...v1.50.0) (2026-07-31)
 
 
