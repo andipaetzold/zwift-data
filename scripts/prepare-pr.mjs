@@ -1,4 +1,4 @@
-import simpleGit from "simple-git";
+import { simpleGit } from "simple-git";
 import { updateData } from "./helpers/update-data.mjs";
 import { Octokit } from "@octokit/rest";
 
