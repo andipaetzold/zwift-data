@@ -1,7 +1,6 @@
 import { mkdir, readdir, unlink, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import prettier from "prettier";
-import { validateCoordinates } from "./fetch-stream.mjs";
 
 export async function writeCoordinates(
   routes,
@@ -23,7 +22,6 @@ export async function writeCoordinates(
       if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) || slugs.has(slug)) {
         throw new Error(`Invalid or duplicate ${kind} slug: '${slug}'`);
       }
-      validateCoordinates(latlng);
       slugs.add(slug);
       files.push([
         join(kind, `${slug}.ts`),

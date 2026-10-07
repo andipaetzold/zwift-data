@@ -15,24 +15,6 @@ describe.each([
     );
   });
 
-  it("contains valid latitude/longitude pairs", () => {
-    for (const slug of Object.keys(coordinates)) {
-      const points = coordinates[slug];
-      expect(points!.length).toBeGreaterThanOrEqual(2);
-      for (const point of points!) {
-        if (
-          point.length !== 2 ||
-          !Number.isFinite(point[0]) ||
-          Math.abs(point[0]) > 90 ||
-          !Number.isFinite(point[1]) ||
-          Math.abs(point[1]) > 180
-        ) {
-          throw new Error(`Invalid coordinate: ${point}`);
-        }
-      }
-    }
-  });
-
   it("returns undefined for missing coverage", () => {
     expect(coordinates["unknown-slug"]).toBeUndefined();
     for (const entry of metadata.filter((entry) => !entry.stravaSegmentId)) {

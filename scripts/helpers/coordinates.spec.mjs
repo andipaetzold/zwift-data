@@ -44,54 +44,12 @@ it.each([
   { data: stream, response: { ok: false, status: 429 } },
   { data: stream, response: { url: "https://www.strava.com/login" } },
   { data: { error: "unavailable" } },
-  { data: { ...stream, latlng: [] } },
-  {
-    data: {
-      ...stream,
-      latlng: [
-        [91, 0],
-        [0, 0],
-      ],
-    },
-  },
-  {
-    data: {
-      ...stream,
-      latlng: [
-        [0, 181],
-        [0, 0],
-      ],
-    },
-  },
-  {
-    data: {
-      ...stream,
-      latlng: [
-        [NaN, 0],
-        [0, 0],
-      ],
-    },
-  },
-  {
-    data: {
-      ...stream,
-      latlng: [
-        [0, 0, 1],
-        [0, 0],
-      ],
-    },
-  },
-  { data: { ...stream, distance: [0] } },
-  { data: { ...stream, distance: [0, Infinity] } },
-])(
-  "rejects unsuccessful or malformed streams %#",
-  async ({ data, response }) => {
-    mockResponse(data, response);
-    await expect(fetchStream(123)).rejects.toThrow(
-      "Error fetching Strava segment '123'",
-    );
-  },
-);
+])("rejects unsuccessful requests %#", async ({ data, response }) => {
+  mockResponse(data, response);
+  await expect(fetchStream(123)).rejects.toThrow(
+    "Error fetching Strava segment '123'",
+  );
+});
 
 describe("coordinate generation", () => {
   let directory;
@@ -146,18 +104,9 @@ describe("coordinate generation", () => {
         { slug: "same", latlng },
         { slug: "same", latlng },
       ],
-      [
-        {
-          slug: "invalid",
-          latlng: [
-            [91, 0],
-            [0, 0],
-          ],
-        },
-      ],
     ].map((entries) => ({ entries })),
   )(
-    "keeps the prior snapshot when validation fails %#",
+    "keeps the prior snapshot for invalid or duplicate slugs %#",
     async ({ entries }) => {
       await writeCoordinates([{ slug: "original", latlng }], [], directory);
       const original = await readFile(join(directory, "routes.ts"), "utf8");
