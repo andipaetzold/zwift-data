@@ -26,6 +26,7 @@ export const bikeShoes: ReadonlyArray<BikeShoe> = (
       "CyclingShoes_TourofWatopia2023_thumb",
     ],
     [1614109799, "Sworks SP7", "SworksSpSeven"],
+    [1738691333, "ZWIFTMAS", "CyclingShoes_Zwiftmas2026_thumb"],
     [1796607819, "Pop Art", "CyclingShoes_PopArt_thumb"],
     [1982081400, "Adidas Indoor Cycling Shoes", "Adidas2021"],
     [2095963351, "Bont Helix", "BontHelix"],
