@@ -22,11 +22,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
       "Wheel_DTSwissARC1100DICUT85DISC",
     ],
     [635106022, "Enve SES 4.5 PRO", "Wheel_ENVESES4"],
-    [
-      659802619,
-      "Reserve LOC_ENTITLEMENT_CYCLING_WHEELS_RESERVE_INFINITY_NAME",
-      "Wheel_ReserveInfinityDisc2026",
-    ],
+    [659802619, "Reserve Infinity Disc-set", "Wheel_ReserveInfinityDisc2026"],
     [676356957, "Reserve 57/64", "Wheel_Reserve57"],
     [689667921, "Cadex Max 50", "Wheel_CadexMax50"],
     [705669234, "Zwift Plain", "Wheel_ZwiftPlain"],
@@ -64,11 +60,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [1856021360, "Campagnolo Bora Ultra 50", "Wheel_BoraUltra50"],
     [1887739925, "Cadex 36", "Wheel_Cadex36"],
     [1965395406, "Zwift Zwift Skeletal", ""],
-    [
-      2002469001,
-      "BlackInc LOC_ENTITLEMENT_CYCLING_WHEELS_BLACKINC_THREEZERO_NAME",
-      "Wheel_BlackIncThreeZero2026",
-    ],
+    [2002469001, "BlackInc Three/Zero", "Wheel_BlackIncThreeZero2026"],
     [2019751723, "Zipp 353 NSW", "Wheel_Zipp353"],
     [2026413230, "Enve SES 6.7", "Wheel_Enve67"],
     [2049111692, "DTSwiss ARC 1100 DICUT 62", "Wheel_DTSwissARC62"],
@@ -93,11 +85,7 @@ export const bikeRearWheels: ReadonlyArray<BikeRearWheel> = (
     [3269590172, "Zipp ZIPP 303 XPLR SW", "Wheel_Zipp303XPLR"],
     [3309968019, "Zwift Buffalo Fahrrad", "Wheel_BuffaloFahrrad"],
     [3415380320, "Shimano DURA-ACE C60", "Wheel_ShimanoDuraAceC602026"],
-    [
-      3443883036,
-      "Cadex LOC_ENTITLEMENT_CYCLING_WHEELS_GIANT_CADEX4_NAME",
-      "Wheel_Cadex4SpokeDisc65",
-    ],
+    [3443883036, "Cadex 4-Spoke/Disc", "Wheel_Cadex4SpokeDisc65"],
     [3454205320, "Roval Terra CLX", "Wheel_RovalTerraCLX"],
     [
       3456736597,
