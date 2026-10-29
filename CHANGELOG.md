@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/andipaetzold/zwift-data/compare/v2.1.0...v2.1.1) (2026-10-29)
+
+
+### Bug Fixes
+
+* classify New York Sprint Rev. as sprint ([#235](https://github.com/andipaetzold/zwift-data/issues/235)) ([d7213ee](https://github.com/andipaetzold/zwift-data/commit/d7213eec0abd22d603ad9e1b6217e3cec6e11885))
+
 # [2.1.0](https://github.com/andipaetzold/zwift-data/compare/v2.0.0...v2.1.0) (2026-10-07)
 
 
