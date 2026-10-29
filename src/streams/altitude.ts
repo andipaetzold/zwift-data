@@ -737,38 +737,40 @@ import { altitude as segments54 } from "./segments/monceau-sprint.js";
 import { altitude as segments55 } from "./segments/montmartre-kom.js";
 import { altitude as segments56 } from "./segments/new-york-kom.js";
 import { altitude as segments57 } from "./segments/new-york-kom-rev.js";
-import { altitude as segments58 } from "./segments/petit-kom.js";
-import { altitude as segments59 } from "./segments/radio-tower-kom.js";
-import { altitude as segments60 } from "./segments/railway-sprint.js";
-import { altitude as segments61 } from "./segments/richmond-kom.js";
-import { altitude as segments62 } from "./segments/richmond-kom-rev.js";
-import { altitude as segments63 } from "./segments/richmond-sprint.js";
-import { altitude as segments64 } from "./segments/richmond-uci-course.js";
-import { altitude as segments65 } from "./segments/rooftop-kom.js";
-import { altitude as segments66 } from "./segments/sgurr-summit-north.js";
-import { altitude as segments67 } from "./segments/sgurr-summit-south.js";
-import { altitude as segments68 } from "./segments/tchou-tchou-sprint.js";
-import { altitude as segments69 } from "./segments/temple-kom-from-castle-side.js";
-import { altitude as segments70 } from "./segments/temple-kom-from-fishing-village-side.js";
-import { altitude as segments71 } from "./segments/the-grade-kom.js";
-import { altitude as segments72 } from "./segments/the-hill-kom.js";
-import { altitude as segments73 } from "./segments/the-peristyle-sprint.js";
-import { altitude as segments74 } from "./segments/the-peristyle-sprint-rev.js";
-import { altitude as segments75 } from "./segments/tidepool-sprint-rev.js";
-import { altitude as segments76 } from "./segments/titans-grove-kom.js";
-import { altitude as segments77 } from "./segments/titans-grove-kom-rev.js";
-import { altitude as segments78 } from "./segments/tower-sprint.js";
-import { altitude as segments79 } from "./segments/ventoux-kom.js";
-import { altitude as segments80 } from "./segments/volcano-circuit.js";
-import { altitude as segments81 } from "./segments/volcano-circuit-rev.js";
-import { altitude as segments82 } from "./segments/volcano-kom.js";
-import { altitude as segments83 } from "./segments/watopia-sprint.js";
-import { altitude as segments84 } from "./segments/woodland-sprint.js";
-import { altitude as segments85 } from "./segments/yorkshire-kom.js";
-import { altitude as segments86 } from "./segments/yorkshire-kom-rev.js";
-import { altitude as segments87 } from "./segments/yorkshire-sprint-rev.js";
-import { altitude as segments88 } from "./segments/zwift-kom.js";
-import { altitude as segments89 } from "./segments/zwift-kom-rev.js";
+import { altitude as segments58 } from "./segments/new-york-sprint.js";
+import { altitude as segments59 } from "./segments/new-york-sprint-rev.js";
+import { altitude as segments60 } from "./segments/petit-kom.js";
+import { altitude as segments61 } from "./segments/radio-tower-kom.js";
+import { altitude as segments62 } from "./segments/railway-sprint.js";
+import { altitude as segments63 } from "./segments/richmond-kom.js";
+import { altitude as segments64 } from "./segments/richmond-kom-rev.js";
+import { altitude as segments65 } from "./segments/richmond-sprint.js";
+import { altitude as segments66 } from "./segments/richmond-uci-course.js";
+import { altitude as segments67 } from "./segments/rooftop-kom.js";
+import { altitude as segments68 } from "./segments/sgurr-summit-north.js";
+import { altitude as segments69 } from "./segments/sgurr-summit-south.js";
+import { altitude as segments70 } from "./segments/tchou-tchou-sprint.js";
+import { altitude as segments71 } from "./segments/temple-kom-from-castle-side.js";
+import { altitude as segments72 } from "./segments/temple-kom-from-fishing-village-side.js";
+import { altitude as segments73 } from "./segments/the-grade-kom.js";
+import { altitude as segments74 } from "./segments/the-hill-kom.js";
+import { altitude as segments75 } from "./segments/the-peristyle-sprint.js";
+import { altitude as segments76 } from "./segments/the-peristyle-sprint-rev.js";
+import { altitude as segments77 } from "./segments/tidepool-sprint-rev.js";
+import { altitude as segments78 } from "./segments/titans-grove-kom.js";
+import { altitude as segments79 } from "./segments/titans-grove-kom-rev.js";
+import { altitude as segments80 } from "./segments/tower-sprint.js";
+import { altitude as segments81 } from "./segments/ventoux-kom.js";
+import { altitude as segments82 } from "./segments/volcano-circuit.js";
+import { altitude as segments83 } from "./segments/volcano-circuit-rev.js";
+import { altitude as segments84 } from "./segments/volcano-kom.js";
+import { altitude as segments85 } from "./segments/watopia-sprint.js";
+import { altitude as segments86 } from "./segments/woodland-sprint.js";
+import { altitude as segments87 } from "./segments/yorkshire-kom.js";
+import { altitude as segments88 } from "./segments/yorkshire-kom-rev.js";
+import { altitude as segments89 } from "./segments/yorkshire-sprint-rev.js";
+import { altitude as segments90 } from "./segments/zwift-kom.js";
+import { altitude as segments91 } from "./segments/zwift-kom-rev.js";
 export const segments: Readonly<
   Record<string, StreamData["altitude"] | undefined>
 > = {
@@ -830,36 +832,38 @@ export const segments: Readonly<
   "montmartre-kom": segments55,
   "new-york-kom": segments56,
   "new-york-kom-rev": segments57,
-  "petit-kom": segments58,
-  "radio-tower-kom": segments59,
-  "railway-sprint": segments60,
-  "richmond-kom": segments61,
-  "richmond-kom-rev": segments62,
-  "richmond-sprint": segments63,
-  "richmond-uci-course": segments64,
-  "rooftop-kom": segments65,
-  "sgurr-summit-north": segments66,
-  "sgurr-summit-south": segments67,
-  "tchou-tchou-sprint": segments68,
-  "temple-kom-from-castle-side": segments69,
-  "temple-kom-from-fishing-village-side": segments70,
-  "the-grade-kom": segments71,
-  "the-hill-kom": segments72,
-  "the-peristyle-sprint": segments73,
-  "the-peristyle-sprint-rev": segments74,
-  "tidepool-sprint-rev": segments75,
-  "titans-grove-kom": segments76,
-  "titans-grove-kom-rev": segments77,
-  "tower-sprint": segments78,
-  "ventoux-kom": segments79,
-  "volcano-circuit": segments80,
-  "volcano-circuit-rev": segments81,
-  "volcano-kom": segments82,
-  "watopia-sprint": segments83,
-  "woodland-sprint": segments84,
-  "yorkshire-kom": segments85,
-  "yorkshire-kom-rev": segments86,
-  "yorkshire-sprint-rev": segments87,
-  "zwift-kom": segments88,
-  "zwift-kom-rev": segments89,
+  "new-york-sprint": segments58,
+  "new-york-sprint-rev": segments59,
+  "petit-kom": segments60,
+  "radio-tower-kom": segments61,
+  "railway-sprint": segments62,
+  "richmond-kom": segments63,
+  "richmond-kom-rev": segments64,
+  "richmond-sprint": segments65,
+  "richmond-uci-course": segments66,
+  "rooftop-kom": segments67,
+  "sgurr-summit-north": segments68,
+  "sgurr-summit-south": segments69,
+  "tchou-tchou-sprint": segments70,
+  "temple-kom-from-castle-side": segments71,
+  "temple-kom-from-fishing-village-side": segments72,
+  "the-grade-kom": segments73,
+  "the-hill-kom": segments74,
+  "the-peristyle-sprint": segments75,
+  "the-peristyle-sprint-rev": segments76,
+  "tidepool-sprint-rev": segments77,
+  "titans-grove-kom": segments78,
+  "titans-grove-kom-rev": segments79,
+  "tower-sprint": segments80,
+  "ventoux-kom": segments81,
+  "volcano-circuit": segments82,
+  "volcano-circuit-rev": segments83,
+  "volcano-kom": segments84,
+  "watopia-sprint": segments85,
+  "woodland-sprint": segments86,
+  "yorkshire-kom": segments87,
+  "yorkshire-kom-rev": segments88,
+  "yorkshire-sprint-rev": segments89,
+  "zwift-kom": segments90,
+  "zwift-kom-rev": segments91,
 };

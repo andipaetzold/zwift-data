@@ -57,38 +57,40 @@ import stream54 from "./segments/monceau-sprint.js";
 import stream55 from "./segments/montmartre-kom.js";
 import stream56 from "./segments/new-york-kom.js";
 import stream57 from "./segments/new-york-kom-rev.js";
-import stream58 from "./segments/petit-kom.js";
-import stream59 from "./segments/radio-tower-kom.js";
-import stream60 from "./segments/railway-sprint.js";
-import stream61 from "./segments/richmond-kom.js";
-import stream62 from "./segments/richmond-kom-rev.js";
-import stream63 from "./segments/richmond-sprint.js";
-import stream64 from "./segments/richmond-uci-course.js";
-import stream65 from "./segments/rooftop-kom.js";
-import stream66 from "./segments/sgurr-summit-north.js";
-import stream67 from "./segments/sgurr-summit-south.js";
-import stream68 from "./segments/tchou-tchou-sprint.js";
-import stream69 from "./segments/temple-kom-from-castle-side.js";
-import stream70 from "./segments/temple-kom-from-fishing-village-side.js";
-import stream71 from "./segments/the-grade-kom.js";
-import stream72 from "./segments/the-hill-kom.js";
-import stream73 from "./segments/the-peristyle-sprint.js";
-import stream74 from "./segments/the-peristyle-sprint-rev.js";
-import stream75 from "./segments/tidepool-sprint-rev.js";
-import stream76 from "./segments/titans-grove-kom.js";
-import stream77 from "./segments/titans-grove-kom-rev.js";
-import stream78 from "./segments/tower-sprint.js";
-import stream79 from "./segments/ventoux-kom.js";
-import stream80 from "./segments/volcano-circuit.js";
-import stream81 from "./segments/volcano-circuit-rev.js";
-import stream82 from "./segments/volcano-kom.js";
-import stream83 from "./segments/watopia-sprint.js";
-import stream84 from "./segments/woodland-sprint.js";
-import stream85 from "./segments/yorkshire-kom.js";
-import stream86 from "./segments/yorkshire-kom-rev.js";
-import stream87 from "./segments/yorkshire-sprint-rev.js";
-import stream88 from "./segments/zwift-kom.js";
-import stream89 from "./segments/zwift-kom-rev.js";
+import stream58 from "./segments/new-york-sprint.js";
+import stream59 from "./segments/new-york-sprint-rev.js";
+import stream60 from "./segments/petit-kom.js";
+import stream61 from "./segments/radio-tower-kom.js";
+import stream62 from "./segments/railway-sprint.js";
+import stream63 from "./segments/richmond-kom.js";
+import stream64 from "./segments/richmond-kom-rev.js";
+import stream65 from "./segments/richmond-sprint.js";
+import stream66 from "./segments/richmond-uci-course.js";
+import stream67 from "./segments/rooftop-kom.js";
+import stream68 from "./segments/sgurr-summit-north.js";
+import stream69 from "./segments/sgurr-summit-south.js";
+import stream70 from "./segments/tchou-tchou-sprint.js";
+import stream71 from "./segments/temple-kom-from-castle-side.js";
+import stream72 from "./segments/temple-kom-from-fishing-village-side.js";
+import stream73 from "./segments/the-grade-kom.js";
+import stream74 from "./segments/the-hill-kom.js";
+import stream75 from "./segments/the-peristyle-sprint.js";
+import stream76 from "./segments/the-peristyle-sprint-rev.js";
+import stream77 from "./segments/tidepool-sprint-rev.js";
+import stream78 from "./segments/titans-grove-kom.js";
+import stream79 from "./segments/titans-grove-kom-rev.js";
+import stream80 from "./segments/tower-sprint.js";
+import stream81 from "./segments/ventoux-kom.js";
+import stream82 from "./segments/volcano-circuit.js";
+import stream83 from "./segments/volcano-circuit-rev.js";
+import stream84 from "./segments/volcano-kom.js";
+import stream85 from "./segments/watopia-sprint.js";
+import stream86 from "./segments/woodland-sprint.js";
+import stream87 from "./segments/yorkshire-kom.js";
+import stream88 from "./segments/yorkshire-kom-rev.js";
+import stream89 from "./segments/yorkshire-sprint-rev.js";
+import stream90 from "./segments/zwift-kom.js";
+import stream91 from "./segments/zwift-kom-rev.js";
 export const segments: Readonly<Record<string, StreamData | undefined>> = {
   "23rd-st": stream0,
   "23rd-st-rev": stream1,
@@ -148,36 +150,38 @@ export const segments: Readonly<Record<string, StreamData | undefined>> = {
   "montmartre-kom": stream55,
   "new-york-kom": stream56,
   "new-york-kom-rev": stream57,
-  "petit-kom": stream58,
-  "radio-tower-kom": stream59,
-  "railway-sprint": stream60,
-  "richmond-kom": stream61,
-  "richmond-kom-rev": stream62,
-  "richmond-sprint": stream63,
-  "richmond-uci-course": stream64,
-  "rooftop-kom": stream65,
-  "sgurr-summit-north": stream66,
-  "sgurr-summit-south": stream67,
-  "tchou-tchou-sprint": stream68,
-  "temple-kom-from-castle-side": stream69,
-  "temple-kom-from-fishing-village-side": stream70,
-  "the-grade-kom": stream71,
-  "the-hill-kom": stream72,
-  "the-peristyle-sprint": stream73,
-  "the-peristyle-sprint-rev": stream74,
-  "tidepool-sprint-rev": stream75,
-  "titans-grove-kom": stream76,
-  "titans-grove-kom-rev": stream77,
-  "tower-sprint": stream78,
-  "ventoux-kom": stream79,
-  "volcano-circuit": stream80,
-  "volcano-circuit-rev": stream81,
-  "volcano-kom": stream82,
-  "watopia-sprint": stream83,
-  "woodland-sprint": stream84,
-  "yorkshire-kom": stream85,
-  "yorkshire-kom-rev": stream86,
-  "yorkshire-sprint-rev": stream87,
-  "zwift-kom": stream88,
-  "zwift-kom-rev": stream89,
+  "new-york-sprint": stream58,
+  "new-york-sprint-rev": stream59,
+  "petit-kom": stream60,
+  "radio-tower-kom": stream61,
+  "railway-sprint": stream62,
+  "richmond-kom": stream63,
+  "richmond-kom-rev": stream64,
+  "richmond-sprint": stream65,
+  "richmond-uci-course": stream66,
+  "rooftop-kom": stream67,
+  "sgurr-summit-north": stream68,
+  "sgurr-summit-south": stream69,
+  "tchou-tchou-sprint": stream70,
+  "temple-kom-from-castle-side": stream71,
+  "temple-kom-from-fishing-village-side": stream72,
+  "the-grade-kom": stream73,
+  "the-hill-kom": stream74,
+  "the-peristyle-sprint": stream75,
+  "the-peristyle-sprint-rev": stream76,
+  "tidepool-sprint-rev": stream77,
+  "titans-grove-kom": stream78,
+  "titans-grove-kom-rev": stream79,
+  "tower-sprint": stream80,
+  "ventoux-kom": stream81,
+  "volcano-circuit": stream82,
+  "volcano-circuit-rev": stream83,
+  "volcano-kom": stream84,
+  "watopia-sprint": stream85,
+  "woodland-sprint": stream86,
+  "yorkshire-kom": stream87,
+  "yorkshire-kom-rev": stream88,
+  "yorkshire-sprint-rev": stream89,
+  "zwift-kom": stream90,
+  "zwift-kom-rev": stream91,
 };
