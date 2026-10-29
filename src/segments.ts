@@ -290,7 +290,7 @@ export const segments: ReadonlyArray<Segment> = (
     [
       "New York Sprint Rev.",
       "new-york-sprint-rev",
-      "climb",
+      "sprint",
       "new-york",
       0.23,
       "https://whatsonzwift.com/world/new-york/segment/ny-sprint/reverse",
