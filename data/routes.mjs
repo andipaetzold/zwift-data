@@ -538,7 +538,7 @@ export const routes = [
   {
     id: 1919980508,
     slug: "park-perimeter-loop",
-    segments: ["new-york-sprint-rev"],
+    segments: ["new-york-sprint"],
     stravaSegmentId: 19170651,
     zwiftInsiderPath: "park-perimeter-loop",
     whatsOnZwiftUrl:
@@ -1194,7 +1194,7 @@ export const routes = [
   {
     id: 2422779354,
     slug: "laguardia-loop",
-    segments: ["new-york-kom"],
+    segments: ["new-york-sprint"],
     experience: null,
     stravaSegmentId: 19179237,
     zwiftInsiderPath: "laguardia-loop",
@@ -1625,7 +1625,7 @@ export const routes = [
   {
     id: 3774003351,
     slug: "laguardia-loop-reverse",
-    segments: ["new-york-sprint"],
+    segments: ["new-york-sprint-rev"],
     stravaSegmentId: 20425705,
     zwiftInsiderPath: "laguardia-loop-reverse",
     whatsOnZwiftUrl:
@@ -1757,7 +1757,7 @@ export const routes = [
   {
     id: 2436095601,
     slug: "2022-cycling-esports-world-championships-route",
-    segments: ["new-york-sprint-rev", "new-york-kom"],
+    segments: ["new-york-sprint", "new-york-kom"],
     stravaSegmentId: 30601050,
     zwiftInsiderPath: "2022-cycling-esports-world-championships-route",
     zwifterBikesPath: "2022-cycling-esports-world-championships-route",

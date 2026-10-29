@@ -208,6 +208,7 @@ export const segments = [
     world: "new-york",
     distance: 0.15,
     avgIncline: -4.3,
+    stravaSegmentId: 38152497,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/segment/ny-sprint/forward",
     zwifterBikesPath: "ny-sprint",
@@ -218,6 +219,7 @@ export const segments = [
     type: "sprint",
     world: "new-york",
     distance: 0.23,
+    stravaSegmentId: 38152502,
     whatsOnZwiftUrl:
       "https://whatsonzwift.com/world/new-york/segment/ny-sprint/reverse",
     zwifterBikesPath: "ny-sprint-reverse",
