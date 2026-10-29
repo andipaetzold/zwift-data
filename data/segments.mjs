@@ -215,7 +215,7 @@ export const segments = [
   {
     name: "New York Sprint Rev.",
     slug: "new-york-sprint-rev",
-    type: "climb",
+    type: "sprint",
     world: "new-york",
     distance: 0.23,
     whatsOnZwiftUrl:
