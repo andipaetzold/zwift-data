@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/andipaetzold/zwift-data/compare/v2.1.1...v2.1.2) (2026-10-29)
+
+
+### Bug Fixes
+
+* add New York sprint streams and route memberships ([#236](https://github.com/andipaetzold/zwift-data/issues/236)) ([e9d9dc3](https://github.com/andipaetzold/zwift-data/commit/e9d9dc31b5909b672e2c0f5a6e854fad6890039d))
+
 ## [2.1.1](https://github.com/andipaetzold/zwift-data/compare/v2.1.0...v2.1.1) (2026-10-29)
 
 
