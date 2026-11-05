@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "typedoc": "0.28.20",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "scripts": {
     "build": "typedoc ../../src/index.ts ../../src/streams/index.ts ../../src/streams/latlng.ts ../../src/streams/distance.ts ../../src/streams/altitude.ts --out ../../docs --tsconfig ../../tsconfig.json"
